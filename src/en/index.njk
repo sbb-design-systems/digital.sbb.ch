@@ -1,0 +1,22 @@
+---
+layout: page.njk
+tags: page
+key: en
+title: Home
+alternativetitle: All about SBB digital applications.
+parent: root
+---
+
+
+
+  <p class="lead">Our customers should find their way easily around all SBB digital channels and access the information they require as quickly as possible. This works only with a user experience that is consistent across all channels, which is guaranteed by a presence that is standardised across all platforms.</p>
+  <p class="lead">Alongside information about our UX principles and accessibility, here you can also find out everything about the design systems for SBB websites and mobile apps. The information and instructions on this page are binding for both internal and external projects. Everything that is created, edited or revised in the digital field must be approved by SBB Brand Management and the UX Team.</p>
+  <sbb-button class="home-primary" href="/{{page.lang}}/design-system/getting-started/designing/">
+    How to use the design system
+  </sbb-button>
+
+<div class="teasers home">
+  {%- for teaser in collections.teaserhome_en | sortByOrder -%}
+    {% include "../_includes/teaser/teaser-home.njk" %}
+  {%- endfor -%}
+</div>

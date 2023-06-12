@@ -1,0 +1,50 @@
+{
+        "label":"alert",
+        "id":"sbb-alert",
+        "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-alert--docs#stories",
+        "tag":"<sbb-alert class='demo-item' size='m' title-content='Interruption between Berne and Olten' icon-name='disruption' href='https://www.sbb.ch'>Between Bern and Olten from 03.11.2021 to 05.12.2022 each time from 22:30 to 06:00 o'clock construction work will take place. You have to expect changed travel times and changed connections.</sbb-alert>",
+        "configuration" : [
+            {
+                "id":"size",
+                "target":"demo-item",
+                "default":"m",
+                "mode":"property",
+                "radios" : [{
+                    "value":"m",
+                    "id":"m"
+                }, 
+                {
+                    "value":"l",
+                    "id":"l"
+                }]
+            },
+            {
+                "id":"readonly",
+                "target":"demo-item",
+                "default":"false",
+                "mode":"property",
+                "radios" : [{
+                    "value":"false",
+                    "id":"true"
+                }, 
+                {
+                    "value":"true",
+                    "id":"false"
+                }]
+            },
+            {
+                "id":"href",
+                "target":"demo-item",
+                "default":"",
+                "mode":"property",
+                "radios" : [{
+                    "value":"",
+                    "id":"false"
+                }, 
+                {
+                    "value":"#",
+                    "id":"true"
+                }]
+            }
+        ]
+}

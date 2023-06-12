@@ -1,0 +1,46 @@
+{
+    "label":"Header-Action",
+    "id":"sbb-header-action",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-header-action--docs#stories",
+    "tag":"<sbb-header-action class='demo-item' expand-from='zero' icon-name='hamburger-menu-small' href='#'>Menu</sbb-icon></sbb-header-action>",
+    "configuration" : [
+        {
+            "id":"expand-from",
+            "target":"demo-item",
+            "default":"medium",
+            "mode":"property",
+            "radios" : [{
+                "value":"zero",
+                "id":"zero"
+            }, 
+            {
+                "value":"micro",
+                "id":"micro"
+            },
+            {
+                "value":"small",
+                "id":"small"
+            },
+            {
+                "value":"medium",
+                "id":"medium"
+            },
+            {
+                "value":"large",
+                "id":"large"
+            },
+            {
+                "value":"wide",
+                "id":"wide"
+            },
+            {
+                "value":"ultra",
+                "id":"ultra"
+            },
+            {
+                "value":"",
+                "id":"never"
+            }]
+        }
+    ]
+}

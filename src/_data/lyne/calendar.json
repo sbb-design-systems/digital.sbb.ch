@@ -1,0 +1,22 @@
+{
+    "label":"Calendar",
+    "id":"sbb-calendar",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-calendar--docs#stories",
+    "tag":"<sbb-calendar class='demo-item'></sbb-calendar>",
+    "configuration" : [
+        {
+            "id":"wide",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+    ]
+}

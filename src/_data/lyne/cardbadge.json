@@ -1,0 +1,87 @@
+{
+    "label":"Card",
+    "id":"sbb-card-badge",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-card-badge-unfinished--docs#stories",
+    "tag":"<div class='badge-wrapper'><sbb-card-badge class='demo-item' aria-label='Aria Label' appearance='primary' is-discount='false' price='92.50' text='from CHF'><span slot='generic' class='generic'>Black Friday Special</span></sbb-card-badge></div>",
+
+    
+    "configuration" : [
+        {
+            "id":"appearance",
+            "target":"demo-item",
+            "default":"primary",
+            "mode":"property",
+            "radios" : [
+            {
+                "value":"primary",
+                "id":"postive"
+            },
+            {
+                "value":"primary-negative",
+                "id":"negative"
+            }]
+        },
+        {
+            "id":"is-discount",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [
+            {
+                "value":"false",
+                "id":"false"
+            },
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"price",
+            "target":"demo-item",
+            "default":"92.50",
+            "mode":"property",
+            "radios" : [{
+                "value":"92.50",
+                "id":"true"
+            },
+            {
+                "value":"",
+                "id":"false"
+            }
+            ]
+        }
+        ,
+        {
+            "id":"text",
+            "target":"demo-item",
+            "default":"from CHF",
+            "mode":"property",
+            "radios" : [
+            {
+                "value":"",
+                "id":"false"
+            },
+            {
+                "value":"from CHF",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"generic",
+            "target":"generic",
+            "default":"generic",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"generic",
+                "id":"true"
+            }
+            ]
+        }
+        
+    ]
+}

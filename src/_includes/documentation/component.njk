@@ -1,0 +1,9 @@
+
+    <sbb-teaser class="component-teaser" is-stacked="true" accessibilityLabel="{{ component.data.title }}" href="{{ component.url }}" data-keywords="{{ component.data.keywords }}">
+        {% if component.data.image|length %}
+            <img slot="image" loading="lazy" src="/assets/images/{{ component.data.image }}" alt="{{ component.data.title }}">
+        {% else %}
+            <img slot="image" loading="lazy" src="/assets/images/teaser/fallback.webp" alt="fallback">
+        {% endif %}
+            <p class="description" slot="description">{{ component.data.title }}</p>
+    </sbb-teaser>

@@ -1,0 +1,51 @@
+{
+    "label":"Menu-Action",
+    "id":"sbb-menu-action",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-menu-action--docs#stories",
+    "tag":"<div style='background-color: var(--sbb-color-black-default); width: 320px; padding: 12px 0; border-radius: 8px;'><sbb-menu-action class='demo-item' amount='99' icon-name='shopping-cart-small' type='button' value='Value'>Warenkorb</sbb-menu-action><sbb-menu-action icon-name='gears-small' type='button' value='Value'>Einstellungen</sbb-menu-action><sbb-menu-action icon-name='user-small' type='button' value='Value'>Konto</sbb-menu-action></div>",
+    "configuration" : [
+        {
+            "id":"amount",
+            "target":"demo-item",
+            "default":"3",
+            "mode":"property",
+            "radios" : [{
+                "value":"3",
+                "id":"true"
+            },
+            {
+                "value":"",
+                "id":"false"
+            }]
+        },
+        {
+            "id":"icon-name",
+            "target":"demo-item",
+            "default":"shopping-cart-small",
+            "mode":"property",
+            "radios" : [{
+                "value":"shopping-cart-small",
+                "id":"true"
+            }, 
+            {
+                "value":"",
+                "id":"false"
+            }]
+        },
+        {
+            "id":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"true",
+                "id":"true"
+            }, 
+            {
+                "value":"false",
+                "id":"false"
+            }]
+        }
+        
+    ]
+}

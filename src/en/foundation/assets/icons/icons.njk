@@ -1,0 +1,42 @@
+---
+layout: page.njk
+tags: page
+key: icons_en
+title: Icons
+alternativetitle: Icons
+parent: assets_en
+order: 1
+mode: KOM
+---
+<p class="lead">SBB has its own stock of 1 pixel outline icons on a raster of 24x24, 36x36 pixels and sometimes 48x48 pixels. The line weight here is always 1 pixel (responsive icons). The icons are also available in a non-responsive version (24x24, 36x36 and 48x48, scaled to line thickness), see example.</p>
+
+{{ webpImage({
+  url: '/assets/images/icons/beispiel',
+  alt: 'Beispiel',
+  title: 'Beispiel'
+}) }}
+
+<sbb-title level="2">Use</sbb-title>
+<p class="lead">The SBB icon style must be is to be adhered to. If the existing icon set is insufficient, new icons can be ordered via <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> with production costs charged to the project. Self-compilation of icons is permitted but these must be approved by SBB Brand Management or by UX before they are used. Detailed information on SBB icon style will be freely given on request. Care must be taken in digital products and apps that icons are <strong>not</strong> used in different line weights.  
+Further information: <sbb-link variant="inline" type="button" target="_blank" href="/{{page.lang}}/foundation/brand/copyrights/">rights of use</sbb-link></p>
+
+<sbb-action-group class="download-icons" align-group="start" orientation="vertical" horizontal-from="small" button-size="l">
+  <sbb-button target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Figma-Library</sbb-button> 
+  <sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">
+  <sbb-icon slot="icon" name="github-small"></sbb-icon>Download Icons</sbb-button>
+</sbb-action-group>
+
+<sbb-title level="2">Preview</sbb-title>
+{% include "src/_includes/icons/index.njk" %}
+<br>
+<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0&t=TkHYwdrMavtsKvyZ-1">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+View Icons in Figma
+</sbb-button> 
+
+<sbb-title level="2">Project-specific icons</sbb-title>
+<p class="lead">Project-specific icons are mainly used in internal products/projects. Often, these icons are used in expert systems and have a specific meaning. Specific icons should not be applied for different meanings/functions, so their use must be checked carefully. However, if the exact meaning of the icon matches, the icon can be used. In case of uncertainty, the </p>
+<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+Project-specific icons
+</sbb-button> 

@@ -1,0 +1,40 @@
+{
+    "label":"Tab-Title",
+    "id":"sbb-tab-title",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-tab-title--docs#stories",
+    "tag":"<sbb-tab-title value='label'><sbb-icon class='icon' slot='icon' name='glass-cocktail-small'></sbb-icon>label<span class='amount' slot='amount'>999</span></sbb-tab-title>",
+    "configuration" : [
+        {
+            "id":"icon",
+            "target":"icon",
+            "default":"icon",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"icon",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"amount",
+            "target":"amount",
+            "default":"amount",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"amount",
+                "id":"true"
+            }
+            ]
+        }
+       
+        
+    ]
+}

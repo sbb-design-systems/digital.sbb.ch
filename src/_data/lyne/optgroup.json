@@ -1,0 +1,22 @@
+{
+    "label":"Optgroup",
+    "id":"sbb-optgroup",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-optgroup--docs#stories",
+    "tag":"<div style='width: 50%'><sbb-optgroup class='demo-item' label='Option group 1' disabled='false'><sbb-option value='Option 1'>Option 1</sbb-option><sbb-option value='Option 2'>Option 2</sbb-option><sbb-option value='Option 3'>Option 3</sbb-option></sbb-optgroup><sbb-optgroup label='Option group 2'><sbb-option value='Option 1'>Option 1</sbb-option><sbb-option value='Option 2'>Option 2</sbb-option><sbb-option value='Option 3'>Option 3</sbb-option></sbb-optgroup></div>",
+    "configuration" : [
+        {
+            "id":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+    ]
+}

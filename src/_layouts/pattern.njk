@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}">
+  <head>
+    {% include "../_includes/head.njk" %}
+  </head>
+  <body>
+    {% include "../_includes/skiplinks.njk" %}
+    {% include "../_includes/header/header-pattern.njk" %}
+    {% include "../_includes/navigation/navigation.njk" %}
+    {% include "../_includes/documentation/component-sidebar.njk" %}
+    {% set tabkey = key %}
+    <div id="content" class="content sbb-page-spacing">
+    {% if availablelanguages.length %}
+      {% include "../_includes/missing-languages.njk" %}
+
+      {%- for defaultcontent in collections.page | defaultlanguagecontent(page.url) -%}
+        {% include "../_includes/title.njk" %}
+        {{ defaultcontent.content | safe }}
+      {%- endfor -%}
+      
+ 
+      {% set tabkey = key.slice(0, -2)+"de" %}
+      {% set subpagescheck = collections[tabkey] %}
+      {% if subpagescheck|length %}
+        {% include "../_includes/documentation/specification-tabs.njk" %}
+      {% endif %}
+    {% else %}
+      {% include "../_includes/title.njk" %}
+      {{ content | safe }}
+      {% set subpagescheck = collections[tabkey] %}
+      {% if subpagescheck|length %}
+        {% include "../_includes/documentation/specification-tabs.njk" %}
+      {% endif %}
+    {% endif %}
+    </div>
+
+    {% include "../_includes/footer.njk" %}
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/js/mode-toggle.js"></script>
+    <script src="/assets/js/list-toggle.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    <script src="/assets/js/lyne.js"></script>
+  </body>
+</html>

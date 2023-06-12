@@ -1,0 +1,40 @@
+---
+layout: page.njk
+tags: page
+key: base-colors_fr
+title: Couleurs de base
+parent: colors_fr
+order: 1
+---
+
+<p class="lead">Notre objectif ici est de réduire l’utilisation de couleurs à un niveau raisonnable. Le rouge est utilisé pour les principaux éléments de navigation dont la fonction est de permettre à l’utilisateur de s’orienter rapidement et facilement sur la page. Les dégradés sont proscrits.</p>
+<sbb-title level="2">Couleurs</sbb-title>
+{% set colorgroups = [] %}
+{% for color in collections.basecolor_fr | sortByOrder %}
+    {% if color.data.group in colorgroups %}
+    {% else %}
+      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+    {% endif %}
+{% endfor %}
+<div class="colors">   
+  {%- for colorgroup in colorgroups -%} 
+    <sbb-title class="no-margin-bottom" level="3">{{colorgroup}}</sbb-title>
+    <div class="color-group">
+        {%- for color in collections.basecolor_fr | sortByOrder -%} 
+          {% if colorgroup == color.data.group %}
+            {% include "../../../../_includes/color.njk" %}
+          {% endif %}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>
+<sbb-title level="2">Présentation accessibilisée</sbb-title>
+<color-contrast-checker language="fr"></color-contrast-checker>
+<sbb-title level="2">Pondération des couleurs</sbb-title>
+<p class="lead">Les sites Web des CFF doivent tenir compte des taux de pondération des couleurs indiqués ci-dessous. Les quantités sont données à titre indicatif et n’ont donc pas valeur de règle absolue. Il convient toutefois d’éviter les écarts trop importants. Toute dérogation doit être validée par l’unité Gestion de la marque CFF.</p>
+<div class="color-ratio">
+  <div class="white">60%</div>
+  <div class="grey">25%</div>
+  <div class="black">10%</div>
+  <div class="red">5%</div>
+</div>

@@ -1,0 +1,27 @@
+{
+    "label":"Signet",
+    "id":"sbb-signet",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-signet--docs#stories",
+    "tag":"<div style='max-width: 100px;'><sbb-signet class='demo-item' protective-room='none'></sbb-signet></div>",
+    "configuration" : [
+        {
+            "id":"protective-room",
+            "default":"ideal",
+            "target":"demo-item",
+            "mode":"property",
+            "radios" : [{
+                "value":"ideal",
+                "id":"ideal"
+            },
+            {
+                "value":"minimal",
+                "id":"minimal"
+            },
+            {
+                "value":"none",
+                "id":"no-protective-room"
+            }]
+        }
+        
+    ]
+}

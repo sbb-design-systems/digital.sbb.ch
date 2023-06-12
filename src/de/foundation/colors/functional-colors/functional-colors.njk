@@ -1,0 +1,29 @@
+---
+layout: page.njk
+tags: page
+key: functional-colors_de
+title: Funktionale Farben
+alternativetitle: Erweiterte funktionale Farben
+parent: colors_de
+order: 2
+---
+
+<p class="lead">Zusatzfarben dürfen nur mit Einverständnis von KOM verwendet werden. Jeglicher Einsatz dieser Farben muss KOM vorgelegt und ausdrücklich genehmigt werden. Zusatzfarben dürfen nur für ganz bestimmte Bereiche zum Einsatzt kommen. Überall dort, wo die CD Farbpalette aus UX-Gründen nicht mehr ausreichend ist. Zum Beispiel für Infoboxen oder Ähnliches.</p>
+{% set colorgroups = [] %}
+{% for color in collections.functionalcolors_de | sortByOrder %}
+    {% if color.data.group in colorgroups %}
+    {% else %}
+      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+    {% endif %}
+{% endfor %}
+<div class="colors">   
+  {%- for colorgroup in colorgroups -%} 
+    <div class="color-group">
+        {%- for color in collections.functionalcolors_de | sortByOrder -%} 
+          {% if colorgroup == color.data.group %}
+            {% include "../../../../_includes/color.njk" %}
+          {% endif %}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>

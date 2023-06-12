@@ -1,0 +1,42 @@
+---
+layout: page.njk
+tags: page
+key: icons_fr
+title: Icônes
+alternativetitle: Icônes
+parent: assets_fr
+order: 1
+mode: KOM
+---
+<p class="lead">Les CFF possèdent leur propre banque d’icônes contour de 1 pixel, sur une trame de pixels de 24x24, 36x36 et même 48x48. Les icônes ont toutes la même épaisseur de ligne d’un pixel (icônes responsives). Les icônes sont également disponibles en version non responsives (24x24, 36x36 et 48x48, épaisseur de ligne proportionnelle), voir exemple.</p>
+
+{{ webpImage({
+  url: '/assets/images/icons/beispiel',
+  alt: 'Beispiel',
+  title: 'Beispiel'
+}) }}
+
+<sbb-title level="2">Utilisation</sbb-title>
+<p class="lead">Il est important de respecter le style des icônes CFF. Si le jeu d’icônes existant ne suffit pas, de nouvelles icônes peuvent être commandées via <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> les coûts de production sont à la charge du projet. Il est possible de créer soi-même des icônes, celles-ci devront toutefois être validées par l’unité Gestion de la marque CFF ou par UX avant leur utilisation. Des informations détaillées sur le style des icônes CFF sont disponibles sur demande. Veiller à ce que les icônes aient toujours la même épaisseur de ligne dans les applications et les produits numériques.  
+Plus d'informations: <sbb-link variant="inline" type="button" target="_blank" href="/{{page.lang}}/foundation/brand/copyrights/">droits d'utilisation</sbb-link></p>
+
+<sbb-action-group class="download-icons" align-group="start" orientation="vertical" horizontal-from="small" button-size="l">
+  <sbb-button target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Figma-Library</sbb-button> 
+  <sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">
+  <sbb-icon slot="icon" name="github-small"></sbb-icon>Icônes CFF à télécharger</sbb-button>
+</sbb-action-group>
+
+<sbb-title level="2">Aperçu</sbb-title>
+{% include "src/_includes/icons/index.njk" %}
+<br>
+<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0&t=TkHYwdrMavtsKvyZ-1">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+Voir les icônes en Figma
+</sbb-button> 
+
+<sbb-title level="2">Icônes spécifiques aux projets</sbb-title>
+<p class="lead">Les icônes spécifiques aux projets sont principalement utilisées dans les produits/projets internes. Souvent ces icônes sont utilisées dans des applications et logiciels professionnels et ont une signification spécifique. Les icônes spécifiques ne doivent pas être utilisées pour des significations ou des fonctions différentes, leur utilisation doit donc être soigneusement vérifiée. Cependant, si la signification exacte de l'icône s'applique, l'icône peut être utilisée. En cas d'incertitude, l'équipe UX se fera un plaisir de t'aider. </p>
+<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+Icônes spécifiques aux projets
+</sbb-button> 

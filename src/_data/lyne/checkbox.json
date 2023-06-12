@@ -1,0 +1,64 @@
+{
+    "label":"Checkbox",
+    "id":"sbb-checkbox",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-checkbox--docs#stories",
+    "tag":"<sbb-checkbox class='demo-item' value='single-checkbox' disabled='false' checked='false' icon-name='glass-cocktail-small' icon-placement='start' indeterminate='false' size='m'>Example</sbb-checkbox>",
+    "configuration" : [
+        {
+            "id":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "radios" : [{
+                "value":"s",
+                "id":"s"
+            },
+            {
+                "value":"m",
+                "id":"m"
+            }]
+        },
+        {
+            "id":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            },
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"indeterminate",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            },
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"icon-placement",
+            "target":"demo-item",
+            "default":"start",
+            "mode":"property",
+            "radios" : [{
+                "value":"start",
+                "id":"start"
+            }, 
+            {
+                "value":"end",
+                "id":"end"
+            }]
+        }
+    ]
+}

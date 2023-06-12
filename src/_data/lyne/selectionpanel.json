@@ -1,0 +1,100 @@
+{
+    "label":"Selection-Panel",
+    "id":"sbb-selection-panel",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-selection-panel--docs#stories",
+    "tag":"<sbb-selection-panel class='demo-item' color='white'><sbb-card-badge class='badge' slot='badge'><div slot='generic'><span>%</span></div></sbb-card-badge><sbb-checkbox class='radiocheck'>Value one<span class='subtext' slot='subtext'>Subtext</span><span class='suffix' slot='suffix' style='margin-inline-start: auto'><span style='display: flex; align-items: center;'><sbb-icon name='diamond-small' style='margin-inline: var(--sbb-spacing-fixed-2x)'></sbb-icon><span class='sbb-text-m sbb-text--bold'><span class='sbb-text-xs sbb-text--bold'>CHF</span> 40.00</span></span></span></sbb-checkbox><div slot='content'>Inner Content<sbb-link text-size='s' variant='block' icon-name='chevron-small-right-small' icon-placement='end'>Link</sbb-link></div></sbb-selection-panel>",
+    "configuration" : [
+        {
+            "id":"radiocheck",
+            "target":"radiocheck",
+            "default":"sbb-radio-button",
+            "mode":"tagchange",
+            "radios" : [{
+                "value":"sbb-radio-button",
+                "id":"radio"
+            },
+            {
+                "value":"sbb-checkbox",
+                "id":"check"
+            }]
+        },
+        {
+            "id":"color",
+            "target":"demo-item",
+            "default":"white",
+            "mode":"property",
+            "radios" : [{
+                "value":"white",
+                "id":"white"
+            },
+            {
+                "value":"milk",
+                "id":"milk"
+            }]
+        },
+        {
+            "id":"badge",
+            "target":"badge",
+            "default":"no",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"badge",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"suffix",
+            "target":"suffix",
+            "default":"suffix",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"suffix",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"subtext",
+            "target":"subtext",
+            "default":"subtext",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"subtext",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"force-open",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            },
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+
+        
+
+    ]
+}
+
+

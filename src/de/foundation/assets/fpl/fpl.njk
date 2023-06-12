@@ -1,0 +1,30 @@
+---
+layout: page.njk
+tags: page
+key: fpl_de
+title: Fahrplan-Icons
+parent: assets_de
+order: 2
+mode: FPL
+---
+
+<sbb-title level="2">Verwendung</sbb-title>
+<p class="lead">Dies sind offzielle Fahrplan Icons welche die SBB und weitere Transportunternehmen in ihren digitalen und physischen Produkten verwendet. Die <sbb-link variant="inline" type="button" target="_blank" href="/{{page.lang}}/foundation/brand/copyrights/">Nutzung</sbb-link> steht Transportunternehmen frei, sofern sie gewährleisten, dass die Icons in der hier dargestellten Form verwendet werden. Im Detail bedeutet dies: </p>
+<ul class="lead">
+    <li>Die Icons dürfen proportional skaliert werden</li>
+    <li>Die Fahrplan-Attribute dürfen umgefärbt werden (Barrierfreiheit beachten)</li>
+    <li>Die HIM-CUS- und Product-Brand-Icons dürfen nicht umgefärbt werden</li>
+</ul>
+<br>
+<sbb-button target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+Figma-Library
+</sbb-button> 
+<sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">
+<sbb-icon slot="icon" name="github-small"></sbb-icon>
+Download Icons
+</sbb-button>
+
+<sbb-title level="2">Vorschau</sbb-title>
+{% set icons = icons[0] %}
+{% include "src/_includes/icons/index.njk" %}

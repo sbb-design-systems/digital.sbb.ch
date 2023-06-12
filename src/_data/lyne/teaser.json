@@ -1,0 +1,22 @@
+{
+    "label":"Teaser",
+    "id":"sbb-teaser",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-teaser--docs#stories",
+    "tag":"<div style='max-width:200px'><sbb-teaser class='demo-item' aria-label='Aria Label' href='#'><img slot='image' src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='alt'><span slot='title'>This is a title</span><span slot='description'>This is a paragraph</span></sbb-teaser></div>",
+    "configuration" : [
+        {
+            "id":"is-stacked",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"property",
+            "radios" : [{
+                "value":"true",
+                "id":"true"
+            },
+            {
+                "value":"false",
+                "id":"false"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<sbb-header hide-on-scroll="true">
+  <sbb-header-action id="nav-trigger" icon-name="hamburger-menu-small" expand-from="small">Menu</sbb-header-action>
+    <sbb-header-action id="toggle-component-browser" icon-name="magnifying-glass-small" expand-from="medium">{{ translations[page.lang].actioncomponentbrowser }}</sbb-header-action>
+    <sbb-header-action href="{{dsurl}}" icon-name="four-squares-small" expand-from="medium">{{ translations[page.lang].overviewds }} {{dsname}}</sbb-header-action>
+    <a href="/{{page.lang}}/" slot="logo">
+      <sbb-logo protective-room="none"></sbb-logo>
+    </a>
+</sbb-header>

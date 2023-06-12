@@ -1,0 +1,75 @@
+name: Community Asset for digital.sbb.ch
+description: Add new community asset for digital.sbb.ch
+title: "Title: "
+labels: communityasset
+body:
+  - type: input
+    id: title_pattern
+    attributes:
+      label: Title for digital.sbb.ch
+    validations:
+      required: true
+  - type: input
+    id: design
+    attributes:
+      label: Link to design file (Figma)
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Link to repository (Github, Bitbucket)
+    validations:
+      required: false
+  - type: textarea
+    id: keyword_list
+    attributes:
+      label: "Keywords"
+      description: Comma-separated
+      placeholder: e.g. button, secondary, negative
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+    validations:
+      required: false
+  - type: input
+    id: contact_user
+    attributes:
+      label: Contact
+      placeholder: Livia Müller
+    validations:
+      required: true
+  - type: dropdown
+    id: design_system
+    attributes:
+      label: Design System
+      options:
+        - 'Web Lean'
+        - 'Web Legacy'
+        - 'Lyne'
+        - 'Mobile'
+        - 'Automat'
+    validations:
+      required: true
+  - type: dropdown
+    id: pattern_type
+    attributes:
+      label: Type
+      options:
+        - 'Components'
+        - 'Patterns'
+        - 'Templates'
+    validations:
+      required: true
+  - type: dropdown
+    id: component_state
+    attributes:
+      label: State
+      options:
+        - 'In progress'
+        - 'Stable'
+    validations:
+      required: true

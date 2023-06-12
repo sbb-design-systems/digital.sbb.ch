@@ -1,0 +1,37 @@
+{
+    "label":"Dialog",
+    "id":"sbb-dialog",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-dialog--docs#stories",
+    "tag":"<sbb-action-group orientation='vertical' align-group='stretch' horizontal-from='unset' button-size='m'><sbb-button class='dialogtrigger' vairant='secondary' type='button'>mit Action-Group</sbb-button><sbb-button class='dialogtrigger' vairant='secondary' type='button'>ohne Action-Group</sbb-button><sbb-button class='dialogtrigger' vairant='secondary' type='button'>ohne Action-Group, Fullscreen</sbb-button></sbb-action-group><sbb-dialog id='dialog-1' class='demo-item' title-back-button='' title-content='Title'><p>Dialog content</p><sbb-action-group class='action-group' slot='action-group' align-group='stretch' orientation='vertical' horizontal-from='medium' size='m'><sbb-link align-self='start' icon-name='chevron-small-left-small' href='#' sbb-dialog-close=''>Link</sbb-link><sbb-button variant='secondary' sbb-dialog-close=''>Cancel</sbb-button><sbb-button variant='primary' sbb-dialog-close=''>Confirm</sbb-button></sbb-action-group></sbb-dialog><sbb-dialog id='dialog-2' class='demo-item' title-back-button='' title-content='Title'><p>Dialog content</p></sbb-dialog><sbb-dialog id='dialog-3' class='demo-item' title-back-button=''><p>Dialog content</p></sbb-dialog>",
+    "configuration" : [
+        {
+            "id":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"title-back-button",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+        
+    ]
+}

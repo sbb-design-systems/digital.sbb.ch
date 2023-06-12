@@ -1,0 +1,24 @@
+---
+tags: button-lyne_de
+title: Demo
+key: button-lyne-demo_de
+parent: button-lyne_de
+icon: demo
+order: 4
+permalink: false  
+---
+
+{#{ lyneproperties | dump | safe }#}
+
+{#% set examples = 'sbb-button' | lyneexample %}
+        {% for item in examples %}
+        item: {{loop.index}} <br><br>
+        {{item | dump | safe}}<br><br>
+{% endfor %#}
+
+
+{{ lynedemo({
+  json: lyne.button,
+  translations: translations[page.lang].lyne,
+  more: "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-card--docs#anchor--components-sbb-card--sbb-card-link"
+}) }}

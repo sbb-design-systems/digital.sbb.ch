@@ -1,0 +1,9 @@
+{% for category in categories %}
+    <sbb-title level="4"  id="{{category}}" data-category="{{category}}" data-id="id-{{category}}" data-name="{{category}}" data-size="small, medium, large">{{category}}</sbb-title>
+    {% for icon in icons %}
+        {% if category == icon.category %}
+            {% include "./item.njk" %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+

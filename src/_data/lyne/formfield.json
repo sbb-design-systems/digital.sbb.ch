@@ -1,0 +1,141 @@
+{
+    "label":"Form-Field",
+    "id":"sbb-form-field",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-form-field--docs#stories",
+    "tag":"<sbb-form-field class='demo-item' id='sbb-form-field' borderless='false' floating-label='fasle' disabled='false' optional='false' size='m' width='default' error-space='reserve' label='Label' size='m' width='default'><input id='sbb-form-field-input' placeholder='Input placeholder'><sbb-form-error class='error' slot='error'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='prefix' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='suffix' name='pie-small'></sbb-icon></sbb-form-field>",
+    "configuration" : [
+        {
+            "id":"prefix",
+            "target":"prefix",
+            "default":"no",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"prefix",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"suffix",
+            "target":"suffix",
+            "default":"no",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"suffix",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"floating-label",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"borderless",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "radios" : [{
+                "value":"m",
+                "id":"m"
+            }, 
+            {
+                "value":"l",
+                "id":"l"
+            }]
+        },
+        {
+            "id":"width",
+            "target":"demo-item",
+            "default":"default",
+            "mode":"property",
+            "radios" : [{
+                "value":"default",
+                "id":"default"
+            }, 
+            {
+                "value":"collapse",
+                "id":"collapse"
+            }]
+        },
+        {
+            "id":"optional",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"property",
+            "radios" : [{
+                "value":"true",
+                "id":"true"
+            }, 
+            {
+                "value":"false",
+                "id":"false"
+            }]
+        },
+        {
+            "id":"error",
+            "target":"error",
+            "default":"no",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"error",
+                "id":"true"
+            }
+            ]
+        },
+        {
+            "id":"error-space",
+            "target":"demo-item",
+            "default":"none",
+            "mode":"property",
+            "radios" : [{
+                "value":"none",
+                "id":"none"
+            }, 
+            {
+                "value":"reserve",
+                "id":"reserve"
+            }]
+        }
+
+        
+    ]
+}
+
+

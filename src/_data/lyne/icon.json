@@ -1,0 +1,60 @@
+{
+    "label":"Icon",
+    "id":"sbb-tag",
+    "link": "/de/foundation/assets/icons/",
+    "tag":"<sbb-icon style='color:red;' class='demo-item' name='glass-cocktail-small'></sbb-icon>",
+    "configuration" : [
+        {
+            "id":"name",
+            "target":"demo-item",
+            "default":"glass-cocktail-small",
+            "mode":"property",
+            "radios" : [{
+                "value":"glass-cocktail-small",
+                "id":"icon-small"
+            },
+            {
+                "value":"glass-cocktail-medium",
+                "id":"icon-medium"
+            },
+            {
+                "value":"glass-cocktail-large",
+                "id":"icon-large"
+            },
+            {
+                "value":"sa-fz",
+                "id":"attribute"
+            },
+            {
+                "value":"construction",
+                "id":"himcus"
+            },
+            {
+                "value":"ir-1",
+                "id":"productbrand"
+            }
+            ]
+        },
+        {
+            "id":"style",
+            "default":"color: var(--sbb-color-black-default)",
+            "mode":"property",
+            "radios" : [{
+                "value":"color: var(--sbb-color-black-default)",
+                "id":"black"
+            }, 
+            {
+                "value":"color: var(--sbb-color-metal-default)",
+                "id":"metal"
+            },
+            {
+                "value":"color: var(--sbb-color-sky-default)",
+                "id":"sky"
+            },
+            {
+                "value":"color: var(--sbb-color-white-default)",
+                "id":"white"
+            }]
+        }
+    ]
+}

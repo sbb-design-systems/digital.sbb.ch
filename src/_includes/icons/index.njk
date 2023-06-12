@@ -1,0 +1,36 @@
+
+
+{% set categories = [] %}
+{% for icon in icons %}
+  {% if (icon.type == mode) %}
+    {% if icon.category in categories %}
+    {% else %}
+      {% set categories = (categories.push(icon.category), categories) %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<sbb-group color="milk" padding="l-l">
+  <div id="icons">
+    <div class="icons-header">
+      {% include "./form-category.njk" %}
+      {% include "./form-searchfield.njk" %}
+      {% if (mode == "KOM") %}
+          {% include "./form-radiobuttons.njk" %}
+      {% endif %}
+    </div>
+    <div class="list icons">
+        {% include "./list-icons.njk" %}
+    </div>
+    <div class="tooltips">
+      {% include "./list-tooltips.njk" %}
+    </div>
+  </div>
+  {% include "./not-found.njk" %}
+</sbb-group>
+
+{% if mode == "KOM" %}
+<script src="/assets/js/icons-kom.js"></script>
+{% else %}
+<script src="/assets/js/icons-pictograms.js"></script>
+{% endif %}

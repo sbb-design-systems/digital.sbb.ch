@@ -1,0 +1,54 @@
+.teasers {
+    display: grid;
+    gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
+    grid-template-columns: 1fr;
+    margin-top: var(--sbb-spacing-responsive-xxl);
+    sbb-teaser {
+        a img  {
+            border-radius: var(--sbb-border-radius-4x);
+        }
+        margin-bottom: var(--sbb-spacing-responsive-xs);
+    }
+    @include sbb.mq($from: small) {
+        gap: var(--sbb-layout-base-grid-gutter-responsive-small);
+    }
+    @include sbb.mq($from: medium) {
+    }
+    @include sbb.mq($from: large) {
+        gap: var(--sbb-layout-base-grid-gutter-responsive-large);   
+    }
+    @include sbb.mq($from: wide) {
+    }
+}
+
+.teasers.home {
+    @include sbb.mq($from: medium) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include sbb.mq($from: wide) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.teasers.ds-overview {
+    margin-top: var(--sbb-spacing-responsive-m);
+    margin-bottom: var(--sbb-spacing-responsive-m);
+    @include sbb.mq($from: small) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include sbb.mq($from: medium) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include sbb.mq($from: wide) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.teasers.principles {
+    @include sbb.mq($from: medium) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include sbb.mq($from: wide) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

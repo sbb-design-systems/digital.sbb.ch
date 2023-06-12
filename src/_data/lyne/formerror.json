@@ -1,0 +1,8 @@
+{
+    "label":"Form-Error",
+    "id":"sbb-form-error",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-form-error--docs#stories",
+    "tag":"<sbb-form-error class='demo-item'>Required field.</sbb-form-error>",
+    "configuration" : [
+    ]
+}

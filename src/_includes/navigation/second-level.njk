@@ -1,0 +1,14 @@
+{% set navPages = collections.toplevel | eleventyNavigation(page.lang) %}
+{%- for entry in navPages %}
+<sbb-navigation-section trigger="{{ entry.key }}" title-content="{{entry.alternativetitle}}">
+    {% set subPages = collections.page | eleventyNavigation(entry.key) %}
+    {%- for sub in subPages %}
+    <sbb-navigation-list  {% if sub.hideInNavigation != true %}label="{{sub.title}}"{% endif %}>
+        {% set subsubPages = collections.page | eleventyNavigation(sub.key) %}
+        {%- for subsub in subsubPages %}
+            <sbb-navigation-action href="{{ subsub.url}}" {% if subsub.url == page.url %} active{% endif %}>{{ subsub.title }}</sbb-navigation-action>
+        {%- endfor %}
+    </sbb-navigation-list>
+    {%- endfor %}
+</sbb-navigation-section>
+{%- endfor %}

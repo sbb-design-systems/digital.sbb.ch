@@ -1,0 +1,51 @@
+
+{
+    "label":"Toggle",
+    "id":"sbb-toggle",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-toggle--docs#stories",
+    "tag":"<sbb-toggle class='demo-item' size='m' value='value-1'><sbb-toggle-option value='value-1'>Bern, Bahnhof</sbb-toggle-option><sbb-toggle-option value='value-2'>Zürich</sbb-toggle-option></sbb-toggle>",
+    "configuration" : [
+        {
+            "id":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"even",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"dynamic"
+            }, 
+            {
+                "value":"true",
+                "id":"fix"
+            }]
+        },
+        {
+            "id":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "radios" : [{
+                "value":"m",
+                "id":"m"
+            }, 
+            {
+                "value":"s",
+                "id":"s"
+            }]
+        }
+    ]
+}

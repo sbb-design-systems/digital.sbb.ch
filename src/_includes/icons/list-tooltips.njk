@@ -1,0 +1,26 @@
+{% for icon in icons %}
+    <sbb-tooltip id="{{ icon.name }}" trigger="{{ icon.name }}" hover-trigger="true">
+        <div class="icon-content" id="{{ icon.name }}-content">
+            <sbb-title level="5">{{ icon.name }}</sbb-title>
+            <p class="sbb-text-s tooltip-max-width">
+                {{ translations[page.lang].iconcategory }}: {{ icon.category }}<br>
+                {% if mode == "Pictograms" %}
+                {% else %}
+                {{ translations[page.lang].icontags }}: {{ icon.tags }}
+                {% endif %}
+            </p>
+            {% if mode == "KOM" %}
+                <div class="icon-items">
+                    {% for size in icon.sizes %}
+                    <div class="icon-item">
+                        <div class="icon-preview">
+                        <img loading="lazy" src="https://d1s1onrtynjaa8.cloudfront.net/icons/{{icon.group}}-{{size}}.svg" alt="{{image.group}}-{{size}}">
+                        </div>
+                        <p class="sbb-text-s">{{size}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+    </sbb-tooltip>
+{% endfor %}

@@ -1,0 +1,7 @@
+<sbb-navigation-marker size="s">
+    {% if translations.languages.length %}
+        {% for loc in translations.languages -%}
+          <sbb-navigation-action {% if (page.lang == loc.url)  %}active {% endif %} href="/{{ loc.url }}{{ page.url.slice(3, -1) }}/">{{ loc.label }}</sbb-navigation-action>
+        {% endfor -%}
+    {% endif %}
+  </sbb-navigation-marker>

@@ -1,0 +1,36 @@
+p {
+    @include sbb.text-m--regular;
+}
+
+ul, ol {
+    @include sbb.text-m--regular;
+    @include sbb.list;
+}
+
+h1 {
+    @include sbb.title-2;
+}
+
+h2 {
+    @include sbb.title-3;
+}
+
+h3 {
+    @include sbb.title-4;
+}
+
+h4 {
+    @include sbb.title-5;
+}
+
+h5 {
+    @include sbb.title-6;
+}
+
+h6 {
+    @include sbb.title-6;
+}
+
+a {
+    @include sbb.link-inline;
+}

@@ -1,0 +1,29 @@
+---
+layout: page.njk
+tags: page
+key: functional-colors_en
+title: Functional colours
+alternativetitle: Extended functional colours
+parent: colors_en
+order: 2
+---
+
+<p class="lead">Additional colours may be used with the agreement of Communications. Each use of these colours must be presented to Communications and expressly approved. Additional colours may be used only for very specific areas. Anywhere that the CD colour palette is no longer sufficient for UX reasons. For example for info boxes or similar.</p>
+{% set colorgroups = [] %}
+{% for color in collections.functionalcolors_en | sortByOrder %}
+    {% if color.data.group in colorgroups %}
+    {% else %}
+      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+    {% endif %}
+{% endfor %}
+<div class="colors">   
+  {%- for colorgroup in colorgroups -%} 
+    <div class="color-group">
+        {%- for color in collections.functionalcolors_en | sortByOrder -%} 
+          {% if colorgroup == color.data.group %}
+            {% include "../../../../_includes/color.njk" %}
+          {% endif %}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>

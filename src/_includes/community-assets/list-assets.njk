@@ -1,0 +1,53 @@
+   {% for name, communityasset in communityassets %}
+    <div class="community-asset" data-keywords="{{ communityasset.keyword_list }}" data-type="{{ communityasset.pattern_type }}" data-system="{{ communityasset.design_system }}" data-description="{{ communityasset.description }}" data-contact="{{ communityasset.contact_user }}" data-openedby="{{ communityasset.opened_by }}" >
+        <div class="col-1">
+            <sbb-title level="5" class="search-title">{{communityasset.title_pattern}}</sbb-title>
+            <span class="subtitle">{{ communityasset.design_system }}</span>
+        </div>
+        <div class="col-2">
+            {% if communityasset.design|length %}
+            <sbb-button size="m" variant="secondary" href="{{ communityasset.design }}" target="_blank">
+                <sbb-icon slot="icon" name="figma-small"></sbb-icon>
+            </sbb-button>
+            {% else %}
+            {% endif %}
+            {% if communityasset.code|length %}
+            <sbb-button size="m" variant="secondary" href="{{ communityasset.code }}" target="_blank">
+                <sbb-icon slot="icon" name="chevron-small-left-right-small"></sbb-icon>
+            </sbb-button>
+            {% else %}
+            {% endif %}
+            <sbb-button class="more-details" size="m" variant="secondary">
+                {{ translations[page.lang].moreinformation }}
+            </sbb-button>
+        </div>
+    </div>
+   {% endfor %}
+
+
+
+                   {% if communityasset.design_system|length %}
+                    <dt>Design System</dt>
+                    <dd>{{ communityasset.design_system }}</dd>
+                {% else %}
+                {% endif %}
+                {% if communityasset.description|length %}
+                    <dt>Beschreibung</dt>
+                    <dd>{{ communityasset.description }}</dd>
+                {% else %}
+                {% endif %}
+                {% if communityasset.keyword_list|length %}
+                    <dt>Stichworte</dt>
+                    <dd>{{ communityasset.keyword_list }}</dd>
+                {% else %}
+                {% endif %}
+                {% if communityasset.component_state|length %}
+                    <dt>Status</dt>
+                    <dd>{{ communityasset.component_state }}</dd>
+                {% else %}
+                {% endif %}
+                {% if communityasset.contact_user|length %}
+                    <dt>Verantwortlich</dt>
+                    <dd>{{ communityasset.contact_user }}</dd>
+                {% else %}
+                {% endif %}

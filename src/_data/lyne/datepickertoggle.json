@@ -1,0 +1,8 @@
+{
+    "label":"Datepicker-Toggle",
+    "id":"sbb-datepicker-toggle",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-datepicker-toggle--docs#stories",
+    "tag":"<sbb-form-field><sbb-datepicker-toggle class='demo-item'></sbb-datepicker-toggle><sbb-datepicker></sbb-datepicker></sbb-form-field>",
+    "configuration" : [
+    ]
+}

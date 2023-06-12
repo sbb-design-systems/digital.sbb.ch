@@ -1,0 +1,87 @@
+{
+        "label":"Button",
+        "id":"sbb-button",
+        "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-button--docs#stories",
+        "tag":"<sbb-button class='demo-item' icon-name='glass-cocktail-small'><span id='value'>Label</span></sbb-button>",
+        "configuration" : [
+            {
+                "id":"variant",
+                "target":"demo-item",
+                "default":"primary",
+                "mode":"property",
+                "radios" : [{
+                    "value":"primary",
+                    "id":"primary"
+                }, 
+                {
+                    "value":"secondary",
+                    "id":"secondary"
+                },
+                {
+                    "value":"tertiary",
+                    "id":"tertiary"
+                },
+                {
+                    "value":"transparent",
+                    "id":"transparent"
+                }]
+            },
+            {
+                "id":"size",
+                "target":"demo-item",
+                "default":"m",
+                "mode":"property",
+                "radios" : [{
+                    "value":"m",
+                    "id":"m"
+                }, 
+                {
+                    "value":"l",
+                    "id":"l"
+                }]
+            },
+            {
+                "id":"icon-name",
+                "target":"demo-item",
+                "default":"glass-cocktail-small",
+                "mode":"property",
+                "radios" : [{
+                    "value":"glass-cocktail-small",
+                    "id":"true"
+                }, 
+                {
+                    "value":" ",
+                    "id":"false"
+                }]
+            },
+            {
+                "id":"label",
+                "target":"demo-item",
+                "default":"Label",
+                "mode":"value",
+                "radios" : [{
+                    "value":"Label",
+                    "id":"true"
+                }, 
+                {
+                    "value":"",
+                    "id":"false"
+                }]
+            },
+            {
+                "id":"negative",
+                "target":"demo-item",
+                "default":"false",
+                "mode":"property",
+                "radios" : [{
+                    "value":"false",
+                    "id":"false"
+                }, 
+                {
+                    "value":"true",
+                    "id":"true"
+                }]
+            }
+            
+        ]
+}

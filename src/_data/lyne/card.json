@@ -1,0 +1,83 @@
+{
+    "label":"Card",
+    "id":"sbb-card",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-card--docs#stories",
+    "tag":"<sbb-card class='demo-item' size='m' color='white' href='#' target='_blank'><sbb-card-badge class='badge' slot='badge' appearance='primary' is-discount='' price='19.99' text='from CHF'></sbb-card-badge>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor blandit odio, ut blandit libero cursus vel. Nunc eu congue mauris. Quisque sed facilisis leo. Curabitur malesuada, nibh ac blandit vehicula, urna sem scelerisque magna, sed tincidunt neque arcu ac justo.</sbb-card>",
+    "configuration" : [
+        {
+            "id":"color",
+            "target":"demo-item",
+            "default":"white",
+            "mode":"property",
+            "radios" : [
+            {
+                "value":"white",
+                "id":"white"
+            },
+            {
+                "value":"milk",
+                "id":"milk"
+            }]
+        },
+        {
+            "id":"size",
+            "target":"demo-item",
+            "default":"xs",
+            "mode":"property",
+            "radios" : [{
+                "value":"xs",
+                "id":"xs"
+            }, 
+            {
+                "value":"s",
+                "id":"s"
+            }, 
+            {
+                "value":"m",
+                "id":"m"
+            },
+            {
+                "value":"l",
+                "id":"l"
+            },
+            {
+                "value":"xl",
+                "id":"xl"
+            },
+            {
+                "value":"xxl",
+                "id":"xxl"
+            }]
+        },
+        {
+            "id":"active",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"badge",
+            "target":"badge",
+            "default":"no",
+            "mode":"slot",
+            "radios" : [{
+                "value":"no",
+                "id":"false"
+            },
+            {
+                "value":"badge",
+                "id":"true"
+            }
+            ]
+        }
+        
+    ]
+}

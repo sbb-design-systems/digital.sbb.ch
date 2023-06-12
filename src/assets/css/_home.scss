@@ -1,0 +1,36 @@
+.home-primary {
+    margin-top: var(--sbb-spacing-responsive-xxs);
+}
+
+.intro {
+    
+    .intro-wrapper {
+        grid-column: 1 / 5;
+    }
+    @include sbb.mq($from: medium) {
+        .intro-wrapper {
+            grid-column: 1 / 9;
+        }
+     
+    }
+    @include sbb.mq($from: wide) {
+        .intro-wrapper {
+            grid-column: 1 / 9;
+        }
+
+    }
+    @include sbb.mq($from: ultra) {
+        .intro-wrapper {
+            grid-column: 1 / 13;
+        }
+
+    }
+}
+
+
+.card-home {
+    margin-top: var(--sbb-spacing-responsive-xxl);
+    p {
+        color: var(--sbb-color-metal-default);
+    }
+}

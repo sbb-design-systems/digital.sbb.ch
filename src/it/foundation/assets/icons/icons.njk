@@ -1,0 +1,43 @@
+---
+layout: page.njk
+tags: page
+key: icons_it
+title: Icone
+parent: assets_it
+order: 1
+mode: KOM
+---
+
+<p class="lead">Le FFS dispongono di un proprio set di icone lineari di 1 pixel su un raster di 24x24, 36x36 e in alcuni casi 48x48 pixel. Le linee hanno sempre uno spessore di 1 pixel (icone responsive). Le icone sono disponibili anche in versione non responsive (24x24, 36x36 e 48x48, spessore delle linee a scalare), come da esempio.</p>
+
+{{ webpImage({
+  url: '/assets/images/icons/beispiel',
+  alt: 'Beispiel',
+  title: 'Beispiel'
+}) }}
+
+<sbb-title level="2">Utilizzo</sbb-title>
+<p class="lead">Deve essere rispettato lo stile delle icone FFS. Se il set di icone non fosse sufficiente, è possibile ordinare nuove icone scrivendo all’indirizzo <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> i costi di produzione sono a carico dei progetti. La creazione ex novo di icone è ammessa a patto che queste vengano controllate prima del loro impiego da Gestione della marca FFS o da UX. Su richiesta è possibile ricevere informazioni più dettagliate sullo stile delle icone FFS. Nei prodotti digitali e nelle app è opportuno controllare che le icone non vengano utilizzate con uno spessore delle linee diverso.  
+Ulteriori informazioni: <sbb-link variant="inline" type="button" target="_blank" href="/{{page.lang}}/foundation/brand/copyrights/">diritti di utilizzazione</sbb-link></p>
+
+<sbb-action-group class="download-icons" align-group="start" orientation="vertical" horizontal-from="small" button-size="l">
+  <sbb-button target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Figma-Library</sbb-button> 
+  <sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">
+  <sbb-icon slot="icon" name="github-small"></sbb-icon>Icone in versione download</sbb-button>
+</sbb-action-group>
+
+<sbb-title level="2">Anteprima</sbb-title>
+{% set icons = icons[0] %}
+{% include "src/_includes/icons/index.njk" %}
+<br>
+<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0&t=TkHYwdrMavtsKvyZ-1">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+Visualizza le icone in Figma
+</sbb-button> 
+
+<sbb-title level="2">Icone specifiche del progetto</sbb-title>
+<p class="lead">Vengono utilizzati soprattutto nei prodotti/progetti interni. Spesso si tratta di icone di sistemi esperti che hanno un significato specifico. Le icone specifiche non dovrebbero essere utilizzate per significati/funzioni diverse, per cui il loro uso deve essere controllato con attenzione. Tuttavia, se il significato esatto dell'icona è corretto, l'icona può essere utilizzata. In caso di dubbi, il team UX sarà lieto di aiutarvi.</p>
+<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
+<sbb-icon slot="icon" name="figma-small"></sbb-icon>
+Icone specifiche del progetto in Figma
+</sbb-button>

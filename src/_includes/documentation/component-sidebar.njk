@@ -1,0 +1,32 @@
+<div id="body-overlay"></div>
+<dialog id="sidebar">
+    <div id="componentbrowser" class="browser component">
+        <div class="browser-header-component">   
+        <div>
+            <sbb-title level="5" class="browser-title">{{ translations[page.lang].findcomponent }}</sbb-title>
+            <p class="metal no-margin">{{dsname}}</p>
+        </div>
+        <div>
+        <sbb-button size="m" variant="secondary" id="list-toggle" aria-label="list">
+        <sbb-icon slot="icon" name="list-small"></sbb-icon>
+        </sbb-button>
+        <sbb-button size="m" variant="secondary" id="close-browser" aria-label="close">
+            <sbb-icon slot="icon" name="cross-small"></sbb-icon>
+        </sbb-button>
+        </div>
+        <sbb-form-field error-space="none" label="{{ translations[page.lang].searchinput }}" size="m" width="default" borderless="true" floating-label="true">
+            <input id="search-form-field" class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
+        </sbb-form-field>
+        </div>
+        <div class="component-list horizontal list component">
+            <sbb-title level="5" class="browser-title">Basics</sbb-title>
+            {%- for component in collections[dsbasics] | sortByOrder -%}
+                {% include "./component.njk" %}
+            {%- endfor -%}
+            <sbb-title level="5" class="browser-title">Components</sbb-title>
+            {%- for component in collections[dscomponents] | sortByOrder -%}
+                {% include "./component.njk" %}
+            {%- endfor -%}
+        </div>
+    </div>
+</dialog>

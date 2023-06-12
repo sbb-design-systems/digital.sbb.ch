@@ -1,0 +1,40 @@
+---
+layout: page.njk
+tags: page
+key: base-colors_de
+title: Basis-Farben
+parent: colors_de
+order: 1
+---
+
+<p class="lead">Hier setzen wir auf eine pointierte Reduktion: Farben werden nur dezent eingesetzt. Rot wird für die wichtigen Navigationselemente verwendet, die dem Benutzer eine schnelle und verständliche Leitung durch die Seite bietet. Verläufe sind nicht erlaubt.</p>
+<sbb-title level="2">Farben</sbb-title>
+{% set colorgroups = [] %}
+{% for color in collections.basecolor_de | sortByOrder %}
+    {% if color.data.group in colorgroups %}
+    {% else %}
+      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+    {% endif %}
+{% endfor %}
+<div class="colors">   
+  {%- for colorgroup in colorgroups -%} 
+    <sbb-title class="no-margin-bottom" level="3">{{colorgroup}}</sbb-title>
+    <div class="color-group">
+        {%- for color in collections.basecolor_de | sortByOrder -%} 
+          {% if colorgroup == color.data.group %}
+            {% include "../../../../_includes/color.njk" %}
+          {% endif %}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>
+<sbb-title level="2">Kontraste überprüfen</sbb-title>
+<color-contrast-checker language="de"></color-contrast-checker>
+<sbb-title level="2">Farbverhältnisse</sbb-title>
+<p class="lead">SBB Webseiten sind in den folgenden Farbverhältnissen zu gestalten. Die Quantitäten sind als Richtwerte zu verstehen – nicht als exakte Regel. Signifikante Abweichungen sind jedoch zu vermeiden. Wenn diese unumgänglich ist eine Prüfung durch die SBB Markenführung notwendig.</p>
+<div class="color-ratio">
+  <div class="white">60%</div>
+  <div class="grey">25%</div>
+  <div class="black">10%</div>
+  <div class="red">5%</div>
+</div>

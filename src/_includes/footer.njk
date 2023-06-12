@@ -1,0 +1,21 @@
+<sbb-footer variant="default" expanded="false" accessibility-title="Footer">
+    <div class="sbb-grid-expanded footer-content">
+        <div class="contact">
+            <sbb-title level="4" visual-level="5" class="footer-title">{{ translations[page.lang].contact }}</sbb-title>
+            {%- for footer in collections.footer -%}
+                {% if footer.data.language == page.lang %}
+                    {{ footer.content | safe }}
+                {% endif %}
+            {%- endfor -%}
+        </div>
+        <div class="clock">
+            <sbb-clock initial-time="now"></sbb-clock>
+        </div>
+        <sbb-divider class="footer-divider"></sbb-divider>
+    </div>
+    <sbb-link-list horizontal-from="large">
+        <sbb-link href="/{{page.lang}}/meta/impressum/">{{ translations[page.lang].impressum }}</sbb-link>
+        <sbb-link href="/{{page.lang}}/meta/contact/">{{ translations[page.lang].contact }}</sbb-link>
+        <sbb-link id="ot-sdk-btn" class="ot-sdk-show-settings">{{ translations[page.lang].cookies }}</sbb-link>
+    </sbb-link-list>
+</sbb-footer>

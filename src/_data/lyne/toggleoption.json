@@ -1,0 +1,50 @@
+{
+    "label":"Toggle-Option",
+    "id":"sbb-toggle-option",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-toggle-option--docs#stories",
+    "tag":"<sbb-toggle-option class='demo-item' value='value' icon-name='glass-cocktail-small' disabled='false'>Option</sbb-toggle-option>",
+    "configuration" : [
+        {
+            "id":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"icon-name",
+            "target":"demo-item",
+            "default":"glass-cocktail-small",
+            "mode":"property",
+            "radios" : [{
+                "value":"glass-cocktail-small",
+                "id":"true"
+            }, 
+            {
+                "value":"",
+                "id":"false"
+            }]
+        },
+        {
+            "id":"value",
+            "target":"demo-item",
+            "default":"Option",
+            "mode":"value",
+            "radios" : [{
+                "value":"",
+                "id":"false"
+            }, 
+            {
+                "value":"Option",
+                "id":"true"
+            }]
+        }
+    ]
+}

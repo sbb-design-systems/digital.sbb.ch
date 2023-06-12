@@ -1,0 +1,53 @@
+
+
+{
+    "label":"Toggle",
+    "id":"sbb-toggle",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-toggle-check--docs#stories",
+    "tag":"<sbb-toggle-check value='single-checkbox' class='demo-item' disabled='false' checked='false' icon-name='tick-small' label-position='after'>Example</sbb-toggle-check>",
+    "configuration" : [
+        {
+            "id":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"icon-name",
+            "target":"demo-item",
+            "default":"tick-small",
+            "mode":"property",
+            "radios" : [{
+                "value":"tick-small",
+                "id":"default"
+            }, 
+            {
+                "value":"dog-small",
+                "id":"other"
+            }]
+        },
+        {
+            "id":"label-position",
+            "target":"demo-item",
+            "default":"after",
+            "mode":"property",
+            "radios" : [{
+                "value":"after",
+                "id":"after"
+            },
+            {
+                "value":"before",
+                "id":"before"
+            }
+            ]
+        }
+    ]
+}

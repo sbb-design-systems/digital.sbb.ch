@@ -1,0 +1,51 @@
+{
+    "label":"Slider",
+    "id":"sbb-slider",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-slider--docs#stories",
+    "tag":"<sbb-slider class='demo-item' max='100' min='0' value='40' readonly='false' value-as-number='40'><sbb-icon class='prefix' slot='prefix' name='battery-level-empty-small'></sbb-icon><sbb-icon class='suffix' slot='suffix' name='battery-level-high-small'></sbb-icon></sbb-slider>",
+    "configuration" : [
+        {
+            "id":"readonly",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        },
+        {
+            "id":"prefix",
+            "target":"prefix",
+            "default":"prefix",
+            "mode":"slot",
+            "radios" : [{
+                "value":"prefix",
+                "id":"true"
+            }, 
+            {
+                "value":"no",
+                "id":"false"
+            }]
+        },
+        {
+            "id":"suffix",
+            "target":"suffix",
+            "default":"suffix",
+            "mode":"slot",
+            "radios" : [{
+                "value":"suffix",
+                "id":"true"
+            }, 
+            {
+                "value":"no",
+                "id":"false"
+            }]
+        }
+        
+    ]
+}

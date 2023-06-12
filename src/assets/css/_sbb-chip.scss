@@ -1,0 +1,44 @@
+.sbb-chip {
+    background-color: var(--sbb-color-milk-default);
+    padding: var(--sbb-spacing-fixed-3x) var(--sbb-spacing-fixed-6x);;
+    border-radius: 50px;
+    margin-left:var(--sbb-spacing-fixed-1x);
+    
+    display: grid; 
+    grid-template-columns: auto auto; 
+    grid-template-rows: auto; 
+    gap: 0px var(--sbb-spacing-fixed-2x); 
+    p, sbb-icon {
+        margin:0;
+        padding:0;
+
+    }
+    sbb-icon {
+        border-radius: 15px;
+            color: white;
+            height: 30px;
+            width: 30px;
+            padding:3px;
+            line-height: 24px;
+    }
+    &.stable {
+        sbb-icon {
+            padding:3px 4px 3px 2px;
+            color: green;
+            border: solid 1px green;
+            
+        }
+        
+    }
+    &.progress {
+        sbb-icon {
+            //background-color: orange;
+            padding:2px 4px 4px 2px;
+            color: orange;
+            border: solid 1px orange;
+            
+        }
+        
+    }
+    
+}

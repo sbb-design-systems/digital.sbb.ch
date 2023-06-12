@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}">
+  <head>
+    {% include "../_includes/head.njk" %}
+  </head>
+  <body>
+    {% include "../_includes/skiplinks.njk" %}
+    {% include "../_includes/header/header-page.njk" %}
+    {% include "../_includes/navigation/navigation.njk" %}
+    <div id="content" class="content sbb-page-spacing">
+    {% if availablelanguages.length %}
+      {% include "../_includes/missing-languages.njk" %}
+      {% include "../_includes/title.njk" %}
+      {{ content | safe }}
+      {% include "../_includes/community-assets/index.njk" %}
+    {% else %}
+      {% include "../_includes/title.njk" %}
+      {{ content | safe }}
+      {% include "../_includes/community-assets/index.njk" %}
+    {% endif %}
+    </div>
+    {% include "../_includes/footer.njk" %}
+    <script src="/assets/js/navigation.js"></script>
+    <script src="/assets/js/community-assets.js"></script>
+  </body>
+</html>

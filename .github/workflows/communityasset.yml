@@ -1,0 +1,36 @@
+name: Convert issue to json
+on:
+  issues:
+    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#issues
+    types:
+      - labeled
+jobs:
+  update_library:
+    runs-on: ubuntu-latest
+    name: Convert data
+    # require an `approved` label for moderation
+    if: contains( github.event.issue.labels.*.name, 'communityasset')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: GitHub Issue to JSON
+        uses: zachleat/github-issue-to-json-file@v3.0.14
+        with:
+          # This controls where the JSON files are generated
+          folder: "src/_data/communityassets/"
+          # This tells the action which GitHub Issue Form template file to use
+          issue-template: "communityasset.yml"
+          # This controls which property we use to key the file name hash off of (values should be unique in your data set)
+          hash-property-name: "design"
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add *
+          git commit -m "Adding data for #${{ env.IssueNumber }}"
+          git push
+      - name: Close issue
+        uses: peter-evans/close-issue@v1
+        with:
+          issue-number: "${{ env.IssueNumber }}"
+          comment: "Thank you! Your data file has been added!"

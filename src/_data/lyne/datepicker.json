@@ -1,0 +1,22 @@
+{
+    "label":"Datepicker",
+    "id":"sbb-datepicker",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-datepicker--docs#stories",
+    "tag":"<sbb-form-field><sbb-datepicker-previous-day></sbb-datepicker-previous-day><sbb-datepicker-toggle></sbb-datepicker-toggle><input value='01.01.2023'/><sbb-datepicker class='demo-item' wide='true'></sbb-datepicker><sbb-datepicker-next-day></sbb-datepicker-next-day></sbb-form-field>",
+    "configuration" : [
+        {
+            "id":"wide",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+    ]
+}

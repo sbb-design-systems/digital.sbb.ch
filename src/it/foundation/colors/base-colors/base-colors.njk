@@ -1,0 +1,40 @@
+---
+layout: page.njk
+tags: page
+key: base-colors_it
+title: Colori die base
+parent: colors_it
+order: 1
+---
+
+<p class="lead">Puntiamo a una riduzione mirata: i colori devono essere utilizzati solo in modo sobrio. Il rosso viene impiegato per gli elementi di navigazione importanti, che consentono all’utente di orientarsi in modo rapido e chiaro all’interno della pagina. Non sono ammesse le sfumature di colori.</p>
+<sbb-title level="2">Colori</sbb-title>
+{% set colorgroups = [] %}
+{% for color in collections.basecolor_it | sortByOrder %}
+    {% if color.data.group in colorgroups %}
+    {% else %}
+      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+    {% endif %}
+{% endfor %}
+<div class="colors">   
+  {%- for colorgroup in colorgroups -%} 
+    <sbb-title class="no-margin-bottom" level="3">{{colorgroup}}</sbb-title>
+    <div class="color-group">
+        {%- for color in collections.basecolor_it | sortByOrder -%} 
+          {% if colorgroup == color.data.group %}
+            {% include "../../../../_includes/color.njk" %}
+          {% endif %}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>
+<sbb-title level="2">Controllare i contrasti</sbb-title>
+<color-contrast-checker language="it"></color-contrast-checker>
+<sbb-title level="2">Ponderazione dei colori</sbb-title>
+<p class="lead">I siti web delle FFS vanno creati con la seguente ponderazione dei colori. Le quantità sono da intendersi come valori indicativi e non come una regola esatta. Vanno tuttavia evitati scostamenti significativi. Qualora questi ultimi fossero indispensabili, occorre richiedere una verifica da parte di Gestione della marca FFS.</p>
+<div class="color-ratio">
+  <div class="white">60%</div>
+  <div class="grey">25%</div>
+  <div class="black">10%</div>
+  <div class="red">5%</div>
+</div>

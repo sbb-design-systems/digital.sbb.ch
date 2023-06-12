@@ -1,0 +1,14 @@
+---
+layout: page.njk
+tags: page
+key: faq_de
+title: FAQ
+parent: getting-started_de
+order: 2
+---
+
+<sbb-accordion non-white-background="false" only-one-open="">
+{%- for accordion in collections.faq_de | sortByOrder -%}
+    {% include "../../../../_includes/accordion/accordion-faq.njk" %}
+{%- endfor -%}
+</sbb-accordion>

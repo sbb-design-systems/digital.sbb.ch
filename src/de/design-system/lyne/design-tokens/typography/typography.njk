@@ -1,0 +1,68 @@
+---
+layout: pattern.njk
+tags: 
+    - lyne_de
+    - lyne_design_tokens_de
+    - page
+key: typography-lyne_de
+title: Typografie
+parent: basics-lyne_de
+image: lyne/overview/typography.webp
+keywords: Typografie
+order: 50
+---
+
+<sbb-title level="2">Type Face</sbb-title>
+<div class="token-table face-typo-token">
+{% for token in typeFaceTypoTokens %}
+    <div class="row">
+        <div class="token-name"><p>{{ token.name }}</p></div>
+        <div class="token-value"><p>{{ token.value }}</p></div>
+        <div class="token-demo"><p class="typo-face-demo" style="font-family: {{token.value}};">Face</p></div>
+    </div>
+{% endfor %}
+</div>
+
+<sbb-title level="2">Scale</sbb-title>
+<div class="token-table scalye-typo-token">
+{% for token in scaleTypoTokens %}
+    <div class="row">
+        <div class="token-name"><p>{{ token.name }}</p></div>
+        <div class="token-value"><p>{{ token.value }}</p></div>
+        <div class="token-demo"><p class="typo-scale-demo" style="font-size: {{token.original.value}}px; line.height: {{token.original.value}}px;">Scale</p></div>
+    </div>
+{% endfor %}
+</div>
+
+<sbb-title level="2">Letter Spacing</sbb-title>
+<div class="token-table letter-spacing-typo-token">
+{% for token in letterSpacingTypoTokens %}
+    <div class="row">
+        <div class="token-name"><p>{{ token.name }}</p></div>
+        <div class="token-value"><p>{{ token.value }}</p></div>
+        <div class="token-demo"><p class="typo-face-demo" style="letter-spacing: {{token.value}};">Letter Spacing</p></div>
+    </div>
+{% endfor %}
+</div>
+
+
+<sbb-title level="2">Line Height</sbb-title>
+<div class="token-table line-height-typo-token">
+{% for token in lineHeightTypoTokens %}
+    <div class="row">
+        <div class="token-name"><p>{{ token.name }}</p></div>
+        <div class="token-value"><p>{{ token.value }}</p></div>
+        <div class="token-demo"><p class="typo-face-demo" style="line-height: {{token.value}};">Line Height</p></div>
+    </div>
+{% endfor %}
+</div>
+
+<sbb-title level="2">Übriges</sbb-title>
+<div class="token-table remaining-typo-token">
+{% for token in remainingTypoTokens %}
+    <div class="row">
+        <div class="token-name"><p>{{ token.name }}</p></div>
+        <div class="token-value"><p>{{ token.value }}</p></div>
+    </div>
+{% endfor %}
+</div>

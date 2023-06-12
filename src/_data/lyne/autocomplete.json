@@ -1,0 +1,26 @@
+{
+    "label":"Autocomplete",
+    "id":"sbb-autocomplete",
+    "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-form-elements-sbb-autocomplete--docs#stories",
+    "tag":"<sbb-form-field label='Label'><input placeholder='Trigger element' /><sbb-autocomplete class='demo-item'><sbb-optgroup label='Group 1'><sbb-option value='Option 1'> Option 1 </sbb-option><sbb-option icon-name='clock-small' value='Option 2'> Option 2 </sbb-option><sbb-option icon-name='clock-small' value='Option 3'> Option 3 </sbb-option></sbb-optgroup><sbb-optgroup label='Group 2'><sbb-option value='Option 4'> Option 4 </sbb-option><sbb-option icon-name='clock-small' value='Option 5'> Option 5 </sbb-option><sbb-option icon-name='clock-small' value='Option 6'> Option 6 </sbb-option></sbb-autocomplete></sbb-form-field>",
+    "configuration" : [
+        {
+            "id":"preserve-icon-space",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            },
+            {
+                "value":"true",
+                "id":"true"
+            }
+            ]
+        }
+
+        
+       
+    ]
+}

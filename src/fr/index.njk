@@ -1,0 +1,20 @@
+---
+layout: page.njk
+tags: page
+key: fr
+title: Tout sur les applications numériques des CFF.
+parent: root
+---
+
+
+  <p class="lead">Nos clientes et nos clients doivent pouvoir naviguer facilement sur tous les canaux numériques des CFF et accéder rapidement aux informations recherchées. Pour ce faire, l’expérience client doit être cohérente sur l’ensemble des canaux et se traduire d’une manière uniforme sur l’ensemble des plates-formes.</p>
+  <p class="lead">Vous trouverez ici des informations sur nos principes UX et sur l’accessibilité, mais également tout ce que vous devez savoir sur les systèmes de conception des sites Web et des applications mobiles des CFF. Les informations et les spécifications fournies sur cette page sont obligatoires pour tous les projets, internes et externes. Tout ce qui est conçu, révisé ou développé dans le domaine numérique doit être approuvé par l'unité Gestion de la marque CFF et l’équipe UX.</p>
+  <sbb-button class="home-primary" href="/{{page.lang}}/design-system/getting-started/designing/">
+    Comment utiliser le Design System
+  </sbb-button>
+
+<div class="teasers home">
+  {%- for teaser in collections.teaserhome_fr | sortByOrder -%}
+    {% include "../_includes/teaser/teaser-home.njk" %}
+  {%- endfor -%}
+</div>

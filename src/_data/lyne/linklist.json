@@ -1,0 +1,69 @@
+{
+    "label":"Link-List",
+    "id":"sbb-link-list",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-link-list--docs#stories",
+    "tag":"<sbb-link-list class='demo-item' orientation='vertical' size='s' title-level='2' title-content='Title'><sbb-link href='#' icon-name='glass-cocktail-small'>Link 1</sbb-link><sbb-link href='#' icon-name='dog-small'>Link 2</sbb-link><sbb-link href='#' icon-name='unicorn-small'>Link 3</sbb-link></sbb-link-list>",
+    "configuration" : [
+        {
+            "id":"orientation",
+            "target":"demo-item",
+            "default":"horizontal",
+            "mode":"property",
+            "radios" : [{
+                "value":"horizontal",
+                "id":"horizontal"
+            },
+            {
+                "value":"vertical",
+                "id":"vertical"
+            }]
+        },
+        {
+            "id":"title-content",
+            "target":"demo-item",
+            "default":"Title",
+            "mode":"property",
+            "radios" : [{
+                "value":"Title",
+                "id":"true"
+            },
+            {
+                "value":"",
+                "id":"false"
+            }]
+        },
+        {
+            "id":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "radios" : [{
+                "value":"xs",
+                "id":"xs"
+            }, 
+            {
+                "value":"s",
+                "id":"s"
+            }, 
+            {
+                "value":"m",
+                "id":"m"
+            }]
+        },
+        {
+            "id":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+        
+    ]
+}

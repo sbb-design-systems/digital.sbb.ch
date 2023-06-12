@@ -1,0 +1,22 @@
+{
+    "label":"Divider",
+    "id":"sbb-divider",
+    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-divider--docs#stories",
+    "tag":"<div style='width: 100%; height: 100%;'><sbb-divider class='demo-item' orientation='horizontal'></sbb-divider></div>",
+    "configuration" : [
+        {
+            "id":"orientation",
+            "target":"demo-item",
+            "default":"horizontal",
+            "mode":"property",
+            "radios" : [{
+                "value":"horizontal",
+                "id":"horizontal"
+            }, 
+            {
+                "value":"vertical",
+                "id":"vertical"
+            }]
+        } 
+    ]
+}

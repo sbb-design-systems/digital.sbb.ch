@@ -1,0 +1,9 @@
+---
+tags: basecolor_en
+head: Anthracite
+group: White, Grey, Black
+hex: "#5A5A5A"
+rgb: "R: 90 G: 90 B: 90"
+order: 16
+permalink: false
+---

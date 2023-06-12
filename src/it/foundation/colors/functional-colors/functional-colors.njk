@@ -1,0 +1,29 @@
+---
+layout: page.njk
+tags: page
+key: functional-colors_it
+title: Colori funzionali
+alternativetitle: Colori funzionali aggiuntivi
+parent: colors_it
+order: 2
+---
+
+<p class="lead">È consentito usare colori addizionali solo previo accordo con KOM. Non è possibile utilizzare questi colori senza aver prima fatto richiesta a KOM e aver ricevuto la sua espressa autorizzazione. È possibile usare colori addizionali solo per elementi grafici ben precisi, in particolare ogni volta che la gamma di colori CD non è sufficiente per motivi di UX (ad es. per riquadri informativi o simili).</p>
+{% set colorgroups = [] %}
+{% for color in collections.functionalcolors_it | sortByOrder %}
+    {% if color.data.group in colorgroups %}
+    {% else %}
+      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+    {% endif %}
+{% endfor %}
+<div class="colors">   
+  {%- for colorgroup in colorgroups -%} 
+    <div class="color-group">
+        {%- for color in collections.functionalcolors_it | sortByOrder -%} 
+          {% if colorgroup == color.data.group %}
+            {% include "../../../../_includes/color.njk" %}
+          {% endif %}
+        {%- endfor -%}
+    </div>
+  {%- endfor -%}
+</div>

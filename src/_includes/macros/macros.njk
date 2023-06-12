@@ -1,0 +1,86 @@
+{% macro imageWithMode(params) %}
+    <div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x" /></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x" /></figure></div>{% include "../documentation/mode-switch.njk" %}
+{% endmacro %}
+
+{% macro imageOnGreyBackground(params) %}
+    <div class="boxed-image"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure></div>
+{% endmacro %}
+
+{% macro imageSpec(params) %}
+    <div class="boxed-image specification"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure></div>
+{% endmacro %}
+
+{% macro principleImage(params) %}
+    <figure class="principle-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure>
+{% endmacro %}
+
+{% macro webpImage(params) %}
+    <figure class="default-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure>
+{% endmacro %}
+
+{% macro svgImage(params) %}
+    <figure class="svg-image"><img src="{{ params.url }}.svg" alt="{{ params.alt }}" title="{{ params.title }}"></figure>
+{% endmacro %}
+
+{% macro buttonGroup(params) %}
+    {% if params.type =="link" %}
+    <sbb-link-list title-level="3" {% if params.title %}title-content="{{params.title}}"{% endif %} orientation="vertical" {% if params.horizontalfrom %}horizontal-from="{{params.horizontalfrom}}" {% endif %}>
+        {%- for button in params.tag | sortByOrder -%}
+            <sbb-link href="{{ button.data.url }}" {% if button.data.external == true %} target="_blank"{% endif %} icon-name="chevron-small-right-small" icon-placement="end" size="{{params.size}}">{{ button.data.label }}</sbb-link>
+        {%- endfor -%}
+    </sbb-link-list>
+    {% else %}
+    <sbb-action-group class="overview-buttons" align="{{params.alignement}}" button-size="{{params.size}}" orientation="vertical" horizontal-from="{{params.horizontalfrom}}">
+        {%- for button in params.tag | sortByOrder -%}
+            <sbb-button variant="{{ button.data.variant }}" href="{{ button.data.url }}"{% if button.data.external == true %} target="_blank"{% endif %}>{{ button.data.label }}{% if button.data.icon %}<sbb-icon slot="icon" name="{{ button.data.icon }}"></sbb-icon>{% endif %}</sbb-button>
+        {%- endfor -%}
+    </sbb-action-group>
+    {% endif %}
+{% endmacro %}
+
+
+{% macro specificationLinks(params) %}
+    <sbb-action-group orientation="vertical" horizontal-from="small">{% if params.figma %}<sbb-button size="m" variant="secondary" target="_blank" href="{{params.figma}}"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Design</sbb-button>{% endif %}{% if params.github %}<sbb-button size="m" variant="secondary" target="_blank" href="{{params.github}}"><sbb-icon slot="icon" name="github-small"></sbb-icon>Code</sbb-button>{% endif %}</sbb-action-group>
+{% endmacro %}
+
+
+{% macro lynedemo(params) %}
+{% set pattern = params.json %}
+<div class="demo {% if params.wide == true %}wide{% endif %}">
+    <div class="background" id="background">
+           {{pattern.tag | safe}}
+    </div>
+    <div class="config-bar">
+        <sbb-accordion non-white-background>
+        {% for item in pattern.configuration %}
+            <sbb-accordion-item {% if loop.index == 1 %}open="true"{% endif %} heading="{{ params.translations[item.id] }}" heading-level="2">
+                <div slot="content">
+                    <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.label}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.id}}">
+                        {% for radio in item.radios %}
+                        <sbb-radio-button value="{{radio.value}}">{{ params.translations[radio.id] }}</sbb-radio-button>
+                        {% endfor %}
+                    </sbb-radio-button-group>
+                </div>
+            </sbb-accordion-item>
+        {% else %}
+        {% endfor %}
+            <sbb-accordion-item {% if params.noconfig === true %}open="true"{% endif %} heading="{{ params.translations["background"] }}" heading-level="2">
+                <div slot="content">
+                    <sbb-radio-button-group value="white" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
+                        <sbb-radio-button value="white">White</sbb-radio-button>
+                        <sbb-radio-button value="milk">Milk</sbb-radio-button>
+                        <sbb-radio-button value="iron">Iron</sbb-radio-button>
+                        <sbb-radio-button value="charcoal">Charcoal</sbb-radio-button>
+                        <sbb-radio-button value="black">Black</sbb-radio-button>
+                    </sbb-radio-button-group>
+                </div>
+            </sbb-accordion-item>
+        </sbb-accordion>
+        <sbb-action-group id="more-buttons" align-group="stretch" orientation="vertical" horizontal-from="unset" button-size="m">
+            <sbb-button variant="secondary" size="m" icon-name="plus-small" href="{{ pattern.link }}" target="_blank">{{ params.translations["more"] }}</sbb-button>
+        </sbb-action-group>
+    </div>
+</div>
+<script src="/assets/js/lyne-demo.js"></script>
+{% endmacro %}
+
