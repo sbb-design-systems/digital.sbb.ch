@@ -1,0 +1,12 @@
+{
+  "title_pattern": "Title: Test 1",
+  "design": "https://www.sbb.ch/test1",
+  "code": "https://www.sbb.ch/test1",
+  "keyword_list": "test 1",
+  "description": "test 1",
+  "contact_user": "Manuel Cilurzo",
+  "design_system": "Web Lean",
+  "pattern_type": "Components",
+  "component_state": "In progress",
+  "opened_by": "mcilurzo"
+}
