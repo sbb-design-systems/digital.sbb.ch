@@ -44,6 +44,7 @@ module.exports = {
     notfoundtitle: "No search results were found.",
     notfoundtext: "Try using different or fewer search terms.",
     communityassets: {
+      "addasset": "Add community asset",
       "all": "All",
       "lean": "Web Lean",
       "legacy": "Web Legacy",
@@ -225,6 +226,7 @@ module.exports = {
     notfoundtitle: "Es wurden keine Suchresultate gefunden.",
     notfoundtext: "Probiere es mit anderen oder weniger Suchbegriffen.",
     communityassets: {
+      "addasset": "Community-Asset hinzufügen",
       "all": "Alle",
       "lean": "Web Lean",
       "legacy": "Web Legacy",
@@ -406,6 +408,7 @@ module.exports = {
     notfoundtitle: "Aucun résultat de recherche trouvé.",
     notfoundtext: "Essaie d'utiliser des termes de recherche différents ou moins nombreux.",
     communityassets: {
+      "addasset": "Ajouter un Community-Asset",
       "all": "Tout",
       "lean": "Web Lean",
       "legacy": "Web Legacy",
@@ -449,6 +452,7 @@ module.exports = {
     notfoundtitle: "Non sono stati trovati risultati di ricerca.",
     notfoundtext: "Provate a utilizzare termini di ricerca diversi o meno numerosi.",
     communityassets: {
+      "addasset": "Aggiungi un Community-Asset",
       "all": "Tutti",
       "lean": "Web Lean",
       "legacy": "Web Legacy",
