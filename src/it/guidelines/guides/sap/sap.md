@@ -48,7 +48,7 @@ Le icone servono come supporto visivo per gli argomenti e le azioni per gli uten
 
 Se il set di icone SAP esistente non prevede l’icona di cui hai bisogno, hai la possibilità di richiederne altre su misura e nello stile SAP agli esperti UX delle Digital Solution o di <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link>.{.lead}
 
-La creazione autonoma di icone è consentita, ma deve essere approvata dal (link: mailto:marke@sbb.ch testo: SBB Markenführung) o dal (link: mailto:ux@sbb.ch testo: DSRV UX) prima che queste icone vengano poste in uso. Resta buona norma nei prodotti digitali e nelle applicazioni prestare attenzione a non utilizzare icone con uno spessore delle linee diverso.{.lead}
+La creazione autonoma di icone è consentita, ma deve essere approvata dal <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> o dal <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link> prima che queste icone vengano poste in uso. Resta buona norma nei prodotti digitali e nelle applicazioni prestare attenzione a non utilizzare icone con uno spessore delle linee diverso.{.lead}
 
 ### Regole
 * Per l'utilizzo delle applicazioni SAP FFS, il font delle icone SAP deve essere generalmente utilizzato nel colore <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB Black</sbb-link>.{.lead}

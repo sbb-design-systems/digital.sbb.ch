@@ -50,7 +50,7 @@ Icons serve as visual support for topics and actions for the users. To use them 
 
 Should the existing SAP icon set not suffice, you can ask the UX experts of the Digital Solution or the  <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link> for new icons in the SAP style.{.lead}
 
-Independent creation of icons is allowed, but needs to be approved by the (link: mailto:marke@sbb.ch text: SBB Markenführung) or the (link: mailto:ux@sbb.ch text: DSRV UX) before the icons go in use. As for digital products and apps pay attention that you don't use icons in different line width.{.lead}
+Independent creation of icons is allowed, but needs to be approved by the <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> or the <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link>  before the icons go in use. As for digital products and apps pay attention that you don't use icons in different line width.{.lead}
 
 ### Rules
 * For the usage of SBB SAP applications the SAP icon font is generally to be used in the colour <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB Black</sbb-link>.{.lead}

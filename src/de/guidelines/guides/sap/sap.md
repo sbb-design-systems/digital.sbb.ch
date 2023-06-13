@@ -46,11 +46,11 @@ Für eine erweiterte Gestaltung mittels HTML und CSS für modifizierte Benutzero
 ## Icons
 
 ### Verwendung
-Icons dienen zur visuellen Unterstützung von Themen und Aktionen für die Benutzer`*`innen. Für die Verwendung in SBB SAP-Anwendungen ist der SAP Icon Font einzusetzen.{.lead}
+Icons dienen zur visuellen Unterstützung von Themen und Aktionen für die Benutzer*innen. Für die Verwendung in SBB SAP-Anwendungen ist der SAP Icon Font einzusetzen.{.lead}
 
-Sollte das bestehende Icon-Set von SAP nicht ausreichen, können neue Icons in SAP Style bei den UX-Expert`*`innen der Digital Solution oder beim <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link>bestellt werden.{.lead}
+Sollte das bestehende Icon-Set von SAP nicht ausreichen, können neue Icons in SAP Style bei den UX-Expert*innen der Digital Solution oder beim <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link> bestellt werden.{.lead}
 
-Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der (link: mailto:marke@sbb.ch text: SBB Markenführung) oder vom (link: mailto:ux@sbb.ch text: DSRV UX) vor deren Einsatz abgenommen werden. In digitalen Produkten und Apps ist darauf zu achten, dass Icons nicht in verschiedenen Linienstärken verwendet werden.{.lead}
+Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> oder vom <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link> vor deren Einsatz abgenommen werden. In digitalen Produkten und Apps ist darauf zu achten, dass Icons nicht in verschiedenen Linienstärken verwendet werden.{.lead}
 
 ### Regeln
 * Für die Verwendung in SBB SAP-Anwendungen ist der SAP Icon Font grundsätzlich in der Farbe <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB Black</sbb-link> einzusetzen.{.lead}
