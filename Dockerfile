@@ -1,4 +1,7 @@
-FROM cloud.docker.bin.sbb.ch/cloud/plattform-nginx:1.20.2-rootless
+FROM nginxinc/nginx-unprivileged:stable
+
+# Copy nginx configuration
+COPY ./.github/default.conf /etc/nginx/conf.d/default.conf
 
 # Copy dist files to nginx html folder
-COPY dist .
+COPY dist /usr/share/nginx/html
