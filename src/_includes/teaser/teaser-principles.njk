@@ -1,5 +1,5 @@
 {% if teaser.data.image|length %}
-<sbb-teaser is-stacked="true" accessibilityLabel="{{ teaser.data.title }}: {{ teaser.data.alternativetitle }}" href="{{ teaser.data.url }}" data-keywords="{{ teaser.data.title }}">
+<sbb-teaser is-stacked="true" accessibilityLabel="{{ teaser.data.title }}: {{ teaser.data.alternativetitle }}" href="{{ teaser.url }}" data-keywords="{{ teaser.data.title }}">
     <img slot="image" loading="lazy" src="/assets/images/principles/overview/{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
     <span slot="title">{{ teaser.data.title }}</span>
     <p class="description" slot="description">{{ teaser.data.alternativetitle }}</p>    
