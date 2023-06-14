@@ -4,7 +4,7 @@ tags: page
 key: faq_fr
 title: FAQ
 parent: getting-started_fr
-order: 2
+order: 4
 availablelanguages: 
     - de
     - en

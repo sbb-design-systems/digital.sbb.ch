@@ -4,7 +4,7 @@ tags: page
 key: coding_it
 title: Coding
 parent: getting-started_it
-order: 2
+order: 3
 availablelanguages: 
     - de
     - en

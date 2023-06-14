@@ -4,7 +4,7 @@ tags: page
 key: help_it
 title: Aiuto
 parent: getting-started_it
-order: 4
+order: 5
 availablelanguages: 
     - de
     - en

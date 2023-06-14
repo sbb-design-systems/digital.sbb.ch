@@ -37,5 +37,5 @@ Das Design System kann auch für interne Anwendungen gebraucht werden. Primär g
 
 ## Du hast noch weitere Fragen?{.lead}
 
-Du hast noch weitere Fragen? Versuchs mal mit unserer <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/getting-started/faq/">FAQ-Seite</sbb-link>.
-Wenn du dort nicht fündig wirst kannst du dich gerne mit uns in <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">Kontakt</sbb-link> setzen.{.lead}
+Versuchs mal mit unserer <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/getting-started/faq/">FAQ-Seite</sbb-link>.
+Wenn du dort nicht fündig wirst, kannst du dich gerne mit uns in <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">Kontakt</sbb-link> setzen.{.lead}

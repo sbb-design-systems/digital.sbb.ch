@@ -4,7 +4,7 @@ tags: page
 key: designing_en
 title: Designing
 parent: getting-started_en
-order: 1
+order: 2
 ---
 
 

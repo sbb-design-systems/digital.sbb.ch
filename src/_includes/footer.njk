@@ -1,7 +1,7 @@
 <sbb-footer variant="default" expanded="false" accessibility-title="Footer">
     <div class="sbb-grid-expanded footer-content">
         <div class="contact">
-            <sbb-title level="1" visual-level="5" class="footer-title">{{ translations[page.lang].contact }}</sbb-title>
+            <sbb-title level="2" visual-level="5" class="footer-title">{{ translations[page.lang].contact }}</sbb-title>
             {%- for footer in collections.footer -%}
                 {% if footer.data.language == page.lang %}
                     {{ footer.content | safe }}

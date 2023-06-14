@@ -1,9 +1,9 @@
 ---
 layout: page.njk
 tags: page
-key: contacts-help_it
-title: Kontakte
-parent: help_it
+key: intro_it
+title: What is a design system?
+parent: getting-started_it
 order: 1
 availablelanguages: 
     - de
