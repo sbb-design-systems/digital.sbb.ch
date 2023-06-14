@@ -11,13 +11,14 @@
 
 <title>{{title}} – digital.sbb.ch</title>
 
-
+{% if env.environment == "production" %}
 <script src="https://cdn.cookielaw.org/consent/c87fd437-3de0-439c-b5cf-16054903c772/OtAutoBlock.js"></script>
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" charset="UTF-8" data-domain-script="c87fd437-3de0-439c-b5cf-16054903c772"></script>
 <script>
     function OptanonWrapper() { }
 </script>
-
+{% else %}
+{% endif %}
 
 <link rel="stylesheet" href="/assets/js/lyne-components/lyne-components.css">
 <link rel="stylesheet" href="/assets/css/styles.css">

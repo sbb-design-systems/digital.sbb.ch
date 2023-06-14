@@ -8,7 +8,7 @@
         "copy:components": "npx copyfiles -f ./node_modules/list.js/dist/* dist/assets/js/listjs/ && npx copyfiles -u 5 ./node_modules/@sbb-esta/lyne-components/dist/lyne-components/*.* dist/assets/js/lyne-components/ && npx copyfiles -u 4 ./node_modules/ux-components/dist/ux-components/*.* dist/assets/js/ux-components/",
         "html-minify": "html-minifier --input-dir dist --output-dir dist --file-ext html --remove-comments --collapse-whitespace --conservative-collapse --minify-js false --minify-css true",
         "start": "npm run copy:components && npx @11ty/eleventy --serve",
-        "build": "npm run copy:components && npx @11ty/eleventy && npm run html-minify"
+        "build": "npm run copy:components && MY_ENVIRONMENT=production npx @11ty/eleventy && npm run html-minify"
     },
     "author": "Manuel Cilurzo",
     "license": "ISC",
