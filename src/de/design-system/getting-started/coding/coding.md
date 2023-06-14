@@ -4,7 +4,7 @@ tags: page
 key: coding_de
 title: Coding
 parent: getting-started_de
-order: 2
+order: 3
 ---
 
 tbd

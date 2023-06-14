@@ -4,7 +4,7 @@ tags: page
 key: help_de
 title: Hilfe
 parent: getting-started_de
-order: 4
+order: 5
 ---
 
 Wir helfen gerne, bevor du uns aber kontaktierst prüfe bitte kurz Frage ob die Frage bereits beantwortet ist:{.lead}
