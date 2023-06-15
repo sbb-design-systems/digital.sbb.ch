@@ -2,7 +2,7 @@
 layout: page.njk
 tags: page
 key: about-this-guide_fr
-title: Über diesen Guide
+title: À propos de ce guide
 alternativetitle: À propos de ce guide
 parent: introduction_fr
 order: 2
