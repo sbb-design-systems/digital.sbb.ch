@@ -7,24 +7,24 @@ parent: brand_de
 order: 4
 ---
 
-## Proprietà intellettuale:
-Tutti gli elementi messi a disposizione sono proprietà intellettuale delle FFS.  
+## Geistiges Eigentum:
+Alle hier zur Verfügung gestellten Objekte sind geistiges Eigentum der SBB.    
 
-## Utilizzo di pittogrammi FFS, icone orario FFS e orologio FFS:
-- Utilizzo consentito a tutte le imprese di trasporto concessionarie della Svizzera.
-- Utilizzo consentito per progetti in collaborazione con il trasporto pubblico svizzero.  
+## Verwendung der SBB Piktogramme, Fahrplan-Icons und SBB Uhr:
+- Alle konzessionierten Transportunternehmen der Schweiz.
+- Projekte in Zusammenhang mit dem öffentlichen Verkehr der Schweiz.  
 
-## Utilizzo delle icone FFS:
-- Utilizzo consentito solo da parte delle FFS e delle sue società affiliate.
-- Utilizzo consentito per progetti relativi ai trasporti pubblici sotto la guida delle FFS.  
+## Verwendung SBB Icons:
+- Nur von der SBB und deren Tochtergesellschaften.
+- ÖV-Projekte unter der Leitung der SBB.   
 
-## Utilizzo del logo FFS e del simbolo FFS:
-- Utilizzo del logo FFS e del simbolo FFS solo previo consenso della Gestione della marca FFS.  
+## Verwendung SBB Logo und SBB Signet:
+- Einsatz SBB Logo und SBB Signet nur in Absprache mit der Markenführung der SBB.
 
-## Per gli elementi messi a disposizione sono valide le regole seguenti:
-- Non è consentito l’utilizzo di elementi che hanno subito modifiche o con uno scopo diverso da quello previsto.
-- Non è consentito l’utilizzo per scopi commerciali.
-- Non è consentito l’utilizzo per tematiche a scopo politico o religioso.
-- Non è consentito l’utilizzo per tematiche che vanno contro il decoro e la decenza e che violino diritti protetti della personalità o altre prescrizioni di legge.  
+## Folgende Regeln gelten für alle hier zur Verfügung gestellten Objekte:
+- Die Elemente dürfen weder verändert noch zweckentfremdet eingesetzt werden.
+- Keine Verwendung für kommerzielle Zwecke.
+- Keine Verwendung für politische oder religiösen Themen.
+- Keine Verwendung für Themen, welche gegen Sitte und Anstand verstossen, geschützten Persönlichkeitsrechte verletzen oder gegen sonstige gesetzliche Vorschriften verstossen.   
 
-Altri scopi d’utilizzazione devono necessariamente essere approvati dalla Gestione della marca FFS: <sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>.
+Andere Verwendungszwecke müssen zwingend von der Markenführung der SBB genehmigt werden:<sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>.
