@@ -5,5 +5,6 @@ description: Alle Infos zur Marke SBB – Logo, Farben, Typografie, Signaletik, 
 url: https://brand.sbb.ch/
 image: /assets/images/teaser/brand-portal.webp
 permalink: false
+external: true
 order: 9
 ---

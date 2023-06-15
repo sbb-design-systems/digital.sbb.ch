@@ -9,6 +9,7 @@ module.exports = {
         redirect: data => data.redirect,
         image: data => data.image,
         keywords: data => data.keywords,
+        external: data => data.external,
         hideInNavigation: data => data.hideInNavigation
     }
   };

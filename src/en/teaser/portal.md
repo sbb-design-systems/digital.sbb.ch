@@ -5,5 +5,6 @@ description: All information on SBB branding – logo, colors, typography, wayfi
 url: https://brand.sbb.ch/
 image: /assets/images/teaser/brand-portal.webp
 permalink: false
+external: true
 order: 9
 ---
