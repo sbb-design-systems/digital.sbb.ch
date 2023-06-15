@@ -1,6 +1,6 @@
 ---
 tags: teaserhome_en
-head: Colours
+head: Colors
 description: A consistent use of colour is crucial for recognition.
 url: /en/foundation/colors/base-colors/
 image: /assets/images/teaser/colors.webp

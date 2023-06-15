@@ -23,7 +23,7 @@ The use of a mono-spaced font is recommended for some applications. The font req
 * DejaVu Sans Mono
 
 ## Style
-The font styles defined here form the basis of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors">SBB colours</sbb-link> apply to the font colours.{.lead}
+The font styles defined here form the basis of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors">SBB colors</sbb-link> apply to the font colors.{.lead}
 
 ### Heading H1
 {{ imageOnGreyBackground({

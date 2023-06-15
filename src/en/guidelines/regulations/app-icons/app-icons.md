@@ -15,7 +15,7 @@ Figma app icon template
 </sbb-button> 
 
 ## External applications
-Colours: Background in white, icon in black{.lead}
+Colors: Background in white, icon in black{.lead}
 
 ### Applications for iOS
 Icons are to be delivered in quadratic png format. Please also consider iOS requirements. The icons are automatically rounded for iOS.{.lead}
@@ -43,7 +43,7 @@ The user can choose freely between the following interfaces:{.lead}
 }) }}
 
 ## Internal applications
-Colours: Background in colour, icon in white. AA-standard contrast from WCAG must be ensured. Some application examples:{.lead}
+Colors: Background in colour, icon in white. AA-standard contrast from WCAG must be ensured. Some application examples:{.lead}
 {{ imageOnGreyBackground({
     url: '/assets/images/app-icons/intern',
     alt: 'app icons internal application',

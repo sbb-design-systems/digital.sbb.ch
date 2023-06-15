@@ -16,7 +16,7 @@ order: 60
 The company font ‘SBB Web’ is used as a web font and in the styles Thin, Light, Roman and Bold.{.lead}
 
 ## Style
-The font styles defined here form the base of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" href="/{{page.lang}}/foundation/colors/base-colors/">SBB colours</sbb-link> apply to font colours.{.lead}
+The font styles defined here form the base of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" href="/{{page.lang}}/foundation/colors/base-colors/">SBB colors</sbb-link> apply to font colors.{.lead}
 
 ### Heading H1
 {{ imageOnGreyBackground({

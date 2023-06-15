@@ -26,7 +26,7 @@ Reference 1: <sbb-link variant="inline" type="button" href="https://www.w3.org/T
 Reference 2: <sbb-link variant="inline" type="button" href="https://www.w3.org/TR/WCAG21/#error-identification">https://www.w3.org/TR/WCAG21/#error-identification</sbb-link>
 
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Don’t just use colour to convey something{.with-icon}
-Ensure that colours are not the only feature that convey certain information. For example, don’t just make a link red; underline it as well.{.lead}
+Ensure that colors are not the only feature that convey certain information. For example, don’t just make a link red; underline it as well.{.lead}
 
 Reference: <sbb-link variant="inline" type="button" href="https://www.w3.org/TR/WCAG21/#use-of-color">https://www.w3.org/TR/WCAG21/#use-of-color</sbb-link>
 

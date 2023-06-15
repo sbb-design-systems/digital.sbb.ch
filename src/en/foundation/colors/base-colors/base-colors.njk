@@ -2,13 +2,13 @@
 layout: page.njk
 tags: page
 key: base-colors_en
-title: Base colours
+title: Base colors
 parent: colors_en
 order: 1
 ---
 
-<p class="lead">Here, we focus on intentional reduction: colours are only used in a subtle way. Red is used for the important navigation elements that offer the user a quick and understandable path through the page. Flows are not allowed.</p>
-<sbb-title level="2">Colours</sbb-title>
+<p class="lead">Here, we focus on intentional reduction: colors are only used in a subtle way. Red is used for the important navigation elements that offer the user a quick and understandable path through the page. Flows are not allowed.</p>
+<sbb-title level="2">Colors</sbb-title>
 {% set colorgroups = [] %}
 {% for color in collections.basecolor_en | sortByOrder %}
     {% if color.data.group in colorgroups %}
