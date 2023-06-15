@@ -4,7 +4,7 @@ tags: page
 key: app-icons_de
 title: App Icons
 parent: regulations_de
-order: 3
+order: 2
 ---
 
 Alle Icons müssen im <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">SBB Icon-Style</sbb-link>  umgesetzt werden. Neu erstellte Icons müssen von der SBB Markenführung oder von UX abgenommen werden.{.lead}
