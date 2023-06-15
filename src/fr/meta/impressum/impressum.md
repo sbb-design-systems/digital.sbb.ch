@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: page
-key: impressum_de
+key: impressum_fr
 title: Impressum
 order: 1
 ---

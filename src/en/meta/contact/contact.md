@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: page
-key: contact_de
+key: contact_en
 title: Kontakt
 order: 2
 ---
