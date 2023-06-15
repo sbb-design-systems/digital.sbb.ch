@@ -7,12 +7,12 @@ parent: guides_de
 order: 6
 ---
 
-Die SAP Design Guidelines sind noch im Aufbau. Derzeit besteht es aus ersten Informationen für konsistente SBB SAP Applikationen. Grundlage dafür bildet das <sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design/">SAP Fiori Design Konzept</sbb-link>. Mehr Informationen dazu finden sich auch in der <sbb-link variant="inline" type="button" href="https://community.sap.com/topics/fiori">SAP Community</sbb-link>.{.lead}
+Die SAP Design Guidelines sind noch im Aufbau. Derzeit besteht es aus ersten Informationen für konsistente SBB SAP Applikationen. Grundlage dafür bildet das <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design/">SAP Fiori Design Konzept</sbb-link>. Mehr Informationen dazu finden sich auch in der <sbb-link variant="inline" type="button" target="_blank" href="https://community.sap.com/topics/fiori">SAP Community</sbb-link>.{.lead}
 
 ## SBB Theme
 
 ### Einführung
-Für die Erstellung von SBB SAP Anwendungen mit konsistentem Bedienerlebnis bildet das <sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design">SAP Fiori Design Konzept</sbb-link> die Basis. Zur Einhaltung der Richtlinien der SBB Markenelemente, wurde das «SBB Theme» mit dem SAP Theme Designer definiert.{.lead}
+Für die Erstellung von SBB SAP Anwendungen mit konsistentem Bedienerlebnis bildet das <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design">SAP Fiori Design Konzept</sbb-link> die Basis. Zur Einhaltung der Richtlinien der SBB Markenelemente, wurde das «SBB Theme» mit dem SAP Theme Designer definiert.{.lead}
 
 Das SBB Theme steht mit integriertem SBB Logo und modifizierten Farbwerten für interne Anwendungen auf dem SAP Gateway und SAP Cloud Platform Service «Cloud Foundry» zur Verfügung.
 Kontakt: <sbb-link variant="inline" type="button" href="mailto:slc@sbb.ch"> DSRV SAP TechOps</sbb-link>{.lead}
@@ -48,7 +48,7 @@ Für eine erweiterte Gestaltung mittels HTML und CSS für modifizierte Benutzero
 ### Verwendung
 Icons dienen zur visuellen Unterstützung von Themen und Aktionen für die Benutzer*innen. Für die Verwendung in SBB SAP-Anwendungen ist der SAP Icon Font einzusetzen.{.lead}
 
-Sollte das bestehende Icon-Set von SAP nicht ausreichen, können neue Icons in SAP Style bei den UX-Expert*innen der Digital Solution oder beim <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link> bestellt werden.{.lead}
+Sollte das bestehende Icon-Set von SAP nicht ausreichen, können neue Icons in SAP Style bei den UX-Expert*innen der Digital Solution oder beim <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link> bestellt werden.{.lead}
 
 Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> oder vom <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link> vor deren Einsatz abgenommen werden. In digitalen Produkten und Apps ist darauf zu achten, dass Icons nicht in verschiedenen Linienstärken verwendet werden.{.lead}
 
@@ -60,8 +60,8 @@ Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der <sbb-
 * Icons sollen anwendungsübergreifend (Digital Solution übergreifend) immer die gleiche Bedeutung haben (Konsistenz).{.lead}
 
 ### Links
-<sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design-web/icons/">SAP Icon Font Guideline</sbb-link>
-<sbb-link variant="inline" type="button" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">SAP Icon-Set</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design-web/icons/">SAP Icon Font Guideline</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">SAP Icon-Set</sbb-link>
 
 
 <script>

@@ -21,4 +21,4 @@ Issues zur Barrierefreiheit versinken gerne im Backlog. Versuche sie gegenüber 
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Plane ein externes Review frühzeitig ein{.with-icon}
 Plane genügend Zeit für ein externes Review oder eine <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/further-information/">Zertifizierung</sbb-link> der Barrierefreiheit ein. Ein typisches Review durch Zugang für alle nimmt etwa zwei Wochen in Anspruch. Dies solltest du idealerweise mindestens zwei Monate zuvor anmelden.{.lead}
 
-Weitere Informationen: <sbb-link variant="inline" type="button" href="https://access-for-all.ch/ch/beratung.html">https://access-for-all.ch/ch/beratung.html</sbb-link>
+Weitere Informationen: <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/ch/beratung.html">https://access-for-all.ch/ch/beratung.html</sbb-link>

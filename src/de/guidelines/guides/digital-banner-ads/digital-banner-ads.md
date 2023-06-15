@@ -22,7 +22,7 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 <section class="sbb-section-panel">
 
 ### Beispiele
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Beispiel 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Beispiel 1</sbb-link>
 
 ### Formate
 - Wideboard (994 x 250)</li>
@@ -42,9 +42,9 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 <section class="sbb-section-panel">
 
 ### Beispiele
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Beispiel 1</sbb-link>
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Beispiel 2</sbb-link>
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Beispiel 3</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Beispiel 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Beispiel 2</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Beispiel 3</sbb-link>
 
 ### Formate
 - Wide Skyscraper (160 x 600) </li>
@@ -63,7 +63,7 @@ Html5-Vorlagen als Download
 
 
 ## Kontakt 
-Fragen zum CD und zu Formatadaptationen: <sbb-link variant="inline" type="button" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
+Fragen zum CD und zu Formatadaptationen: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
 Fragen zu Barrierefreiheit: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
 
 
