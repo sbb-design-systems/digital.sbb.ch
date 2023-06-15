@@ -1,0 +1,32 @@
+---
+layout: page.njk
+tags: page
+key: off-brand-colors_fr
+title: Off-Brand Farben
+parent: colors_fr
+order: 2
+---
+
+<p class="lead">
+  In wenigen Fällen lässt sich das SBB-Rot nicht als Primärfarbe verwenden. Beispielsweise darf die Farbe Rot in sicherheitsrelevanten Anwendungen auschliesslich zur Kommunikation von Fehlern genutzt werden. In diesen Fällen darf die Primärfarbe (Red, Red125, Red150) durch die folgenden Farben ersetzt werden:
+</p>
+<div class="colors">   
+    <div class="color-group">
+        {%- for color in collections.offbrandcolor_de | sortByOrder -%}
+            {% include "../../../../_includes/color.njk" %}
+        {%- endfor -%}
+    </div>
+</div>
+<p class="lead">
+  Bitte beachte, dass dieses Farbset nur in Ausnahmefällen verwendet werden darf. Es bedarf einer Abklärung mit dem DSRV UX.
+</p>
+
+<sbb-title level="2">Konzeption in Figma</sbb-title>
+<p class="lead">
+  Die Farben stehen in der Figma-Library zur Verfügung, werden aber in den Komponenten nicht eingesetzt. Die Farben können jedoch bequem in Figma mit der Funktion "Selection Colors" ersetzt werden. 
+</p>
+
+<sbb-title level="2">Umsetzung im Frontend</sbb-title>
+<p class="lead">
+  In der Angular Library können die Farben wie folgt getauscht werden: <sbb-link variant="inline" href="https://angular.app.sbb.ch/angular/introduction/typography">Zur Anleitung</sbb-link>.
+</p>
