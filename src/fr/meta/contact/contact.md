@@ -2,18 +2,17 @@
 layout: page.njk
 tags: page
 key: contact_fr
-title: Kontakt
+title: Contact
 order: 2
 ---
 
-## Für Fragen zu User Experience
+## Pour toute question sur l’expérience utilisateur
 <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>
 
-## Für Fragen zur Markenführung /-Erlebnis
+## Pour toute question concernant la gestion et l’expérience de la marque
 <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
 
-Grundsätzlich muss alles was im digitalen Bereich neu gestaltet oder überarbeitet wird – seien es Layouts, Piktogramme, Microsites usw. – zwingend von der SBB Markenführung  genehmigt werden. Weitere Informationen, Richtlinien und Hilfsmittel zur Marke SBB finden Sie im <sbb-link variant="inline" type="button" href="https://www.sbb.ch/identity">SBB Markenportal</sbb-link>.{.lead}
+De manière générale, toute modification ou création d’un élément lié à l’identité visuelle numérique des CFF (mise en page, pictogrammes, microsites, etc.) doit être impérativement validée par l’unité Gestion de la marque CFF. Vous trouverez des informations complémentaires, des supports didactiques ainsi que les directives relatives à la marque CFF sur le <sbb-link variant="inline" type="button" href="https://www.sbb.ch/identity">portail de la marque CFF</sbb-link>.{.lead}
 
-## Für technische Fragen
-Ansprechpartner für <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">technische Fragen</sbb-link>. Bitte die entsprechenden <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">Formulare</sbb-link> auf Github verwenden.
-
+## Pour toute question technique:
+Interlocuteur pour les <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">questions techniques</sbb-link>. Veuillez utiliser les <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">formulaires</sbb-link> correspondants sur Github.
