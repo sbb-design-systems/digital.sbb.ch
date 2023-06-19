@@ -2,18 +2,18 @@
 layout: page.njk
 tags: page
 key: contact_it
-title: Kontakt
+title: Contatti
 order: 2
 ---
 
-## Für Fragen zu User Experience
+## Per domande sulla user experience
 <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>
 
-## Für Fragen zur Markenführung /-Erlebnis
+## Per domande sulla gestione/esperienza della marca
 <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
 
-Grundsätzlich muss alles was im digitalen Bereich neu gestaltet oder überarbeitet wird – seien es Layouts, Piktogramme, Microsites usw. – zwingend von der SBB Markenführung  genehmigt werden. Weitere Informationen, Richtlinien und Hilfsmittel zur Marke SBB finden Sie im <sbb-link variant="inline" type="button" href="https://www.sbb.ch/identity">SBB Markenportal</sbb-link>.{.lead}
+In linea di principio, tutto ciò che viene creato o rivisto in ambito digitale – che si tratti di layout, pittogrammi, micrositi ecc. – deve essere necessariamente approvato da Gestione della marca FFS. Trovate ulteriori informazioni, direttive e strumenti sulla marca FFS nel <sbb-link variant="inline" type="button" href="https://www.sbb.ch/identity">Portale della marca FFS</sbb-link>.{.lead}
 
-## Für technische Fragen
-Ansprechpartner für <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">technische Fragen</sbb-link>. Bitte die entsprechenden <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">Formulare</sbb-link> auf Github verwenden.
+## Per domande tecniche
+Persona di contatto per le <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">domande tecniche</sbb-link>. Utilizzate i <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">moduli</sbb-link>corrispondenti su Github
 
