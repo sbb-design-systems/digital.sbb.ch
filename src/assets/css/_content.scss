@@ -329,3 +329,8 @@ h3 {
 .hidden, .hide-icon {
     display: none;
 }
+
+.error-divider {
+    margin-top: var(--sbb-spacing-fixed-20x);
+    margin-bottom: var(--sbb-spacing-fixed-18x);
+}
