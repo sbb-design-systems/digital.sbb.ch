@@ -21,4 +21,4 @@ Avec le temps, les questions relatives à l’accessibilité passent souvent au 
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Planifie dès que possible un audit externe{.with-icon}
 Prévois des délais suffisants si tu dois planifier un audit externe ou une  <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/further-information/">certification</sbb-link> de l’accessibilité. Un audit type effectué par Accès pour tous prend environ deux semaines. Dans l’idéal, un tel audit doit être annoncé au moins deux mois à l’avance.{.lead}
 
-Plus d’informations: <sbb-link variant="inline" type="button" href="https://access-for-all.ch/ch/beratung.html">https://access-for-all.ch/ch/beratung.html</sbb-link>
+Plus d’informations: <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/ch/beratung.html">https://access-for-all.ch/ch/beratung.html</sbb-link>

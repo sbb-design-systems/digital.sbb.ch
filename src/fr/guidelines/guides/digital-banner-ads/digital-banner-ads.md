@@ -8,7 +8,7 @@ parent: guides_fr
 order: 4
 ---
 
-Les CFF mettent des modèles à disposition pour les bandeaux publicitaires numériques. Il existe deux versions différentes en fonction du format souhaité.  {.lead}  
+Les CFF mettent des modèles à disposition pour les bandeaux publicitaires numériques. Il existe deux versions différentes en fonction du format souhaité.{.lead}  
  
 ## Utilisation
 Il convient de respecter les modèles fournis. Si le format souhaité n’est pas disponible parmi les modèles existants, il est possible d’en adapter un. Il est préférable pour ce faire de choisir le modèle de la taille la plus proche de celle souhaitée.{.lead}
@@ -22,7 +22,7 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 <section class="sbb-section-panel">
 
 ### Exemples
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Exemple 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Exemple 1</sbb-link>
 
 ### Formats
 - Wideboard (994 x 250)</li>
@@ -42,9 +42,9 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 <section class="sbb-section-panel">
 
 ### Exemples
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Exemple 1</sbb-link>
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Exemple 2</sbb-link>
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Exemple 3</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Exemple 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Exemple 2</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Exemple 3</sbb-link>
 
 ### Formats
 - Wide Skyscraper (160 x 600) </li>
@@ -63,5 +63,5 @@ Modèle html5 à télécharger
 
 
 ## Contact
-Pour toutes les questions concernant le Corporate Design: <sbb-link variant="inline" type="button" href="https://brand.sbb.ch/hub/2/fr">Portail de la marque CFF</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>   
+Pour toutes les questions concernant le Corporate Design: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/fr">Portail de la marque CFF</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>   
 Pour toutes les questions concernant l’accessibilité: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">lien</sbb-link>

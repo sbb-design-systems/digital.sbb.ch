@@ -7,13 +7,13 @@ parent: guides_fr
 order: 6
 ---
 
-Les directives de conception SAP sont encore en cours d'élaboration. Actuellement il s'agit des premières informations pour une expérience cohérente pour l'ensemble des applications CFF SAP. Le <sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design/">concept SAP Fiori Design</sbb-link> en constitue la base. Vous trouverez plus d'informations à ce sujet dans la <sbb-link variant="inline" type="button" href="https://community.sap.com/topics/fiori">communauté SAP</sbb-link>.{.lead}
+Les directives de conception SAP sont encore en cours d'élaboration. Actuellement il s'agit des premières informations pour une expérience cohérente pour l'ensemble des applications CFF SAP. Le <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design/">concept SAP Fiori Design</sbb-link> en constitue la base. Vous trouverez plus d'informations à ce sujet dans la <sbb-link variant="inline" type="button" target="_blank" href="https://community.sap.com/topics/fiori">communauté SAP</sbb-link>.{.lead}
 
 
 ## Thème CFF
 
 ### Introduction
-Pour réaliser des applications SAP CFF avec une expérience utilisateur cohérente, les <sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design">directives de conception SAP Fiori</sbb-link> constituent la base. Afin de respecter les directives relatives aux éléments de la marque CFF, un "thème CFF" a été défini à l'aide du concepteur de thèmes SAP.{.lead}
+Pour réaliser des applications SAP CFF avec une expérience utilisateur cohérente, les <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design">directives de conception SAP Fiori</sbb-link> constituent la base. Afin de respecter les directives relatives aux éléments de la marque CFF, un "thème CFF" a été défini à l'aide du concepteur de thèmes SAP.{.lead}
 
 Le thème CFF est disponible avec le logo CFF intégré et des valeurs de couleur modifiées pour les applications internes sur SAP Gateway et SAP Cloud Platform Service "Cloud Foundry".
 Contact: <sbb-link variant="inline" type="button" href="mailto:slc@sbb.ch"> DSRV SAP TechOps</sbb-link>{.lead}
@@ -46,7 +46,7 @@ Pour une conception étendue utilisant HTML et CSS pour des interfaces utilisate
 ### Utilisation
 Les icônes sont utilisées pour soutenir visuellement les sujets et les actions des utilisateurs. Pour les applications SAP des CFF, la police d'icônes SAP doit être utilisée.{.lead}
 
-Si le jeu d'icônes existant de SAP n'est pas suffisant, de nouvelles icônes dans le style SAP peuvent être commandées auprès des experts UX de votre solution digitale ou du <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">Service UX</sbb-link>.{.lead}
+Si le jeu d'icônes existant de SAP n'est pas suffisant, de nouvelles icônes dans le style SAP peuvent être commandées auprès des experts UX de votre solution digitale ou du <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">Service UX</sbb-link>.{.lead}
 
 L'auto-compilation d'icônes est autorisée, mais celle-ci doit être approuvée par la direction de la marque CFF ou par DSRV UX avant d'être utilisée. Dans les produits numériques et les applications, il faut veiller à ce que les icônes ne soient pas utilisées dans des épaisseurs de ligne différentes.{.lead}
 
@@ -58,8 +58,8 @@ L'auto-compilation d'icônes est autorisée, mais celle-ci doit être approuvée
 - Les icônes doivent toujours avoir la même signification (cohérence) dans toutes les applications (dans les solutions numériques).{.lead}
 
 ### Liens
-<sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design-web/icons/">SAP Icon Font Guideline</sbb-link>
-<sbb-link variant="inline" type="button" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">SAP Icon-Set</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design-web/icons/">SAP Icon Font Guideline</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">SAP Icon-Set</sbb-link>
 
 <script>
 const buttons = document.querySelectorAll(".more-details");

@@ -20,7 +20,7 @@ Referenz 2: <sbb-link variant="inline" type="button" target="_blank" href="https
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Nutze Standard Elemente{.with-icon}
 Native Elemente ersparen dir sowohl in HTML als auch in Mobile Apps eine Menge Ärger. Die Elemente sind bereits auf Barrierefreiheit hin optimiert, ihr komplettes Verhalten muss ansonsten nachgebaut werden. Sag dies auch deinem Designer, wenn er auf etwas besteht.{.lead}
 
-Hilfe für typische nicht-native Elemente: <sbb-link variant="inline" type="button" href="hthttps://inclusive-components.design">https://inclusive-components.design</sbb-link>
+Hilfe für typische nicht-native Elemente: <sbb-link variant="inline" type="button" href="https://inclusive-components.design">https://inclusive-components.design</sbb-link>
 
 Referenz: <sbb-link variant="inline" type="button" target="_blank" href="https://www.w3.org/TR/WCAG21/#name-role-value">https://www.w3.org/TR/WCAG21/#name-role-value</sbb-link>
 

@@ -20,7 +20,7 @@ Reference 2: <sbb-link variant="inline" type="button" target="_blank" href="http
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Use standard elements{.with-icon}
 Both in HTML and in mobile apps, native elements save you a great deal of hassle. The elements are already optimised in terms of accessibility; otherwise their entire behaviour must be recreated. Tell this to your designer too if they are insisting on something.{.lead}
 
-Help for typical non-native elements: <sbb-link variant="inline" type="button" target="_blank" href="hthttps://inclusive-components.design">https://inclusive-components.design</sbb-link>
+Help for typical non-native elements: <sbb-link variant="inline" type="button" target="_blank" href="https://inclusive-components.design">https://inclusive-components.design</sbb-link>
 
 Reference: <sbb-link variant="inline" type="button" target="_blank" href="https://www.w3.org/TR/WCAG21/#name-role-value">https://www.w3.org/TR/WCAG21/#name-role-value</sbb-link>
 
