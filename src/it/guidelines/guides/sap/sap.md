@@ -7,13 +7,13 @@ parent: guides_it
 order: 6
 ---
 
-Le linee guida SAP sono un lavoro in corso. Al momento queste includono prime informazioni per applicazioni SAP coerenti con le FFS. Il fondamento è il <sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design/">SAP Fiori Design Concept</sbb-link>. Ulteriori informazioni al riguardo sono disponibili nella <sbb-link variant="inline" type="button" href="https://community.sap.com/topics/fiori">SAP Community</sbb-link>.{.lead}
+Le linee guida SAP sono un lavoro in corso. Al momento queste includono prime informazioni per applicazioni SAP coerenti con le FFS. Il fondamento è il <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design/">SAP Fiori Design Concept</sbb-link>. Ulteriori informazioni al riguardo sono disponibili nella <sbb-link variant="inline" type="button" target="_blank" href="https://community.sap.com/topics/fiori">SAP Community</sbb-link>.{.lead}
 
 ## Tema delle FFS
 
 ### Introduzione
 
-La base per lo sviluppo di applicazioni SAP FFS con un'esperienza utente coerente è il <sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design">SAP Fiori Design Concept</sbb-link>. Per rispettare le linee guida degli elementi del marchio FFS è stato definito il "Tema FFS" con il designer di temi SAP.{.lead}
+La base per lo sviluppo di applicazioni SAP FFS con un'esperienza utente coerente è il <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design">SAP Fiori Design Concept</sbb-link>. Per rispettare le linee guida degli elementi del marchio FFS è stato definito il "Tema FFS" con il designer di temi SAP.{.lead}
 
 Il tema FFS con logo FFS integrato e valori cromatici modificati è disponibile per le applicazioni interne sul gateway SAP e sulla piattaforma cloud SAP "Cloud Foundry".
 Contatto:  <sbb-link variant="inline" type="button" href="mailto:slc@sbb.ch"> DSRV SAP TechOps</sbb-link>{.lead}
@@ -46,7 +46,7 @@ Per creare estensioni visive con HTML e CSS per interfacce utente modificate o t
 ### Utilizzo
 Le icone servono come supporto visivo per gli argomenti e le azioni per gli utenti. Per utilizzarle nelle applicazioni SAP FFS è necessario utilizzare il font di icone SAP.{.lead}
 
-Se il set di icone SAP esistente non prevede l’icona di cui hai bisogno, hai la possibilità di richiederne altre su misura e nello stile SAP agli esperti UX delle Digital Solution o di <sbb-link variant="inline" type="button" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link>.{.lead}
+Se il set di icone SAP esistente non prevede l’icona di cui hai bisogno, hai la possibilità di richiederne altre su misura e nello stile SAP agli esperti UX delle Digital Solution o di <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/SBB-Icons.aspx">DSRV UX</sbb-link>.{.lead}
 
 La creazione autonoma di icone è consentita, ma deve essere approvata dal <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> o dal <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link> prima che queste icone vengano poste in uso. Resta buona norma nei prodotti digitali e nelle applicazioni prestare attenzione a non utilizzare icone con uno spessore delle linee diverso.{.lead}
 
@@ -58,8 +58,8 @@ La creazione autonoma di icone è consentita, ma deve essere approvata dal <sbb-
 * Le icone devono avere sempre lo stesso significato in tutte le applicazioni e in tutte le soluzioni digitali (per rispettarne la coerenza).{.lead}
 
 ### Collegamenti
-<sbb-link variant="inline" type="button" href="https://experience.sap.com/fiori-design-web/icons/">Linee guida per i caratteri delle icone SAP</sbb-link>
-<sbb-link variant="inline" type="button" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">Set di icone SAP</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design-web/icons/">Linee guida per i caratteri delle icone SAP</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">Set di icone SAP</sbb-link>
 
 
 <script>

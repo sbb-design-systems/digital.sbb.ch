@@ -22,7 +22,7 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 <section class="sbb-section-panel">
 
 ### Esempi
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Esempio 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Esempio 1</sbb-link>
 
 ### Formati
 - Wideboard (994 x 250)</li>
@@ -42,9 +42,9 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 <section class="sbb-section-panel">
 
 ### Beispiele
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Esempio 1</sbb-link>
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Esempio 2</sbb-link>
-<sbb-link variant="inline" type="button" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Esempio 3</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Esempio 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Esempio 2</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Esempio 3</sbb-link>
 
 ### Formati
 - Wide Skyscraper (160 x 600) </li>
@@ -63,7 +63,7 @@ Modelli HTML5 in versione download
 
 
 ## Contatto
-Domande sul Corporate Design: <sbb-link variant="inline" type="button" href="https://brand.sbb.ch/hub/2/it">Portale della marca FFS</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marca@ffs.ch">marca@ffs.ch</sbb-link>   
+Domande sul Corporate Design: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/it">Portale della marca FFS</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marca@ffs.ch">marca@ffs.ch</sbb-link>   
 Domande sull’accessibilità: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
 
 
