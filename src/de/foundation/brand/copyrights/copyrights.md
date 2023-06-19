@@ -27,4 +27,4 @@ Alle hier zur Verfügung gestellten Objekte sind geistiges Eigentum der SBB.
 - Keine Verwendung für politische oder religiösen Themen.
 - Keine Verwendung für Themen, welche gegen Sitte und Anstand verstossen, geschützten Persönlichkeitsrechte verletzen oder gegen sonstige gesetzliche Vorschriften verstossen.   
 
-Andere Verwendungszwecke müssen zwingend von der Markenführung der SBB genehmigt werden:<sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>.
+Andere Verwendungszwecke müssen zwingend von der Markenführung der SBB genehmigt werden: <sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>.

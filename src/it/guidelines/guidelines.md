@@ -3,7 +3,7 @@ layout: redirect.njk
 tags: toplevel
 key: guidelines_it
 title: Guidelines
-alternativetitle: SBB Guidelines die helfen.
+alternativetitle: Linee guida utili delle FFS.
 redirect: /it/guidelines/guides/accessibility/
 parent: it
 order: 5
