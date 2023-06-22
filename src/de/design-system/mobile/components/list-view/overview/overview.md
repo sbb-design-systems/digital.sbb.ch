@@ -15,4 +15,4 @@ parent: list-view-mobile_de
 *   Bei der Auflistung von mehreren, gleichartigen Elementen.{.lead}
 
 ## Regeln
-*   Die Liste enthält Elemente gemäss der Beschreibung unter <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/listen-eintrag">Listen-Eintrag</sbb-link>.{.lead}
+*   Die Liste enthält Elemente gemäss der Beschreibung unter <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/list-item">Listen-Eintrag</sbb-link>.{.lead}

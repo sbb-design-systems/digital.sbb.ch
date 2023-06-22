@@ -15,4 +15,4 @@ parent: message-mobile_de
 *   Beim Auftreten von technischen oder fachlichen Fehlern.{.lead}
 
 ## Regeln
-*   Für Fehleingaben werden Feldvalidierungen (z.B. beim <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/eingabefeld">Eingabefeld</sbb-link>) verwendet, nicht die Fehlermeldung.{.lead}
+*   Für Fehleingaben werden Feldvalidierungen (z.B. beim <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/text-input">Eingabefeld</sbb-link>) verwendet, nicht die Fehlermeldung.{.lead}

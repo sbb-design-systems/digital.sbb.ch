@@ -19,7 +19,7 @@ order: 20
 *   Zur Unterstützung der textuellen Kommunikation können Bilder eingesetzt werden (visuelle Kommunikation).{.lead}
 
 ## Regeln
-*   Die Aufbereitung von Bildern und Illustrationen ist durch die Vorgaben von KOM geregelt. Siehe Markenportal: <sbb-link variant="inline" type="button" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/foto.html">Foto</sbb-link> und <sbb-link variant="inline" type="button" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/illustrationen.html">Illustration</sbb-link>.{.lead}
+*   Die Aufbereitung von Bildern und Illustrationen ist durch die Vorgaben von KOM geregelt. Siehe Markenportal: <sbb-link variant="inline" type="button" target="_blank" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/foto.html">Foto</sbb-link> und <sbb-link variant="inline" type="button" target="_blank" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/illustrationen.html">Illustration</sbb-link>.{.lead}
 
 *   Grundsätzlich soll mit Bildern sparsam umgegangen werden.{.lead}
 

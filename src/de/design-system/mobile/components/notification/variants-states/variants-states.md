@@ -1,11 +1,11 @@
 ---
-tags: notifcation-mobile_de
+tags: notification-mobile_de
 title: Varianten
 icon: variantsstates
 order: 2
 permalink: false  
-key: notifcation-mobile-variantsstates_de
-parent: notifcation-mobile_de
+key: notification-mobile-variantsstates_de
+parent: notification-mobile_de
 ---
 
 ## Varianten

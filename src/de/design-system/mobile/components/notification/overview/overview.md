@@ -1,11 +1,11 @@
 ---
-tags: notifcation-mobile_de
+tags: notification-mobile_de
 title: Übersicht
 icon: overview
 order: 1
 permalink: false  
-key: notifcation-mobile-overview_de
-parent: notifcation-mobile_de
+key: notification-mobile-overview_de
+parent: notification-mobile_de
 ---
 
 ## Was macht die Komponente?
