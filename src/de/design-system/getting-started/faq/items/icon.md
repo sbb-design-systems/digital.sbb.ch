@@ -11,5 +11,5 @@ Sofern du fähig bist ein Icons selbst zu erstellen, so steht dir nichts im Weg.
 * Keine abgerundeten Linien
 * Reduziert und klar. Zeige nur die nötigsten Informationen
 
-Wenn du dich vertiefter mit SBB Icons auseinandersetzten willst, so kannst du dich <sbb-link variant="inline" href="https://confluence.sbb.ch/display/DSRVUX/Interesse+an+SBB+Icon+Schulung">hier</sbb-link> für eine Icon-Schulung anmelden.
+Wenn du dich vertiefter mit SBB Icons auseinandersetzten willst, so kannst du dich <sbb-link variant="inline" target="_blank" href="https://confluence.sbb.ch/display/DSRVUX/Interesse+an+SBB+Icon+Schulung">hier</sbb-link> für eine Icon-Schulung anmelden.
 Solltest du keine Kenntnisse bezüglich Icon-Design haben, so hilft Dir der UX-Service (<sbb-link variant="inline" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>) gerne weiter.
