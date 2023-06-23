@@ -1,6 +1,28 @@
 name: Continuous Integration
-on: [push, pull_request]
-
+on:
+  push:
+    branches:    
+      - 'main'
+  pull_request:
+    branches:    
+      - 'main'
+  workflow_dispatch:
+    inputs:
+      commit_type:
+        description: 'Commit Type'
+        required: true
+        default: 'refactor'
+        type: choice
+        options:
+        - feat
+        - fix
+        - refactor
+      commit_message:
+        description: 'Commit Type'
+        required: true
+        default: 'update icons'
+        type: string    
+        
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true

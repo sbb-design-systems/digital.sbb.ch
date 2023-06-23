@@ -4,22 +4,6 @@ on:
     tags:
       - '[0-9]+.[0-9]+.[0-9]+'
       - '[0-9]+.[0-9]+.[0-9]+-*'
-  workflow_dispatch:
-    inputs:
-      commit_type:
-        description: 'Commit Type'
-        required: true
-        default: 'refactor'
-        type: choice
-        options:
-        - feat
-        - fix
-        - refactor
-      commit_message:
-        description: 'Commit Type'
-        required: true
-        default: 'update icons'
-        type: string    
 
 permissions:
   packages: write
