@@ -46,6 +46,7 @@ module.exports = function (config) {
     config.addPassthroughCopy("src/assets/js");
     config.addPassthroughCopy("src/assets/downloads");
     config.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+    config.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
     config.addPlugin(eleventySass, [
         {
             compileOptions: {
