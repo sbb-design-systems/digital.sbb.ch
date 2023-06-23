@@ -1,0 +1,16 @@
+---
+layout: sitemap.njk
+tags: page
+key: sitemap
+title: Sitemap
+parent: root
+eleventyExcludeFromCollections: true
+permalink: /sitemap.xml
+---
+{% for page in collections.all %}
+    {% if page.url | url == "." %}{% else %}<url>
+        <loc>{{ site.url }}{{ page.url | url }}</loc>
+        <lastmod>{{ page.date.toISOString() }}</lastmod>
+        <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "weekly" }}</changefreq>
+    </url>{% endif %}
+{% endfor %}
