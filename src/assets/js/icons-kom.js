@@ -26,10 +26,14 @@ sizes.addEventListener('change', function() {
   let selectedFilter = sizes.value;
   let otherFilter = categories.value;
 
+
   iconlist.filter(function(item) {
 
       //console.log(item.values());
+ //     alert("selected"+selectedFilter);
+ //     alert("other"+otherFilter)
 
+      //if ((selectedFilter == "all" && otherFilter == "all") || (selectedFilter == "all" && otherFilter == undefined)) {
       if (selectedFilter == "all" && otherFilter == "all") {
         //alert("case 1");
           return true;
@@ -42,7 +46,7 @@ sizes.addEventListener('change', function() {
         //alert("case 3");
           return item;
       }
-      if (item.values().size.indexOf(selectedFilter) >= 0 && otherFilter == "all") {
+      if ((item.values().size.indexOf(selectedFilter) >= 0 && otherFilter == "all") || (item.values().size.indexOf(selectedFilter) >= 0 && otherFilter == undefined)) {
         //alert("case 4");
         return item;
       }

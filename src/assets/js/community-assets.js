@@ -49,14 +49,12 @@ button.addEventListener("click", () => buttonClicked(index));
 patterntypes.addEventListener('change', function() {
     let selectedFilter = patterntypes.value;
     let otherFilter = systems.value;
-
-
     
     communitylist.filter(function(item) {
-        if (selectedFilter == "all" && otherFilter == "all") {
-          //alert("case 1");
-            return true;
-        }
+      if ((selectedFilter == "all" && otherFilter == "all") || (selectedFilter == "all" && otherFilter == undefined)) {
+        //alert("case 5");
+          return true;
+      }
         if (selectedFilter == "all" && item.values().system === otherFilter) {
           //alert("case 2");
           return item;
@@ -79,7 +77,7 @@ systems.addEventListener('change', function() {
   let otherFilter = patterntypes.value;
 
   communitylist.filter(function(item) {
-      if (selectedFilter == "all" && otherFilter == "all") {
+      if ((selectedFilter == "all" && otherFilter == "all") || (selectedFilter == "all" && otherFilter == undefined)) {
         //alert("case 5");
           return true;
       }

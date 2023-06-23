@@ -1,8 +1,8 @@
 <sbb-form-field error-space="none" label="Category" size="l" width="default" borderless="true">
-    <select class="categories" id="categories">
-            <option value="all" selected="selected">Alle</option>
-            {% for category in categories %}
-                <option value="{{category}}">{{category}}</option>
-            {% endfor %}
-    </select>
+    <sbb-select class="categories" id="categories">
+        <sbb-option value="all" selected>Alle</sbb-option>
+        {% for category in categories %}
+        <sbb-option value="{{category}}">{{category}}</sbb-option>
+        {% endfor %}
+    </sbb-select>
 </sbb-form-field>
