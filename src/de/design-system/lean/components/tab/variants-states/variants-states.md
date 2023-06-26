@@ -1,6 +1,6 @@
 ---
 tags: tab-lean_de
-title: Zustände und Varianten_de
+title: Zustände und Varianten
 key: tab-lean-variants-states_de
 parent: tab-lean
 icon: variantsstates

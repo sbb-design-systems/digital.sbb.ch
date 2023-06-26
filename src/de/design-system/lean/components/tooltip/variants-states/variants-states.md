@@ -27,6 +27,6 @@ Die Komponente hat folgende Zustände:{.lead}
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/nAx0LVMACEr9tefiZRQkxv/Lean?node-id=13%3A8127&t=ZF5MfeXb0Gz2GkUw-1',
+  figma: 'https://www.figma.com/file/nAx0LVMACEr9tefiZRQkxv/Lean?type=design&node-id=13%3A8141&mode=design&t=WFRiwpqlU8uiqPiI-1',
   github: 'https://angular.app.sbb.ch/angular/components/tooltip?variant=lean'
 }) }}
