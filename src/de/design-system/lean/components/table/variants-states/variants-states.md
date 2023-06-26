@@ -88,7 +88,7 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 
 * Bei (Mehrfach-)Selektion von Elementen können übergreifende Aktionen angeboten werden.{.lead}
-* Für die Aktionen können alle Va von <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/button">Buttons</sbb-link> verwendet werden.{.lead}
+* Für die Aktionen können alle Varianten von <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/button">Buttons</sbb-link> verwendet werden.{.lead}
 * Die primäre Aktion ist links, die sekundären Aktionen stehen rechts davon.{.lead}
 * Es sollen maximal 3 Aktionen angeboten werden. Braucht es mehr, sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/contextmenu">Contextmenu</sbb-link> verwendet werden.{.lead}
 * Die übergreifenden Aktionen werden rechts oberhalb der Tabelle angeordnet.{.lead}
