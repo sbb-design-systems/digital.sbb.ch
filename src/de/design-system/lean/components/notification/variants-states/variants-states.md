@@ -44,7 +44,7 @@ Die Komponente hat folgende Zustände:{.lead}
 
 ### Fehler mit Sprungmarke 
 {{ imageOnGreyBackground({
-  url: '/assets/images/lean/',
+  url: '/assets/images/lean/notification_link',
   alt: 'Darstellung einer Benachrichtigung in der Variante Fehler mit Sprungmarke',
   title: 'Benachrichtigung in der Variante Fehler mit Sprungmarke'
 }) }}
