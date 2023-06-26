@@ -16,7 +16,7 @@ order: 10
 Das Logo wird bei allen SBB-Webseiten und -anwendungen eingesetzt.{.lead}
 
 ## Regeln
-* Das Logo tritt genau einmal pro Seite auf und befindet sich immer im <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/header">Header</sbb-link>.{.lead}
+* Das Logo tritt genau einmal pro Seite auf und befindet sich immer im Header.{.lead}
 * Die Positionierung ist immer rechts oben.{.lead}
 * Abwandlungen des Logos sind nicht erlaubt.{.lead}
 * Das Logo ist immer verlinkt auf SBB.ch.{.lead}

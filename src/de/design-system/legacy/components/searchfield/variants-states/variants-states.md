@@ -41,7 +41,7 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 * Durch Klick auf «Suchen» öffnet sich die Eingabemaske.{.lead}
 * Nach dem Auslösen der Suche, wird die Eingabemaske wieder ausgeblendet und nur der Link «Suchen» angezeigt.{.lead}
-* Diese Komponente darf nur im <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/header">Header</sbb-link> eingesetzt werden.{.lead}
+* Diese Komponente darf nur im Header eingesetzt werden.{.lead}
 * Beim Auslösen der Suche werden die Resultate auf einer eigenen Seite dargestellt.{.lead}
 * Während des Tippens werden maximal 4 Auto-Suggest Vorschläge angezeigt.{.lead}
 

@@ -32,6 +32,6 @@ Diese Variante hat folgende Zustände:{.lead}
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://angular.app.sbb.ch/angular/components/alert?variant=standard',
-  github: 'https://www.figma.com/file/BQzBsQBWB0TAIbpWMhss7P/Web-(Legacy)?node-id=201%3A133940&t=8HES1IZKZfP9aXCY-1'
+  figma: 'https://www.figma.com/file/BQzBsQBWB0TAIbpWMhss7P/Web-(Legacy)?node-id=201%3A133940&t=8HES1IZKZfP9aXCY-1',
+  github: 'https://angular.app.sbb.ch/angular/components/alert?variant=standard'
 }) }}

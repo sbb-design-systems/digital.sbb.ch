@@ -41,7 +41,7 @@ permalink: false
 ## Spezifikationen
 {{ specificationLinks({
   figma: 'https://www.figma.com/file/BQzBsQBWB0TAIbpWMhss7P/Web-(Legacy)?node-id=13%3A7889&t=8HES1IZKZfP9aXCY-1',
-  github: 'https://angular.app.sbb.ch/angular/components/loading?variant=standard'
+  github: 'https://angular.app.sbb.ch/angular/components/loading-indicator?variant=standard'
 }) }}
 
 
