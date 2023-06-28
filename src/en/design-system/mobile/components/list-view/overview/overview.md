@@ -15,4 +15,4 @@ parent: list-view-mobile_en
 *   For listing several elements of the same kind.{.lead}
 
 ## Rules
-*   The list contains elements as per the description under <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/listen-eintrag">list item</sbb-link>.{.lead}
+*   The list contains elements as per the description under <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/list-item">list item</sbb-link>.{.lead}

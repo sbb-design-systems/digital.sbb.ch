@@ -15,4 +15,4 @@ parent: message-mobile_en
 *   When technical errors occur.{.lead}
 
 ## Rules 
-*   Error validations are used for error entries (e.g. in the <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/eingabefeld">input field</sbb-link>), not error messages.{.lead}
+*   Error validations are used for error entries (e.g. in the <sbb-link variant="inline" type="button" href="/{{page.lang}}//design-system/mobile/components/text-input">input field</sbb-link>), not error messages.{.lead}
