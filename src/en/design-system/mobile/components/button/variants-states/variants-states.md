@@ -34,7 +34,7 @@ The component has the following states:{.lead}
 
 
 ### Tertiary
-#### Label und Icon
+#### Label and Icon
 {{ imageWithMode({
   url: '/assets/images/mobile/Tertiary-label-and-icon',
   alt: 'Darstellung des tertiary button with label and icon',
@@ -56,7 +56,7 @@ The component has the following states:{.lead}
 }) }}
 
 ### Tertiary small
-#### Label und Icon
+#### Label and Icon
 {{ imageWithMode({
   url: '/assets/images/mobile/Tertiary-small-label-and-icon',
   alt: 'Image of the tertiary button, small with label and icon',
