@@ -5,7 +5,7 @@ key: link-list-lyne-specification_de
 parent: link-list-lyne_de
 icon: specification
 order: 2
-permalink-list: false
+permalink: false
 eleventyExcludeFromCollections: true
 ---
 

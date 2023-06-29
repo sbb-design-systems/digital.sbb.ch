@@ -5,7 +5,7 @@ key: link-list-lyne-implementation_de
 parent: link-list-lyne_de
 icon: implementation
 order: 3
-permalink-list: false  
+permalink: false  
 ---
  {{ implementation | safe }}
 
