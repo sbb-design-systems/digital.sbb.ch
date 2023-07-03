@@ -15,7 +15,8 @@ Le linee guida SAP sono un lavoro in corso. Al momento queste includono prime in
 
 La base per lo sviluppo di applicazioni SAP FFS con un'esperienza utente coerente è il <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design">SAP Fiori Design Concept</sbb-link>. Per rispettare le linee guida degli elementi del marchio FFS è stato definito il "Tema FFS" con il designer di temi SAP.{.lead}
 
-Il tema FFS con logo FFS integrato e valori cromatici modificati è disponibile per le applicazioni interne sul gateway SAP e sulla piattaforma cloud SAP "Cloud Foundry".
+
+Il tema FFS con logo FFS integrato e valori cromatici modificati è disponibile per le applicazioni interne sul SAP Fiori Launchpad e sulla SAP Business Technology Platform (BTP)".
 Contatto:  <sbb-link variant="inline" type="button" href="mailto:slc@sbb.ch"> DSRV SAP TechOps</sbb-link>{.lead}
 
 Per creare estensioni visive con HTML e CSS per interfacce utente modificate o temi per specifici portali clienti o ERP, come l'"Immobilien Kunden Cockpit" ti incoraggiamo a contattare <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">la Direzione del Marchio FFS</sbb-link>.{.lead}
@@ -32,7 +33,7 @@ Per creare estensioni visive con HTML e CSS per interfacce utente modificate o t
 ## Logo
 
 ### Utilizzo
-* Il logo è utilizzato in tutte le applicazioni SAP delle FFS ed è incorporato nel tema FFS.{.lead}
+* Il logo è utilizzato in tutte le applicazioni web SAP delle FFS ed è incorporato nel tema FFS.{.lead}
 
 ### Regole
 * Il logo appare esattamente una volta per pagina e si trova sempre nell'intestazione.{.lead}
