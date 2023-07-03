@@ -14,7 +14,7 @@ The SAP guidelines are a work in progress. At the moment it consists of first in
 ### Introduction
 The basis to developing SBB SAP applications with consistent user experience forms the  <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design">SAP Fiori Design Concept</sbb-link>. To comply with the guidelines of the SBB brand elements the "SBB Theme" has been defined with the SAP theme designer.{.lead}
 
-The SBB Theme with integrated SBB logo and modified colour values is available for internal applications on the SAP gateway and SAP cloud platform service «Cloud Foundry».
+The SBB Theme with integrated SBB logo and modified colour values is available for internal applications on the SAP Fiori Launchpad and SAP Business Technology Platform (BTP).
 Contact: <sbb-link variant="inline" type="button" href="mailto:slc@sbb.ch"> DSRV SAP TechOps</sbb-link>{.lead}
 
 
@@ -34,7 +34,7 @@ To build visual extensions with HTML and CSS for modified user interfaces or the
 ## Logo
 
 ### Usage
-* The logo is used in all SBB SAP applications and is embedded in the SBB Theme.{.lead}
+* The logo is used in all SBB SAP web applications and is embedded in the SBB Theme.{.lead}
 
 ### Rules
 * The logo appears exactly once per page and is always in the header.{.lead}

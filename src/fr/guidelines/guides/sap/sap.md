@@ -15,7 +15,7 @@ Les directives de conception SAP sont encore en cours d'élaboration. Actuelleme
 ### Introduction
 Pour réaliser des applications SAP CFF avec une expérience utilisateur cohérente, les <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design">directives de conception SAP Fiori</sbb-link> constituent la base. Afin de respecter les directives relatives aux éléments de la marque CFF, un "thème CFF" a été défini à l'aide du concepteur de thèmes SAP.{.lead}
 
-Le thème CFF est disponible avec le logo CFF intégré et des valeurs de couleur modifiées pour les applications internes sur SAP Gateway et SAP Cloud Platform Service "Cloud Foundry".
+Le thème CFF est disponible avec le logo CFF intégré et des valeurs de couleur modifiées pour les applications internes sur SAP Fiori Launchpad et SAP Business Technology Platform (BTP).
 Contact: <sbb-link variant="inline" type="button" href="mailto:slc@sbb.ch"> DSRV SAP TechOps</sbb-link>{.lead}
 
 Pour une conception étendue utilisant HTML et CSS pour des interfaces utilisateur modifiées ou des thèmes pour des portails clients ou ERP spécifiques, tels que le "Real Estate Customer Cockpit", veuillez contacter la <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">gestion de la marque CFF</sbb-link>.{.lead}
@@ -33,7 +33,7 @@ Pour une conception étendue utilisant HTML et CSS pour des interfaces utilisate
 ## Logo
 
 ### Utilisation
-- Le logo est utilisé dans toutes les applications SAP des CFF et est déjà intégré dans le thème des CFF.{.lead}
+- Le logo est utilisé dans toutes les applications web SAP des CFF et est déjà intégré dans le thème des CFF.{.lead}
 
 ### Règles
 - Le logo apparaît exactement une fois par page et se trouve toujours dans l'en-tête.{.lead}
