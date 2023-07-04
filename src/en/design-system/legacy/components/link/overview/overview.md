@@ -12,7 +12,7 @@ permalink: false
 Links create connections between information or pages.{.lead}
 
 ## When should the component be used?
-When jumping from one page to another (internal or external) or to a <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/lightbox">lightbox</sbb-link>.{.lead}
+When jumping from one page to another (internal or external) or to a <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/dialog">lightbox</sbb-link>.{.lead}
 
 ## Rules
 * There is no visual distinction between internal and external links.{.lead}

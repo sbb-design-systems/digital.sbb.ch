@@ -59,19 +59,19 @@ The Next Best Click container does not have any cross-viewport states as they be
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
-  url: '/assets/images/legacy/nbc_behaviour_ensktop_default',
+  url: '/assets/images/legacy/nbc_behaviour_desktop_default',
   alt: 'Image of the behaviour of a Next Best Click container on desktops and with higher resolutions',
   title: 'Next Best Click container on desktops and with higher resolutions'
 }) }}
 
 #### Special case: NBC box within an accordion
-* A NBC box is never minimised when used within an <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/accordion">Accordion</sbb-link>.
+* A NBC box is never minimised when used within an <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/accordion">accordion</sbb-link>.
 * Only one NBC box can be inserted into an accordion.
 * When scrolling, the NBC box remains sticky on the top edge to the end of the content area of the accordion, after which the box continues to be scrolled with the content.
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
-  url: '/assets/images/legacy/nbc_behaviour_ensktop_accordion',
+  url: '/assets/images/legacy/nbc_behaviour_desktop_accordion',
   alt: 'Image of the behaviour of a Next Best Click within an accordion',
   title: 'Next Best Click within an accordion'
 }) }}

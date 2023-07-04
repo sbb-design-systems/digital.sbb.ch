@@ -39,8 +39,8 @@ The component has the following states:{.lead}
   title: 'Darstellung der Komponente Suchfeld integriert im Header'
 }) }}
 * The entry mask opens when ‘search’ is clicked on.{.lead}
-* After the search has been started, the entry mask is hidden again and only the ‘Search’ link is displayed.{.lead}
-* This module can only be inserted in the <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/header">header</sbb-link>.{.lead}
+* After the search has been started, the entry mask is hidden again and only the ‘search’ link is displayed.{.lead}
+* This module can only be inserted in the header.{.lead}
 * When the search is triggered, the results are displayed on a separate page.{.lead}
 * When typing a maximum of four auto-suggest proposals are shown.{.lead}
 

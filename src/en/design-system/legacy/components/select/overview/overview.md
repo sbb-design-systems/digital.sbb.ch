@@ -13,7 +13,7 @@ It is used for the selection of one or more options from a pre-defined list.{.le
 
 ## When should the component be used?
 * When selecting from several options (single or multiple choice) in a list.{.lead}
-* If a selection must be made where the entries mutually exclude one another and no default value is to be set (in contrast to the <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/radiobutton">radio button</sbb-link> element).{.lead}
+* If a selection must be made where the entries mutually exclude one another and no default value is to be set (in contrast to the <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/radiobutton">radiobutton</sbb-link> element).{.lead}
 * When selection options are to be grouped.{.lead}
 
 ## Rules

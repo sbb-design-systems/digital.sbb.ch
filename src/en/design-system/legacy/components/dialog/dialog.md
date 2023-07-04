@@ -5,7 +5,7 @@ tags:
     - legacy_components_en
     - page
 key: lightbox-legacy_en
-title: lightbox
+title: Lightbox
 parent: components-legacy_en
 image: legacy/overview/lightbox.webp
 keywords: 

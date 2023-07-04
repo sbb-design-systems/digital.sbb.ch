@@ -18,7 +18,7 @@ Whenever a date value is required from the user.{.lead}
 * Date information is always single-line.{.lead}
 * The date selection always has a label.{.lead}
 * Optional date entries include the text ‘(optional)’ behind the label. The text ‘(optional)’ can be abbreviated as ‘(opt.)’ in short fields.{.lead}
-* A question mark in the circle can also be shown – in addition to the label – for detailed explanations. A <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">Tooltip</sbb-link> opens when this question mark is clicked on.{.lead}
+* A question mark in the circle can also be shown – in addition to the label – for detailed explanations. A <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">tooltip</sbb-link> opens when this question mark is clicked on.{.lead}
 * The date can be entered manually by clicking on the date field. The digit entry keypad of the system concerned appears on touch devices.{.lead}
 * The point must always be entered by the user with manual entry. The element then takes over the correct formatting, i.e. entries like 1.1.18 must be accepted and put into the required format.{.lead}
 * A calendar layer for the selection of the date opens when the calendar icon is clicked on. This is closed again by clicking outside of the calendar layer.{.lead}

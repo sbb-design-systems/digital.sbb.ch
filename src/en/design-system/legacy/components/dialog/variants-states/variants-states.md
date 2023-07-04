@@ -26,7 +26,8 @@ permalink: false
 * A lightbox with form elements contains at least a ‘cancel’ and an ‘apply’ button.{.lead}
 * The ‘cancel’ button closes the lightbox again.{.lead}
 * If the lightbox is closed (‘cancel’ or X-button) when existing entries in the form have been changed, a warning message appears indicating that the form contains unsaved data.{.lead}
-* The buttons of a form (‘cancel’, ‘apply’, other functions) may be inserted in the footer. * The footer is always sticky and is displayed across the entire width of the lightbox (the same as the header).{.lead}
+* The buttons of a form (‘cancel’, ‘apply’, other functions) may be inserted in the footer. 
+* The footer is always sticky and is displayed across the entire width of the lightbox (the same as the header).{.lead}
 
 ## Specification
 {{ specificationLinks({

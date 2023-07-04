@@ -15,10 +15,10 @@ It expands an existing text to show more information.{.lead}
 For long additional information.{.lead}
 
 ## Rules
-* The text expand can only be used for texts.{.lead}
+* The textexpand can only be used for texts.{.lead}
 * Apart from hiding, no further interaction elements can be used when expanded.{.lead}
 * The separation of the texts must ensure that the context of all the information is clear when expanded.{.lead}
 * It can only be used for multi-line texts.{.lead}
 * Complex structures are not permitted.{.lead}
-* The text expand cannot be used for structuring elements.{.lead}
+* The textexpand cannot be used for structuring elements.{.lead}
 * The title and other structural elements are not permitted when collapsed.{.lead}
