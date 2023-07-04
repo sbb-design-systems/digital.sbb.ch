@@ -15,6 +15,6 @@ It is used for logging in/logging out and provides the user logged in with a men
 Whenever the user should be able to log into an application.{.lead}
 
 ## Rules
-* The user menu is always positioned in the header and can only be used there.{.lead}
-* The expanded user menu can be closed by clicking outside of the dropdown.{.lead}
+* The usermenu is always positioned in the header and can only be used there.{.lead}
+* The expanded usermenu can be closed by clicking outside of the dropdown.{.lead}
 * The last menu item in the list is always ‘log out’.{.lead}
