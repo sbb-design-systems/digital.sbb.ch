@@ -34,11 +34,6 @@ The following styles are distinguished for images:{.lead}
 * Illustration{.lead}
 * Infographics{.lead}
 
-Bei Bildern werden folgende Stile unterschieden:{.lead}
-* Fotografie{.lead}
-* Illustration{.lead}
-* Infografik{.lead}
-
 ### Key Visual
 * Use only photographs (not illustrations).{.lead}
 * Key visuals do not contain information.{.lead}
