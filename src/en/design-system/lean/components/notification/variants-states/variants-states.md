@@ -44,7 +44,7 @@ The component has the following states:{.lead}
 
 ### Error with jump marker 
 {{ imageOnGreyBackground({
-  url: '/assets/images/lean/',
+  url: '/assets/images/lean/notification_link',
   alt: 'Image of notification message, jump marker',
   title: 'Notification message, jump marker'
 }) }}
