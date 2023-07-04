@@ -1,6 +1,6 @@
 ---
 tags: status-lean_en
-title: States and variants_en
+title: States and variants
 key: status-lean-variants-states_en
 parent: status-lean
 icon: variantsstates

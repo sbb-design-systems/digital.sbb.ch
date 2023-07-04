@@ -1,6 +1,6 @@
 ---
 tags: tab-lean_en
-title: States and variants_en
+title: States and variants
 key: tab-lean-variants-states_en
 parent: tab-lean
 icon: variantsstates
