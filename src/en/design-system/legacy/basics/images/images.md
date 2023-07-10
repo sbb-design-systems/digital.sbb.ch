@@ -41,7 +41,7 @@ The following styles are distinguished for images:{.lead}
     * Pictures and videos are always treated equally.{.lead}
 * Key visuals never have captions or copyright information.{.lead}
 * Key visuals have a fixed format for each end device, the image section adapts to the viewport.{.lead}
-* Key visuals can be implemented as <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/mediaslider">mediaslider</sbb-link>.{.lead}
+* Key visuals can be implemented as <sbb-link variant="inline" href="/en/design-system/legacy/components/mediaslider">mediaslider</sbb-link>.{.lead}
 * No description text is allowed.{.lead}
 
 ### Formats

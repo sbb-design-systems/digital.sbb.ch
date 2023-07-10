@@ -16,7 +16,7 @@ order: 60
 The company font ‘SBB Web’ is used as a web font and in the styles Thin, Light, Roman and Bold.{.lead}
 
 ## Style
-The font styles defined here form the base of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" href="/{{page.lang}}/foundation/colors/base-colors/">SBB colors</sbb-link> apply to font colors.{.lead}
+The font styles defined here form the base of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" href="/en/foundation/colors/base-colors/">SBB colors</sbb-link> apply to font colors.{.lead}
 
 ### Heading H1
 {{ imageOnGreyBackground({
@@ -77,7 +77,7 @@ The font styles defined here form the base of web applications and their compone
   title: 'Link'
 }) }}
 * Is used as a standard link within texts.{.lead}
-* Further information about links can be found at <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/link">link</sbb-link>.{.lead}
+* Further information about links can be found at <sbb-link variant="inline" href="/en/design-system/legacy/components/link">link</sbb-link>.{.lead}
 
 ### Subtext
 {{ imageOnGreyBackground({
@@ -92,7 +92,7 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the table header style',
   title: 'Table header'
 }) }}
-* The definition of the table as a component can be found under <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/table">table</sbb-link>.{.lead}
+* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>.{.lead}
 
 
 ### Table data
@@ -101,7 +101,7 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the table data style',
   title: 'Table data'
 }) }}
-* The definition of the table as a component can be found under <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/table">table</sbb-link>.{.lead}
+* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>.{.lead}
 
 ### Structured list
 {{ imageOnGreyBackground({

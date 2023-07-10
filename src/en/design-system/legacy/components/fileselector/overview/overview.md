@@ -15,9 +15,9 @@ It is used for uploading files.{.lead}
 When an application requires one or more files from a user.{.lead}
 
 ## Rules 
-* Clicking on the ‘upload file’ <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/button">button</sbb-link> opens the system’s file browser.{.lead}
+* Clicking on the ‘upload file’ <sbb-link variant="inline" href="/en/design-system/legacy/components/button">button</sbb-link> opens the system’s file browser.{.lead}
 * The uploaded files are displayed in a list.{.lead}
 * The list is sorted according to the chronological order of the upload.{.lead}
 * An individual file can be removed from the list using the trash icon.{.lead}
 * The list entry contains the icon of the file type, the file name and the file type and file size in brackets.{.lead}
-* The file upload always indicates above the <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/button">button</sbb-link> which file types and sizes can be uploaded.{.lead}
+* The file upload always indicates above the <sbb-link variant="inline" href="/en/design-system/legacy/components/button">button</sbb-link> which file types and sizes can be uploaded.{.lead}

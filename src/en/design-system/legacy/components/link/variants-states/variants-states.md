@@ -57,7 +57,7 @@ The component has the following states:{.lead}
 }) }}
 
 ### Specification
-The standard link is not an independent component but is instead defined directly in the <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/basics/typography">typography</sbb-link> area.{.lead}
+The standard link is not an independent component but is instead defined directly in the <sbb-link variant="inline" href="/en/design-system/legacy/basics/typography">typography</sbb-link> area.{.lead}
 
 {{ specificationLinks({
   figma: 'https://www.figma.com/file/BQzBsQBWB0TAIbpWMhss7P/Web-(Legacy)?node-id=13%3A7875&t=8HES1IZKZfP9aXCY-1'

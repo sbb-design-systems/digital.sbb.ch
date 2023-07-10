@@ -19,5 +19,5 @@ For information and errors that concern an entire application.{.lead}
 * The ghettobox is always directly below the header.{.lead}
 * The ghettobox is not sticky but instead scrolls away with the content.{.lead}
 * The text can be multi-line.{.lead}
-* There is always an <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">icon</sbb-link> in a red area (HIM/CUS icons) in front of the text.{.lead}
+* There is always an <sbb-link variant="inline" href="/en/foundation/assets/icons/">icon</sbb-link> in a red area (HIM/CUS icons) in front of the text.{.lead}
 * If several ghettoboxes are used at the same time, they are arranged beneath one another.{.lead}

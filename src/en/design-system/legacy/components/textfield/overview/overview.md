@@ -17,7 +17,7 @@ When an entry is required from the user.{.lead}
 ## Rules
 * An entry field always has a label.{.lead}
 * Optional entries include the text ‘(optional)’ behind the label text. The text ‘(optional)’ can be shortened to ‘(opt.)’ for short fields.{.lead}
-* A question mark in the circle – in addition to the label – can be used for detailed explanations. A <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">tooltip</sbb-link> opens when this question mark is clicked on.{.lead}
+* A question mark in the circle – in addition to the label – can be used for detailed explanations. A <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip">tooltip</sbb-link> opens when this question mark is clicked on.{.lead}
 * The entry text is always single-line.{.lead}
 * If the text becomes longer than the width of the entry field during the entry, the text entered is pushed to the left so that what is currently being written can always be seen.{.lead}
 * After leaving the entry field with a long text, this is cut off at the end and designated with “…”.{.lead}

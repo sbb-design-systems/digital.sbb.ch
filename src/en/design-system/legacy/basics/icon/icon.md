@@ -13,7 +13,7 @@ order: 30
 ---
 
 ## Use
-Icons provide visual support for themes and actions. The icons in the SBB style must be used in SBB applications. Details on this and a set of already available icons can be found <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">here</sbb-link>.{.lead}
+Icons provide visual support for themes and actions. The icons in the SBB style must be used in SBB applications. Details on this and a set of already available icons can be found <sbb-link variant="inline" href="/en/foundation/assets/icons/">here</sbb-link>.{.lead}
 
 ## Rules
 * The use of icons within body copy should be avoided as far as possible.{.lead}

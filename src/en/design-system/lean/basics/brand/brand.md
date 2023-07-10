@@ -16,7 +16,7 @@ order: 10
 * The logo is used in all SBB applications.{.lead}
 
 ## Rules
-* The logo appears exactly once per page and is always located in the <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/header">header</sbb-link>.{.lead}
+* The logo appears exactly once per page and is always located in the <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/header">header</sbb-link>.{.lead}
 * It is always positioned top right.{.lead}
 * Variations of the logo are not permitted.{.lead}
 * The logo is not linked.{.lead}

@@ -26,7 +26,7 @@ This variant has the following states:{.lead}
   alt: 'Image of the ghettobox with link',
   title: 'Ghettobox with link'
 }) }}
-* If the text contains another <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/link">link</sbb-link>, the ghettobox distinguishes between the statuses of normal and hover.{.lead}
+* If the text contains another <sbb-link variant="inline" href="/en/design-system/legacy/components/link">link</sbb-link>, the ghettobox distinguishes between the statuses of normal and hover.{.lead}
 * There is always an arrow icon at the end of the text.{.lead}
 * The entire area of the ghettobox can be clicked on and opens the link inserted (except above the X-icon).{.lead}
 
