@@ -16,7 +16,7 @@ permalink: false
 
 ## Rules 
 * The text expand can only be used for texts.{.lead}
-* Apart from the <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/link">link</sbb-link> ‘show less’, no further interaction elements can be used when expanded.{.lead}
+* Apart from the <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/link">link</sbb-link> ‘show less’, no further interaction elements can be used when expanded.{.lead}
 * The separation of the texts must ensure that the context of all the information is clear when expanded.{.lead}
 * Can only be used in multi-line texts.{.lead}
 * Multiple complex structures are not permitted.{.lead}

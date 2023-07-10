@@ -22,4 +22,4 @@ permalink: false
 * The text can be multi-line.{.lead}
 * In addition to the actual radio button, the entire text can also be used as a click target.{.lead}
 * A title can be used above a radio button group.{.lead}
-* A question mark in the circle can also be shown – in addition to the title – for detailed explanations on a radio button group. A <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">tooltip</sbb-link> opens if this question mark is clicked on.{.lead}
+* A question mark in the circle can also be shown – in addition to the title – for detailed explanations on a radio button group. A <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/tooltip">tooltip</sbb-link> opens if this question mark is clicked on.{.lead}

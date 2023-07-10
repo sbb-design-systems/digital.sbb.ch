@@ -17,7 +17,7 @@ permalink: false
 ## Rules    
 * Date details are always single-line.{.lead}
 * The date selection always has a label.{.lead}
-* A question mark in the circle – in addition to the label – can be used for detailed explanations. A <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">tooltip</sbb-link> opens when clicking on this question mark.{.lead}
+* A question mark in the circle – in addition to the label – can be used for detailed explanations. A <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/tooltip">tooltip</sbb-link> opens when clicking on this question mark.{.lead}
 * The date can be entered by hand by clicking in the date field.{.lead}
     * Manual entry allows the following entries, which are automatically formatted correctly by the component (e.g. 1 January 2020):{.lead}
         * '010120'{.lead}

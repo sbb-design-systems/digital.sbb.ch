@@ -18,7 +18,7 @@ permalink: false
 
 ## Rules
 * Cannot be used within body copy.{.lead}
-* Cannot be used in the <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/header">header</sbb-link>  as navigation or a function.{.lead}
+* Cannot be used in the <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/header">header</sbb-link>  as navigation or a function.{.lead}
 * The minimum width is 60px.{.lead}
 * The width increases with the text length. The width is 100% for mobile views.{.lead}
 * If the text is still too long when the maximum length is reached, it is shortened with “...”.{.lead}

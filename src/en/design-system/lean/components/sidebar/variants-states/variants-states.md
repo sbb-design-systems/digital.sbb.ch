@@ -21,7 +21,7 @@ This variant has following states:{.lead}
 }) }}
 
 * The menu items can be divided into categories / areas.{.lead}
-* For the categories you can choose between <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/accordion">accordion</sbb-link> and <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/fieldset">fieldset</sbb-link> when using the sidebar.{.lead}
+* For the categories you can choose between <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/accordion">accordion</sbb-link> and <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/fieldset">fieldset</sbb-link> when using the sidebar.{.lead}
 
 ### Icon bar
 This variant has following states:{.lead}

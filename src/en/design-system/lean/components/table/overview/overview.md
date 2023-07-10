@@ -23,5 +23,5 @@ permalink: false
 * Units of measurement in content are ideally entered on the second line of the column header. Alternatively, they can appear directly next to the column header name in round brackets.{.lead}
 * Horizontal scrolling should be avoided as far as possible.{.lead}
 * Columns can be put into logical groups. There is no dividing line between grouped columns.{.lead}
-* Large amounts of data can be divided up using <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/pagination">pagination</sbb-link>. Alternatively, infinite scrolling can be used if required.{.lead}
+* Large amounts of data can be divided up using <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/pagination">pagination</sbb-link>. Alternatively, infinite scrolling can be used if required.{.lead}
 * Keyboard operation: between the lines can be navigated using the arrow keys (up, down).{.lead}

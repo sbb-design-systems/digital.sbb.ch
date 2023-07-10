@@ -22,4 +22,4 @@ permalink: false
 * The text can be multi-line.{.lead}
 * In addition to the actual checkbox, the entire text can also be used as a click target.{.lead}
 * A title can be used above a checkbox group.{.lead}
-* A question mark in the circle can be show – in addition to the title – for detailed explanations on a checkbox group. A <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">tooltip</sbb-link> opens when this question mark is clicked on.{.lead}
+* A question mark in the circle can be show – in addition to the title – for detailed explanations on a checkbox group. A <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/tooltip">tooltip</sbb-link> opens when this question mark is clicked on.{.lead}

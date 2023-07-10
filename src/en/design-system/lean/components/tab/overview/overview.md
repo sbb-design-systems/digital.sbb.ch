@@ -19,5 +19,5 @@ permalink: false
 * The first tab is always selected by default.{.lead}
 * The tab names are always single-line.{.lead}
 * The tab name should be as simple and concise as possible so that the themes can be quickly understood.{.lead}
-* If the tab is too long for the viewport, the width is shortened and the names are shortened with “…”. When hovering over the tab, the complete name appears in a <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">tooltip</sbb-link>.{.lead}
+* If the tab is too long for the viewport, the width is shortened and the names are shortened with “…”. When hovering over the tab, the complete name appears in a <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/tooltip">tooltip</sbb-link>.{.lead}
 * Another tab component is not permitted within a tab (tab-in-tab).{.lead}
