@@ -17,8 +17,7 @@
     @include sbb.mq($from: wide) {
         grid-template-columns: repeat(4, 1fr);
     }
-    sbb-group {
-        --sbb-group-padding: 0;
+    sbb-card {
         overflow: hidden;
     }
 }
@@ -29,16 +28,26 @@
 .color {
     .preview {
         height: var(--sbb-spacing-fixed-24x);
-        width: 100%;
         display: block;
+        width: calc(100% + 48px);
+        margin-left: -24px;
+        margin-right: -24px;
+        margin-top: -12px;
         border-top-left-radius: 11px;
         border-top-right-radius: 11px;
+
+        @include sbb.mq($from: medium) {
+            width: calc(100% + 64px);
+            margin-left: -32px;
+            margin-right: -32px;
+            margin-top: -16px;
+        }
     }
     sbb-title {
         margin-top: var(--sbb-spacing-fixed-4x);
     }
     .info {
-        margin: var(--sbb-spacing-fixed-4x);
+        margin-top: var(--sbb-spacing-fixed-4x);
     }
     p {
         margin:0;

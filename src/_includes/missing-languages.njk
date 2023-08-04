@@ -1,6 +1,6 @@
 
 {% if availablelanguages.length %}
-<sbb-group color="transparent" padding="s-s">
+<sbb-card color="transparent-bordered" size="xxl">
  <p class="no-margin">{{ translations[page.lang].missingtranslation }}: 
         {%- for lang in availablelanguages  -%}
              {% for loc in translations.languages -%}
@@ -10,6 +10,6 @@
         {% endfor -%}
     {%- endfor -%}
     </p>
-</sbb-group>
+</sbb-card>
 {% endif %}
 

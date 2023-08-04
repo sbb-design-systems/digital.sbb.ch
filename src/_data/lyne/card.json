@@ -2,12 +2,12 @@
     "label":"Card",
     "id":"sbb-card",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-card--docs#stories",
-    "tag":"<sbb-card class='demo-item' size='m' color='white' href='#' target='_blank'><sbb-card-badge class='badge' slot='badge' appearance='primary' is-discount='' price='19.99' text='from CHF'></sbb-card-badge>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor blandit odio, ut blandit libero cursus vel. Nunc eu congue mauris. Quisque sed facilisis leo. Curabitur malesuada, nibh ac blandit vehicula, urna sem scelerisque magna, sed tincidunt neque arcu ac justo.</sbb-card>",
+    "tag": "<div><p>Interaktiv</p><sbb-card class='demo-item' size='m' color='white'><sbb-card-action class='demo-link' href='https://www.sbb.ch' target='_blank'>Buy a ticket</sbb-card-action><sbb-card-badge slot='badge' class='badge' color='charcoal'><span>%</span><span>from CHF</span><span>92.50</span><span><time datetime='2021-11-25'>Black Friday</time></span></sbb-card-badge>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor blandit odio, ut blandit libero cursus vel. Nunc eu congue mauris. Quisque sed facilisis leo. Curabitur malesuada, nibh ac blandit vehicula, urna sem scelerisque magna, sed tincidunt neque arcu ac justo.</sbb-card><br><br><p>Statisch</p><sbb-card class='demo-item' size='m' color='white'><sbb-card-badge slot='badge' class='badge' color='charcoal'><span>%</span><span>from CHF</span><span>92.50</span><span><time datetime='2021-11-25'>Black Friday</time></span></sbb-card-badge>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor blandit odio, ut blandit libero cursus vel. Nunc eu congue mauris. Quisque sed facilisis leo. Curabitur malesuada, nibh ac blandit vehicula, urna sem scelerisque magna, sed tincidunt neque arcu ac justo.</sbb-card></div>",
     "configuration" : [
         {
             "id":"color",
             "target":"demo-item",
-            "default":"white",
+            "default":"milk",
             "mode":"property",
             "radios" : [
             {
@@ -22,7 +22,7 @@
         {
             "id":"size",
             "target":"demo-item",
-            "default":"xs",
+            "default":"m",
             "mode":"property",
             "radios" : [{
                 "value":"xs",
@@ -51,7 +51,7 @@
         },
         {
             "id":"active",
-            "target":"demo-item",
+            "target":"demo-link",
             "default":"false",
             "mode":"property",
             "radios" : [{
@@ -66,10 +66,10 @@
         {
             "id":"badge",
             "target":"badge",
-            "default":"no",
+            "default":"badge",
             "mode":"slot",
             "radios" : [{
-                "value":"no",
+                "value":"test",
                 "id":"false"
             },
             {

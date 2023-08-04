@@ -1,3 +1,5 @@
+/*
+
 @font-face {
     font-family: "SBBWeb Bold";
     src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff2")
@@ -24,3 +26,35 @@
             format("woff");
     font-display: fallback;
 }
+
+*/
+
+/*
+@font-face {
+    font-family: "SBBWeb Bold";
+    src: url("../fonts/SBB-Bold.woff2")
+            format("woff2"),
+        url("../fonts/SBB-Bold.woff")
+            format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SBBWeb Light";
+    src: url("../fonts/SBB-Light.woff2")
+            format("woff2"),
+        url("../fonts/SBB-Light.woff")
+            format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SBBWeb Roman";
+    src: url("../fonts/SBB-Roman.woff2")
+            format("woff2"),
+        url("../fonts/SBB-Roman.woff")
+            format("woff");
+    font-display: fallback;
+}
+
+*/
