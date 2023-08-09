@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: overview.njk
 tags: page
 key: components-maps_de
 title: Informationen
