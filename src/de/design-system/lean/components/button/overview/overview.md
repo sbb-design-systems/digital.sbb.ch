@@ -18,7 +18,7 @@ permalink: false
 
 ## Regeln
 * Darf nicht innerhalb von Fliesstext eingesetzt werden.{.lead}
-* Darf nicht im <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/header">Header</sbb-link> als Navigation oder Funktion eingesetzt werden.{.lead}
+* Darf nicht im <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/header/">Header</sbb-link> als Navigation oder Funktion eingesetzt werden.{.lead}
 * Die Mindestbreite beträgt 60px.{.lead}
 * Die Breite wächst mit der Textlänge. Bei mobilen Ansichten ist die Breite 100%.{.lead}
 * Ist der Text beim Erreichen der Maximallänge immer noch zu lang, wird dieser mit «\...» abgekürzt.{.lead}

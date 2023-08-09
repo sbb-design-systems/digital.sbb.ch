@@ -22,5 +22,5 @@ permalink: false
 * Der Text kann mehrzeilig sein.{.lead}
 * Nebst dem eigentlichen Radiobutton dient auch der gesamte Text als Click-Target.{.lead}
 * Oberhalb einer Radiobutton-Gruppe kann ein Titel eingesetzt werden.{.lead}
-* Für detaillierte Erklärungen zu einer Radiobutton-Gruppe kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">Tooltip</sbb-link>.{.lead}
+* Für detaillierte Erklärungen zu einer Radiobutton-Gruppe kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip/">Tooltip</sbb-link>.{.lead}
 

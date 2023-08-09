@@ -64,8 +64,8 @@ Diese Variante hat folgende Zustände:{.lead}
   title: 'Tabelle, Variante Filterbar'
 }) }}
 
-* Die einzelnen Spalten können je nach Inhaltstyp (Text, Datum, Wert etc.) mittels den passenden Komponenten (<sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/textfield">Textfield</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/datepicker">Datepicker</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/select">Select</sbb-link> etc.) gefiltert werden.{.lead}
-* Es kann auch ein übergreifender <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/filter">Filter</sbb-link> zum Einschränken von grossen Datenmengen eingesetzt werden.{.lead}
+* Die einzelnen Spalten können je nach Inhaltstyp (Text, Datum, Wert etc.) mittels den passenden Komponenten (<sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/textfield/">Textfield</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/datepicker/">Datepicker</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/select/">Select</sbb-link> etc.) gefiltert werden.{.lead}
+* Es kann auch ein übergreifender <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/filter/">Filter</sbb-link> zum Einschränken von grossen Datenmengen eingesetzt werden.{.lead}
 * Es empfiehlt sich, die Anzahl der gefilterten Elemente den Benutzer*innen anzuzeigen, z.B. "34 von 3890"{.lead}
 
 ### Inline Aktionen
@@ -76,8 +76,8 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 
 * Beim Hover über Zeilen bzw. Fokussierung mittels Tab-Navigation über die Tastatur können Aktionen auf den Elementen angeboten werden.{.lead}
-* Die Aktionen werden mittels <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/button">Icon Button</sbb-link> angeboten. Je nach Anwendungsfall wird entschieden, in welcher Spalte (erste oder letzte Spalte) sie platziert werden. Dort überlagern sie jeweils den bestehenden Content.{.lead}
-* Es sollen maximal 3 Aktionen angeboten werden. Braucht es mehr, sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/contextmenu">Contextmenu</sbb-link> verwendet werden.{.lead}
+* Die Aktionen werden mittels <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/button/">Icon Button</sbb-link> angeboten. Je nach Anwendungsfall wird entschieden, in welcher Spalte (erste oder letzte Spalte) sie platziert werden. Dort überlagern sie jeweils den bestehenden Content.{.lead}
+* Es sollen maximal 3 Aktionen angeboten werden. Braucht es mehr, sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/contextmenu/">Contextmenu</sbb-link> verwendet werden.{.lead}
 * Tastaturbedienung: Bei Fokus auf einer Zeile der Tabelle kann mittels 'Tab' auf die Aktionen gesprungen werden.{.lead}
 
 ### Übergreifende Aktionen
@@ -88,9 +88,9 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 
 * Bei (Mehrfach-)Selektion von Elementen können übergreifende Aktionen angeboten werden.{.lead}
-* Für die Aktionen können alle Varianten von <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/button">Buttons</sbb-link> verwendet werden.{.lead}
+* Für die Aktionen können alle Varianten von <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/button/">Buttons</sbb-link> verwendet werden.{.lead}
 * Die primäre Aktion ist links, die sekundären Aktionen stehen rechts davon.{.lead}
-* Es sollen maximal 3 Aktionen angeboten werden. Braucht es mehr, sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/contextmenu">Contextmenu</sbb-link> verwendet werden.{.lead}
+* Es sollen maximal 3 Aktionen angeboten werden. Braucht es mehr, sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/contextmenu/">Contextmenu</sbb-link> verwendet werden.{.lead}
 * Die übergreifenden Aktionen werden rechts oberhalb der Tabelle angeordnet.{.lead}
 
 ## Beispielanwendung

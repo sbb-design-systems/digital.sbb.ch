@@ -16,7 +16,7 @@ order: 10
 * Das Logo wird bei allen SBB-Applikationen eingesetzt.{.lead}
 
 ## Regeln
-* Das Logo tritt genau einmal pro Seite auf und befindet sich immer im <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/header">Header</sbb-link>.{.lead}
+* Das Logo tritt genau einmal pro Seite auf und befindet sich immer im <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/header/">Header</sbb-link>.{.lead}
 * Die Positionierung ist immer rechts oben.{.lead}
 * Abwandlungen des Logos sind nicht erlaubt.{.lead}
 * Das Logo ist nicht verlinkt.{.lead}

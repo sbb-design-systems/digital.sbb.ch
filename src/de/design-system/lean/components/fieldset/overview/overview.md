@@ -19,6 +19,6 @@ permalink: false
 ## Regeln
 * Eine Sektion hat immer einen Titel.
 * Sektionen dürfen auch als Untergruppierung in anderen Sektionen oder auch Akkordeons eingesetzt werden.{.lead}
-* Für detaillierte Erklärungen kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">Tooltip</sbb-link>.{.lead}
+* Für detaillierte Erklärungen kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip/">Tooltip</sbb-link>.{.lead}
  
  

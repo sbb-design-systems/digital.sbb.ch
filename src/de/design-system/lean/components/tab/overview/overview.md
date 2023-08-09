@@ -19,6 +19,6 @@ permalink: false
 * Per Default ist immer das erste Register ausgewählt.{.lead}
 * Die Registerbezeichungen sind immer einzeilig.{.lead}
 * Die Registerbezeichung sollte möglichst kurz und prägnant sein, damit die Themen schnell erfasst werden können.{.lead}
-* Falls die Register für den Viewport zu lang sind, wird die Breite verkürzt und die Bezeichungen werden mit «...» abgeschnitten. Ein Hover über den Tab blendet den kompletten Namen in einem <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">Tooltip</sbb-link> ein.{.lead}
+* Falls die Register für den Viewport zu lang sind, wird die Breite verkürzt und die Bezeichungen werden mit «...» abgeschnitten. Ein Hover über den Tab blendet den kompletten Namen in einem <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip/">Tooltip</sbb-link> ein.{.lead}
 * Eine weitere Tab-Komponente innerhalb eines Registers (Tab-in-Tab) ist nicht erlaubt.{.lead}
 

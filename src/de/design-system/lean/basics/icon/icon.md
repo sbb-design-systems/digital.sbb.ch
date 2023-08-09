@@ -13,7 +13,7 @@ order: 30
 ---
 
 ## Verwendung
-Icons dienen zur visuellen Unterstützung von Themen und Aktionen. Für die Verwendung in SBB-Anwendungen sind die Icons im SBB-Stil einzusetzen. Details dazu und ein Set an bereits verfügbaren Icons sind <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/assets/icons">hier</sbb-link> zu finden.{.lead}
+Icons dienen zur visuellen Unterstützung von Themen und Aktionen. Für die Verwendung in SBB-Anwendungen sind die Icons im SBB-Stil einzusetzen. Details dazu und ein Set an bereits verfügbaren Icons sind <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/assets/icons/">hier</sbb-link> zu finden.{.lead}
 
 ## Regeln
 *   Innerhalb von Fliesstexten soll wenn immer möglich auf die Verwendung von Icons verzichtet werden.{.lead}

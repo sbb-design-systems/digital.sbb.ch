@@ -23,5 +23,5 @@ permalink: false
 * Masseinheiten von Inhalten werden optimalerweise auf der zweiten Zeile des Spaltenheaders eingefügt. Alternativ können sie direkt neben der Spaltenheader-Bezeichnung in runden Klammern angezeigt.{.lead}
 * Horizontales Scrolling sollte wo möglich vermieden werden.{.lead}
 * Spalten können zu logischen Gruppen zusammengefasst werden. Zwischen gruppierten Spalten gibt es keine Trennlinie.{.lead}
-* Mittels <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/pagination">Pagination</sbb-link> können grosse Datenmengen aufgeteilt werden. Alternativ kann je nach Bedarf auch ein Infinite Scrolling verwendet werden.{.lead}
+* Mittels <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/pagination/">Pagination</sbb-link> können grosse Datenmengen aufgeteilt werden. Alternativ kann je nach Bedarf auch ein Infinite Scrolling verwendet werden.{.lead}
 * Tastaturbedienung: Zwischen den Zeilen kann mittels Pfeiltasten (hoch, runter) navigiert werden.{.lead}

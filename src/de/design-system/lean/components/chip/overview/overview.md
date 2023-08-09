@@ -18,7 +18,7 @@ permalink: false
 ## Regeln
 * Der Begriff im Chip ist immer einzeilig (keine Zeilenumbrüche) und der Chip selber wächst in der Breite mit dem Text mit.{.lead}
 * Wird ein Chip aufgrund des Textes zu lang für den Viewport, wird der Text mit «...» gekürzt.{.lead}
-* Die Chips werden in einem <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/textfield">Textfield</sbb-link> dargestellt. Dieses kann je nach Anzahl Chips und vorhandenem Platz auch mehrzeilig werden.{.lead}
+* Die Chips werden in einem <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/textfield/">Textfield</sbb-link> dargestellt. Dieses kann je nach Anzahl Chips und vorhandenem Platz auch mehrzeilig werden.{.lead}
 * Mittels Backspace können Chips im Textfield gelöscht werden.{.lead}
 * Je nach Anwendungsfall können die Chips über "autocomplete"-Auswahlen oder mit Freitext generiert werden.{.lead}
 

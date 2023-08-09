@@ -21,7 +21,7 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 
 * Die Menüeinträge können in Kategorien / Bereiche gegliedert werden.{.lead}
-* Bei den Kategorien kann beim Einsatz der Sidebar zwischen <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/accordion">Accordion</sbb-link> und <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/fieldset">Fieldset</sbb-link> gewählt werden.{.lead}
+* Bei den Kategorien kann beim Einsatz der Sidebar zwischen <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/accordion/">Accordion</sbb-link> und <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/fieldset/">Fieldset</sbb-link> gewählt werden.{.lead}
 
 ### Iconleiste
 Diese Variante hat folgende Zustände:{.lead}
@@ -53,7 +53,7 @@ Diese Variante hat folgende Zustände:{.lead}
 
 * Der Defaultzustand (collapsed, expanded) kann pro Anwendung festgelegt werden.{.lead}
 * Die Menüeinträge können in Kategorien / Bereiche gegliedert werden.{.lead}
-* Bei den Kategorien kann beim Einsatz der Sidebar zwischen <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/accordion">Accordion</sbb-link> und <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/fieldset">Fieldset</sbb-link> gewählt werden.{.lead}
+* Bei den Kategorien kann beim Einsatz der Sidebar zwischen <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/accordion/">Accordion</sbb-link> und <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/fieldset/">Fieldset</sbb-link> gewählt werden.{.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

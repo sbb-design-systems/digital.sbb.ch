@@ -32,7 +32,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'H1'
 }) }}
 
-* Vor dem H1 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider">Divider</sbb-link> der Variante «Big» eingesetzt, danach (unterhalb) ein Divider der Variante «Medium».{.lead}
+* Vor dem H1 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Big» eingesetzt, danach (unterhalb) ein Divider der Variante «Medium».{.lead}
 
 ###  Überschrift H2
 {{ imageOnGreyBackground({
@@ -40,7 +40,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   alt: 'Darstellung des H2-Stils',
   title: 'H2'
 }) }}
-* Vor dem H2 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider">Divider</sbb-link> der Variante «Medium» eingesetzt, danach (unterhalb) ein Divider der Variante «Small».{.lead}
+* Vor dem H2 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Medium» eingesetzt, danach (unterhalb) ein Divider der Variante «Small».{.lead}
 
 ###  Überschrift H3
 {{ imageOnGreyBackground({
@@ -48,7 +48,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   alt: 'Darstellung des H3-Stils',
   title: 'H3'
 }) }}
-* Vor dem H3 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin».{.lead}
+* Vor dem H3 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin».{.lead}
 
 ###  Überschrift H4
 {{ imageOnGreyBackground({
@@ -56,7 +56,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   alt: 'Darstellung des H4-Stils',
   title: 'H4'
 }) }}
-* Vor dem H4 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin».{.lead}
+* Vor dem H4 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin».{.lead}
 
 ###  Fliesstext (Copy)
 {{ imageOnGreyBackground({
@@ -64,7 +64,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   alt: 'Darstellung des Fliesstext-Stils',
   title: 'Fliesstext'
 }) }}
-* Vor dem Fliesstext (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider">Divider</sbb-link> der Variante «Thin» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin».{.lead}
+* Vor dem Fliesstext (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Thin» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin».{.lead}
 
 ###  Link
 {{ imageOnGreyBackground({
@@ -73,7 +73,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'Link'
 }) }}
 * Gilt als Standardlink innerhalb von texten.{.lead}
-* Zusätzliche Ausführungen von Links sind unter <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/link">Link</sbb-link> zu finden.{.lead}
+* Zusätzliche Ausführungen von Links sind unter <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/link/">Link</sbb-link> zu finden.{.lead}
 
 
 ###  Tabellenheader

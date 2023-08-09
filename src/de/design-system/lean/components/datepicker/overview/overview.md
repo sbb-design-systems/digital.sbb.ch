@@ -19,7 +19,7 @@ permalink: false
 ## Regeln
 * Datumsangaben sind immer einzeilig.{.lead}
 * Die Datumswahl hat immer ein Label.{.lead}
-* Für detaillierte Erklärungen kann neben dem Label ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip">Tooltip</sbb-link>.{.lead}
+* Für detaillierte Erklärungen kann neben dem Label ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip/">Tooltip</sbb-link>.{.lead}
 * Mit Klick ins Datumsfeld kann das Datum von Hand eingetragen werden.{.lead}
     * Bei der manuellen Eingabe werden folgende Eingaben ermöglicht, welche von der Komponente automatisch korrekt formatiert werden (Bsp. 1. Januar 2020):{.lead}
         * '010120'{.lead}
