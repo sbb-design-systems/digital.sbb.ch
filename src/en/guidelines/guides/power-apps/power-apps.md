@@ -6,6 +6,9 @@ title: Power-Apps
 parent: guides_en
 order: 1
 ---
+<sbb-notification type="info" readonly="true">
+The links on this page can only be accessed with a SBB login.
+</sbb-notification>
 
 ## User-Centered Work
 The SBB power app guidelines help you with the development of an app with optimal usability from the perspective of the users. They build upon the within the SBB established user-centered <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/modell-fuer-nutzungszentriertres-arbeiten.aspx">methods</sbb-link>, and lead to the users being able to navigate without difficulty and to reach their desired information the quickest way. By using the SBB power app template we achieve a consistent corporate design and user experience on all channels. {.lead}  

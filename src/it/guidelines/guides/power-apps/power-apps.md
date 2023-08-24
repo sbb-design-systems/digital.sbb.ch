@@ -6,9 +6,11 @@ title: Power-Apps
 parent: guides_it
 order: 1
 ---
+<sbb-notification type="info" readonly="true">
+I link di questa pagina sono accessibili solo con un login FFS.
+</sbb-notification>
 
 ## Lavoro User-Centered  
-
 Le linee guida per Power App FFS ti aiutano a sviluppare un'applicazione con un'usabilità ottimale partendo dalla prospettiva dell’utente. Queste si basano sui <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/modell-fuer-nutzungszentriertres-arbeiten.aspx">metodi </sbb-link>di User-Centering già ben definiti alle FFS e consentono agli utenti di navigare senza difficoltà e di raggiungere le informazioni desiderate nel modo più rapido possibile. Utilizzando il modello Power App delle FFS otterrai un design aziendale e un'esperienza utente coerente su tutti i canali. {.lead}  
 
 Ulteriori informazioni e le basi per la progettazione di Power App sono disponibili ai seguenti link:{.lead}  

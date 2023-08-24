@@ -6,6 +6,9 @@ title: Power-Apps
 parent: guides_fr
 order: 1
 ---
+<sbb-notification type="info" readonly="true">
+Les liens de cette page sont accessibles uniquement avec un login CFF.
+</sbb-notification>
 
 ## Approche centrée sur l’utilisateur
 Les directives de conception Power Apps CFF te soutiennent dans la création d'une application avec une convivialité optimale du point de vue des utilisateurs. Elles se basent sur les <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/modell-fuer-nutzungszentriertres-arbeiten.aspx">méthodes</sbb-link> centrées sur l'utilisateur établies aux CFF et permettent aux utilisateurs de s'orienter facilement et d'accéder le plus rapidement possible aux informations souhaitées. L'utilisation du modèle Power App des CFF permet d'obtenir un Corporate Design et une expérience utilisateur cohérents sur tous les canaux{.lead}  
