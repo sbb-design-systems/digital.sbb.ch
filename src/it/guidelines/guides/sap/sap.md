@@ -52,7 +52,7 @@ Se il set di icone SAP esistente non prevede l’icona di cui hai bisogno, hai l
 La creazione autonoma di icone è consentita, ma deve essere approvata dal <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> o dal <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link> prima che queste icone vengano poste in uso. Resta buona norma nei prodotti digitali e nelle applicazioni prestare attenzione a non utilizzare icone con uno spessore delle linee diverso.{.lead}
 
 ### Regole
-* Per l'utilizzo delle applicazioni SAP FFS, il font delle icone SAP deve essere generalmente utilizzato nel colore <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB Black</sbb-link>.{.lead}
+* Per l'utilizzo delle applicazioni SAP FFS, il font delle icone SAP deve essere utilizzato.{.lead}
 * La dimensione di base dei vettori per le icone SAP è di 16px per i simboli utilizzati nei controlli dell'interfaccia utente. Le altre dimensioni elencate, da 18px a 40px, dipendono dai requisiti individuali dell'interfaccia.{.lead}
 * È preferibile evitare di utilizzare le icone all'interno di un testo scorrevole.{.lead}
 * Le icone senza testo devono essere autoesplicative o facili da imparare. Più icone vengono utilizzate in un'applicazione, più diventa difficile ricordarne correttamente il significato. Le icone senza testo devono essere integrate con un testo alternativo, che descriva non l'icona in sé, ma la sua azione (ad esempio, "Chiudi menu").{.lead}
@@ -61,6 +61,7 @@ La creazione autonoma di icone è consentita, ma deve essere approvata dal <sbb-
 ### Collegamenti
 <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design-web/icons/">Linee guida per i caratteri delle icone SAP</sbb-link>
 <sbb-link variant="inline" type="button" target="_blank" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">Set di icone SAP</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://confluence.sbb.ch/pages/viewpage.action?spaceKey=DSRVUX&title=SAP+Fiori">Approccio UX di SAP Fiori (in tedesco, accessibile con il login FFS)</sbb-link>
 
 
 <script>

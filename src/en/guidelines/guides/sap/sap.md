@@ -53,7 +53,7 @@ Should the existing SAP icon set not suffice, you can ask the UX experts of the 
 Independent creation of icons is allowed, but needs to be approved by the <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch"> SBB Markenführung</sbb-link> or the <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch"> DSRV UX</sbb-link>  before the icons go in use. As for digital products and apps pay attention that you don't use icons in different line width.{.lead}
 
 ### Rules
-* For the usage of SBB SAP applications the SAP icon font is generally to be used in the colour <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB Black</sbb-link>.{.lead}
+* For the usage of SBB SAP applications the SAP icon font is generally to be used.{.lead}
 * The base vectors size for SAP icons is 16px for symbols that are used in the UI controls. Other listed sizes from 18px to 40px depend on individual requirements of the interface.{.lead}
 * One should abstain from using icons within a flowing text whenever possible.{.lead}
 * Icons without text need to be self-explanatory or easy to learn. The more icons are used in an application the harder it gets to correctly remember their meaning. The icons without text need to be supplemented with an alternative text, whereby not the icon itself but its action must be described (e.g. "Close Menu").{.lead}
@@ -62,7 +62,7 @@ Independent creation of icons is allowed, but needs to be approved by the <sbb-l
 ### Links
 <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design-web/icons/">SAP Icon Font Guideline</sbb-link>
 <sbb-link variant="inline" type="button" target="_blank" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">SAP Icon-Set</sbb-link>
-
+<sbb-link variant="inline" type="button" target="_blank" href="https://confluence.sbb.ch/pages/viewpage.action?spaceKey=DSRVUX&title=SAP+Fiori">SAP Fiori UX approach (accessible with SBB Login)</sbb-link>
 
 <script>
 const buttons = document.querySelectorAll(".more-details");

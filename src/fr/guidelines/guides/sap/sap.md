@@ -51,7 +51,7 @@ Si le jeu d'icônes existant de SAP n'est pas suffisant, de nouvelles icônes da
 L'auto-compilation d'icônes est autorisée, mais celle-ci doit être approuvée par la direction de la marque CFF ou par DSRV UX avant d'être utilisée. Dans les produits numériques et les applications, il faut veiller à ce que les icônes ne soient pas utilisées dans des épaisseurs de ligne différentes.{.lead}
 
 ### Règles
-- Pour les applications SAP CFF, la police d'icônes SAP doit être utilisée dans la couleur <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB Black</sbb-link> CFF.
+- Pour les applications SAP CFF, la police d'icônes SAP doit être utilisée.
 - La taille vectorielle de base des icônes SAP est de 16px pour les icônes utilisées dans les contrôles de l'interface utilisateur. Les autres tailles répertoriées, de 18 à 40 px, dépendent des besoins de l'interface utilisateur.{.lead}
 - L'utilisation d'icônes dans un texte doit être évitée autant que possible.{.lead}
 - Les icônes sans texte doivent être explicites ou faciles à apprendre. Plus il y a d'icônes dans une application, plus il est difficile de comprendre leur signification. Les icônes sans texte doivent inclure un texte alternatif décrivant la fonction de l’icône (par ex. "Fermer le menu").{.lead}
@@ -60,6 +60,7 @@ L'auto-compilation d'icônes est autorisée, mais celle-ci doit être approuvée
 ### Liens
 <sbb-link variant="inline" type="button" target="_blank" href="https://experience.sap.com/fiori-design-web/icons/">SAP Icon Font Guideline</sbb-link>
 <sbb-link variant="inline" type="button" target="_blank" href="https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html">SAP Icon-Set</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="https://confluence.sbb.ch/pages/viewpage.action?spaceKey=DSRVUX&title=SAP+Fiori">SAP Fiori approche UX (en allemand, accessible avec le login CFF)</sbb-link>
 
 <script>
 const buttons = document.querySelectorAll(".more-details");
