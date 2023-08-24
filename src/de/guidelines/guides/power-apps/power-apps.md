@@ -7,6 +7,10 @@ parent: guides_de
 order: 1
 ---
 
+<sbb-notification type="info" readonly="true">
+  Die Links auf dieser Seite sind nur mit SBB Login zugänglich.
+</sbb-notification>
+
 ## Nutzungszentriertes Arbeiten  
 Die SBB Power Apps Guidelines unterstützen dich bei der Erstellung einer App mit einer optimalen Bedienbarkeit  aus Sicht der Anwendenden. Sie bauen auf den in  der SBB etablierten nutzerzentrierten <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/uxsbb/SitePages/modell-fuer-nutzungszentriertres-arbeiten.aspx">Methoden</sbb-link> auf, und führen dazu, dass sich die Nutzenden einfach zurecht finden und schnellstmöglich zu den gewünschten Informationen gelangen. Durch die Verwendung der SBB Power App Vorlage wird eine über alle Kanäle konsistentes Corporate Design und User Experience erreicht.{.lead}  
 
