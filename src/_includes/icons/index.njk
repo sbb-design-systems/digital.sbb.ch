@@ -10,6 +10,7 @@
   {% endif %}
 {% endfor %}
 
+
 <sbb-card color="milk" size="xxl">
   <div id="icons">
     <div class="icons-header">
@@ -22,12 +23,12 @@
     <div class="list icons">
         {% include "./list-icons.njk" %}
     </div>
-    <div class="tooltips">
-      {% include "./list-tooltips.njk" %}
-    </div>
   </div>
   {% include "./not-found.njk" %}
-</sbb-card>
+ </sbb-card>
+<div class="tooltips">
+  {% include "./list-tooltips.njk" %}
+</div>
 
 {% if mode == "KOM" %}
 <script src="/assets/js/icons-kom.js"></script>

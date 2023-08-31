@@ -1,15 +1,5 @@
+{% if (icon.type == mode) %}
 <sbb-tooltip-trigger class="icon {{ icon.mode }}" data-category="{{icon.category}}" data-id="{{icon.name}}" data-name="{{icon.name}}" data-size="{{icon.size}}" id="{{ icon.name }}" aria-describedby="{{ icon.name }}-content">
-    <sbb-icon name="{% if mode == "Pictograms" %}picto:{% endif %}{{icon.name}}" alt="{{ icon.name }}"></sbb-icon>
-    <div class="only-for-search">
-        {{ icon.name }}<br>
-        {% if mode == "KOM" %}{{ icon.group }}<br>{% endif %}
-        {{ icon.category }}<br>
-        {% if mode == "Pictograms" %}{{ icon.subcategory }}<br>{% endif %}
-        {{ icon.tags }}<br>
-        {% if mode == "KOM" %}
-            {% for size in icon.sizes %}
-                {{size.size}}
-            {% endfor %}
-        {% endif %}
-    </div>
+    <sbb-icon name="{% if mode == "Pictograms" %}picto:{% endif %}{{icon.name}}" alt="{{ icon.name }}"></sbb-icon><div class="only-for-search">{{ icon.name }}<br>{% if mode == "KOM" %}{{ icon.group }}<br>{% endif %}{{ icon.category }}<br>{% if mode == "Pictograms" %}{{ icon.subcategory }}<br>{% endif %}{{ icon.tags }}<br>{% if mode == "KOM" %}{% for size in icon.sizes %}{{size.size}}{% endfor %}{% endif %}</div>
 </sbb-tooltip-trigger>
+{% endif %}
