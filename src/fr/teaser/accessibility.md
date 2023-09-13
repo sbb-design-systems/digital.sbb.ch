@@ -1,5 +1,5 @@
 ---
-tags: teaserhomes_fr
+tags: teaserhome_fr
 head: Accessibilité
 description: Nos produits doivent être utilisables par le plus grand nombre de personnes possible dans le plus grand nombre de situations possible.
 url: /fr/accessibility/introduction/about-this-guide/
