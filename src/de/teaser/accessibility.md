@@ -1,5 +1,5 @@
 ---
-tags: teaserhomes_de
+tags: teaserhome_de
 head: Barrierefreiheit
 description: Unsere Lösungen sind für möglichst viele Menschen in möglichst allen Lebenssituationen nutzbar.
 url: /de/accessibility/introduction/about-this-guide/
