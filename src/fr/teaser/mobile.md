@@ -1,7 +1,7 @@
 ---
 tags: teaserhome_fr
 head: Mobile
-description: Design system pour les applications mobiles et natives sur smartphone et tablettes.
+description: Design System pour les applications mobiles et natives sur smartphone et tablettes.
 url: /fr/design-system/mobile/overview/
 image: /assets/images/teaser/mobile.webp
 permalink: false

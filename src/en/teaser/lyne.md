@@ -5,5 +5,5 @@ description: Future design system for SBB websites, microsites and customer appl
 url: /en/design-system/lyne/overview/
 image: /assets/images/teaser/lyne.webp
 permalink: false
-order: 7w
+order: 7
 ---
