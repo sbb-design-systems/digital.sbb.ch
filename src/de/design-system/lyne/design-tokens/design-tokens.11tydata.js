@@ -36,44 +36,28 @@ const groupedTokens = (tokens, attribute) => {
 
 // animation
 const easingAnimationTokens = designTokensByCategory(tokens, 'animation');
-const durationAnimationTokens = designTokensByCategory(tokens, 'time').map((animation) =>
-  addUnitToTokenValue(animation, 'ms')
-);
+const durationAnimationTokens = designTokensByCategory(tokens, 'time');
 
 // border
-const borderTokens = designTokensByPath(tokens, 'border').map((token) =>
-  addUnitToTokenValue(token, 'px')
-);
+const borderTokens = designTokensByPath(tokens, 'border');
 const widthTokens = borderTokens.filter((token) => token.attributes.type === 'width');
 const radiusTokens = borderTokens.filter((token) => token.attributes.type === 'radius');
 
 // grid
-const breakpointTokens = designTokensByPath(tokens, 'breakpoint').map((token) =>
-  addUnitToTokenValue(token, 'px')
-);
+const breakpointTokens = designTokensByPath(tokens, 'breakpoint');
 const layoutTokens = designTokensByPath(tokens, 'layout');
-const baseGridColumns = layoutTokens.filter(
-  (token) => token.attributes.group === 'base-grid-columns'
-);
-const baseGridGutterResponsive = layoutTokens
-  .filter((token) => token.attributes.group === 'base-grid-gutter-responsive')
-  .map((layout) => addUnitToTokenValue(layout, 'px'));
-const baseOffsetResponsive = layoutTokens
-  .filter((token) => token.attributes.group === 'base-offset-responsive')
-  .map((layout) => addUnitToTokenValue(layout, 'px'));
+const baseGridColumns = layoutTokens.filter((token) => token.attributes.group === 'base-grid-columns');
+const baseGridGutterResponsive = layoutTokens.filter((token) => token.attributes.group === 'base-grid-gutter-responsive');
+const baseOffsetResponsive = layoutTokens.filter((token) => token.attributes.group === 'base-offset-responsive');
 
 // spacings
-const spacingTokens = designTokensByPath(tokens, 'spacing').map((token) =>
-  addUnitToTokenValue(token, 'px')
-);
+const spacingTokens = designTokensByPath(tokens, 'spacing');
 const spacingTokensFixed = spacingTokens.filter((token) => token.attributes.type === 'fixed');
 const spacingTokensResponsive = spacingTokens.filter((token) => token.attributes.type === 'responsive');
 
 // typo
 const typoTokens = designTokensByCategory(tokens, 'typo');
-const scaleTypoTokens = designTokensByType(tokens, 'scale').map((scale) =>
-  addUnitToTokenValue(scale, 'px')
-);
+const scaleTypoTokens = designTokensByType(tokens, 'scale');
 const typeFaceTypoTokens = typoTokens.filter((token) => token.attributes.type === 'typeFace');
 const letterSpacingTypoTokens = typoTokens.filter((token) => token.attributes.type === 'letterSpacing');
 const lineHeightTypoTokens = typoTokens.filter((token) => token.attributes.type === 'lineHeight');

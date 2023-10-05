@@ -51,21 +51,23 @@
            {{pattern.tag | safe}}
     </div>
     <div class="config-bar">
-        <sbb-accordion non-white-background>
+        <sbb-accordion title-level='3'>
         {% for item in pattern.configuration %}
-            <sbb-accordion-item {% if loop.index == 1 %}open="true"{% endif %} heading="{{ params.translations[item.id] }}" heading-level="2">
-                <div slot="content">
+            <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
+                <sbb-expansion-panel-header>{{ params.translations[item.id] }}</sbb-expansion-panel-header>
+                <sbb-expansion-panel-content>
                     <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.label}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.id}}">
                         {% for radio in item.radios %}
                         <sbb-radio-button value="{{radio.value}}">{{ params.translations[radio.id] }}</sbb-radio-button>
                         {% endfor %}
                     </sbb-radio-button-group>
-                </div>
-            </sbb-accordion-item>
+                </sbb-expansion-panel-content>
+            </sbb-expansion-panel>
         {% else %}
         {% endfor %}
-            <sbb-accordion-item {% if params.noconfig === true %}open="true"{% endif %} heading="{{ params.translations["background"] }}" heading-level="2">
-                <div slot="content">
+            <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
+                <sbb-expansion-panel-header>{{ params.translations["background"] }}</sbb-expansion-panel-header>
+                <sbb-expansion-panel-content>
                     <sbb-radio-button-group value="white" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
                         <sbb-radio-button value="white">White</sbb-radio-button>
                         <sbb-radio-button value="milk">Milk</sbb-radio-button>
@@ -73,8 +75,8 @@
                         <sbb-radio-button value="charcoal">Charcoal</sbb-radio-button>
                         <sbb-radio-button value="black">Black</sbb-radio-button>
                     </sbb-radio-button-group>
-                </div>
-            </sbb-accordion-item>
+                </sbb-expansion-panel-content>
+            </sbb-expansion-panel>
         </sbb-accordion>
         <sbb-action-group id="more-buttons" align-group="stretch" orientation="vertical" horizontal-from="unset" button-size="m">
             <sbb-button variant="secondary" size="m" icon-name="plus-small" href="{{ pattern.link }}" target="_blank">{{ params.translations["more"] }}</sbb-button>

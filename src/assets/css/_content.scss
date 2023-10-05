@@ -262,9 +262,8 @@ table {
     grid-template-columns: 1fr; 
     grid-template-rows: auto; 
     gap: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
-    background-color: var(--sbb-color-milk-default);
-    border-radius: var(--sbb-border-radius-16x);
-    padding: var(--sbb-spacing-fixed-8x);
+    //background-color: var(--sbb-color-milk-default);
+    //padding: var(--sbb-spacing-fixed-8x);
 
     @include sbb.mq($from: medium) {
         grid-template-columns: 2fr 1fr; 
@@ -278,9 +277,10 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--sbb-border-radius-8x);
+    border-radius: var(--sbb-border-radius-4x);
     padding: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
     background-color: var(--sbb-color-white-default);
+    border: solid 1px var(--sbb-color-cloud-default);
     @include sbb.mq($from: medium) {
         padding: var(--sbb-spacing-fixed-8x);
     }
@@ -290,7 +290,6 @@ table {
     }
     &[data-background="milk"] {
         background-color: var(--sbb-color-milk-default);
-        border: solid 2px var(--sbb-color-white-default);
     }
     &[data-background="charcoal"] {
         background-color: var(--sbb-color-charcoal-default);

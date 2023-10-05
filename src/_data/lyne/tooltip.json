@@ -11,11 +11,11 @@
             "mode":"property",
             "radios" : [{
                 "value":"false",
-                "id":"false"
+                "id":"true"
             }, 
             {
                 "value":"true",
-                "id":"true"
+                "id":"false"
             }]
         }
    
