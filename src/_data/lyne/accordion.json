@@ -1,0 +1,22 @@
+{
+    "label":"Accordion",
+    "id":"sbb-action-group",
+    "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-accordion-sbb-accordion--docs#stories",
+    "tag":"<sbb-accordion class='demo-item' title-level='3' style='width:75%;' multi='false'><sbb-expansion-panel><sbb-expansion-panel-header>Header 1</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 1</sbb-expansion-panel-content></sbb-expansion-panel><sbb-expansion-panel><sbb-expansion-panel-header>Header 2</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 2</sbb-expansion-panel-content></sbb-expansion-panel></sbb-accordion>",
+    "configuration" : [
+        {
+            "id":"multi",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"property",
+            "radios" : [{
+                "value":"false",
+                "id":"false"
+            }, 
+            {
+                "value":"true",
+                "id":"true"
+            }]
+        }
+    ]
+}
