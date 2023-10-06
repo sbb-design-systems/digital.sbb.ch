@@ -77,20 +77,6 @@
             }]
         },
         {
-            "id":"width",
-            "target":"demo-item",
-            "default":"default",
-            "mode":"property",
-            "radios" : [{
-                "value":"default",
-                "id":"default"
-            }, 
-            {
-                "value":"collapse",
-                "id":"collapse"
-            }]
-        },
-        {
             "id":"optional",
             "target":"demo-item",
             "default":"true",
@@ -118,23 +104,7 @@
                 "id":"true"
             }
             ]
-        },
-        {
-            "id":"error-space",
-            "target":"demo-item",
-            "default":"none",
-            "mode":"property",
-            "radios" : [{
-                "value":"none",
-                "id":"none"
-            }, 
-            {
-                "value":"reserve",
-                "id":"reserve"
-            }]
         }
-
-        
     ]
 }
 

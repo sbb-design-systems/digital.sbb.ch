@@ -37,12 +37,17 @@
         },
         {
             "id":"style",
+            "target":"demo-item",
             "default":"color: var(--sbb-color-black-default)",
             "mode":"property",
             "radios" : [{
                 "value":"color: var(--sbb-color-black-default)",
                 "id":"black"
             }, 
+            {
+                "value":"color: var(--sbb-color-red-default)",
+                "id":"red"
+            },
             {
                 "value":"color: var(--sbb-color-metal-default)",
                 "id":"metal"

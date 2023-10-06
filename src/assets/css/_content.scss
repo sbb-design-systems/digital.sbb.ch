@@ -305,7 +305,7 @@ table {
     }
 }
 #more-buttons {
-    margin-top: var(--sbb-spacing-fixed-4x);
+    margin-top: var(--sbb-spacing-fixed-8x);
 }
 
 .badge-wrapper {
@@ -332,4 +332,7 @@ h3 {
 .error-divider {
     margin-top: var(--sbb-spacing-fixed-20x);
     margin-bottom: var(--sbb-spacing-fixed-18x);
+}
+.full-width-wrapper {
+    width: 100%;
 }

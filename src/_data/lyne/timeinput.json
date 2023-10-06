@@ -2,7 +2,8 @@
     "label":"Form-Field",
     "id":"sbb-form-field",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-time-input--docs#stories",
-    "tag":"<sbb-form-field class='demo-item' id='sbb-form-field' borderless='false' floating-label='fasle' disabled='false' optional='false' size='m' width='default' error-space='reserve' label='Label' size='m' width='default'><sbb-time-input value='08:00' readonly='false' form='form'></sbb-time-input><sbb-form-error class='error' slot='error'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='prefix' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='suffix' name='pie-small'></sbb-icon></sbb-form-field>",
+    "tag":"<sbb-form-field class='demo-item' size='m' label='Label' width='collapse'></sbb-time-input><input id='input-id' value='12:00'><sbb-form-error class='error' slot='error'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='prefix' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='suffix' name='pie-small'></sbb-icon></sbb-icon></sbb-form-field>",
+ 
     "configuration" : [
         {
             "id":"prefix",

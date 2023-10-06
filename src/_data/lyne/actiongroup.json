@@ -2,26 +2,8 @@
         "label":"Action-Group",
         "id":"sbb-action-group",
         "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-action-group--docs#stories",
-        "tag":"<sbb-action-group class='demo-item' orientation='vertical'><sbb-button variant='secondary'>Action 1</sbb-button><sbb-button variant='secondary'>Action 2</sbb-button><sbb-link align-self='end' icon-name='chevron-small-left-small' href='https://github.com/lyne-design-system/lyne-components'>Action 3</sbb-link></sbb-action-group>",
+        "tag":"<div class='full-width-wrapper'><sbb-action-group class='demo-item' orientation='vertical'><sbb-button variant='secondary'>Action 1</sbb-button><sbb-button variant='secondary'>Action 2</sbb-button><sbb-button variant='primary'>Action 3</sbb-button></sbb-action-group></div>",
         "configuration" : [
-            {
-                "id":"align-group",
-                "target":"demo-item",
-                "default":"left",
-                "mode":"property",
-                "radios" : [{
-                    "value":"left",
-                    "id":"left"
-                }, 
-                {
-                    "value":"center",
-                    "id":"center"
-                },
-                {
-                    "value":"right",
-                    "id":"right"
-                }]
-            },
             {
                 "id":"button-size",
                 "target":"demo-item",
@@ -37,28 +19,40 @@
                 }]
             },
             {
-                "id":"orientation",
+                "id":"align-group",
                 "target":"demo-item",
-                "default":"horizontal",
+                "default":"start",
                 "mode":"property",
                 "radios" : [{
-                    "value":"horizontal",
-                    "id":"horizontal"
+                    "value":"start",
+                    "id":"left"
                 }, 
                 {
-                    "value":"vertical",
-                    "id":"vertical"
+                    "value":"center",
+                    "id":"center"
+                },
+                {
+                    "value":"end",
+                    "id":"right"
+                },
+                {
+                    "value":"stretch",
+                    "id":"stretch"
                 }]
             },
             {
                 "id":"horizontal-from",
                 "target":"demo-item",
-                "default":"zero",
+                "default":"medium",
                 "mode":"property",
                 "radios" : [{
+                    "value":"",
+                    "id":"no-horizontal-distribution"
+                },
+                {
                     "value":"zero",
                     "id":"zero"
-                }, 
+                },
                 {
                     "value":"micro",
                     "id":"micro"
