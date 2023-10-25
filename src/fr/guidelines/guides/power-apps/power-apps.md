@@ -36,3 +36,6 @@ Utiliser le <sbb-link variant="inline" type="button" target="_blank" href="https
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Platform-in-der-SBB.aspx">Directives Power Platform CFF</sbb-link>
 - <sbb-link variant="inline" type="button" href="/{{page.lang}}/principles/ux-principles/task-oriented/">Principes de conception CFF</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Apps-Vorlage-verwenden.aspx">Instruction pour l’installation du modèle Power Apps CFF</sbb-link>
+
+## Contact 
+<sbb-link variant="inline" type="button" href="mailto:x004228@sbb.ch">SBB Power Platform Center of Competence</sbb-link>

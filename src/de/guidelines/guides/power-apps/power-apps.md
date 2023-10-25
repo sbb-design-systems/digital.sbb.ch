@@ -38,3 +38,6 @@ Die SBB Power Apps Vorlage <sbb-link variant="inline" type="button" target="_bla
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Platform-in-der-SBB.aspx">Richtlinien Power Platform in der SBB</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="/{{page.lang}}/principles/ux-principles/task-oriented/">SBB Gestaltungsprinzipien</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Apps-Vorlage-verwenden.aspx">Anleitung zur Installation von SBB Power Apps Vorlage</sbb-link>
+
+## Kontakt 
+<sbb-link variant="inline" type="button" href="mailto:x004228@sbb.ch">SBB Power Platform Center of Competence</sbb-link>

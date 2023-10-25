@@ -37,3 +37,6 @@ To take advantage of these benefits the template needs to be installed manually.
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Platform-in-der-SBB.aspx">Guidelines Power Platform in the SBB</sbb-link>
 - <sbb-link variant="inline" type="button" href="/{{page.lang}}/principles/ux-principles/task-oriented/">SBB Gestaltungsprinzipien</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Apps-Vorlage-verwenden.aspx">Instruction on how to install the SBB power apps template</sbb-link>
+
+## Contact 
+<sbb-link variant="inline" type="button" href="mailto:x004228@sbb.ch">SBB Power Platform Center of Competence</sbb-link>

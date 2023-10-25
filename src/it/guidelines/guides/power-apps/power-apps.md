@@ -38,3 +38,6 @@ Per usufruire di questi vantaggi, il template deve essere installato manualmente
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Platform-in-der-SBB.aspx">Linee guida Power Platform nelle FFS</sbb-link>
 - <sbb-link variant="inline" type="button" href="/{{page.lang}}/principles/ux-principles/task-oriented/">Gestaltungsprinzipien delle FFS</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://sbb.sharepoint.com/sites/power-platform-infocenter/SitePages/Power-Apps-Vorlage-verwenden.aspx">Istruzioni su come installare il modello Power App FFS</sbb-link>
+
+## Contatto
+<sbb-link variant="inline" type="button" href="mailto:x004228@sbb.ch">SBB Power Platform Center of Competence</sbb-link>
