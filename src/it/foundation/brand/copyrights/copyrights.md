@@ -7,10 +7,7 @@ parent: brand_it
 order: 4
 ---
 
-## Proprietà intellettuale:
-Tutti gli elementi messi a disposizione sono proprietà intellettuale delle FFS.  
-
-## Utilizzo di pittogrammi FFS, icone orario FFS e orologio FFS:
+## Utilizzo esclusivo di pittogrammi FFS, icone orario FFS e orologio FFS:
 - Utilizzo consentito a tutte le imprese di trasporto concessionarie della Svizzera.
 - Utilizzo consentito per progetti in collaborazione con il trasporto pubblico svizzero.  
 

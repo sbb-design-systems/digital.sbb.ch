@@ -7,10 +7,7 @@ parent: brand_fr
 order: 4
 ---
 
-## Propriété intellectuelle
-Tous les objets mis à disposition ici sont la propriété intellectuelle des CFF.  
-
-## Utilisation des pictogrammes CFF, des icônes d’horaire et de l’horloge CFF
+## Utilisation exclusive des pictogrammes CFF, des icônes d’horaire et de l’horloge CFF
 - Toutes les entreprises de transport concessionnaires en Suisse.
 - Projets liés aux transports publics en Suisse.  
 

@@ -7,10 +7,7 @@ parent: brand_de
 order: 4
 ---
 
-## Geistiges Eigentum:
-Alle hier zur Verfügung gestellten Objekte sind geistiges Eigentum der SBB.    
-
-## Verwendung der SBB Piktogramme, Fahrplan-Icons und SBB Uhr:
+## Ausschliessliche Verwendung der SBB Piktogramme, Fahrplan-Icons und SBB Uhr:
 - Alle konzessionierten Transportunternehmen der Schweiz.
 - Projekte in Zusammenhang mit dem öffentlichen Verkehr der Schweiz.  
 

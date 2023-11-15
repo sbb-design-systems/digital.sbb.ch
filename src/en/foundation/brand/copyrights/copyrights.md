@@ -7,10 +7,7 @@ parent: brand_en
 order: 4
 ---
 
-## Intellectual property:
-All objects made available here are the intellectual property of SBB.{.lead}
-
-## Use of SBB pictograms, timetable icons and SBB clock:
+## Exclusive use of SBB pictograms, timetable icons and SBB clock:
 - All licensed transport companies in Switzerland.{.lead}
 - Projects related to public transport in Switzerland.{.lead}  
 
