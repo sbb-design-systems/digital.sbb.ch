@@ -8,49 +8,35 @@ key: message-mobile-variantsstates_de
 parent: message-mobile_de
 ---
 
+## Zustände
+Die Komponente hat folgende Zustände:{.lead}
+
+* Default 
+* Error
+* Loading
+
 ## Varianten
-*   Type: Info / Hint / Warning / Error / Success
-*   State: Default / Loading
-*   Illustration: fakultativ
-*   Fehlercode: fakultativ
-*   Retry-Button: fakultativ
+Die Komponente hat folgende Varianten:{.lead}
 
-### Info
+* Illustration: Optional
+* Fehlercode: Optional
+* Retry-Button: Optional
+
+### Message mit Illustration
 {{ imageWithMode({
-  url: '/assets/images/mobile/info',
-  alt: 'Darstellung einer Message, Variante Info',
-  title: 'Message, Variante Info'
+  url: '/assets/images/mobile/message-with-illustration',
+  alt: 'Message, mit Illustration',
+  title: 'Message, mit Illustration'
 }) }}
 
-### Hint
+### Message ohne Illustration
 {{ imageWithMode({
-  url: '/assets/images/mobile/hint',
-  alt: 'Darstellung einer Message, Variante Hint',
-  title: 'Message, Variante Hint'
-}) }}
-
-### Warning
-{{ imageWithMode({
-  url: '/assets/images/mobile/warning',
-  alt: 'Darstellung einer Message, Variante Warning',
-  title: 'Message, Variante Warning'
-}) }}
-
-### Error
-{{ imageWithMode({
-  url: '/assets/images/mobile/error',
-  alt: 'Darstellung einer Message, Variante Error',
-  title: 'Darstellung einer Message'
-}) }}
-
-### Success
-{{ imageWithMode({
-  url: '/assets/images/mobile/success',
-  alt: 'Darstellung einer Message, Variante Success',
-  title: 'Message, Variante Success'
+  url: '/assets/images/mobile/message-without-illustration',
+  alt: 'Message, mit Illustration',
+  title: 'Message, mit Illustration'
 }) }}
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=24%3A2648'
+  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?type=design&node-id=24%3A2648&mode=design&t=g20X3jZNv7HkqZou-1'
 }) }}
