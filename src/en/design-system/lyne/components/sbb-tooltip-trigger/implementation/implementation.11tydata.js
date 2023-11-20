@@ -3,7 +3,7 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 module.exports = {
     eleventyComputed: {
       implementation: data => {
-        let url = "https://raw.githubusercontent.com/lyne-design-system/lyne-components/master/src/components/sbb-tooltip-trigger/readme.md";
+        let url = "https://raw.githubusercontent.com/lyne-design-system/lyne-components/master/src/components/tooltip/tooltip-trigger/readme.md";
         return EleventyFetch(url, {
           duration: "1d",
           type: "text"
