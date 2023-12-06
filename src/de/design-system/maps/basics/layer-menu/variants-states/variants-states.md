@@ -26,14 +26,14 @@ Werden in einer Anwendung nur zwei Layer angeboten, wechselt der Layer durch Kli
 
 #### Default
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Layer-Menu-Toggle-Default',
+  url: '/assets/images/maps/maps-layer-menu-toggle-default',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}
 
 #### Small
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Layer-Menu-Toggle-Default',
+  url: '/assets/images/maps/maps-layer-menu-toggle-default',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}
@@ -44,14 +44,14 @@ Durch Klick auf den Button öffnet sich die Auswahl der Layer, durch einen weite
 
 #### Default
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Layer-Menu-List-Default',
+  url: '/assets/images/maps/maps-layer-menu-list-default',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}
 
 #### Small
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Layer-Menu-List-Small',
+  url: '/assets/images/maps/maps-layer-menu-list-small',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}

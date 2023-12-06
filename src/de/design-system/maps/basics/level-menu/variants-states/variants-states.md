@@ -23,21 +23,21 @@ Die Komponente hat folgende Varianten:
 
 ### Default
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Level-default',
+  url: '/assets/images/maps/maps-level-default',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}
 
 ### Small
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Level-small',
+  url: '/assets/images/maps/maps-level-small',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}
 
 ### on Map
 {{ imageWithMode({
-  url: '/assets/images/maps/Maps-Level-Switch-Default',
+  url: '/assets/images/maps/maps-level-switch-default',
   alt: 'Darstellung des Primary Button',
   title: 'Darstellung des Primary Button'
 }) }}
