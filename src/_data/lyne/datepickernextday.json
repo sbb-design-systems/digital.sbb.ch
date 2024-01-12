@@ -2,13 +2,13 @@
     "label":"Datepicker-Next-Day",
     "id":"sbb-datepicker-next-day",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-datepicker-next-day--docs#stories",
-    "tag":"<sbb-datepicker-next-day class='demo-item' disabled='false'></sbb-datepicker-next-day>",
+    "tag":"<sbb-datepicker-next-day class='demo-item'></sbb-datepicker-next-day>",
     "configuration" : [
         {
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

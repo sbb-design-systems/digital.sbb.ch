@@ -2,7 +2,7 @@
     "label":"Form-Field",
     "id":"sbb-form-field",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-form-field--docs#stories",
-    "tag":"<sbb-form-field class='demo-item' id='sbb-form-field' borderless='false' floating-label='fasle' disabled='false' optional='false' size='m' width='default' error-space='reserve' label='Label' size='m' width='default'><input id='sbb-form-field-input' placeholder='Input placeholder'><sbb-form-error class='error' slot='error'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='prefix' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='suffix' name='pie-small'></sbb-icon></sbb-form-field>",
+    "tag":"<sbb-form-field class='demo-item' id='sbb-form-field' size='m' width='default' error-space='reserve' label='Label' size='m' width='default'><input id='sbb-form-field-input' placeholder='Input placeholder'><sbb-form-error class='error' slot='no'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='no' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='no' name='pie-small'></sbb-icon></sbb-form-field>",
     "configuration" : [
         {
             "id":"prefix",
@@ -38,7 +38,7 @@
             "id":"floating-label",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"
@@ -80,7 +80,7 @@
             "id":"optional",
             "target":"demo-item",
             "default":"true",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"true",
                 "id":"true"

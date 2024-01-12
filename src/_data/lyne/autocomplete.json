@@ -7,8 +7,8 @@
         {
             "id":"preserve-icon-space",
             "target":"demo-item",
-            "default":"true",
-            "mode":"property",
+            "default":"false",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

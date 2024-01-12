@@ -2,7 +2,7 @@
     "label":"Link",
     "id":"sbb-link",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-link--docs#stories",
-    "tag":"<sbb-link class='demo-item' variant='block' negative='false' size='xs' icon-placement='start' href='#'' type='button' name='Button name' icon-name='glass-cocktail-small'>I am a link</sbb-link>",
+    "tag":"<sbb-link class='demo-item' variant='block' size='s' icon-placement='start' href='#'' type='button' name='Button name' icon-name='glass-cocktail-small'>I am a link</sbb-link>",
     "configuration" : [
         {
             "id":"variant",
@@ -68,7 +68,7 @@
             "id":"negative",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

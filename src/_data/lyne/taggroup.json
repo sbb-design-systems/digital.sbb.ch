@@ -2,13 +2,13 @@
     "label":"Tag",
     "id":"sbb-tag",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-tag-group--docs#stories",
-    "tag":"<sbb-tag-group class='demo-item' multiple='true' aria-label='Select your desired filter'><sbb-tag checked='' value='Label 1' amount='123' icon-name='pie-small'>Label 1</sbb-tag><sbb-tag value='Label 2' amount='33' icon-name='pizza-slice-small'>Label 2</sbb-tag><sbb-tag value='Label 3' amount='44' icon-name='unicorn-small'>Label 3</sbb-tag></sbb-tag-group>",
+    "tag":"<sbb-tag-group class='demo-item' multiple aria-label='Select your desired filter'><sbb-tag checked='' value='Label 1' amount='123' icon-name='pie-small'>Label 1</sbb-tag><sbb-tag value='Label 2' amount='33' icon-name='pizza-slice-small'>Label 2</sbb-tag><sbb-tag value='Label 3' amount='44' icon-name='unicorn-small'>Label 3</sbb-tag></sbb-tag-group>",
     "configuration" : [
         {
             "id":"multiple",
             "target":"demo-item",
             "default":"true",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"true",
                 "id":"true"

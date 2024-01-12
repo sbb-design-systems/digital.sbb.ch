@@ -4,7 +4,7 @@
     "label":"Radio-Button",
     "id":"sbb-radio-button",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-radio-button--docs#stories",
-    "tag":"<sbb-radio-button class='demo-item' value='single-checkbox' disabled='false' checked='false' icon-name='glass-cocktail-small' icon-placement='start' indeterminate='false' size='m'>Example</sbb-radio-button>",
+    "tag":"<sbb-radio-button class='demo-item' value='single-checkbox' icon-name='glass-cocktail-small' icon-placement='start' size='m'>Example</sbb-radio-button>",
     "configuration" : [
         {
             "id":"size",
@@ -24,7 +24,7 @@
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

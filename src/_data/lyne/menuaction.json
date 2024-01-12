@@ -36,7 +36,7 @@
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"true",
                 "id":"true"

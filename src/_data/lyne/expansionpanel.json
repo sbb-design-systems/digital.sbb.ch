@@ -2,13 +2,13 @@
     "label":"Expansion-Panel",
     "id":"sbb-expansion-panel",
     "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-accordion-sbb-accordion--docs#stories",
-    "tag":"<sbb-accordion title-level='3' style='width:75%;' multi='true'><sbb-expansion-panel class='demo-item'><sbb-expansion-panel-header>Header 1</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 1</sbb-expansion-panel-content></sbb-expansion-panel><sbb-expansion-panel class='demo-item'><sbb-expansion-panel-header>Header 2</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 2</sbb-expansion-panel-content></sbb-expansion-panel></sbb-accordion>",
+    "tag":"<sbb-accordion title-level='3' style='width:75%;' multi><sbb-expansion-panel class='demo-item'><sbb-expansion-panel-header>Header 1</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 1</sbb-expansion-panel-content></sbb-expansion-panel><sbb-expansion-panel class='demo-item'><sbb-expansion-panel-header>Header 2</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 2</sbb-expansion-panel-content></sbb-expansion-panel></sbb-accordion>",
     "configuration" : [
         {
             "id":"borderless",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"
@@ -36,7 +36,7 @@
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

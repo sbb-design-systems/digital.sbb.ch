@@ -2,7 +2,7 @@
         "label":"Button",
         "id":"sbb-button",
         "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-button--docs#stories",
-        "tag":"<sbb-button class='demo-item' icon-name='glass-cocktail-small'><span id='value'>Label</span></sbb-button>",
+        "tag":"<sbb-button class='demo-item' icon-name='glass-cocktail-small' size='m'><span id='value'>Label</span></sbb-button>",
         "configuration" : [
             {
                 "id":"variant",

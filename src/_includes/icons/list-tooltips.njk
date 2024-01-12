@@ -1,6 +1,6 @@
 {% for icon in icons %}
 {% if (icon.type == mode) %}
-<sbb-tooltip id="{{ icon.name }}-trigger" trigger="{{ icon.name }}" hover-trigger="true">
+<sbb-tooltip id="{{ icon.name }}-trigger" trigger="{{ icon.name }}" hover-trigger>
     <div class="icon-content" id="{{ icon.name }}-content">
         <sbb-title level="5">{{ icon.name }}</sbb-title>
         <p class="sbb-text-s tooltip-max-width">

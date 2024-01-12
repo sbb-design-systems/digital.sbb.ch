@@ -2,7 +2,7 @@
     "label":"tooltip-trigger",
     "id":"sbb-tooltip-trigger",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-tooltip-trigger--docs#stories",
-    "tag":"<sbb-tooltip-trigger aria-describedby='tooltip-content' class='demo-item' disabled='false' icon-name='circle-information-small'></sbb-tooltip-trigger><sbb-tooltip id='tooltip' trigger='demo-item' hide-close-button='true'><span id='tooltip-content'>Tooltip content.</span></sbb-tooltip>",
+    "tag":"<sbb-tooltip-trigger aria-describedby='tooltip-content' class='demo-item' icon-name='circle-information-small'></sbb-tooltip-trigger><sbb-tooltip id='tooltip' trigger='demo-item' hide-close-button><span id='tooltip-content'>Tooltip content.</span></sbb-tooltip>",
     "configuration" : [
         {
             "id":"icon-name",
@@ -22,7 +22,7 @@
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

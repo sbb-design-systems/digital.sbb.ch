@@ -2,7 +2,7 @@
     "label":"Logo",
     "id":"sbb-logo",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-logo--docs#stories",
-    "tag":"<div style='border: dashed 1px var(--sbb-color-platinum-default); max-width: 300px;'><sbb-logo class='demo-item' negative='false' protective-room='ideal'></sbb-logo></div>",
+    "tag":"<div style='border: dashed 1px var(--sbb-color-platinum-default); max-width: 300px;'><sbb-logo class='demo-item' protective-room='ideal'></sbb-logo></div>",
     "configuration" : [
         {
             "id":"protective-room",
@@ -26,7 +26,7 @@
             "id":"negative",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

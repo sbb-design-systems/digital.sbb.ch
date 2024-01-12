@@ -2,7 +2,7 @@
     "label":"Icon",
     "id":"sbb-tag",
     "link": "/de/foundation/assets/icons/",
-    "tag":"<sbb-icon style='color:red;' class='demo-item' name='glass-cocktail-small'></sbb-icon>",
+    "tag":"<sbb-icon style='color: var(--sbb-color-black-default);' class='demo-item' name='glass-cocktail-small'></sbb-icon>",
     "configuration" : [
         {
             "id":"name",

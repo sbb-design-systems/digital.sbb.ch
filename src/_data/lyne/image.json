@@ -2,21 +2,23 @@
     "label":"Image",
     "id":"sbb-image",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-image--docs#stories",
-    "tag":"<div style='width: 66%'><sbb-image class='demo-item' alt='Alt-Text' caption='Caption' border-radius='true' aspect-ratio='free' copyright='' copyright-holder='Organization' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/upload/raw/images/Tell-Pass-Zentralschweiz.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image></div>",
+    "tag":"<div style='width: 66%'><sbb-image class='demo-item' alt='Alt-Text' caption='Caption' aspect-ratio='free' copyright='' copyright-holder='Organization' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/upload/raw/images/Tell-Pass-Zentralschweiz.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image></div>",
     "configuration" : [
         {
-            "id":"border-radius",
+            "id":"no-border-radius",
             "target":"demo-item",
-            "default":"true",
-            "mode":"property",
-            "radios" : [{
+            "default":"false",
+            "mode":"boolean",
+            "radios" : [
+                {
+                    "value":"false",
+                    "id":"true"
+                },
+                {
                 "value":"true",
-                "id":"true"
-            },
-            {
-                "value":"false",
                 "id":"false"
-            }]
+            }
+           ]
         },
         {
             "id":"caption",

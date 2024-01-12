@@ -2,13 +2,13 @@
     "label":"Toggle-Option",
     "id":"sbb-toggle-option",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-toggle-option--docs#stories",
-    "tag":"<sbb-toggle-option class='demo-item' value='value' icon-name='glass-cocktail-small' disabled='false'>Option</sbb-toggle-option>",
+    "tag":"<sbb-toggle-option class='demo-item' value='value' icon-name='glass-cocktail-small'>Option</sbb-toggle-option>",
     "configuration" : [
         {
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

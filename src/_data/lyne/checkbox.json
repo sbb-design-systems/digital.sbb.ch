@@ -2,7 +2,7 @@
     "label":"Checkbox",
     "id":"sbb-checkbox",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-checkbox--docs#stories",
-    "tag":"<sbb-checkbox class='demo-item' value='single-checkbox' disabled='false' checked='false' icon-name='glass-cocktail-small' icon-placement='start' indeterminate='false' size='m'>Example</sbb-checkbox>",
+    "tag":"<sbb-checkbox class='demo-item' value='single-checkbox' icon-name='glass-cocktail-small' icon-placement='start' size='m'>Example</sbb-checkbox>",
     "configuration" : [
         {
             "id":"size",
@@ -22,7 +22,7 @@
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"
@@ -36,7 +36,7 @@
             "id":"indeterminate",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

@@ -4,13 +4,13 @@
     "label":"Datepicker-Previous-Day",
     "id":"sbb-datepicker-previous-day",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-form-elements-sbb-datepicker-previous-day--docs#stories",
-    "tag":"<sbb-datepicker-previous-day class='demo-item' disabled='false'></sbb-datepicker-previous-day>",
+    "tag":"<sbb-datepicker-previous-day class='demo-item'></sbb-datepicker-previous-day>",
     "configuration" : [
         {
             "id":"disabled",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

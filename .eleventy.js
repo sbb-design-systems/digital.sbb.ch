@@ -48,6 +48,14 @@ module.exports = function (config) {
     config.addPassthroughCopy("src/assets/downloads");
     config.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     config.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
+
+    require("esbuild").buildSync({
+        entryPoints:[".lyne.js"],
+        bundle:true,
+        minify:true,
+        outfile:"dist/assets/js/lyne-bundle.js"
+    })   
+
     config.addPlugin(eleventySass, [
         {
             compileOptions: {
@@ -77,8 +85,6 @@ module.exports = function (config) {
     config.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "de",
       });
-
-
 
      config.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-components/dist/collection/storybundle');    

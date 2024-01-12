@@ -2,7 +2,7 @@
     "label":"Signet",
     "id":"sbb-signet",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-signet--docs#stories",
-    "tag":"<div style='max-width: 100px;'><sbb-signet class='demo-item' protective-room='none'></sbb-signet></div>",
+    "tag":"<div style='max-width: 100px;'><sbb-signet class='demo-item' protective-room='ideal'></sbb-signet></div>",
     "configuration" : [
         {
             "id":"protective-room",

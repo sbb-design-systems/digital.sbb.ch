@@ -2,7 +2,7 @@
     "label":"Journey Header",
     "id":"sbb-journey-header",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-journey-header--docs#stories",
-    "tag":"<sbb-journey-header class='demo-item' origin='Luzern' destination='St. Gallen' round-trip='false' negative='false' level='1' />",
+    "tag":"<sbb-journey-header class='demo-item' origin='Luzern' destination='St. Gallen' level='1' />",
     "configuration" : [
         {
             "id":"size",
@@ -15,14 +15,14 @@
             }, 
             {
                 "value":"l",
-                "id":"m"
+                "id":"l"
             }]
         },
         {
             "id":"negative",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"
@@ -36,7 +36,7 @@
             "id":"round-trip",
             "target":"demo-item",
             "default":"false",
-            "mode":"property",
+            "mode":"boolean",
             "radios" : [{
                 "value":"false",
                 "id":"false"

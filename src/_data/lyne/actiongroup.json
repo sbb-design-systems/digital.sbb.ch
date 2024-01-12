@@ -2,7 +2,7 @@
         "label":"Action-Group",
         "id":"sbb-action-group",
         "link": "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-action-group--docs#stories",
-        "tag":"<div class='full-width-wrapper'><sbb-action-group class='demo-item' orientation='vertical'><sbb-button variant='secondary'>Action 1</sbb-button><sbb-button variant='secondary'>Action 2</sbb-button><sbb-button variant='primary'>Action 3</sbb-button></sbb-action-group></div>",
+        "tag":"<div class='full-width-wrapper'><sbb-action-group class='demo-item' orientation='vertical' button-size='m'><sbb-button variant='secondary'>Action 1</sbb-button><sbb-button variant='secondary'>Action 2</sbb-button><sbb-button variant='primary'>Action 3</sbb-button></sbb-action-group></div>",
         "configuration" : [
             {
                 "id":"button-size",

@@ -1,5 +1,5 @@
  {% for name, communityasset in communityassets %}
-    <sbb-dialog id="dialog-{{loop.index}}" title-content="{{ communityasset.title_pattern }}" title-back-button="false">
+    <sbb-dialog id="dialog-{{loop.index}}" title-content="{{ communityasset.title_pattern }}">
         <div class="dialog-content">
             <dl class="sbb-list communit-asset-detail" style="width:100%">
                 {% if communityasset.design_system|length %}
