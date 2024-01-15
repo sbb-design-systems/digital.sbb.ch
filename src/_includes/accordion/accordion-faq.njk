@@ -1,5 +1,4 @@
-<sbb-accordion-item event-id="id{{ accordion.data.order }}" heading="{{ accordion.data.title }}" heading-level="3">
-    <div slot="content">
-        {{accordion.content | safe}}
-    </div>
-</sbb-accordion-item>
+  <sbb-expansion-panel event-id="id{{ accordion.data.order }}" heading-level="3">
+    <sbb-expansion-panel-header>{{ accordion.data.title }}</sbb-expansion-panel-header>
+    <sbb-expansion-panel-content>{{accordion.content | safe}}</sbb-expansion-panel-content>
+  </sbb-expansion-panel>
