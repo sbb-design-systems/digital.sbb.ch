@@ -5,5 +5,5 @@
         {% else %}
             <img slot="image" loading="lazy" class="full-width-image" src="/assets/images/teaser/fallback.webp" alt="fallback">
         {% endif %}
-        <sbb-title class="teaser-title" slot="title" title="6" visual-level="6">{{ component.data.title }}</sbb-title>
+        {{ component.data.title }}
     </sbb-teaser>
