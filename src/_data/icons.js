@@ -1,6 +1,6 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
-let url = "https://d1s1onrtynjaa8.cloudfront.net/icons/index.json";
+let url = "https://icons.app.sbb.ch/icons/index.json";
 
 const loadjson = async function() {
   return EleventyFetch(url, {
@@ -10,15 +10,11 @@ const loadjson = async function() {
 }
 const computedicons = async function() {
   const result = await loadjson();
-  
-  //const icons = response.data.icons;
+
   var computeicons = result.icons;
   computeicons.forEach((icon, index) => {
-      icon.url = "https://d1s1onrtynjaa8.cloudfront.net/icons/" + icon.name + ".svg";
-      //icon.type = "KOM";
-      //console.log(icon);
+      icon.url = "https://icons.app.sbb.ch/icons/" + icon.name + ".svg";
 
-      //console.log(icon.tags.indexOf("ui-icons"));
       
       if (icon.tags.includes("ui-icons")) {
           icon.type = "KOM";
