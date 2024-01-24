@@ -87,6 +87,11 @@ const computedicons = async function() {
               icon.mode = "light";
               icon.tags.splice(indexmodelight, 1);
           }
+          var indexmodehighcontrast = icon.tags.indexOf("high-contrast");
+          if (indexmodehighcontrast >= 0) {
+              icon.mode = "high-contrast";
+              icon.tags.splice(indexmodehighcontrast, 1);
+          }
       }
       
   });

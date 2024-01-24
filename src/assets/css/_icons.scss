@@ -51,6 +51,9 @@
         &.dark {
             background: var(--sbb-color-black-default);
         }
+        &.high-contrast {
+            background: var(--sbb-color-black-default);
+        }
     }
 }
 .filters {
