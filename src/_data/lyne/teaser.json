@@ -2,20 +2,38 @@
     "label":"Teaser",
     "id":"sbb-teaser",
     "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-teaser--docs#stories",
-    "tag":"<div style='max-width:200px'><sbb-teaser class='demo-item' aria-label='Aria Label' href='#' is-stacked><img slot='image' src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='alt'><span slot='title'>This is a title</span><span slot='description'>This is a paragraph</span></sbb-teaser></div>",
+    "tag":"<sbb-teaser class='demo-item' aria-label='Aria Label' title-content='This is a title' href='#' alignment='below'><img slot='image' src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='alt'>This is a paragraph</sbb-teaser>",
     "configuration" : [
         {
-            "id":"is-stacked",
+            "id":"alignment",
             "target":"demo-item",
-            "default":"true",
-            "mode":"boolean",
+            "default":"below",
+            "mode":"property",
             "radios" : [{
-                "value":"true",
-                "id":"true"
+                "value":"below",
+                "id":"below"
             },
             {
-                "value":"false",
+                "value":"after",
+                "id":"after"
+            },
+            {
+                "value":"after-centered",
+                "id":"after-centered"
+            }]
+        },
+        {
+            "id":"chip-content",
+            "target":"demo-item",
+            "default":"",
+            "mode":"removetag",
+            "radios" : [{
+                "value":"",
                 "id":"false"
+            },
+            {
+                "value":"Chip",
+                "id":"true"
             }]
         }
     ]

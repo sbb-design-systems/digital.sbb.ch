@@ -9,5 +9,5 @@ title: Action-Group
 parent: components-lyne_de
 image: lyne/overview/action-group.webp
 keywords: action-group
-order: 30
+order: 20
 ---

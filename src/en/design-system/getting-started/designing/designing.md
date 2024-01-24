@@ -44,7 +44,7 @@ To install the required Libraies, you need to join the team <sbb-link variant="i
 All libraries are based on the following design token libraries. It is mandatory to activate them:{.lead}
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/MN4unbOECrOGJ2bKxgYZI1/SBB-Colors?t=gMc333VEVkr5hjze-1">SBB Colors</sbb-link>  
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?t=gMc333VEVkr5hjze-1">SBB Icons</sbb-link>   
-- <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/el6W0pbvl6BRgaiPZ5NFqE/SBB-Pictograms?t=gMc333VEVkr5hjze-1">SBB Pictograms</sbb-link>
+- <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/el6W0pbvl6BRgaiPZ5NFqE/SBB-Pictograms?t=gMc333VEVkr5hjze-1">Public transport pictograms</sbb-link>
 
 Depending on the product or platform, you can activate the required libraries:
 

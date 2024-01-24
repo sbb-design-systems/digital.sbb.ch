@@ -9,5 +9,5 @@ title: Card
 parent: components-lyne_de
 image: lyne/overview/card.webp
 keywords: card
-order: 90
+order: 80
 ---

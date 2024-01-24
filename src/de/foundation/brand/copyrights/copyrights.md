@@ -7,7 +7,7 @@ parent: brand_de
 order: 4
 ---
 
-## Ausschliessliche Verwendung der SBB Piktogramme, Fahrplan-Icons und SBB Uhr:
+## Ausschliessliche Verwendung der öV-Piktogramme, Fahrplan-Icons und SBB Uhr:
 - Alle konzessionierten Transportunternehmen der Schweiz.
 - Projekte in Zusammenhang mit dem öffentlichen Verkehr der Schweiz.  
 

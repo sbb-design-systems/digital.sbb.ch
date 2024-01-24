@@ -9,5 +9,5 @@ title: Dialog
 parent: components-lyne_en
 image: lyne/overview/dialog.webp
 keywords: dialog
-order: 190
+order: 180
 ---

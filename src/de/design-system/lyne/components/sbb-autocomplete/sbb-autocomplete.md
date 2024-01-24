@@ -9,5 +9,5 @@ title: Autocomplete
 parent: components-lyne_de
 image: lyne/overview/autocomplete.webp
 keywords: autocomplete
-order: 60
+order: 50
 ---

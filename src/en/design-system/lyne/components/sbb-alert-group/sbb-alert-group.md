@@ -9,5 +9,5 @@ title: Alert-Group
 parent: components-lyne_en
 image: lyne/overview/alert-group.webp
 keywords: alert-group
-order: 50
+order: 40
 ---

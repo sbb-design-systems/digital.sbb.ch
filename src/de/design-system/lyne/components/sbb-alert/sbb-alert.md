@@ -9,5 +9,5 @@ title: Alert
 parent: components-lyne_de
 image: lyne/overview/alert.webp
 keywords: alert
-order: 40
+order: 30
 ---

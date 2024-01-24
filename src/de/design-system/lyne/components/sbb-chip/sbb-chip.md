@@ -9,5 +9,5 @@ title: Chip
 parent: components-lyne_de
 image: lyne/overview/chip.webp
 keywords: chip
-order: 130
+order: 120
 ---

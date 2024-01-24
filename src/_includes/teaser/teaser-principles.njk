@@ -1,7 +1,6 @@
 {% if teaser.data.image|length %}
-<sbb-teaser is-stacked accessibilityLabel="{{ teaser.data.title }}: {{ teaser.data.alternativetitle }}" href="{{ teaser.url }}" data-keywords="{{ teaser.data.title }}">
-    <img slot="image" loading="lazy" src="/assets/images/principles/overview/{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
-    <span slot="title">{{ teaser.data.title }}</span>
-    <p class="description" slot="description">{{ teaser.data.alternativetitle }}</p>    
+ <sbb-teaser title-content="{{ teaser.data.title }}" title-level="2" alignment="below" aria-label="{{ teaser.data.title }}: {{ teaser.data.alternativetitle }}" href="{{ teaser.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
+    <img slot="image" class="full-width-image" loading="lazy" src="/assets/images/principles/overview/{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+      {{ teaser.data.alternativetitle }}
 </sbb-teaser>
 {% endif %}

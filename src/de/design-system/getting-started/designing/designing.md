@@ -44,7 +44,7 @@ Damit du die benötigten Libraies installieren kannst, musst du dem Team <sbb-li
 Sämtliche Libraries basieren auf folgenden Design-Token-Libraries. Es ist zwingend nötig diese zu aktivieren:{.lead}
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/MN4unbOECrOGJ2bKxgYZI1/SBB-Colors?t=gMc333VEVkr5hjze-1">SBB Colors</sbb-link>  
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?t=gMc333VEVkr5hjze-1">SBB Icons</sbb-link>   
-- <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/el6W0pbvl6BRgaiPZ5NFqE/SBB-Pictograms?t=gMc333VEVkr5hjze-1">SBB Pictograms</sbb-link>
+- <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/el6W0pbvl6BRgaiPZ5NFqE/SBB-Pictograms?t=gMc333VEVkr5hjze-1">öV-Piktogramme</sbb-link>
 
 Danach kanns du je nach Produkt, bzw. Zielplattform die benötigten Libraries aktivieren:
 

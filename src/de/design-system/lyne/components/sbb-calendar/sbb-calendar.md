@@ -9,5 +9,5 @@ title: Calendar
 parent: components-lyne_de
 image: lyne/overview/calendar.webp
 keywords: calendar
-order: 80
+order: 70
 ---

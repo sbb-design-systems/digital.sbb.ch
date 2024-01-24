@@ -7,7 +7,7 @@ parent: brand_en
 order: 4
 ---
 
-## Exclusive use of SBB pictograms, timetable icons and SBB clock:
+## Exclusive use of public transport pictograms, timetable icons and SBB clock:
 - All licensed transport companies in Switzerland.{.lead}
 - Projects related to public transport in Switzerland.{.lead}  
 

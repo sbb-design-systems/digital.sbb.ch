@@ -1,5 +1,7 @@
-<sbb-teaser title-level="2" is-stacked="" accessibilityLabel="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
-    <img slot="image" loading="lazy" src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
-    <span slot="title">{{ teaser.data.head }}</span>
-    <p slot="description">{{ teaser.data.description }}</p>
+ <sbb-teaser title-content="{{ teaser.data.head }}" title-level="2" alignment="below" aria-label="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
+    <img slot="image" class="full-width-image" loading="lazy" src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+    {% if teaser.data.chip|length %}
+    <span slot="chip">{{ teaser.data.chip }}</span>
+    {% endif %}
+      {{ teaser.data.description }}
 </sbb-teaser>

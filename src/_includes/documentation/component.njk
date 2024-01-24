@@ -1,9 +1,9 @@
 
-    <sbb-teaser class="component-teaser" is-stacked accessibilityLabel="{{ component.data.title }}" href="{{ component.url }}" data-keywords="{{ component.data.keywords }}">
+    <sbb-teaser class="component-teaser" title-content="" title-level="6" alignment="below" aria-label="{{ component.data.title }}" href="{{ component.url }}" data-keywords="{{ component.data.keywords }}">
         {% if component.data.image|length %}
-            <img slot="image" loading="lazy" src="/assets/images/{{ component.data.image }}" alt="{{ component.data.title }}">
+            <img slot="image" loading="lazy" class="full-width-image" src="/assets/images/{{ component.data.image }}" alt="{{ component.data.title }}">
         {% else %}
-            <img slot="image" loading="lazy" src="/assets/images/teaser/fallback.webp" alt="fallback">
+            <img slot="image" loading="lazy" class="full-width-image" src="/assets/images/teaser/fallback.webp" alt="fallback">
         {% endif %}
-            <p class="description" slot="description">{{ component.data.title }}</p>
+        <sbb-title class="teaser-title" slot="title" title="6" visual-level="6">{{ component.data.title }}</sbb-title>
     </sbb-teaser>

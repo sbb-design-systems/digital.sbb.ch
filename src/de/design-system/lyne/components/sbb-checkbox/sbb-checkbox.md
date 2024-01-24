@@ -9,5 +9,5 @@ title: Checkbox
 parent: components-lyne_de
 image: lyne/overview/checkbox.webp
 keywords: checkbox
-order: 110
+order: 100
 ---

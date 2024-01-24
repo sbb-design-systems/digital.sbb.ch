@@ -7,7 +7,7 @@ parent: brand_fr
 order: 4
 ---
 
-## Utilisation exclusive des pictogrammes CFF, des icônes d’horaire et de l’horloge CFF
+## Utilisation exclusive des Pictogrammes TP, des icônes d’horaire et de l’horloge CFF
 - Toutes les entreprises de transport concessionnaires en Suisse.
 - Projets liés aux transports publics en Suisse.  
 

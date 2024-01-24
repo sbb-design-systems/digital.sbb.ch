@@ -9,5 +9,5 @@ title: Divider
 parent: components-lyne_en
 image: lyne/overview/divider.webp
 keywords: divider
-order: 200
+order: 190
 ---

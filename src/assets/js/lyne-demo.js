@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             if (datamode == "removetag") {
                 if (this.value.length > 0) {
-                    alert("nicht leer")
                     element.setAttribute(dataproperty, this.value);
                 } else {
                     element.removeAttribute(dataproperty);
