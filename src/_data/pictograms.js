@@ -1,6 +1,6 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
-let url = "https://d1s1onrtynjaa8.cloudfront.net/pictograms/index.json";
+let url = "https://icons.app.sbb.ch/pictograms/index.json";
 
 const loadjson = async function() {
   return EleventyFetch(url, {
@@ -14,7 +14,7 @@ const computedpictograms = async function() {
   //const pictograms = response.data.pictograms;
   var computepictograms = result.pictograms;
   computepictograms.forEach((pictogram, index) => {
-        pictogram.url = "https://d1s1onrtynjaa8.cloudfront.net/pictograms/" + pictogram.name + ".svg";
+        pictogram.url = "https://icons.app.sbb.ch/pictograms/" + pictogram.name + ".svg";
         pictogram.type = "Pictograms";
         pictogram.category = pictogram.tags.slice(3)[0];
         pictogram.subcategory = pictogram.tags.slice(7)[0];
