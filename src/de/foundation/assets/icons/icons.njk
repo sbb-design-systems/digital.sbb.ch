@@ -8,36 +8,42 @@ order: 1
 mode: KOM
 ---
 
-<p class="lead">Die SBB verfügt über einen eigenen Stock an 1 Pixel Outline Icons auf einem Raster von 24x24, 36x36 Pixel und teilweise 48x48 Pixel. Die Linienstärke bleibt dabei immer bei 1 Pixel (Responsive Icons). Die Icons sind auch in einer Non-Responsiver Version erhältlich (24x24, 36x36 und 48x48, Liniendicke skaliert) erhältlich, siehe Beispiel.</p>
+<p class="lead">Die SBB verfügt über einen eigenen Stock an 1 Pixel Outline Icons auf einem Raster von 24x24, 36x36 Pixel und teilweise 48x48 Pixel. </p>
 
-{{ webpImage({
-  url: '/assets/images/icons/beispiel',
-  alt: 'Beispiel',
-  title: 'Beispiel'
-}) }}
-
-<sbb-title level="2">Verwendung</sbb-title>
-<p class="lead">Der SBB Icon-Stil ist einzuhalten.  Sollte das bestehende Icon-Set nicht ausreichen, können neue Icons über <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> bestellt werden, Produktionskosten gehen zu Lasten des Projektes. Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der SBB Markenführung oder von UX vor deren Einsatz abgenommen werden. Detailierte Informationen zum SBB-Icon-Stil werden gerne auf Anfrage ausgehändigt. In digitalen Produkten und Apps ist darauf zu achten, dass Icons <strong>nicht</strong> in verschiedenen Linienstärken verwendet werden.  
-Weitere Informationen: <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/brand/copyrights/">Nutzungsrechte</sbb-link></p>
-
-<sbb-action-group class="download-icons" align-group="start" orientation="vertical" horizontal-from="small" button-size="l">
-  <sbb-button target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Figma-Library</sbb-button> 
-  <sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">
-  <sbb-icon slot="icon" name="github-small"></sbb-icon>Download Icons</sbb-button>
-</sbb-action-group>
-
-<sbb-title level="2">Vorschau</sbb-title>
-{% set icons = icons[0] %}
-{% include "src/_includes/icons/index.njk" %}
-<br>
-<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0&t=TkHYwdrMavtsKvyZ-1">
-<sbb-icon slot="icon" name="figma-small"></sbb-icon>
-Icons in Figma anschauen
-</sbb-button> 
-
-<sbb-title level="2">Projektspezifische Icons</sbb-title>
-<p class="lead">Diese werden vorwiegend in internen Produkten/Projekten verwendet. Oft sind es Icons aus Experten-Systemen, welche eine spezifische Bedeutung haben. Spezifische Icons sollten nicht für verschiedene Bedeutungen/Funktionen eingesetzt werden, weshalb der Einsatz sorgfältig geprüft werden muss. Trifft die exakte Bedeutung des Icons jedoch zu, kann das Icon eingesetzt werden. Bei Unsicherheit hilft das UX-Team gerne weiter. </p>
-<sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
-<sbb-icon slot="icon" name="figma-small"></sbb-icon>
-Projektspefzische Icons
-</sbb-button>
+<sbb-tab-group initial-selected-index="0" size="l">
+  <sbb-tab-title>Vorschau</sbb-tab-title>
+  <section>
+    {% set icons = icons[0] %}
+    {% include "src/_includes/icons/index.njk" %}
+    <br>
+    <sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0&t=TkHYwdrMavtsKvyZ-1">
+      <sbb-icon slot="icon" name="figma-small"></sbb-icon>
+      Icons in Figma anschauen
+    </sbb-button> 
+  </section>
+  <sbb-tab-title>Anwendung</sbb-tab-title>
+  <section>
+    <p class="lead">Dieser SBB Icon-Stil ist einzuhalten.  Sollte das bestehende Icon-Set nicht ausreichen, können neue Icons über <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> bestellt werden, Produktionskosten gehen zu Lasten des Projektes. Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der SBB Markenführung oder von UX vor deren Einsatz abgenommen werden. Detailierte Informationen zum SBB-Icon-Stil werden gerne auf Anfrage ausgehändigt. In digitalen Produkten und Apps ist darauf zu achten, dass Icons <strong>nicht</strong> in verschiedenen Linienstärken verwendet werden.  
+    Weitere Informationen: <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/brand/copyrights/">Nutzungsrechte</sbb-link></p>
+  </section>
+  <sbb-tab-title>Implementation</sbb-tab-title>
+  <section>
+    <sbb-link-list orientation="vertical" size="m">
+      <sbb-link icon-name="angular-small" icon-placement="start" href="https://angular.app.sbb.ch/angular/components/icon/overview ">Angular</sbb-link>
+      <sbb-link icon-name="link-external-small" icon-placement="start" href="https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-icon--docs">Lyne</sbb-link>
+      <sbb-link icon-name="nine-squares-small" icon-placement="start" href="https://icons.app.sbb.ch/">Icon CDN Overview</sbb-link>
+      <sbb-link icon-name="document-standard-small" icon-placement="start" href="https://icons.app.sbb.ch/icons/index.json">Icon CDN Json</sbb-link>
+      <sbb-link icon-name="glass-cocktail-small" icon-placement="start" href="https://icons.app.sbb.ch/icons/glass-cocktail-small.svg">Icon CDN Example</sbb-link>
+      <sbb-link icon-name="figma-small" icon-placement="start" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0">Figma-Library</sbb-link>
+      <sbb-link icon-name="github-small" icon-placement="start" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">Download Assets from Github</sbb-link>
+    </sbb-link-list>
+  </section>
+  <sbb-tab-title>Projektspezifische Icons</sbb-tab-title>  
+  <section>
+    <p class="lead">Diese werden vorwiegend in internen Produkten/Projekten verwendet. Oft sind es Icons aus Experten-Systemen, welche eine spezifische Bedeutung haben. Spezifische Icons sollten nicht für verschiedene Bedeutungen/Funktionen eingesetzt werden, weshalb der Einsatz sorgfältig geprüft werden muss. Trifft die exakte Bedeutung des Icons jedoch zu, kann das Icon eingesetzt werden. Bei Unsicherheit hilft das UX-Team gerne weiter. </p>
+    <sbb-button variant="secondary" target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
+    <sbb-icon slot="icon" name="figma-small"></sbb-icon>
+    Projektspefzische Icons
+    </sbb-button>
+  </section>
+</sbb-tab-group>
