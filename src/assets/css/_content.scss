@@ -332,3 +332,11 @@ h3 {
 .full-width-wrapper {
     width: 100%;
 }
+
+.release-card {
+    margin-bottom: var(--sbb-spacing-fixed-6x);
+    h2  {
+        margin-top: 0;
+        margin-bottom: var(--sbb-spacing-fixed-2x);
+    }
+}

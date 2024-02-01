@@ -5,7 +5,7 @@ key: components-lyne_de
 title: Komponenten
 alternativetitle: Komponenten Lyne
 parent: lyne_de
-order: 3
+order: 40
 componentbrowser: true
 subset: 2
 ---

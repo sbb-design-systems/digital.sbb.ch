@@ -1,15 +1,12 @@
-
 {% if availablelanguages.length %}
-<sbb-card color="transparent-bordered" size="xxl">
- <p class="no-margin">{{ translations[page.lang].missingtranslation }}: 
+    <sbb-notification type="warn" readonly>
+    {{ translations[page.lang].missingtranslation }}
         {%- for lang in availablelanguages  -%}
-             {% for loc in translations.languages -%}
+            {% for loc in translations.languages -%}
                 {% if lang == loc.url %}
                 <sbb-link variant="inline" href="/{{ loc.url }}{{ page.url.slice(3, -1) }}">{{ loc.label }}</sbb-link>
                 {% endif %}
-        {% endfor -%}
-    {%- endfor -%}
-    </p>
-</sbb-card>
+            {% endfor -%}
+        {%- endfor -%}
+    </sbb-notification>
 {% endif %}
-

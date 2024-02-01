@@ -1,0 +1,34 @@
+---
+layout: page.njk
+tags: 
+    - page
+    - dshome
+key: releases_de
+title: Releases
+alternativetitle: Releases
+parent: lyne_de
+order: 20
+componentbrowser: true
+---
+
+
+  <sbb-button variant="secondary" href="https://github.com/lyne-design-system/lyne-components/releases" target="_blank">
+    <sbb-icon slot="icon" name="github-small"></sbb-icon>
+    Latest Releases on Github
+  </sbb-button>
+  <br><br>
+
+
+
+
+{% for release in lyne.releases %}
+<sbb-card size="xxl" color="transparent-bordered" class="release-card">
+  <div>{{ release.body | renderUsingMarkdown | safe }}</div>
+  <br>
+  <sbb-button variant="secondary" href="{{release.zipball_url}}" target="_blank" download>
+    <sbb-icon slot="icon" name="document-zip-small"></sbb-icon>
+    Download Repo as Zip
+  </sbb-button>
+</sbb-card> 
+{% endfor %}
+

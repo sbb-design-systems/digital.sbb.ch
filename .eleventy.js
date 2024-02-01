@@ -11,13 +11,16 @@ const markdownItOptions = {
 }
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).disable('code');
 
-
 function sortByOrder(values) {
     let vals = [...values];     // this *seems* to prevent collection mutation...
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
 }
 
 module.exports = function (config) {
+
+    config.addFilter("renderUsingMarkdown", function(rawMarkup) {
+        return markdownLib.render(rawMarkup);
+    });
 
     config.setQuietMode(true);
 
@@ -38,7 +41,6 @@ module.exports = function (config) {
         })
         return collection;
       });
-
     config.addPlugin(syntaxHighlight);
     config.addPlugin(eleventyNavigationPlugin);
     config.setLibrary('md', markdownLib)

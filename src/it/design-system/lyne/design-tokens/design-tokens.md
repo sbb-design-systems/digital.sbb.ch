@@ -6,7 +6,7 @@ title: Design Tokens
 parent: lyne_it
 order: 2
 componentbrowser: true
-subset: 1
+subset: 30
 availablelanguages: 
     - de
     - en
