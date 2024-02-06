@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-alert-group",
+    "content":"<sbb-alert-group class='demo-item' accessibility-title='Disruptions' accessibility-title-level='2' role='status'><sbb-alert readonly disable-animation title-content='Interruption between Genève and Lausanne' href='#' size='m'>The rail traffic between Allaman and Morges is interrupted. All trains are cancelled.</sbb-alert><sbb-alert disable-animation title-content='Interruption between Berne and Olten' href='https://www.sbb.ch'>Between Berne and Olten from 03.11.2021 to 05.12.2022 each time from 22:30 to 06:00 o'clock construction work will take place. You have to expect changed travel times and changed connections.</sbb-alert></sbb-alert-group>",
+    "configuration" : [
+    ]
+}
+
+

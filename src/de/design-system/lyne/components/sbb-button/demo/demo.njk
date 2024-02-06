@@ -8,17 +8,8 @@ order: 4
 permalink: false  
 ---
 
-{#{ lyneproperties | dump | safe }#}
-
-{#% set examples = 'sbb-button' | lyneexample %}
-        {% for item in examples %}
-        item: {{loop.index}} <br><br>
-        {{item | dump | safe}}<br><br>
-{% endfor %#}
-
-
 {{ lynedemo({
-  json: lyne.button,
-  translations: translations[page.lang].lyne,
-  more: "https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-card--docs#anchor--components-sbb-card--sbb-card-link"
+  json: lyne.patterns.button,
+  stories: lyne.stories[0],
+  translations: translations[page.lang].lyne
 }) }}

@@ -38,27 +38,29 @@
     {% endif %}
 {% endmacro %}
 
-
 {% macro specificationLinks(params) %}
     <sbb-action-group orientation="vertical" horizontal-from="small">{% if params.figma %}<sbb-button size="m" variant="secondary" target="_blank" href="{{params.figma}}"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Design</sbb-button>{% endif %}{% if params.github %}<sbb-button size="m" variant="secondary" target="_blank" href="{{params.github}}"><sbb-icon slot="icon" name="github-small"></sbb-icon>Code</sbb-button>{% endif %}</sbb-action-group>
 {% endmacro %}
 
 
+
+
 {% macro lynedemo(params) %}
 {% set pattern = params.json %}
+{% set stories = params.stories %}
 <div class="demo {% if params.wide == true %}wide{% endif %}">
     <div class="background" id="background">
-           {{pattern.tag | safe}}
+           {{pattern.content | safe}}
     </div>
     <div class="config-bar">
         <sbb-accordion title-level='3'>
         {% for item in pattern.configuration %}
             <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
-                <sbb-expansion-panel-header>{{ params.translations[item.id] }}</sbb-expansion-panel-header>
+                <sbb-expansion-panel-header>{{ params.translations[item.attribute] }}</sbb-expansion-panel-header>
                 <sbb-expansion-panel-content>
-                    <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.label}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.id}}">
-                        {% for radio in item.radios %}
-                        <sbb-radio-button value="{{radio.value}}">{{ params.translations[radio.id] }}</sbb-radio-button>
+                    <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.attribute}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.attribute}}">
+                        {% for option in item.options %}
+                            <sbb-radio-button value="{{option.value}}">{{ params.translations[option.label] }}</sbb-radio-button>
                         {% endfor %}
                     </sbb-radio-button-group>
                 </sbb-expansion-panel-content>
@@ -79,10 +81,32 @@
             </sbb-expansion-panel>
         </sbb-accordion>
         <sbb-action-group id="more-buttons" align-group="stretch" orientation="vertical" horizontal-from="unset" button-size="l">
-            <sbb-button variant="secondary" icon-name="plus-small" href="{{ pattern.link }}" target="_blank">{{ params.translations["more"] }}</sbb-button>
+        {% for story, doc in stories %}
+
+        {% if doc.tag == pattern.tag and doc.component == false and doc.name == "Docs" %}
+            <sbb-button variant="secondary" icon-name="plus-small" href="http://localhost:6006/?path=/docs/{{doc.id}}" target="_blank">{{ params.translations["more"] }}</sbb-button>
+        {% endif %}
+        {% endfor %}
         </sbb-action-group>
     </div>
 </div>
-<script src="/assets/js/lyne-demo.js"></script>
+
+{#
+
+<sbb-title title="2" visual-level="4">Beispiele</sbb-title>
+
+{% for story, stor in stories %}
+  {% if stor.tag == pattern.tag and stor.component == true %}
+  
+   <sbb-title title="3" visual-level="5">{{stor.name}}</sbb-title>
+   <iframe class="iframe-border" src="http://localhost:6006/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
+   
+  {% endif %}
+{% endfor %}
+
+#}
+
+<script src="/assets/js/lyne.js"></script>
+
 {% endmacro %}
 

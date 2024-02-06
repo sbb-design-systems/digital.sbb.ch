@@ -1,0 +1,38 @@
+{
+    "tag":"sbb-teaser",
+    "content":"<sbb-teaser class='demo-item' aria-label='Aria Label' title-content='This is a title' href='#' alignment='below'><img slot='image' src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='alt'>This is a paragraph</sbb-teaser>",
+    "configuration" : [
+        {
+            "attribute":"alignment",
+            "target":"demo-item",
+            "default":"below",
+            "mode":"property",
+            "options" : [{
+                "value":"below",
+                "label":"below"
+            },
+            {
+                "value":"after",
+                "label":"after"
+            },
+            {
+                "value":"after-centered",
+                "label":"after-centered"
+            }]
+        },
+        {
+            "attribute":"chip-content",
+            "target":"demo-item",
+            "default":"",
+            "mode":"removetag",
+            "options" : [{
+                "value":"",
+                "label":"false"
+            },
+            {
+                "value":"Chip",
+                "label":"true"
+            }]
+        }
+    ]
+}

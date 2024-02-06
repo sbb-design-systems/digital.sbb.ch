@@ -1,0 +1,22 @@
+
+
+{
+    "tag":"sbb-datepicker-previous-day",
+    "content":"<sbb-datepicker-previous-day class='demo-item'></sbb-datepicker-previous-day>",
+    "configuration" : [
+        {
+            "attribute":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            },
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}

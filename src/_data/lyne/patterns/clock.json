@@ -1,0 +1,6 @@
+{
+    "tag":"sbb-clock",
+    "content":"<sbb-clock class='demo-item'></sbb-clock>",
+    "configuration" : [
+    ]
+}

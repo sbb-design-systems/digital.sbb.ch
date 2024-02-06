@@ -1,0 +1,6 @@
+{
+    "tag":"sbb-menu",
+    "content":"<sbb-button data-testid='menu-trigger' id='menu-trigger-2' size='m'>Menu trigger</sbb-button><sbb-menu class='demo-item' trigger='menu-trigger-2' data-testid='menu'><div style='font-family: var(--sbb-typo-type-face-sbb-bold); font-size: var(--sbb-font-size-text-xs); margin-top: var(--sbb-spacing-fixed-1x);'>Christina Müller</div><span style='color: var(--sbb-color-graphite-default); font-family: var(--sbb-typo-type-face-sbb-regular); font-size: var(--sbb-font-size-text-xxs);'>UIS9057</span><sbb-link href='https://www.sbb.ch/en' negative='' size='xs' variant='block'>Profile</sbb-link><sbb-divider></sbb-divider><sbb-menu-action icon-name='link-small' href='https://www.sbb.ch/en'>View</sbb-menu-action><sbb-menu-action icon-name='tickets-class-small'>Tickets</sbb-menu-action><sbb-menu-action icon-name='shopping-cart-small' amount='2'>Cart</sbb-menu-action><sbb-divider></sbb-divider><sbb-menu-action icon-name='exit-small'>Log Out</sbb-menu-action></sbb-menu>",
+    "configuration" : [
+    ]
+}

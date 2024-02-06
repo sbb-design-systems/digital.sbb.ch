@@ -1,0 +1,20 @@
+{
+    "tag":"sbb-divider",
+    "content":"<div style='width: 100%; height: 100%;'><sbb-divider class='demo-item' orientation='horizontal'></sbb-divider></div>",
+    "configuration" : [
+        {
+            "attribute":"orientation",
+            "target":"demo-item",
+            "default":"horizontal",
+            "mode":"property",
+            "options" : [{
+                "value":"horizontal",
+                "label":"horizontal"
+            }, 
+            {
+                "value":"vertical",
+                "label":"vertical"
+            }]
+        } 
+    ]
+}

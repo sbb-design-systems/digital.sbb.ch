@@ -340,3 +340,8 @@ h3 {
         margin-bottom: var(--sbb-spacing-fixed-2x);
     }
 }
+
+.iframe-border {
+    border-radius: var(--sbb-border-radius-4x);
+    border: solid 1px var(--sbb-color-cloud-default);
+}

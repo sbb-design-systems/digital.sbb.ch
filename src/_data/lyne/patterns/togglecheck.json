@@ -1,0 +1,51 @@
+
+
+{
+    "tag":"sbb-toggle-check",
+    "content":"<sbb-toggle-check value='single-checkbox' class='demo-item' icon-name='tick-small' label-position='after'>Example</sbb-toggle-check>",
+    "configuration" : [
+        {
+            "attribute":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"icon-name",
+            "target":"demo-item",
+            "default":"tick-small",
+            "mode":"property",
+            "options" : [{
+                "value":"tick-small",
+                "label":"default"
+            }, 
+            {
+                "value":"dog-small",
+                "label":"other"
+            }]
+        },
+        {
+            "attribute":"label-position",
+            "target":"demo-item",
+            "default":"after",
+            "mode":"property",
+            "options" : [{
+                "value":"after",
+                "label":"after"
+            },
+            {
+                "value":"before",
+                "label":"before"
+            }
+            ]
+        }
+    ]
+}

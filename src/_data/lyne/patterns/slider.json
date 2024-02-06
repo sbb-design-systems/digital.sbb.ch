@@ -1,0 +1,49 @@
+{
+    "tag":"sbb-slider",
+    "content":"<sbb-slider class='demo-item' max='100' min='0' value='40' value-as-number='40'><sbb-icon class='prefix' slot='prefix' name='battery-level-empty-small'></sbb-icon><sbb-icon class='suffix' slot='suffix' name='battery-level-high-small'></sbb-icon></sbb-slider>",
+    "configuration" : [
+        {
+            "attribute":"readonly",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"prefix",
+            "target":"prefix",
+            "default":"prefix",
+            "mode":"slot",
+            "options" : [{
+                "value":"prefix",
+                "label":"true"
+            }, 
+            {
+                "value":"no",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"suffix",
+            "target":"suffix",
+            "default":"suffix",
+            "mode":"slot",
+            "options" : [{
+                "value":"suffix",
+                "label":"true"
+            }, 
+            {
+                "value":"no",
+                "label":"false"
+            }]
+        }
+        
+    ]
+}

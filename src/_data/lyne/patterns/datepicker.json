@@ -1,0 +1,20 @@
+{
+    "tag":"sbb-datepicker",
+    "content":"<sbb-form-field><sbb-datepicker-previous-day></sbb-datepicker-previous-day><sbb-datepicker-toggle></sbb-datepicker-toggle><input value='01.01.2023'/><sbb-datepicker class='demo-item' wide></sbb-datepicker><sbb-datepicker-next-day></sbb-datepicker-next-day></sbb-form-field>",
+    "configuration" : [
+        {
+            "attribute":"wide",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}

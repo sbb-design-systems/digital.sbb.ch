@@ -1,0 +1,38 @@
+{
+    "tag":"sbb-tab-title",
+    "content":"<sbb-tab-title value='label'><sbb-icon class='icon' slot='icon' name='glass-cocktail-small'></sbb-icon>label<span class='amount' slot='amount'>999</span></sbb-tab-title>",
+    "configuration" : [
+        {
+            "attribute":"icon",
+            "target":"icon",
+            "default":"icon",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"icon",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"amount",
+            "target":"amount",
+            "default":"amount",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"amount",
+                "label":"true"
+            }
+            ]
+        }
+       
+        
+    ]
+}

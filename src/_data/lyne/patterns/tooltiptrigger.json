@@ -1,0 +1,35 @@
+{
+    "tag":"sbb-tooltip-trigger",
+    "content":"<sbb-tooltip-trigger aria-describedby='tooltip-content' class='demo-item' icon-name='circle-information-small'></sbb-tooltip-trigger><sbb-tooltip id='tooltip' trigger='demo-item' hide-close-button><span id='tooltip-content'>Tooltip content.</span></sbb-tooltip>",
+    "configuration" : [
+        {
+            "attribute":"icon-name",
+            "target":"demo-item",
+            "default":"circle-information-small",
+            "mode":"property",
+            "options" : [{
+                "value":"circle-information-small",
+                "label":"default"
+            }, 
+            {
+                "value":"unicorn-small",
+                "label":"other"
+            }]
+        },
+        {
+            "attribute":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+   
+    ]
+}

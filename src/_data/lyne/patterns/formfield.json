@@ -1,0 +1,109 @@
+{
+    "tag":"sbb-form-field",
+    "content":"<sbb-form-field class='demo-item' id='sbb-form-field' size='m' width='default' error-space='reserve' label='Label' size='m' width='default'><input id='sbb-form-field-input' placeholder='Input placeholder'><sbb-form-error class='error' slot='no'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='no' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='no' name='pie-small'></sbb-icon></sbb-form-field>",
+    "configuration" : [
+        {
+            "attribute":"prefix",
+            "target":"prefix",
+            "default":"no",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"prefix",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"suffix",
+            "target":"suffix",
+            "default":"no",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"suffix",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"floating-label",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"borderless",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }]
+        },
+        {
+            "attribute":"optional",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"boolean",
+            "options" : [{
+                "value":"true",
+                "label":"true"
+            }, 
+            {
+                "value":"false",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"error",
+            "target":"error",
+            "default":"no",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"error",
+                "label":"true"
+            }
+            ]
+        }
+    ]
+}
+
+

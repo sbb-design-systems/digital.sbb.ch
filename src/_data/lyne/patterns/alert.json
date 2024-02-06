@@ -1,0 +1,49 @@
+{
+        "tag":"sbb-alert",
+        "content":"<sbb-alert class='demo-item' size='m' disable-animation title-content='Interruption between Berne and Olten' icon-name='disruption' href='#'>Between Bern and Olten from 03.11.2021 to 05.12.2022 each time from 22:30 to 06:00 o'clock construction work will take place. You have to expect changed travel times and changed connections.</sbb-alert>",
+        "configuration" : [
+            {
+                "attribute":"size",
+                "target":"demo-item",
+                "default":"m",
+                "mode":"property",
+                "options" : [{
+                    "value":"m",
+                    "label":"m"
+                }, 
+                {
+                    "value":"l",
+                    "label":"l"
+                }]
+            },
+            {
+                "attribute":"readonly",
+                "target":"demo-item",
+                "default":"false",
+                "mode":"boolean",
+                "options" : [{
+                    "value":"false",
+                    "label":"false"
+                }, 
+                {
+                    "value":"true",
+                    "label":"true"
+                }]
+            },
+            {
+                "attribute":"href",
+                "target":"demo-item",
+                "default":"#",
+                "mode":"property",
+                "options" : [ 
+                {
+                    "value":"#",
+                    "label":"true"
+                },
+                {
+                    "value":"",
+                    "label":"false"
+                }]
+            }
+        ]
+}

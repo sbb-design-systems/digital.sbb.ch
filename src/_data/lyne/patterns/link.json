@@ -1,0 +1,81 @@
+{
+    "tag":"sbb-link",
+    "content":"<sbb-link class='demo-item' variant='block' size='s' icon-placement='start' href='#'' type='button' name='Button name' icon-name='glass-cocktail-small'>I am a link</sbb-link>",
+    "configuration" : [
+        {
+            "attribute":"variant",
+            "target":"demo-item",
+            "default":"block",
+            "mode":"property",
+            "options" : [{
+                "value":"block",
+                "label":"block"
+            },
+            {
+                "value":"inline",
+                "label":"inline"
+            }]
+        },
+        {
+            "attribute":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"xs",
+                "label":"xs"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        },
+        {
+            "attribute":"icon-name",
+            "target":"demo-item",
+            "default":"glass-cocktail-small",
+            "mode":"property",
+            "options" : [{
+                "value":"glass-cocktail-small",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"icon-placement",
+            "target":"demo-item",
+            "default":"start",
+            "mode":"property",
+            "options" : [{
+                "value":"start",
+                "label":"start"
+            }, 
+            {
+                "value":"end",
+                "label":"end"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+        
+    ]
+}

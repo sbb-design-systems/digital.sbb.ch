@@ -1,0 +1,48 @@
+{
+    "tag":"sbb-toggle-option",
+    "content":"<sbb-toggle-option class='demo-item' value='value' icon-name='glass-cocktail-small'>Option</sbb-toggle-option>",
+    "configuration" : [
+        {
+            "attribute":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"icon-name",
+            "target":"demo-item",
+            "default":"glass-cocktail-small",
+            "mode":"property",
+            "options" : [{
+                "value":"glass-cocktail-small",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"value",
+            "target":"demo-item",
+            "default":"Option",
+            "mode":"value",
+            "options" : [{
+                "value":"",
+                "label":"false"
+            }, 
+            {
+                "value":"Option",
+                "label":"true"
+            }]
+        }
+    ]
+}

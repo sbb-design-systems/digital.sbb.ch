@@ -1,8 +1,0 @@
-{
-    "label":"Clock",
-    "id":"sbb-clock",
-    "link": "https://lyne-storybook.app.sbb.ch/iframe.html?viewMode=docs&id=components-sbb-clock--docs#stories",
-    "tag":"<sbb-clock class='demo-item'></sbb-clock>",
-    "configuration" : [
-    ]
-}

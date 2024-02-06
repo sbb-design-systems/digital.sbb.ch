@@ -1,0 +1,25 @@
+{
+    "tag":"sbb-signet",
+    "content":"<div style='max-width: 100px;'><sbb-signet class='demo-item' protective-room='ideal'></sbb-signet></div>",
+    "configuration" : [
+        {
+            "attribute":"protective-room",
+            "default":"ideal",
+            "target":"demo-item",
+            "mode":"property",
+            "options" : [{
+                "value":"ideal",
+                "label":"ideal"
+            },
+            {
+                "value":"minimal",
+                "label":"minimal"
+            },
+            {
+                "value":"none",
+                "label":"no-protective-room"
+            }]
+        }
+        
+    ]
+}
