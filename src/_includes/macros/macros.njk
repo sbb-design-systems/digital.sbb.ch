@@ -84,7 +84,7 @@
         {% for story, doc in stories %}
 
         {% if doc.tag == pattern.tag and doc.component == false and doc.name == "Docs" %}
-            <sbb-button variant="secondary" icon-name="plus-small" href="http://localhost:6006/?path=/docs/{{doc.id}}" target="_blank">{{ params.translations["more"] }}</sbb-button>
+            <sbb-button variant="secondary" icon-name="plus-small" href="https://lyne-storybook.app.sbb.ch/?path=/docs/{{doc.id}}" target="_blank">{{ params.translations["more"] }}</sbb-button>
         {% endif %}
         {% endfor %}
         </sbb-action-group>
