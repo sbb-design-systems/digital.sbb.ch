@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"multi",
+            "label":"multi",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

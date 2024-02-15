@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"radiocheck",
+            "label":"radiocheck",
             "target":"radiocheck",
             "default":"sbb-checkbox",
             "mode":"tagchange",
@@ -19,6 +20,7 @@
         },
         {
             "attribute":"color",
+            "label":"color",
             "target":"demo-item",
             "default":"white",
             "mode":"property",
@@ -33,6 +35,7 @@
         },
         {
             "attribute":"badge",
+            "label":"badge",
             "target":"badge",
             "default":"badge",
             "mode":"slot",
@@ -50,6 +53,7 @@
         },
         {
             "attribute":"suffix",
+            "label":"suffix",
             "target":"suffix",
             "default":"suffix",
             "mode":"slot",
@@ -65,6 +69,7 @@
         },
         {
             "attribute":"subtext",
+            "label":"subtext",
             "target":"subtext",
             "default":"subtext",
             "mode":"slot",
@@ -80,6 +85,7 @@
         },
         {
             "attribute":"force-open",
+            "label":"force-open",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

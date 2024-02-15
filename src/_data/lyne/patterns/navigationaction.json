@@ -1,0 +1,27 @@
+{
+    "tag":"sbb-navigation-action",
+    "content":"<div style='background-color:var(--sbb-color-midnight-default);width:max-content;padding:1rem 2rem;'><sbb-navigation-action class='demo-item' href='#' size='m'>Link</sbb-navigation-action></div>",
+    "configuration" : [
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }]
+        }
+    ]
+}
+
+ 

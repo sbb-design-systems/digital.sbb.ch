@@ -9,5 +9,5 @@ title: Datepicker
 parent: components-lyne_de
 image: lyne/overview/date-picker.webp
 keywords: datepicker
-order: 140
+order: 180
 ---

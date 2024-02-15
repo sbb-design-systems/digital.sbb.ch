@@ -3,23 +3,29 @@
     "content":"<div style='width: 66%'><sbb-image class='demo-item' alt='Alt-Text' caption='Caption' aspect-ratio='free' copyright='' copyright-holder='Organization' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/upload/raw/images/Tell-Pass-Zentralschweiz.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image></div>",
     "configuration" : [
         {
-            "attribute":"no-border-radius",
+            "attribute":"border-radius",
+            "label":"border-radius",
             "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
+            "default":"default",
+            "mode":"property",
             "options" : [
                 {
-                    "value":"false",
-                    "label":"true"
+                    "value":"default",
+                    "label":"default"
                 },
                 {
-                "value":"true",
-                "label":"false"
-            }
+                    "value":"none",
+                    "label":"none"
+                },
+                {
+                    "value":"round",
+                    "label":"round"
+                }
            ]
         },
         {
             "attribute":"caption",
+            "label":"caption",
             "target":"demo-item",
             "default":"Caption",
             "mode":"property",
@@ -35,6 +41,7 @@
         },
         {
             "attribute":"aspect-ratio",
+            "label":"aspect-ratio",
             "target":"demo-item",
             "default":"free",
             "mode":"property",

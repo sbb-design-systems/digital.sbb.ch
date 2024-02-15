@@ -9,5 +9,5 @@ title: Logo
 parent: components-lyne_en
 image: lyne/overview/logo.webp
 keywords: logo
-order: 310
+order: 380
 ---

@@ -1,0 +1,23 @@
+{
+    "tag":"sbb-sticky-bar",
+    "content":"",
+    "configuration" : [
+        {
+            "attribute":"multi",
+            "label":"multi",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}
+
+ 

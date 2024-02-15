@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"amount",
+            "label":"amount",
             "target":"demo-item",
             "default":"3",
             "mode":"property",
@@ -18,6 +19,7 @@
         },
         {
             "attribute":"icon-name",
+            "label":"icon-name",
             "target":"demo-item",
             "default":"shopping-cart-small",
             "mode":"property",
@@ -32,6 +34,7 @@
         },
         {
             "attribute":"disabled",
+            "label":"disabled",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

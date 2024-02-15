@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"negative",
+            "label":"negative",
             "target":"demo-item",
             "default":"false",
             "mode":"property",
@@ -18,6 +19,7 @@
         },
         {
             "attribute":"title-back-button",
+            "label":"title-back-button",
             "target":"demo-item",
             "default":"false",
             "mode":"property",

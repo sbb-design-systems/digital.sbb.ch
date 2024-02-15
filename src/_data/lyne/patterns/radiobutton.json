@@ -6,6 +6,7 @@
     "configuration" : [
         {
             "attribute":"size",
+            "label":"size",
             "target":"demo-item",
             "default":"m",
             "mode":"property",
@@ -20,6 +21,7 @@
         },
         {
             "attribute":"disabled",
+            "label":"disabled",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

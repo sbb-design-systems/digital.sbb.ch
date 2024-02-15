@@ -5,6 +5,7 @@
     "configuration" : [
         {
             "attribute":"prefix",
+            "label":"prefix",
             "target":"prefix",
             "default":"no",
             "mode":"slot",
@@ -20,6 +21,7 @@
         },
         {
             "attribute":"suffix",
+            "label":"suffix",
             "target":"suffix",
             "default":"no",
             "mode":"slot",
@@ -35,6 +37,7 @@
         },
         {
             "attribute":"borderless",
+            "label":"borderless",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",
@@ -49,6 +52,7 @@
         },
         {
             "attribute":"size",
+            "label":"size",
             "target":"demo-item",
             "default":"m",
             "mode":"property",
@@ -63,6 +67,7 @@
         },
         {
             "attribute":"width",
+            "label":"width",
             "target":"demo-item",
             "default":"default",
             "mode":"property",
@@ -77,6 +82,7 @@
         },
         {
             "attribute":"optional",
+            "label":"optional",
             "target":"demo-item",
             "default":"true",
             "mode":"boolean",
@@ -91,6 +97,7 @@
         },
         {
             "attribute":"error",
+            "label":"error",
             "target":"error",
             "default":"no",
             "mode":"slot",
@@ -106,6 +113,7 @@
         },
         {
             "attribute":"error-space",
+            "label":"error-space",
             "target":"demo-item",
             "default":"none",
             "mode":"property",

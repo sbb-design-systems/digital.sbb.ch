@@ -9,5 +9,5 @@ title: Clock
 parent: components-lyne_en
 image: lyne/overview/clock.webp
 keywords: clock
-order: 130
+order: 160
 ---

@@ -52,11 +52,55 @@ document.addEventListener('DOMContentLoaded', function() {
      window.addEventListener(
        "message",
        (event) => {
-         if (event.origin !== "http://localhost:6006") return;
-         if (event.data &&
-           event.data.key == "iframeheight") {
-           let obj = document.querySelectorAll('[src="' + event.data.url + '"]');
-           obj[0].height = event.data.height;
+        //console.log(event.data.event);
+         //if (event.origin !== "http://localhost:6006") return;
+         if (event.data && event.data.key == "iframeheight") {
+           let iframe = document.getElementById(event.data.id);
+           iframe.height = event.data.height;
+           if (event.data.height <= 96) {
+            //iframe.height = event.data.height + 96;
+           } 
+           
+           //console.log(event.data.id);
+         } else {
+            let objFromStr=JSON.parse(event.data);
+
+            //printing the object
+            //console.log(objFromStr);
+            if (objFromStr.event.type == "storybook/docs/snippet-rendered") {
+                let iframe = document.getElementById(objFromStr.event.args[0].id);
+
+                let container = document.createElement("pre");
+                container.classList.add('language-html');
+                let code = document.createElement("code");
+                code.classList.add('language-html');
+
+                function HtmlEncode(s)
+                {
+                    var el = document.createElement("div");
+                    el.innerText = el.textContent = s;
+                    s = el.innerHTML;
+                    return s;
+                }
+                
+                code.insertAdjacentHTML( 'beforeend', HtmlEncode(objFromStr.event.args[0].source));
+
+
+
+                
+                container.appendChild(code);
+ 
+
+                iframe.after(container);
+
+                //console.log(container.outerHTML);
+
+
+
+                //console.log(objFromStr.event.args[0].id);
+                //console.log(objFromStr.event.args[0].source);
+                //console.log(objFromStr);
+            }
          }
        },
        false,

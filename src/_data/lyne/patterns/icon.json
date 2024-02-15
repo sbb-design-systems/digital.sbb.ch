@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"name",
+            "label":"name",
             "target":"demo-item",
             "default":"glass-cocktail-small",
             "mode":"property",
@@ -35,6 +36,7 @@
         },
         {
             "attribute":"style",
+            "label":"style",
             "target":"demo-item",
             "default":"color: var(--sbb-color-black-default)",
             "mode":"property",

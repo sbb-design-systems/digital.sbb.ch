@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"preserve-icon-space",
+            "label":"preserve-icon-space",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

@@ -9,5 +9,5 @@ title: Link-List
 parent: components-lyne_en
 image: lyne/overview/link-list.webp
 keywords: link-list, icon, split, action
-order: 300
+order: 360
 ---

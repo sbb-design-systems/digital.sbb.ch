@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"borderless",
+            "label":"borderless",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",
@@ -18,6 +19,7 @@
         },
         {
             "attribute":"color",
+            "label":"color",
             "target":"demo-item",
             "default":"white",
             "mode":"property",
@@ -32,6 +34,7 @@
         },
         {
             "attribute":"disabled",
+            "label":"disabled",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"link-content",
+            "label":"link-content",
             "target":"demo-item",
             "default":"Kurzer Link",
             "mode":"property",

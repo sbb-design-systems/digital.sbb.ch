@@ -9,5 +9,5 @@ title: Slider
 parent: components-lyne_en
 image: lyne/overview/slider.webp
 keywords: slider
-order: 400
+order: 580
 ---

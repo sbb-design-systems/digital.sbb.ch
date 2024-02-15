@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"alignment",
+            "label":"alignment",
             "target":"demo-item",
             "default":"below",
             "mode":"property",
@@ -22,6 +23,7 @@
         },
         {
             "attribute":"chip-content",
+            "label":"chip-content",
             "target":"demo-item",
             "default":"",
             "mode":"removetag",

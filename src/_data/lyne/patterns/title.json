@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"level",
+            "label":"level",
             "target":"demo-item",
             "default":"1",
             "mode":"property",

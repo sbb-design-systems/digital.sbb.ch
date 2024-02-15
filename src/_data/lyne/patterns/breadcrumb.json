@@ -1,0 +1,23 @@
+{
+    "tag":"sbb-breadcrumb",
+    "content":"<sbb-breadcrumb class='demo-item' icon-name='glass-cocktail-small' href='#'>Breadcrumb Label</sbb-breadcrumb>",
+    "configuration" : [
+        {
+            "attribute":"icon-name",
+            "label":"icon-name",
+            "target":"demo-item",
+            "default":"glass-cocktail-small",
+            "mode":"property",
+            "options" : [{
+                "value":"glass-cocktail-small",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        }
+    ]
+}
+
+ 

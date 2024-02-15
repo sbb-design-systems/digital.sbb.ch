@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"color",
+            "label":"color",
             "target":"demo-item",
             "default":"charcoal",
             "mode":"property",

@@ -9,5 +9,5 @@ title: Tab-Group
 parent: components-lyne_de
 image: lyne/overview/tab-group.webp
 keywords: tab-group
-order: 410
+order: 610
 ---

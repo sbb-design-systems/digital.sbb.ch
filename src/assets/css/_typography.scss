@@ -1,36 +1,36 @@
-p {
+p:not(.demo *) {
     @include sbb.text-m--regular;
 }
 
-ul, ol {
+ul:not(.demo *), ol:not(.demo *) {
     @include sbb.text-m--regular;
     @include sbb.list;
 }
 
-h1 {
+h1:not(.demo *) {
     @include sbb.title-2;
 }
 
-h2 {
+h2:not(.demo *) {
     @include sbb.title-3;
 }
 
-h3 {
+h3:not(.demo *) {
     @include sbb.title-4;
 }
 
-h4 {
+h4:not(.demo *) {
     @include sbb.title-5;
 }
 
-h5 {
+h5:not(.demo *) {
     @include sbb.title-6;
 }
 
-h6 {
+h6:not(.demo *) {
     @include sbb.title-6;
 }
 
-a {
+a:not(.demo *) {
     @include sbb.link-inline;
 }

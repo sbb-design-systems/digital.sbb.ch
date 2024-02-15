@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"icon",
+            "label":"icon",
             "target":"icon",
             "default":"icon",
             "mode":"slot",
@@ -19,6 +20,7 @@
         },
         {
             "attribute":"amount",
+            "label":"amount",
             "target":"amount",
             "default":"amount",
             "mode":"slot",

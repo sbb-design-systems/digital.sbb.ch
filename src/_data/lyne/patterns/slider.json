@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"readonly",
+            "label":"readonly",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",
@@ -18,6 +19,7 @@
         },
         {
             "attribute":"prefix",
+            "label":"prefix",
             "target":"prefix",
             "default":"prefix",
             "mode":"slot",
@@ -32,6 +34,7 @@
         },
         {
             "attribute":"suffix",
+            "label":"suffix",
             "target":"suffix",
             "default":"suffix",
             "mode":"slot",

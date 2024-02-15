@@ -4,6 +4,7 @@
         "configuration" : [
             {
                 "attribute":"variant",
+                "label":"variant",
                 "target":"demo-item",
                 "default":"primary",
                 "mode":"property",

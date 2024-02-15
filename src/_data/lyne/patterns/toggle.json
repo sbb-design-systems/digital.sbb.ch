@@ -5,6 +5,7 @@
     "configuration" : [
         {
             "attribute":"disabled",
+            "label":"disabled",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",
@@ -19,6 +20,7 @@
         },
         {
             "attribute":"even",
+            "label":"even",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",
@@ -33,6 +35,7 @@
         },
         {
             "attribute":"size",
+            "label":"size",
             "target":"demo-item",
             "default":"m",
             "mode":"property",

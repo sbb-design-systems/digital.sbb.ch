@@ -9,5 +9,5 @@ title: Selection-Panel
 parent: components-lyne_de
 image: lyne/overview/selection-panel.webp
 keywords: selection-panel
-order: 380
+order: 550
 ---

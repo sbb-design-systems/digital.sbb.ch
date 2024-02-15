@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"expand-from",
+            "label":"expand-from",
             "target":"demo-item",
             "default":"medium",
             "mode":"property",

@@ -9,5 +9,5 @@ title: Radio-Button
 parent: components-lyne_en
 image: lyne/overview/radiobutton.webp
 keywords: radio-button
-order: 360
+order: 520
 ---

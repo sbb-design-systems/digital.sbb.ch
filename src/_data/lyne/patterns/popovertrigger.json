@@ -1,0 +1,37 @@
+{
+    "tag":"sbb-popover-trigger",
+    "content":"<sbb-popover-trigger aria-describedby='tooltip-content' class='demo-item' icon-name='circle-information-small'></sbb-popover-trigger><sbb-popover id='tooltip' trigger='demo-item' hide-close-button><span id='tooltip-content'>Tooltip content.</span></sbb-popover>",
+    "configuration" : [
+        {
+            "attribute":"icon-name",
+            "label":"icon-name",
+            "target":"demo-item",
+            "default":"circle-information-small",
+            "mode":"property",
+            "options" : [{
+                "value":"circle-information-small",
+                "label":"default"
+            }, 
+            {
+                "value":"unicorn-small",
+                "label":"other"
+            }]
+        },
+        {
+            "attribute":"disabled",
+            "label":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+   
+    ]
+}

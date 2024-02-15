@@ -4,6 +4,7 @@
         "configuration" : [
             {
                 "attribute":"size",
+                "label":"size",
                 "target":"demo-item",
                 "default":"m",
                 "mode":"property",
@@ -18,6 +19,7 @@
             },
             {
                 "attribute":"readonly",
+                "label":"readonly",
                 "target":"demo-item",
                 "default":"false",
                 "mode":"boolean",
@@ -32,6 +34,7 @@
             },
             {
                 "attribute":"href",
+                "label":"href",
                 "target":"demo-item",
                 "default":"#",
                 "mode":"property",

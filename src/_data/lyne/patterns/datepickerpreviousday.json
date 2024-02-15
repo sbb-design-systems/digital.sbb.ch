@@ -6,6 +6,7 @@
     "configuration" : [
         {
             "attribute":"disabled",
+            "label":"disabled",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

@@ -9,5 +9,5 @@ title: Checkbox-Group
 parent: components-lyne_en
 image: lyne/overview/checkbox-group.webp
 keywords: checkbox-group
-order: 110
+order: 140
 ---

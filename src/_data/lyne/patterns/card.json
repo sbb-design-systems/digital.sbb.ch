@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"color",
+            "label":"color",
             "target":"demo-item",
             "default":"milk",
             "mode":"property",
@@ -20,6 +21,7 @@
         },
         {
             "attribute":"size",
+            "label":"size",
             "target":"demo-item",
             "default":"m",
             "mode":"property",
@@ -50,6 +52,7 @@
         },
         {
             "attribute":"active",
+            "label":"active",
             "target":"demo-link",
             "default":"false",
             "mode":"boolean",
@@ -64,6 +67,7 @@
         },
         {
             "attribute":"badge",
+            "label":"badge",
             "target":"badge",
             "default":"badge",
             "mode":"slot",

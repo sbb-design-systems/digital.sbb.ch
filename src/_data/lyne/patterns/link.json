@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"variant",
+            "label":"variant",
             "target":"demo-item",
             "default":"block",
             "mode":"property",
@@ -18,6 +19,7 @@
         },
         {
             "attribute":"size",
+            "label":"size",
             "target":"demo-item",
             "default":"s",
             "mode":"property",
@@ -36,6 +38,7 @@
         },
         {
             "attribute":"icon-name",
+            "label":"icon-name",
             "target":"demo-item",
             "default":"glass-cocktail-small",
             "mode":"property",
@@ -50,6 +53,7 @@
         },
         {
             "attribute":"icon-placement",
+            "label":"icon-placement",
             "target":"demo-item",
             "default":"start",
             "mode":"property",
@@ -64,6 +68,7 @@
         },
         {
             "attribute":"negative",
+            "label":"negative",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",

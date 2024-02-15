@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"orientation",
+            "label":"orientation",
             "target":"demo-item",
             "default":"horizontal",
             "mode":"property",

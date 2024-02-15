@@ -1,0 +1,9 @@
+{
+    "tag":"sbb-breadcrumb-group",
+    "content":"<sbb-breadcrumb-group aria-label='You are here:'><sbb-breadcrumb href='#' icon-name='house-small'></sbb-breadcrumb><sbb-breadcrumb href='#'> Link 1 </sbb-breadcrumb><sbb-breadcrumb href='#'> Link 2 </sbb-breadcrumb></sbb-breadcrumb-group>",
+    "configuration" : [
+ 
+    ]
+}
+
+ 

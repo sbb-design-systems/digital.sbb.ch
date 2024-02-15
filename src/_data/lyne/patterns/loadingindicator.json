@@ -1,0 +1,57 @@
+{
+    "tag":"sbb-loading-indicator",
+    "content":"<sbb-loading-indicator class='demo-item' variant='window' size='small' color='default'></sbb-loading-indicator>",
+    "configuration" : [
+        {
+            "attribute":"variant",
+            "label":"variant",
+            "target":"demo-item",
+            "default":"window",
+            "mode":"property",
+            "options" : [{
+                "value":"window",
+                "label":"window"
+            }, 
+            {
+                "value":"circle",
+                "label":"circle"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"small",
+            "mode":"property",
+            "options" : [{
+                "value":"small",
+                "label":"small"
+            }, 
+            {
+                "value":"large",
+                "label":"large"
+            }]
+        },
+        {
+            "attribute":"color",
+            "label":"color",
+            "target":"demo-item",
+            "default":"default",
+            "mode":"property",
+            "options" : [{
+                "value":"default",
+                "label":"default"
+            }, 
+            {
+                "value":"smoke",
+                "label":"smoke"
+            }, 
+            {
+                "value":"white",
+                "label":"white"
+            }]
+        }
+    ]
+}
+
+ 

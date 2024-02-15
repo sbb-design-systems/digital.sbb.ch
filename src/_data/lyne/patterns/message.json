@@ -1,0 +1,68 @@
+{
+    "tag":"sbb-message",
+    "content":"<sbb-message title-content='Unfortunately, an error has occurred.' title-level='3'><sbb-image class='demo-image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/sharedimages/grafiken/Frau-No-Results.png'></sbb-image><p class='demo-subtitle' slot='subtitle'>Please reload the page or try your search again later.</p><p class='demo-legend' slot='legend'>Error code: 0001</p><sbb-button class='demo-action' slot='action' icon-name='arrows-circle-small' variant='secondary' size='m'></sbb-button></sbb-message>",
+    "configuration" : [
+        {
+            "attribute":"slot",
+            "label":"image",
+            "target":"demo-image",
+            "default":"image",
+            "mode":"property",
+            "options" : [{
+                "value":"image",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"subtitle",
+            "target":"demo-subtitle",
+            "default":"subtitle",
+            "mode":"property",
+            "options" : [{
+                "value":"subtitle",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"legend",
+            "target":"demo-legend",
+            "default":"legend",
+            "mode":"property",
+            "options" : [{
+                "value":"legend",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"action",
+            "target":"demo-action",
+            "default":"action",
+            "mode":"property",
+            "options" : [{
+                "value":"action",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        }
+    ]
+}
+
+ 

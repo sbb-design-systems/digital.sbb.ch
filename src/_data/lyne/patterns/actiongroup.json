@@ -4,6 +4,7 @@
         "configuration" : [
             {
                 "attribute":"button-size",
+                "label":"button-size",
                 "target":"demo-item",
                 "default":"m",
                 "mode":"property",
@@ -18,6 +19,7 @@
             },
             {
                 "attribute":"align-group",
+                "label":"align-group",
                 "target":"demo-item",
                 "default":"start",
                 "mode":"property",
@@ -40,6 +42,7 @@
             },
             {
                 "attribute":"horizontal-from",
+                "label":"horizontal-from",
                 "target":"demo-item",
                 "default":"medium",
                 "mode":"property",

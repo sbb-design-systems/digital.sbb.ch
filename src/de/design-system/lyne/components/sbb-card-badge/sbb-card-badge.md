@@ -9,5 +9,5 @@ title: Card-Badge
 parent: components-lyne_de
 image: lyne/overview/card-badge.webp
 keywords: card-badge
-order: 90
+order: 120
 ---

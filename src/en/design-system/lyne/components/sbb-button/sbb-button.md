@@ -9,5 +9,5 @@ title: Button
 parent: components-lyne_en
 image: lyne/overview/button.webp
 keywords: button, icon, split, action
-order: 60
+order: 80
 ---

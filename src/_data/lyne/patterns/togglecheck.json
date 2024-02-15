@@ -6,6 +6,7 @@
     "configuration" : [
         {
             "attribute":"disabled",
+            "label":"disabled",
             "target":"demo-item",
             "default":"false",
             "mode":"boolean",
@@ -20,6 +21,7 @@
         },
         {
             "attribute":"icon-name",
+            "label":"icon-name",
             "target":"demo-item",
             "default":"tick-small",
             "mode":"property",
@@ -34,6 +36,7 @@
         },
         {
             "attribute":"label-position",
+            "label":"label-position",
             "target":"demo-item",
             "default":"after",
             "mode":"property",

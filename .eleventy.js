@@ -52,7 +52,7 @@ module.exports = function (config) {
     config.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 
     require("esbuild").buildSync({
-        entryPoints:[".lyne.js"],
+        entryPoints:[".lyne-bundle.js"],
         bundle:true,
         minify:true,
         outfile:"dist/assets/js/lyne-bundle.js"

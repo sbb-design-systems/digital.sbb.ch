@@ -9,6 +9,6 @@ title: toggle-option
 parent: components-lyne_de
 image: lyne/overview/toggle-option.webp
 keywords: toggle-option
-order: 510
+order: 720
 eleventyExcludeFromCollections: true
 ---

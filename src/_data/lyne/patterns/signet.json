@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"protective-room",
+            "label":"protective-room",
             "default":"ideal",
             "target":"demo-item",
             "mode":"property",

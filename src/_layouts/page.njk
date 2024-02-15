@@ -7,8 +7,7 @@
     {% include "../_includes/skiplinks.njk" %}
     {% include "../_includes/header/header-page.njk" %}
     {% include "../_includes/navigation/navigation.njk" %}
-
-    <div id="content" class="content sbb-page-spacing">
+    <sbb-container id="content" class="content">
     {% if availablelanguages.length %}
       {% include "../_includes/missing-languages.njk" %}
       
@@ -21,7 +20,7 @@
       {% include "../_includes/title.njk" %}
       {{ content | safe }}
     {% endif %}
-    </div>
+    </sbb-container>
 
     {% include "../_includes/footer.njk" %}
     <script src="/assets/js/navigation.js"></script>

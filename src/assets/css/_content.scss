@@ -25,8 +25,7 @@ ul, ol {
     color: var(--sbb-color-black-default);
 }
 .content {
-    background: var(--sbb-color-white-default);
-    padding-bottom: 48px;
+    padding-bottom: var(--sbb-spacing-responsive-xl);
     
 }
 

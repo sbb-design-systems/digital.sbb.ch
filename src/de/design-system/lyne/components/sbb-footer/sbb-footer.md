@@ -9,5 +9,5 @@ title: Footer
 parent: components-lyne_de
 image: lyne/overview/footer.webp
 keywords: footer
-order: 210
+order: 260
 ---

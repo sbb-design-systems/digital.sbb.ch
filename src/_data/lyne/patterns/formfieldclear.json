@@ -1,0 +1,23 @@
+{
+    "tag":"sbb-form-field-clear",
+    "content":"<sbb-form-field class='demo-item' label='Label'><sbb-icon slot='prefix' name='pie-small'></sbb-icon><input type='text' placeholder='Input placeholder' value='Input value'><sbb-form-field-clear></sbb-form-field-clear></sbb-form-field>",
+    "configuration" : [
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            },
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}
+
+ 

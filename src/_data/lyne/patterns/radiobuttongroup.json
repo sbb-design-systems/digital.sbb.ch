@@ -4,6 +4,7 @@
     "configuration" : [
         {
             "attribute":"orientation",
+            "label":"orientation",
             "target":"demo-item",
             "default":"vertical",
             "mode":"property",
@@ -18,6 +19,7 @@
         },
         {
             "attribute":"size",
+            "label":"size",
             "target":"demo-item",
             "default":"s",
             "mode":"property",

@@ -9,7 +9,7 @@
     {% include "../_includes/navigation/navigation.njk" %}
     {% include "../_includes/documentation/component-sidebar.njk" %}
     {% set tabkey = key %}
-    <div id="content" class="content sbb-page-spacing">
+    <sbb-container id="content" class="content">
     {% if availablelanguages.length %}
       {% include "../_includes/missing-languages.njk" %}
 
@@ -32,7 +32,7 @@
         {% include "../_includes/documentation/specification-tabs.njk" %}
       {% endif %}
     {% endif %}
-    </div>
+    </sbb-container>
 
     {% include "../_includes/footer.njk" %}
     <script src="/assets/js/navigation.js"></script>
