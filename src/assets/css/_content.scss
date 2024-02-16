@@ -343,4 +343,8 @@ h3 {
 .iframe-border {
     border-radius: var(--sbb-border-radius-4x);
     border: solid 1px var(--sbb-color-cloud-default);
+    resize: vertical;
+}
+.lyne-demo-example-button {
+    margin-top: var(--sbb-spacing-fixed-2x);
 }

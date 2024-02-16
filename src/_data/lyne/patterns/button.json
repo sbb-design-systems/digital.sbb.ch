@@ -27,6 +27,7 @@
             },
             {
                 "attribute":"size",
+                "label":"size",
                 "target":"demo-item",
                 "default":"m",
                 "mode":"property",
@@ -41,6 +42,7 @@
             },
             {
                 "attribute":"icon-name",
+                "label":"icon-name",
                 "target":"demo-item",
                 "default":"glass-cocktail-small",
                 "mode":"property",
@@ -55,6 +57,7 @@
             },
             {
                 "attribute":"label",
+                "label":"label",
                 "target":"demo-item",
                 "default":"Label",
                 "mode":"value",
@@ -69,6 +72,7 @@
             },
             {
                 "attribute":"negative",
+                "label":"negative",
                 "target":"demo-item",
                 "default":"false",
                 "mode":"boolean",

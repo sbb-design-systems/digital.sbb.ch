@@ -52,8 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
      window.addEventListener(
        "message",
        (event) => {
-        //console.log(event.data.event);
-         //if (event.origin !== "http://localhost:6006") return;
          if (event.data && event.data.key == "iframeheight") {
            let iframe = document.getElementById(event.data.id);
            iframe.height = event.data.height;
@@ -68,8 +66,14 @@ document.addEventListener('DOMContentLoaded', function() {
             //printing the object
             //console.log(objFromStr);
             if (objFromStr.event.type == "storybook/docs/snippet-rendered") {
-                let iframe = document.getElementById(objFromStr.event.args[0].id);
+                
+                let text = objFromStr.event.args[0].source;
+                let button = document.querySelector('[data-iframeid="' + objFromStr.event.args[0].id + '"]');
+                button.addEventListener("click", () => writeClipboardText(text));
+                
 
+                /*
+                let iframe = document.getElementById(objFromStr.event.args[0].id);
                 let container = document.createElement("pre");
                 container.classList.add('language-html');
                 let code = document.createElement("code");
@@ -83,23 +87,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     return s;
                 }
                 
-                code.insertAdjacentHTML( 'beforeend', HtmlEncode(objFromStr.event.args[0].source));
-
-
-
                 
+                code.insertAdjacentHTML( 'beforeend', HtmlEncode(objFromStr.event.args[0].source));
                 container.appendChild(code);
- 
-
                 iframe.after(container);
-
-                //console.log(container.outerHTML);
-
-
-
-                //console.log(objFromStr.event.args[0].id);
-                //console.log(objFromStr.event.args[0].source);
-                //console.log(objFromStr);
+                */
+      
             }
          }
        },
@@ -108,3 +101,12 @@ document.addEventListener('DOMContentLoaded', function() {
  })();
 
  
+  async function writeClipboardText(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      let toast = document.querySelector('#clipboard-toast');
+        toast.open()
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  }

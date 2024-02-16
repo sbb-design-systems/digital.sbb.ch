@@ -83,19 +83,11 @@
                 </sbb-expansion-panel-content>
             </sbb-expansion-panel>
         </sbb-accordion>
-        <sbb-action-group id="more-buttons" align-group="stretch" orientation="vertical" horizontal-from="unset" button-size="l">
-        {% for story, doc in stories %}
-
-        {% if doc.tag == pattern.tag and doc.component == false and doc.name == "Docs" %}
-            <sbb-button variant="secondary" icon-name="plus-small" href="https://lyne-storybook.app.sbb.ch/?path=/docs/{{doc.id}}" target="_blank">{{ params.translations["more"] }}</sbb-button>
-        {% endif %}
-        {% endfor %}
-        </sbb-action-group>
     </div>
 </div>
 
 {% endif %}
-{#
+
 <sbb-title level="2" visual-level="4">Beispiele</sbb-title>
 
 {% for story, stor in stories %}
@@ -103,13 +95,19 @@
   
    <sbb-title level="3" visual-level="5">{{stor.name}}</sbb-title>
    <iframe id="{{stor.id}}" class="iframe-border" src="http://localhost:6006/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
-   
+   {#<iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>#}
+    <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
+        <sbb-button size="m" variant="secondary" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-button>
+        <sbb-button size="m" variant="secondary" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-button>
+    </sbb-action-group>
+    
   {% endif %}
 {% endfor %}
-#}
 
 
+  <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">
+    HTML-Code in Zwischenablage kopiert.
+  </sbb-toast>
 <script src="/assets/js/lyne.js"></script>
 
 {% endmacro %}
-
