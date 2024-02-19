@@ -97,11 +97,9 @@ code:not([class]) {
     color: var(--sbb-color-violet-default);
     background-color: var(--sbb-color-milk-default);
     padding: 2px 8px;
-    border-radius: 8px; 
-    border: solid 1px var(--sbb-color-cloud-default)
-  }
-
-
+    border-radius: 8px;
+    border:solid 1px var(--sbb-color-cloud-default)
+}
 
 
 .sbb-section-panel {
@@ -340,11 +338,36 @@ h3 {
     }
 }
 
+
 .iframe-border {
-    border-radius: var(--sbb-border-radius-4x);
-    border: solid 1px var(--sbb-color-cloud-default);
+    border: none;
     resize: vertical;
 }
 .lyne-demo-example-button {
     margin-top: var(--sbb-spacing-fixed-2x);
+}
+.example {
+    border-radius: var(--sbb-border-radius-4x);
+    border: solid 1px var(--sbb-color-cloud-default);
+    background-color: var(--sbb-color-milk-default);
+    iframe, pre, code {
+        display: block;
+        margin: 0;
+    }
+    iframe {
+        background-color: var(--sbb-color-white-default);
+        border-top-left-radius: var(--sbb-border-radius-4x);
+        border-top-right-radius: var(--sbb-border-radius-4x);
+    }
+    .example-footer {
+        padding: 24px;
+    }
+    
+    pre[class*="language-"] {
+        border-radius: 0;
+        margin:0
+    }
+    .hidden {
+        display: none;
+    }
 }

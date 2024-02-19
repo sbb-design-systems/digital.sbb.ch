@@ -94,19 +94,25 @@
   {% if stor.tag == pattern.tag and stor.component == true %}
   
    <sbb-title level="3" visual-level="5">{{stor.name}}</sbb-title>
-   {#<iframe id="{{stor.id}}" class="iframe-border" src="http://localhost:6006/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>#}
-   <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
-    <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
-        <sbb-button size="m" variant="secondary" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-button>
-        <sbb-button size="m" variant="secondary" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-button>
-    </sbb-action-group>
+   <div class="example">
+        <iframe id="{{stor.id}}" class="iframe-border" src="http://localhost:6006/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
+        {#<iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>#}
+        <div class="example-footer">
+            
+            <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
+                <sbb-button size="m" variant="secondary" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-button>
+                <sbb-button size="m" variant="secondary" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-button>
+                <sbb-toggle-check data-codetoggle="{{stor.id}}" size="m" label-position="after">HTML-Markup einblenden</sbb-toggle-check>
+            </sbb-action-group>
+        </div>
+    </div>
     
   {% endif %}
 {% endfor %}
 
 
   <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">
-    HTML-Code in Zwischenablage kopiert.
+    HTML-Markup kopiert.
   </sbb-toast>
 <script src="/assets/js/lyne.js"></script>
 

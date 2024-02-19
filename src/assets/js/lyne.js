@@ -55,11 +55,8 @@ document.addEventListener('DOMContentLoaded', function() {
          if (event.data && event.data.key == "iframeheight") {
            let iframe = document.getElementById(event.data.id);
            iframe.height = event.data.height;
-           if (event.data.height <= 96) {
-            //iframe.height = event.data.height + 96;
-           } 
-           
-           //console.log(event.data.id);
+
+   
          } else {
             let objFromStr=JSON.parse(event.data);
 
@@ -72,26 +69,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 button.addEventListener("click", () => writeClipboardText(text));
                 
 
-                /*
+
                 let iframe = document.getElementById(objFromStr.event.args[0].id);
                 let container = document.createElement("pre");
-                container.classList.add('language-html');
+                container.classList.add('hidden');
+                container.setAttribute("data-codeid", objFromStr.event.args[0].id);
                 let code = document.createElement("code");
                 code.classList.add('language-html');
+                code.classList.add('hljs');
+                
 
-                function HtmlEncode(s)
-                {
-                    var el = document.createElement("div");
-                    el.innerText = el.textContent = s;
-                    s = el.innerHTML;
-                    return s;
-                }
+                const highlightedCode = hljs.highlight(
+                    objFromStr.event.args[0].source,
+                    { language: 'html' }
+                  ).value
                 
-                
-                code.insertAdjacentHTML( 'beforeend', HtmlEncode(objFromStr.event.args[0].source));
+                code.insertAdjacentHTML( 'beforeend', highlightedCode);
                 container.appendChild(code);
                 iframe.after(container);
-                */
+
+                let codetoggle = document.querySelector('[data-codetoggle="' + objFromStr.event.args[0].id + '"]');
+                codetoggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    this.checked = !this.checked;
+                    container.classList.toggle('hidden');        
+                  });
+              
+
       
             }
          }

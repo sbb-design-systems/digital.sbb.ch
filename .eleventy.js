@@ -1,7 +1,7 @@
 const eleventySass = require("eleventy-sass");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+//const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
 const markdownItOptions = {
@@ -41,7 +41,7 @@ module.exports = function (config) {
         })
         return collection;
       });
-    config.addPlugin(syntaxHighlight);
+    //config.addPlugin(syntaxHighlight);
     config.addPlugin(eleventyNavigationPlugin);
     config.setLibrary('md', markdownLib)
     config.addPassthroughCopy("src/assets/images");
