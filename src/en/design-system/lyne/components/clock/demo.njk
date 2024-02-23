@@ -1,0 +1,16 @@
+---
+tags: clock-lyne_en
+title: Demo
+key: clock-lyne-demo_en
+parent: clock-lyne_en
+icon: demo
+order: 4
+permalink: false  
+---
+
+{{ lynedemo({
+  json: lyne.patterns.clock,
+  stories: lyne.stories[0],
+  noconfig: true,
+  translations: translations[page.lang].lyne
+  }) }}
