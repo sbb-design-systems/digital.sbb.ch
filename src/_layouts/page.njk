@@ -1,28 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}">
-  <head>
-    {% include "../_includes/head.njk" %}
-  </head>
-  <body>
-    {% include "../_includes/skiplinks.njk" %}
-    {% include "../_includes/header/header-page.njk" %}
-    {% include "../_includes/navigation/navigation.njk" %}
-    <sbb-container id="content" class="content">
-    {% if availablelanguages.length %}
-      {% include "../_includes/missing-languages.njk" %}
-      
-      {%- for defaultcontent in collections.page | defaultlanguagecontent(page.url) -%}
-        {% include "../_includes/title.njk" %}
-        {{ defaultcontent.content | safe }}
-      {%- endfor -%}
+---
+layout: base.njk
+---
+{% if availablelanguages.length %}
+  {% include "../_includes/missing-languages.njk" %}
+{% else %}
+  {% include "../_includes/title.njk" %}
+  {{ content | safe }}
+{% endif %}
 
-    {% else %}
-      {% include "../_includes/title.njk" %}
-      {{ content | safe }}
-    {% endif %}
-    </sbb-container>
-
-    {% include "../_includes/footer.njk" %}
-    <script src="/assets/js/navigation.js"></script>
-  </body>
-</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}">
+  <head>
+    {% include "../_includes/head.njk" %}
+  </head>
+  <body>
+    {% include "../_includes/skiplinks.njk" %}
+    {% include "../_includes/header/header.njk" %}
+    {% include "../_includes/navigation/navigation.njk" %}
+    <sbb-container id="content" class="content">
+      {{ content | safe }}
+    </sbb-container>
+    {% include "../_includes/footer.njk" %}
+
+    <script src="/assets/js/navigation.js"></script>
+    {% if layout == "community-assets.njk" %}
+    <script src="/assets/js/community-assets.js"></script>
+    {% elif layout == "overview.njk" %}
+    <script src="/assets/js/list-toggle.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    {% elif layout == "pattern.njk" %}
+    <script src="/assets/js/mode-toggle.js"></script>
+    <script src="/assets/js/list-toggle.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    {% else %}
+    {% endif %}
+  </body>
+</html>
+
+
