@@ -1,6 +1,8 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
-let url = "https://raw.githubusercontent.com/lyne-design-system/lyne-components/master/src/components/header/header/readme.md";
+var lyneversion = require('../../lyneversion');
+
+let url = lyneversion.url+lyneversion.branch+lyneversion.path+"header/header"+lyneversion.dok;
 
 const md = async function() {
   return EleventyFetch(url, {

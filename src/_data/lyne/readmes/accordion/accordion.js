@@ -1,6 +1,7 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
+var lyneversion = require('../../lyneversion');
 
-let url = "https://raw.githubusercontent.com/lyne-design-system/lyne-components/master/src/components/accordion/readme.md";
+let url = lyneversion.url+lyneversion.branch+lyneversion.path+"accordion"+lyneversion.dok;
 
 const md = async function() {
   return EleventyFetch(url, {
@@ -13,3 +14,5 @@ module.exports = async function() {
     let result = await md();
     return result;
   };
+
+  

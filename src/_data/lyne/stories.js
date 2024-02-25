@@ -14,8 +14,6 @@ const storybookstories = async function() {
   var stories = result.entries;
 
   for (const [key, value] of Object.entries(stories)) {
-    //console.log(`${key}: ${value}`);
-
     let titlesplit = value.title.split("/");
     if (titlesplit[0]== "components") {
       value.component = true;
@@ -31,12 +29,7 @@ const storybookstories = async function() {
     }
 
   }
-
-
-
-
   return stories;
-
 }
 
 module.exports = async function() {
