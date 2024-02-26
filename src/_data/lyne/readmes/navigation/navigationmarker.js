@@ -2,7 +2,7 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 
 var lyneversion = require('../../lyneversion');
 
-let url = lyneversion.url+lyneversion.branch+lyneversion.path+"navigation/navigation-marker"+lyneversion.dok;
+let url = lyneversion.url+lyneversion.master+lyneversion.path+"navigation/navigation-marker"+lyneversion.dok;
 
 const md = async function() {
   return EleventyFetch(url, {
