@@ -3,9 +3,9 @@
         <sbb-form-field error-space="none" label="{{ translations[page.lang].searchinput }}" size="m" width="default" borderless floating-label>
             <input class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
         </sbb-form-field>
-        <sbb-button size="l" variant="secondary" id="list-toggle" name="list">
+        <sbb-secondary-button size="l" id="list-toggle" name="list">
             <sbb-icon slot="icon" name="list-small"></sbb-icon>
-        </sbb-button>
+        </sbb-secondary-button>
     </div>
     <div class="component-list horizontal list overview">
         {% if subset == "1" %}

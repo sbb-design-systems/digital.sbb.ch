@@ -4,7 +4,7 @@
         {%- for lang in availablelanguages  -%}
             {% for loc in translations.languages -%}
                 {% if lang == loc.url %}
-                <sbb-link variant="inline" href="/{{ loc.url }}{{ page.url.slice(3, -1) }}">{{ loc.label }}</sbb-link>
+                <sbb-link href="/{{ loc.url }}{{ page.url.slice(3, -1) }}">{{ loc.label }}</sbb-link>
                 {% endif %}
             {% endfor -%}
         {%- endfor -%}

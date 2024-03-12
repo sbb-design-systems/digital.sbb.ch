@@ -6,20 +6,20 @@
         </div>
         <div class="col-2">
             {% if communityasset.design|length %}
-            <sbb-button size="m" variant="secondary" href="{{ communityasset.design }}" target="_blank">
+            <sbb-secondary-button size="m" href="{{ communityasset.design }}" target="_blank">
                 <sbb-icon slot="icon" name="figma-small"></sbb-icon>
-            </sbb-button>
+            </sbb-secondary-button>
             {% else %}
             {% endif %}
             {% if communityasset.code|length %}
-            <sbb-button size="m" variant="secondary" href="{{ communityasset.code }}" target="_blank">
+            <sbb-secondary-button size="m" href="{{ communityasset.code }}" target="_blank">
                 <sbb-icon slot="icon" name="chevron-small-left-right-small"></sbb-icon>
-            </sbb-button>
+            </sbb-secondary-button>
             {% else %}
             {% endif %}
-            <sbb-button class="more-details" size="m" variant="secondary">
+            <sbb-secondary-button class="more-details" size="m" >
                 {{ translations[page.lang].moreinformation }}
-            </sbb-button>
+            </sbb-secondary-button>
         </div>
     </div>
    {% endfor %}

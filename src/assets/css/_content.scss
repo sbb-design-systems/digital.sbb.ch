@@ -1,6 +1,6 @@
 html, body {
     height: 100vh;
-    background-color: var(--sbb-color-white-default);
+    background-color: var(--sbb-color-white);
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     }
 }
 ul, ol {
-    color: var(--sbb-color-black-default);
+    color: var(--sbb-color-black);
 }
 .content {
     padding-bottom: var(--sbb-spacing-responsive-xl);
@@ -71,7 +71,7 @@ h2.with-icon{
             margin-top: 2px;
             padding: 0px 12px 0px 0;
         }
-        stroke: var(--sbb-color-black-default);
+        stroke: var(--sbb-color-black);
         stroke-width: 1.5;
     }
 }
@@ -85,20 +85,20 @@ h3.with-icon{
             padding: 0 12px 0 0;
             margin-top:-3px;
         }
-        stroke: var(--sbb-color-black-default);
+        stroke: var(--sbb-color-black);
         stroke-width: 1.5;
     }
 }
 .dark {
-    background-color: var(--sbb-color-black-default);
+    background-color: var(--sbb-color-black);
 }
 
 code:not([class]) {
-    color: var(--sbb-color-violet-default);
-    background-color: var(--sbb-color-milk-default);
+    color: var(--sbb-color-violet);
+    background-color: var(--sbb-color-milk);
     padding: 2px 8px;
     border-radius: 8px;
-    border:solid 1px var(--sbb-color-cloud-default)
+    border:solid 1px var(--sbb-color-cloud)
 }
 
 
@@ -118,14 +118,14 @@ code:not([class]) {
     max-width: 100%;
     padding: 24px;
     margin-bottom: var(--sbb-spacing-fixed-4x);
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     border-radius: var(--sbb-border-radius-4x);
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     img {
         max-width: 100%;
     }
     &.dark {
-        background-color: var(--sbb-color-black-default);    
+        background-color: var(--sbb-color-black);    
         figure:first-child {
             display:none;
         }
@@ -145,9 +145,9 @@ code:not([class]) {
 .boxed-component {
     max-width: 100%;
     padding: 24px;
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     border-radius: var(--sbb-border-radius-4x);
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     text-align: center;
         > * {
         margin: var(--sbb-spacing-responsive-xl) auto;
@@ -156,17 +156,17 @@ code:not([class]) {
 
 table {
     width: 100%;
-    color:  var(--sbb-color-black-default);    
-    background:  var(--sbb-color-white-default);    
+    color:  var(--sbb-color-black);    
+    background:  var(--sbb-color-white);    
     border-radius: var(--sbb-border-radius-4x);
     border-width: 1px;
-    border-color: var(--sbb-color-cloud-default);
+    border-color: var(--sbb-color-cloud);
     border-style: solid;
     border-spacing: 0px;
     th,
     td {
         padding: var(--sbb-spacing-responsive-xxs) var(--sbb-spacing-fixed-4x);
-        border: 1px solid var(--sbb-color-cloud-default); 
+        border: 1px solid var(--sbb-color-cloud); 
         border-right-width: 1px;
         border-top-width: 0;
         border-bottom-width: 0;
@@ -177,7 +177,7 @@ table {
     tbody {
         tr {
             td {
-                border: 1px solid var(--sbb-color-cloud-default); 
+                border: 1px solid var(--sbb-color-cloud); 
                 border-right-width: 1px;
                 border-top-width: 1px;
                 border-bottom-width: 0;
@@ -191,7 +191,7 @@ table {
                   }
               }
             &:nth-of-type(odd) {
-                background: var(--sbb-color-milk-default);   
+                background: var(--sbb-color-milk);   
               }
         }
     }
@@ -255,7 +255,7 @@ table {
     grid-template-columns: 1fr; 
     grid-template-rows: auto; 
     gap: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
-    //background-color: var(--sbb-color-milk-default);
+    //background-color: var(--sbb-color-milk);
     //padding: var(--sbb-spacing-fixed-8x);
 
     @include sbb.mq($from: medium) {
@@ -272,26 +272,26 @@ table {
     justify-content: center;
     border-radius: var(--sbb-border-radius-4x);
     padding: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
-    background-color: var(--sbb-color-white-default);
-    border: solid 1px var(--sbb-color-cloud-default);
+    background-color: var(--sbb-color-white);
+    border: solid 1px var(--sbb-color-cloud);
     @include sbb.mq($from: medium) {
         padding: var(--sbb-spacing-fixed-8x);
     }
     min-height: var(--sbb-spacing-fixed-24x);
     &[data-background="white"] {
-        background-color: var(--sbb-color-white-default);
+        background-color: var(--sbb-color-white);
     }
     &[data-background="milk"] {
-        background-color: var(--sbb-color-milk-default);
+        background-color: var(--sbb-color-milk);
     }
     &[data-background="charcoal"] {
-        background-color: var(--sbb-color-charcoal-default);
+        background-color: var(--sbb-color-charcoal);
     }
     &[data-background="iron"] {
-        background-color: var(--sbb-color-iron-default);
+        background-color: var(--sbb-color-iron);
     }
     &[data-background="black"] {
-        background-color: var(--sbb-color-black-default);
+        background-color: var(--sbb-color-black);
     }
     sbb-clock {
         width: 50%;
@@ -305,7 +305,7 @@ table {
     position: relative;
     overflow: hidden;
     border-radius: var(--sbb-border-radius-4x);
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     width: 100%;
     height: var(--sbb-spacing-fixed-20x);
 }
@@ -348,14 +348,14 @@ h3 {
 }
 .example {
     border-radius: var(--sbb-border-radius-4x);
-    border: solid 1px var(--sbb-color-cloud-default);
-    background-color: var(--sbb-color-milk-default);
+    border: solid 1px var(--sbb-color-cloud);
+    background-color: var(--sbb-color-milk);
     iframe, pre, code {
         display: block;
         margin: 0;
     }
     iframe {
-        background-color: var(--sbb-color-white-default);
+        background-color: var(--sbb-color-white);
         border-top-left-radius: var(--sbb-border-radius-4x);
         border-top-right-radius: var(--sbb-border-radius-4x);
     }

@@ -39,7 +39,7 @@
 {% endmacro %}
 
 {% macro specificationLinks(params) %}
-    <sbb-action-group orientation="vertical" horizontal-from="small">{% if params.figma %}<sbb-button size="m" variant="secondary" target="_blank" href="{{params.figma}}"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Design</sbb-button>{% endif %}{% if params.github %}<sbb-button size="m" variant="secondary" target="_blank" href="{{params.github}}"><sbb-icon slot="icon" name="github-small"></sbb-icon>Code</sbb-button>{% endif %}</sbb-action-group>
+    <sbb-action-group orientation="vertical" horizontal-from="small">{% if params.figma %}<sbb-secondary-button size="m" target="_blank" href="{{params.figma}}"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Design</sbb-secondary-button>{% endif %}{% if params.github %}<sbb-secondary-button size="m" target="_blank" href="{{params.github}}"><sbb-icon slot="icon" name="github-small"></sbb-icon>Code</sbb-secondary-button>{% endif %}</sbb-action-group>
 {% endmacro %}
 
 
@@ -100,8 +100,8 @@
         <div class="example-footer">
             
             <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
-                <sbb-button size="m" variant="secondary" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-button>
-                <sbb-button size="m" variant="secondary" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-button>
+                <sbb-secondary-button size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-secondary-buttonbutton>
+                <sbb-secondary-button size="m" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-secondary-button>
                 <sbb-toggle-check data-codetoggle="{{stor.id}}" size="m" label-position="after">HTML-Markup einblenden</sbb-toggle-check>
             </sbb-action-group>
         </div>

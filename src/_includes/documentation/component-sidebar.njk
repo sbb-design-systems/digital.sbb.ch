@@ -7,12 +7,12 @@
             <p class="metal no-margin">{{dsname}}</p>
         </div>
         <div>
-        <sbb-button size="m" variant="secondary" id="list-toggle" aria-label="list">
+        <sbb-secondary-button size="m" id="list-toggle" aria-label="list">
         <sbb-icon slot="icon" name="list-small"></sbb-icon>
-        </sbb-button>
-        <sbb-button size="m" variant="secondary" id="close-browser" aria-label="close">
+        </sbb-secondary-button>
+        <sbb-secondary-button size="m" id="close-browser" aria-label="close">
             <sbb-icon slot="icon" name="cross-small"></sbb-icon>
-        </sbb-button>
+        </sbb-secondary-button>
         </div>
         <sbb-form-field error-space="none" label="{{ translations[page.lang].searchinput }}" size="m" width="default" borderless floating-label>
             <input id="search-form-field" class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">

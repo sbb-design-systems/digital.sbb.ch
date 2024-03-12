@@ -12,9 +12,9 @@
         width: var(--sbb-spacing-fixed-18x);
         height: var(--sbb-spacing-fixed-18x);
         border-radius: var(--sbb-border-radius-2x);
-        background: var(--sbb-color-white-default);
+        background: var(--sbb-color-white);
         border-style: solid;
-        border-color: var(--sbb-color-cloud-default);
+        border-color: var(--sbb-color-cloud);
         border-width: var(--sbb-border-width-1x);
         text-align: center;
         display: flex;
@@ -44,15 +44,15 @@
         width: 75.076px;
         height: 75.076px;
         border-radius: var(--sbb-border-radius-2x);
-        background: var(--sbb-color-white-default);
+        background: var(--sbb-color-white);
         display: flex;
         justify-content: center;
         align-items: center;
         &.dark {
-            background: var(--sbb-color-black-default);
+            background: var(--sbb-color-black);
         }
         &.high-contrast {
-            background: var(--sbb-color-black-default);
+            background: var(--sbb-color-black);
         }
     }
 }

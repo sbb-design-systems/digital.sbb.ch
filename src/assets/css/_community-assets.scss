@@ -1,5 +1,5 @@
 #communitylist {
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     box-sizing: border-box;
     width: 100%;
     display: grid;
@@ -72,18 +72,18 @@
 .communit-asset-detail {
     gap: var(--sbb-spacing-fixed-1x) var(--sbb-spacing-fixed-4x);
     dt {
-       color: var(--sbb-color-metal-default);
+       color: var(--sbb-color-metal);
     }
 }
 
 .subtitle {
-    color: var(--sbb-color-metal-default);
+    color: var(--sbb-color-metal);
 }
 
 .not-found {
     display: none;
     text-align: center;
-    background-color: var(--sbb-color-white-default);
+    background-color: var(--sbb-color-white);
     padding: var(--sbb-spacing-responsive-s);
     border-radius:var(--sbb-border-radius-4x);
     sbb-image {

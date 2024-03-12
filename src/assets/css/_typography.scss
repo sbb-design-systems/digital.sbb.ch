@@ -32,5 +32,5 @@ h6:not(.demo *) {
 }
 
 a:not(.demo *) {
-    @include sbb.link-inline;
+    @include sbb.link;
 }

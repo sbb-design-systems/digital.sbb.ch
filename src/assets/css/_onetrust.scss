@@ -2,8 +2,8 @@
   font-family: var(--sbb-typo-type-face-sbb-roman) !important;
   font-weight: normal !important;
   #onetrust-banner-sdk, #onetrust-banner-sdk.otFlat {
-    color:  var(--sbb-color-black-default);
-    background-color:  var(--sbb-color-white-default);
+    color:  var(--sbb-color-black);
+    background-color:  var(--sbb-color-white);
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     padding-inline: var(--sbb-layout-base-offset-responsive);
@@ -65,7 +65,7 @@
               font-weight: normal !important;
               line-height: var(--sbb-typo-line-height-body-text) !important;
               font-size: var(--sbb-font-size-text-l) !important;
-              color:  var(--sbb-color-black-default) !important;
+              color:  var(--sbb-color-black) !important;
             }
             #onetrust-policy-text {
               font-family: var(--sbb-typo-type-face-sbb-roman) !important;
@@ -73,9 +73,9 @@
               line-height: var(--sbb-typo-line-height-body-text) !important;
               letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
               font-size: var(--sbb-font-size-text-s) !important;
-              color:  var(--sbb-color-black-default) !important;
+              color:  var(--sbb-color-black) !important;
               a {
-                color:  var(--sbb-color-black-default) !important;
+                color:  var(--sbb-color-black) !important;
                 display: inline !important;
                 padding-left: 4px !important;
               }
@@ -98,10 +98,10 @@
             gap: 12px !important;
             grid-template-columns: 1fr !important;
             #onetrust-accept-btn-handler {
-              background-color:  var(--sbb-color-red-default);
+              background-color:  var(--sbb-color-red);
               border: none;
               border-radius: 50px !important;
-              color:  var(--sbb-color-white-default);
+              color:  var(--sbb-color-white);
               font-family: inherit;
               font-size: 15px;
               font-weight: normal;
@@ -115,18 +115,18 @@
               -webkit-tap-highlight-color: rgba(0,0,0,0);
               &:hover,
               &:focus {
-                background-color:  var(--sbb-color-red125-default);
-                color:  var(--sbb-color-white-default);
+                background-color:  var(--sbb-color-red125);
+                color:  var(--sbb-color-white);
                 opacity: 1;
                 outline: none;
               }
               margin: 0;
             }
             #onetrust-pc-btn-handler.cookie-setting-link {
-              background-color:  var(--sbb-color-red-default);
+              background-color:  var(--sbb-color-red);
               border: none;
               border-radius: 50px !important;
-              color:  var(--sbb-color-white-default);
+              color:  var(--sbb-color-white);
               font-family: inherit;
               font-size: 15px;
               font-weight: normal;
@@ -140,8 +140,8 @@
               -webkit-tap-highlight-color: rgba(0,0,0,0);
               &:hover,
               &:focus {
-                background-color:  var(--sbb-color-red125-default);
-                color:  var(--sbb-color-white-default);
+                background-color:  var(--sbb-color-red125);
+                color:  var(--sbb-color-white);
                 opacity: 1;
                 outline: none;
               }
@@ -203,7 +203,7 @@
           top: 12px;
           height: 16px;
           width: 1px;
-          background-color:  var(--sbb-color-black-default);
+          background-color:  var(--sbb-color-black);
 
         }
 
@@ -230,11 +230,11 @@
       padding: 20px 0 0 0;
       margin: 0;
       h3 {
-        color:  var(--sbb-color-black-default);
+        color:  var(--sbb-color-black);
         font-weight: lighter;
       }
       h4 {
-        color:  var(--sbb-color-black-default);
+        color:  var(--sbb-color-black);
         margin: 0 0 10px 0;
         font-weight: normal;
         font-size: 20px;
@@ -247,7 +247,7 @@
       .ot-active-menu, .category-menu-switch-handler {
         border-left: 0;
         padding-left: 30px;
-        border-bottom: 2px solid  var(--sbb-color-white-default);
+        border-bottom: 2px solid  var(--sbb-color-white);
 
         h3 {
           font-weight: normal;
@@ -263,7 +263,7 @@
         font-weight: normal !important;
         line-height: var(--sbb-typo-line-height-body-text) !important;
         font-size: var(--sbb-font-size-text-l) !important;
-        color:  var(--sbb-color-black-default) !important;
+        color:  var(--sbb-color-black) !important;
       }
       .ot-cat-grp  {
         padding-bottom: 24px !important;
@@ -274,18 +274,18 @@
         line-height: var(--sbb-typo-line-height-body-text) !important;
         letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
         font-size: var(--sbb-font-size-text-s) !important;
-        color:  var(--sbb-color-black-default) !important;
+        color:  var(--sbb-color-black) !important;
         a {
-          color:  var(--sbb-color-black-default) !important;
+          color:  var(--sbb-color-black) !important;
           display: inline !important;
           padding-left: 4px !important;
         }
       }
       #accept-recommended-btn-handler#accept-recommended-btn-handler {
-        background-color:  var(--sbb-color-red-default);
+        background-color:  var(--sbb-color-red);
         border: none;
         border-radius: 50px !important;
-        color:  var(--sbb-color-white-default);
+        color:  var(--sbb-color-white);
         font-family: inherit;
         font-size: 15px;
         font-weight: normal;
@@ -297,12 +297,12 @@
         white-space: nowrap;
         text-overflow: ellipsis;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
-        background-color:  var(--sbb-color-cement-default);
-        color: var(--sbb-color-black-default);
+        background-color:  var(--sbb-color-cement);
+        color: var(--sbb-color-black);
         &:hover,
         &:focus {
-          background-color:  var(--sbb-color-cement-default);
-          color:  var(--sbb-color-black-default);
+          background-color:  var(--sbb-color-cement);
+          color:  var(--sbb-color-black);
           opacity: 1;
           outline: none;
         }
@@ -310,7 +310,7 @@
       }
       .ot-cat-item {
         border-radius: 8px !important;
-        border: 1px solid  var(--sbb-color-cement-default);
+        border: 1px solid  var(--sbb-color-cement);
         > button {
           position: absolute;
           height: 100%;
@@ -329,7 +329,7 @@
               bottom: 0;
               left: 0;
               overflow: hidden;
-              background-color: var(--sbb-color-cement-default);
+              background-color: var(--sbb-color-cement);
               border-radius: 20px;
               transition: none;
               &:before {
@@ -339,7 +339,7 @@
                 left: 2px;
                 height: 2px;
                 width: 2px;
-                background-color: var(--sbb-color-white-default);
+                background-color: var(--sbb-color-white);
                 border-radius: 50%;
                 transition: none;
               }
@@ -351,8 +351,8 @@
                 left: 32px;
                 height: 12px;
                 width: 5px;
-                border-bottom: 1px solid  var(--sbb-color-red-default);
-                border-right: 1px solid  var(--sbb-color-red-default);
+                border-bottom: 1px solid  var(--sbb-color-red);
+                border-right: 1px solid  var(--sbb-color-red);
                 transform: rotate(45deg);
                 transition: none;
               }
@@ -362,7 +362,7 @@
             height: 0;
             width: 0;
             &:checked + .ot-switch .ot-switch-nob {
-              background-color:  var(--sbb-color-red-default);
+              background-color:  var(--sbb-color-red);
               &:before {
                 transform: translateX(18px);
               }
@@ -389,7 +389,7 @@
             font-weight: normal !important;
             line-height: var(--sbb-typo-line-height-body-text) !important;
             font-size: var(--sbb-font-size-text-m) !important;
-            color:  var(--sbb-color-black-default) !important;
+            color:  var(--sbb-color-black) !important;
             margin-bottom: 0 !important;
             &:before,
             &:after {
@@ -399,7 +399,7 @@
               top: calc(50% - #{pxToEm(8)});
               height: pxToEm(16);
               width: pxToEm(1);
-              background-color:  var(--sbb-color-black-default);
+              background-color:  var(--sbb-color-black);
               font-size: 16px;
             }
             &:before {
@@ -417,7 +417,7 @@
             font-weight: normal !important;
             line-height: var(--sbb-typo-line-height-body-text) !important;
             font-size: var(--sbb-font-size-text-m) !important;
-            color:  var(--sbb-color-red-default) !important;
+            color:  var(--sbb-color-red) !important;
           }
         }
         .ot-label-txt {
@@ -427,7 +427,7 @@
           display: none;
           padding-top: 0;
           margin: 0;
-          border-top: 1px solid  var(--sbb-color-cement-default);
+          border-top: 1px solid  var(--sbb-color-cement);
           background: none;
           .ot-category-desc {
             font-family: var(--sbb-typo-type-face-sbb-roman) !important;
@@ -435,7 +435,7 @@
             line-height: var(--sbb-typo-line-height-body-text) !important;
             letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
             font-size: var(--sbb-font-size-text-s) !important;
-            color:  var(--sbb-color-black-default) !important;
+            color:  var(--sbb-color-black) !important;
           }
           .ot-subgrps {
             font-size: inherit;
@@ -450,7 +450,7 @@
                 margin: 0;
               }
               .ot-subgrp-desc {
-                color:  var(--sbb-color-black-default);
+                color:  var(--sbb-color-black);
                 font-weight: normal;
                 flex-basis: calc(100% - #{58px});
               }
@@ -478,7 +478,7 @@
               line-height: var(--sbb-typo-line-height-body-text) !important;
               letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
               font-size: var(--sbb-font-size-text-s) !important;
-              color:  var(--sbb-color-black-default) !important;
+              color:  var(--sbb-color-black) !important;
               text-decoration: underline !important;
               display: inline !important;
               &:after {
@@ -525,7 +525,7 @@
           right: 16px;
           #clear-filters-handler:focus,
           #clear-filters-handler:active {
-            color:  var(--sbb-color-black-default);
+            color:  var(--sbb-color-black);
           }
         }
       }
@@ -549,12 +549,12 @@
       .ot-btn-container {
         padding-top: 7px !important;
         padding-bottom: 7px !important;
-        background-color: var(--sbb-color-white-default);
+        background-color: var(--sbb-color-white);
         button, .ot-btn-subcntr {
-          background-color:  var(--sbb-color-red-default);
+          background-color:  var(--sbb-color-red);
           border: none;
           border-radius: 50px !important;
-          color:  var(--sbb-color-white-default);
+          color:  var(--sbb-color-white);
           font-family: inherit;
           font-size: 15px;
           font-weight: normal;
@@ -568,8 +568,8 @@
           -webkit-tap-highlight-color: rgba(0,0,0,0);
           &:hover,
           &:focus {
-            background-color:  var(--sbb-color-red125-default);
-            color:  var(--sbb-color-white-default);
+            background-color:  var(--sbb-color-red125);
+            color:  var(--sbb-color-white);
             opacity: 1;
             outline: none;
           }
@@ -591,7 +591,7 @@
         display: flex;
         justify-content: flex-end;
         padding-bottom: 24px !important;
-        background-color:  var(--sbb-color-white-default) !important;
+        background-color:  var(--sbb-color-white) !important;
         border-top: none !important;
         a {
           height: pxToEm(22);
@@ -602,7 +602,7 @@
   }
 }
 .ot-sdk-show-settings {
-  color:  var(--sbb-color-white-default) !important;
+  color:  var(--sbb-color-white) !important;
   border: none !important;
   padding: 0 !important;
   font-size: 15px !important;

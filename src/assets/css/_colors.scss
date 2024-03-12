@@ -59,7 +59,7 @@
     width: 100%;
     border-radius: var(--sbb-border-radius-4x);
     overflow: hidden;
-    border: solid 1px var(--sbb-color-cloud-default);
+    border: solid 1px var(--sbb-color-cloud);
     display: flex;
   }
   .color-ratio div {
@@ -72,15 +72,15 @@
   }
   .color-ratio .grey {
     flex: 2.5 1 auto;
-    background: var(--sbb-color-cloud-default);
+    background: var(--sbb-color-cloud);
   }
   .color-ratio .black {
-    color: var(--sbb-color-white-default);
+    color: var(--sbb-color-white);
     flex: 1 1 auto;
-    background: var(--sbb-color-black-default);
+    background: var(--sbb-color-black);
   }
   .color-ratio .red {
-    color: var(--sbb-color-white-default);
+    color: var(--sbb-color-white);
     flex: 0.5 1 auto;
-    background: var(--sbb-color-red-default);
+    background: var(--sbb-color-red);
   }
