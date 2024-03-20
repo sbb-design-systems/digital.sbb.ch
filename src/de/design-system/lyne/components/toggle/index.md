@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_de
     - lyne_components_de
     - page
-key: toggle-lyne_de
+key: toggle-folder-lyne_de
 title: Toggle
 parent: components-lyne_de
-image: lyne/overview/toggle.webp
-keywords: toggle
-order: 700
+keywords: toggle, toggle-option, toggle-check, check, option
+order: 450
+permalink: false
 ---

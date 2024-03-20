@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_en
     - lyne_components_en
     - page
-key: form-field-lyne_en
+key: form-field-folder-lyne_en
 title: Form-Field
 parent: components-lyne_en
-image: lyne/overview/form-field.webp
-keywords: form-field
-order: 280
+keywords: form-field, form, field, text-input, select, input
+order: 160
+permalink: false
 ---

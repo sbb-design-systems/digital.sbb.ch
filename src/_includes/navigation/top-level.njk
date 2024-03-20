@@ -1,6 +1,6 @@
 {% set navPages = collections.toplevel | eleventyNavigation(page.lang) %}
-<sbb-navigation-marker class="toplevel">
+<sbb-navigation-marker>
     {%- for entry in navPages %}
-        <sbb-navigation-action id="{{ entry.key }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}>{{ entry.title }}</sbb-navigation-action>
+        <sbb-navigation-button id="{{ entry.key }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}>{{ entry.title }}</sbb-navigation-button>
     {%- endfor %}
 </sbb-navigation-marker>

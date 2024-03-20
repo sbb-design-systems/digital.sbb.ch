@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: Selection-Panel
 parent: components-lyne_en
 image: lyne/overview/selection-panel.webp
 keywords: selection-panel
-order: 550
+order: 340
 ---

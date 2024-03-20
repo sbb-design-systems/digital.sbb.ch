@@ -1,6 +1,6 @@
 ---
 tags: selection-panel-lyne_en
-title: Übersicht
+title: Overview
 key: selection-panel-lyne-overview_en
 parent: selection-panel-lyne_en
 icon: overview

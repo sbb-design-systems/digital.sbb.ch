@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_de
     - lyne_components_de
     - page
-key: header-lyne_de
+key: header-folder-lyne_de
 title: Header
 parent: components-lyne_de
-image: lyne/overview/header.webp
-keywords: header
-order: 300
+keywords: header, header-link, link
+order: 170
+permalink: false
 ---

@@ -18,9 +18,18 @@
     {% elif layout == "overview.njk" %}
     <script src="/assets/js/list-toggle.js"></script>
     <script src="/assets/js/component-browser.js"></script>
-    {% elif layout == "pattern.njk" %}
-    <script src="/assets/js/mode-toggle.js"></script>
+    {% elif layout == "overview-lyne.njk" %}
+    <script src="/assets/js/tree.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    {% elif layout == "pattern.njk" %} 
     <script src="/assets/js/list-toggle.js"></script>
+    <script src="/assets/js/mode-toggle.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    {% elif layout == "pattern-lyne.njk" %} 
+    <script src="/assets/js/tree.js"></script>
     <script src="/assets/js/sidebar.js"></script>
     <script src="/assets/js/component-browser.js"></script>
     <script src="/assets/js/highlight.min.js"></script>

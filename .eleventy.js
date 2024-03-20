@@ -33,11 +33,13 @@ module.exports = function (config) {
         const buttonGroup = `{% from "src/_includes/macros/macros.njk" import buttonGroup %}`;
         const specificationLinks = `{% from "src/_includes/macros/macros.njk" import specificationLinks %}`;
         const imageSpec = `{% from "src/_includes/macros/macros.njk" import imageSpec %}`;
-        const lynedemo = `{% from "src/_includes/macros/macros.njk" import lynedemo %}`;
+        const lynePlayground = `{% from "src/_includes/macros/macros.njk" import lynePlayground %}`;
+        const lyneExamples = `{% from "src/_includes/macros/macros.njk" import lyneExamples %}`;
+
 
         let collection = collectionApi.getFilteredByGlob(["src/**/*.md", "src/**/*.njk"]);
         collection.forEach((item) => {
-          item.template.frontMatter.content = `${svgImage}\n${webpImage}\n${imageWithMode}\n${imageOnGreyBackground}\n${principleImage}\n${buttonGroup}\n${specificationLinks}\n${imageSpec}\n${lynedemo}\n${item.template.frontMatter.content}`
+          item.template.frontMatter.content = `${svgImage}\n${webpImage}\n${imageWithMode}\n${imageOnGreyBackground}\n${principleImage}\n${buttonGroup}\n${specificationLinks}\n${imageSpec}\n${lynePlayground}\n${lyneExamples}\n${item.template.frontMatter.content}`
         })
         return collection;
       });

@@ -1,0 +1,11 @@
+---
+layout: base.njk
+---
+{% if availablelanguages.length %}
+  {% include "../_includes/missing-languages.njk" %}
+  {% include "../_includes/documentation/component-overview-lyne.njk" %}
+{% else %}
+  {% include "../_includes/title.njk" %}
+  {{ content | safe }}
+  {% include "../_includes/documentation/component-overview-lyne.njk" %}
+{% endif %}

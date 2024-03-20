@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -9,5 +9,5 @@ title: Image
 parent: components-lyne_de
 image: lyne/overview/image.webp
 keywords: image
-order: 330
+order: 190
 ---

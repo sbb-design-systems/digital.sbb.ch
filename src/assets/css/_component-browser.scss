@@ -82,7 +82,7 @@
 
 
 .browser {
-    background-color: var(--sbb-color-milk-default);
+    background-color: var(--sbb-color-milk);
     box-sizing: border-box;
     width: 100%;
     display: grid; 
@@ -220,7 +220,11 @@
                 flex: 0 0 calc((100% - (var(--sbb-spacing-fixed-4x) * 4)) / 5);
             }
         }
+        &.tree {
+            padding: 0 var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-m);
+        }
     }
+    
 }
 
 .button-header {
@@ -228,6 +232,106 @@
 }
 
 p.metal {
-  color: var(--sbb-color-metal-default);
+  color: var(--sbb-color-metal);
 }
+
+.lyne-browser {
+    @include sbb.mq($from: medium) {
+        width: 50vw;
+    }
+    @include sbb.mq($from: large) {
+        width: 40vw;
+    }
+    @include sbb.mq($from: ultra) {
+        width: 30vw;
+    }
+}
+
+
+.tree {
+    padding: 0;
+    margin:0;
+    list-style-type: none; 
+    list-style: none;
+    font-size: inherit;
+    a, a:hover {
+        text-decoration: none;
+        display: block;
+    }
+    li {
+        margin: 8px 0;
+        &::before {
+        content: '' !important; 
+        transform: scale(1.0);
+        }
+        &:first-child {
+            sbb-title {
+                margin-block-start:0;
+            }
+        }
+        ul {
+            li {
+                margin: 8px 0;
+            }
+        }
+    }
+
+    .no-subcategory, .has-subcategory {
+        cursor: pointer;
+        display: block;
+        padding-left: 36px;
+        margin-top: 0;
+        margin-block-start: 8px;
+        &:hover {
+            color:var(--sbb-color-red125);
+        }
+        &.current {
+            @include sbb.text-m--bold;
+        }
+        
+    }
+  
+    .no-subcategory::before, .has-subcategory::before, .selected::before {
+        content:'';
+        left:2px;
+        top:2px;
+        width: 24px;
+        height: 24px;
+        background-image: url(https://icons.app.sbb.ch/icons/four-diamonds-small.svg);
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: 24px 24px;
+        position: absolute;
+        display: block;
+    }
+    
+    .has-subcategory::before {
+        background-image: url(https://icons.app.sbb.ch/icons/folder-small.svg);
+    }
+    .selected::before {
+        background-image: url(https://icons.app.sbb.ch/icons/folder-open-small.svg); 
+    }
+  
+
+    .subcategory {
+        margin:0;
+        padding: 0;
+        padding-inline-start: 0;
+        max-height: 0;
+        transition: max-height 0.5s ease-out;
+        overflow: hidden;
+        &.open {
+            max-height: 1000px;
+            transition: max-height 0.5s ease-in;
+            overflow: visible;
+        }
+        .current {
+            @include sbb.text-m--bold;
+        }
+    }
+    
+
+    
+}
+
 

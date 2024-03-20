@@ -1,6 +1,6 @@
 ---
 tags: notification-lyne_en
-title: Übersicht
+title: Overview
 key: notification-lyne-overview_en
 parent: notification-lyne_en
 icon: overview

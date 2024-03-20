@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_en
     - lyne_components_en
     - page
-key: tag-lyne_en
+key: tag-folder-lyne_en
 title: Tag
 parent: components-lyne_en
-image: lyne/overview/tag.webp
-keywords: tag
-order: 630
+keywords: tag, tag-group, group
+order: 400
+permalink: false
 ---

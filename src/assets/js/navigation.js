@@ -1,3 +1,4 @@
+/*
 
 const toplevelcontainer = document.querySelector('.toplevel');
 const navtrigger = document.querySelector('#nav-trigger');
@@ -23,3 +24,4 @@ navtrigger.addEventListener('click', function (event) {
   });
 
   
+*/

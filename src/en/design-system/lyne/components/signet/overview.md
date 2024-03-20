@@ -1,6 +1,6 @@
 ---
 tags: signet-lyne_en
-title: Übersicht
+title: Overview
 key: signet-lyne-overview_en
 parent: signet-lyne_en
 icon: overview

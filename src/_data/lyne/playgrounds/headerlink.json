@@ -1,0 +1,45 @@
+{
+    "tag":"sbb-header-link",
+    "content":"<sbb-header-link class='demo-item' expand-from='zero' icon-name='hamburger-menu-small' href='#'>Menu</sbb-icon></sbb-header-link>",
+    "configuration" : [
+        {
+            "attribute":"expand-from",
+            "label":"expand-from",
+            "target":"demo-item",
+            "default":"medium",
+            "mode":"property",
+            "options" : [{
+                "value":"zero",
+                "label":"zero"
+            }, 
+            {
+                "value":"micro",
+                "label":"micro"
+            },
+            {
+                "value":"small",
+                "label":"small"
+            },
+            {
+                "value":"medium",
+                "label":"medium"
+            },
+            {
+                "value":"large",
+                "label":"large"
+            },
+            {
+                "value":"wide",
+                "label":"wide"
+            },
+            {
+                "value":"ultra",
+                "label":"ultra"
+            },
+            {
+                "value":"",
+                "label":"never"
+            }]
+        }
+    ]
+}

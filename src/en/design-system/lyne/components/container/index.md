@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_en
     - lyne_components_en
     - page
-key: container-lyne_en
+key: container-folder-lyne_en
 title: Container
 parent: components-lyne_en
-image: lyne/overview/container.webp
-keywords: container
-order: 170
+keywords: container, sticky-bar, sticky, bar
+order: 100
+permalink: false
 ---

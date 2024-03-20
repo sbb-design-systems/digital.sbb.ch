@@ -1,13 +1,13 @@
 
   <div class="spacer" style="display:flex;flex-grow:1"></div>
-  <sbb-header-action icon-name="globe-small" id="language-menu-trigger" class="last-element">
+  <sbb-header-button icon-name="globe-small" id="language-menu-trigger" class="last-element">
     {% if locales.length %}{% for loc in locales -%}{% if (lang == loc.url)  %}{{loc.label}}{% endif %}{% endfor -%}{% endif %}
     <sbb-menu trigger="language-menu-trigger">
         {% if locales.length %}
             {% for loc in locales -%}
-            <sbb-menu-action {% if (lang == loc.url)  %}icon-name="tick-small" {% endif %} href="/{{ loc.url }}/" rel="alternate" hreflang="{{ loc.code }}">{{ loc.label }}</sbb-menu-action>
+            <sbb-menu-link {% if (lang == loc.url)  %}icon-name="tick-small" {% endif %} href="/{{ loc.url }}/" rel="alternate" hreflang="{{ loc.code }}">{{ loc.label }}</sbb-menu-link>
             {% endfor -%}
         {% endif %}
     </sbb-menu>
-  </sbb-header-action>
+  </sbb-header-button>
   <div class="spacer" style="width: var(--sbb-spacing-fixed-6x);"></div>

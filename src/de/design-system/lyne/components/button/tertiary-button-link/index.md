@@ -1,0 +1,13 @@
+---
+layout: pattern-lyne.njk
+tags: 
+    - lyne_de
+    - lyne_components_de
+    - page
+key: tertiary-button-link-lyne_de
+title: Tertiary Button (Link)
+parent: button-folder-lyne_de
+image: lyne/overview/button.webp
+keywords: button, icon, split, action
+order: 90
+---

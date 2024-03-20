@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: Journey-Header
 parent: components-lyne_en
 image: lyne/overview/journey-header.webp
 keywords: journey-header
-order: 340
+order: 200
 ---

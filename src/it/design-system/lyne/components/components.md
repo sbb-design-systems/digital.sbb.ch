@@ -2,8 +2,8 @@
 layout: overview.njk
 tags: page
 key: components-lyne_it
-title: Componenti
-alternativetitle: Componenti Lyne
+title: Komponenten
+alternativetitle: Komponenten Lyne
 parent: lyne_it
 order: 40
 componentbrowser: true

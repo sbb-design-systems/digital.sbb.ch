@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_de
     - lyne_components_de
     - page
-key: datepicker-lyne_de
+key: datepicker-folder-lyne_de
 title: Datepicker
 parent: components-lyne_de
-image: lyne/overview/date-picker.webp
-keywords: datepicker
-order: 180
+keywords: date, datepicker, calendar, picker
+order: 110
+permalink: false
 ---

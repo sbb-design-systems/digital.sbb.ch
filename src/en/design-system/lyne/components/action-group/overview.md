@@ -1,6 +1,6 @@
 ---
 tags: action-group-lyne_en
-title: Übersicht
+title: Overview
 key: action-group-lyne-overview_en
 parent: action-group-lyne_en
 icon: overview

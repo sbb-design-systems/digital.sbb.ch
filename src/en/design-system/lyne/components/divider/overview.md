@@ -1,6 +1,6 @@
 ---
 tags: divider-lyne_en
-title: Übersicht
+title: Overview
 key: divider-lyne-overview_en
 parent: divider-lyne_en
 icon: overview

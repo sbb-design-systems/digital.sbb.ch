@@ -1,0 +1,36 @@
+<div id="componentlist" class="browser overview">
+    <div class="browser-header-overview">   
+        <sbb-form-field error-space="none" label="{{ translations[page.lang].searchinput }}" size="m" width="default" borderless floating-label>
+            <input class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
+        </sbb-form-field>
+    </div>
+    <ul class="component-list list overview tree">
+        {% if subset == "1" %}
+            <li><sbb-title level="5" class="browser-title">Basics</sbb-title></li>
+            {% set basicPages = collections[dsbasics] | eleventyNavigation(dsbasicskey) %}
+            {%- for entry in basicPages %}
+                {% include "./tree-item.njk" %}
+            {%- endfor -%}
+        {% elif subset == "2" %}
+            <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
+            {% set componentsPages = collections[dscomponents] | eleventyNavigation(dscomponentskey) %}
+            {%- for entry in componentsPages %}
+                {% include "./tree-item.njk" %}
+            {%- endfor -%}
+        {% else %}
+           <li><sbb-title level="5" class="browser-title">Basics</sbb-title></li>
+            {% set basicPages = collections[dsbasics] | eleventyNavigation(dsbasicskey) %}
+            {%- for entry in basicPages %}
+                {% include "./tree-item.njk" %}
+            {%- endfor -%}
+            <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
+            {% set componentsPages = collections[dscomponents] | eleventyNavigation(dscomponentskey) %}
+            {%- for entry in componentsPages %}
+                {% include "./tree-item.njk" %}
+            {%- endfor -%}
+        {% endif %}
+    </ul>
+</div>
+
+
+
