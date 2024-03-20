@@ -1,0 +1,16 @@
+---
+layout: pattern-lyne.njk
+tags: 
+    - lyne_fr
+    - lyne_components_fr
+    - page
+key: loading-indicator-lyne_fr
+title: Loading-Indicator
+parent: components-lyne_fr
+image: lyne/overview/loading-indicator.webp
+keywords: loading-indicator
+order: 230
+availablelanguages: 
+    - de
+    - en
+---

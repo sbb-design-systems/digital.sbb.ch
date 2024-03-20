@@ -6,7 +6,7 @@
     <sbb-navigation-list  {% if sub.hideInNavigation != true %}label="{{sub.title}}"{% endif %}>
         {% set subsubPages = collections.page | eleventyNavigation(sub.key) %}
         {%- for subsub in subsubPages %}
-            <sbb-navigation-link href="{{ subsub.url}}" {% if subsub.external == true %}target="_blank"{% endif %} {% if subsub.url == page.url %}class="sbb-active"{% endif %}>{{ subsub.title }}</sbb-navigation-link>
+            <sbb-navigation-link href="{{ subsub.url}}" {% if subsub.external == true %}target="_blank"{% endif %} {% if subsub.url == page.url %}class="sbb-active" aria-current="page"{% endif %}>{{ subsub.title }}</sbb-navigation-link>
         {%- endfor %}
     </sbb-navigation-list>
     {%- endfor %}

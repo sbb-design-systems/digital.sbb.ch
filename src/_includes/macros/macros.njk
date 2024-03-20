@@ -26,13 +26,13 @@
     {% if params.type =="link" %}
     <sbb-link-list title-level="3" {% if params.title %}title-content="{{params.title}}"{% endif %} orientation="vertical" {% if params.horizontalfrom %}horizontal-from="{{params.horizontalfrom}}" {% endif %}>
         {%- for button in params.tag | sortByOrder -%}
-            <sbb-link href="{{ button.data.url }}" {% if button.data.external == true %} target="_blank"{% endif %} icon-name="chevron-small-right-small" icon-placement="end" size="{{params.size}}">{{ button.data.label }}</sbb-link>
+            <sbb-block-link href="{{ button.data.url }}" {% if button.data.external == true %} target="_blank"{% endif %} icon-name="chevron-small-right-small" icon-placement="end" size="{{params.size}}">{{ button.data.label }}</sbb-block-link>
         {%- endfor -%}
     </sbb-link-list>
     {% else %}
     <sbb-action-group class="overview-buttons" align="{{params.alignement}}" button-size="{{params.size}}" orientation="vertical" horizontal-from="{{params.horizontalfrom}}">
         {%- for button in params.tag | sortByOrder -%}
-            <sbb-button variant="{{ button.data.variant }}" href="{{ button.data.url }}"{% if button.data.external == true %} target="_blank"{% endif %}>{{ button.data.label }}{% if button.data.icon %}<sbb-icon slot="icon" name="{{ button.data.icon }}"></sbb-icon>{% endif %}</sbb-button>
+            <sbb-{{ button.data.variant }}-button href="{{ button.data.url }}"{% if button.data.external == true %} target="_blank"{% endif %}>{{ button.data.label }}{% if button.data.icon %}<sbb-icon slot="icon" name="{{ button.data.icon }}"></sbb-icon>{% endif %}</sbb-button>
         {%- endfor -%}
     </sbb-action-group>
     {% endif %}
@@ -45,75 +45,76 @@
 
 
 
-{% macro lynedemo(params) %}
+{% macro lynePlayground(params) %}
 {% set pattern = params.json %}
-{% set stories = params.stories %}
 
-{% if pattern.content == '' %}
-{% else %}
-<div class="demo {% if params.wide == true %}wide{% endif %}">
-    <div class="background" id="background">
-           {{pattern.content | safe}}
-    </div>
-    <div class="config-bar">
-        <sbb-accordion title-level='3'>
-        {% for item in pattern.configuration %}
-            <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
-                <sbb-expansion-panel-header>{{ params.translations[item.label] }}</sbb-expansion-panel-header>
-                <sbb-expansion-panel-content>
-                    <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.attribute}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.attribute}}">
-                        {% for option in item.options %}
-                            <sbb-radio-button value="{{option.value}}">{{ params.translations[option.label] }}</sbb-radio-button>
-                        {% endfor %}
-                    </sbb-radio-button-group>
-                </sbb-expansion-panel-content>
-            </sbb-expansion-panel>
-        {% else %}
-        {% endfor %}
-            <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
-                <sbb-expansion-panel-header>{{ params.translations["background"] }}</sbb-expansion-panel-header>
-                <sbb-expansion-panel-content>
-                    <sbb-radio-button-group value="white" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
-                        <sbb-radio-button value="white">White</sbb-radio-button>
-                        <sbb-radio-button value="milk">Milk</sbb-radio-button>
-                        <sbb-radio-button value="iron">Iron</sbb-radio-button>
-                        <sbb-radio-button value="charcoal">Charcoal</sbb-radio-button>
-                        <sbb-radio-button value="black">Black</sbb-radio-button>
-                    </sbb-radio-button-group>
-                </sbb-expansion-panel-content>
-            </sbb-expansion-panel>
-        </sbb-accordion>
-    </div>
-</div>
 
-{% endif %}
-
-<sbb-title level="2" visual-level="4">Beispiele</sbb-title>
-
-{% for story, stor in stories %}
-  {% if stor.tag == pattern.tag and stor.component == true %}
-  
-   <sbb-title level="3" visual-level="5">{{stor.name}}</sbb-title>
-   <div class="example">
-        {#<iframe id="{{stor.id}}" class="iframe-border" src="http://localhost:6006/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>#}
-        <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
-        <div class="example-footer">
-            
-            <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
-                <sbb-secondary-button size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-secondary-buttonbutton>
-                <sbb-secondary-button size="m" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-secondary-button>
-                <sbb-toggle-check data-codetoggle="{{stor.id}}" size="m" label-position="after">HTML-Markup einblenden</sbb-toggle-check>
-            </sbb-action-group>
+{% if pattern.content !== '' %}
+    <div class="demo {% if params.wide == true %}wide{% endif %}">
+        <div class="background" id="background">
+            {{pattern.content | safe}}
+        </div>
+        <div class="config-bar">
+            <sbb-accordion title-level='3'>
+            {% for item in pattern.configuration %}
+                <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
+                    <sbb-expansion-panel-header>{{ params.translations[item.label] }}</sbb-expansion-panel-header>
+                    <sbb-expansion-panel-content>
+                        <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.attribute}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.attribute}}">
+                            {% for option in item.options %}
+                                <sbb-radio-button value="{{option.value}}">{{ params.translations[option.label] }}</sbb-radio-button>
+                            {% endfor %}
+                        </sbb-radio-button-group>
+                    </sbb-expansion-panel-content>
+                </sbb-expansion-panel>
+            {% else %}
+            {% endfor %}
+                <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
+                    <sbb-expansion-panel-header>{{ params.translations["background"] }}</sbb-expansion-panel-header>
+                    <sbb-expansion-panel-content>
+                        <sbb-radio-button-group value="white" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
+                            <sbb-radio-button value="white">White</sbb-radio-button>
+                            <sbb-radio-button value="milk">Milk</sbb-radio-button>
+                            <sbb-radio-button value="iron">Iron</sbb-radio-button>
+                            <sbb-radio-button value="charcoal">Charcoal</sbb-radio-button>
+                            <sbb-radio-button value="black">Black</sbb-radio-button>
+                        </sbb-radio-button-group>
+                    </sbb-expansion-panel-content>
+                </sbb-expansion-panel>
+            </sbb-accordion>
         </div>
     </div>
-    
-  {% endif %}
-{% endfor %}
-
-
-  <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">
-    HTML-Markup kopiert.
-  </sbb-toast>
+{% else %}
+    <sbb-notification type="error" readonly>
+        Leider ist für diese Komponente kein Playground vorhanden.
+    </sbb-notification>
+{% endif %}
 <script src="/assets/js/lyne.js"></script>
 
 {% endmacro %}
+
+
+
+{% macro lyneExamples(params) %}
+    {% set tag = params.tag %}
+    {% set stories = params.stories %}
+    {% for story, stor in stories %}
+    {% if stor.tag == tag and stor.component == true %}
+    <sbb-title level="3" visual-level="5">{{stor.name}}</sbb-title>
+    <div class="example">
+            <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
+            <div class="example-footer">
+                <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
+                    <sbb-secondary-button-link size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-secondary-button-link>
+                    <sbb-secondary-button size="m" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-secondary-button>
+                    <sbb-toggle-check data-codetoggle="{{stor.id}}" size="m" label-position="after">HTML-Markup einblenden</sbb-toggle-check>
+                </sbb-action-group>
+            </div>
+        </div>
+    {% endif %}
+    {% endfor %}
+    <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">HTML-Markup kopiert.</sbb-toast>
+    <script src="/assets/js/lyne-examples.js"></script>
+{% endmacro %}
+
+

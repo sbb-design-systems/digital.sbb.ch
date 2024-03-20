@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -9,5 +9,5 @@ title: Skiplink-List
 parent: components-lyne_de
 image: lyne/overview/skiplink-list.webp
 keywords: skiplink-list
-order: 570
+order: 360
 ---

@@ -1,6 +1,6 @@
 ---
 tags: dialog-lyne_en
-title: Übersicht
+title: Overview
 key: dialog-lyne-overview_en
 parent: dialog-lyne_en
 icon: overview

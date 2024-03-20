@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: Footer
 parent: components-lyne_en
 image: lyne/overview/footer.webp
 keywords: footer
-order: 260
+order: 150
 ---

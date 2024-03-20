@@ -7,6 +7,9 @@ external: true
 variant: secondary
 permalink: false
 order: 2
+availablelanguages: 
+    - de
+    - en
 ---
 
 

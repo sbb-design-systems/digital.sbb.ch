@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -9,5 +9,5 @@ title: Clock
 parent: components-lyne_de
 image: lyne/overview/clock.webp
 keywords: clock
-order: 160
+order: 90
 ---

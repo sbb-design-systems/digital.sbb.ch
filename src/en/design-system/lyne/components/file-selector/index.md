@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: File-Selector
 parent: components-lyne_en
 image: lyne/overview/file-selector.webp
 keywords: file-selector
-order: 250
+order: 140
 ---

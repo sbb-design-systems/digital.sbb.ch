@@ -1,6 +1,0 @@
-{
-    "tag":"sbb-form-error",
-    "content":"<sbb-form-error class='demo-item'>Required field.</sbb-form-error>",
-    "configuration" : [
-    ]
-}

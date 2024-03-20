@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,6 +8,6 @@ key: link-list-lyne_de
 title: Link-List
 parent: components-lyne_de
 image: lyne/overview/link-list.webp
-keywords: link-list, icon, split, action
-order: 360
+keywords: link-list, action
+order: 220
 ---

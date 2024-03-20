@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: Loading-Indicator
 parent: components-lyne_en
 image: lyne/overview/loading-indicator.webp
 keywords: loading-indicator
-order: 370
+order: 230
 ---

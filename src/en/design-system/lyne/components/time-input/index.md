@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: Time-Input
 parent: components-lyne_en
 image: lyne/overview/time-input.webp
 keywords: Time, Input
-order: 670
+order: 420
 ---

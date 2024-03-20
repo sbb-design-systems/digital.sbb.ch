@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -9,5 +9,5 @@ title: Toast
 parent: components-lyne_en
 image: lyne/overview/toast.webp
 keywords: toast
-order: 690
+order: 440
 ---

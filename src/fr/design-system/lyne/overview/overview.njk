@@ -1,15 +1,40 @@
 ---
-layout: overview.njk
+layout: overview-lyne.njk
 tags: 
     - page
     - dshome
 key: overview_fr
-title: Aperçu
+title: Overview
 alternativetitle: Lyne
 parent: lyne_fr
-order: 1
+order: 10
 componentbrowser: true
 availablelanguages: 
     - de
     - en
 ---
+
+<p class="lead">The Lyne design system describes the specifications for websites and consists of this UX documentation and the WebComponent Library. Lyne is currently under construction and will one day replace Web (Legacy). Until the official release of version 1.0, the library will not be used productively. The documentation will be supplemented continuously.</p>
+
+<sbb-card class="intro-links" color="transparent-bordered" size="xxl">
+  <div class="links">
+    {{ buttonGroup({
+        title: "Figma",
+        type: "link",
+        tag: collections.figmalyne_fr,
+        size: 'm'
+    }) }}
+    {{ buttonGroup({
+        title: "Code",
+        type: "link",
+        tag: collections.techlinkslyne_fr,
+        size: 'm'
+    }) }}
+    {{ buttonGroup({
+        title: "Contribution",
+        type: "link",
+        tag: collections.contributionlyne_fr,
+        size: 'm'
+    }) }}
+  </div>
+</sbb-card>

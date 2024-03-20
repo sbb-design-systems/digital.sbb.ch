@@ -1,13 +1,12 @@
 ---
-layout: pattern.njk
 tags: 
     - lyne_de
     - lyne_components_de
     - page
-key: card-lyne_de
+key: card-folder-lyne_de
 title: Card
 parent: components-lyne_de
-image: lyne/overview/card.webp
-keywords: card
-order: 100
+keywords: card, card-link, card-badge, badge, link
+order: 60
+permalink: false
 ---

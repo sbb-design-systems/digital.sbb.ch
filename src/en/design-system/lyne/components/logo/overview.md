@@ -1,6 +1,6 @@
 ---
 tags: logo-lyne_en
-title: Übersicht
+title: Overview
 key: logo-lyne-overview_en
 parent: logo-lyne_en
 icon: overview

@@ -4,167 +4,38 @@
     {% include "../_includes/head.njk" %}
   </head>
   <body>
-<div style="padding: 2rem; height: 100vh;">
-  
-  <sbb-secondary-button data-testid="navigation-trigger" size="l" icon-name="hamburger-menu-small" aria-label="trigger navigation" aria-haspopup="true" id="navigation-trigger-1"></sbb-secondary-button>
+    {% include "../_includes/skiplinks.njk" %}
+    {% include "../_includes/header/header.njk" %}
+    {% include "../_includes/navigation/navigation.njk" %}
+    <sbb-container id="content" class="content">
+      {{ content | safe }}
+    </sbb-container>
+    {% include "../_includes/footer.njk" %}
 
-  <sbb-navigation data-testid="navigation" id="navigation" trigger="navigation-trigger-1">
-    <sbb-navigation-marker id="nav-marker">
-  <sbb-navigation-button id="nav-1" data-testid="navigation-section-trigger-1">
-    Tickets &amp; Offers
-  </sbb-navigation-button>
-  <sbb-navigation-button id="nav-2" class="sbb-active" aria-current="page">Vacations &amp; Recreation</sbb-navigation-button>
-  <sbb-navigation-button id="nav-3">Travel information</sbb-navigation-button>
-  <sbb-navigation-link id="nav-4" href="https://www.sbb.ch/en/">
-    Help &amp; Contact
-  </sbb-navigation-link>
-</sbb-navigation-marker>
-    <sbb-navigation-marker size="s">
-  <sbb-navigation-button id="nav-5" aria-pressed="false">Deutsch</sbb-navigation-button>
-  <sbb-navigation-button id="nav-6" aria-pressed="false">Français</sbb-navigation-button>
-  <sbb-navigation-button id="nav-7" aria-pressed="true" class="sbb-active">Italiano</sbb-navigation-button>
-  <sbb-navigation-button id="nav-8" aria-pressed="false">English</sbb-navigation-button>
-</sbb-navigation-marker>
-
-    <sbb-navigation-section data-testid="navigation-section" trigger="nav-1" title-content="Title one">
-      
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
-
-      
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
-
-      <sbb-button size="m" style="width: fit-content"> All Tickets &amp; Offers </sbb-button>
-    </sbb-navigation-section>
-
-    <sbb-navigation-section trigger="nav-2" title-content="Title two">
-      
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/" class="sbb-active" aria-current="page">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
-
-      
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
-
-    </sbb-navigation-section>
-
-    <sbb-navigation-section trigger="nav-3" title-content="Title three">
-      
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
- 
-  <sbb-navigation-list label="Label">
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-button size="m">Label</sbb-navigation-button>
-    <sbb-navigation-link size="m" href="https://www.sbb.ch/en/">
-      Label
-    </sbb-navigation-link>
-  </sbb-navigation-list>
-
-      <sbb-secondary-button size="m" icon-name="circle-information-small" style="width: fit-content;">
-        Travel Information
-      </sbb-secondary-button>
-    </sbb-navigation-section>
-  </sbb-navigation>
-</div>
+    <script src="/assets/js/navigation.js"></script>
+    {% if layout == "community-assets.njk" %}
+    <script src="/assets/js/community-assets.js"></script>
+    {% elif layout == "overview.njk" %}
+    <script src="/assets/js/list-toggle.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    {% elif layout == "overview-lyne.njk" %}
+    <script src="/assets/js/tree.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    {% elif layout == "pattern.njk" %} 
+    <script src="/assets/js/list-toggle.js"></script>
+    <script src="/assets/js/mode-toggle.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    {% elif layout == "pattern-lyne.njk" %} 
+    <script src="/assets/js/tree.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    {% else %}
+    {% endif %}
   </body>
 </html>
 

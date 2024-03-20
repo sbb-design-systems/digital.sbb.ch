@@ -4,10 +4,7 @@ tags: page
 key: basics-lyne_fr
 title: Design Tokens
 parent: lyne_fr
-order: 2
+order: 30
 componentbrowser: true
 subset: 1
-availablelanguages: 
-    - de
-    - en
 ---

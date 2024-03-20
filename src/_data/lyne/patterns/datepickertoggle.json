@@ -1,6 +1,0 @@
-{
-    "tag":"sbb-datepicker-toggle",
-    "content":"<sbb-form-field><sbb-datepicker-toggle class='demo-item'></sbb-datepicker-toggle><sbb-datepicker></sbb-datepicker></sbb-form-field>",
-    "configuration" : [
-    ]
-}

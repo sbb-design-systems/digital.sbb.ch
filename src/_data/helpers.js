@@ -10,7 +10,7 @@ module.exports = {
     getLinkActiveState(itemUrl, pageUrl) {
         let response = '';
         if (itemUrl.length > 1 && pageUrl.indexOf(itemUrl) === 0) {
-            response += ' class="is-active" active ';
+            response += ' class="sbb-active" ';
         }
         return response;
     }

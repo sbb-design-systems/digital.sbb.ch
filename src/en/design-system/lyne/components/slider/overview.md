@@ -1,6 +1,6 @@
 ---
 tags: slider-lyne_en
-title: Übersicht
+title: Overview
 key: slider-lyne-overview_en
 parent: slider-lyne_en
 icon: overview

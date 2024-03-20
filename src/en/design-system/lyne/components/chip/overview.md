@@ -1,6 +1,6 @@
 ---
 tags: chip-lyne_en
-title: Übersicht
+title: Overview
 key: chip-lyne-overview_en
 parent: chip-lyne_en
 icon: overview

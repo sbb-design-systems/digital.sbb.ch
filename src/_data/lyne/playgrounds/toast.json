@@ -1,0 +1,70 @@
+{
+    "tag":"sbb-toast",
+    "content":"<sbb-button onclick='document.querySelector(\".demo-item\").open()'>Open toast</sbb-button><sbb-toast class='demo-item' position='bottom-center' timeout='6000' politeness='polite'>Lorem ipsum dolor <sbb-transparent-button class='demo-action' slot='test' icon-name='cross-small' sbb-toast-close></sbb-transparent-button><sbb-icon class='demo-icon' slot='test' name='circle-tick-small'></sbb-icon></sbb-toast>",
+    "configuration" : [
+        {
+            "attribute":"position",
+            "label":"position",
+            "target":"demo-item",
+            "default":"bottom-center",
+            "mode":"property",
+            "options" : [{
+                "value":"bottom-center",
+                "label":"bottom-center"
+            }, 
+            {
+                "value":"bottom-start",
+                "label":"bottom-start"
+            }, 
+            {
+                "value":"bottom-end",
+                "label":"bottom-end"
+            },
+            {
+                "value":"top-center",
+                "label":"top-center"
+            }, 
+            {
+                "value":"top-start",
+                "label":"top-start"
+            }, 
+            {
+                "value":"top-end",
+                "label":"top-end"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"icon",
+            "target":"demo-icon",
+            "default":"test",
+            "mode":"property",
+            "options" : [{
+                "value":"test",
+                "label":"false"
+            }, 
+            {
+                "value":"icon",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"action",
+            "target":"demo-action",
+            "default":"test",
+            "mode":"property",
+            "options" : [{
+                "value":"test",
+                "label":"false"
+            }, 
+            {
+                "value":"action",
+                "label":"true"
+            }]
+        }
+        
+    ]
+}
+
+ 

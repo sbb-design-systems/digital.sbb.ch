@@ -1,6 +1,6 @@
 ---
 tags: clock-lyne_en
-title: Übersicht
+title: Overview
 key: clock-lyne-overview_en
 parent: clock-lyne_en
 icon: overview
