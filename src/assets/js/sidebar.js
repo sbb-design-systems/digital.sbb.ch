@@ -16,10 +16,49 @@ function wait(ms){
    }
  }
 
+
+const hugeDiv = document.querySelectorAll("#scroll-position")[0];
+const storedScrollPosition = localStorage.getItem("scrollPos")
+  ? localStorage.getItem("scrollPos")
+  : 0;
+
+let lastKnownScrollPosition = 0;
+let ticking = false;
+
+function doSomething(scrollPos) {
+  localStorage.setItem("scrollPos", lastKnownScrollPosition);
+}
+
+
+document.querySelector('#scroll-position')?.addEventListener('scroll', () => {
+  
+  console.log(lastKnownScrollPosition);
+  lastKnownScrollPosition = hugeDiv.scrollTop;
+
+  if (!ticking) {
+    window.requestAnimationFrame(function () {
+      doSomething(lastKnownScrollPosition);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+});
+
+
+
+
+
 var dialog = document.querySelector('dialog');
 document.querySelector('#toggle-component-browser').onclick = function() {
-    //dialog.show();
     dialog.showModal();
+
+    if (hugeDiv != null) {
+      hugeDiv.scrollTo(0, storedScrollPosition);
+    }
+
+
+    
 };
 document.querySelector('#close-browser').onclick = function() {
     dialog.classList.add('hide-sidebar');

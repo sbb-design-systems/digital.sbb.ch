@@ -16,7 +16,7 @@
         </sbb-form-field>
         </div>
 
-        <ul class="component-list list component tree">
+        <ul id="scroll-position" class="component-list list component tree">
             <li><sbb-title level="5" class="browser-title">Basics</sbb-title></li>
             {% set basicPages = collections[dsbasics] | eleventyNavigation(dsbasicskey) %}
             {%- for entry in basicPages %}{% include "./tree-item.njk" %}{%- endfor -%}

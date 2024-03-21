@@ -197,7 +197,7 @@
     }
     box-sizing: border-box;
     width: 100%;
-    overflow-y: scroll;
+    overflow: scroll;
     @include sbb.scrollbar;
     
 
