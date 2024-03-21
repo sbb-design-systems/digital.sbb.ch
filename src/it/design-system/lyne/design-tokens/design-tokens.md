@@ -1,5 +1,5 @@
 ---
-layout: overview.njk
+layout: overview-lyne.njk
 tags: page
 key: basics-lyne_it
 title: Design Tokens

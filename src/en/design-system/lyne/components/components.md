@@ -1,5 +1,5 @@
 ---
-layout: overview.njk
+layout: overview-lyne.njk
 tags: page
 key: components-lyne_en
 title: Komponenten
