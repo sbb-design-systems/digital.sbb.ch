@@ -17,8 +17,9 @@ on:
         - feat
         - fix
         - refactor
+        - chore
       commit_message:
-        description: 'Commit Type'
+        description: 'Commit Message'
         required: true
         default: 'update icons'
         type: string    
