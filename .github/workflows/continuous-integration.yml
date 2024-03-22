@@ -22,7 +22,9 @@ on:
         description: 'Commit Message'
         required: true
         default: 'update icons'
-        type: string    
+        type: string
+  repository_dispatch:
+    types: [build-and-deploy]
         
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
