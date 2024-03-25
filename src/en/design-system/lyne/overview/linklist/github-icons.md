@@ -1,6 +1,6 @@
 ---
 tags: techlinkslyne_en
-label: SBB Icons on Github
+label: Icons
 url: https://github.com/sbb-design-systems/sbb-icons
 external: true
 permalink: false

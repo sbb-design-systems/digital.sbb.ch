@@ -1,6 +1,6 @@
 ---
 tags: techlinkslegacy_de
-label: Components auf Github
+label: Components
 url: https://github.com/sbb-design-systems/sbb-angular
 external: true
 permalink: false

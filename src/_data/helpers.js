@@ -14,4 +14,28 @@ module.exports = {
         }
         return response;
     }
+    
+    /*
+    ,
+
+    getLinkActiveState2(itemUrl, pageUrl) {
+        let response = '';
+
+        let splitsItemUrl = itemUrl.split("/").at(-2);
+        let splitsPageUrl = pageUrl.split("/").at(-3);
+
+        console.log(splitsItemUrl +": "+splitsPageUrl);
+
+        if (splitsItemUrl == splitsPageUrl) {
+            response += ' class="sbb-active" ';
+        }
+
+        
+        if (itemUrl.length > 1 && pageUrl.indexOf(itemUrl) === 0) {
+            response += ' class="sbb-active" ';
+        }
+        
+        return response;
+    }
+    */
 };

@@ -1,6 +1,6 @@
 ---
 tags: techlinkslean_en
-label: Components on Github
+label: Components
 url: https://github.com/sbb-design-systems/sbb-angular
 external: true
 permalink: false

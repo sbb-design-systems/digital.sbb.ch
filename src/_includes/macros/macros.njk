@@ -23,10 +23,10 @@
 {% endmacro %}
 
 {% macro buttonGroup(params) %}
-    {% if params.type =="link" %}
-    <sbb-link-list title-level="3" {% if params.title %}title-content="{{params.title}}"{% endif %} orientation="vertical" {% if params.horizontalfrom %}horizontal-from="{{params.horizontalfrom}}" {% endif %}>
+    {% if params.type == "link" %}
+    <sbb-link-list title-level="3" size="{{params.size}}" {% if params.title %}title-content="{{params.title}}"{% endif %} orientation="vertical" {% if params.horizontalfrom %}horizontal-from="{{params.horizontalfrom}}" {% endif %}>
         {%- for button in params.tag | sortByOrder -%}
-            <sbb-block-link href="{{ button.data.url }}" {% if button.data.external == true %} target="_blank"{% endif %} icon-name="chevron-small-right-small" icon-placement="end" size="{{params.size}}">{{ button.data.label }}</sbb-block-link>
+            <sbb-block-link href="{{ button.data.url }}" {% if button.data.external == true %} target="_blank"{% endif %} icon-name="chevron-small-right-small" icon-placement="end">{{ button.data.label }}</sbb-block-link>
         {%- endfor -%}
     </sbb-link-list>
     {% else %}

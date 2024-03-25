@@ -1,6 +1,6 @@
 ---
 tags: techlinkslyne_de
-label: Components auf Github
+label: Components
 url: https://github.com/lyne-design-system/lyne-components
 external: true
 permalink: false
