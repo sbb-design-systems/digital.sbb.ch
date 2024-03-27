@@ -57,9 +57,9 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 </sbb-tab-group>
 
 ## Download 
-<sbb-button size="m" variant="secondary" href="/assets/downloads/digitale-werbebanner.zip">
+<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
 Modèle html5 à télécharger
-</sbb-button>
+</sbb-secondary-button-link>
 
 
 ## Contact

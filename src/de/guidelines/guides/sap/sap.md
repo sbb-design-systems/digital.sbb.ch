@@ -23,7 +23,7 @@ Für eine erweiterte Gestaltung mittels HTML und CSS für modifizierte Benutzero
 
 ### Beispiele  
 
-<sbb-button size="m" variant="secondary" class="more-details">SBB Fiori Portal</sbb-button> <sbb-button size="m" variant="secondary" class="more-details">«Auftragsabwicklung Planung und Steuerung</sbb-button>
+<sbb-secondary-button-link size="m" class="more-details">SBB Fiori Portal</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">«Auftragsabwicklung Planung und Steuerung</sbb-secondary-button-link>
 
 <sbb-dialog id="dialog-1" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Beispiel', title: 'Beispiel'}) }}</sbb-dialog>
 

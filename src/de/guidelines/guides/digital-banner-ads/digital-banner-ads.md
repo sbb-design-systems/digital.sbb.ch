@@ -57,9 +57,9 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 </sbb-tab-group>
 
 ## Download 
-<sbb-button size="m" variant="secondary" href="/assets/downloads/digitale-werbebanner.zip">
+<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
 Html5-Vorlagen als Download
-</sbb-button>
+</sbb-secondary-button-link>
 
 
 ## Kontakt 

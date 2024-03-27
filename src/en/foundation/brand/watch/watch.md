@@ -44,7 +44,7 @@ The component has the following formats.{.lead}
 ## Download
 The digital clock specifications are available on GitHub.
 
-<sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/brand-elements/tree/main/digital-clock">
+<sbb-secondary-button-link target="_blank" href="https://github.com/sbb-design-systems/brand-elements/tree/main/digital-clock">
 <sbb-icon slot="icon" name="github-small"></sbb-icon>
 Github repository
-</sbb-button>
+</sbb-secondary-button-link>

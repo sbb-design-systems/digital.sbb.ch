@@ -9,10 +9,10 @@ order: 3
 
 Tutte le icone devono essere realizzate nello <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">stile delle icone FFS</sbb-link>. Tutte le icone create ex novo devono essere controllate da Gestione della marca FFS o da UX.{.lead}
 
-<sbb-button target="_blank" href="https://www.figma.com/file/0x2cZBSTG2t5crlyW2wfvE/adaptive-icons-template?t=4dWSW7jntdJDNUvr-1">
+<sbb-button-link target="_blank" href="https://www.figma.com/file/0x2cZBSTG2t5crlyW2wfvE/adaptive-icons-template?t=4dWSW7jntdJDNUvr-1">
 <sbb-icon slot="icon" name="figma-small"></sbb-icon>
 Modello icona Figma
-</sbb-button> 
+</sbb-button-link> 
 
 ## Applicazioni per uso esterno
 Colori: sfondo bianco, icona in nero.{.lead}

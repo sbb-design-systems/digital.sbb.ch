@@ -44,7 +44,7 @@ Die Komponente hat folgende Ausprägungen.{.lead}
 ## Download
 Die digitale Uhr ist auf GitHub verfügbar.
 
-<sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/brand-elements/tree/main/digital-clock">
+<sbb-secondary-button-link target="_blank" href="https://github.com/sbb-design-systems/brand-elements/tree/main/digital-clock">
 <sbb-icon slot="icon" name="github-small"></sbb-icon>
 Zum Github-Repository
-</sbb-button>
+</sbb-secondary-button-link>

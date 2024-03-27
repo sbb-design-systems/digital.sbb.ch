@@ -57,9 +57,9 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 </sbb-tab-group>
 
 ## Download 
-<sbb-button size="m" variant="secondary" href="/assets/downloads/digitale-werbebanner.zip">
+<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
 HTML5 templates for download
-</sbb-button>
+</sbb-secondary-button-link>
 
 
 ## Contact

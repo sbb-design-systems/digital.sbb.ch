@@ -57,9 +57,9 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 </sbb-tab-group>
 
 ## Download 
-<sbb-button size="m" variant="secondary" href="/assets/downloads/digitale-werbebanner.zip">
+<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
 Modelli HTML5 in versione download
-</sbb-button>
+</sbb-secondary-button-link>
 
 
 ## Contatto

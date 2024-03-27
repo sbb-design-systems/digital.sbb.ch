@@ -45,7 +45,7 @@ Le composant présente les caractéristiques ci-après.
 ## Télécharger
 Les spécifications de l'horloge numérique sont disponibles sur GitHub.
 
-<sbb-button variant="secondary" target="_blank" href="https://github.com/sbb-design-systems/brand-elements/tree/main/digital-clock">
+<sbb-secondary-button-link target="_blank" href="https://github.com/sbb-design-systems/brand-elements/tree/main/digital-clock">
 <sbb-icon slot="icon" name="github-small"></sbb-icon>
 Vers le repository Github
-</sbb-button>
+</sbb-secondary-button-link>

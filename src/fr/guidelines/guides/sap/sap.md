@@ -22,7 +22,7 @@ Pour une conception étendue utilisant HTML et CSS pour des interfaces utilisate
 
 ### Exemples
 
-<sbb-button size="m" variant="secondary" class="more-details">Portail Fiori CFF</sbb-button> <sbb-button size="m" variant="secondary" class="more-details">«Auftragsabwicklung Planung und Steuerung"</sbb-button>
+<sbb-secondary-button-link size="m" class="more-details">Portail Fiori CFF</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">«Auftragsabwicklung Planung und Steuerung"</sbb-secondary-button-link>
 
 <sbb-dialog id="dialog-1" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Exemple', title: 'Exemple'}) }}</sbb-dialog>
 

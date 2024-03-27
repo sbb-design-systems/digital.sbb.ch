@@ -42,7 +42,3 @@ Wir schauen bei der Überprüfung stets auf Verhältnismässigkeit, Aufwand und 
 ## Du hast noch weitere Fragen? ​
 
 Wenn du noch weitere Fragen hast, kannst du dich gerne beim DSRV UX oder der Markenführung melden.{.lead}
-
-<sbb-button variant="primary" href="#">
-  Zur Richtlinie
-</sbb-button>

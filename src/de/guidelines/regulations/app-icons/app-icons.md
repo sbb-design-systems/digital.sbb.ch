@@ -9,10 +9,10 @@ order: 2
 
 Alle Icons müssen im <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">SBB Icon-Style</sbb-link>  umgesetzt werden. Neu erstellte Icons müssen von der SBB Markenführung oder von UX abgenommen werden.{.lead}
 
-<sbb-button target="_blank" href="https://www.figma.com/file/0x2cZBSTG2t5crlyW2wfvE/adaptive-icons-template?t=4dWSW7jntdJDNUvr-1">
+<sbb-button-link target="_blank" href="https://www.figma.com/file/0x2cZBSTG2t5crlyW2wfvE/adaptive-icons-template?t=4dWSW7jntdJDNUvr-1">
 <sbb-icon slot="icon" name="figma-small"></sbb-icon>
 Figma-Vorlage für App-Icons
-</sbb-button> 
+</sbb-button-link> 
 
 ## Externe Anwendungen
 Farben: Hintergrund in Weiss, Icon in Schwarz{.lead}

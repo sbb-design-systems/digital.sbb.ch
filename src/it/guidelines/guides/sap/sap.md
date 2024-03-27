@@ -24,7 +24,7 @@ Per creare estensioni visive con HTML e CSS per interfacce utente modificate o t
 
 ### Esempi
 
-<sbb-button size="m" variant="secondary" class="more-details">Portale FFS Fiori</sbb-button> <sbb-button size="m" variant="secondary" class="more-details">"Auftragsabwicklung Planung und Steuerung"</sbb-button>
+<sbb-secondary-button-link size="m" class="more-details">Portale FFS Fiori</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">"Auftragsabwicklung Planung und Steuerung"</sbb-secondary-button-link>
 
 <sbb-dialog id="dialog-1" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'example', title: 'example'}) }}</sbb-dialog>
 
