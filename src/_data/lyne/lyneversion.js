@@ -1,6 +1,6 @@
 module.exports = {
     url: 'https://raw.githubusercontent.com/lyne-design-system/lyne-components/',
-    branch: "v0.48.3",
+    branch: "v0.49.0",
     master: "master",
     path: "/src/components/",
     dok: '/readme.md'
