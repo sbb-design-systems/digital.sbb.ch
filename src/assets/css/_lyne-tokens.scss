@@ -1,212 +1,224 @@
+@use '@sbb-esta/lyne-components' as sbb;
+
 .token-table {
 
 
-.row {
+  .row {
     width: 100%;
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto; 
-    gap: 0px var(--sbb-spacing-fixed-4x); 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0 var(--sbb-spacing-fixed-4x);
     padding: var(--sbb-spacing-fixed-2x) 0;
     border-bottom: solid 1px var(--sbb-color-cloud);
+
     &:last-child {
-        border-bottom: none;
+      border-bottom: none;
     }
+
     p {
-        margin: var(--sbb-spacing-fixed-1x) 0;
+      margin: var(--sbb-spacing-fixed-1x) 0;
     }
+
     .token-name {
-        display: flex;
-        gap:0; 
-        align-items: center;
-        justify-content: left;
+      display: flex;
+      gap: 0;
+      align-items: center;
+      justify-content: left;
     }
+
     .token-value {
-        display: flex;
-        gap:0; 
-        align-items: center;
-        justify-content: left;
+      display: flex;
+      gap: 0;
+      align-items: center;
+      justify-content: left;
     }
+
     .token-demo {
-        display: flex;
-        gap:0; 
-        align-items: center;
-        justify-content: left;
-        min-height: 20px;
-        padding: var(--sbb-spacing-fixed-2x) 0;
+      display: flex;
+      gap: 0;
+      align-items: center;
+      justify-content: left;
+      min-height: 20px;
+      padding: var(--sbb-spacing-fixed-2x) 0;
 
     }
 
-    &.show-from-medium{
-        display: none;
+    &.show-from-medium {
+      display: none;
     }
+
     @include sbb.mq($from: medium) {
-        .center {
-            justify-content: center;
-        }
-        .left {
-            justify-content: left;
-        }
-        .right {
-            justify-content: right;
-        }
-        &.show-from-medium{
-            display: grid;
-            text-transform: capitalize;
-        }
-        .hide-from-medium{
-            display: none;
-            text-transform: capitalize;
-        }
+      .center {
+        justify-content: center;
+      }
+      .left {
+        justify-content: left;
+      }
+      .right {
+        justify-content: right;
+      }
+      &.show-from-medium {
+        display: grid;
+        text-transform: capitalize;
+      }
+      .hide-from-medium {
+        display: none;
+        text-transform: capitalize;
+      }
     }
-}
+  }
 
 
 }
 
 
 .duration-token {
-    .row {
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 4fr 1fr 4fr; 
-        }
+  .row {
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 4fr 1fr 4fr;
     }
+  }
 }
+
 .easing-token {
-    .row {
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 4fr 5fr; 
-        }
+  .row {
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 4fr 5fr;
     }
+  }
 }
 
 .border-width-token {
-    .row {
-        @include sbb.mq($from: small) {
-            grid-template-columns: 3fr 1fr 4fr; 
-        }
+  .row {
+    @include sbb.mq($from: small) {
+      grid-template-columns: 3fr 1fr 4fr;
     }
+  }
 }
 
 .border-radius-token {
-    .row {
-        @include sbb.mq($from: small) {
-            grid-template-columns: 3fr 1fr 4fr; 
-        }
+  .row {
+    @include sbb.mq($from: small) {
+      grid-template-columns: 3fr 1fr 4fr;
     }
+  }
 }
 
 .spacing-responsive-token {
-    
-    sbb-title {
-        margin: var(--sbb-spacing-fixed-2x) 0 var(--sbb-spacing-fixed-2x) 0;
+
+  sbb-title {
+    margin: var(--sbb-spacing-fixed-2x) 0 var(--sbb-spacing-fixed-2x) 0;
+  }
+
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-        }
-    }
+  }
 }
 
 .spacing-fixed-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 1fr 1fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
+  }
 }
 
 .breakpoint-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 1fr 1fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
+  }
 }
+
 .scalye-typo-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 1fr 1fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
+  }
 }
 
 .face-typo-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 2fr 3fr auto; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 2fr 3fr auto;
     }
+  }
 }
 
 .letter-spacing-typo-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 1fr 1fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
+  }
 }
+
 .line-height-typo-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 1fr 1fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 1fr 1fr;
     }
+  }
 }
 
 .remaining-typo-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 1fr 2fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 1fr 2fr;
     }
+  }
 }
 
 .base-grid-columns-token, .base-grid-gutter-token, .base-grid-offset-token {
-    .row {
-        gap: var(--sbb-spacing-fixed-4x) 0px; 
-        @include sbb.mq($from: medium) {
-            grid-template-columns: 5fr 1fr 2fr; 
-        }
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+    @include sbb.mq($from: medium) {
+      grid-template-columns: 5fr 1fr 2fr;
     }
+  }
 }
-
 
 
 .border-demo {
-    width: 40px;
-    height: 40px;
-    border: 1px solid var(--sbb-color-metal);
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--sbb-color-metal);
 }
 
 .animation-demo {
-    height: var(--sbb-spacing-fixed-1x);
-    background-color: var(--sbb-color-red);
-    border-radius: var(--sbb-border-radius-2x);
+  height: var(--sbb-spacing-fixed-1x);
+  background-color: var(--sbb-color-red);
+  border-radius: var(--sbb-border-radius-2x);
 }
+
 .space-demo {
-    border: 1px solid var(--sbb-color-platinum);
-    background-color: var(--sbb-color-milk);
-    border-radius: var(--sbb-border-radius-1x);
+  border: 1px solid var(--sbb-color-platinum);
+  background-color: var(--sbb-color-milk);
+  border-radius: var(--sbb-border-radius-1x);
 }
 
 .grid-item {
-    border: 1px solid var(--sbb-color-platinum);
-    background-color: var(--sbb-color-milk);
-    border-radius: var(--sbb-border-radius-1x);
-    min-height: 28px;
+  border: 1px solid var(--sbb-color-platinum);
+  background-color: var(--sbb-color-milk);
+  border-radius: var(--sbb-border-radius-1x);
+  min-height: 28px;
 }
 
 .token-grid {
-    display: grid;
-    grid-column-gap: var(--sbb-spacing-fixed-2x);
-    width: 100%;
+  display: grid;
+  grid-column-gap: var(--sbb-spacing-fixed-2x);
+  width: 100%;
 }

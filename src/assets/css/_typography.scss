@@ -1,40 +1,42 @@
+@use '@sbb-esta/lyne-components' as sbb;
+
 sbb-container {
 
-    p:not(.demo *) {
-        @include sbb.text-m--regular;
-    }
+  p:not(.demo *) {
+    @include sbb.text-m--regular;
+  }
 
-    ul:not(.demo *), ul:not(.tree *), ol:not(.demo *), ol:not(.tree *) {
-        @include sbb.text-m--regular;
-        @include sbb.list;
-    }
+  ul:not(.demo *), ul:not(.tree *), ol:not(.demo *), ol:not(.tree *) {
+    @include sbb.text-m--regular;
+    @include sbb.list;
+  }
 
-    h1:not(.demo *) {
-        @include sbb.title-2;
-    }
+  h1:not(.demo *) {
+    @include sbb.title-2;
+  }
 
-    h2:not(.demo *) {
-        @include sbb.title-3;
-    }
+  h2:not(.demo *) {
+    @include sbb.title-3;
+  }
 
-    h3:not(.demo *) {
-        @include sbb.title-4;
-    }
+  h3:not(.demo *) {
+    @include sbb.title-4;
+  }
 
-    h4:not(.demo *) {
-        @include sbb.title-5;
-    }
+  h4:not(.demo *) {
+    @include sbb.title-5;
+  }
 
-    h5:not(.demo *) {
-        @include sbb.title-6;
-    }
+  h5:not(.demo *) {
+    @include sbb.title-6;
+  }
 
-    h6:not(.demo *) {
-        @include sbb.title-6;
-    }
+  h6:not(.demo *) {
+    @include sbb.title-6;
+  }
 
 }
 
 a:not(.demo *) {
-    @include sbb.link;
+  @include sbb.link;
 }
