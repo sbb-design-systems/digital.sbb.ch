@@ -3,7 +3,7 @@ tags: teaserhome_fr
 head: SAP Design Guidelines
 description: Guides pour les applications SAP Fiori avec le thème CFF.
 url: /fr/guidelines/guides/sap/
-image: /assets/images/teaser/sap.jpg
+image: /assets/images/teaser/sap.webp
 permalink: false
 order: 9
 ---

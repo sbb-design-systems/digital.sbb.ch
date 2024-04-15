@@ -24,9 +24,9 @@ Pour une conception étendue utilisant HTML et CSS pour des interfaces utilisate
 
 <sbb-secondary-button-link size="m" class="more-details">Portail Fiori CFF</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">«Auftragsabwicklung Planung und Steuerung"</sbb-secondary-button-link>
 
-<sbb-dialog id="dialog-1" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Exemple', title: 'Exemple'}) }}</sbb-dialog>
+<sbb-overlay id="dialog-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Exemple', title: 'Exemple'}) }}</sbb-overlay>
 
-<sbb-dialog id="dialog-2" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'Exemple', title: 'Exemple'}) }}</sbb-dialog>
+<sbb-overlay id="dialog-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'Exemple', title: 'Exemple'}) }}</sbb-overlay>
 
 
 

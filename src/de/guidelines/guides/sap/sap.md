@@ -25,9 +25,9 @@ Für eine erweiterte Gestaltung mittels HTML und CSS für modifizierte Benutzero
 
 <sbb-secondary-button-link size="m" class="more-details">SBB Fiori Portal</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">«Auftragsabwicklung Planung und Steuerung</sbb-secondary-button-link>
 
-<sbb-dialog id="dialog-1" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Beispiel', title: 'Beispiel'}) }}</sbb-dialog>
+<sbb-overlay id="overlay-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Beispiel', title: 'Beispiel'}) }}</sbb-overlay>
 
-<sbb-dialog id="dialog-2" title-back-button="false">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'Beispiel', title: 'Beispiel'}) }}</sbb-dialog>
+<sbb-overlay id="overlay-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'Beispiel', title: 'Beispiel'}) }}</sbb-overlay>
 
 
 
@@ -68,7 +68,7 @@ Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der <sbb-
 <script>
 const buttons = document.querySelectorAll(".more-details");
 function buttonClicked(index) {
-    const dialog = document.getElementById("dialog-"+(index + 1));
+    const dialog = document.getElementById("overlay-"+(index + 1));
     console.log(dialog.id);
     dialog.open(event);
 }

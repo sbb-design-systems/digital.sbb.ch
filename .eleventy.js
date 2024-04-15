@@ -1,7 +1,8 @@
 const eleventySass = require("eleventy-sass");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
-//const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+//const litPlugin = require('@lit-labs/eleventy-plugin-lit');
+
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
 const markdownItOptions = {
@@ -58,8 +59,66 @@ module.exports = function (config) {
         bundle:true,
         minify:true,
         outfile:"dist/assets/js/lyne-bundle.js"
-    })   
-
+    })  
+    /*
+    config.addPlugin(litPlugin, {
+        mode: 'worker',
+        componentModules: [
+           "node_modules/@sbb-esta/lyne-components/accordion/index.js",
+           "node_modules/@sbb-esta/lyne-components/action-group/index.js",
+           "node_modules/@sbb-esta/lyne-components/alert/index.js",
+           "node_modules/@sbb-esta/lyne-components/autocomplete/index.js",
+           "node_modules/@sbb-esta/lyne-components/breadcrumb/index.js",
+           "node_modules/@sbb-esta/lyne-components/button/index.js",
+           "node_modules/@sbb-esta/lyne-components/calendar/index.js",
+           "node_modules/@sbb-esta/lyne-components/card/index.js",
+           "node_modules/@sbb-esta/lyne-components/checkbox/index.js",
+           "node_modules/@sbb-esta/lyne-components/chip/index.js",
+           "node_modules/@sbb-esta/lyne-components/clock/index.js",
+           "node_modules/@sbb-esta/lyne-components/container/index.js",
+           "node_modules/@sbb-esta/lyne-components/datepicker/index.js",
+           "node_modules/@sbb-esta/lyne-components/dialog/index.js",
+           "node_modules/@sbb-esta/lyne-components/divider/index.js",
+           "node_modules/@sbb-esta/lyne-components/expansion-panel/index.js",
+           "node_modules/@sbb-esta/lyne-components/file-selector/index.js",
+           "node_modules/@sbb-esta/lyne-components/footer/index.js",
+           "node_modules/@sbb-esta/lyne-components/form-error/index.js",
+           "node_modules/@sbb-esta/lyne-components/form-field/index.js",
+           "node_modules/@sbb-esta/lyne-components/header/index.js",
+           "node_modules/@sbb-esta/lyne-components/icon/index.js",
+           "node_modules/@sbb-esta/lyne-components/image/index.js",
+           "node_modules/@sbb-esta/lyne-components/journey-header/index.js",
+           "node_modules/@sbb-esta/lyne-components/journey-summary/index.js",
+           "node_modules/@sbb-esta/lyne-components/link/index.js",
+           "node_modules/@sbb-esta/lyne-components/link-list/index.js",
+           "node_modules/@sbb-esta/lyne-components/loading-indicator/index.js",
+           "node_modules/@sbb-esta/lyne-components/logo/index.js",
+           "node_modules/@sbb-esta/lyne-components/menu/index.js",
+           "node_modules/@sbb-esta/lyne-components/message/index.js",
+           "node_modules/@sbb-esta/lyne-components/navigation/index.js",
+           "node_modules/@sbb-esta/lyne-components/notification/index.js",
+           "node_modules/@sbb-esta/lyne-components/option/index.js",
+           "node_modules/@sbb-esta/lyne-components/radio-button/index.js",
+           "node_modules/@sbb-esta/lyne-components/select/index.js",
+           "node_modules/@sbb-esta/lyne-components/selection-panel/index.js",
+           "node_modules/@sbb-esta/lyne-components/signet/index.js",
+           "node_modules/@sbb-esta/lyne-components/skiplink-list/index.js",
+           "node_modules/@sbb-esta/lyne-components/slider/index.js",
+           "node_modules/@sbb-esta/lyne-components/status/index.js",
+           "node_modules/@sbb-esta/lyne-components/tabs/index.js",
+           "node_modules/@sbb-esta/lyne-components/tag/index.js",
+           "node_modules/@sbb-esta/lyne-components/teaser/index.js",
+           "node_modules/@sbb-esta/lyne-components/teaser-hero/index.js",
+           "node_modules/@sbb-esta/lyne-components/time-input/index.js",
+           "node_modules/@sbb-esta/lyne-components/title/index.js",
+           "node_modules/@sbb-esta/lyne-components/toast/index.js",
+           "node_modules/@sbb-esta/lyne-components/toggle/index.js",
+           "node_modules/@sbb-esta/lyne-components/toggle-check/index.js",
+           "node_modules/@sbb-esta/lyne-components/popover/index.js",
+           "node_modules/@sbb-esta/lyne-components/visual-checkbox/index.js"
+        ],
+      });
+    */
     config.addPlugin(eleventySass, [
         {
             compileOptions: {

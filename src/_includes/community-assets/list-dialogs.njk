@@ -1,6 +1,7 @@
  {% for name, communityasset in communityassets %}
-    <sbb-dialog id="dialog-{{loop.index}}" title-content="{{ communityasset.title_pattern }}">
-        <div class="dialog-content">
+    <sbb-dialog id="dialog-{{loop.index}}">
+        <sbb-dialog-title>{{ communityasset.title_pattern }}</sbb-dialog-title>
+        <sbb-dialog-content class="dialog-content">
             <dl class="sbb-list communit-asset-detail" style="width:100%">
                 {% if communityasset.design_system|length %}
                     <dt>{{translations[page.lang].communityassets.designsystem}} </dt>
@@ -28,8 +29,8 @@
                 {% else %}
                 {% endif %}
             </dl>
-             </div>
-            <sbb-action-group slot="action-group">
+             </sbb-dialog-content>
+            <sbb-dialog-actions>
                 {% if communityasset.design|length %}
                 <sbb-secondary-button size="m" href="{{ communityasset.design }}" target="_blank">
                     Figma 
@@ -44,6 +45,6 @@
                 </sbb-secondary-button>
                 {% else %}
                 {% endif %}
-            </sbb-action-group>
+            </sbb-dialog-actions>
     </sbb-dialog>
 {%- endfor %}
