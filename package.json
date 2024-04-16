@@ -16,7 +16,7 @@
         "@11ty/eleventy": "2.0.1",
         "@11ty/eleventy-navigation": "^0.3.5",
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
-        "@sbb-esta/lyne-design-tokens": "^0.5.0",
+        "@sbb-esta/lyne-design-tokens": "^0.6.0",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.19.11",
         "html-minifier": "^4.0.0"
@@ -25,7 +25,7 @@
         "@11ty/eleventy-fetch": "^4.0.0",
         "@kevingimbel/eleventy-plugin-mermaid": "^2.1.0",
         "@lit-labs/eleventy-plugin-lit": "^1.0.3",
-        "@sbb-esta/lyne-components": "0.50.1",
+        "@sbb-esta/lyne-components": "0.50.2",
         "copyfiles": "^2.4.1",
         "eleventy-plugin-i18n": "^0.1.3",
         "eleventy-sass": "^2.2.1",
