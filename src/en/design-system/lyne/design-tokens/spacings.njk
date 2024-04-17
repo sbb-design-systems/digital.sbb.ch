@@ -1,0 +1,74 @@
+---
+layout: pattern-lyne.njk
+tags: 
+    - lyne_en
+    - lyne_design_tokens_en
+    - page
+key: spacings-lyne_en
+title: Spacings
+parent: basics-lyne_en
+image: lyne/overview/spacings.webp
+keywords: Spacings
+order: 40
+---
+
+{% set breakpoints = [] %}
+{% for breakpoint in spacingTokensResponsive %}
+    {% if breakpoint.attributes.subitem in breakpoints %}
+    {% else %}
+      {% set breakpoints = (breakpoints.push(breakpoint.attributes.subitem), breakpoints) %}
+    {% endif %}
+{% endfor %}
+
+
+{% set spacesizes = [] %}
+{% for space in spacingTokensResponsive %}
+    {% if space.attributes.item in spacesizes %}
+    {% else %}
+      {% set spacesizes = (spacesizes.push(space.attributes.item), spacesizes) %}
+    {% endif %}
+{% endfor %}
+<sbb-title level="2">Responsive</sbb-title>  
+<div class="token-table spacing-responsive-token">
+    <div class="row show-from-medium">
+        {% for breakpoint in breakpoints %}
+                <div class="breakpoint">  
+                    <sbb-title level="3" visual-level="5">{{ breakpoint }}</sbb-title>  
+                </div>  
+        {% endfor %}
+    </div>  
+    {% for size in spacesizes %}
+        <p>sbb-spacing-responsive-{{size}}</p>
+        <div class="row">
+        {% for token in spacingTokensResponsive %}
+            {% if token.attributes.item == size %}
+            <div class="breakpoint">
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
+                </div>  
+                <p class="sbb-text-xs"><span class="hide-from-medium">{{token.attributes.subitem}}: </span>{{ token.value }}</p>
+            </div>  
+            {% else %}
+            {% endif %}
+        {% endfor %}
+        </div>  
+    {% endfor %}
+</div>  
+
+
+
+
+<sbb-title level="2">Fixed</sbb-title>  
+<div class="token-table spacing-fixed-token">
+    {% for token in spacingTokensFixed %}
+        <div class="row">
+            <div class="token-name"><p>{{ token.name }}</p></div>
+            <div class="token-value"><p>{{ token.value }}</p></div>
+            <div class="token-demo">
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>  
+
+

@@ -1,19 +1,18 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_en
-    - lyne_ensign_tokens_en
+    - lyne_fr
+    - lyne_design_tokens_fr
     - page
-key: spacings-lyne_en
-title: Spacings
-parent: basics-lyne_en
-image: lyne/overview/spacings.webp
-keywords: Spacings
-order: 40
+key: size-lyne_fr
+title: Size
+parent: basics-lyne_fr
+keywords: Size
+order: 35
 ---
 
 {% set breakpoints = [] %}
-{% for breakpoint in spacingTokensResponsive %}
+{% for breakpoint in sizeTokensElement %}
     {% if breakpoint.attributes.subitem in breakpoints %}
     {% else %}
       {% set breakpoints = (breakpoints.push(breakpoint.attributes.subitem), breakpoints) %}
@@ -22,13 +21,13 @@ order: 40
 
 
 {% set spacesizes = [] %}
-{% for space in spacingTokensResponsive %}
+{% for space in sizeTokensElement %}
     {% if space.attributes.item in spacesizes %}
     {% else %}
       {% set spacesizes = (spacesizes.push(space.attributes.item), spacesizes) %}
     {% endif %}
 {% endfor %}
-<sbb-title level="2">Responsive</sbb-title>  
+<sbb-title level="2">Element Sizes</sbb-title>  
 <div class="token-table spacing-responsive-token">
     <div class="row show-from-medium">
         {% for breakpoint in breakpoints %}
@@ -38,12 +37,12 @@ order: 40
         {% endfor %}
     </div>  
     {% for size in spacesizes %}
-        <p>sbb-spacing-responsive-{{size}}</p>
+        <p>sbb-size-element-{{size}}</p>
         <div class="row">
-        {% for token in spacingTokensResponsive %}
+        {% for token in sizeTokensElement %}
             {% if token.attributes.item == size %}
             <div class="breakpoint">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
                 </div>  
                 <p class="sbb-text-xs"><span class="hide-from-medium">{{token.attributes.subitem}}: </span>{{ token.value }}</p>
             </div>  
@@ -54,17 +53,14 @@ order: 40
     {% endfor %}
 </div>  
 
-
-
-
-<sbb-title level="2">Fixed</sbb-title>  
+<sbb-title level="2">Icon UI Sizes</sbb-title>  
 <div class="token-table spacing-fixed-token">
-    {% for token in spacingTokensFixed %}
+    {% for token in sizeTokensUIicon %}
         <div class="row">
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
             <div class="token-demo">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
                 </div>
             </div>
         </div>

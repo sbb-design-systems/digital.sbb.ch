@@ -65,7 +65,10 @@ const remainingTypoTokens = typoTokens.filter(
   (token) => token.attributes.type === 'fontFamilyFallback'
 );
 
-
+// size
+const sizeTokens = designTokensByPath(tokens, 'size');
+const sizeTokensElement = sizeTokens.filter((token) => token.attributes.type === 'element');
+const sizeTokensUIicon = sizeTokens.filter((token) => token.attributes.type === 'icon');
 
 module.exports = {
     eleventyComputed: {
@@ -114,6 +117,11 @@ module.exports = {
       remainingTypoTokens: data => {
         return remainingTypoTokens;
       },
-   
+      sizeTokensElement: data => {
+        return sizeTokensElement;
+      },
+      sizeTokensUIicon: data => {
+        return sizeTokensUIicon;
+      },
     }
   };
