@@ -32,6 +32,7 @@ import "@sbb-esta/lyne-components/message.js";
 import "@sbb-esta/lyne-components/navigation.js";
 import "@sbb-esta/lyne-components/notification.js";
 import "@sbb-esta/lyne-components/option.js";
+import "@sbb-esta/lyne-components/overlay.js";
 import "@sbb-esta/lyne-components/radio-button.js";
 import "@sbb-esta/lyne-components/select.js";
 import "@sbb-esta/lyne-components/selection-panel.js";

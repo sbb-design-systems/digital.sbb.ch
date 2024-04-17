@@ -24,9 +24,9 @@ Pour une conception étendue utilisant HTML et CSS pour des interfaces utilisate
 
 <sbb-secondary-button-link size="m" class="more-details">Portail Fiori CFF</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">«Auftragsabwicklung Planung und Steuerung"</sbb-secondary-button-link>
 
-<sbb-overlay id="dialog-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Exemple', title: 'Exemple'}) }}</sbb-overlay>
+<sbb-overlay id="overlay-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'Exemple', title: 'Exemple'}) }}</sbb-overlay>
 
-<sbb-overlay id="dialog-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'Exemple', title: 'Exemple'}) }}</sbb-overlay>
+<sbb-overlay id="overlay-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'Exemple', title: 'Exemple'}) }}</sbb-overlay>
 
 
 
@@ -65,9 +65,8 @@ L'auto-compilation d'icônes est autorisée, mais celle-ci doit être approuvée
 <script>
 const buttons = document.querySelectorAll(".more-details");
 function buttonClicked(index) {
-    const dialog = document.getElementById("dialog-"+(index + 1));
-    console.log(dialog.id);
-    dialog.open(event);
+    const overlay = document.getElementById("overlay-"+(index + 1));
+    overlay.open(event);
 }
 buttons.forEach((button, index) => {
   button.addEventListener("click", () => buttonClicked(index));

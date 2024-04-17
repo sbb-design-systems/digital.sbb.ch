@@ -68,9 +68,8 @@ Eine selbständige Erstellung von Icons ist erlaubt, diese müssen von der <sbb-
 <script>
 const buttons = document.querySelectorAll(".more-details");
 function buttonClicked(index) {
-    const dialog = document.getElementById("overlay-"+(index + 1));
-    console.log(dialog.id);
-    dialog.open(event);
+    const overlay = document.getElementById("overlay-"+(index + 1));
+    overlay.open(event);
 }
 buttons.forEach((button, index) => {
   button.addEventListener("click", () => buttonClicked(index));

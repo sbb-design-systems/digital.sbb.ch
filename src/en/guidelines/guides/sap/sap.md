@@ -25,9 +25,9 @@ To build visual extensions with HTML and CSS for modified user interfaces or the
 
 <sbb-secondary-button-link size="m" class="more-details">SBB Fiori Portal</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">«Auftragsabwicklung Planung und Steuerung</sbb-secondary-button-link>
 
-<sbb-overlay id="dialog-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'example', title: 'example'}) }}</sbb-overlay>
+<sbb-overlay id="overlay-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'example', title: 'example'}) }}</sbb-overlay>
 
-<sbb-overlay id="dialog-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'example', title: 'example'}) }}</sbb-overlay>
+<sbb-overlay id="overlay-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'example', title: 'example'}) }}</sbb-overlay>
 
 
 
@@ -67,9 +67,8 @@ Independent creation of icons is allowed, but needs to be approved by the <sbb-l
 <script>
 const buttons = document.querySelectorAll(".more-details");
 function buttonClicked(index) {
-    const dialog = document.getElementById("overlay-"+(index + 1));
-    console.log(dialog.id);
-    dialog.open(event);
+    const overlay = document.getElementById("overlay-"+(index + 1));
+    overlay.open(event);
 }
 buttons.forEach((button, index) => {
   button.addEventListener("click", () => buttonClicked(index));

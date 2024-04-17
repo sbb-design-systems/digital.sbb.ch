@@ -26,9 +26,9 @@ Per creare estensioni visive con HTML e CSS per interfacce utente modificate o t
 
 <sbb-secondary-button-link size="m" class="more-details">Portale FFS Fiori</sbb-secondary-button-link> <sbb-secondary-button-link size="m" class="more-details">"Auftragsabwicklung Planung und Steuerung"</sbb-secondary-button-link>
 
-<sbb-overlay id="dialog-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'example', title: 'example'}) }}</sbb-overlay>
+<sbb-overlay id="overlay-1">{{ principleImage({ url: '/assets/images/sap/hr-fiori-portal', alt: 'example', title: 'example'}) }}</sbb-overlay>
 
-<sbb-overlay id="dialog-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'example', title: 'example'}) }}</sbb-overlay>
+<sbb-overlay id="overlay-2">{{ principleImage({ url: '/assets/images/sap/aps-durchfuehrung-pm', alt: 'example', title: 'example'}) }}</sbb-overlay>
 
 ## Logo
 
@@ -67,9 +67,8 @@ La creazione autonoma di icone è consentita, ma deve essere approvata dal <sbb-
 <script>
 const buttons = document.querySelectorAll(".more-details");
 function buttonClicked(index) {
-    const dialog = document.getElementById("dialog-"+(index + 1));
-    console.log(dialog.id);
-    dialog.open(event);
+    const overlay = document.getElementById("overlay-"+(index + 1));
+    overlay.open(event);
 }
 buttons.forEach((button, index) => {
   button.addEventListener("click", () => buttonClicked(index));
