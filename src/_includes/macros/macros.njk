@@ -32,14 +32,14 @@
     {% else %}
     <sbb-action-group class="overview-buttons" align="{{params.alignement}}" button-size="{{params.size}}" orientation="vertical" horizontal-from="{{params.horizontalfrom}}">
         {%- for button in params.tag | sortByOrder -%}
-            <sbb-{{ button.data.variant }}-button href="{{ button.data.url }}"{% if button.data.external == true %} target="_blank"{% endif %}>{{ button.data.label }}{% if button.data.icon %}<sbb-icon slot="icon" name="{{ button.data.icon }}"></sbb-icon>{% endif %}</sbb-{{ button.data.variant }}-button>
+            <sbb-{{ button.data.variant }}-button-link href="{{ button.data.url }}"{% if button.data.external == true %} target="_blank"{% endif %}>{{ button.data.label }}{% if button.data.icon %}<sbb-icon slot="icon" name="{{ button.data.icon }}"></sbb-icon>{% endif %}</sbb-{{ button.data.variant }}-button-link>
         {%- endfor -%}
     </sbb-action-group>
     {% endif %}
 {% endmacro %}
 
 {% macro specificationLinks(params) %}
-    <sbb-action-group orientation="vertical" horizontal-from="small">{% if params.figma %}<sbb-secondary-button size="m" target="_blank" href="{{params.figma}}"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Design</sbb-secondary-button>{% endif %}{% if params.github %}<sbb-secondary-button size="m" target="_blank" href="{{params.github}}"><sbb-icon slot="icon" name="github-small"></sbb-icon>Code</sbb-secondary-button>{% endif %}</sbb-action-group>
+    <sbb-action-group orientation="vertical" horizontal-from="small">{% if params.figma %}<sbb-secondary-button-link size="m" target="_blank" href="{{params.figma}}"><sbb-icon slot="icon" name="figma-small"></sbb-icon>Design</sbb-secondary-button-link>{% endif %}{% if params.github %}<sbb-secondary-button-link size="m" target="_blank" href="{{params.github}}"><sbb-icon slot="icon" name="github-small"></sbb-icon>Code</sbb-secondary-button-link>{% endif %}</sbb-action-group>
 {% endmacro %}
 
 
