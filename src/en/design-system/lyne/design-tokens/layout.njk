@@ -4,31 +4,12 @@ tags:
     - lyne_en
     - lyne_design_tokens_en
     - page
-key: breakpoints-lyne_en
-title: Grid
+key: layout-lyne_en
+title: Layout
 parent: basics-lyne_en
-image: lyne/overview/grid.webp
-keywords: Breakpoints
-order: 30
+keywords: Layout
+order: 40
 ---
-
-<sbb-title level="2">Breakpoints</sbb-title>
-<div class="token-table breakpoint-token">
-{% for token in breakpointTokens %}
-{% if token.attributes.item == "min" %}    
-    <sbb-title level="3" visual-level="5">{{ token.path[1] }}</sbb-title>     
-    <div class="row">
-        <div class="token-name left">{{ token.name }}</div>
-        <div class="token-value center">{{ token.value }} - 
-{% endif %}   
-{% if token.attributes.item == "max" %}    
-        {{ token.value }}</div>     
-        <div class="token-name right">{{ token.name }}</div>
-    </div>
-{% endif %}     
-{% endfor %}
-</div>
-
 
 <sbb-title level="2">Base Grid Columns</sbb-title>
 <div class="token-table base-grid-columns-token">
@@ -39,7 +20,7 @@ order: 30
         <div class="token-demo">
             <span class="token-grid" style="grid-template-columns: repeat({{ token.value }}, 1fr);"> 
                 {% for i in range(0, token.value) %}
-                    <span class="grid-item"/></span>
+                    <span class="grid-item"></span>
                 {% endfor %}
             </span>
         </div>
@@ -55,7 +36,7 @@ order: 30
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
             <div class="token-demo">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
                 </div>
             </div>
         </div>
@@ -69,7 +50,7 @@ order: 30
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
             <div class="token-demo">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
                 </div>
             </div>
         </div>

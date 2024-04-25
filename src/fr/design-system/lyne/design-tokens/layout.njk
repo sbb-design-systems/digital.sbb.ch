@@ -1,34 +1,18 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
-    - lyne_design_tokens_de
+    - lyne_fr
+    - lyne_design_tokens_fr
     - page
-key: breakpoints-lyne_de
-title: Grid
-parent: basics-lyne_de
-image: lyne/overview/grid.webp
-keywords: Breakpoints
-order: 30
+key: layout-lyne_fr
+title: Layout
+parent: basics-lyne_fr
+keywords: Layout
+order: 40
+availablelanguages: 
+    - de
+    - en
 ---
-
-<sbb-title level="2">Breakpoints</sbb-title>
-<div class="token-table breakpoint-token">
-{% for token in breakpointTokens %}
-{% if token.attributes.item == "min" %}    
-    <sbb-title level="3" visual-level="5">{{ token.path[1] }}</sbb-title>     
-    <div class="row">
-        <div class="token-name left">{{ token.name }}</div>
-        <div class="token-value center">{{ token.value }} - 
-{% endif %}   
-{% if token.attributes.item == "max" %}    
-        {{ token.value }}</div>     
-        <div class="token-name right">{{ token.name }}</div>
-    </div>
-{% endif %}     
-{% endfor %}
-</div>
-
 
 <sbb-title level="2">Base Grid Columns</sbb-title>
 <div class="token-table base-grid-columns-token">

@@ -1,13 +1,12 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const { tokens } = require('@sbb-esta/lyne-design-tokens/dist/js/sbb-tokens-raw.json');
 
-
 // helpers
-
-const designTokensByCategory = (json, category) =>
-  json.filter((token) => token.attributes.category === category);
+const designTokensByCategory = (json, category) => json.filter((token) => token.attributes.category === category);
 const designTokensByPath = (json, path) => json.filter((token) => token.path.indexOf(path) !== -1);
 const designTokensByType = (json, type) => json.filter((token) => token.attributes.type === type);
+
+/*
 const addUnitToTokenValue = (_token, unit) => {
   const token = _token;
 
@@ -15,6 +14,7 @@ const addUnitToTokenValue = (_token, unit) => {
 
   return token;
 };
+*/
 const groupedTokens = (tokens, attribute) => {
   const tokensByGroups = {};
 
@@ -32,6 +32,24 @@ const groupedTokens = (tokens, attribute) => {
   });
 
   return tokensByGroups;
+};
+
+const getNamedGroupedTokens = (_tokens) => {
+  const keys = Object.keys(_tokens);
+  const finalTokens = {};
+
+  keys.forEach((key) => {
+    const tokenGroup = _tokens[key];
+    const tokensObject = {};
+
+    tokenGroup.forEach((token) => {
+      tokensObject[token.name] = token.value;
+    });
+
+    finalTokens[key] = tokensObject;
+  });
+
+  return finalTokens;
 };
 
 // animation
@@ -69,6 +87,11 @@ const remainingTypoTokens = typoTokens.filter(
 const sizeTokens = designTokensByPath(tokens, 'size');
 const sizeTokensElement = sizeTokens.filter((token) => token.attributes.type === 'element');
 const sizeTokensUIicon = sizeTokens.filter((token) => token.attributes.type === 'icon');
+
+// shadow
+const shadowTokens = designTokensByPath(tokens, 'shadow');
+const _groupedTokens = groupedTokens(shadowTokens, 'group');
+const namedTokenGroups = getNamedGroupedTokens(_groupedTokens);
 
 module.exports = {
     eleventyComputed: {
@@ -123,5 +146,8 @@ module.exports = {
       sizeTokensUIicon: data => {
         return sizeTokensUIicon;
       },
+      shadowTokens: data => {
+        return namedTokenGroups;
+      }
     }
   };

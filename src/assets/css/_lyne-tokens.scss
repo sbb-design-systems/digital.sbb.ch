@@ -181,6 +181,19 @@
     }
   }
 }
+.shadow-token {
+  .row {
+    gap: var(--sbb-spacing-fixed-4x) 0px;
+
+    @include sbb.mq($from: large) {
+      grid-template-columns: 3fr 1fr;
+      .value {
+        text-align: right;
+      }
+    }
+
+  }
+}
 
 .base-grid-columns-token, .base-grid-gutter-token, .base-grid-offset-token {
   .row {
@@ -221,4 +234,110 @@
   display: grid;
   grid-column-gap: var(--sbb-spacing-fixed-2x);
   width: 100%;
+}
+
+
+.shadow-3-soft-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-3-soft;
+}
+.shadow-3-soft-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-3-soft-negative;
+}
+
+.shadow-3-hard-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-3-hard;
+}
+.shadow-3-hard-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-3-hard-negative;
+}
+
+
+.shadow-5-soft-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-5-soft;
+}
+.shadow-5-soft-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-5-soft-negative;
+}
+
+.shadow-5-hard-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-5-hard;
+}
+.shadow-5-hard-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-5-hard-negative;
+}
+
+
+.shadow-9-soft-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-9-soft;
+}
+.shadow-9-soft-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-9-soft-negative;
+}
+
+.shadow-9-hard-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-9-hard;
+}
+.shadow-9-hard-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-9-hard-negative;
+}
+
+
+.shadow-11-soft-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-11-soft;
+}
+.shadow-11-soft-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-11-soft-negative;
+}
+
+.shadow-11-hard-positive {
+  background: var(--sbb-color-white);
+  @include sbb.shadow-level-11-hard;
+}
+.shadow-11-hard-negative {
+  background: var(--sbb-color-black);
+  color: var(--sbb-color-white);
+  @include sbb.shadow-level-11-hard-negative;
+}
+
+.shadow-box {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--sbb-spacing-fixed-12x);
+  grid-row-gap: var(--sbb-spacing-fixed-12x);
+  margin: var(--sbb-spacing-fixed-12x) 0;
+
+  @include sbb.mq($from: medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  div {
+    padding: var(--sbb-spacing-fixed-4x);
+    sbb-title {
+      margin:0;
+    }
+    code {
+      font-size: 12px;
+    }
+  }
 }

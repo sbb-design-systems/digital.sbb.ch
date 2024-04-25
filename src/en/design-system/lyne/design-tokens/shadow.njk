@@ -1,0 +1,35 @@
+---
+layout: pattern-lyne.njk
+tags: 
+    - lyne_en
+    - lyne_design_tokens_en
+    - page
+key: shadow-lyne_en
+title: Shadow
+parent: basics-lyne_en
+keywords: Shadow
+order: 50
+---
+
+
+
+{% for level, token in shadowTokens %}
+    <div class="token-box">
+        <div class="token-elevation-level"><sbb-title level="4" visual-level="4">Elevation Level: {{ level }}</sbb-title></div>
+        <div class="shadow-box">
+            <div class="shadow-{{ level }}-soft-positive"><sbb-title level="5" visual-level="5">Soft Positive</sbb-title><code>@include sbb.shadow-level-{{ level }}-soft;</code></div>
+            <div class="shadow-{{ level }}-hard-positive"><sbb-title level="5" visual-level="5">Hard Positive</sbb-title><code>@include sbb.shadow-level-{{ level }}-hard;</code></div>
+            <div class="shadow-{{ level }}-soft-negative"><sbb-title level="5" visual-level="5" negative>Soft Negative</sbb-title><code>@include sbb.shadow-level-{{ level }}-soft-negative;</code></div>
+            <div class="shadow-{{ level }}-soft-negative"><sbb-title level="5" visual-level="5" negative>Hard Negative</sbb-title><code>@include sbb.shadow-level-{{ level }}-hard-negative;</code></div>
+        </div>
+        <div class="token-table shadow-token">
+        {% for propertyname, token2 in token %}
+            <div class="row">
+                <div class="token-name"><p>{{ propertyname }}</p></div>
+                <div class="value"><p>{{ token2 }}</p></div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
