@@ -1,0 +1,21 @@
+---
+layout: pattern-lyne.njk
+tags: 
+    - lyne_de
+    - lyne_design_tokens_de
+    - page
+key: color-lyne_de
+title: Color
+parent: basics-lyne_de
+keywords: Color
+order: 40
+---
+<div class="token-table color-token">
+{% for token in colorTokens %}
+    <div class="row">
+        <div class="token-name"><p>{{ token.name }}</p></div>
+        <div class="token-value"><p>{{ token.value }}</p></div>
+        <div class="token-demo"><div class="border-demo" style="background-color: {{token.original.value}}; "></div></div>
+    </div>
+{% endfor %}
+</div>

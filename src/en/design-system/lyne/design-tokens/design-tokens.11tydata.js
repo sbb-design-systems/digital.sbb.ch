@@ -6,6 +6,24 @@ const designTokensByCategory = (json, category) => json.filter((token) => token.
 const designTokensByPath = (json, path) => json.filter((token) => token.path.indexOf(path) !== -1);
 const designTokensByType = (json, type) => json.filter((token) => token.attributes.type === type);
 
+const sortByKey = (items, sortKey) => {
+  items.sort((a, b) => {
+    const valueA = a[sortKey];
+    const valueB = b[sortKey];
+    let result = 0;
+
+    if (valueA > valueB) {
+      result = 1;
+    } else if (valueA < valueB) {
+      result = -1;
+    }
+
+    return result;
+  });
+
+  return items;
+};
+
 /*
 const addUnitToTokenValue = (_token, unit) => {
   const token = _token;
@@ -60,6 +78,10 @@ const durationAnimationTokens = designTokensByCategory(tokens, 'time');
 const borderTokens = designTokensByPath(tokens, 'border');
 const widthTokens = borderTokens.filter((token) => token.attributes.type === 'width');
 const radiusTokens = borderTokens.filter((token) => token.attributes.type === 'radius');
+
+//color
+const colorTokens = designTokensByCategory(tokens, 'color');
+const sortedColorTokens = sortByKey(colorTokens, 'name');
 
 // grid
 const breakpointTokens = designTokensByPath(tokens, 'breakpoint');
@@ -148,6 +170,9 @@ module.exports = {
       },
       shadowTokens: data => {
         return namedTokenGroups;
+      },
+      colorTokens: data => {
+        return colorTokens;
       }
     }
   };

@@ -96,6 +96,13 @@
     }
   }
 }
+.color-token {
+  .row {
+    @include sbb.mq($from: small) {
+      grid-template-columns: 3fr 3fr 1fr;
+    }
+  }
+}
 
 .border-radius-token {
   .row {
