@@ -4,5 +4,5 @@ label: Icons
 url: https://github.com/sbb-design-systems/sbb-icons
 external: true
 permalink: false
-order: 1
+order: 20
 ---

@@ -18,6 +18,21 @@
             }]
         },
         {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"l",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            },
+            {
+                "value":"l",
+                "label":"l"
+            }]
+        },
+        {
             "attribute":"color",
             "label":"color",
             "target":"demo-item",

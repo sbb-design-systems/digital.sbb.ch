@@ -26,6 +26,21 @@
             }]
         },
         {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            },
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        },
+        {
             "attribute":"readonly",
             "label":"readonly",
             "target":"demo-item",

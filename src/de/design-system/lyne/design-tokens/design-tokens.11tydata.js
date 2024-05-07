@@ -98,7 +98,7 @@ const spacingTokensResponsive = spacingTokens.filter((token) => token.attributes
 // typo
 const typoTokens = designTokensByCategory(tokens, 'typo');
 const scaleTypoTokens = designTokensByType(tokens, 'scale');
-const typeFaceTypoTokens = typoTokens.filter((token) => token.attributes.type === 'typeFace');
+const fontFamilyTypoTokens = typoTokens.filter((token) => token.attributes.type === 'fontFamily');
 const letterSpacingTypoTokens = typoTokens.filter((token) => token.attributes.type === 'letterSpacing');
 const lineHeightTypoTokens = typoTokens.filter((token) => token.attributes.type === 'lineHeight');
 const remainingTypoTokens = typoTokens.filter(
@@ -150,17 +150,14 @@ module.exports = {
       scaleTypoTokens: data => {
         return scaleTypoTokens;
       },
-      typeFaceTypoTokens: data => {
-        return typeFaceTypoTokens;
+      fontFamilyTypoTokens: data => {
+        return fontFamilyTypoTokens;
       },
       letterSpacingTypoTokens: data => {
         return letterSpacingTypoTokens;
       },
       lineHeightTypoTokens: data => {
         return lineHeightTypoTokens;
-      },
-      remainingTypoTokens: data => {
-        return remainingTypoTokens;
       },
       sizeTokensElement: data => {
         return sizeTokensElement;

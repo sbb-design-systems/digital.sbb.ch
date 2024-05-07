@@ -4,5 +4,5 @@ label: Design Tokens
 url: https://github.com/lyne-design-system/lyne-design-tokens
 external: true
 permalink: false
-order: 2
+order: 30
 ---

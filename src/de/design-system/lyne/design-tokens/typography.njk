@@ -11,13 +11,12 @@ keywords: Typografie
 order: 90
 ---
 
-<sbb-title level="2">Type Face</sbb-title>
+<sbb-title level="2">Font Family</sbb-title>
 <div class="token-table face-typo-token">
-{% for token in typeFaceTypoTokens %}
+{% for token in fontFamilyTypoTokens %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><p class="typo-face-demo" style="font-family: {{token.value}};">Face</p></div>
     </div>
 {% endfor %}
 </div>
@@ -52,16 +51,6 @@ order: 90
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
         <div class="token-demo"><p class="typo-face-demo" style="line-height: {{token.value}};">Line Height</p></div>
-    </div>
-{% endfor %}
-</div>
-
-<sbb-title level="2">Übriges</sbb-title>
-<div class="token-table remaining-typo-token">
-{% for token in remainingTypoTokens %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
     </div>
 {% endfor %}
 </div>
