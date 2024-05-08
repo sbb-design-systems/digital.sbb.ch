@@ -1,3 +1,8 @@
 .tab-documentation {
   padding-top: 36px;
 }
+.sbb-section-panel {
+  sbb-title:first-child {
+    margin-block-start: 0;
+  }
+}

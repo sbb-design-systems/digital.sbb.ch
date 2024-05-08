@@ -44,7 +44,11 @@
             let codetoggle = document.querySelector('[data-codetoggle="' + a.event.args[0].id + '"]');
             codetoggle.addEventListener('click', function(e) {
                 e.preventDefault();
-                this.checked = !this.checked;
+                if (this.checked != true) {
+                  this.setAttribute('checked','');
+                } else {
+                  this.removeAttribute('checked');
+                }
                 container.classList.toggle('hidden');        
               });
           
