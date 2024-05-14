@@ -21,4 +21,4 @@ Gli aspetti legati all’accessibilità senza barriere slittano spesso in second
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Pianifica fin dalle prime fasi una revisione esterna{.with-icon}
 Metti in conto il tempo sufficiente per una revisione esterna o una <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/further-information/">certificazione</sbb-link> dell’accessibilità. Di norma, per una revisione da parte di Access For All servono circa due settimane. Inoltre, idealmente sarebbe opportuno richiedere la revisione almeno due mesi prima.{.lead}
 
-Ulteriori informazioni: <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/ch/beratung.html">https://access-for-all.ch/ch/beratung.html</sbb-link>
+Ulteriori informazioni: <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/leistungen/beratung/">https://access-for-all.ch/leistungen/beratung/</sbb-link>
