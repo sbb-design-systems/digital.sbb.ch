@@ -6,7 +6,7 @@ title: Lean
 alternativetitle: Design System Lean
 redirect: /fr/design-system/lean/overview/
 parent: design-system_fr
-order: 4
+order: 60
 availablelanguages: 
     - de
     - en

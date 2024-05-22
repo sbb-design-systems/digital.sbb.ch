@@ -1,6 +1,6 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
-let url = "https://api.github.com/repos/lyne-design-system/lyne-components/releases";
+let url = "https://api.github.com/repos/sbb-design-systems/lyne-components/releases";
 
 const json = async function() {
   return EleventyFetch(url, {

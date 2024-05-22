@@ -5,5 +5,5 @@ key: legacy_de
 title: Web (Legacy)
 redirect: /de/design-system/legacy/overview/
 parent: design-system_de
-order: 4
+order: 70
 ---

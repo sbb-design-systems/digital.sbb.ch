@@ -1,5 +1,5 @@
 module.exports = {
-    url: 'https://raw.githubusercontent.com/lyne-design-system/lyne-components/',
+    url: 'https://raw.githubusercontent.com/sbb-design-systems/lyne-components/',
     branch: "v0.51.0",
     master: "master",
     path: "/src/components/",
@@ -7,4 +7,4 @@ module.exports = {
   };
 
 
-  //https://raw.githubusercontent.com/lyne-design-system/lyne-components/v0.47.2/src/components/accordion/readme.md
+  //https://raw.githubusercontent.com/sbb-design-systems/lyne-components/v0.47.2/src/components/accordion/readme.md

@@ -1,7 +1,7 @@
 ---
 tags: figmalyne_fr
 label: Colors
-url: https://www.figma.com/file/MN4unbOECrOGJ2bKxgYZI1/SBB-Colors?t=pwg42Xg69vCDcyng-1
+url: https://www.figma.com/design/5j2eZ2D0sHYFKkRSmFdBPJ/SBB-Colors
 icon: figma-small
 external: true
 variant: secondary

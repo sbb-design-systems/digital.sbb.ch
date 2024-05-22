@@ -6,5 +6,5 @@ title: Mobile
 alternativetitle: Design System Mobile
 redirect: /en/design-system/mobile/overview/
 parent: design-system_en
-order: 3
+order: 30
 ---

@@ -6,7 +6,7 @@ title: Maps
 alternativetitle: Das SBB Kartenmaterial.
 redirect: /en/design-system/maps/overview/
 parent: design-system_en
-order: 6
+order: 50
 availablelanguages: 
     - de
 ---

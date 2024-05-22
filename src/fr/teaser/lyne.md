@@ -4,7 +4,6 @@ head: Lyne
 description: Futur Design System pour les sites web CFF, les microsites et les applications clients.
 url: /de/design-system/lyne/overview/
 image: /assets/images/teaser/lyne.webp
-chip: Beta
 permalink: false
 order: 7
 ---
