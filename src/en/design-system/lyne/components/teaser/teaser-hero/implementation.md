@@ -4,7 +4,7 @@ title: Implementation
 key: teaser-hero-lyne-implementation_en
 parent: teaser-hero-lyne_en
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.teaserhero.teaserhero | safe }}

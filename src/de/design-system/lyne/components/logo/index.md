@@ -3,11 +3,11 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_de
     - lyne_components_de
+    - lyne_components_logo_de
     - page
 key: logo-lyne_de
 title: Logo
 parent: components-lyne_de
-image: lyne/overview/logo.webp
 keywords: logo
 order: 240
 ---

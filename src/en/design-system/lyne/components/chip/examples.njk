@@ -1,17 +1,20 @@
 ---
 tags: chip-lyne_en
-title: Examples
+title: Demo
 key: chip-lyne-examples_en
 parent: chip-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
 
-
+{{ lynePlayground({
+  json: lyne.playgrounds.chip,
+  translations: translations["en"].lyne
+}) }}
 
 {{ lyneExamples({
   tag: "sbb-chip",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
-  }) }}
+  translations: translations["en"].lyne
+}) }}

@@ -1,15 +1,19 @@
 ---
 tags: teaser-lyne_en
-title: Examples
+title: Demo
 key: teaser-lyne-examples_en
 parent: teaser-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.teaser,
+  translations: translations["en"].lyne
+  }) }}
 
 {{ lyneExamples({
   tag: "sbb-teaser",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
   }) }}

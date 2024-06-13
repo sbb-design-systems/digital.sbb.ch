@@ -1,0 +1,20 @@
+---
+tags: loading-indicator-lyne_en
+title: Anatomy
+key: loading-indicator-lyne-anatomy_en
+parent: loading-indicator-lyne_en
+icon: specification
+order: 2
+permalink: false
+---
+
+{{ imageOnGreyBackground({
+  url: '/assets/images/lyne/anatomy/anatomy_loading_indicator',
+  alt: 'Anatomy of the component',
+  title: 'Anatomy of the component'
+}) }}
+
+|Number|Type|Description|Optional|Info|
+|------|---|------------|--------|-------|
+|1|Animation|Variante `windwow`|No|Verfügbar in "Red", "Smoke" und "White". Geeignet für Overlay-Einsatz|
+|2|Animation|Variante `circle`|No|Verfügbar in "Red", "Smoke" und "White". Geeignet für Inline-Einsatz|

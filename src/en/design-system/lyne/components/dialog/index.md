@@ -1,13 +1,12 @@
 ---
-layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
     - page
-key: dialog-lyne_en
+key: dialog-folder-lyne_en
 title: Dialog
 parent: components-lyne_en
-image: lyne/overview/dialog.webp
-keywords: dialog
+keywords: dialog, modal
 order: 120
+permalink: false
 ---

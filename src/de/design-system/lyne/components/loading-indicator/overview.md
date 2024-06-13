@@ -1,15 +1,22 @@
 ---
 tags: loading-indicator-lyne_de
-title: Übersicht
+title: Info
 key: loading-indicator-lyne-overview_de
 parent: loading-indicator-lyne_de
 icon: overview
 order: 1
 permalink: false
-eleventyExcludeFromCollections: true
 ---
 
-## Zweck
+## Was macht die Komponente?
+Ein Loading-Indicator zeigt an, dass eine Aktion oder ein Prozess im Hintergrund ausgeführt wird und Nutzende auf die Beendigung dieses Prozessess warten müssen.
 
-## Varianten
+## Wann soll die Komponente eingesetzt werden?
+* Um die Nutzenden darüber zu informieren, dass eine Aktion oder ein Prozess im Hintergrund läuft.
+* Um Wartezeiten zu überbrücken.
+* Um Feedback zu geben, dass die Anwendung auf Benutzereingaben reagiert.
 
+## Regeln
+* Verwende den Loading-Indicator nur für Aktionen, die länger als eine kurze Momentaufnahme dauern.
+* Achte darauf, dass der Loading-Indicator das Layout der Seite oder Anwendung nicht störend beeinflusst.
+* Biete, wenn möglich, eine Fortschrittsanzeige an, um Nutzenden eine Vorstellung von der verbleibenden Wartezeit zu geben, insbesondere bei langen Wartezeiten.

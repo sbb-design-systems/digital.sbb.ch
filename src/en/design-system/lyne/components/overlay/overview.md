@@ -1,15 +1,19 @@
 ---
 tags: overlay-lyne_en
-title: Übersicht
+title: Info
 key: overlay-lyne-overview_en
 parent: overlay-lyne_en
 icon: overview
 order: 1
 permalink: false
-eleventyExcludeFromCollections: true
 ---
 
-## Zweck
+## What does the component do?
+An overlay is a view that hides or darkens the background in order to draw the focus to an important element such as a form.
 
-## Varianten
+## When should the component be used?
+* To focus the user's attention on an important element (e.g. a form).
 
+## Rules
+* The background of the overlay can be semi-transparent or covering. The semi-transparent variant is suitable if background information is important for the user, for example to ensure orientation.
+* Make sure that the overlay does not obscure any important background information that may be necessary for users.

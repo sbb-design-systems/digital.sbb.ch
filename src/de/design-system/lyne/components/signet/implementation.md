@@ -4,7 +4,7 @@ title: Implementation
 key: signet-lyne-implementation_de
 parent: signet-lyne_de
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.signet.signet | safe }}

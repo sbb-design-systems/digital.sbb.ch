@@ -1,15 +1,20 @@
 ---
 tags: menu-lyne_en
-title: Examples
+title: Demo
 key: menu-lyne-examples_en
 parent: menu-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.menu,
+  noconfig: true,
+  translations: translations["en"].lyne
+  }) }}
 
 {{ lyneExamples({
   tag: "sbb-menu",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
   }) }}

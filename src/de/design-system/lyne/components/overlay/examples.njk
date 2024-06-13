@@ -1,15 +1,32 @@
 ---
 tags: overlay-lyne_de
-title: Beispiele
+title: Demo
 key: overlay-lyne-examples_de
 parent: overlay-lyne_de
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.overlay,
+  translations: translations["de"].lyne
+  }) }}
 
 {{ lyneExamples({
   tag: "sbb-overlay",
   stories: lyne.stories[0],
   translations: translations["de"].lyne
   }) }}
+
+<script>
+const buttons = document.querySelectorAll(".overlaytrigger");
+function buttonClicked(index) {
+    const overlay = document.getElementById("overlay-"+(index + 1));
+    console.log(overlay.id);
+    overlay.open(event);
+}
+buttons.forEach((button, index) => {
+  button.addEventListener("click", () => buttonClicked(index));
+});
+</script>
+ 

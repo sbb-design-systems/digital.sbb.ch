@@ -4,7 +4,7 @@ title: Implementation
 key: popover-trigger-lyne-implementation_de
 parent: popover-trigger-lyne_de
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.popover.popovertrigger | safe }}

@@ -2,12 +2,12 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_de
-    - lyne_components_de
+    - lyne_components_transparent_button_static_de
+    - lyne_components_transparent_button_variants_de
     - page
 key: transparent-button-static-lyne_de
-title: Transparent Button (Static)
+title: Transparent-Button (Static)
 parent: button-folder-lyne_de
-image: lyne/overview/button.webp
 keywords: button, icon, split, action
 order: 130
 ---

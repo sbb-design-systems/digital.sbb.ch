@@ -15,7 +15,7 @@ const storybookstories = async function() {
 
   for (const [key, value] of Object.entries(stories)) {
     let titlesplit = value.title.split("/");
-    if (titlesplit[0]== "components") {
+    if (titlesplit[0]== "elements") {
       value.component = true;
     } else {
       value.component = false

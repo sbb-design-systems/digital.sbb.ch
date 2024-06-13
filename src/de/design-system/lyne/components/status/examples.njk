@@ -1,12 +1,16 @@
 ---
 tags: status-lyne_de
-title: Beispiele
+title: Demo
 key: status-lyne-examples_de
 parent: status-lyne_de
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.status,
+  translations: translations["de"].lyne
+  }) }}
 
   {{ lyneExamples({
   tag: "sbb-status",

@@ -1,15 +1,20 @@
 ---
 tags: expansion-panel-lyne_en
-title: Examples
+title: Demo
 key: expansion-panel-lyne-examples_en
 parent: expansion-panel-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
 
- {{ lyneExamples({
+{{ lynePlayground({
+  json: lyne.playgrounds.expansionpanel,
+  translations: translations["en"].lyne
+  }) }}
+
+   {{ lyneExamples({
   tag: "sbb-expansion-panel",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
   }) }} 

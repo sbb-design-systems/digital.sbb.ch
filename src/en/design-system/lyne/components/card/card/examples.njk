@@ -1,15 +1,19 @@
 ---
 tags: card-lyne_en
-title: Examples
+title: Demo
 key: card-lyne-examples_en
 parent: card-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.card,
+  translations: translations["en"].lyne
+}) }}
 
 {{ lyneExamples({
   tag: "sbb-card",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
 }) }}

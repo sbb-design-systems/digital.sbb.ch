@@ -2,12 +2,12 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_de
-    - lyne_components_de
+    - lyne_components_tertiary_button_link_de
+    - lyne_components_tertiary_button_variants_de
     - page
 key: tertiary-button-link-lyne_de
-title: Tertiary Button (Link)
+title: Tertiary-Button (Link)
 parent: button-folder-lyne_de
-image: lyne/overview/button.webp
 keywords: button, icon, split, action
 order: 90
 ---

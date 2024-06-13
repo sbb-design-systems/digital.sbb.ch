@@ -1,15 +1,19 @@
 ---
 tags: transparent-button-lyne_en
-title: Examples
+title: Demo
 key: transparent-button-lyne-examples_en
 parent: transparent-button-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.transparentbutton,
+  translations: translations["en"].lyne
+}) }}
 
 {{ lyneExamples({
   tag: "sbb-transparent-button",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
 }) }}

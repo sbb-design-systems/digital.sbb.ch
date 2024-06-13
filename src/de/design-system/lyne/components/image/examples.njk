@@ -1,6 +1,6 @@
 ---
 tags: image-lyne_de
-title: Beispiele
+title: Demo
 key: image-lyne-examples_de
 parent: image-lyne_de
 image: demo
@@ -8,6 +8,10 @@ order: 4
 permalink: false  
 ---
 
+{{ lynePlayground({
+  json: lyne.playgrounds.image,
+  translations: translations["de"].lyne
+  }) }}
 
   {{ lyneExamples({
   tag: "sbb-image",

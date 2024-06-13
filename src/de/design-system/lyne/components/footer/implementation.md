@@ -4,7 +4,7 @@ title: Implementation
 key: footer-lyne-implementation_de
 parent: footer-lyne_de
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.footer.footer | safe }}

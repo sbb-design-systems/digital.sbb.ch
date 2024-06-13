@@ -1,15 +1,28 @@
 ---
 tags: radio-button-lyne_en
-title: Overview
+title: Info
 key: radio-button-lyne-overview_en
 parent: radio-button-lyne_en
 icon: overview
 order: 1
 permalink: false
-eleventyExcludeFromCollections: true
 ---
 
-## Zweck
+## What does the component do?
+A radio button allows users to make a selection from a group of options, whereby only one option can be selected at a time.
 
-## Varianten
+## When should the component be used?
+* When users should make a selection from a limited number of options.
+* When only one option may be selected from several possible options.
 
+## Rules
+* Radio buttons should be used in groups (radio-button-group) to provide a clear choice.
+* Each option within a radio-button-group should be clearly labelled and easy to understand.
+* The default selection (if any) should be clearly visible and can be changed by the user.
+* Avoid placing too many options in a radio button group to ensure clarity and to make selection easier.
+
+{{ lyneComponentLinks({
+  translations: translations["en"].lyne,
+  mode: "parent",
+  collection: collections.lyne_components_radio_button_group_en
+}) }}

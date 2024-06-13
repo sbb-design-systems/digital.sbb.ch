@@ -2,7 +2,6 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_fr
-    - lyne_components_fr
     - page
 key: navigation-list-lyne_fr
 title: Navigation-List

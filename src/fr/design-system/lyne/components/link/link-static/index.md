@@ -2,7 +2,6 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_fr
-    - lyne_components_fr
     - page
 key: link-static-lyne_fr
 title: Link (Static)

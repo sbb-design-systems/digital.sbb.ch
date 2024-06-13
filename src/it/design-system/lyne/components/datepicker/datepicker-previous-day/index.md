@@ -2,7 +2,6 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - lyne_components_it
     - page
 key: datepicker-previous-day-lyne_it
 title: Datepicker-Previous-Day

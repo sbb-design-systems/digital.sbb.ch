@@ -1,7 +1,6 @@
 ---
 tags: 
     - lyne_en
-    - lyne_components_en
     - page
 key: option-folder-lyne_en
 title: Option

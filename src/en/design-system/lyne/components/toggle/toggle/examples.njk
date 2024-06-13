@@ -1,15 +1,20 @@
 ---
 tags: toggle-lyne_en
-title: Examples
+title: Demo
 key: toggle-lyne-examples_en
 parent: toggle-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+
+{{ lynePlayground({
+  json: lyne.playgrounds.toggle,
+  translations: translations["en"].lyne
+  }) }}
 
   {{ lyneExamples({
   tag: "sbb-toggle",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
   }) }}

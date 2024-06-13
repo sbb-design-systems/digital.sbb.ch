@@ -1,14 +1,18 @@
 ---
 tags: checkbox-group-lyne_de
-title: Beispiele
+title: Demo
 key: checkbox-group-lyne-examples_de
 parent: checkbox-group-lyne_de
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.checkboxgroup,
+  translations: translations["de"].lyne
+  }) }}
 
-  {{ lyneExamples({
+{{ lyneExamples({
   tag: "sbb-checkbox-group",
   stories: lyne.stories[0],
   translations: translations["de"].lyne

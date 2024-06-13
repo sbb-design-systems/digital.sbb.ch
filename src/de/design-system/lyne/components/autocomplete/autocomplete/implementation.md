@@ -4,7 +4,7 @@ title: Implementation
 key: autocomplete-lyne-implementation_de
 parent: autocomplete-lyne_de
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.autocomplete.autocomplete | safe }}

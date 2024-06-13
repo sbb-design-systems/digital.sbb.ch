@@ -19,6 +19,15 @@ function sortByOrder(values) {
 
 module.exports = function (config) {
 
+/*
+    config.addPlugin(litPlugin, {
+        mode: 'worker',
+        componentModules: [
+        'node_modules/@sbb-esta/lyne-elements/alert.js',
+        'node_modules/@sbb-esta/lyne-elements/button.js',
+        ],
+    });
+*/
     config.addFilter("renderUsingMarkdown", function(rawMarkup) {
         return markdownLib.render(rawMarkup);
     });
@@ -36,11 +45,12 @@ module.exports = function (config) {
         const imageSpec = `{% from "src/_includes/macros/macros.njk" import imageSpec %}`;
         const lynePlayground = `{% from "src/_includes/macros/macros.njk" import lynePlayground %}`;
         const lyneExamples = `{% from "src/_includes/macros/macros.njk" import lyneExamples %}`;
+        const lyneComponentLinks = `{% from "src/_includes/macros/macros.njk" import lyneComponentLinks %}`;
 
 
         let collection = collectionApi.getFilteredByGlob(["src/**/*.md", "src/**/*.njk"]);
         collection.forEach((item) => {
-          item.template.frontMatter.content = `${svgImage}\n${webpImage}\n${imageWithMode}\n${imageOnGreyBackground}\n${principleImage}\n${buttonGroup}\n${specificationLinks}\n${imageSpec}\n${lynePlayground}\n${lyneExamples}\n${item.template.frontMatter.content}`
+          item.template.frontMatter.content = `${svgImage}\n${webpImage}\n${imageWithMode}\n${imageOnGreyBackground}\n${principleImage}\n${buttonGroup}\n${specificationLinks}\n${imageSpec}\n${lynePlayground}\n${lyneExamples}\n${lyneComponentLinks}\n${item.template.frontMatter.content}`
         })
         return collection;
       });
@@ -60,65 +70,7 @@ module.exports = function (config) {
         minify:true,
         outfile:"dist/assets/js/lyne-bundle.js"
     })  
-    /*
-    config.addPlugin(litPlugin, {
-        mode: 'worker',
-        componentModules: [
-           "node_modules/@sbb-esta/lyne-components/accordion/index.js",
-           "node_modules/@sbb-esta/lyne-components/action-group/index.js",
-           "node_modules/@sbb-esta/lyne-components/alert/index.js",
-           "node_modules/@sbb-esta/lyne-components/autocomplete/index.js",
-           "node_modules/@sbb-esta/lyne-components/breadcrumb/index.js",
-           "node_modules/@sbb-esta/lyne-components/button/index.js",
-           "node_modules/@sbb-esta/lyne-components/calendar/index.js",
-           "node_modules/@sbb-esta/lyne-components/card/index.js",
-           "node_modules/@sbb-esta/lyne-components/checkbox/index.js",
-           "node_modules/@sbb-esta/lyne-components/chip/index.js",
-           "node_modules/@sbb-esta/lyne-components/clock/index.js",
-           "node_modules/@sbb-esta/lyne-components/container/index.js",
-           "node_modules/@sbb-esta/lyne-components/datepicker/index.js",
-           "node_modules/@sbb-esta/lyne-components/dialog/index.js",
-           "node_modules/@sbb-esta/lyne-components/divider/index.js",
-           "node_modules/@sbb-esta/lyne-components/expansion-panel/index.js",
-           "node_modules/@sbb-esta/lyne-components/file-selector/index.js",
-           "node_modules/@sbb-esta/lyne-components/footer/index.js",
-           "node_modules/@sbb-esta/lyne-components/form-error/index.js",
-           "node_modules/@sbb-esta/lyne-components/form-field/index.js",
-           "node_modules/@sbb-esta/lyne-components/header/index.js",
-           "node_modules/@sbb-esta/lyne-components/icon/index.js",
-           "node_modules/@sbb-esta/lyne-components/image/index.js",
-           "node_modules/@sbb-esta/lyne-components/journey-header/index.js",
-           "node_modules/@sbb-esta/lyne-components/journey-summary/index.js",
-           "node_modules/@sbb-esta/lyne-components/link/index.js",
-           "node_modules/@sbb-esta/lyne-components/link-list/index.js",
-           "node_modules/@sbb-esta/lyne-components/loading-indicator/index.js",
-           "node_modules/@sbb-esta/lyne-components/logo/index.js",
-           "node_modules/@sbb-esta/lyne-components/menu/index.js",
-           "node_modules/@sbb-esta/lyne-components/message/index.js",
-           "node_modules/@sbb-esta/lyne-components/navigation/index.js",
-           "node_modules/@sbb-esta/lyne-components/notification/index.js",
-           "node_modules/@sbb-esta/lyne-components/option/index.js",
-           "node_modules/@sbb-esta/lyne-components/radio-button/index.js",
-           "node_modules/@sbb-esta/lyne-components/select/index.js",
-           "node_modules/@sbb-esta/lyne-components/selection-panel/index.js",
-           "node_modules/@sbb-esta/lyne-components/signet/index.js",
-           "node_modules/@sbb-esta/lyne-components/skiplink-list/index.js",
-           "node_modules/@sbb-esta/lyne-components/slider/index.js",
-           "node_modules/@sbb-esta/lyne-components/status/index.js",
-           "node_modules/@sbb-esta/lyne-components/tabs/index.js",
-           "node_modules/@sbb-esta/lyne-components/tag/index.js",
-           "node_modules/@sbb-esta/lyne-components/teaser/index.js",
-           "node_modules/@sbb-esta/lyne-components/teaser-hero/index.js",
-           "node_modules/@sbb-esta/lyne-components/time-input/index.js",
-           "node_modules/@sbb-esta/lyne-components/title/index.js",
-           "node_modules/@sbb-esta/lyne-components/toast/index.js",
-           "node_modules/@sbb-esta/lyne-components/toggle/index.js",
-           "node_modules/@sbb-esta/lyne-components/toggle-check/index.js",
-           "node_modules/@sbb-esta/lyne-components/popover/index.js",
-           "node_modules/@sbb-esta/lyne-components/visual-checkbox/index.js"
-        ],
-      });
-    */
+
     config.addPlugin(eleventySass, [
         {
             compileOptions: {
@@ -150,7 +102,7 @@ module.exports = function (config) {
       });
 
      config.addFilter("lyneexample", (pattern) => {
-        const lyneStories = require('@sbb-esta/lyne-components/dist/collection/storybundle');    
+        const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    
         const rawStories = lyneStories[pattern];
         const stories = [];
         let ignoreArgs = [];

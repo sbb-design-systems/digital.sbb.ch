@@ -43,6 +43,22 @@
 {% endmacro %}
 
 
+{% macro lyneComponentLinks(params) %}
+{% if params.mode == "parent" %}
+<h2>{{ params.translations["parent-components"] }}</h2>
+{% elseif params.mode == "child" %}
+<h2>{{ params.translations["child-components"] }}</h2>
+{% elseif params.mode == "sibling" %}
+<h2>{{ params.translations["sibling-components"] }}</h2>
+{% elseif params.mode == "variant" %}
+<h2>{{ params.translations["variant-components"] }}</h2>
+{% else %}
+
+{% endif %}
+  <sbb-link-list orientation="vertical">
+  {% for sibling in params.collection %}<sbb-block-link href="{{ sibling.url }}">{{ sibling.data.title}}</sbb-block-link>{% endfor %}
+  </sbb-link-list>
+{% endmacro %}
 
 
 {% macro lynePlayground(params) %}
@@ -50,6 +66,7 @@
 
 
 {% if pattern.content !== '' %}
+<h2>{{ params.translations["playground"] }}</h2>
     <div class="demo {% if params.wide == true %}wide{% endif %}">
         <div class="background" id="background">
             {{pattern.content | safe}}
@@ -85,9 +102,6 @@
         </div>
     </div>
 {% else %}
-    <sbb-notification type="error" readonly>
-        Leider ist für diese Komponente kein Playground vorhanden.
-    </sbb-notification>
 {% endif %}
 <script src="/assets/js/lyne-playground.js"></script>
 
@@ -96,6 +110,7 @@
 
 
 {% macro lyneExamples(params) %}
+<h2>{{ params.translations["examples"] }}</h2>
     {% set tag = params.tag %}
     {% set stories = params.stories %}
     {% for story, stor in stories %}

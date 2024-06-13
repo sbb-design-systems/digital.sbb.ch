@@ -1,15 +1,20 @@
 ---
 tags: alert-lyne_en
-title: Examples
+title: Demo
 key: alert-lyne-examples_en
 parent: alert-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+
+{{ lynePlayground({
+  json: lyne.playgrounds.alert,
+  translations: translations["en"].lyne
+}) }}
 
 {{ lyneExamples({
   tag: "sbb-alert",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
 }) }}

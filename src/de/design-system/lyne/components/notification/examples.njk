@@ -1,12 +1,16 @@
 ---
 tags: notification-lyne_de
-title: Beispiele
+title: Demo
 key: notification-lyne-examples_de
 parent: notification-lyne_de
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.notification,
+  translations: translations["de"].lyne
+  }) }}
 
   {{ lyneExamples({
   tag: "sbb-notification",

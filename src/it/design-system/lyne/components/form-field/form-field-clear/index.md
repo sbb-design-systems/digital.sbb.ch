@@ -2,7 +2,6 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - lyne_components_it
     - page
 key: form-field-clear-lyne_it
 title: Form-Field-Clear

@@ -1,15 +1,21 @@
 ---
 tags: expansion-panel-header-lyne_de
-title: Übersicht
+title: Info
 key: expansion-panel-header-lyne-overview_de
 parent: expansion-panel-header-lyne_de
 icon: overview
 order: 1
 permalink: false
-eleventyExcludeFromCollections: true
 ---
 
-## Zweck
+## Was macht die Komponente?
+Sie ist Teil der Accordion-Komponente.
 
-## Varianten
+## Wann soll die Komponente eingesetzt werden?
+* Nur innerhalb der Accordion-Komponente.
 
+{{ lyneComponentLinks({
+  translations: translations["de"].lyne,
+  mode: "parent",
+  collection: collections.lyne_components_expansion_panel_de
+}) }}

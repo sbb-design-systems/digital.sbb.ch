@@ -1,15 +1,19 @@
 ---
 tags: secondary-button-link-lyne_en
-title: Examples
+title: Demo
 key: secondary-button-link-lyne-examples_en
 parent: secondary-button-link-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.secondarybuttonlink,
+  translations: translations["en"].lyne
+}) }}
 
 {{ lyneExamples({
   tag: "sbb-secondary-button-link",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
 }) }}

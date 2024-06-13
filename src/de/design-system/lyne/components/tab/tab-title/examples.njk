@@ -1,12 +1,16 @@
 ---
 tags: tab-title-lyne_de
-title: Beispiele
+title: Demo
 key: tab-title-lyne-examples_de
 parent: tab-title-lyne_de
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.tabtitle,
+  translations: translations["de"].lyne
+  }) }}
 
   {{ lyneExamples({
   tag: "sbb-tab-title",

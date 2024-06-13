@@ -1,15 +1,20 @@
 ---
 tags: block-link-static-lyne_en
-title: Examples
+title: Demo
 key: block-link-static-lyne-examples_en
 parent: block-link-static-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+
+{{ lynePlayground({
+  json: lyne.playgrounds.blocklinkstatic,
+  translations: translations["en"].lyne
+  }) }}
 
 {{ lyneExamples({
   tag: "sbb-block-link-static",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
   }) }}

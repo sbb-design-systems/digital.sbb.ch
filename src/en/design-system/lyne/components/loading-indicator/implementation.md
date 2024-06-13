@@ -4,7 +4,7 @@ title: Implementation
 key: loading-indicator-lyne-implementation_en
 parent: loading-indicator-lyne_en
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.loadingindicator.loadingindicator | safe }}

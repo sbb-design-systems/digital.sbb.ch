@@ -2,7 +2,6 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_fr
-    - lyne_components_fr
     - page
 key: expansion-panel-header-lyne_fr
 title: Expansion-Panel-Header

@@ -4,7 +4,7 @@ title: Implementation
 key: secondary-button-static-lyne-implementation_de
 parent: secondary-button-static-lyne_de
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.button.secondarybuttonstatic | safe }}

@@ -1,12 +1,17 @@
 ---
 tags: signet-lyne_de
-title: Beispiele
+title: Demo
 key: signet-lyne-examples_de
 parent: signet-lyne_de
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+
+{{ lynePlayground({
+  json: lyne.playgrounds.signet,
+  translations: translations["de"].lyne
+  }) }}
 
   {{ lyneExamples({
   tag: "sbb-signet",

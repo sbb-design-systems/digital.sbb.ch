@@ -3,11 +3,14 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
+    - lyne_components_navigation_button_en
+    - lyne_components_navigation_marker_children_en
+    - lyne_components_navigation_list_children_en
+    - lyne_components_navigation_section_children_en
     - page
 key: navigation-button-lyne_en
 title: Navigation-Button
 parent: navigation-folder-lyne_en
-image: lyne/overview/navigation-action.webp
 keywords: navigation-button
 order: 430
 ---

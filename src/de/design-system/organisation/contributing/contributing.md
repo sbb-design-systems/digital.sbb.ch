@@ -8,7 +8,7 @@ order: 2
 ---
 
 Wir laden euch herzlich ein, aktiv an der Weiterentwicklung und Verbesserung unseres Design Systems teilzunehmen. Eure Ideen, Feedback und Erfahrungen sind von unschätzbarem Wert, um ein leistungsstarkes, flexibles und zukunftssicheres Design System aufzubauen.
-Wir schätzen euren Beitrag außerordentlich und sind überzeugt, dass ihr entscheidend dazu beitragen werdet, unser Design System weiter zu professionallisieren.{.lead}
+Wir schätzen euren Beitrag ausserordentlich und sind überzeugt, dass ihr entscheidend dazu beitragen werdet, unser Design System weiter zu professionallisieren.{.lead}
 
 ## Die wichtigsten Github Links.
 

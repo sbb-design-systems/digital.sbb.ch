@@ -1,0 +1,31 @@
+---
+layout: page.njk
+tags: 
+    - page
+    - dshome
+key: roadmap_de
+title: Roadmap
+alternativetitle: Roadmap
+parent: lyne_de
+order: 100
+componentbrowser: true
+eleventyExcludeFromCollections: true
+---
+
+
+  <sbb-secondary-button-link href="https://github.com/sbb-design-systems/lyne-components/milestones" target="_blank">
+    <sbb-icon slot="icon" name="github-small"></sbb-icon>
+    Milestones on Github
+  </sbb-secondary-button-link>
+  <br><br>
+
+
+
+
+{% for roadmap in lyne.milestones %}
+<sbb-card size="xxl" color="transparent-bordered" class="release-card">
+  <sbb-title level="2" visual-level="3">{{roadmap.title}}</sbb-title>
+  <div>{{ roadmap.description | renderUsingMarkdown | safe }}</div>
+</sbb-card> 
+{% endfor %}
+

@@ -1,15 +1,19 @@
 ---
 tags: button-static-lyne_en
-title: Examples
+title: Demo
 key: button-static-lyne-examples_en
 parent: button-static-lyne_en
 icon: demo
-order: 4
+order: 3
 permalink: false  
 ---
+{{ lynePlayground({
+  json: lyne.playgrounds.buttonstatic,
+  translations: translations["en"].lyne
+}) }}
 
 {{ lyneExamples({
   tag: "sbb-button-static",
   stories: lyne.stories[0],
-  translations: translations["de"].lyne
+  translations: translations["en"].lyne
 }) }}

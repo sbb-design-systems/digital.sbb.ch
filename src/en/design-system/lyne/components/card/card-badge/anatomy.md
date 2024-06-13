@@ -1,0 +1,20 @@
+---
+tags: card-badge-lyne_en
+title: Anatomy
+key: card-badge-lyne-anatomy_en
+parent: card-badge-lyne_en
+icon: specification
+order: 2
+permalink: false
+---
+
+{{ imageOnGreyBackground({
+  url: '/assets/images/lyne/anatomy/anatomy_card',
+  alt: 'Anatomy of the component',
+  title: 'Anatomy of the component'
+}) }}
+
+|Number|Type|Description|Optional|Info|
+|------|---|------------|--------|-------|
+|1|Slot|Beliebiger Inhalt erlaubt|No||
+|2|Component|`sbb-card-badge`|Yes||

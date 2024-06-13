@@ -6,4 +6,5 @@ title: Web (Legacy)
 redirect: /de/design-system/legacy/overview/
 parent: design-system_de
 order: 70
+eleventyExcludeFromCollections: true
 ---

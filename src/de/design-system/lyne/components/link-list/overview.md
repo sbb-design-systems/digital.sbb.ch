@@ -1,16 +1,23 @@
 ---
 tags: link-list-lyne_de
-title: Übersicht
+title: Info
 key: link-list-lyne-overview_de
 parent: link-list-lyne_de
 icon: overview
 order: 1
 permalink: false
-eleventyExcludeFromCollections: true
 ---
 
-## Zweck
+## Was macht die Komponente?
+Eine Link-Liste ist eine Sammlung von Links, die zusammengefasst und strukturiert präsentiert werden, um Nutzenden den Zugang zu verwandten Inhalten oder wichtigen Bereichen einer Webseite zu erleichtern.
 
+## Wann soll die Komponente eingesetzt werden?
+* Um eine Übersicht von verwandten oder thematisch geordneten Links bereitzustellen.
+* Um wichtige Navigationspunkte oder Ressourcensammlungen strukturiert anzuzeigen.
+* Um Nutzenden schnellen Zugang zu häufig verwendeten Links oder Inhalten zu bieten.
 
-## Varianten
-Die Komponenten verfügt über folgende Varianten: Primary, Secondary, Tertiary, Transparent
+## Regeln
+* Verwende beschreibende und aussagekräftige Link-Texte, um den Zielinhalt verständlich zu machen.
+* Achte darauf, dass die Links in der Liste logisch gruppiert und thematisch geordnet sind.
+* Verwende konsistente Stile und Verhaltensweisen für Links innerhalb der Link-Liste.
+* Vermeide es, zu viele Links in einer Liste zu platzieren, um Überladenheit zu vermeiden und die Übersichtlichkeit zu gewährleisten.

@@ -4,7 +4,7 @@ title: Implementation
 key: time-input-lyne-implementation_en
 parent: time-input-lyne_en
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.timeinput.timeinput | safe }}

@@ -230,6 +230,13 @@ module.exports = {
       "top-center":"top-center",
       "top-start":"top-start",
       "top-end":"top-end",
+      "child-components":"Child Components",
+      "parent-components":"Parent Components",
+      "sibling-components":"Sibling Components",
+      "variant-components":"Variants",
+      "examples":"Examples",
+      "playground":"Playground",
+
     }
   },
   de: {
@@ -445,6 +452,12 @@ module.exports = {
       "top-center":"top-center",
       "top-start":"top-start",
       "top-end":"top-end",
+      "child-components":"Enthaltene Komponenten",
+      "parent-components":"Übergeordnete Komponenten",
+      "sibling-components":"Verwandte Komponenten",
+      "variant-components":"Varianten",
+      "examples":"Beispiele",
+      "playground":"Spielwiese",
     }
   },
   fr: {

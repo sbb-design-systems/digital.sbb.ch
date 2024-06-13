@@ -3,11 +3,11 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_de
     - lyne_components_de
+    - lyne_components_selection_panel_de
     - page
 key: selection-panel-lyne_de
 title: Selection-Panel
 parent: components-lyne_de
-image: lyne/overview/selection-panel.webp
 keywords: selection-panel
 order: 340
 ---

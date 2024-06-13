@@ -4,7 +4,7 @@ title: Implementation
 key: clock-lyne-implementation_en
 parent: clock-lyne_en
 icon: implementation
-order: 3
+order: 4
 permalink: false  
 ---
 {{ lyne.readmes.clock.clock | safe }}
