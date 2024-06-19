@@ -7,7 +7,6 @@ tags:
 key: sticky-bar-lyne_it
 title: Sticky-Bar
 parent: container-folder-lyne_it
-image: lyne/overview/sticky-bar.webp
 keywords: sticky-bar
 order: 600
 availablelanguages: 

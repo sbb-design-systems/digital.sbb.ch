@@ -7,7 +7,6 @@ tags:
 key: tab-group-lyne_fr
 title: Tab-Group
 parent: tab-folder-lyne_fr
-image: lyne/overview/tab-group.webp
 keywords: tab-group
 order: 610
 availablelanguages: 

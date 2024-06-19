@@ -7,7 +7,6 @@ tags:
 key: alert-lyne_fr
 title: Alert
 parent: alert-folder-lyne_fr
-image: lyne/overview/alert.webp
 order: 30
 availablelanguages: 
     - de

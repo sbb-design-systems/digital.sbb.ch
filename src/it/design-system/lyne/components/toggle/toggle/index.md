@@ -7,7 +7,6 @@ tags:
 key: toggle-lyne_it
 title: Toggle
 parent: toggle-folder-lyne_it
-image: lyne/overview/toggle.webp
 keywords: toggle
 order: 700
 availablelanguages: 

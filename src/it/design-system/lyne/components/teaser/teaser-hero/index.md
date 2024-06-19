@@ -7,7 +7,6 @@ tags:
 key: teaser-hero-lyne_it
 title: Teaser-Hero
 parent: teaser-folder-lyne_it
-image: lyne/overview/teaser-hero.webp
 keywords: teaser-hero
 order: 660
 availablelanguages: 

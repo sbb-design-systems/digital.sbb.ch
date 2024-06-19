@@ -7,7 +7,6 @@ tags:
 key: form-field-lyne_fr
 title: Form-Field
 parent: form-field-folder-lyne_fr
-image: lyne/overview/form-field.webp
 keywords: form-field
 order: 20
 availablelanguages: 

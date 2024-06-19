@@ -7,7 +7,6 @@ tags:
 key: status-lyne_fr
 title: Status
 parent: components-lyne_fr
-image: lyne/overview/status.webp
 keywords: status
 order: 380
 availablelanguages: 

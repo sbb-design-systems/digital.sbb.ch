@@ -7,7 +7,6 @@ tags:
 key: file-selector-lyne_fr
 title: File-Selector
 parent: components-lyne_fr
-image: lyne/overview/file-selector.webp
 keywords: file-selector
 order: 140
 availablelanguages: 

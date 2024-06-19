@@ -4,11 +4,10 @@ tags:
     - lyne_it
     - lyne_components_it
     - page
-key: tab-title-lyne_it
-title: Tab Title
+key: tab-label-lyne_it
+title: Tab Label
 parent: tab-folder-lyne_it
-image: lyne/overview/tab.webp
-keywords: tab-title
+keywords: tab-label
 order: 620
 availablelanguages: 
     - de

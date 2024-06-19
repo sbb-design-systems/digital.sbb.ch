@@ -6,7 +6,6 @@ tags:
 key: datepicker-previous-day-lyne_fr
 title: Datepicker-Previous-Day
 parent: datepicker-folder-lyne_fr
-image: lyne/overview/datepicker-previous-day.webp
 keywords: datepicker-previous-day
 order: 40
 availablelanguages: 

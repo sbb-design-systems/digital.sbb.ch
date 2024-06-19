@@ -7,7 +7,6 @@ tags:
 key: navigation-lyne_fr
 title: Navigation
 parent: navigation-folder-lyne_fr
-image: lyne/overview/navigation.webp
 keywords: navigation
 order: 420
 availablelanguages: 

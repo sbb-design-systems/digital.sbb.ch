@@ -18,7 +18,6 @@ Ein Radio-Button ermöglicht es Nutzenden, eine Auswahl aus einer Gruppe von Opt
 ## Regeln
 * Radio-Buttons sollen in Gruppen (Radio-Button-Group) verwendet werden, um eine klare Auswahlmöglichkeit zu bieten.
 * Jede Option innerhalb einer Gruppe von Radio-Buttons soll eindeutig beschriftet und leicht verständlich sein.
-* Die Standardauswahl (falls vorhanden) soll klar ersichtlich sein und kann durch die Nutzenden geändert werden.
 * Vermeide es, zu viele Optionen in einer Radio-Button-Gruppe zu platzieren, um die Übersichtlichkeit zu gewährleisten und die Auswahl zu erleichtern.
 
 {{ lyneComponentLinks({

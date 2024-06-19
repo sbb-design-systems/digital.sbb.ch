@@ -7,7 +7,6 @@ tags:
 key: menu-button-lyne_it
 title: Menu-Button
 parent: menu-folder-lyne_it
-image: lyne/overview/menu-action.webp
 keywords: menu-link
 order: 400
 availablelanguages: 

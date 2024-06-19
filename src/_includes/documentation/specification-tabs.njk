@@ -1,12 +1,12 @@
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
     {%- for tab in collections[tabkey] | sortByOrder -%}
-    <sbb-tab-title level="1">
+    <sbb-tab-label level="1">
         <sbb-icon name="{{translations.icons[tab.data.icon]}}" slot="icon"></sbb-icon>
         {{tab.data.title}}
-    </sbb-tab-title>
-    <div class="sbb-section-panel">
+    </sbb-tab-label>
+    <sbb-tab>
         {{tab.content | safe}}
-    </div>
+    </sbb-tab>
     {%- endfor -%}
 </sbb-tab-group>

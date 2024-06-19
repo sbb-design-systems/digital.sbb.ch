@@ -7,7 +7,6 @@ tags:
 key: container-lyne_it
 title: Container
 parent: container-folder-lyne_it
-image: lyne/overview/container.webp
 keywords: container
 order: 170
 availablelanguages: 

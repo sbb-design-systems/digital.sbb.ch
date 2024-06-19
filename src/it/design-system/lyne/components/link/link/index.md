@@ -7,7 +7,6 @@ tags:
 key: link-lyne_it
 title: Link
 parent: link-folder-lyne_it
-image: lyne/overview/link.webp
 keywords: link, icon, split, action
 order: 350
 availablelanguages: 

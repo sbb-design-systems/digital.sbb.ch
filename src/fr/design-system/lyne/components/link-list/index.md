@@ -7,7 +7,6 @@ tags:
 key: link-list-lyne_fr
 title: Link-List
 parent: components-lyne_fr
-image: lyne/overview/link-list.webp
 keywords: link-list, action
 order: 220
 availablelanguages: 

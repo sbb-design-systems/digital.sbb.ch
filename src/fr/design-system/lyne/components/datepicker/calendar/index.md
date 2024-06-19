@@ -7,7 +7,6 @@ tags:
 key: calendar-lyne_fr
 title: Calendar
 parent: datepicker-folder-lyne_fr
-image: lyne/overview/calendar.webp
 keywords: calendar
 order: 10
 availablelanguages: 

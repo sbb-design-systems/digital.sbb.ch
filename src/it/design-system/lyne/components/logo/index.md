@@ -7,7 +7,6 @@ tags:
 key: logo-lyne_it
 title: Logo
 parent: components-lyne_it
-image: lyne/overview/logo.webp
 keywords: logo
 order: 240
 availablelanguages: 

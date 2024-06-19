@@ -7,7 +7,6 @@ tags:
 key: radio-button-group-lyne_it
 title: Radio-Button-Group
 parent: radio-button-folder-lyne_it
-image: lyne/overview/radio-button-group.webp
 keywords: radio-button-group
 order: 530
 availablelanguages: 

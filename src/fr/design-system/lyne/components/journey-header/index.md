@@ -7,7 +7,6 @@ tags:
 key: journey-header-lyne_fr
 title: Journey-Header
 parent: components-lyne_fr
-image: lyne/overview/journey-header.webp
 keywords: journey-header
 order: 200
 availablelanguages: 

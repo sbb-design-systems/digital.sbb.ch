@@ -18,8 +18,8 @@ Il convient de respecter les modèles fournis. Si le format souhaité n’est pa
 Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Accessibility Guidelines) doivent être respectées lors de la création de supports publicitaires.{.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-title>Version 1</sbb-tab-title>
-<section class="sbb-section-panel">
+<sbb-tab-label>Version 1</sbb-tab-label>
+<sbb-tab>
 
 ### Exemples
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Exemple 1</sbb-link>
@@ -37,9 +37,9 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 
 * Utilisation des fenêtres en vue déployée (expanded)
 
-</section>
-<sbb-tab-title>Version 2</sbb-tab-title>
-<section class="sbb-section-panel">
+</sbb-tab>
+<sbb-tab-label>Version 2</sbb-tab-label>
+<sbb-tab>
 
 ### Exemples
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Exemple 1</sbb-link>
@@ -53,7 +53,7 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 - IAB Leaderboard (728 x 90) </li>
 - Wallpaper (728 x 90 & 160 x 600) </li>
 
-</section>
+</sbb-tab>
 </sbb-tab-group>
 
 ## Download 

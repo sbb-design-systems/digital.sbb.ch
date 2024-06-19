@@ -18,8 +18,8 @@ In linea di massima e nei limiti del possibile si utilizza il pannello rosso com
 Per la creazione di materiale pubblicitario devono essere seguite le raccomandazioni per l’accessibilità dei contenuti web 2.0 delle Web Content Accessibility Guideline (WCAG).{.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-title>Versione 1</sbb-tab-title>
-<section class="sbb-section-panel">
+<sbb-tab-label>Versione 1</sbb-tab-label>
+<sbb-tab>
 
 ### Esempi
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Esempio 1</sbb-link>
@@ -37,9 +37,9 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 
 * Finestra utilizzata con visualizzazione estesa (expanded)
 
-</section>
-<sbb-tab-title>Versione 2</sbb-tab-title>
-<section class="sbb-section-panel">
+</sbb-tab>
+<sbb-tab-label>Versione 2</sbb-tab-label>
+<sbb-tab>
 
 ### Beispiele
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Esempio 1</sbb-link>
@@ -53,7 +53,7 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 - IAB Leaderboard (728 x 90) </li>
 - Wallpaper (728 x 90 & 160 x 600) </li>
 
-</section>
+</sbb-tab>
 </sbb-tab-group>
 
 ## Download 

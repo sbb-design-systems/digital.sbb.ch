@@ -7,7 +7,6 @@ tags:
 key: header-lyne_fr
 title: Header
 parent: header-folder-lyne_fr
-image: lyne/overview/header.webp
 keywords: header
 order: 300
 availablelanguages: 

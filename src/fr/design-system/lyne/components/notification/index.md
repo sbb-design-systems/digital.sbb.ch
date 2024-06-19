@@ -7,7 +7,6 @@ tags:
 key: notification-lyne_fr
 title: Notification
 parent: components-lyne_fr
-image: lyne/overview/notification.webp
 keywords: notification
 order: 280
 availablelanguages: 

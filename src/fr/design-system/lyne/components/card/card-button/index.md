@@ -6,7 +6,6 @@ tags:
 key: card-button-lyne_fr
 title: Card-Button
 parent: card-folder-lyne_fr
-image: lyne/overview/card-action.webp
 keywords: card-button
 order: 110
 availablelanguages: 

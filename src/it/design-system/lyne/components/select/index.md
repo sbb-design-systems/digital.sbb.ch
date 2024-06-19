@@ -7,7 +7,6 @@ tags:
 key: select-lyne_it
 title: Select
 parent: components-lyne_it
-image: lyne/overview/select.webp
 keywords: select
 order: 330
 availablelanguages: 

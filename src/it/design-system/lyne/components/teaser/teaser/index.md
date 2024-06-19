@@ -7,7 +7,6 @@ tags:
 key: teaser-lyne_it
 title: Teaser
 parent: teaser-folder-lyne_it
-image: lyne/overview/teaser.webp
 keywords: teaser
 order: 650
 availablelanguages: 

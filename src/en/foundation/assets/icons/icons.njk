@@ -11,8 +11,8 @@ mode: KOM
 <p class="lead">SBB has its own stock of 1 pixel outline icons on a raster of 24x24, 36x36 pixels and sometimes 48x48 pixels. </p>
 
 <sbb-tab-group initial-selected-index="0" size="l">
-  <sbb-tab-title>Preview</sbb-tab-title>
-  <section>
+  <sbb-tab-label>Preview</sbb-tab-label>
+  <sbb-tab>
     {% set icons = icons[0] %}
     {% include "src/_includes/icons/index.njk" %}
     <br>
@@ -20,14 +20,14 @@ mode: KOM
     <sbb-icon slot="icon" name="figma-small"></sbb-icon>
     View Icons in Figma
     </sbb-secondary-button-link> 
-  </section>
-  <sbb-tab-title>Use</sbb-tab-title>
-  <section>
+  </sbb-tab>
+  <sbb-tab-label>Use</sbb-tab-label>
+  <sbb-tab>
 <p class="lead">The SBB icon style must be is to be adhered to. If the existing icon set is insufficient, new icons can be ordered via <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> with production costs charged to the project. Self-compilation of icons is permitted but these must be approved by SBB Brand Management or by UX before they are used. Detailed information on SBB icon style will be freely given on request. Care must be taken in digital products and apps that icons are <strong>not</strong> used in different line weights.  
 Further information: <sbb-link variant="inline" type="button" target="_blank" href="/{{page.lang}}/foundation/brand/copyrights/">rights of use</sbb-link></p>
-  </section>
-  <sbb-tab-title>Implementation</sbb-tab-title>
-  <section>
+  </sbb-tab>
+  <sbb-tab-label>Implementation</sbb-tab-label>
+  <sbb-tab>
     <sbb-link-list orientation="vertical" size="m">
       <sbb-block-link icon-name="angular-small" icon-placement="start" href="https://angular.app.sbb.ch/angular/components/icon/overview ">Angular</sbb-block-link>
       <sbb-block-link icon-name="link-external-small" icon-placement="start" href="https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-icon--docs">Lyne</sbb-block-link>
@@ -37,13 +37,13 @@ Further information: <sbb-link variant="inline" type="button" target="_blank" hr
       <sbb-block-link icon-name="figma-small" icon-placement="start" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0">Figma-Library</sbb-block-link>
       <sbb-block-link icon-name="github-small" icon-placement="start" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">Download Assets from Github</sbb-block-link>
     </sbb-link-list>
-  </section>
-  <sbb-tab-title>Project-specific icons</sbb-tab-title>  
-  <section>
+  </sbb-tab>
+  <sbb-tab-label>Project-specific icons</sbb-tab-label>  
+  <sbb-tab>
   <p class="lead">Project-specific icons are mainly used in internal products/projects. Often, these icons are used in expert systems and have a specific meaning. Specific icons should not be applied for different meanings/functions, so their use must be checked carefully. However, if the exact meaning of the icon matches, the icon can be used. In case of uncertainty, the </p>
   <sbb-secondary-button-link target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
   <sbb-icon slot="icon" name="figma-small"></sbb-icon>
   Project-specific icons
   </sbb-secondary-button-link> 
-  </section>
+  </sbb-tab>
 </sbb-tab-group>

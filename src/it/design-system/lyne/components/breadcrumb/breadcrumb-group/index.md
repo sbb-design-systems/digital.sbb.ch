@@ -7,7 +7,6 @@ tags:
 key: breadcrumb-group-lyne_it
 title: Breadcrumb-Group
 parent: breadcrumb-folder-lyne_it
-image: lyne/overview/breadcrumb-group.webp
 keywords: breadcrumb, bread, crumb
 order: 70
 availablelanguages: 

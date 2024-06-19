@@ -13,8 +13,8 @@ mode: KOM
 <p class="lead">Le FFS dispongono di un proprio set di icone lineari di 1 pixel su un raster di 24x24, 36x36 e in alcuni casi 48x48 pixel.</p>
 
 <sbb-tab-group initial-selected-index="0" size="l">
-  <sbb-tab-title>Anteprima</sbb-tab-title>
-  <section>
+  <sbb-tab-label>Anteprima</sbb-tab-label>
+  <sbb-tab>
     {% set icons = icons[0] %}
     {% include "src/_includes/icons/index.njk" %}
     <br>
@@ -22,14 +22,14 @@ mode: KOM
     <sbb-icon slot="icon" name="figma-small"></sbb-icon>
     Visualizza le icone in Figma
     </sbb-secondary-button-link> 
-  </section>
-  <sbb-tab-title>Utilizzo</sbb-tab-title>
-  <section>
+  </sbb-tab>
+  <sbb-tab-label>Utilizzo</sbb-tab-label>
+  <sbb-tab>
 <p class="lead">Deve essere rispettato lo stile delle icone FFS. Se il set di icone non fosse sufficiente, è possibile ordinare nuove icone scrivendo all’indirizzo <sbb-link variant="inline" type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> i costi di produzione sono a carico dei progetti. La creazione ex novo di icone è ammessa a patto che queste vengano controllate prima del loro impiego da Gestione della marca FFS o da UX. Su richiesta è possibile ricevere informazioni più dettagliate sullo stile delle icone FFS. Nei prodotti digitali e nelle app è opportuno controllare che le icone non vengano utilizzate con uno spessore delle linee diverso.  
 Ulteriori informazioni: <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/brand/copyrights/">diritti di utilizzazione</sbb-link></p>
-  </section>
-  <sbb-tab-title>Implementazione</sbb-tab-title>
-  <section>
+  </sbb-tab>
+  <sbb-tab-label>Implementazione</sbb-tab-label>
+  <sbb-tab>
     <sbb-link-list orientation="vertical" size="m">
       <sbb-block-link icon-name="angular-small" icon-placement="start" href="https://angular.app.sbb.ch/angular/components/icon/overview ">Angular</sbb-block-link>
       <sbb-block-link icon-name="link-external-small" icon-placement="start" href="https://lyne-storybook.app.sbb.ch/?path=/docs/components-sbb-icon--docs">Lyne</sbb-block-link>
@@ -39,13 +39,13 @@ Ulteriori informazioni: <sbb-link variant="inline" type="button" href="/{{page.l
       <sbb-block-link icon-name="figma-small" icon-placement="start" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?node-id=372%3A0">Figma-Library</sbb-block-link>
       <sbb-block-link icon-name="github-small" icon-placement="start" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">Download Assets from Github</sbb-block-link>
     </sbb-link-list>
-  </section>
-  <sbb-tab-title>Icone specifiche del progetto</sbb-tab-title>  
-  <section>
+  </sbb-tab>
+  <sbb-tab-label>Icone specifiche del progetto</sbb-tab-label>  
+  <sbb-tab>
     <p class="lead">Vengono utilizzati soprattutto nei prodotti/progetti interni. Spesso si tratta di icone di sistemi esperti che hanno un significato specifico. Le icone specifiche non dovrebbero essere utilizzate per significati/funzioni diverse, per cui il loro uso deve essere controllato con attenzione. Tuttavia, se il significato esatto dell'icona è corretto, l'icona può essere utilizzata. In caso di dubbi, il team UX sarà lieto di aiutarvi.</p>
     <sbb-secondary-button-link target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">
     <sbb-icon slot="icon" name="figma-small"></sbb-icon>
     Icone specifiche del progetto in Figma
     </sbb-secondary-button-link>
-  </section>
+  </sbb-tab>
 </sbb-tab-group>

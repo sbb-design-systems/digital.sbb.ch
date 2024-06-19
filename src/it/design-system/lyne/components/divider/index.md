@@ -7,7 +7,6 @@ tags:
 key: divider-lyne_it
 title: Divider
 parent: components-lyne_it
-image: lyne/overview/divider.webp
 keywords: divider
 order: 130
 availablelanguages: 

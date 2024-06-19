@@ -7,7 +7,6 @@ tags:
 key: dialog-lyne_it
 title: Dialog
 parent: components-lyne_it
-image: lyne/overview/dialog.webp
 keywords: dialog
 order: 120
 availablelanguages: 

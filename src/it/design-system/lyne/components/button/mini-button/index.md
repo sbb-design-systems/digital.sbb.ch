@@ -7,7 +7,6 @@ tags:
 key: mini-button-lyne_it
 title: Mini Button
 parent: button-folder-lyne_it
-image: lyne/overview/button.webp
 keywords: button, icon, split, action
 order: 140
 availablelanguages: 

@@ -7,7 +7,6 @@ tags:
 key: popover-lyne_fr
 title: Popover
 parent: popover-folder-lyne_fr
-image: lyne/overview/popover.webp
 keywords: popover
 order: 500
 availablelanguages: 

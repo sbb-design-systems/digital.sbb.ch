@@ -7,7 +7,6 @@ tags:
 key: image-lyne_fr
 title: Image
 parent: components-lyne_fr
-image: lyne/overview/image.webp
 keywords: image
 order: 190
 availablelanguages: 

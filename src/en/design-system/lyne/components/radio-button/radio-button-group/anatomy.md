@@ -9,7 +9,7 @@ permalink: false
 ---
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/lyne/anatomy/anatomy_radiobutton_group',
+  url: '/assets/images/lyne/anatomy/anatomy_radio_button_group',
   alt: 'Anatomy of the component',
   title: 'Anatomy of the component'
 }) }}

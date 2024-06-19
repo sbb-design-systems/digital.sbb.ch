@@ -7,7 +7,6 @@ tags:
 key: clock-lyne_it
 title: Clock
 parent: components-lyne_it
-image: lyne/overview/clock.webp
 keywords: clock
 order: 90
 availablelanguages: 

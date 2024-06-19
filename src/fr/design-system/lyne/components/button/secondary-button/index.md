@@ -7,7 +7,6 @@ tags:
 key: secondary-button-lyne_fr
 title: Secondary Button
 parent: button-folder-lyne_fr
-image: lyne/overview/button.webp
 keywords: button, icon, split, action
 order: 50
 availablelanguages: 

@@ -7,7 +7,6 @@ tags:
 key: checkbox-lyne_it
 title: Checkbox
 parent: checkbox-folder-lyne_it
-image: lyne/overview/checkbox.webp
 keywords: checkbox
 order: 130
 availablelanguages: 

@@ -16,5 +16,6 @@ permalink: false
 
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
-|1a|Komponente|`sbb-tab-title`|Nein|Aktiver Zustand|
-|1b|Komponente|`sbb-tab-title`|Nein|Default Zustand|
+|1a|Komponente|`sbb-tab-label`|Nein|Aktiver Zustand|
+|1b|Komponente|`sbb-tab-label`|Nein|Default Zustand|
+|2|Komponente|`sbb-tab`|Nein||

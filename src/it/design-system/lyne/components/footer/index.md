@@ -7,7 +7,6 @@ tags:
 key: footer-lyne_it
 title: Footer
 parent: components-lyne_it
-image: lyne/overview/footer.webp
 keywords: footer
 order: 150
 availablelanguages: 

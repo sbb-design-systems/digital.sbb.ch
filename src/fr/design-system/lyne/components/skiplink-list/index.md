@@ -7,7 +7,6 @@ tags:
 key: skiplink-list-lyne_fr
 title: Skiplink-List
 parent: components-lyne_fr
-image: lyne/overview/skiplink-list.webp
 keywords: skiplink-list
 order: 360
 availablelanguages: 

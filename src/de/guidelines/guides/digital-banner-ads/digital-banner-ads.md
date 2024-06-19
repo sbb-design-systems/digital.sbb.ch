@@ -18,8 +18,8 @@ Grundsätzlich und wo immer möglich wird das vollständige rote Panel (Version 
 Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessibility Guideline) müssen bei der Erstellung der Werbemittel eingehalten werden.{.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-title>Version 1</sbb-tab-title>
-<section class="sbb-section-panel">
+<sbb-tab-label>Version 1</sbb-tab-label>
+<sbb-tab>
 
 ### Beispiele
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Beispiel 1</sbb-link>
@@ -37,9 +37,9 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 
 * Anwendung des Fensters in der ausgeklappten (expanded) Ansicht
 
-</section>
-<sbb-tab-title>Version 2</sbb-tab-title>
-<section class="sbb-section-panel">
+</sbb-tab>
+<sbb-tab-label>Version 2</sbb-tab-label>
+<sbb-tab>
 
 ### Beispiele
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Beispiel 1</sbb-link>
@@ -53,7 +53,7 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 - IAB Leaderboard (728 x 90) </li>
 - Wallpaper (728 x 90 & 160 x 600) </li>
 
-</section>
+</sbb-tab>
 </sbb-tab-group>
 
 ## Download 

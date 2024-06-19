@@ -7,7 +7,6 @@ tags:
 key: icon-lyne_fr
 title: Icon
 parent: components-lyne_fr
-image: lyne/overview/icon.webp
 keywords: icon
 order: 180
 availablelanguages: 

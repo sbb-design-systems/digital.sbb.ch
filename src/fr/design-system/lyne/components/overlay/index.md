@@ -7,7 +7,6 @@ tags:
 key: overlay-lyne_fr
 title: Overlay
 parent: components-lyne_fr
-image: lyne/overview/overlay.webp
 keywords: overlay
 order: 295
 availablelanguages: 

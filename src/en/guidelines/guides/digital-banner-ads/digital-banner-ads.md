@@ -18,8 +18,8 @@ In general, and wherever possible, the entire red panel (version 1) should be us
 The recommendations for accessible web content 2.0 given by WCAG (Web Content Accessibility Guidelines) must be followed when creating advertising materials.{.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-title>Version 1</sbb-tab-title>
-<section class="sbb-section-panel">
+<sbb-tab-label>Version 1</sbb-tab-label>
+<sbb-tab>
 
 ### Example
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Example 1</sbb-link>
@@ -37,9 +37,9 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 
 * Utilisation of the window in expanded view
 
-</section>
-<sbb-tab-title>Version 2</sbb-tab-title>
-<section class="sbb-section-panel">
+</sbb-tab>
+<sbb-tab-label>Version 2</sbb-tab-label>
+<sbb-tab>
 
 ### Examples
 <sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Example 1</sbb-link>
@@ -53,7 +53,7 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 - IAB Leaderboard (728 x 90) </li>
 - Wallpaper (728 x 90 & 160 x 600) </li>
 
-</section>
+</sbb-tab>
 </sbb-tab-group>
 
 ## Download 

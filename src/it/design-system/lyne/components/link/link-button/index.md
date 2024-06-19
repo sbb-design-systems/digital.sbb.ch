@@ -6,7 +6,6 @@ tags:
 key: link-button-lyne_it
 title: Link (Button)
 parent: link-folder-lyne_it
-image: lyne/overview/link.webp
 keywords: link, icon, split, action
 order: 350
 availablelanguages: 

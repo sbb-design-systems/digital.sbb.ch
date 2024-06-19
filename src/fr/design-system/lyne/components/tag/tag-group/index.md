@@ -7,7 +7,6 @@ tags:
 key: tag-group-lyne_fr
 title: Tag-Group
 parent: tag-folder-lyne_fr
-image: lyne/overview/tag-group.webp
 keywords: tag-group
 order: 640
 availablelanguages: 

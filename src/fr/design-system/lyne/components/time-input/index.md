@@ -7,7 +7,6 @@ tags:
 key: time-input-lyne_fr
 title: Time-Input
 parent: components-lyne_fr
-image: lyne/overview/time-input.webp
 keywords: Time, Input
 order: 420
 availablelanguages: 

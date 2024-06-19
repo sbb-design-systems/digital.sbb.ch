@@ -6,7 +6,6 @@ tags:
 key: navigation-link-lyne_fr
 title: Navigation-Link
 parent: navigation-folder-lyne_fr
-image: lyne/overview/navigation-action.webp
 keywords: navigation-link
 order: 430
 availablelanguages: 

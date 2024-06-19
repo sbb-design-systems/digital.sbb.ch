@@ -7,7 +7,6 @@ tags:
 key: slider-lyne_fr
 title: Slider
 parent: components-lyne_fr
-image: lyne/overview/slider.webp
 keywords: slider
 order: 370
 availablelanguages: 

@@ -6,7 +6,6 @@ tags:
 key: expansion-panel-header-lyne_it
 title: Expansion-Panel-Header
 parent: accordion-folder-lyne_it
-image: lyne/overview/expansion-panel.webp
 order: 240
 availablelanguages: 
     - de

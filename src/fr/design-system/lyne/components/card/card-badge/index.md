@@ -7,7 +7,6 @@ tags:
 key: card-badge-lyne_fr
 title: Card-Badge
 parent: card-folder-lyne_fr
-image: lyne/overview/card-badge.webp
 keywords: card-badge
 order: 120
 availablelanguages: 

@@ -7,7 +7,6 @@ tags:
 key: teaser-paid-lyne_it
 title: Teaser-Paid
 parent: teaser-folder-lyne_it
-image: lyne/overview/teaser-paid.webp
 keywords: teaser-paid
 order: 660
 availablelanguages: 

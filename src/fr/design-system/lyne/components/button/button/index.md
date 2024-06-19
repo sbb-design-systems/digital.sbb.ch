@@ -7,7 +7,6 @@ tags:
 key: button-lyne_fr
 title: Primary Button
 parent: button-folder-lyne_fr
-image: lyne/overview/button.webp
 keywords: button, icon, split, action
 order: 10
 availablelanguages: 

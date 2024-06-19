@@ -6,7 +6,6 @@ tags:
 key: transparent-button-static-lyne_it
 title: Transparent Button (Static)
 parent: button-folder-lyne_it
-image: lyne/overview/button.webp
 keywords: button, icon, split, action
 order: 130
 availablelanguages: 
