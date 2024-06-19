@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
@@ -8,8 +9,5 @@ title: Container
 parent: components-lyne_fr
 keywords: container, sticky-bar, sticky, bar
 order: 100
-permalink: false
-availablelanguages: 
-    - de
-    - en
+redirect: container/
 ---

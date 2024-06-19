@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -8,5 +9,5 @@ title: Tag
 parent: components-lyne_en
 keywords: tag, tag-group, group
 order: 400
-permalink: false
+redirect: tag-group/
 ---

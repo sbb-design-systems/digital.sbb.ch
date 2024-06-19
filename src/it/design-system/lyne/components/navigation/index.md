@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_it
     - lyne_components_it
@@ -8,8 +9,5 @@ title: Navigation
 parent: components-lyne_it
 keywords: navigation, menu, navigation-link, navigation-list, navigation-marker, navigation-section
 order: 270
-permalink: false
-availablelanguages: 
-    - de
-    - en
+redirect: navigation/
 ---

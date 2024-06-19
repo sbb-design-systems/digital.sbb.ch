@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Alert
 parent: components-lyne_de
 keywords: alert, alert-group, alert group
 order: 25
-permalink: false
+redirect: alert/
 ---

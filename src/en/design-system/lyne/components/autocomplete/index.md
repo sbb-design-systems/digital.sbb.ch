@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - lyne_components_en

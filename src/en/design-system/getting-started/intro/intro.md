@@ -27,7 +27,7 @@ With the Design System, we offer a component construction kit that covers many b
 
 ## How can I add something to the design system?{.lead}
 
-A design system can and should grow, but there are certain constraints. See <sbb-link variant="inline" type="button" href="/{page.lang}}/design-system/organization/contributing/">Contribution</sbb-link> for more information on this.{.lead}
+A design system can and should grow, but there are certain constraints. See <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/organization/contributing/">Contribution</sbb-link> for more information on this.{.lead}
 
 
 ## Can I also use the design system for internal applications?{.lead}
@@ -37,5 +37,5 @@ The design system can also be used for internal applications. Primarily there is
 
 ## You have more questions?{.lead}
 
-Try our <sbb-link variant="inline" type="button" href="/{page.lang}}/design-system/getting-started/faq/">FAQ</sbb-link> page.
+Try our <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/getting-started/faq/">FAQ</sbb-link> page.
 If you don't find what you are looking for, please feel free to <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">contact</sbb-link> us.{.lead}

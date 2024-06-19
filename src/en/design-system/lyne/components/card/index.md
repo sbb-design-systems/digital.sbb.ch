@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -8,5 +9,5 @@ title: Card
 parent: components-lyne_en
 keywords: card, card-link, card-badge, badge, link
 order: 60
-permalink: false
+redirect: card/
 ---

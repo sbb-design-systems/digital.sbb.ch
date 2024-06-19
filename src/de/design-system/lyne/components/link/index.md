@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Link
 parent: components-lyne_de
 keywords: link, icon, action
 order: 210
-permalink: false
+redirect: block-link/
 ---

@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Toggle
 parent: components-lyne_de
 keywords: toggle, toggle-option, toggle-check, check, option
 order: 450
-permalink: false
+redirect: toggle/
 ---

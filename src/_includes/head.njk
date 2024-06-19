@@ -31,3 +31,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
 <link rel="icon" href="/assets/images/favicon/favicon.ico">
+
+{% if availablelanguages.length %}
+<link rel="canonical" href="/de{{ page.url.slice(3, -1) }}"/>
+{% endif %}

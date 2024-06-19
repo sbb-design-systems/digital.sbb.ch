@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -8,5 +9,5 @@ title: Teaser
 parent: components-lyne_en
 keywords: teaser, teaser-hero, hero, teaser-paid, paid
 order: 410
-permalink: false
+redirect: teaser/
 ---

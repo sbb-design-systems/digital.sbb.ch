@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Radio-Button
 parent: components-lyne_de
 keywords: radiobutton, radio, radio-button, radio-button-group, group
 order: 320
-permalink: false
+redirect: radio-button/
 ---

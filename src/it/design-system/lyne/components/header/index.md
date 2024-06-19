@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_it
     - lyne_components_it
@@ -8,8 +9,5 @@ title: Header
 parent: components-lyne_it
 keywords: header, header-link, link
 order: 170
-permalink: false
-availablelanguages: 
-    - de
-    - en
+redirect: header/
 ---

@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
@@ -8,8 +9,5 @@ title: Breadcrumb
 parent: components-lyne_fr
 keywords: bread, breadcrumb, breadcrumb-group, breadcrumb group
 order: 40
-permalink: false
-availablelanguages: 
-    - de
-    - en
+redirect: breadcrumb-group/
 ---

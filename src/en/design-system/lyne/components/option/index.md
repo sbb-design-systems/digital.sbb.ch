@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - page
@@ -7,5 +8,5 @@ title: Option
 parent: components-lyne_en
 keywords: option, option group, optgroup
 order: 290
-permalink: false
+redirect: option/
 ---

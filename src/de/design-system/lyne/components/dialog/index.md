@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Dialog
 parent: components-lyne_de
 keywords: dialog, modal
 order: 120
-permalink: false
+redirect: dialog/
 ---

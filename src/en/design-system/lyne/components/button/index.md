@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -8,5 +9,5 @@ title: Button
 parent: components-lyne_en
 keywords: button, link
 order: 50
-permalink: false
+redirect: button/
 ---

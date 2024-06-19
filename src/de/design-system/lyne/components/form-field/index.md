@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Form-Field
 parent: components-lyne_de
 keywords: form-field, form, field, text-input, select, input
 order: 160
-permalink: false
+redirect: form-field/
 ---

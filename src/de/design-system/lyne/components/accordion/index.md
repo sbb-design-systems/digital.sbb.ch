@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_de
     - lyne_components_de
@@ -8,5 +9,5 @@ title: Accordion
 parent: components-lyne_de
 keywords: accordion, expansion-panel, expansion, panel
 order: 10
-permalink: false
+redirect: accordion/
 ---

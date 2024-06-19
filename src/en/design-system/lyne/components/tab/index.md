@@ -1,4 +1,5 @@
 ---
+layout: redirect.njk
 tags: 
     - lyne_en
     - lyne_components_en
@@ -8,5 +9,5 @@ title: Tab
 parent: components-lyne_en
 keywords: tab, tab-group, group
 order: 390
-permalink: false
+redirect: tab-group/
 ---
