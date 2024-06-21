@@ -1,7 +1,7 @@
 const eleventySass = require("eleventy-sass");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyI18nPlugin } = require("@11ty/eleventy");
-//const litPlugin = require('@lit-labs/eleventy-plugin-lit');
+const litPlugin = require('@lit-labs/eleventy-plugin-lit');
 
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
