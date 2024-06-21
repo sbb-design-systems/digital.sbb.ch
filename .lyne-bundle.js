@@ -1,3 +1,4 @@
+import "@lit-labs/ssr-client/lit-element-hydrate-support.js";
 import "@sbb-esta/lyne-elements/accordion.js";
 import "@sbb-esta/lyne-elements/action-group.js";
 import "@sbb-esta/lyne-elements/alert.js";

@@ -13,5 +13,6 @@ const md = async function() {
 
 module.exports = async function() {
     let result = await md();
+    //result.replace("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/");
     return result;
   };

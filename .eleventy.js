@@ -19,15 +19,67 @@ function sortByOrder(values) {
 
 module.exports = function (config) {
 
-/*
+
     config.addPlugin(litPlugin, {
         mode: 'worker',
         componentModules: [
+        'node_modules/@sbb-esta/lyne-elements/accordion.js',
+        'node_modules/@sbb-esta/lyne-elements/action-group.js',
         'node_modules/@sbb-esta/lyne-elements/alert.js',
+        'node_modules/@sbb-esta/lyne-elements/autocomplete.js',
+        'node_modules/@sbb-esta/lyne-elements/breadcrumb.js',
         'node_modules/@sbb-esta/lyne-elements/button.js',
+        'node_modules/@sbb-esta/lyne-elements/calendar.js',
+        'node_modules/@sbb-esta/lyne-elements/card.js',
+        'node_modules/@sbb-esta/lyne-elements/checkbox.js',
+        'node_modules/@sbb-esta/lyne-elements/chip.js',
+      //  'node_modules/@sbb-esta/lyne-elements/clock.js',
+        'node_modules/@sbb-esta/lyne-elements/container.js',
+        'node_modules/@sbb-esta/lyne-elements/datepicker.js',
+        'node_modules/@sbb-esta/lyne-elements/dialog.js',
+        'node_modules/@sbb-esta/lyne-elements/divider.js',
+        'node_modules/@sbb-esta/lyne-elements/expansion-panel.js',
+        'node_modules/@sbb-esta/lyne-elements/file-selector.js',
+        'node_modules/@sbb-esta/lyne-elements/footer.js',
+        'node_modules/@sbb-esta/lyne-elements/form-error.js',
+        'node_modules/@sbb-esta/lyne-elements/form-field.js',
+        'node_modules/@sbb-esta/lyne-elements/header.js',
+        'node_modules/@sbb-esta/lyne-elements/icon.js',
+        'node_modules/@sbb-esta/lyne-elements/image.js',
+        'node_modules/@sbb-esta/lyne-elements/journey-header.js',
+        'node_modules/@sbb-esta/lyne-elements/link.js',
+        'node_modules/@sbb-esta/lyne-elements/link-list.js',
+        'node_modules/@sbb-esta/lyne-elements/loading-indicator.js',
+        'node_modules/@sbb-esta/lyne-elements/logo.js',
+        'node_modules/@sbb-esta/lyne-elements/menu.js',
+        'node_modules/@sbb-esta/lyne-elements/message.js',
+        'node_modules/@sbb-esta/lyne-elements/navigation.js',
+        'node_modules/@sbb-esta/lyne-elements/notification.js',
+        'node_modules/@sbb-esta/lyne-elements/option.js',
+        'node_modules/@sbb-esta/lyne-elements/overlay.js',
+        'node_modules/@sbb-esta/lyne-elements/radio-button.js',
+        'node_modules/@sbb-esta/lyne-elements/select.js',
+        'node_modules/@sbb-esta/lyne-elements/selection-expansion-panel.js',
+        'node_modules/@sbb-esta/lyne-elements/signet.js',
+        'node_modules/@sbb-esta/lyne-elements/skiplink-list.js',
+        'node_modules/@sbb-esta/lyne-elements/slider.js',
+        'node_modules/@sbb-esta/lyne-elements/status.js',
+        'node_modules/@sbb-esta/lyne-elements/tabs.js',
+        'node_modules/@sbb-esta/lyne-elements/tag.js',
+        'node_modules/@sbb-esta/lyne-elements/teaser.js',
+        'node_modules/@sbb-esta/lyne-elements/time-input.js',
+        'node_modules/@sbb-esta/lyne-elements/title.js',
+        'node_modules/@sbb-esta/lyne-elements/toast.js',
+        'node_modules/@sbb-esta/lyne-elements/toggle.js',
+        'node_modules/@sbb-esta/lyne-elements/toggle-check.js',
+        'node_modules/@sbb-esta/lyne-elements/popover.js',
+        'node_modules/@sbb-esta/lyne-elements/visual-checkbox.js',
+        'node_modules/@sbb-esta/lyne-elements-experimental/journey-summary.js',
+        'node_modules/@sbb-esta/lyne-elements-experimental/teaser-hero.js',
+        'node_modules/@sbb-esta/lyne-elements-experimental/teaser-paid.js',
         ],
     });
-*/
+
     config.addFilter("renderUsingMarkdown", function(rawMarkup) {
         return markdownLib.render(rawMarkup);
     });
