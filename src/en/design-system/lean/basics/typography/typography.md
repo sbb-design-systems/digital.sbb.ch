@@ -13,7 +13,7 @@ order: 50
 ---
 
 ## Font
-The company font «SBB Web» is used as a web font and in the styles Thin, Light, Roman and Bold. «SBB Web» can be downloaded <sbb-link variant="inline" type="button" target="_blank" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/basis/schrift.html">here</sbb-link>.{.lead}
+The company font «SBB Web» is used as a web font and in the styles Thin, Light, Roman and Bold. «SBB Web» can be downloaded <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4/de#/markenelemente/typographie-1">here</sbb-link>.{.lead}
 
 The use of a mono-spaced font is recommended for some applications. The font required is selected when used for the first time. The following fonts are currently available:{.lead}
 * Courier

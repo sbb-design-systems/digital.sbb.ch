@@ -13,7 +13,7 @@ order: 50
 ---
 
 ## Schrift
-Als Schriftart wird die Hausschrift «SBB Web» als Web-Font verwendet und in den Schnitten Thin, Light, Roman und Bold eingesetzt. «SBB Web» kann <sbb-link variant="inline" type="button" target="_blank" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/basis/schrift.html">hier</sbb-link> heruntergeladen werden.{.lead}
+Als Schriftart wird die Hausschrift «SBB Web» als Web-Font verwendet und in den Schnitten Thin, Light, Roman und Bold eingesetzt. «SBB Web» kann <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4/de#/markenelemente/typographie-1">hier</sbb-link> heruntergeladen werden.{.lead}
 
 Für gewisse Anwendungsbereiche ist der Einsatz einer Monospaced Schrift sinnvoll. Bei erstem Bedarf wird die entsprechende Schrift ausgewählt. Aktuell stehen folgende zur Auswahl:{.lead}
 * Courier
