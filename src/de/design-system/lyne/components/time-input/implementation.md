@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.timeinput.timeinput | safe }}
+{{ lyne.readmes.timeinput.timeinput | absolutelinks | safe }}
 
 

@@ -7,5 +7,5 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.chip.chip | safe }}
+{{ lyne.readmes.chip.chip | absolutelinks | safe }}
 

@@ -7,7 +7,7 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.card.cardbadge | safe }}
+{{ lyne.readmes.card.cardbadge | absolutelinks | safe }}
 
 
 

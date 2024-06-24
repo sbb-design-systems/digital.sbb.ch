@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.teaserpaid.teaserpaid | safe }}
+{{ lyne.readmes.teaserpaid.teaserpaid | absolutelinks | safe }}
 
 

@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.dialog.dialogtitle | safe }}
+{{ lyne.readmes.dialog.dialogtitle | absolutelinks | safe }}
 
 

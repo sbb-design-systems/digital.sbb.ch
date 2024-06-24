@@ -7,6 +7,6 @@ image: implementation
 order: 3
 permalink: false  
 ---
-{{ lyne.readmes.image.image | safe }}
+{{ lyne.readmes.image.image | absolutelinks | safe }}
 
 

@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.accordion.expansionpanel | safe }}
+{{ lyne.readmes.accordion.expansionpanel | absolutelinks | safe }}
 
 

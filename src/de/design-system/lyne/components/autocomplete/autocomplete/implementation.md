@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.autocomplete.autocomplete | safe }}
+{{ lyne.readmes.autocomplete.autocomplete | absolutelinks | safe }}
 
 

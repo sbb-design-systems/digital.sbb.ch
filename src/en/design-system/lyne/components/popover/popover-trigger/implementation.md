@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.popover.popovertrigger | safe }}
+{{ lyne.readmes.popover.popovertrigger | absolutelinks | safe }}
 
 

@@ -91,6 +91,11 @@ module.exports = function (config) {
         return array.slice(-1);}
     );
 
+    config.addFilter("absolutelinks", (post) => {
+        const content = post.replace("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replace("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
+        return content;
+      });
+
     config.addFilter("defaultlanguagecontent", (array, currPage) => {
       currPage = currPage.slice(3);
       const pageArr = array.filter((page) => page.url == "/de"+currPage);

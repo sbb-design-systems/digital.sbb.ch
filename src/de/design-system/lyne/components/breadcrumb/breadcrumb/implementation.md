@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.breadcrumb.breadcrumb | safe }}
+{{ lyne.readmes.breadcrumb.breadcrumb | absolutelinks | safe }}
 
 

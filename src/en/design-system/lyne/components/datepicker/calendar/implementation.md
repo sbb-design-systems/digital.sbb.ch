@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.calendar.calendar | safe }}
+{{ lyne.readmes.calendar.calendar | absolutelinks | safe }}
 
 

@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.datepicker.datepicker | safe }}
+{{ lyne.readmes.datepicker.datepicker | absolutelinks | safe }}
 
 

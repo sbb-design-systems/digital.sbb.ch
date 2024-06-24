@@ -7,7 +7,7 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.checkbox.checkbox | safe }}
+{{ lyne.readmes.checkbox.checkbox | absolutelinks | safe }}
 
 
 
