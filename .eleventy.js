@@ -92,7 +92,7 @@ module.exports = function (config) {
     );
 
     config.addFilter("absolutelinks", (post) => {
-        const content = post.replace("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replace("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
+        const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
         return content;
       });
 
