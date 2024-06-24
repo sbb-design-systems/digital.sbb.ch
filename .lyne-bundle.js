@@ -1,5 +1,6 @@
 import "@lit-labs/ssr-client/lit-element-hydrate-support.js";
-import "@sbb-esta/lyne-elements/accordion.js";
+import "@sbb-esta/lyne-elements";
+/*
 import "@sbb-esta/lyne-elements/action-group.js";
 import "@sbb-esta/lyne-elements/alert.js";
 import "@sbb-esta/lyne-elements/autocomplete.js";
@@ -50,7 +51,11 @@ import "@sbb-esta/lyne-elements/toggle.js";
 import "@sbb-esta/lyne-elements/toggle-check.js";
 import "@sbb-esta/lyne-elements/popover.js";
 import "@sbb-esta/lyne-elements/visual-checkbox.js";
+*/
 
+import "@sbb-esta/lyne-elements-experimental";
+/*
 import "@sbb-esta/lyne-elements-experimental/journey-summary.js";
 import "@sbb-esta/lyne-elements-experimental/teaser-hero.js";
 import "@sbb-esta/lyne-elements-experimental/teaser-paid.js";
+*/
