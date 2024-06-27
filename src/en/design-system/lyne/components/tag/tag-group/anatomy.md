@@ -14,7 +14,14 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1a|Component|`sbb-tag`|No|Aktiver Zustand|
 |1b|Component|`sbb-tag`|No|Default Zustand|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

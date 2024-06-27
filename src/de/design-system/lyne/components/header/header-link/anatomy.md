@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomie der Komponente'
 }) }}
 
+<sbb-table-wrapper>
+
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
 |1|Komponente|`sbb-header-button` oder `sbb-header-link`|Nein||
@@ -21,3 +23,8 @@ permalink: false
 |1b|Text|Label|Ja||
 |1c|Komponente|`sbb-menu`|Ja||
 |2|Komponente|`sbb-logo`|Ja||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

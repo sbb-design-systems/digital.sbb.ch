@@ -14,7 +14,14 @@ permalink: false
   title: 'Anatomie der Komponente'
 }) }}
 
+<sbb-table-wrapper>
+
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
 |1a|Komponente|`sbb-tag`|Nein|Aktiver Zustand|
 |1b|Komponente|`sbb-tag`|Nein|Default Zustand|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

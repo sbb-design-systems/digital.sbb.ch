@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-navigation-marker`|No||
@@ -24,3 +26,8 @@ permalink: false
 |4a|Text|Label|No||
 |4b|Component|`sbb-navigation-link` oder `sbb-navigation-button`|No||
 |5|Component|`sbb-transparent-button`|No||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

@@ -39,6 +39,7 @@ import "@sbb-esta/lyne-elements/signet.js";
 import "@sbb-esta/lyne-elements/skiplink-list.js";
 import "@sbb-esta/lyne-elements/slider.js";
 import "@sbb-esta/lyne-elements/status.js";
+import "@sbb-esta/lyne-elements/table.js";
 import "@sbb-esta/lyne-elements/tabs.js";
 import "@sbb-esta/lyne-elements/tag.js";
 import "@sbb-esta/lyne-elements/teaser.js";

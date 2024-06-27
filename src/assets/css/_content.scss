@@ -186,67 +186,9 @@ code:not([class]) {
   }
 }
 
-table {
-  width: 100%;
-  color: var(--sbb-color-black);
-  background: var(--sbb-color-white);
-  border-radius: var(--sbb-border-radius-4x);
-  border-width: 1px;
-  border-color: var(--sbb-color-cloud);
-  border-style: solid;
-  border-spacing: 0px;
-
-  th,
-  td {
-    padding: var(--sbb-spacing-responsive-xxs) var(--sbb-spacing-fixed-4x);
-    border: 1px solid var(--sbb-color-cloud);
-    border-right-width: 1px;
-    border-top-width: 0;
-    border-bottom-width: 0;
-    border-left-width: 0;
-    vertical-align: top;
-    @include sbb.text-m--regular;
-  }
-
-  tbody {
-    tr {
-      td {
-        border: 1px solid var(--sbb-color-cloud);
-        border-right-width: 1px;
-        border-top-width: 1px;
-        border-bottom-width: 0;
-        border-left-width: 0;
-
-        &:last-child {
-          border-right: 0;
-          border-right-width: 0;
-        }
-
-        &:last-child {
-          border-right: 0px;
-        }
-      }
-
-      &:nth-of-type(odd) {
-        background: var(--sbb-color-milk);
-      }
-    }
-  }
-
-  thead th,
-  tfoot th {
-    @include sbb.text-m--bold;
-    text-align: left;
-    padding: var(--sbb-spacing-fixed-3x) var(--sbb-spacing-fixed-4x);
-    vertical-align: bottom;
-
-    &:last-child {
-      border-right: 0;
-      border-right-width: 0;
-    }
-  }
+sbb-table-wrapper + sbb-table-wrapper { 
+  margin-top: 16px;
 }
-
 
 .overview-buttons {
   margin: var(--sbb-spacing-responsive-m) 0;

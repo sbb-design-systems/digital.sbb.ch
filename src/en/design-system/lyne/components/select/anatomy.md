@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-form-field`|No||
@@ -27,3 +29,8 @@ permalink: false
 |3|Component|`sbb-option`|No||
 |3a|Text|Value|No||
 |3b|Component|`sbb-icon`|Yes|Zeigt angewählte Option an.|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

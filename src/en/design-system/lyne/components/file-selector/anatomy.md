@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-icon`|No||
@@ -25,3 +27,8 @@ permalink: false
 |7|Component|`sbb-secondary-button`|No|Delete-Button|
 |8|Text|Dateigrösse|No||
 |9|Component|`sbb-form-error`|No||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

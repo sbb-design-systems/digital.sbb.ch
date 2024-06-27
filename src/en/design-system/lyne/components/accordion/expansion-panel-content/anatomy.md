@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-extension-panel`|No||
@@ -23,3 +25,8 @@ permalink: false
 |2c|Component|`sbb-icon`|No|Zeigt den Zustand an|
 |3|Component|`sbb-expansion-panel-content`|No||
 |3a|Slot|Beliebiger Inhalt erlaubt|No||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

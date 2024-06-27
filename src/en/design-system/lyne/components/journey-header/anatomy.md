@@ -14,8 +14,15 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Text|Start|No|Kann via Property gesetzt werden: `origin="Station"`|
 |2|Component|`sbb-icon`|No|Kann via Property gesteuert werden: `round-trip`|
 |1|Text|Ziel|No|Kann via Property gesetzt werden: `destination="Station"`|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

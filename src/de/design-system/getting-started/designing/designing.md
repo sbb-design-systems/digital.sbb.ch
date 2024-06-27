@@ -20,6 +20,9 @@ order: 2
 <a id="variant"></a>
 
 ### Welche Ausprägung (Mobile / Lean / Web / Lyne) passt zu meinem Projekt? 
+
+<sbb-table-wrapper>
+
 | In meinen Projekt wird eine...                                           | Diese Ausprägung passt zu Dir        | ab ca. Herbst 2024                                                                                                                                                                               |
 |--------------------------------------------------------------------------|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ... Web-Applikation für **unsere Mitarbeiter** erarbeitet.               | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>| <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>|
@@ -28,6 +31,11 @@ order: 2
 | ... neue Webseite/Microsite für **unsere Kunden** erarbeitet.            | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link> | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>|
 | ... bestehende Webseite/Microsite für **unsere Kunden** weiterentwickelt.| <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>| <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>|
 | ... interne Web-Applikation sowie eine native Mobile-App entwickelt.             | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link> & <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>| <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link> & <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>
 
 <a id="figma-space"></a>
 
