@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.slider.slider | safe }}
+{{ lyne.readmes.slider.slider | absolutelinks | safe }}
 
 

@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-title`|Yes||
@@ -21,3 +23,8 @@ permalink: false
 |3|Component|`sbb-link`|Yes||
 |4|Component|`sbb-icon`|No|Zeigt den entsprechenden Status an.|
 |5|Component|`sbb-secondary-button`|Yes||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

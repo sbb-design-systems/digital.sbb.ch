@@ -14,8 +14,15 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-icon`|Yes||
 |2|Text||No||
 |3|Text||Yes|Only numbers are allowed.|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

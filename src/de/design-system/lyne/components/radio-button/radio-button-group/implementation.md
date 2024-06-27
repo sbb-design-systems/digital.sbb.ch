@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.radiobutton.radiobuttongroup | safe }}
+{{ lyne.readmes.radiobutton.radiobuttongroup | absolutelinks | safe }}
 
 

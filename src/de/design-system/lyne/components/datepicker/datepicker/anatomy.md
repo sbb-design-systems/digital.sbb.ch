@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomie der Komponente'
 }) }}
 
+<sbb-table-wrapper>
+
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
 |1|Komponente|`sbb-form-field`|Nein||
@@ -23,3 +25,8 @@ permalink: false
 |1d|Komponente|`sbb-datepicker-toggle`|Ja||
 |1e|Komponente|`sbb-datepicker-next-day`|Ja||
 |2|Komponente|`sbb-datepicker`|Nein||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

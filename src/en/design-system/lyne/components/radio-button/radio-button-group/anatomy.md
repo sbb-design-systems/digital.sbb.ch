@@ -14,8 +14,15 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1a|Component|`sbb-radiobutton`|No|checked|
 |1b|Component|`sbb-radiobutton`|No|unchecked|
 |2|Error|`sbb-form-error`|–||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1a|–|Tag, Monat, Jahr, gewählt|No||
@@ -23,3 +25,8 @@ permalink: false
 |3|–|Monat/Jahr/Jahre (inkl. Switcher)|No||
 |4|–|Vorheriger Monat|Yes||
 |5|–|Nächster Monat|Yes||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

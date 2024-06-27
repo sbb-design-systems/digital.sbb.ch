@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-dialog-title`|No||
@@ -25,3 +27,8 @@ permalink: false
 |3|Component|`sbb-dialog-actions`|Yes||
 |3a|Component|`sbb-secondary-button`|Yes|Auch Block-Links sind erlaubt|
 |3b|Component|`sbb-button`|Yes|Auch Block-Links sind erlaubt|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

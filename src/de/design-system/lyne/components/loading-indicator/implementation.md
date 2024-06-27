@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.loadingindicator.loadingindicator | safe }}
+{{ lyne.readmes.loadingindicator.loadingindicator | absolutelinks | safe }}
 
 

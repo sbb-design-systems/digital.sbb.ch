@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.journeyheader.journeyheader | safe }}
+{{ lyne.readmes.journeyheader.journeyheader | absolutelinks | safe }}
 
 

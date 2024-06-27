@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Text|Label|No||
@@ -22,3 +24,8 @@ permalink: false
 |3a|Component|`sbb-icon`|Yes||
 |3b|Text||Yes||
 |4|Component|`sbb-card-badge`|Yes||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

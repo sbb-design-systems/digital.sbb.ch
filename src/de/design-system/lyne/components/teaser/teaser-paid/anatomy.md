@@ -14,7 +14,14 @@ permalink: false
   title: 'Anatomie der Komponente'
 }) }}
 
+<sbb-table-wrapper>
+
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
 |1|Komponente|`sbb-image`|Nein||
 |2|Komponente|`sbb-chip`|Ja||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

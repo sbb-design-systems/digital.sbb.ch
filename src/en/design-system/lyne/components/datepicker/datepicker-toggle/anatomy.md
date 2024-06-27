@@ -14,6 +14,8 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-form-field`|No||
@@ -23,3 +25,8 @@ permalink: false
 |1d|Component|`sbb-datepicker-toggle`|Yes||
 |1e|Component|`sbb-datepicker-next-day`|Yes||
 |2|Component|`sbb-datepicker`|No||
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

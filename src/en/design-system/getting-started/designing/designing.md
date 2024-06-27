@@ -20,6 +20,9 @@ order: 2
 <a id="variant"></a>
 
 ### Which version fits my project? (Mobile / Lean / Web / Lyne) 
+
+<sbb-table-wrapper>
+
 | In my project, we are...                                            | This version fits you                                                                                      |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | ... creating a web application for our **employees.**               | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>| 
@@ -28,6 +31,11 @@ order: 2
 | ... creating a a new website/microsite for **our clients**.         | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>|
 | ... enhance an existing website/microsite for **our clients**.      | <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>|
 | ... creating a native app and a web application for **our clients**.| <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>| & <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>
 
 <a id="figma-space"></a>
 

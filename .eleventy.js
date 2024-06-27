@@ -91,6 +91,23 @@ module.exports = function (config) {
         return array.slice(-1);}
     );
 
+    config.addFilter("absolutelinks", (post) => {
+        const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
+
+
+        // Funktion zum Einfügen von <sbb-table-wrapper> Tags um Tabellen
+        function wrapTablesWithSbbTableWrapper(content) {
+            // Regex zum Finden von Tabellen
+            const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
+            // Tabellen mit <sbb-table-wrapper> umschließen
+            return content.replace(tableRegex, (match) => `<sbb-table-wrapper>\n\n${match}\n\n{.sbb-table}\n\n</sbb-table-wrapper>\n\n`);
+        }
+        
+        const updatedContent = wrapTablesWithSbbTableWrapper(content);
+        //
+        return updatedContent;
+      });
+
     config.addFilter("defaultlanguagecontent", (array, currPage) => {
       currPage = currPage.slice(3);
       const pageArr = array.filter((page) => page.url == "/de"+currPage);

@@ -7,6 +7,6 @@ icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.button.transparentbuttonlink | safe }}
+{{ lyne.readmes.button.transparentbuttonlink | absolutelinks | safe }}
 
 

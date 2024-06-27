@@ -14,6 +14,13 @@ permalink: false
   title: 'Anatomy of the component'
 }) }}
 
+<sbb-table-wrapper>
+
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-block-link`|No|Es sind mehrere Links in der Liste erlaubt. </br>Nur der jeweils fokussierte Link wird dargestellt.|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>

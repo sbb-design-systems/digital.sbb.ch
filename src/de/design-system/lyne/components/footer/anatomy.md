@@ -15,9 +15,16 @@ permalink: false
 }) }}
 
 
+<sbb-table-wrapper>
+
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
 |1|Slot|Die Inhalte werden Block für Block dargestellt (per css-grid)|Ja|Nur bei Variante `variant='clock-columns'`|
 |2|Komponente|`sbb-divider`|Ja||
 |3|Slot|Beliebiger Inhalt|Ja|Üblicherweise wird eine `sbb-link-list` verwendet.|
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>
 
