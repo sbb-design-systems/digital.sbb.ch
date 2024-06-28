@@ -5,10 +5,12 @@
     "main": "index.js",
     "private": true,
     "scripts": {
-        "copy:components": "npx copyfiles -f ./node_modules/list.js/dist/* dist/assets/js/listjs/ && npx copyfiles -u 4 ./node_modules/ux-components/dist/ux-components/*.* dist/assets/js/ux-components/",
+        "bundle:lyne": "esbuild .lyne-bundle.js --format=esm --bundle --minify --outfile=dist/assets/js/lyne-bundle.js",
+        "copy:components": "copyfiles -f ./node_modules/list.js/dist/* dist/assets/js/listjs/ && copyfiles -u 4 ./node_modules/ux-components/dist/ux-components/*.* dist/assets/js/ux-components/",
         "html-minify": "html-minifier --input-dir dist --output-dir dist --file-ext html --remove-comments --collapse-whitespace --conservative-collapse --minify-js false --minify-css true",
-        "start": "npm run copy:components && npx @11ty/eleventy --serve",
-        "build": "npm run copy:components && MY_ENVIRONMENT=production npx @11ty/eleventy && npm run html-minify"
+        "prestart": "npm run copy:components && npm run bundle:lyne",
+        "start": "eleventy --serve",
+        "build": "npm run copy:components && npm run bundle:lyne && BUILD_MODE=production eleventy && gzipper compress ./dist"
     },
     "author": "Manuel Cilurzo",
     "license": "ISC",
@@ -19,14 +21,15 @@
         "@sbb-esta/lyne-design-tokens": "^1.0.1",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.19.11",
+        "gzipper": "^7.2.0",
         "html-minifier": "^4.0.0"
     },
     "dependencies": {
         "@11ty/eleventy-fetch": "^4.0.0",
         "@kevingimbel/eleventy-plugin-mermaid": "^2.1.0",
         "@lit-labs/eleventy-plugin-lit": "^1.0.3",
-        "@sbb-esta/lyne-elements": "1.2.0",
-        "@sbb-esta/lyne-elements-experimental": "1.2.0",
+        "@sbb-esta/lyne-elements": "1.2.1",
+        "@sbb-esta/lyne-elements-experimental": "1.2.1",
         "@webcomponents/template-shadowroot": "^0.2.1",
         "copyfiles": "^2.4.1",
         "eleventy-plugin-i18n": "^0.1.3",

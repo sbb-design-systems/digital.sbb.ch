@@ -19,14 +19,19 @@ function sortByOrder(values) {
 
 module.exports = function (config) {
 
-
-    config.addPlugin(litPlugin, {
-        mode: 'worker',
-        componentModules: [
-        './node_modules/@sbb-esta/lyne-elements/index.js',
-        './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
-        ],
-    });
+    // Can be activated by running "SSR=1 npm start" on Unix systems
+    if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
+        console.log(`Activated SSR plugin`);
+        config.addPlugin(litPlugin, {
+            mode: 'worker',
+            componentModules: [
+                './node_modules/@sbb-esta/lyne-elements/index.js',
+                './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
+            ],
+        });
+    } else {
+        console.log(`SSR plugin not active`);
+    }
 
     config.addFilter("renderUsingMarkdown", function(rawMarkup) {
         return markdownLib.render(rawMarkup);
@@ -63,13 +68,6 @@ module.exports = function (config) {
     config.addPassthroughCopy("src/assets/downloads");
     config.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     config.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
-
-    require("esbuild").buildSync({
-        entryPoints:[".lyne-bundle.js"],
-        bundle:true,
-        minify:true,
-        outfile:"dist/assets/js/lyne-bundle.js"
-    })  
 
     config.addPlugin(eleventySass, [
         {

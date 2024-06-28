@@ -22,11 +22,34 @@
 <base href="http://localhost:8080/">
 {% endif %}
 
+<link
+    rel="preload"
+    href="https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+/>
+<link
+    rel="preload"
+    href="https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+/>
+<link
+    rel="preload"
+    href="https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin="anonymous"
+/>
+
 <link rel="stylesheet" href="/assets/css/lyne.css">
 <link rel="stylesheet" href="/assets/css/styles.css">
 
-<script type="module" src="/assets/js/lyne-bundle.js"></script>
-<script type="module" src="/assets/js/ux-components/ux-components.esm.js"></script>
+<link rel="modulepreload" href="/assets/js/lyne-bundle.js" />
+<link rel="modulepreload" href="/assets/js/ux-components/ux-components.esm.js" />
+
 <script src="/assets/js/listjs/list.min.js"></script>
 
 <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png">
