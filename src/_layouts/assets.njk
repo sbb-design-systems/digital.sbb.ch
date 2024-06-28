@@ -1,0 +1,10 @@
+---
+layout: base.njk
+---
+{% if availablelanguages.length %}
+  {% include "../_includes/missing-languages.njk" %}
+{% else %}
+  {% include "../_includes/title.njk" %}
+  {{ content | safe }}
+{% endif %}
+
