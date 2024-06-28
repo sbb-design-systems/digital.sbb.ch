@@ -18,9 +18,11 @@ function sortByOrder(values) {
 }
 
 module.exports = function (config) {
+    config.setQuietMode(true);
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
     if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
+        config.setQuietMode(false);
         console.log(`Activated SSR plugin`);
         config.addPlugin(litPlugin, {
             mode: 'worker',
@@ -37,7 +39,7 @@ module.exports = function (config) {
         return markdownLib.render(rawMarkup);
     });
 
-    config.setQuietMode(true);
+    
 
     config.addCollection('everything', (collectionApi) => {
         const imageWithMode = `{% from "src/_includes/macros/macros.njk" import imageWithMode %}`;
