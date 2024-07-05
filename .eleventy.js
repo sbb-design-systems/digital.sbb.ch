@@ -22,6 +22,7 @@ module.exports = function (config) {
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
     if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
+        /*
         config.setQuietMode(false);
         console.log(`Activated SSR plugin`);
         config.addPlugin(litPlugin, {
@@ -30,7 +31,7 @@ module.exports = function (config) {
                 './node_modules/@sbb-esta/lyne-elements/index.js',
                 './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
             ],
-        });
+        });*/
     } else {
         console.log(`SSR plugin not active`);
     }
