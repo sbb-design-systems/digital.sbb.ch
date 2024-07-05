@@ -1,7 +1,6 @@
 {
     "tag":"sbb-time-input",
     "content":"<sbb-form-field class='demo-item' size='m' width='default'><label>Label</label></sbb-time-input><input id='input-id' value='12:00'><sbb-form-error class='error' slot='no'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='no' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='no' name='pie-small'></sbb-icon></sbb-icon></sbb-form-field>",
- 
     "configuration" : [
         {
             "attribute":"prefix",

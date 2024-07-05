@@ -10,7 +10,8 @@
         "html-minify": "html-minifier --input-dir dist --output-dir dist --file-ext html --remove-comments --collapse-whitespace --conservative-collapse --minify-js false --minify-css true",
         "prestart": "npm run copy:components && npm run bundle:lyne",
         "start": "node --max-old-space-size=8000 ./node_modules/@11ty/eleventy/cmd.js --serve",
-        "build": "npm run copy:components && npm run bundle:lyne && BUILD_MODE=production node --max-old-space-size=8000 ./node_modules/@11ty/eleventy/cmd.js && gzipper compress ./dist"
+        "build": "npm run copy:components && npm run bundle:lyne && node --max-old-space-size=8000 ./node_modules/@11ty/eleventy/cmd.js && npm run html-minify && gzipper compress ./dist"
+
     },
     "author": "Manuel Cilurzo",
     "license": "ISC",

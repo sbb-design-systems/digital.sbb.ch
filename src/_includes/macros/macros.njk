@@ -1,12 +1,12 @@
-{% macro imageWithMode(params) %}<div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x" /></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x" /></figure></div>{% include "../documentation/mode-switch.njk" %}{% endmacro %}
+{% macro imageWithMode(params) %}<div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x"></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x"></figure></div>{% include "../documentation/mode-switch.njk" %}{% endmacro %}
 
-{% macro imageOnGreyBackground(params) %}<div class="boxed-image"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure></div>{% endmacro %}
+{% macro imageOnGreyBackground(params) %}<div class="boxed-image"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure></div>{% endmacro %}
 
-{% macro imageSpec(params) %}<div class="boxed-image specification"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure></div>{% endmacro %}
+{% macro imageSpec(params) %}<div class="boxed-image specification"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure></div>{% endmacro %}
 
-{% macro principleImage(params) %}<figure class="principle-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure>{% endmacro %}
+{% macro principleImage(params) %}<figure class="principle-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure>{% endmacro %}
 
-{% macro webpImage(params) %}<figure class="default-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x" /></figure>{% endmacro %}
+{% macro webpImage(params) %}<figure class="default-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure>{% endmacro %}
 
 {% macro svgImage(params) %}<figure class="svg-image"><img src="{{ params.url }}.svg" alt="{{ params.alt }}" title="{{ params.title }}"></figure>{% endmacro %}
 
@@ -61,7 +61,7 @@
                 <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
                     <sbb-expansion-panel-header>{{ params.translations[item.label] }}</sbb-expansion-panel-header>
                     <sbb-expansion-panel-content>
-                        <sbb-radio-button-group value="{{item.default}}" aria-label="{{item.attribute}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.attribute}}">
+                        <sbb-radio-button-group value="{{item.default}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.attribute}}">
                             {% for option in item.options %}
                                 <sbb-radio-button value="{{option.value}}">{{ params.translations[option.label] }}</sbb-radio-button>
                             {% endfor %}
@@ -99,7 +99,7 @@
     {% if stor.tag == tag and stor.component == true %}
     <sbb-title level="3" visual-level="5">{{stor.name}}</sbb-title>
     <div class="example">
-            <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" width="100%" scrolling="no" frameborder="0" title="{{stor.name}}"></iframe>
+            <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" title="{{stor.name}}"></iframe>
             <div class="example-footer">
                 <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
                     <sbb-secondary-button-link size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-secondary-button-link>

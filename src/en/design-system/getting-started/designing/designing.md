@@ -74,7 +74,7 @@ Not a Figma Hero yet? Join our <sbb-link variant="inline" type="button" target="
 <a id="use-components"></a>
 
 ### Browse, understand, use components
-After that you can use components in Figma. It is recommended that you become familiar with the relevant documentation on this page: <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>, <sbb-link variant="inline" type="button" href="/{page. lang}}/design-system/mobile/overview/">Mobile</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>.{.lead}
+After that you can use components in Figma. It is recommended that you become familiar with the relevant documentation on this page: <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>.{.lead}
 
 <a id="community-assets"></a>
 
