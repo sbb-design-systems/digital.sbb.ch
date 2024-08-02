@@ -3,6 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_en
     - lyne_components_en
+    - lyne_components_datepicker_en
     - page
 key: datepicker-lyne_en
 title: Datepicker

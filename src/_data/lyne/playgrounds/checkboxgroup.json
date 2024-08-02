@@ -24,9 +24,13 @@
             "default":"s",
             "mode":"property",
             "options" : [{
+                "value":"xs",
+                "label":"xs"
+            },
+            {
                 "value":"s",
                 "label":"s"
-            }, 
+            },  
             {
                 "value":"m",
                 "label":"m"

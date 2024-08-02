@@ -236,7 +236,13 @@ module.exports = {
       "variant-components":"Variants",
       "examples":"Examples",
       "playground":"Playground",
-
+      "pending": "Pending",
+      "incomplete": "Incomplete",
+      "not-started": "Not-Started",
+      "in-progress": "In-Progress",
+      "storybooklink": "Try it out on Storybook",
+      "copyhtml": "Copy HTML to clipboard.",
+      "showhtml": "Show HTML",
     }
   },
   de: {
@@ -458,6 +464,13 @@ module.exports = {
       "variant-components":"Varianten",
       "examples":"Beispiele",
       "playground":"Spielwiese",
+      "pending": "Pending",
+      "incomplete": "Incomplete",
+      "not-started": "Not-Started",
+      "in-progress": "In-Progress",
+      "storybooklink": "Auf Storybook ausprobieren",
+      "copyhtml": "HTML in Zwischenablage kopiert.",
+      "showhtml": "HTML einblenden"
     }
   },
   fr: {

@@ -25,7 +25,7 @@ permalink: false
 |1d|Component|`sbb-icon`|Yes|Suffix|
 |2|Component|`sbb-optgroup`|Yes||
 |2a|Text|Label|No||
-|2b|Component|`sbb-divider`|-|Erscheint bei einer `optgroup`|
+|2b|Component|`sbb-divider`|-|Appears with an `optgroup`|
 |3|Component|`sbb-option`|No||
 |3a|Text|Value|No||
 |3b|Component|`sbb-icon`|Yes||

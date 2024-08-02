@@ -23,6 +23,22 @@
             {
                 "value":"error",
                 "label":"error"
+            }, 
+            {
+                "value":"pending",
+                "label":"pending"
+            }, 
+            {
+                "value":"incomplete",
+                "label":"incomplete"
+            }, 
+            {
+                "value":"not-started",
+                "label":"not-started"
+            }, 
+            {
+                "value":"in-progress",
+                "label":"in-progress"
             }
         ]
         },

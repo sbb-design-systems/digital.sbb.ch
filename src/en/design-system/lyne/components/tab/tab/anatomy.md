@@ -1,6 +1,6 @@
 ---
 tags: tab-lyne_en
-title: Anatomie
+title: Anatomy
 key: tab-lyne-anatomy_en
 parent: tab-lyne_en
 icon: specification

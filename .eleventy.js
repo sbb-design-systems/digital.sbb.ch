@@ -17,15 +17,15 @@ function sortByOrder(values) {
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
 }
 
-module.exports = function (config) {
-    config.setQuietMode(true);
+module.exports = function (eleventyConfig) {
+    eleventyConfig.setQuietMode(true);
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
     if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
         /*
-        config.setQuietMode(false);
+        eleventyConfig.setQuietMode(false);
         console.log(`Activated SSR plugin`);
-        config.addPlugin(litPlugin, {
+        eleventyConfig.addPlugin(litPlugin, {
             mode: 'worker',
             componentModules: [
                 './node_modules/@sbb-esta/lyne-elements/index.js',
@@ -36,13 +36,13 @@ module.exports = function (config) {
         console.log(`SSR plugin not active`);
     }
 
-    config.addFilter("renderUsingMarkdown", function(rawMarkup) {
+    eleventyConfig.addFilter("renderUsingMarkdown", function(rawMarkup) {
         return markdownLib.render(rawMarkup);
     });
 
     
 
-    config.addCollection('everything', (collectionApi) => {
+    eleventyConfig.addCollection('everything', (collectionApi) => {
         const imageWithMode = `{% from "src/_includes/macros/macros.njk" import imageWithMode %}`;
         const imageOnGreyBackground = `{% from "src/_includes/macros/macros.njk" import imageOnGreyBackground %}`;
         const principleImage = `{% from "src/_includes/macros/macros.njk" import principleImage %}`;
@@ -62,17 +62,17 @@ module.exports = function (config) {
         })
         return collection;
       });
-    //config.addPlugin(syntaxHighlight);
-    config.addPlugin(eleventyNavigationPlugin);
-    config.setLibrary('md', markdownLib)
-    config.addPassthroughCopy("src/assets/images");
-    config.addPassthroughCopy("src/assets/js");
-    config.addPassthroughCopy("src/assets/fonts");
-    config.addPassthroughCopy("src/assets/downloads");
-    config.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
-    config.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
+    //eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    eleventyConfig.setLibrary('md', markdownLib)
+    eleventyConfig.addPassthroughCopy("src/assets/images");
+    eleventyConfig.addPassthroughCopy("src/assets/js");
+    eleventyConfig.addPassthroughCopy("src/assets/fonts");
+    eleventyConfig.addPassthroughCopy("src/assets/downloads");
+    eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+    eleventyConfig.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 
-    config.addPlugin(eleventySass, [
+    eleventyConfig.addPlugin(eleventySass, [
         {
             compileOptions: {
                 cache: true
@@ -87,12 +87,12 @@ module.exports = function (config) {
             }
         }]);
 
-    config.addFilter("sortByOrder", sortByOrder);
-    config.addFilter("lastOfArray", function(array) {
+    eleventyConfig.addFilter("sortByOrder", sortByOrder);
+    eleventyConfig.addFilter("lastOfArray", function(array) {
         return array.slice(-1);}
     );
 
-    config.addFilter("absolutelinks", (post) => {
+    eleventyConfig.addFilter("absolutelinks", (post) => {
         const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
 
 
@@ -109,17 +109,17 @@ module.exports = function (config) {
         return updatedContent;
       });
 
-    config.addFilter("defaultlanguagecontent", (array, currPage) => {
+      eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => {
       currPage = currPage.slice(3);
       const pageArr = array.filter((page) => page.url == "/de"+currPage);
       return pageArr;
     });
 
-    config.addPlugin(EleventyI18nPlugin, {
+    eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: "de",
       });
 
-     config.addFilter("lyneexample", (pattern) => {
+      eleventyConfig.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    
         const rawStories = lyneStories[pattern];
         const stories = [];

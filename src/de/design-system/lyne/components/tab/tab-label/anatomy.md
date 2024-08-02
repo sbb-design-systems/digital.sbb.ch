@@ -9,7 +9,7 @@ permalink: false
 ---
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/lyne/anatomy/anatomy_tab',
+  url: '/assets/images/lyne/anatomy/anatomy_tab_label',
   alt: 'Anatomie der Komponente',
   title: 'Anatomie der Komponente'
 }) }}

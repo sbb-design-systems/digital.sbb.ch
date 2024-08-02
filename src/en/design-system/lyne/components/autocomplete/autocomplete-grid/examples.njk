@@ -1,0 +1,19 @@
+---
+tags: autocomplete-grid-lyne_en
+title: Demo
+key: autocomplete-grid-lyne-examples_en
+parent: autocomplete-grid-lyne_en
+icon: demo
+order: 3
+permalink: false  
+---
+{{ lynePlayground({
+  json: lyne.playgrounds.autocompletegrid,
+  translations: translations["en"].lyne
+}) }}
+
+{{ lyneExamples({
+  tag: "sbb-autocomplete-grid",
+  stories: lyne.stories[0],
+  translations: translations["en"].lyne
+}) }}

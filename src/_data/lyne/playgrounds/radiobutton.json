@@ -2,15 +2,19 @@
 
 {
     "tag":"sbb-radio-button",
-    "content":"<sbb-radio-button class='demo-item' value='single-checkbox' icon-name='glass-cocktail-small' icon-placement='start' size='m'>Example</sbb-radio-button>",
+    "content":"<sbb-radio-button class='demo-item' value='single-checkbox' icon-name='glass-cocktail-small' icon-placement='start' size='s'>Example</sbb-radio-button>",
     "configuration" : [
         {
             "attribute":"size",
             "label":"size",
             "target":"demo-item",
-            "default":"m",
+            "default":"s",
             "mode":"property",
             "options" : [{
+                "value":"xs",
+                "label":"xs"
+            },
+            {
                 "value":"s",
                 "label":"s"
             },

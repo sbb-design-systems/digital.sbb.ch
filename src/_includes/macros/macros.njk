@@ -102,15 +102,15 @@
             <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" title="{{stor.name}}"></iframe>
             <div class="example-footer">
                 <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
-                    <sbb-secondary-button-link size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">Auf Storybook ausprobieren</sbb-secondary-button-link>
+                    <sbb-secondary-button-link size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">{{ params.translations["storybooklink"] }}</sbb-secondary-button-link>
                     <sbb-secondary-button size="m" data-iframeid="{{stor.id}}" icon-name="clipboard-list-small"></sbb-secondary-button>
-                    <sbb-toggle-check data-codetoggle="{{stor.id}}" size="m" label-position="after">HTML-Markup einblenden</sbb-toggle-check>
+                    <sbb-toggle-check data-codetoggle="{{stor.id}}" size="m" label-position="after">{{ params.translations["showhtml"] }}</sbb-toggle-check>
                 </sbb-action-group>
             </div>
         </div>
     {% endif %}
     {% endfor %}
-    <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">HTML-Markup kopiert.</sbb-toast>
+    <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">{{ params.translations["copyhtml"] }}</sbb-toast>
     <script src="/assets/js/lyne-examples.js"></script>
 {% endmacro %}
 
