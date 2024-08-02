@@ -1,8 +1,8 @@
-const eleventySass = require("eleventy-sass");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const { EleventyI18nPlugin } = require("@11ty/eleventy");
-const litPlugin = require('@lit-labs/eleventy-plugin-lit');
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
+//const eleventySass = require("eleventy-sass");
+//const litPlugin = require('@lit-labs/eleventy-plugin-lit');
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
 const markdownItOptions = {
@@ -17,51 +17,48 @@ function sortByOrder(values) {
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
 }
 
-module.exports = function (eleventyConfig) {
-    eleventyConfig.setQuietMode(true);
+module.exports = async function(eleventyConfig) {
+    const { EleventyI18nPlugin } = await import("@11ty/eleventy");
+
+    eleventyConfig.addPlugin(UpgradeHelper);
+
+    //eleventyConfig.setQuietMode(true);
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
-    if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
-        /*
-        eleventyConfig.setQuietMode(false);
-        console.log(`Activated SSR plugin`);
-        eleventyConfig.addPlugin(litPlugin, {
-            mode: 'worker',
-            componentModules: [
-                './node_modules/@sbb-esta/lyne-elements/index.js',
-                './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
-            ],
-        });*/
-    } else {
-        console.log(`SSR plugin not active`);
-    }
-
-    eleventyConfig.addFilter("renderUsingMarkdown", function(rawMarkup) {
-        return markdownLib.render(rawMarkup);
-    });
-
-    
-
-    eleventyConfig.addCollection('everything', (collectionApi) => {
-        const imageWithMode = `{% from "src/_includes/macros/macros.njk" import imageWithMode %}`;
-        const imageOnGreyBackground = `{% from "src/_includes/macros/macros.njk" import imageOnGreyBackground %}`;
-        const principleImage = `{% from "src/_includes/macros/macros.njk" import principleImage %}`;
-        const svgImage = `{% from "src/_includes/macros/macros.njk" import svgImage %}`;
-        const webpImage = `{% from "src/_includes/macros/macros.njk" import webpImage %}`;
-        const buttonGroup = `{% from "src/_includes/macros/macros.njk" import buttonGroup %}`;
-        const specificationLinks = `{% from "src/_includes/macros/macros.njk" import specificationLinks %}`;
-        const imageSpec = `{% from "src/_includes/macros/macros.njk" import imageSpec %}`;
-        const lynePlayground = `{% from "src/_includes/macros/macros.njk" import lynePlayground %}`;
-        const lyneExamples = `{% from "src/_includes/macros/macros.njk" import lyneExamples %}`;
-        const lyneComponentLinks = `{% from "src/_includes/macros/macros.njk" import lyneComponentLinks %}`;
+        if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
+            /*
+            eleventyConfig.setQuietMode(false);
+            console.log(`Activated SSR plugin`);
+            eleventyConfig.addPlugin(litPlugin, {
+                mode: 'worker',
+                componentModules: [
+                    './node_modules/@sbb-esta/lyne-elements/index.js',
+                    './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
+                ],
+            });*/
+        } 
+        else { console.log(`SSR plugin not active`);}
 
 
-        let collection = collectionApi.getFilteredByGlob(["src/**/*.md", "src/**/*.njk"]);
-        collection.forEach((item) => {
-          item.template.frontMatter.content = `${svgImage}\n${webpImage}\n${imageWithMode}\n${imageOnGreyBackground}\n${principleImage}\n${buttonGroup}\n${specificationLinks}\n${imageSpec}\n${lynePlayground}\n${lyneExamples}\n${lyneComponentLinks}\n${item.template.frontMatter.content}`
-        })
-        return collection;
-      });
+
+
+        eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
+            return `
+            {%- from "src/_includes/macros/macros.njk" import imageWithMode -%}\n
+            {%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}\n
+            {%- from "src/_includes/macros/macros.njk" import principleImage -%}\n
+            {%- from "src/_includes/macros/macros.njk" import svgImage -%}\n
+            {%- from "src/_includes/macros/macros.njk" import webpImage -%}\n
+            {%- from "src/_includes/macros/macros.njk" import buttonGroup -%}\n
+            {%- from "src/_includes/macros/macros.njk" import specificationLinks -%}\n
+            {%- from "src/_includes/macros/macros.njk" import imageSpec -%}\n
+            {%- from "src/_includes/macros/macros.njk" import lynePlayground -%}\n
+            {%- from "src/_includes/macros/macros.njk" import lyneExamples -%}\n
+            {%- from "src/_includes/macros/macros.njk" import lyneComponentLinks -%}\n
+            ` + content;
+        });  
+
+
     //eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.setLibrary('md', markdownLib)
@@ -72,6 +69,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     eleventyConfig.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 
+    /*
     eleventyConfig.addPlugin(eleventySass, [
         {
             compileOptions: {
@@ -86,7 +84,7 @@ module.exports = function (eleventyConfig) {
                 output: "dist/assets/css"
             }
         }]);
-
+*/
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
     eleventyConfig.addFilter("lastOfArray", function(array) {
         return array.slice(-1);}
@@ -109,7 +107,7 @@ module.exports = function (eleventyConfig) {
         return updatedContent;
       });
 
-      eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => {
+    eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => {
       currPage = currPage.slice(3);
       const pageArr = array.filter((page) => page.url == "/de"+currPage);
       return pageArr;
@@ -119,7 +117,7 @@ module.exports = function (eleventyConfig) {
         defaultLanguage: "de",
       });
 
-      eleventyConfig.addFilter("lyneexample", (pattern) => {
+    eleventyConfig.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    
         const rawStories = lyneStories[pattern];
         const stories = [];
