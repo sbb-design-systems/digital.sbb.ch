@@ -1,9 +1,11 @@
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
-
-//const eleventySass = require("eleventy-sass");
 //const litPlugin = require('@lit-labs/eleventy-plugin-lit');
+
+const sass = require("sass");
+const path = require("node:path");
+
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const markdownIt = require('markdown-it')
+const markdownIt = require('markdown-it');
+const mdRender = new markdownIt();
 const markdownItAttrs = require('markdown-it-attrs')
 const markdownItOptions = {
   html: true,
@@ -20,12 +22,10 @@ function sortByOrder(values) {
 module.exports = async function(eleventyConfig) {
     const { EleventyI18nPlugin } = await import("@11ty/eleventy");
 
-    eleventyConfig.addPlugin(UpgradeHelper);
-
-    //eleventyConfig.setQuietMode(true);
+    eleventyConfig.setQuietMode(true);
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
-        if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
+    if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
             /*
             eleventyConfig.setQuietMode(false);
             console.log(`Activated SSR plugin`);
@@ -37,29 +37,9 @@ module.exports = async function(eleventyConfig) {
                 ],
             });*/
         } 
-        else { console.log(`SSR plugin not active`);}
+    else { console.log(`SSR plugin not active`);}
 
 
-
-
-        eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
-            return `
-            {%- from "src/_includes/macros/macros.njk" import imageWithMode -%}\n
-            {%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}\n
-            {%- from "src/_includes/macros/macros.njk" import principleImage -%}\n
-            {%- from "src/_includes/macros/macros.njk" import svgImage -%}\n
-            {%- from "src/_includes/macros/macros.njk" import webpImage -%}\n
-            {%- from "src/_includes/macros/macros.njk" import buttonGroup -%}\n
-            {%- from "src/_includes/macros/macros.njk" import specificationLinks -%}\n
-            {%- from "src/_includes/macros/macros.njk" import imageSpec -%}\n
-            {%- from "src/_includes/macros/macros.njk" import lynePlayground -%}\n
-            {%- from "src/_includes/macros/macros.njk" import lyneExamples -%}\n
-            {%- from "src/_includes/macros/macros.njk" import lyneComponentLinks -%}\n
-            ` + content;
-        });  
-
-
-    //eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.setLibrary('md', markdownLib)
     eleventyConfig.addPassthroughCopy("src/assets/images");
@@ -69,53 +49,58 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     eleventyConfig.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 
-    /*
-    eleventyConfig.addPlugin(eleventySass, [
-        {
-            compileOptions: {
-                cache: true
-            },
-            sass: {
-                loadPaths: ["node_modules/", "./"],
-                sourceMap: false
-            },
-            dir: {
-                input: "src",
-                output: "dist/assets/css"
-            }
-        }]);
-*/
-    eleventyConfig.addFilter("sortByOrder", sortByOrder);
-    eleventyConfig.addFilter("lastOfArray", function(array) {
-        return array.slice(-1);}
-    );
+    eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
+        return `
+        {%- from "src/_includes/macros/macros.njk" import imageWithMode -%}\n
+        {%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}\n
+        {%- from "src/_includes/macros/macros.njk" import principleImage -%}\n
+        {%- from "src/_includes/macros/macros.njk" import svgImage -%}\n
+        {%- from "src/_includes/macros/macros.njk" import webpImage -%}\n
+        {%- from "src/_includes/macros/macros.njk" import buttonGroup -%}\n
+        {%- from "src/_includes/macros/macros.njk" import specificationLinks -%}\n
+        {%- from "src/_includes/macros/macros.njk" import imageSpec -%}\n
+        {%- from "src/_includes/macros/macros.njk" import lynePlayground -%}\n
+        {%- from "src/_includes/macros/macros.njk" import lyneExamples -%}\n
+        {%- from "src/_includes/macros/macros.njk" import lyneComponentLinks -%}\n
+        ` + content;
+    });  
 
-    eleventyConfig.addFilter("absolutelinks", (post) => {
-        const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
-
-
-        // Funktion zum Einfügen von <sbb-table-wrapper> Tags um Tabellen
-        function wrapTablesWithSbbTableWrapper(content) {
-            // Regex zum Finden von Tabellen
-            const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
-            // Tabellen mit <sbb-table-wrapper> umschließen
-            return content.replace(tableRegex, (match) => `<sbb-table-wrapper>\n\n${match}\n\n{.sbb-table}\n\n</sbb-table-wrapper>\n\n`);
-        }
-        
-        const updatedContent = wrapTablesWithSbbTableWrapper(content);
-        //
-        return updatedContent;
-      });
-
-    eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => {
-      currPage = currPage.slice(3);
-      const pageArr = array.filter((page) => page.url == "/de"+currPage);
-      return pageArr;
+    eleventyConfig.addTemplateFormats("scss");
+    eleventyConfig.addExtension("scss", {
+    outputFileExtension: "css", 
+    compile: function (inputContent, inputPath) {
+        let parsed = path.parse(inputPath);
+        let result = sass.compileString(inputContent, {
+        loadPaths: [
+            parsed.dir || ".",
+            this.config.dir.includes,
+            "./",
+            "node_modules"
+        ]
+        });
+        return (data) => {
+        return result.css;
+        };
+    }
     });
 
-    eleventyConfig.addPlugin(EleventyI18nPlugin, {
-        defaultLanguage: "de",
-      });
+    eleventyConfig.addFilter("sortByOrder", sortByOrder);
+    eleventyConfig.addFilter("lastOfArray", function(array) {return array.slice(-1);});
+    eleventyConfig.addFilter("absolutelinks", (post) => {
+        const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
+        function wrapTablesWithSbbTableWrapper(content) {
+            const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
+            return content.replace(tableRegex, (match) => `<sbb-table-wrapper>\n\n${match}\n\n{.sbb-table}\n\n</sbb-table-wrapper>\n\n`);
+        }
+        const updatedContent = wrapTablesWithSbbTableWrapper(content);
+        return updatedContent;});
+
+    eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => {
+        currPage = currPage.slice(3);
+        const pageArr = array.filter((page) => page.url == "/de"+currPage);
+        return pageArr;});
+
+    eleventyConfig.addPlugin(EleventyI18nPlugin, {defaultLanguage: "de",});
 
     eleventyConfig.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    
@@ -199,7 +184,11 @@ module.exports = async function(eleventyConfig) {
             }
         });
         return stories;
-      }); 
+        }); 
+
+    eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
+        return mdRender.render(rawString);
+      });  
 
 
     return {
