@@ -8,7 +8,7 @@ tags:
     - lyne_components_button_siblings_de
     - page
 key: button-lyne_de
-title: Primary-Button
+title: Button (Primary)
 parent: button-folder-lyne_de
 keywords: button, icon, split, action
 order: 10
