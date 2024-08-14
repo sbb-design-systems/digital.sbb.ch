@@ -22,19 +22,34 @@ The component has the following variants:{.lead}
 * Title: Optional
 * Close-Button: Optional
 * Detail-Link: Optional
+* Interaction: Optional
 
-### Notificaton-Box with Titel
+### Notification-Box with Titel
 {{ imageWithMode({
-  url: '/assets/images/mobile/notification-with-title',
+  url: '/assets/images/mobile/notification-default-with-title',
   alt: 'Notificaton-Box, with Titel',
   title: 'Notificaton-Box, with Titel'
 }) }}
 
-### Notificaton-Box without Titel
+### Notification-Box without Titel
 {{ imageWithMode({
-  url: '/assets/images/mobile/notification-without-title',
+  url: '/assets/images/mobile/notification-default-without-title',
   alt: 'Notificaton-Box without Titel',
   title: 'Notificaton-Box without Titel'
+}) }}
+
+### Notification-Box with Interaction and Title
+{{ imageWithMode({
+  url: '/assets/images/mobile/notification-interaction-with-title',
+  alt: 'Notification-Box, mit Titel',
+  title: 'Notification-Box, mit Titel'
+}) }}
+
+### Notification-Box with Interaction without Title
+{{ imageWithMode({
+  url: '/assets/images/mobile/notification-interaction-without-title',
+  alt: 'Notification-Box, ohne Titel',
+  title: 'Notification-Box, ohne Titel'
 }) }}
 
 ## Spezifikationen
