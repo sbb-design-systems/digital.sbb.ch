@@ -1,8 +1,8 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 parent: en
-key: design-system_en
+key: designsystem_en
 title: Design System
 alternativetitle: The SBB Design System.
 redirect: /en/design-system/getting-started/designing/

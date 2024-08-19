@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: why_fr
 title: Sens & objectif
-parent: community-assets_fr
+parent: assetscommunity_fr
 order: 1
 availablelanguages: 
     - de

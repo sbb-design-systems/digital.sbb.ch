@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: foundation_fr
 title: Bases
 alternativetitle: Les bases de conception des CFF.

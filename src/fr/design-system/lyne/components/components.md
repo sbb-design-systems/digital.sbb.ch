@@ -1,9 +1,9 @@
 ---
 layout: overview-lyne.njk
-tags: page
+tags: level3
 key: components-lyne_fr
-title: Komponenten
-alternativetitle: Komponenten Lyne
+title: Composants
+alternativetitle: Composants
 parent: lyne_fr
 order: 40
 componentbrowser: true

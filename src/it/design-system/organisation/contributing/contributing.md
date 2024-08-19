@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: contribution_it
 title: Contribution
 parent: organisation_it

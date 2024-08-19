@@ -1,6 +1,6 @@
 ---
 layout: overview.njk
-tags: page
+tags: level3
 key: basics-lean_de
 title: Basis
 alternativetitle: Basis Lean

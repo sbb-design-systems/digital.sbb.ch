@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: foundation_en
 title: Foundation
 alternativetitle: The SBB design fundamentals.

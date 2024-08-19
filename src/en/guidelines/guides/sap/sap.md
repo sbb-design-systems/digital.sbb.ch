@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: sap_en
 title: SAP Design Guidelines
 parent: guides_en

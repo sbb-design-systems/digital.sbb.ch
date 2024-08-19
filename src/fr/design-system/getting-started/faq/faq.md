@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: faq_fr
 title: FAQ
 parent: getting-started_fr

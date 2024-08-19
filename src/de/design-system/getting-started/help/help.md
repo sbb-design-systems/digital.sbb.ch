@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: help_de
 title: Hilfe
 parent: getting-started_de

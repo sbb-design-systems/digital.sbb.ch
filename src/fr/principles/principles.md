@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: principles_fr
 title: Principes
 alternativetitle: Principes de l'expérience utilisateur des CFF.

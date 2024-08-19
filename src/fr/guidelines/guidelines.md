@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: guidelines_fr
 title: Guidelines
 alternativetitle: Les lignes directrices des CFF qui aident.

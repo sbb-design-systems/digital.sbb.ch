@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: user-research_it
 title: User Research
 parent: roles_it

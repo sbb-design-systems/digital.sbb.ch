@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: development_fr
 title: Development
 parent: roles_fr

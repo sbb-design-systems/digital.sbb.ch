@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: app-icons_it
 title: Icone delle app
 parent: regulations_it

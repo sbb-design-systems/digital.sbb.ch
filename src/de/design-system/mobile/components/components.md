@@ -1,6 +1,6 @@
 ---
 layout: overview.njk
-tags: page
+tags: level3
 key: components-mobile_de
 title: Komponenten
 parent: mobile_de

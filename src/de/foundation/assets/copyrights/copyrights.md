@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: copyrights
 title: Nutzungsrechte
 parent: assets

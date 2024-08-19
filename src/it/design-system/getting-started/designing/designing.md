@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: designing_it
 title: Designing
 parent: getting-started_it

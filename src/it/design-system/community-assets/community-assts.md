@@ -1,10 +1,10 @@
 ---
 layout: page.njk
-tags: page
-key: community-assets_it
+tags: level2
+key: assetscommunity_it
 title: Community Assets
-parent: design-system_it
-order: 7
+parent: designsystem_it
+order: 8
 availablelanguages: 
     - de
     - en

@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: guides_en
 title: Guides
 redirect: /en/guidelines/guides/sap/

@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: why_en
 title: Sense & Purpose
-parent: community-assets_en
+parent: assetscommunity_en
 order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: contact_de
 title: Kontakt
 parent: organisation_de

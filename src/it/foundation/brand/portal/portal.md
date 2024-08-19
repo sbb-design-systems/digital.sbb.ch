@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level3
 key: portal_it
 title: Portale della marca FFS
 redirect: https://brand.sbb.ch/

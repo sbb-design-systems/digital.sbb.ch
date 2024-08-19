@@ -1,6 +1,6 @@
 ---
 layout: overview.njk
-tags: page
+tags: level3
 key: components-legacy_de
 title: Komponenten
 alternativetitle: Komponenten Web (Legacy)

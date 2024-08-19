@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: about-this-guide_de
 title: Über diesen Guide
 alternativetitle: Über diesen Guide

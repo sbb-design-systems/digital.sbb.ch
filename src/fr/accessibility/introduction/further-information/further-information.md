@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: further-information_fr
 title: Informations complémentaires
 parent: introduction_fr

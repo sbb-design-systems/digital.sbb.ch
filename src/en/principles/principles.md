@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: principles_en
 title: Principles
 alternativetitle: SBB User Experience Principles.

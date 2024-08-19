@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: guidelines_de
 title: Guidelines
 alternativetitle: SBB Guidelines die helfen.

@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level3
 key: portal_en
 title: SBB Brand portal
 redirect: https://brand.sbb.ch/

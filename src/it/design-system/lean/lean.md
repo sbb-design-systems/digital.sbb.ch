@@ -1,12 +1,12 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: lean_it
 title: Lean
 alternativetitle: Design System Lean
 redirect: /it/design-system/lean/overview/
-parent: design-system_it
-order: 4
+parent: designsystem_it
+order: 7
 availablelanguages: 
     - de
     - en

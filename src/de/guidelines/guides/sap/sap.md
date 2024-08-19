@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: sap_de
 title: SAP
 parent: guides_de

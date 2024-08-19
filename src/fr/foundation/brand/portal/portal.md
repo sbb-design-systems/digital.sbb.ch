@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level3
 key: portal_fr
 title: Portail de la marque CFF
 redirect: https://brand.sbb.ch/

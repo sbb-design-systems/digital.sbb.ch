@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: brand_fr
 title: La marque
 redirect: /de/foundation/brand/portal/

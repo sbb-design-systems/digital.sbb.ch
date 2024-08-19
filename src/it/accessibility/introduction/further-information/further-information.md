@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: further-information_it
 title: Letture consigliate
 parent: introduction_it

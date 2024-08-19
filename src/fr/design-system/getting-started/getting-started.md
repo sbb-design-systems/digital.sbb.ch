@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level2
 key: getting-started_fr
 title: Premiers pas
-parent: design-system_fr
+parent: designsystem_fr
 order: 10
 availablelanguages: 
     - de

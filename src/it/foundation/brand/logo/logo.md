@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: logo_it
 title: Logo
 parent: brand_it

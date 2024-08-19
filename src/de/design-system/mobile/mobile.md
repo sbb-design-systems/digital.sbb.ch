@@ -1,10 +1,10 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: mobile_de
 title: Mobile
 alternativetitle: Design System Mobile
 redirect: /de/design-system/mobile/overview/
-parent: design-system_de
-order: 30
+parent: designsystem_de
+order: 3
 ---

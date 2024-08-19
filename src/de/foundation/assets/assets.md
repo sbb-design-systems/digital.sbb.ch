@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: assets_de
 title: Assets
 redirect: /de/foundation/assets/icons/

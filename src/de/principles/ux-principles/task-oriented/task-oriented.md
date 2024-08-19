@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: 
-    - page
+    - level3
     - principle_de
 key: task-oriented_de
 title: Aufgabenorientiert

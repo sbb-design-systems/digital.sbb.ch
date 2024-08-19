@@ -1,10 +1,10 @@
 ---
 layout: page.njk
-tags: page
+tags: level2
 key: getting-started_it
 title: Primi passi
-parent: design-system_it
-order: 10
+parent: designsystem_it
+order: 1
 availablelanguages: 
     - de
     - en

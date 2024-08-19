@@ -1,8 +1,8 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 parent: it
-key: design-system_it
+key: designsystem_it
 title: Sistema di design
 alternativetitle: Il sistema di design FFS.
 redirect: /it/design-system/getting-started/designing/

@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: guidelines_it
 title: Guidelines
 alternativetitle: Linee guida utili delle FFS.

@@ -1,6 +1,6 @@
 ---
 layout: overview.njk
-tags: page
+tags: level3
 key: basics-mobile_fr
 title: Base
 alternativetitle: Base Mobile

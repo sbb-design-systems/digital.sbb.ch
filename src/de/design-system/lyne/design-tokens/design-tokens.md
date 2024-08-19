@@ -1,6 +1,6 @@
 ---
 layout: overview-lyne.njk
-tags: page
+tags: level3
 key: basics-lyne_de
 title: Design Tokens
 parent: lyne_de

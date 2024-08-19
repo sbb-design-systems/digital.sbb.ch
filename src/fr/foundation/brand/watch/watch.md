@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: watch_fr
 title: Horloge numérique
 parent: brand_fr

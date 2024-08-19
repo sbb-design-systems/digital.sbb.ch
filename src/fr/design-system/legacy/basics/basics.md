@@ -1,6 +1,6 @@
 ---
 layout: overview.njk
-tags: page
+tags: level3
 key: basics-legacy_fr
 title: Base
 alternativetitle: Base Web (Legacy)

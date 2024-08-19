@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: visual-design_it
 title: Visual Design
 parent: roles_it

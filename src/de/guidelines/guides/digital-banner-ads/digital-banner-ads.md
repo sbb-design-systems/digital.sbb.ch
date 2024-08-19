@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: digital-banner-ads_de
 title: Digitale Werbebanner
 alternativetitle: Digitale Werbebanner

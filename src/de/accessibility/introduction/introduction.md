@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: introduction_de
 title: Einführung
 redirect: /de/accessibility/introduction/about-accessibility/

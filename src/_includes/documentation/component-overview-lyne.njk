@@ -8,24 +8,24 @@
     <ul class="component-list list overview tree">
         {% if subset == "1" %}
             <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
-            {% set basicPages = collections[dsbasics] | eleventyNavigation(dsbasicskey) %}
+            {% set basicPages = collections[dsbasics] | include("data.parent", dsbasicskey) | sortByOrder %}
             {%- for entry in basicPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}
         {% elif subset == "2" %}
             <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
-            {% set componentsPages = collections[dscomponents] | eleventyNavigation(dscomponentskey) %}
+            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponentskey) | sortByOrder %}
             {%- for entry in componentsPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}
         {% else %}
            <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
-            {% set basicPages = collections[dsbasics] | eleventyNavigation(dsbasicskey) %}
+            {% set basicPages = collections[dsbasics] | include("data.parent", dsbasicskey) | sortByOrder %}
             {%- for entry in basicPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}
             <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
-            {% set componentsPages = collections[dscomponents] | eleventyNavigation(dscomponentskey) %}
+            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponentskey) | sortByOrder %}
             {%- for entry in componentsPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}

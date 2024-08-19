@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: interaction-design_de
 title: Interaction Design
 parent: roles_de

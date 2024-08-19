@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-tags: page
-key: community-assets_de
+tags: level2
+key: assetscommunity_de
 title: Community Assets
-parent: design-system_de
+parent: designsystem_de
 order: 80
 ---

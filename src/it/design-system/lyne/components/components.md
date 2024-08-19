@@ -1,6 +1,6 @@
 ---
 layout: overview-lyne.njk
-tags: page
+tags: level3
 key: components-lyne_it
 title: Komponenten
 alternativetitle: Komponenten Lyne

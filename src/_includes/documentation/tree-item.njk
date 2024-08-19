@@ -1,11 +1,12 @@
-<li {% if entry.children.length %} class="has-subcategory {% if entry.url == page.url %}current{% endif %}"{% else %} class="no-subcategory {% if entry.url == page.url %}current{% endif %}"{% endif %} data-keywords="{{ entry.keywords }}">
-{% if entry.children.length %} {{ entry.title }} {% else %} <a href="{{entry.url}}">{{ entry.title }}</a>{% endif %}    
+<li {% if entry.data.folder == true %} class="has-subcategory {% if entry.url == page.url %}current{% endif %}"{% else %} class="no-subcategory {% if entry.url == page.url %}current{% endif %}"{% endif %} data-keywords="{{ entry.data.keywords }}">
+{% if entry.data.folder == true %} {{ entry.data.title }} {% else %} <a href="{{entry.url}}">{{ entry.data.title }}</a>{% endif %}    
 
-{% if entry.children.length %}
+{% if entry.data.folder == true %}
 <ul class="subcategory">
-    {% for child in entry.children %}
-            <li class="no-subcategory{% if child.url == page.url %} current{% endif %}" data-keywords="{{ child.keywords }}">
-                <a href="{{child.url}}">{{ child.title }}</a>   
+    {% set children = collections.all | include("data.parent", entry.data.key) | sortByOrder  %}
+    {% for child in children %}
+            <li class="no-subcategory{% if child.url == page.url %} current{% endif %}" data-keywords="{{ child.data.keywords }}">
+                <a href="{{child.url}}">{{ child.data.title }}</a>   
             </li>
     {% endfor %}
 </ul>

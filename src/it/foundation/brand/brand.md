@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: brand_it
 title: Il brand
 redirect: /it/foundation/brand/portal/

@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: roadmap_de
 title: Roadmap
 parent: organisation_de

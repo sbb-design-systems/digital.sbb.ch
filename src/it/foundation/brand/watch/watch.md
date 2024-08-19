@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: watch_it
 title: Orologio digitale
 parent: brand_it

@@ -1,9 +1,9 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: guides_fr
 title: Guides
 redirect: /de/guidelines/guides/sap/
 parent: guidelines_fr
-order: 3
+order: 1
 ---

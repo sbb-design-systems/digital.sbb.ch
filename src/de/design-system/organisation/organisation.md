@@ -1,9 +1,9 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: organisation_de
 title: Organisation
 redirect: /de/design-system/organisation/process/
-parent: design-system_de
-order: 20
+parent: designsystem_de
+order: 2
 ---

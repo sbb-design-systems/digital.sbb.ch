@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: 
-    - page
+    - level3
     - principle_de
 key: self-explanatory_de
 title: Selbsterklärend

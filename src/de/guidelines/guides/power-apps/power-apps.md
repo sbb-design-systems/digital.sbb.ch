@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: power-apps_de
 title: Power-Apps
 parent: guides_de

@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: roles_fr
 title: Rôles
 redirect: /de/accessibility/roles/product-owner/

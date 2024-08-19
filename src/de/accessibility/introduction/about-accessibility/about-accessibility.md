@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: about-accessibility_de
 title: Über Barrierefreiheit
 parent: introduction_de

@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: why_de
 title: Sinn & Zweck
-parent: community-assets_de
+parent: assetscommunity_de
 order: 1
 ---
 

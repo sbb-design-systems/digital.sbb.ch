@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: ux-principles_de
 hideInNavigation: true
 title: Unsere UX-Prinzipien

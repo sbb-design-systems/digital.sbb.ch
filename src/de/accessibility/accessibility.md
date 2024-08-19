@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 parent: de
 key: accessibility_de
 title: Barrierefreiheit

@@ -1,10 +1,10 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: legacy_fr
 title: Web (Legacy)
 redirect: /de/design-system/legacy/overview/
-parent: design-system_fr
+parent: designsystem_fr
 order: 70
 eleventyExcludeFromCollections: true
 ---

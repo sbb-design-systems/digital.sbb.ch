@@ -1,6 +1,6 @@
-{% set navPages = collections.toplevel | eleventyNavigation(page.lang) %}
+{% set navPages = collections.level1 | include("data.parent", page.lang) | sortByOrder %}
 <sbb-navigation-marker>
     {%- for entry in navPages %}
-        <sbb-navigation-button id="{{ entry.key }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}>{{ entry.title }}</sbb-navigation-button>
+        <sbb-navigation-button id="{{ entry.data.key }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}>{{ entry.data.title }}</sbb-navigation-button>
     {%- endfor %}
 </sbb-navigation-marker>

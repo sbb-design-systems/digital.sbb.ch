@@ -1,7 +1,7 @@
 ---
 layout: overview.njk
 tags: 
-    - page
+    - level3
     - dshome
 key: overview-lean_it
 title: Introduzione

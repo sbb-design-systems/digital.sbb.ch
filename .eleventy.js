@@ -2,8 +2,7 @@
 
 const sass = require("sass");
 const path = require("node:path");
-
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const lodash = require("lodash");
 const markdownIt = require('markdown-it');
 const mdRender = new markdownIt();
 const markdownItAttrs = require('markdown-it-attrs')
@@ -40,7 +39,6 @@ module.exports = async function(eleventyConfig) {
     else { console.log(`SSR plugin not active`);}
 
 
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.setLibrary('md', markdownLib)
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy("src/assets/js");
@@ -101,6 +99,18 @@ module.exports = async function(eleventyConfig) {
         return pageArr;});
 
     eleventyConfig.addPlugin(EleventyI18nPlugin, {defaultLanguage: "de",});
+
+    eleventyConfig.addFilter("include", (arr, path, value) => {
+
+    value = lodash.deburr(value).toLowerCase();
+    
+    return arr.filter((item) => {
+        let pathValue = lodash.get(item, path);
+        pathValue = lodash.deburr(pathValue).toLowerCase();
+        return pathValue.includes(value);
+    });
+
+    });
 
     eleventyConfig.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    

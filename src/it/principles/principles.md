@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: principles_it
 title: Principi
 alternativetitle: Principi di User Experience delle FFS.

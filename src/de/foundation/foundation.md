@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: foundation_de
 title: Grundlagen
 alternativetitle: Die SBB Gestaltungsgrundlagen.

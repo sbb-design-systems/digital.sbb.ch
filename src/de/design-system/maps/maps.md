@@ -1,10 +1,10 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: maps_de
 title: Maps
 alternativetitle: Das SBB Kartenmaterial.
 redirect: /de/design-system/maps/overview/
-parent: design-system_de
-order: 50
+parent: designsystem_de
+order: 5
 ---

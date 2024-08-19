@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 parent: en
 key: accessibility_en
 title: Accessibility

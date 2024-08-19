@@ -1,8 +1,8 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 parent: fr
-key: design-system_fr
+key: designsystem_fr
 title: Système de design
 alternativetitle: Le système de design des CFF.
 redirect: /fr/design-system/getting-started/designing/

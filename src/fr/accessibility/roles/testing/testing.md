@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: testing_fr
 title: Testing
 parent: roles_fr

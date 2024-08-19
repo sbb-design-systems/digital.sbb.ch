@@ -1,9 +1,9 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: regulations_en
 title: Regulations
 redirect: /en/guidelines/regulations/app-icons/
 parent: guidelines_en
-order: 3
+order: 2
 ---

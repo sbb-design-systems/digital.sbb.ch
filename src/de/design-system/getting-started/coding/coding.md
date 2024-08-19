@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: coding_de
 title: Coding
 parent: getting-started_de

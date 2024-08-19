@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: watch_en
 title: Digital clock 
 parent: brand_en

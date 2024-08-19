@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: 
-    - page
+    - level3
     - principle_fr
 key: self-explanatory_fr
 title: Auto-explicatif

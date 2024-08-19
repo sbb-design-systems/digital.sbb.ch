@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: copyrights_fr
 title: Droits d’utilisation
 parent: brand_fr

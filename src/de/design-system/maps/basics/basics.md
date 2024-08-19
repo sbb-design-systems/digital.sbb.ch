@@ -1,6 +1,6 @@
 ---
 layout: overview.njk
-tags: page
+tags: level3
 key: basics-maps_de
 title: Basis
 alternativetitle: Basis Maps

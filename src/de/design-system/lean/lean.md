@@ -1,10 +1,10 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: lean_de
 title: Lean (Legacy)
 alternativetitle: Lean
 redirect: /de/design-system/lean/overview/
-parent: design-system_de
-order: 60
+parent: designsystem_de
+order: 6
 ---

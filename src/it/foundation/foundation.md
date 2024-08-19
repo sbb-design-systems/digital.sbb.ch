@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: foundation_it
 title: Base
 alternativetitle: I principi di design delle FFS.

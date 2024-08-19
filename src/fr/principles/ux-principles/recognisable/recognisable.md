@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: 
-    - page
+    - level3
     - principle_fr
 key: recognisable_fr
 title: Reconnaissable

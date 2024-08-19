@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: watch_de
 title: Digitale Uhr
 parent: brand_de

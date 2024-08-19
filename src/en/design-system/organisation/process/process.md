@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: process_en
 title: Process
 parent: organisation_en

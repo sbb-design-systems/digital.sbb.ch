@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: about-accessibility_en
 title: About accessibility
 parent: introduction_en

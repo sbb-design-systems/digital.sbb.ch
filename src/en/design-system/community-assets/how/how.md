@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: how_en
 title: Instructions
-parent: community-assets_en
+parent: assetscommunity_en
 order: 3
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: intro_de
 title: Was ist ein Design System?​
 parent: getting-started_de

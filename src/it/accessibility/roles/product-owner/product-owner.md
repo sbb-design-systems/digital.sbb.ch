@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: product-owner_it
 title: Product Owner
 parent: roles_it

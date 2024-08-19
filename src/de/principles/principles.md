@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: toplevel
+tags: level1
 key: principles_de
 title: Prinzipien
 alternativetitle: Die SBB User Experience Prinzipien.

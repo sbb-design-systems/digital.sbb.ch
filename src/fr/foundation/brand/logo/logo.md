@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: logo_fr
 title: Logo
 alternativetitle: Logo

@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: why_it
 title: Senso & scopo
-parent: community-assets_it
+parent: assetscommunity_it
 order: 1
 availablelanguages: 
     - de

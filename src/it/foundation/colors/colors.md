@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: colors_it
 title: Colori
 alternativetitle: I colori delle FFS.

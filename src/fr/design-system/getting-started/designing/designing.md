@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: designing_fr
 title: Conception
 parent: getting-started_fr

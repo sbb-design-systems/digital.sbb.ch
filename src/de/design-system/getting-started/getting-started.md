@@ -1,8 +1,8 @@
 ---
 layout: page.njk
-tags: page
+tags: level2
 key: getting-started_de
 title: Erste Schritte
-parent: design-system_de
-order: 10
+parent: designsystem_de
+order: 1
 ---

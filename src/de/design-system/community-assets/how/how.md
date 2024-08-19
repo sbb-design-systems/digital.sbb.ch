@@ -1,9 +1,9 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: how_de
 title: Anleitung
-parent: community-assets_de
+parent: assetscommunity_de
 order: 3
 ---
 

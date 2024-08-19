@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: content-design_fr
 title: Content Design
 parent: roles_fr

@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: colors_fr
 title: Couleurs
 alternativetitle: Les couleurs des CFF.

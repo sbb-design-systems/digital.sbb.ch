@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: 
-    - page
+    - level3
     - principle_it
 key: user-centred_it
 title: Soluzioni focalizzate sull’utente

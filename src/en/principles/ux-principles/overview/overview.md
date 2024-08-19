@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 tags: 
-    - page
+    - level3
 key: overview_en
 title: Our design principles
 parent: ux-principles_en

@@ -1,6 +1,6 @@
 ---
 layout: redirect.njk
-tags: page
+tags: level2
 key: colors_en
 title: Colors
 alternativetitle: The SBB Colors.

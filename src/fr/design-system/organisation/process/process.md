@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-tags: page
+tags: level3
 key: process_fr
 title: Procès
 parent: organisation_fr

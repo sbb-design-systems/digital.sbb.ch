@@ -1,9 +1,9 @@
 ---
 layout: community-assets.njk
-tags: page
+tags: level3
 key: catalogue_it
 title: Community Assets
-parent: community-assets_it
+parent: assetscommunity_it
 order: 2
 availablelanguages: 
     - de
