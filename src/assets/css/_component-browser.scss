@@ -167,6 +167,11 @@
 }
 
 .component-list {
+  box-sizing: border-box;
+  width: 100%;
+  overflow: scroll;
+  @include sbb.scrollbar;
+
   &.horizontal {
     display: flex;
     flex-direction: row;
@@ -195,7 +200,6 @@
       }
     }
   }
-
   &.vertical {
     sbb-title {
       &:first-child {
@@ -206,23 +210,16 @@
     sbb-teaser {
       width: 100%;
       margin-bottom: var(--sbb-spacing-fixed-4x);
-
+/*
       img {
         max-width: var(--sbb-spacing-fixed-30x);
       }
+        */
     }
   }
-
-  box-sizing: border-box;
-  width: 100%;
-  overflow: scroll;
-  @include sbb.scrollbar;
-
-
   &.component {
     padding: var(--sbb-spacing-responsive-s);
   }
-
   &.overview {
     padding: var(--sbb-spacing-responsive-m);
 
@@ -244,8 +241,9 @@
     &.tree {
       padding: 0 var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-m);
     }
+    
   }
-
+  
 }
 
 .button-header {

@@ -1,0 +1,52 @@
+{
+    "tag":"sbb-teaser-hero",
+    "content":"<sbb-teaser-product-static class='demo-item' image-alignment='after'><sbb-image slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/online-kaufen.jpg'></sbb-image><sbb-title level='3' class='sbb-teaser-product--spacing'>Benefit from up to 70% discount</sbb-title><p class='sbb-teaser-product--spacing'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sit amet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donec tempor mi vel dapibus lobortis. Sed at ex sit amet leo suscipit fermentum. Donec consequat hendrerit tortor, ut laoreet velit congue in.</p><sbb-action-group class='sbb-teaser-product--spacing'><sbb-button>Label</sbb-button><sbb-secondary-button>Label</sbb-secondary-button></sbb-action-group><p slot='footnote' class='footnote' class='sbb-teaser-product--spacing'>Footnote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sitamet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donectempor mi vel dapibus lobortis.</p></sbb-teaser-product-static>",
+    "configuration" : [
+        {
+            "attribute":"image-alignment",
+            "label":"image-alignment",
+            "target":"demo-item",
+            "default":"after",
+            "mode":"property",
+            "options" : [{
+                "value":"after",
+                "label":"after"
+            },
+            {
+                "value":"before",
+                "label":"before"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"footnote",
+            "label":"footnote",
+            "target":"footnote",
+            "default":"footnote",
+            "mode":"slot",
+            "options" : [{
+                "value":"footnote",
+                "label":"true"
+            },
+            {
+                "value":"test",
+                "label":"false"
+            }
+            ]
+        }
+    ]
+}

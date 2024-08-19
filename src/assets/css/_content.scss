@@ -83,12 +83,13 @@ h2.with-icon {
   sbb-icon {
     padding: 0 8px 0 0;
     margin-top: -3px;
+    stroke: var(--sbb-color-black);
+    stroke-width: 1.5;
     @include sbb.mq($from: medium) {
       margin-top: 2px;
       padding: 0px 12px 0px 0;
     }
-    stroke: var(--sbb-color-black);
-    stroke-width: 1.5;
+
   }
 }
 
@@ -99,12 +100,13 @@ h3.with-icon {
   sbb-icon {
     padding: 0 12px 0 0;
     margin-top: -5px;
+    stroke: var(--sbb-color-black);
+    stroke-width: 1.5;
     @include sbb.mq($from: medium) {
       padding: 0 12px 0 0;
       margin-top: -3px;
     }
-    stroke: var(--sbb-color-black);
-    stroke-width: 1.5;
+
   }
 }
 
@@ -256,11 +258,11 @@ sbb-table-wrapper + sbb-table-wrapper {
   padding: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
   background-color: var(--sbb-color-white);
   border: solid 1px var(--sbb-color-cloud);
+  min-height: var(--sbb-spacing-fixed-24x);
   @include sbb.mq($from: medium) {
     padding: var(--sbb-spacing-fixed-8x);
   }
-  min-height: var(--sbb-spacing-fixed-24x);
-
+  
   &[data-background="white"] {
     background-color: var(--sbb-color-white);
   }
@@ -280,7 +282,6 @@ sbb-table-wrapper + sbb-table-wrapper {
   &[data-background="black"] {
     background-color: var(--sbb-color-black);
   }
-
   sbb-clock {
     width: 50%;
   }

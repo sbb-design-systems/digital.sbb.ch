@@ -1,6 +1,6 @@
 {
     "tag":"sbb-teaser-hero",
-    "content":"<sbb-teaser-hero style='width:100%' class='demo-item' href='#' link-content='Find out more'>Break out and explore castles and palaces.<sbb-image id='image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='Alt'/></sbb-teaser-hero>",
+    "content":"<sbb-teaser-hero style='width:100%' class='demo-item' href='#' link-content='Find out more'>Break out and explore castles and palaces.<sbb-image id='image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='Alt'></sbb-image><sbb-chip class='chip' slot='chip'>Label</sbb-chip></sbb-teaser-hero>",
     "configuration" : [
         {
             "attribute":"link-content",
@@ -16,6 +16,22 @@
                 "value":"Ein viel zu langer Linktext wird umbrochen.",
                 "label":"long"
             }]
+        },
+        {
+            "attribute":"chip",
+            "label":"chip",
+            "target":"chip",
+            "default":"chip",
+            "mode":"slot",
+            "options" : [{
+                "value":"chip",
+                "label":"true"
+            },
+            {
+                "value":"test",
+                "label":"false"
+            }
+            ]
         }
     ]
 }

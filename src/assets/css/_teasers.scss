@@ -7,11 +7,10 @@
   margin-top: var(--sbb-spacing-responsive-xxl);
 
   sbb-teaser {
+    margin-bottom: var(--sbb-spacing-responsive-xs);
     a img {
       border-radius: var(--sbb-border-radius-4x);
-    }
-
-    margin-bottom: var(--sbb-spacing-responsive-xs);
+    } 
   }
 
   @include sbb.mq($from: small) {

@@ -59,13 +59,13 @@ module.exports = {
       "description": "Description",
       "keywords": "Keywords",
       "state": "Status",
-      "contact": "Contact",
+      "contact": "Contact"
     },
     lyne: {
       "action": "Action",
       "active": "Active",
       "align-group": "Align group",
-      "alignment": "Anordnung",
+      "alignment": "Alignment",
       "after": "After",
       "after-centered": "After, centred",
       "below": "Below",
@@ -243,6 +243,9 @@ module.exports = {
       "storybooklink": "Try it out on Storybook",
       "copyhtml": "Copy HTML to clipboard.",
       "showhtml": "Show HTML",
+      "chip": "Chip",
+      "footnote": "Footnote",
+      "image-alignment": "Image alignment"
     }
   },
   de: {
@@ -287,7 +290,7 @@ module.exports = {
       "description": "Beschreibung",
       "keywords": "Keywords",
       "state": "Status",
-      "contact": "Kontakt",
+      "contact": "Kontakt"
     },
     lyne: {
       "action": "Aktion",
@@ -470,7 +473,10 @@ module.exports = {
       "in-progress": "In-Progress",
       "storybooklink": "Auf Storybook ausprobieren",
       "copyhtml": "HTML in Zwischenablage kopiert.",
-      "showhtml": "HTML einblenden"
+      "showhtml": "HTML einblenden",
+      "chip": "Chip",
+      "footnote": "Footnote",
+      "image-alignment": "Bild-Anordnung"
     }
   },
   fr: {
@@ -515,7 +521,7 @@ module.exports = {
       "description": "Description",
       "keywords": "Mots clés",
       "state": "Statut",
-      "contact": "Contact",
+      "contact": "Contact"
     },
   },
   it: {
@@ -560,7 +566,7 @@ module.exports = {
       "description": "Descrizione",
       "keywords": "Parole chiave",
       "state": "Stato",
-      "contact": "Contatto",
+      "contact": "Contatto"
     },
   },
   icons: {

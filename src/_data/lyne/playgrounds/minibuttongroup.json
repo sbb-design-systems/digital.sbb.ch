@@ -1,0 +1,46 @@
+{
+    "tag":"sbb-mini-button-group",
+    "content":"<sbb-mini-button-group size='m' class='demo-item'><sbb-mini-button aria-label='previous' icon-name='chevron-small-left-small'></sbb-mini-button><sbb-mini-button aria-label='next' icon-name='chevron-small-right-small'></sbb-mini-button><sbb-divider orientation='vertical'></sbb-divider><sbb-mini-button aria-label='edit' icon-name='pen-small'></sbb-mini-button><sbb-mini-button aria-label='duplicate' icon-name='copy-small'></sbb-mini-button><sbb-mini-button aria-label='delete' icon-name='trash-small'></sbb-mini-button><sbb-divider orientation='vertical'></sbb-divider><sbb-mini-button aria-label='bookmark' icon-name='star-small'></sbb-mini-button></sbb-mini-button-group>",
+    "configuration" : [
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }, 
+            {
+                "value":"xl",
+                "label":"xl"
+            }]
+        },
+
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+        
+    ]
+}

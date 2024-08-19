@@ -1,0 +1,55 @@
+{
+    "tag":"sbb-link-list-anchor",
+    "content":"<sbb-link-list-anchor class='demo-item' size='s' title-level='2' title-content='Title'><sbb-block-link href='#'>Link 1</sbb-block-link><sbb-block-link href='#'>Link 2</sbb-block-link><sbb-block-link href='#'>Link 3</sbb-block-link></sbb-link-list-anchor>",
+    "configuration" : [{
+            "attribute":"title-content",
+            "label":"title-content",
+            "target":"demo-item",
+            "default":"Title",
+            "mode":"property",
+            "options" : [{
+                "value":"Title",
+                "label":"true"
+            },
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"xs",
+                "label":"xs"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+        
+    ]
+}

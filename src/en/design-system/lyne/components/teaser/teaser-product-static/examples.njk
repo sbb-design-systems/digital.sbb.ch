@@ -1,0 +1,20 @@
+---
+tags: teaser-product-static-lyne_en
+title: Demo
+key: teaser-product-static-lyne-examples_en
+parent: teaser-product-static-lyne_en
+icon: demo
+order: 3
+permalink: false  
+---
+{{ lynePlayground({
+  json: lyne.playgrounds.teaserproductstatic,
+  wide: true,
+  translations: translations["en"].lyne
+  }) }}
+
+  {{ lyneExamples({
+  tag: "sbb-teaser-product-static",
+  stories: lyne.stories[0],
+  translations: translations["en"].lyne
+  }) }}
