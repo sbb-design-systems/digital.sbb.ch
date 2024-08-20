@@ -6,6 +6,6 @@ title: Komponenten
 alternativetitle: Komponenten Lyne
 parent: lyne_de
 order: 40
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 ---

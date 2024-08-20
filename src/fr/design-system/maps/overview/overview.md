@@ -8,7 +8,8 @@ title: Aperçu
 alternativetitle: Maps
 parent: maps_fr
 order: 1
-componentbrowser: true
+basics: true
+components: true
 availablelanguages: 
     - de
 ---

@@ -6,6 +6,6 @@ title: Basis
 alternativetitle: Basis Maps
 parent: maps_de
 order: 2
-componentbrowser: true
-subset: 1
+basics: true
+components: false
 ---

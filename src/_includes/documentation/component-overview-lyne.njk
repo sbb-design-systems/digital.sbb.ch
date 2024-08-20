@@ -6,25 +6,19 @@
         </sbb-form-field>
     </div>
     <ul class="component-list list overview tree">
-        {% if subset == "1" %}
+        {% if basics == true and components == true %}
             <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
+        {% endif %}
+        {% if basics == true %}
             {% set basicPages = collections[dsbasics] | include("data.parent", dsbasicskey) | sortByOrder %}
             {%- for entry in basicPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}
-        {% elif subset == "2" %}
+        {% endif %}
+        {% if basics == true and components == true %}
             <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
-            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponentskey) | sortByOrder %}
-            {%- for entry in componentsPages %}
-                {% include "./tree-item.njk" %}
-            {%- endfor -%}
-        {% else %}
-           <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
-            {% set basicPages = collections[dsbasics] | include("data.parent", dsbasicskey) | sortByOrder %}
-            {%- for entry in basicPages %}
-                {% include "./tree-item.njk" %}
-            {%- endfor -%}
-            <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
+        {% endif %}
+        {% if components == true %}
             {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponentskey) | sortByOrder %}
             {%- for entry in componentsPages %}
                 {% include "./tree-item.njk" %}
@@ -32,6 +26,3 @@
         {% endif %}
     </ul>
 </div>
-
-
-

@@ -8,7 +8,8 @@ title: Aperçu
 alternativetitle: Design System Lean
 parent: lean_fr
 order: 1
-componentbrowser: true
+basics: true
+components: true
 availablelanguages: 
     - de
     - en

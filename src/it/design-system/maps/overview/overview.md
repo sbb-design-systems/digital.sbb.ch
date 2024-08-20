@@ -8,7 +8,8 @@ title: Introduzione
 alternativetitle: Maps
 parent: maps_it
 order: 1
-componentbrowser: true
+basics: true
+components: true
 availablelanguages: 
     - de
 ---

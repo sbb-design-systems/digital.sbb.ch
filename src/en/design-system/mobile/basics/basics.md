@@ -6,6 +6,6 @@ title: Base
 alternativetitle: Base Mobile
 parent: mobile_en
 order: 2
-componentbrowser: true
-subset: 1
+basics: true
+components: false
 ---

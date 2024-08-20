@@ -6,6 +6,6 @@ title: Komponenten
 parent: mobile_de
 alternativetitle: Komponenten Mobile
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 ---

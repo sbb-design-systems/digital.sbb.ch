@@ -8,7 +8,8 @@ title: Introduzione
 alternativetitle: Design System Lean
 parent: lean_it
 order: 1
-componentbrowser: true
+basics: true
+components: true
 availablelanguages: 
     - de
     - en

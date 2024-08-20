@@ -6,8 +6,8 @@ title: Base
 alternativetitle: Base Lean
 parent: lean_fr
 order: 2
-componentbrowser: true
-subset: 1
+basics: true
+components: false
 availablelanguages: 
     - de
     - en

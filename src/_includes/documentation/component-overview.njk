@@ -9,32 +9,21 @@
         </sbb-secondary-button>
     </div>
     <div class="component-list horizontal list overview">
-        {% if subset == "1" %}
+        {% if basics == true and components == true %}
             <sbb-title level="5" class="browser-title">Basics</sbb-title>
+        {% endif %}
+        {% if basics == true %}
             {%- for component in collections[dsbasics] | sortByOrder -%}
                 {% include "./component.njk" %}
             {%- endfor -%}
-        {% elif subset == "2" %}
+        {% endif %}
+        {% if basics == true and components == true %}
             <sbb-title level="5" class="browser-title">Components</sbb-title>
-            {%- for component in collections[dscomponents] | sortByOrder -%}
-                {% include "./component.njk" %}
-            {%- endfor -%}
-        {% else %}
-            <sbb-title level="5" class="browser-title">Basics</sbb-title>
-            {%- for component in collections[dsbasics] | sortByOrder -%}
-                {% include "./component.njk" %}
-            {%- endfor -%}
-            <sbb-title level="5" class="browser-title">Components</sbb-title>
+        {% endif %}
+        {% if components == true %}
             {%- for component in collections[dscomponents] | sortByOrder -%}
                 {% include "./component.njk" %}
             {%- endfor -%}
         {% endif %}
     </div>
-
-
-
-
-    
-
-
 </div>

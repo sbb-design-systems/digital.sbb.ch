@@ -8,7 +8,8 @@ title: Aperçu
 alternativetitle: Design System Mobile
 parent: mobile_fr
 order: 1
-componentbrowser: true
+basics: true
+components: true
 availablelanguages: 
     - de
     - en

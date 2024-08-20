@@ -6,6 +6,6 @@ title: Informationen
 alternativetitle: Informationen Maps
 parent: maps_de
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 ---

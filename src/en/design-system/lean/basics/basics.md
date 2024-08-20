@@ -6,6 +6,6 @@ title: Base
 alternativetitle: Base Lean
 parent: lean_en
 order: 2
-componentbrowser: true
-subset: 1
+basics: true
+components: false
 ---

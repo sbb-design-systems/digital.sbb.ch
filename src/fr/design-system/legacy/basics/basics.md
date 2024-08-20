@@ -6,8 +6,8 @@ title: Base
 alternativetitle: Base Web (Legacy)
 parent: legacy_fr
 order: 2
-componentbrowser: true
-subset: 1
+basics: true
+components: false
 availablelanguages: 
     - de
     - en

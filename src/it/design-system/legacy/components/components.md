@@ -6,8 +6,8 @@ title: Componenti
 alternativetitle: Componenti Web (Legacy)
 parent: legacy_it
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 availablelanguages: 
     - de
     - en

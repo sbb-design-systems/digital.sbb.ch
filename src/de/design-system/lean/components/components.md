@@ -6,6 +6,6 @@ title: Komponenten
 alternativetitle: Komponenten Lean
 parent: lean_de
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 ---

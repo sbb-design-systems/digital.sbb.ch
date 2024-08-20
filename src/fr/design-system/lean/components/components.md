@@ -6,8 +6,8 @@ title: Composants
 alternativetitle: Composants Lean
 parent: lean_fr
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 availablelanguages: 
     - de
     - en

@@ -6,8 +6,8 @@ title: Informations
 alternativetitle: Informations Maps
 parent: maps_fr
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 availablelanguages: 
     - de
 ---

@@ -6,6 +6,6 @@ title: Basis
 alternativetitle: Basis Web (Legacy)
 parent: legacy_de
 order: 2
-componentbrowser: true
-subset: 1
+basics: true
+components: false
 ---

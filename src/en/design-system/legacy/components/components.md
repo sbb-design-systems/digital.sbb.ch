@@ -6,6 +6,6 @@ title: Components
 alternativetitle: Components Web (Legacy)
 parent: legacy_en
 order: 3
-componentbrowser: true
-subset: 2
+basics: false
+components: true
 ---
