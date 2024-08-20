@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_container_en
-    - page
+    - is_in_folder_en
 key: container-lyne_en
 title: Container
 parent: container-folder-lyne_en

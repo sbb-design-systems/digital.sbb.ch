@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_toggle_check_en
-    - page
+    - is_in_folder_en
 key: toggle-check-lyne_en
 title: Toggle-Check
 parent: toggle-folder-lyne_en

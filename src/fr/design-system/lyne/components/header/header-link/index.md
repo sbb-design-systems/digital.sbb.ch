@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: header-link-lyne_fr
 title: Header-Link
 parent: header-folder-lyne_fr

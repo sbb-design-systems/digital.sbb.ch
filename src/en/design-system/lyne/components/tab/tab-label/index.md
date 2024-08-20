@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_tab_title_en
-    - page
+    - is_in_folder_en
 key: tab-label-lyne_en
 title: Tab-Label
 parent: tab-folder-lyne_en

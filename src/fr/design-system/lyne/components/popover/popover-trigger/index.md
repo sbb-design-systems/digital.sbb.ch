@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: popover-trigger-lyne_fr
 title: Popover-Trigger
 parent: popover-folder-lyne_fr

@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - page
+    - is_in_folder_it
 key: datepicker-previous-day-lyne_it
 title: Datepicker-Previous-Day
 parent: datepicker-folder-lyne_it

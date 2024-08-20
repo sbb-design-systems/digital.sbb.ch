@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_it
     - lyne_components_it
-    - page
+    - is_in_folder_it
 key: breadcrumb-group-lyne_it
 title: Breadcrumb-Group
 parent: breadcrumb-folder-lyne_it

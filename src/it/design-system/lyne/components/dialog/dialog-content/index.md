@@ -5,7 +5,7 @@ tags:
     - lyne_components_it
     - lyne_components_dialog_content_it
     - lyne_components_dialog_children_it
-    - page
+    - is_in_folder_it
 key: dialog-content-lyne_it
 title: Dialog-Content
 parent: dialog-folder-lyne_it

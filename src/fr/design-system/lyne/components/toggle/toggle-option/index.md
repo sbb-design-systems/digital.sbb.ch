@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_fr
-    - page
+    - is_in_folder_fr
 key: toggle-option-lyne_fr
 title: Toggle-Option
 parent: toggle-folder-lyne_fr

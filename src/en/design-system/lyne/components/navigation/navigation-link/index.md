@@ -6,7 +6,7 @@ tags:
     - lyne_components_navigation_link_en
     - lyne_components_navigation_marker_children_en
     - lyne_components_navigation_list_children_en
-    - page
+    - is_in_folder_en
 key: navigation-link-lyne_en
 title: Navigation-Link
 parent: navigation-folder-lyne_en

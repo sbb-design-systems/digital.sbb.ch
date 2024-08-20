@@ -4,7 +4,6 @@ tags:
     - lyne_de
     - lyne_components_de
     - lyne_components_status_de
-    - page
 key: status-lyne_de
 title: Status
 parent: components-lyne_de

@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: navigation-lyne_fr
 title: Navigation
 parent: navigation-folder-lyne_fr

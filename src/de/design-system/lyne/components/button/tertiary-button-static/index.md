@@ -4,7 +4,7 @@ tags:
     - lyne_de
     - lyne_components_tertiary_button_static_de
     - lyne_components_tertiary_button_variants_de
-    - page
+    - is_in_folder_de
 key: tertiary-button-static-lyne_de
 title: Tertiary-Button (Static)
 parent: button-folder-lyne_de

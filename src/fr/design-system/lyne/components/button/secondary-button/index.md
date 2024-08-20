@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: secondary-button-lyne_fr
 title: Secondary Button
 parent: button-folder-lyne_fr

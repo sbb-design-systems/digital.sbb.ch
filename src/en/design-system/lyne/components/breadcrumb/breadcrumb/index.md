@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_breadcrumb_en
-    - page
+    - is_in_folder_en
 key: breadcrumb-lyne_en
 title: Breadcrumb
 parent: breadcrumb-folder-lyne_en

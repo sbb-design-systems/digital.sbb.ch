@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_radio_button_group_en
-    - page
+    - is_in_folder_en
 key: radio-button-group-lyne_en
 title: Radio-Button-Group
 parent: radio-button-folder-lyne_en

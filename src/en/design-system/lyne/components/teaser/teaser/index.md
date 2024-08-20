@@ -5,7 +5,7 @@ tags:
     - lyne_components_en
     - lyne_components_teaser_en
     - lyne_components_teaser_siblings_en
-    - page
+    - is_in_folder_en
 key: teaser-lyne_en
 title: Teaser
 parent: teaser-folder-lyne_en

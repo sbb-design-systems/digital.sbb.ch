@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - page
+    - is_in_folder_it
 key: optgroup-lyne_it
 title: Optgroup
 parent: option-folder-lyne_it

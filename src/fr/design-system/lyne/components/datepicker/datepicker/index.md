@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: datepicker-lyne_fr
 title: Datepicker
 parent: datepicker-folder-lyne_fr

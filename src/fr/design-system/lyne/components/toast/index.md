@@ -3,7 +3,6 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
 key: toast-lyne_fr
 title: Toast
 parent: components-lyne_fr

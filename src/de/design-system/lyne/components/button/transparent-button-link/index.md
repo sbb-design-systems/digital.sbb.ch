@@ -4,7 +4,7 @@ tags:
     - lyne_de
     - lyne_components_transparent_button_link_de
     - lyne_components_transparent_button_variants_de
-    - page
+    - is_in_folder_de
 key: transparent-button-link-lyne_de
 title: Transparent-Button (Link)
 parent: button-folder-lyne_de

@@ -4,7 +4,6 @@ tags:
     - lyne_de
     - lyne_components_de
     - lyne_components_mini_button_group_children_de
-    - page
 key: divider-lyne_de
 title: Divider
 parent: components-lyne_de

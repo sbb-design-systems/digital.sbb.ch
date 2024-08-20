@@ -5,7 +5,7 @@ tags:
     - lyne_components_de
     - lyne_components_header_link_de
     - lyne_components_header_children_de
-    - page
+    - is_in_folder_de
 key: header-link-lyne_de
 title: Header-Link
 parent: header-folder-lyne_de

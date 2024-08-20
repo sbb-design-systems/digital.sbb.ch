@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_link_button_en
     - lyne_components_link_variants_en
-    - page
+    - is_in_folder_en
 key: link-button-lyne_en
 title: Link (Button)
 parent: link-folder-lyne_en

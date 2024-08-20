@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_dialog_en
-    - page
+    - is_in_folder_en
 key: dialog-lyne_en
 title: Dialog
 parent: dialog-folder-lyne_en

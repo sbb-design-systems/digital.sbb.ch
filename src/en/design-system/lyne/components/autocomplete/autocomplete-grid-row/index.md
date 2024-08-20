@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_autocomplete_grid_row_en
     - lyne_components_autocomplete_grid_children_en
-    - page
+    - is_in_folder_en
 key: autocomplete-grid-row-lyne_en
 title: Autocomplete-Grid-Row
 parent: autocomplete-folder-lyne_en

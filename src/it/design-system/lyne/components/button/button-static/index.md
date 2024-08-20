@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - page
+    - is_in_folder_it
 key: button-static-lyne_it
 title: Primary Button (Static)
 parent: button-folder-lyne_it

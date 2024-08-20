@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_it
     - lyne_components_it
-    - page
+    - is_in_folder_it
 key: tag-lyne_it
 title: Tag
 parent: tag-folder-lyne_it

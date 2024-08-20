@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: tag-group-lyne_fr
 title: Tag-Group
 parent: tag-folder-lyne_fr

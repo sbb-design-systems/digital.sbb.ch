@@ -4,7 +4,6 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_message_en
-    - page
 key: message-lyne_en
 title: Message
 parent: components-lyne_en

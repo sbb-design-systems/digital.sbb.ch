@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_navigation_en
-    - page
+    - is_in_folder_en
 key: navigation-lyne_en
 title: Navigation
 parent: navigation-folder-lyne_en

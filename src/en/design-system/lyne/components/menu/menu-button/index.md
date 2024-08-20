@@ -5,7 +5,7 @@ tags:
     - lyne_components_en
     - lyne_components_menu_button_en
     - lyne_components_menu_children_en
-    - page
+    - is_in_folder_en
 key: menu-button-lyne_en
 title: Menu-Button
 parent: menu-folder-lyne_en

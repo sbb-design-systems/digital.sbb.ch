@@ -4,7 +4,7 @@ tags:
     - lyne_de
     - lyne_components_de
     - lyne_components_form_field_de
-    - page
+    - is_in_folder_de
 key: form-field-lyne_de
 title: Form-Field
 parent: form-field-folder-lyne_de

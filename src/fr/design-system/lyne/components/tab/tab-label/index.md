@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags:
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: tab-label-lyne_fr
 title: Tab Label
 parent: tab-folder-lyne_fr

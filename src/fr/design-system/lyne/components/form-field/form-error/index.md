@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_fr
     - lyne_components_fr
-    - page
+    - is_in_folder_fr
 key: form-error-lyne_fr
 title: Form-Error
 parent: form-field-folder-lyne_fr

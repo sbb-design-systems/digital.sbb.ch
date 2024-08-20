@@ -5,7 +5,7 @@ tags:
     - lyne_components_en
     - lyne_components_form_error_en
     - lyne_components_form_field_children_en
-    - page
+    - is_in_folder_en
 key: form-error-lyne_en
 title: Form-Error
 parent: form-field-folder-lyne_en

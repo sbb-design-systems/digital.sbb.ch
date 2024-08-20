@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_accordion_en
-    - page
+    - is_in_folder_en
 key: accordion-lyne_en
 title: Accordion
 parent: accordion-folder-lyne_en

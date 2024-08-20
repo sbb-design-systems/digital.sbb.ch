@@ -3,7 +3,8 @@
 
 {% if entry.data.folder == true %}
 <ul class="subcategory">
-    {% set children = collections.all | include("data.parent", entry.data.key) | sortByOrder  %}
+    {% set foldercomponents = ["is_in_folder_", page.lang] | join %}
+    {% set children = collections[foldercomponents] | include("data.parent", entry.data.key) | sortByOrder  %}
     {% for child in children %}
             <li class="no-subcategory{% if child.url == page.url %} current{% endif %}" data-keywords="{{ child.data.keywords }}">
                 <a href="{{child.url}}">{{ child.data.title }}</a>   

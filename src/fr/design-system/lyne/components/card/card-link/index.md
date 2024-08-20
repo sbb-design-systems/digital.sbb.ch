@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_fr
-    - page
+    - is_in_folder_fr
 key: card-link-lyne_fr
 title: Card-Link
 parent: card-folder-lyne_fr

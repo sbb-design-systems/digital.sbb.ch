@@ -6,7 +6,7 @@ tags:
     - lyne_components_option_de
     - lyne_components_autocomplete_children_de
     - lyne_components_select_children_de
-    - page
+    - is_in_folder_de
 key: option-lyne_de
 title: Option
 parent: option-folder-lyne_de

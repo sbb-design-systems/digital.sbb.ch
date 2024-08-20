@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_block_link_static_en
     - lyne_components_block_link_variants_en
-    - page
+    - is_in_folder_en
 key: block-link-static-lyne_en
 title: Block-Link (Static)
 parent: link-folder-lyne_en

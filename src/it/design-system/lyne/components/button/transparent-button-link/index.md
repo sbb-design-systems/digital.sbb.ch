@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - page
+    - is_in_folder_it
 key: transparent-button-link-lyne_it
 title: Transparent Button (Link)
 parent: button-folder-lyne_it

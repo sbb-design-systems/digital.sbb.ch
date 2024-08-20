@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - page
+    - is_in_folder_it
 key: card-button-lyne_it
 title: Card-Button
 parent: card-folder-lyne_it

@@ -2,7 +2,7 @@
 layout: pattern-lyne.njk
 tags: 
     - lyne_it
-    - page
+    - is_in_folder_it
 key: datepicker-toggle-lyne_it
 title: Datepicker-Toggle
 parent: datepicker-folder-lyne_it

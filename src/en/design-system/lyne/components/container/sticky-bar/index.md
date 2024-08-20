@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_sticky_bar_en
-    - page
+    - is_in_folder_en
 key: sticky-bar-lyne_en
 title: Sticky-Bar
 parent: container-folder-lyne_en

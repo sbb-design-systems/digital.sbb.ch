@@ -4,7 +4,6 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_time_input_en
-    - page
 key: time-input-lyne_en
 title: Time-Input
 parent: components-lyne_en

@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_it
     - lyne_components_it
-    - page
+    - is_in_folder_it
 key: card-badge-lyne_it
 title: Card-Badge
 parent: card-folder-lyne_it

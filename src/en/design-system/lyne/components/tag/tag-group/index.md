@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_tag_group_en
-    - page
+    - is_in_folder_en
 key: tag-group-lyne_en
 title: Tag-Group
 parent: tag-folder-lyne_en

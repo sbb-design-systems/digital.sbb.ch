@@ -7,7 +7,7 @@ tags:
     - lyne_components_navigation_marker_children_en
     - lyne_components_navigation_list_children_en
     - lyne_components_navigation_section_children_en
-    - page
+    - is_in_folder_en
 key: navigation-button-lyne_en
 title: Navigation-Button
 parent: navigation-folder-lyne_en

@@ -4,7 +4,7 @@ tags:
     - lyne_de
     - lyne_components_link_static_de
     - lyne_components_link_variants_de
-    - page
+    - is_in_folder_de
 key: link-static-lyne_de
 title: Link (Static)
 parent: link-folder-lyne_de

@@ -4,7 +4,6 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_notification_en
-    - page
 key: notification-lyne_en
 title: Notification
 parent: components-lyne_en

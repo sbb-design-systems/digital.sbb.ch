@@ -4,7 +4,6 @@ tags:
     - lyne_de
     - lyne_components_de
     - lyne_components_toast_de
-    - page
 key: toast-lyne_de
 title: Toast
 parent: components-lyne_de

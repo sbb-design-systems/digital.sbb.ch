@@ -3,7 +3,7 @@ layout: pattern-lyne.njk
 tags: 
     - lyne_it
     - lyne_components_it
-    - page
+    - is_in_folder_it
 key: toggle-check-lyne_it
 title: Toggle-Check
 parent: toggle-folder-lyne_it

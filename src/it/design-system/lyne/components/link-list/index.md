@@ -1,15 +1,13 @@
 ---
-layout: pattern-lyne.njk
+layout: redirect.njk
 tags: 
     - lyne_it
     - lyne_components_it
-    - page
-key: link-list-lyne_it
+key: link-list-folder-lyne_it
 title: Link-List
 parent: components-lyne_it
-keywords: link-list, action
+keywords: link, icon, action, link-list
 order: 220
-availablelanguages: 
-    - de
-    - en
+redirect: link-list/
+folder: true
 ---

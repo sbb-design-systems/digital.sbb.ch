@@ -4,7 +4,7 @@ tags:
     - lyne_en
     - lyne_components_en
     - lyne_components_link_list_anchor_en
-    - page
+    - is_in_folder_en
 key: link-list-anchor-lyne_en
 title: Link-List-Anchor
 parent: link-list-folder-lyne_en
