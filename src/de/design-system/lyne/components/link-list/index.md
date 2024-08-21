@@ -8,6 +8,6 @@ title: Link-List
 parent: components-lyne_de
 keywords: link, list, anchor
 order: 220
-redirect: link-list/
+redirect: /de/design-system/lyne/components/link-list/link-list/
 folder: true
 ---

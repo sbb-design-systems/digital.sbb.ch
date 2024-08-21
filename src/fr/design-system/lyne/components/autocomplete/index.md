@@ -8,6 +8,6 @@ title: Autocomplete
 parent: components-lyne_fr
 keywords: autocomplete, autocomplete-grid
 order: 30
-redirect: autocomplete/
+redirect: /fr/design-system/lyne/components/autocomplete/autocomplete/
 folder: true
 ---

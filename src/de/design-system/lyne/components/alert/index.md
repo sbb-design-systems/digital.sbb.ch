@@ -8,6 +8,6 @@ title: Alert
 parent: components-lyne_de
 keywords: alert, alert-group, alert group
 order: 25
-redirect: alert/
+redirect: /de/design-system/lyne/components/alert/alert/
 folder: true
 ---

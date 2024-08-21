@@ -8,6 +8,6 @@ title: Tag
 parent: components-lyne_en
 keywords: tag, tag-group, group
 order: 400
-redirect: tag-group/
+redirect: /en/design-system/lyne/components/tag/tag-group/
 folder: true
 ---

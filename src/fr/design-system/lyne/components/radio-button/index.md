@@ -8,6 +8,6 @@ title: Radio-Button
 parent: components-lyne_fr
 keywords: radiobutton, radio, radio-button, radio-button-group, group
 order: 320
-redirect: radio-button/
+redirect: /fr/design-system/lyne/components/radio-button/radio-button/
 folder: true
 ---

@@ -8,6 +8,6 @@ title: Header
 parent: components-lyne_fr
 keywords: header, header-link, link
 order: 170
-redirect: header/
+redirect: /fr/design-system/lyne/components/header/header/
 folder: true
 ---

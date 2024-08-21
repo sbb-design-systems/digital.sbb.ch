@@ -8,6 +8,6 @@ title: Card
 parent: components-lyne_fr
 keywords: card, card-link, card-badge, badge, link
 order: 60
-redirect: card/
+redirect: /fr/design-system/lyne/components/card/card/
 folder: true
 ---

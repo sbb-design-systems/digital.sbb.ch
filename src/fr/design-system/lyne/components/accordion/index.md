@@ -8,6 +8,6 @@ title: Accordion
 parent: components-lyne_fr
 keywords: accordion, expansion-panel, expansion, panel
 order: 10
-redirect: accordion/
+redirect: /fr/design-system/lyne/components/accordion/accordion/
 folder: true
 ---

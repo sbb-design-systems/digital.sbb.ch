@@ -8,6 +8,6 @@ title: Menu
 parent: components-lyne_fr
 keywords: menu
 order: 250
-redirect: menu/
+redirect: /fr/design-system/lyne/components/menu/menu/
 folder: true
 ---

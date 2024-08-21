@@ -8,6 +8,6 @@ title: Dialog
 parent: components-lyne_en
 keywords: dialog, modal
 order: 120
-redirect: dialog/
+redirect: /en/design-system/lyne/components/dialog/dialog/
 folder: true
 ---

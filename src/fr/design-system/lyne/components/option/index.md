@@ -8,6 +8,6 @@ title: Option
 parent: components-lyne_fr
 keywords: option, option group, optgroup
 order: 290
-redirect: option/
+redirect: /fr/design-system/lyne/components/option/option/
 folder: true
 ---

@@ -8,6 +8,6 @@ title: Teaser
 parent: components-lyne_de
 keywords: teaser, teaser-hero, hero, teaser-paid, paid
 order: 410
-redirect: teaser/
+redirect: /de/design-system/lyne/components/teaser/teaser/
 folder: true
 ---

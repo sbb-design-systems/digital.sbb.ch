@@ -8,6 +8,6 @@ title: Toggle
 parent: components-lyne_it
 keywords: toggle, toggle-option, toggle-check, check, option
 order: 450
-redirect: toggle/
+redirect: /it/design-system/lyne/components/toggle/toggle/
 folder: true
 ---

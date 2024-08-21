@@ -1,17 +1,17 @@
-const switcher = document.querySelectorAll(".switch");
+const oneswitch = document.querySelectorAll(".switch");
 const images = document.querySelectorAll('.boxed-image');
-switcher.forEach(function (element) {
+oneswitch.forEach(function (element) {
     element.addEventListener("click", modeSwitch);
 });
 number = 0;
 function modeSwitch() {
-        if (this.value != this.parentNode.value) {
-            switcher.forEach(function (tog) {
+        if (this.value != this.parentElement.value) {
+            oneswitch.forEach(function (tog) {
                 if(number % 2 == 0) {                
-                    if (tog.parentNode.value == "dark") {
-                        tog.parentNode.value = "light";
+                    if (tog.parentElement.value == "dark") {
+                        tog.parentElement.setAttribute("value", "light")
                     } else {
-                        tog.parentNode.value = "dark";
+                        tog.parentElement.setAttribute("value", "dark")
                     }
                 }
                 number++;

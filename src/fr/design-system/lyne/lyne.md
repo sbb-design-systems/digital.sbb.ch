@@ -3,7 +3,7 @@ layout: redirect.njk
 tags: level2
 key: lyne_fr
 title: Lyne 
-redirect: /de/design-system/lyne/overview/
+redirect: /fr/design-system/lyne/overview/
 parent: designsystem_fr
 order: 40
 ---

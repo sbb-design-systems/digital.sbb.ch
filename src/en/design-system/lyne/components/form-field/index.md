@@ -8,6 +8,6 @@ title: Form-Field
 parent: components-lyne_en
 keywords: form-field, form, field, text-input, select, input
 order: 160
-redirect: form-field/
+redirect: /en/design-system/lyne/components/form-field/form-field/
 folder: true
 ---

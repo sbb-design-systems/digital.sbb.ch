@@ -8,6 +8,6 @@ title: Container
 parent: components-lyne_de
 keywords: container, sticky-bar, sticky, bar
 order: 100
-redirect: container/
+redirect: /de/design-system/lyne/components/container/container/
 folder: true
 ---

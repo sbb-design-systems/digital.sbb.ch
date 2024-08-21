@@ -8,6 +8,6 @@ title: Link
 parent: components-lyne_it
 keywords: link, icon, action
 order: 210
-redirect: block-link/
+redirect: /it/design-system/lyne/components/link/block-link/
 folder: true
 ---

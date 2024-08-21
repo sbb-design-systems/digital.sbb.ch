@@ -8,6 +8,6 @@ title: Datepicker
 parent: components-lyne_fr
 keywords: date, datepicker, calendar, picker
 order: 110
-redirect: datepicker/
+redirect: /fr/design-system/lyne/components/datepicker/datepicker/
 folder: true
 ---

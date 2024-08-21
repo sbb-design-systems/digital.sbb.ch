@@ -8,6 +8,6 @@ title: Tab
 parent: components-lyne_de
 keywords: tab, tab-group, group
 order: 390
-redirect: tab-group/
+redirect: /de/design-system/lyne/components/tab/tab-group/
 folder: true
 ---

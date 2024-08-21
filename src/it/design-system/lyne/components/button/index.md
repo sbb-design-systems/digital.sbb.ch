@@ -8,6 +8,6 @@ title: Button
 parent: components-lyne_it
 keywords: button, link
 order: 50
-redirect: button/
+redirect: /it/design-system/lyne/components/button/button
 folder: true
 ---

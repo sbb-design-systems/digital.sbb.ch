@@ -4,11 +4,12 @@ tags:
     - lyne_fr
     - lyne_components_fr
     - lyne_components_flip_card_child_fr
-key: flip-card-details-lyne_fr
-title: Flip-Card-Details
-parent: components-lyne_fr
-keywords: flip-card-details
-order: 146
+    - is_in_folder_fr
+key: flip-card-summary-lyne_fr
+title: Flip-Card-Summary
+parent: flip-card-folder-lyne_fr
+keywords: flip-card-summary
+order: 30
 availablelanguages: 
     - de
     - en

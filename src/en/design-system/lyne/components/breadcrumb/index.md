@@ -8,6 +8,6 @@ title: Breadcrumb
 parent: components-lyne_en
 keywords: bread, breadcrumb, breadcrumb-group, breadcrumb group
 order: 40
-redirect: breadcrumb-group/
+redirect: /en/design-system/lyne/components/breadcrumb/breadcrumb-group/
 folder: true
 ---

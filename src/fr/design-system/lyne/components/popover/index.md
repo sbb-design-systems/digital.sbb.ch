@@ -8,6 +8,6 @@ title: Popover
 parent: components-lyne_fr
 keywords: popover, pop, over, trigger, popver-trigger
 order: 310
-redirect: popover/
+redirect: /fr/design-system/lyne/components/popover/popover/
 folder: true
 ---
