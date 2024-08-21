@@ -9,9 +9,9 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
-* Default{.lead}
-* Hover{.lead}
+The component has the following states: {.lead}
+* Default {.lead}
+* Hover {.lead}
 
 ## Variants
 ### Default

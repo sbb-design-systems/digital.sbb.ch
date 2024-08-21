@@ -9,7 +9,7 @@ parent: switch-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Selected
 *   Unselected
 *   Disabled selected
@@ -18,7 +18,7 @@ The component has the following states:{.lead}
 *   Error (default / retry / reloading / button)
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 *   Switch
     *   Selected / unselected
 *   Switch-Item

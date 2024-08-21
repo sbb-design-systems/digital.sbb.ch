@@ -9,7 +9,7 @@ parent: status-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 
 * Alert
 * Warning
@@ -17,7 +17,7 @@ The component has the following states:{.lead}
 * Information
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 
 * Icon mit Text
 * Icon ohne Text

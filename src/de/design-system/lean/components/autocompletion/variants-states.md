@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hover
 * Active
@@ -24,7 +24,7 @@ Die Komponente hat folgende Zustände:{.lead}
 }) }}
 
 ### Mit Trefferanzeige
-Optional zur Standard-Variante kann diese Variante eingesetzt werden, wenn eine Autocompletion-Liste immer mehr als die maximal angezeigten 10 Treffer beinhaltet.{.lead}
+Optional zur Standard-Variante kann diese Variante eingesetzt werden, wenn eine Autocompletion-Liste immer mehr als die maximal angezeigten 10 Treffer beinhaltet. {.lead}
 {{ imageOnGreyBackground({
   url: '/assets/images/lean/Autocompletion_Overflow',
   alt: 'Darstellung des Autocompletes mit Trefferanzeige',

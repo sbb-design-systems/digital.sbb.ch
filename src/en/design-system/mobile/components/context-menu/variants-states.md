@@ -9,7 +9,7 @@ parent: context-menu-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Closed
 *   Open
 

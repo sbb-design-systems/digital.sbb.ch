@@ -42,14 +42,14 @@ order: 2
 ### Access to SBB's Figma Space 
 Only internal staff and external staff with an SBB e-mail address have access. 
 To create or edit designs, you need edit rights or a Figma licence. The costs for this licence are paid by you or your project. We need a PSP element to unlock you. Costs (approx. 540 Euro per year).
-Order by email to <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>.{.lead}
+Order by email to <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>. {.lead}
 
 <a id="install-libraries"></a>
 
 ### Installing the required libraries 
-To install the required Libraies, you need to join the team <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/files/937035332175966726/team/1016730059889367563">SBB Design Systeme</sbb-link>. If you need Lyne components, you need to join the team <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/files/937035332175966726/team/877917807932767158">Lyne</sbb-link>.{.lead}
+To install the required Libraies, you need to join the team <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/files/937035332175966726/team/1016730059889367563">SBB Design Systeme</sbb-link>. If you need Lyne components, you need to join the team <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/files/937035332175966726/team/877917807932767158">Lyne</sbb-link>. {.lead}
 
-All libraries are based on the following design token libraries. It is mandatory to activate them:{.lead}
+All libraries are based on the following design token libraries. It is mandatory to activate them: {.lead}
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/MN4unbOECrOGJ2bKxgYZI1/SBB-Colors?t=gMc333VEVkr5hjze-1">SBB Colors</sbb-link>  
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/UQBd7cHKav0hr9oXYp7opJ/SBB-Icons?t=gMc333VEVkr5hjze-1">SBB Icons</sbb-link>   
 - <sbb-link variant="inline" type="button" target="_blank" href="https://www.figma.com/file/el6W0pbvl6BRgaiPZ5NFqE/SBB-Pictograms?t=gMc333VEVkr5hjze-1">Public transport pictograms</sbb-link>
@@ -69,14 +69,14 @@ tbd.
 <a id="enter-community"></a>
 
 ### Join the MS Team Community 
-Not a Figma Hero yet? Join our <sbb-link variant="inline" type="button" target="_blank" href="https://teams.microsoft.com/l/channel/19%3ac23a8ec66e74476895665eaef367be78%40thread.skype/Figma%2520Selbsthilfegruppe?groupId=6dcd0a69-d490-423c-b318-ea2b5e6d3b7b&tenantId=2cda5d11-f0ac-46b3-967d-af1b2e1bd01a">Figma support group</sbb-link>. We will do our best to help you quickly.{.lead}
+Not a Figma Hero yet? Join our <sbb-link variant="inline" type="button" target="_blank" href="https://teams.microsoft.com/l/channel/19%3ac23a8ec66e74476895665eaef367be78%40thread.skype/Figma%2520Selbsthilfegruppe?groupId=6dcd0a69-d490-423c-b318-ea2b5e6d3b7b&tenantId=2cda5d11-f0ac-46b3-967d-af1b2e1bd01a">Figma support group</sbb-link>. We will do our best to help you quickly. {.lead}
 
 <a id="use-components"></a>
 
 ### Browse, understand, use components
-After that you can use components in Figma. It is recommended that you become familiar with the relevant documentation on this page: <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>.{.lead}
+After that you can use components in Figma. It is recommended that you become familiar with the relevant documentation on this page: <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/overview/">Lean</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>, <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/legacy/overview/">Web (Legacy)</sbb-link>. {.lead}
 
 <a id="community-assets"></a>
 
 ### Browse Community Assets 
-Community assets are assets/artifacts that you have created in your projects and can possibly be used in other projects. With a collection of these assets, others can benefit from your work. It doesn't matter if there is already code or just a concept in a Figma file. In addition to a short description, a contact is always given where you can get in touch for further information. The community assets are contributed and maintained by you. <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/community-assets/catalogue/">Here</sbb-link> you can find out more.{.lead}
+Community assets are assets/artifacts that you have created in your projects and can possibly be used in other projects. With a collection of these assets, others can benefit from your work. It doesn't matter if there is already code or just a concept in a Figma file. In addition to a short description, a contact is always given where you can get in touch for further information. The community assets are contributed and maintained by you. <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/community-assets/catalogue/">Here</sbb-link> you can find out more. {.lead}

@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Hover
 * Active
@@ -23,7 +23,7 @@ The component has the following states:{.lead}
   title: 'Menu item'
 }) }}
 
-* The icon selected here is to be used when the menu item replaces the existing content.{.lead}
+* The icon selected here is to be used when the menu item replaces the existing content. {.lead}
 
 ### Icon
 {{ imageOnGreyBackground({
@@ -32,7 +32,7 @@ The component has the following states:{.lead}
   title: 'Menu item with icon'
 }) }}
 
-* The icon selected here should be used if the content behind the menu item is opened externally (e.g. in a new tab).{.lead}
+* The icon selected here should be used if the content behind the menu item is opened externally (e.g. in a new tab). {.lead}
 
 ## Specifications
 {{ specificationLinks({

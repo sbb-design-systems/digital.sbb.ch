@@ -9,10 +9,10 @@ permalink: false
 ---
 
 ## Was macht die Komponente?
-Blättert durch eine Liste von Elementen oder Seiten.{.lead}
+Blättert durch eine Liste von Elementen oder Seiten. {.lead}
 
 ## Wann soll die Komponente eingesetzt werden? 
-Bei langen Listen von Elementen oder Seiten.{.lead}
+Bei langen Listen von Elementen oder Seiten. {.lead}
 
 ## Regeln
-* Anzahl Elemente pro Seite muss kontextspezifisch definiert werden.{.lead}
+* Anzahl Elemente pro Seite muss kontextspezifisch definiert werden. {.lead}

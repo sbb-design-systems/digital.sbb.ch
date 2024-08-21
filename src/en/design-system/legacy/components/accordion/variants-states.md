@@ -9,9 +9,9 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
-* Collapsed{.lead}
-* Expanded{.lead}
+The component has the following states: {.lead}
+* Collapsed {.lead}
+* Expanded {.lead}
 
 ## Variants
 

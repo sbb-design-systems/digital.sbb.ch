@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States 
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Active
 * Inactive
 
@@ -21,9 +21,9 @@ The component has the following states:{.lead}
   title: 'Filter tag used as filter'
 }) }}
 
-* In the filter there are tags in status active or inactive.{.lead}
-* When a tag is clicked, the status concerned toggles to the other status and influences the filter result.{.lead}
-* A tag «All» is always inserted within the filter. If this filter tag is clicked, it changes to the active status and all other tags in the filter are set to the inactive status.{.lead}
+* In the filter there are tags in status active or inactive. {.lead}
+* When a tag is clicked, the status concerned toggles to the other status and influences the filter result. {.lead}
+* A tag «All» is always inserted within the filter. If this filter tag is clicked, it changes to the active status and all other tags in the filter are set to the inactive status. {.lead}
 
 ## Specifications
 {{ specificationLinks({

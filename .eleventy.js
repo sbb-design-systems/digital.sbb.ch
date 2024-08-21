@@ -90,7 +90,8 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("absolutelinks", (post) => {
         const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
         function wrapTablesWithSbbTableWrapper(content) {
-            const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
+            //const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
+            const tableRegex = /(\|[^\n]+\|\n)(\|[^\n]+\|\n)*/g;
             return content.replace(tableRegex, (match) => `<sbb-table-wrapper>\n\n${match}\n\n{.sbb-table}\n\n</sbb-table-wrapper>\n\n`);
         }
         const updatedContent = wrapTablesWithSbbTableWrapper(content);

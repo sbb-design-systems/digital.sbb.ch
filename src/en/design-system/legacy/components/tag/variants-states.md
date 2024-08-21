@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Active (Default)
 * Inactive
 * Hover active
@@ -22,9 +22,10 @@ The component has the following states:{.lead}
   alt: 'Image of the filter tag used as filter',
   title: 'filter tag used as filter'
 }) }}
-* The status of the tags in the filter is active or inactive.{.lead}
-* When a tag is clicked, the status concerned toggles to the other status and influences the filter result.{.lead}
-* A tag ‘all’ is always inserted within the filter. If this filter tag is clicked, it changes to the active status and all other tags in the filter are set to the inactive status.{.lead}
+
+* The status of the tags in the filter is active or inactive. {.lead}
+* When a tag is clicked, the status concerned toggles to the other status and influences the filter result. {.lead}
+* A tag ‘all’ is always inserted within the filter. If this filter tag is clicked, it changes to the active status and all other tags in the filter are set to the inactive status. {.lead}
 
 Example:
 {{ imageOnGreyBackground({
@@ -39,8 +40,9 @@ Example:
   alt: 'Image of the filter tag used as link',
   title: 'Filter tag used as link'
 }) }}
-* Link tags only have the active status.{.lead}
-* Clicking on the tag takes the user to the relevant category page.{.lead}
+
+* Link tags only have the active status. {.lead}
+* Clicking on the tag takes the user to the relevant category page. {.lead}
 
 Beispiel:
 {{ imageOnGreyBackground({

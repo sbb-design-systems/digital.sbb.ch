@@ -14,10 +14,10 @@ order: 30
 ---
 
 ## Was macht die Komponente?
-*   Definiert alle zulässigen Schriften im SBB-Mobile-Kontext.{.lead}
+*   Definiert alle zulässigen Schriften im SBB-Mobile-Kontext. {.lead}
 
 ## Wann soll die Komponente eingesetzt werden?
-*   Für die Gestaltung von Komponenten und Seiten.{.lead}
+*   Für die Gestaltung von Komponenten und Seiten. {.lead}
 
 ## Regeln
 *   Keine

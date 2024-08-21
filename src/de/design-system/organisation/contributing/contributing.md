@@ -8,7 +8,7 @@ order: 2
 ---
 
 Wir laden euch herzlich ein, aktiv an der Weiterentwicklung und Verbesserung unseres Design Systems teilzunehmen. Eure Ideen, Feedback und Erfahrungen sind von unschätzbarem Wert, um ein leistungsstarkes, flexibles und zukunftssicheres Design System aufzubauen.
-Wir schätzen euren Beitrag ausserordentlich und sind überzeugt, dass ihr entscheidend dazu beitragen werdet, unser Design System weiter zu professionallisieren.{.lead}
+Wir schätzen euren Beitrag ausserordentlich und sind überzeugt, dass ihr entscheidend dazu beitragen werdet, unser Design System weiter zu professionallisieren. {.lead}
 
 ## Die wichtigsten Github Links.
 
@@ -28,22 +28,22 @@ Wir schätzen euren Beitrag ausserordentlich und sind überzeugt, dass ihr entsc
 </sbb-table-wrapper>
 
 ## Inhalte hinzufügen
-Es gibt eine Reihe von Kriterien welche erfüllt werden müssen, damit eine Komponente oder ein Design Token in das System aufgenommen werden kann. Erfüllt deine Anforderung folgende Kategorien, hat sie gute Chancen in das System aufgenommen zu werden:{.lead} 
+Es gibt eine Reihe von Kriterien welche erfüllt werden müssen, damit eine Komponente oder ein Design Token in das System aufgenommen werden kann. Erfüllt deine Anforderung folgende Kategorien, hat sie gute Chancen in das System aufgenommen zu werden: {.lead} 
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Mehrfach verwendet werden können{.with-icon}
-Komponenten die mehrfach verwendet werden können und generisch genug konzipiert sind, haben gute Chancen augenommen zu werden. Gerne helfen wir bei einer Generalisierung, sofern nötig.{.lead}
+Komponenten die mehrfach verwendet werden können und generisch genug konzipiert sind, haben gute Chancen augenommen zu werden. Gerne helfen wir bei einer Generalisierung, sofern nötig. {.lead}
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Auf die User Experience Prinzipien einzahlen{.with-icon}
-Komponenten welche auf unsere Prinzipien einzahlen haben ebenfalls gute Chancen. Insbesondere die Prinzipien "Wiedererkennbar", "Inklusiv", "Selbsterklärend" und "Reduziert" sind entscheidend.{.lead}
+Komponenten welche auf unsere Prinzipien einzahlen haben ebenfalls gute Chancen. Insbesondere die Prinzipien "Wiedererkennbar", "Inklusiv", "Selbsterklärend" und "Reduziert" sind entscheidend. {.lead}
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Ohne Business-Logik sind{.with-icon}
-Komponenten mit Business-Logik oder angebunden Services/APIs haben keine Chance aufgenommen zu werden. Die Business-Logik kann ändern und ist in der Verantwortung der Business-Owners. Unsere Teams sind organisatorisch nicht in der Lage diese Änderungen/Weiterentwicklungen zu betreiben und zu überwachen. In den meisten Fällen kann die Business-Logik aber extrahiert werden. Wir helfen gerne bei architektonischen Fragen.{.lead}
+Komponenten mit Business-Logik oder angebunden Services/APIs haben keine Chance aufgenommen zu werden. Die Business-Logik kann ändern und ist in der Verantwortung der Business-Owners. Unsere Teams sind organisatorisch nicht in der Lage diese Änderungen/Weiterentwicklungen zu betreiben und zu überwachen. In den meisten Fällen kann die Business-Logik aber extrahiert werden. Wir helfen gerne bei architektonischen Fragen. {.lead}
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Zur Effizienz beitragen{.with-icon}
-Komponenten, die den Design- und Entwicklungsprozess beschleunigen, indem sie die Notwendigkeit, wiederkehrende oder zeitaufwändige Aufgaben durchzuführen, reduzieren, sind gute Kandidaten für die Aufnahme in das Design System.{.lead}
+Komponenten, die den Design- und Entwicklungsprozess beschleunigen, indem sie die Notwendigkeit, wiederkehrende oder zeitaufwändige Aufgaben durchzuführen, reduzieren, sind gute Kandidaten für die Aufnahme in das Design System. {.lead}
 
 
 ## Ja, Nein oder Jein. 
-Zusammen entscheiden wir ob Inhalte aufgenommen werden oder nicht. Dieses Quiz soll bei der Fragestellung helfen ob eine Komponente ins Design System gehört oder im Projekt entwickelt werden soll. Bei Zweifel/Unsicherheit: Zögere nicht uns zu kontaktieren.{.lead}
+Zusammen entscheiden wir ob Inhalte aufgenommen werden oder nicht. Dieses Quiz soll bei der Fragestellung helfen ob eine Komponente ins Design System gehört oder im Projekt entwickelt werden soll. Bei Zweifel/Unsicherheit: Zögere nicht uns zu kontaktieren. {.lead}
 
 <div class="experiment"><questionaire-form></questionaire-form></div>

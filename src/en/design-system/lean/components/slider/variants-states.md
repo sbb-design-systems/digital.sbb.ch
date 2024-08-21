@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Hover
 * Pressed
@@ -31,7 +31,7 @@ The component has the following states:{.lead}
   title: 'Slider, continuous, horizontal'
 }) }}
 
-* This variant should not be used for very large or very small value ranges, but above all for imprecise value ranges (e.g. "quiet" - "loud", "little" - "much").{.lead}
+* This variant should not be used for very large or very small value ranges, but above all for imprecise value ranges (e.g. "quiet" - "loud", "little" - "much"). {.lead}
 
 ### Discrete
 {{ imageOnGreyBackground({

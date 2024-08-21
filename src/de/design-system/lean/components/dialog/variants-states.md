@@ -14,7 +14,7 @@ permalink: false
 ## Varianten
 
 ### Simple (Warnungen / Bestätigungen)
-Diese Ausprägung hat folgende Zustände:{.lead}
+Diese Ausprägung hat folgende Zustände: {.lead}
 * Default
 
 <!-- end of the list -->
@@ -25,7 +25,7 @@ Diese Ausprägung hat folgende Zustände:{.lead}
 }) }}
 
 ### Complex (Formulare)
-Diese Variante hat folgende Zustände:{.lead}
+Diese Variante hat folgende Zustände: {.lead}
 * Valid
 * Not Valid
 
@@ -36,10 +36,10 @@ Diese Variante hat folgende Zustände:{.lead}
   title: 'Dialog, Complex'
 }) }}
 
-* Diese Variante dient zur Erstellung oder Bearbeitung von komplexen Datenobjekten, wenn diese nicht direkt im Content der Applikation bearbeitet werden können.{.lead}
-* Wenn die Benutzer*innen den Dialog verwerfen möchten und ...{.lead}
-    * keine Änderungen vorgenommen wurden, wird das Dialogfeld geschlossen und es ist keine Bestätigung erforderlich.{.lead}
-    * die Benutzer*innen Änderungen vorgenommen haben, werden die Benutzer*innen aufgefordert, die Verwerfungsaktion zu bestätigen.{.lead}
+* Diese Variante dient zur Erstellung oder Bearbeitung von komplexen Datenobjekten, wenn diese nicht direkt im Content der Applikation bearbeitet werden können. {.lead}
+* Wenn die Benutzer*innen den Dialog verwerfen möchten und ... {.lead}
+    * keine Änderungen vorgenommen wurden, wird das Dialogfeld geschlossen und es ist keine Bestätigung erforderlich. {.lead}
+    * die Benutzer*innen Änderungen vorgenommen haben, werden die Benutzer*innen aufgefordert, die Verwerfungsaktion zu bestätigen. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

@@ -21,4 +21,4 @@ order: 3
 
 </sbb-table-wrapper>
 
-Bitte benutze die <sbb-link variant="inline" href="/{{page.lang}}/design-system/organisation/contributing/">Boards</sbb-link> um mit uns zu kommunizieren, so sind alle Anfragen zentral gesammelt und Antworten könnnen auch anderen dienen.{.lead}
+Bitte benutze die <sbb-link variant="inline" href="/{{page.lang}}/design-system/organisation/contributing/">Boards</sbb-link> um mit uns zu kommunizieren, so sind alle Anfragen zentral gesammelt und Antworten könnnen auch anderen dienen. {.lead}

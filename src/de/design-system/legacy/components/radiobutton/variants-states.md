@@ -9,13 +9,13 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
-* Checked{.lead}
-* Unchecked{.lead}
-* Focused checked{.lead}
-* Focused unchecked{.lead}
-* Disabled checked{.lead}
-* Disabled unchecked{.lead}
+Die Komponente hat folgende Zustände: {.lead}
+* Checked {.lead}
+* Unchecked {.lead}
+* Focused checked {.lead}
+* Focused unchecked {.lead}
+* Disabled checked {.lead}
+* Disabled unchecked {.lead}
 
 ## Varianten
 

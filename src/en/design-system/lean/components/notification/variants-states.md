@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 
 ## Variants
@@ -49,14 +49,14 @@ The component has the following states:{.lead}
   title: 'Notification message, jump marker'
 }) }}
 
-* If an error cannot be assigned to an individual element, then the error message with jump marker is used.{.lead}
-* The individual jump markers are separated with a '/'.{.lead}
-* The cause of the error is scrolled to if a jump marker is clicked on.{.lead}
-* The jump marker target is always on the same page as the notification (no jumping to other pages).{.lead}
+* If an error cannot be assigned to an individual element, then the error message with jump marker is used. {.lead}
+* The individual jump markers are separated with a '/'. {.lead}
+* The cause of the error is scrolled to if a jump marker is clicked on. {.lead}
+* The jump marker target is always on the same page as the notification (no jumping to other pages). {.lead}
 
 ### Notification Toast
-* Notifications can be displayed directly within the content area (e.g. due to form validation). However, "flying in" toasts can also be used for notifications.{.lead}
-* The display duration until automatic disappearance can now be defined according to the use case. To this end, toasts can also be configured not to disappear automatically.{.lead}
+* Notifications can be displayed directly within the content area (e.g. due to form validation). However, "flying in" toasts can also be used for notifications. {.lead}
+* The display duration until automatic disappearance can now be defined according to the use case. To this end, toasts can also be configured not to disappear automatically. {.lead}
 
 ## Specifications
 {{ specificationLinks({

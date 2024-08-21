@@ -9,15 +9,15 @@ permalink: false
 ---
 
 ## What does the component do?
-It provides the user with a selection of several options.{.lead}
+It provides the user with a selection of several options. {.lead}
 
 ## When should the component be used?
-* In lists with two or more options where the user can select several or no options.{.lead}
-* For options which contain several pieces of information.{.lead}
+* In lists with two or more options where the user can select several or no options. {.lead}
+* For options which contain several pieces of information. {.lead}
 
 ## Rules
-* The title text of the options is always single-line.{.lead}
-* The entire area of the option selection is clickable and changes the status.{.lead}
-* The various options are always listed beneath one another.{.lead}
-* Several options can be selected.{.lead}
-* No selection is permitted.{.lead}
+* The title text of the options is always single-line. {.lead}
+* The entire area of the option selection is clickable and changes the status. {.lead}
+* The various options are always listed beneath one another. {.lead}
+* Several options can be selected. {.lead}
+* No selection is permitted. {.lead}

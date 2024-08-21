@@ -11,7 +11,7 @@ permalink: false
 ## Variants
 
 ### Default
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Default
 
 {{ imageOnGreyBackground({
@@ -21,7 +21,7 @@ This variant has following states:{.lead}
 }) }}
 
 ### Submenu
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Collapsed
 * Expanded
 * Hover
@@ -33,7 +33,7 @@ This variant has following states:{.lead}
 }) }}
 
 ### Suite
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Collapsed
 * Expanded
 

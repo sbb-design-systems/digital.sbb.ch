@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat die folgende Zustände:{.lead}
+Die Komponente hat die folgende Zustände: {.lead}
 * Collapsed
 * Expanded
 

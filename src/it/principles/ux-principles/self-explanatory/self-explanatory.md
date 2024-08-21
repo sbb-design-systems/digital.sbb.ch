@@ -17,7 +17,7 @@ image: selbsterklaerend.webp
   title: 'Selbsterklaerend'
 }) }}
 
-Il nostro obiettivo è condurre gli utenti al meglio con i nostri prodotti e aiutarli quando necessario. Parliamo la loro lingua (concetti e conoscenze pregresse) e teniamo conto del modo di pensare degli utenti. ​Forniamo assistenza in caso di immissioni errate, consentendo una semplice correzione degli errori. Inoltre, permettiamo all'utente di adattare il software ai propri metodi di lavoro personali.​{.lead}
+Il nostro obiettivo è condurre gli utenti al meglio con i nostri prodotti e aiutarli quando necessario. Parliamo la loro lingua (concetti e conoscenze pregresse) e teniamo conto del modo di pensare degli utenti. ​Forniamo assistenza in caso di immissioni errate, consentendo una semplice correzione degli errori. Inoltre, permettiamo all'utente di adattare il software ai propri metodi di lavoro personali.​ {.lead}
 
 
 ### Esempio
@@ -27,4 +27,4 @@ Il nostro obiettivo è condurre gli utenti al meglio con i nostri prodotti e aiu
   title: 'Beispiel'
 }) }}
 
-Gli utenti vengono guidati lungo il processo e vedono a prima vista che è necessario inserire una data nonchè il formato in cui digitarla.​{.lead}
+Gli utenti vengono guidati lungo il processo e vedono a prima vista che è necessario inserire una data nonchè il formato in cui digitarla.​ {.lead}

@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hover
 * Active
@@ -23,7 +23,7 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Menuitem'
 }) }}
 
-* Das hier gewählte Icon soll dann eingesetzt werden, wenn das Menuitem den bestehenden Content ersetzt.{.lead}
+* Das hier gewählte Icon soll dann eingesetzt werden, wenn das Menuitem den bestehenden Content ersetzt. {.lead}
 
 ### Icon
 {{ imageOnGreyBackground({
@@ -32,7 +32,7 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Menuitem mit Icon'
 }) }}
 
-* Das hier gewählte Icon soll dann eingesetzt werden, wenn der Inhalt hinter dem Menuitem extern (z.B. in einem neuen Tab) geöffnet wird.{.lead}
+* Das hier gewählte Icon soll dann eingesetzt werden, wenn der Inhalt hinter dem Menuitem extern (z.B. in einem neuen Tab) geöffnet wird. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

@@ -17,7 +17,7 @@ image: reduziert.webp
   title: 'Reduziert'
 }) }}
 
-Le nostre soluzioni aiutano gli utenti a svolgere una determinata attività nel modo più semplice ed efficace possibile, proponendo solo le informazioni e le funzionalità necessarie per la fase operativa in corso. Questo per evitare un sovraccarico di informazioni.​{.lead}
+Le nostre soluzioni aiutano gli utenti a svolgere una determinata attività nel modo più semplice ed efficace possibile, proponendo solo le informazioni e le funzionalità necessarie per la fase operativa in corso. Questo per evitare un sovraccarico di informazioni.​ {.lead}
 
 
 ### Esempio
@@ -26,4 +26,5 @@ Le nostre soluzioni aiutano gli utenti a svolgere una determinata attività nel 
   alt: 'Beispiel',
   title: 'Beispiel'
 }) }}
-Mostriamo all'utente solo le informazioni rilevanti necessarie ed evitiamo contenuti complessi. Omettendo o nascondendo deliberatamente al primo livello, rendiamo all'utente più facile l'operazione/applicazione. Ad esempio, l'orario mostra inizialmente solo il punto di partenza, la destinazione e la quantità di cambi.​{.lead}
+
+Mostriamo all'utente solo le informazioni rilevanti necessarie ed evitiamo contenuti complessi. Omettendo o nascondendo deliberatamente al primo livello, rendiamo all'utente più facile l'operazione/applicazione. Ad esempio, l'orario mostra inizialmente solo il punto di partenza, la destinazione e la quantità di cambi.​ {.lead}

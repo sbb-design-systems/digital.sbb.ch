@@ -9,9 +9,9 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
-* First (first option selected){.lead}
-* Second (second option selected){.lead}
+The component has the following states: {.lead}
+* First (first option selected) {.lead}
+* Second (second option selected) {.lead}
 
 ## Variants
 ### Default 

@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States 
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Placeholder
 * Focused
@@ -33,13 +33,14 @@ The component has the following states:{.lead}
   alt: 'Image of a date picker with scroll function',
   title: 'Date picker with scroll function'
 }) }}
-* The navigation arrows are only shown if a preceding/subsequent date can be selected.{.lead}
+
+* The navigation arrows are only shown if a preceding/subsequent date can be selected. {.lead}
 
 ### Date range
-* Two date pickers are combined to select a date range.{.lead}
-* If the from date is selected via the calendar layer and the to date has not yet been defined, the calendar layer of the to field opens. If a to date has already been selected, the calendar layer does not open.{.lead}
-* If the user selects a from date > to date, the to date is deleted and its calendar layer is shown.{.lead}
-* If both dates are shown, the selected range is entered in the calendar in colour.{.lead}
+* Two date pickers are combined to select a date range. {.lead}
+* If the from date is selected via the calendar layer and the to date has not yet been defined, the calendar layer of the to field opens. If a to date has already been selected, the calendar layer does not open. {.lead}
+* If the user selects a from date > to date, the to date is deleted and its calendar layer is shown. {.lead}
+* If both dates are shown, the selected range is entered in the calendar in colour. {.lead}
 
 ### Date of birth
 {{ imageOnGreyBackground({
@@ -55,12 +56,12 @@ The component has the following states:{.lead}
   title: 'Date picker, calender layer'
 }) }}
 
-The tab sequence within the calender layer is defined as follows:{.lead}
+The tab sequence within the calender layer is defined as follows: {.lead}
 1. Previous month
 2. Next month
 3. Previous year
 4. Next year
-5. range of the individual days. If the focus is on the range of days, it is possible to navigate left, right, up and down within the days using the arrow keys.{.lead}
+5. range of the individual days. If the focus is on the range of days, it is possible to navigate left, right, up and down within the days using the arrow keys. {.lead}
 
 ## Specifications
 {{ specificationLinks({

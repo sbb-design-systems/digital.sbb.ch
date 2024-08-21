@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 
 ## Varianten
@@ -49,14 +49,14 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Benachrichtigung in der Variante Fehler mit Sprungmarke'
 }) }}
 
-* Kann ein Fehler nicht einem einzelnen Element zugewiesen werden, dann wird die Fehlermeldung mit Sprungmarken eingesetzt.{.lead}
-* Die einzelnen Sprungmarken werden durch ein «/» getrennt.{.lead}
-* Beim Klick auf eine Sprungmarke wird direkt zum Ursprung des entsprechenden Fehlers gescrollt.{.lead}
-* Das Sprungmarkenziel ist immer auf derselben Seite wie die Notification (kein Absprung auf andere Seiten).{.lead}
+* Kann ein Fehler nicht einem einzelnen Element zugewiesen werden, dann wird die Fehlermeldung mit Sprungmarken eingesetzt. {.lead}
+* Die einzelnen Sprungmarken werden durch ein «/» getrennt. {.lead}
+* Beim Klick auf eine Sprungmarke wird direkt zum Ursprung des entsprechenden Fehlers gescrollt. {.lead}
+* Das Sprungmarkenziel ist immer auf derselben Seite wie die Notification (kein Absprung auf andere Seiten). {.lead}
 
 ### Notification Toast
-* Benachrichtigungen können einerseits direkt innerhalb des Contentbereichs angezeigt werden (z.B. aufgrund einer Form-Validierung). Für Benachrichtigungen können aber auch "einfliegende" Toasts verwendet werden.{.lead}
-* Die Anzeigedauer bis zum automatischen Verschwinden kann jetzt nach Anwendungsfall definiert werden. Dahingehend können Toasts auch konfiguriert werden, dass sie nicht automatisch verschwinden.{.lead}
+* Benachrichtigungen können einerseits direkt innerhalb des Contentbereichs angezeigt werden (z.B. aufgrund einer Form-Validierung). Für Benachrichtigungen können aber auch "einfliegende" Toasts verwendet werden. {.lead}
+* Die Anzeigedauer bis zum automatischen Verschwinden kann jetzt nach Anwendungsfall definiert werden. Dahingehend können Toasts auch konfiguriert werden, dass sie nicht automatisch verschwinden. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

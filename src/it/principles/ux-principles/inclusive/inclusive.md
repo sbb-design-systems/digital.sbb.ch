@@ -17,7 +17,7 @@ image: inklusiv.webp
   title: 'Inklusiv'
 }) }}
 
-Il nostro obiettivo è di sviluppare soluzioni che possano essere adoperate a prescindere dalle disabilità individuali. Questo contribuisce a migliorare la User Experience anche in caso delle eventuali disabilità temporanee che possono colpire tutti i nostri utenti.​{.lead}
+Il nostro obiettivo è di sviluppare soluzioni che possano essere adoperate a prescindere dalle disabilità individuali. Questo contribuisce a migliorare la User Experience anche in caso delle eventuali disabilità temporanee che possono colpire tutti i nostri utenti.​ {.lead}
 
 
 ### Esempio
@@ -27,4 +27,4 @@ Il nostro obiettivo è di sviluppare soluzioni che possano essere adoperate a pr
   title: 'Inklusiv'
 }) }}
 
-Tra queste disabilità o problematiche possono rientrare, per esempio, la rottura di una gamba, un viaggio con il passeggino o con la bicicletta, la necessità di leggere un testo in presenza di una forte luce solare, oppure l’utilizzo di schermi touch con guanti.​{.lead}
+Tra queste disabilità o problematiche possono rientrare, per esempio, la rottura di una gamba, un viaggio con il passeggino o con la bicicletta, la necessità di leggere un testo in presenza di una forte luce solare, oppure l’utilizzo di schermi touch con guanti.​ {.lead}

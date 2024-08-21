@@ -8,14 +8,14 @@ parent: guides_fr
 order: 4
 ---
 
-Les CFF mettent des modèles à disposition pour les bandeaux publicitaires numériques. Il existe deux versions différentes en fonction du format souhaité.{.lead}  
+Les CFF mettent des modèles à disposition pour les bandeaux publicitaires numériques. Il existe deux versions différentes en fonction du format souhaité. {.lead}  
  
 ## Utilisation
-Il convient de respecter les modèles fournis. Si le format souhaité n’est pas disponible parmi les modèles existants, il est possible d’en adapter un. Il est préférable pour ce faire de choisir le modèle de la taille la plus proche de celle souhaitée.{.lead}
+Il convient de respecter les modèles fournis. Si le format souhaité n’est pas disponible parmi les modèles existants, il est possible d’en adapter un. Il est préférable pour ce faire de choisir le modèle de la taille la plus proche de celle souhaitée. {.lead}
  
-À chaque fois que cela est possible, il y a lieu d’utiliser l’encart rouge complet (version 1). Pour les petits formats ou les formats extrêmes, la version 2 est à privilégier. Veuillez noter que la plupart des bandeaux réalisés le sont au moyen de la version 1 avec l’encart rouge.{.lead}
+À chaque fois que cela est possible, il y a lieu d’utiliser l’encart rouge complet (version 1). Pour les petits formats ou les formats extrêmes, la version 2 est à privilégier. Veuillez noter que la plupart des bandeaux réalisés le sont au moyen de la version 1 avec l’encart rouge. {.lead}
 
-Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Accessibility Guidelines) doivent être respectées lors de la création de supports publicitaires.{.lead}
+Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Accessibility Guidelines) doivent être respectées lors de la création de supports publicitaires. {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
 <sbb-tab-label>Version 1</sbb-tab-label>

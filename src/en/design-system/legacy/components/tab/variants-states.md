@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Active
 * Inactive
 * Hover
@@ -29,8 +29,9 @@ The component has the following states:{.lead}
   alt: 'Image of a tab, with quantity indicator',
   title: 'Tab, with quantity indicator'
 }) }}
-* The quantity indicator provides information about how many entries a list in the content of the tab shows.{.lead}
-* The quantity indicator only contains numbers and is a maximum of three digits.{.lead}
+
+* The quantity indicator provides information about how many entries a list in the content of the tab shows. {.lead}
+* The quantity indicator only contains numbers and is a maximum of three digits. {.lead}
 
 ## Specification
 {{ specificationLinks({

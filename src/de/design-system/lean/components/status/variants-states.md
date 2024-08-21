@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 
 ## Varianten
@@ -20,7 +20,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung eines Status mit Icon',
   title: 'Status mit Icon'
 }) }}
-* Diese Variante dient als platzsparende Variante, welche z.B. in einer Tabelle eingesetzt werden kann.{.lead}
+
+* Diese Variante dient als platzsparende Variante, welche z.B. in einer Tabelle eingesetzt werden kann. {.lead}
 
 ### Text 
 {{ imageOnGreyBackground({
@@ -28,7 +29,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung eines Status mit Text',
   title: 'Status mit Text'
 }) }}
-* Diese Variante dient als platzsparende Variante, welche z.B. in einer Tabelle eingesetzt werden kann, wenn Icons nicht selbsterklärend sind.{.lead}
+
+* Diese Variante dient als platzsparende Variante, welche z.B. in einer Tabelle eingesetzt werden kann, wenn Icons nicht selbsterklärend sind. {.lead}
 
 ### Extended 
 {{ imageOnGreyBackground({
@@ -36,7 +38,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung eines Status mit Icon und Text',
   title: 'Status mit Icon und Text'
 }) }}
-* Diese Variante soll vor allem in der Detailansicht eines Objekts eingesetzt werden.{.lead}
+
+* Diese Variante soll vor allem in der Detailansicht eines Objekts eingesetzt werden. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

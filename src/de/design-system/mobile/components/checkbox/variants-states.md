@@ -9,7 +9,7 @@ parent: checkbox-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Selected
 *   Unselected
 *   Indeterminate
@@ -19,7 +19,7 @@ DIe Komponente hat folgende Zustände:{.lead}
 *   Loading
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 *   Checkbox
     *   ohne Icon / mit Icon
 *   Checkbox-Item

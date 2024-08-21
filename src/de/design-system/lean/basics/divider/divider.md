@@ -13,13 +13,13 @@ order: 20
 ---
 
 ## Was macht die Komponente?
-Legt die vertikalen Abstände zwischen Komponenten fest.{.lead}
+Legt die vertikalen Abstände zwischen Komponenten fest. {.lead}
 
 ## Wann soll die Komponente eingesetzt werden? 
-Bei jeder Anordnung von Komponenten.{.lead}
+Bei jeder Anordnung von Komponenten. {.lead}
 
 ## Regeln 
-Keine{.lead}
+Keine {.lead}
 
 ## Varianten
 ### Thin

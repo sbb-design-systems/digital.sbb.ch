@@ -8,14 +8,14 @@ parent: guides_en
 order: 4
 ---
 
-SBB provides templates for digital banner ads. Two different approaches are used, depending on the format.{.lead}  
+SBB provides templates for digital banner ads. Two different approaches are used, depending on the format. {.lead}  
  
 ## Use 
-The templates must be adhered to. If the desired format is not available amongst the templates, an existing template can be adapted. A template of a similar size should be used.{.lead}
+The templates must be adhered to. If the desired format is not available amongst the templates, an existing template can be adapted. A template of a similar size should be used. {.lead}
 
-In general, and wherever possible, the entire red panel (version 1) should be used. In the case of small or extreme formats, version 2 can be used. It should be ensured that the majority of the banners which are implemented take the form of version 1 with the red panel.{.lead}
+In general, and wherever possible, the entire red panel (version 1) should be used. In the case of small or extreme formats, version 2 can be used. It should be ensured that the majority of the banners which are implemented take the form of version 1 with the red panel. {.lead}
 
-The recommendations for accessible web content 2.0 given by WCAG (Web Content Accessibility Guidelines) must be followed when creating advertising materials.{.lead}
+The recommendations for accessible web content 2.0 given by WCAG (Web Content Accessibility Guidelines) must be followed when creating advertising materials. {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
 <sbb-tab-label>Version 1</sbb-tab-label>

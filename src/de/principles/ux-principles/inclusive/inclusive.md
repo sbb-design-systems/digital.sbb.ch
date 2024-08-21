@@ -17,7 +17,7 @@ image: inklusiv.webp
   title: 'Inklusiv'
 }) }}
 
-Unser Anspruch ist es Lösungen zu entwickeln, welche unabhängig von individuellen Beeinträchtigungen genutzt werden können. Wir verbessern damit auch die Benutzererfahrung bei temporären Beeinträchtigungen, welche alle unsere Nutzer und Nutzerinnen betreffen können.{.lead}
+Unser Anspruch ist es Lösungen zu entwickeln, welche unabhängig von individuellen Beeinträchtigungen genutzt werden können. Wir verbessern damit auch die Benutzererfahrung bei temporären Beeinträchtigungen, welche alle unsere Nutzer und Nutzerinnen betreffen können. {.lead}
 
 
 ### Beispiel
@@ -27,4 +27,4 @@ Unser Anspruch ist es Lösungen zu entwickeln, welche unabhängig von individuel
   title: 'Inklusiv'
 }) }}
 
-Temporäre Beeinträchtigungen können beispielsweise ein gebrochenes Bein, eine Reise mit dem Kinderwagen oder dem Fahrrad oder das Lesen von Texten bei starker Sonneneinstrahlung sein oder die Benutzung von Touchbildschirmen mit Handschuhe.{.lead}
+Temporäre Beeinträchtigungen können beispielsweise ein gebrochenes Bein, eine Reise mit dem Kinderwagen oder dem Fahrrad oder das Lesen von Texten bei starker Sonneneinstrahlung sein oder die Benutzung von Touchbildschirmen mit Handschuhe. {.lead}

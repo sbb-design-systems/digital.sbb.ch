@@ -9,7 +9,7 @@ parent: list-item-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Default
 *   Pressed
 *   Disabled
@@ -18,7 +18,7 @@ DIe Komponente hat folgende Zustände:{.lead}
 *   Swipe right (optional)
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 *   listed / boxed
 *   mit Icon / ohne Icon
 *   mit Subtext / ohne Subtext

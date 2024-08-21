@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 
 ## Variants
@@ -20,7 +20,8 @@ The component has the following states:{.lead}
   alt: 'Image of a status with icon',
   title: 'status with icon'
 }) }}
-* This variant serves as a space-saving variant which can be used, for example, in a table.{.lead}
+
+* This variant serves as a space-saving variant which can be used, for example, in a table. {.lead}
 
 ### Text 
 {{ imageOnGreyBackground({
@@ -28,7 +29,8 @@ The component has the following states:{.lead}
   alt: 'Image of a status with text',
   title: 'Status with text'
 }) }}
-* This variant serves as a space-saving variant which can be used, for example, in a table when Icons are not self-explanatory.{.lead}
+
+* This variant serves as a space-saving variant which can be used, for example, in a table when Icons are not self-explanatory. {.lead}
 
 ### Extended 
 {{ imageOnGreyBackground({
@@ -36,7 +38,8 @@ The component has the following states:{.lead}
   alt: 'Image of a status with text and icon',
   title: 'Status with text and icon'
 }) }}
-* This variant should mainly be used in the detailed view of an object.{.lead}
+
+* This variant should mainly be used in the detailed view of an object. {.lead}
 
 ## Specifications
 {{ specificationLinks({

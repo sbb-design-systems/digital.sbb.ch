@@ -9,7 +9,7 @@ parent: list-view-mobile_de
 ---
 
 ## Varianten
-Die Komponente hat folgende Varianten{.lead}
+Die Komponente hat folgende Varianten {.lead}
 * mit Titel / ohne Titel
 * listed / boxed
 

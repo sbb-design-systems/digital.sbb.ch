@@ -17,7 +17,7 @@ image: selbsterklaerend.webp
   title: 'Selbsterklaerend'
 }) }}
 
-Unser Anspruch ist es, die Nutzenden auf ihrem Weg durch unsere Produkte zu leiten und wo nötig zu unterstützen. Wir verwenden ihre Sprache (Begrifflichkeiten und Vorkenntnisse) und berücksichtigen die Denkweise des Nutzers. Wir unterstützen bei Fehleingaben indem wir eine einfache Fehlerkorrektur ermöglichen. Zudem lassen wir Anpassungen von den Nutzenden auf ihre persönliche Arbeitsweise zu.{.lead}
+Unser Anspruch ist es, die Nutzenden auf ihrem Weg durch unsere Produkte zu leiten und wo nötig zu unterstützen. Wir verwenden ihre Sprache (Begrifflichkeiten und Vorkenntnisse) und berücksichtigen die Denkweise des Nutzers. Wir unterstützen bei Fehleingaben indem wir eine einfache Fehlerkorrektur ermöglichen. Zudem lassen wir Anpassungen von den Nutzenden auf ihre persönliche Arbeitsweise zu. {.lead}
 
 
 ### Beispiel
@@ -27,4 +27,4 @@ Unser Anspruch ist es, die Nutzenden auf ihrem Weg durch unsere Produkte zu leit
   title: 'Beispiel'
 }) }}
 
-Die Nutzenden werden durch den Prozess geführt und sehen auf einen Blick, dass ein Datum eingeben werden muss und in welcher Form die Eingabe erfolgen muss.{.lead}
+Die Nutzenden werden durch den Prozess geführt und sehen auf einen Blick, dass ein Datum eingeben werden muss und in welcher Form die Eingabe erfolgen muss. {.lead}

@@ -13,16 +13,16 @@ order: 10
 ---
 
 ## Was macht die Komponente?
-*   Kennzeichnet den Absender einer Seite.{.lead}
+*   Kennzeichnet den Absender einer Seite. {.lead}
 
 ## Wann soll die Komponente eingesetzt werden?
-*   Bei allen SBB-Apps.{.lead}
+*   Bei allen SBB-Apps. {.lead}
 
 ## Regeln
-*   Das Signet tritt genau einmal pro Seite auf und befindet sich immer im Header.{.lead}
-*   Die Positionierung ist immer rechts oben.{.lead}
-*   Abwandlungen des Signets sind nicht erlaubt.{.lead}
-*   Das Signet ist immer verlinkt mit der Startseite der App.{.lead}
+*   Das Signet tritt genau einmal pro Seite auf und befindet sich immer im Header. {.lead}
+*   Die Positionierung ist immer rechts oben. {.lead}
+*   Abwandlungen des Signets sind nicht erlaubt. {.lead}
+*   Das Signet ist immer verlinkt mit der Startseite der App. {.lead}
 
 ## Varianten und Zustände
 *   Default / Fallback
@@ -42,7 +42,7 @@ order: 10
 }) }}
 
 ## Barrierefreiheit
-* Das Signet muss mit einem Alternativtext hinterlegt werden (z.B. "Zurück zu Startseite").{.lead}
+* Das Signet muss mit einem Alternativtext hinterlegt werden (z.B. "Zurück zu Startseite"). {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

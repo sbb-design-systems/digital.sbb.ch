@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Hinted
 * Focused
@@ -30,7 +30,8 @@ The component has the following states:{.lead}
   alt: 'Image of the text field, password entry',
   title: 'Text field, password entry'
 }) }}
-* The entry field in the ‘password’ variant does not provide a ‘hinted’ status.{.lead}
+
+* The entry field in the ‘password’ variant does not provide a ‘hinted’ status. {.lead}
 
 ## Specification
 {{ specificationLinks({

@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Ausprägungen und Zustände
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Placeholder
 * Focused

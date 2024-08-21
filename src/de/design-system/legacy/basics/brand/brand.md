@@ -13,13 +13,13 @@ order: 10
 ---
 
 ## Verwendung
-Das Logo wird bei allen SBB-Webseiten und -anwendungen eingesetzt.{.lead}
+Das Logo wird bei allen SBB-Webseiten und -anwendungen eingesetzt. {.lead}
 
 ## Regeln
-* Das Logo tritt genau einmal pro Seite auf und befindet sich immer im Header.{.lead}
-* Die Positionierung ist immer rechts oben.{.lead}
-* Abwandlungen des Logos sind nicht erlaubt.{.lead}
-* Das Logo ist immer verlinkt auf SBB.ch.{.lead}
+* Das Logo tritt genau einmal pro Seite auf und befindet sich immer im Header. {.lead}
+* Die Positionierung ist immer rechts oben. {.lead}
+* Abwandlungen des Logos sind nicht erlaubt. {.lead}
+* Das Logo ist immer verlinkt auf SBB.ch. {.lead}
 
 ## Varianten
 

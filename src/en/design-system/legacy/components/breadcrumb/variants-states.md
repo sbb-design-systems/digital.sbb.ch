@@ -9,13 +9,13 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
-* Default{.lead}
-* Hover{.lead}
+The component has the following states: {.lead}
+* Default {.lead}
+* Hover {.lead}
 
-The following states exist for the ‘mobile’ viewport:{.lead}
-* Full{.lead}
-* Overflow{.lead}
+The following states exist for the ‘mobile’ viewport: {.lead}
+* Full {.lead}
+* Overflow {.lead}
 
 ## Variants
 
@@ -27,8 +27,8 @@ The following states exist for the ‘mobile’ viewport:{.lead}
 }) }}
 
 ### With sibling pages
-This variant also has the following states:{.lead}
-* Expanded{.lead}
+This variant also has the following states: {.lead}
+* Expanded {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
@@ -37,10 +37,10 @@ This variant also has the following states:{.lead}
   title: 'breadcrumb, with sibling pages'
 }) }}
 
-* Clicking on the designator or arrow opens the dropdown.{.lead}
-* All sibling pages are listed in the dropdown.{.lead}
-* This closes again when clicking outside of the dropdown.{.lead}
-* The active page is highlighted in the dropdown.{.lead}
+* Clicking on the designator or arrow opens the dropdown. {.lead}
+* All sibling pages are listed in the dropdown. {.lead}
+* This closes again when clicking outside of the dropdown. {.lead}
+* The active page is highlighted in the dropdown. {.lead}
 
 ## Specification
 {{ specificationLinks({

@@ -9,7 +9,7 @@ parent: list-item-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Default
 *   Pressed
 *   Disabled
@@ -18,7 +18,7 @@ The component has the following states:{.lead}
 *   Swipe right (optional)
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 *   listed / boxed
 *   with icon / without icon
 *   with subtext / without subtext

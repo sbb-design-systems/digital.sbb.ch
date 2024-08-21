@@ -17,7 +17,7 @@ image: benuzterzentriert.webp
   title: 'Benuzterzentriert'
 }) }}
 
-Die realen Nutzenden werden in die Entwicklung einer Lösung frühzeitig und regelmässig einbezogen. Dies geschieht, um die Nutzenden und ihre Herausforderungen besser zu verstehen und mögliche Stolpersteine frühzeitig aufzudecken. Im Vorhaben ist sein Einbezug ein fester Bestandteil des gesamten Produktentwicklungsprozesses.{.lead}
+Die realen Nutzenden werden in die Entwicklung einer Lösung frühzeitig und regelmässig einbezogen. Dies geschieht, um die Nutzenden und ihre Herausforderungen besser zu verstehen und mögliche Stolpersteine frühzeitig aufzudecken. Im Vorhaben ist sein Einbezug ein fester Bestandteil des gesamten Produktentwicklungsprozesses. {.lead}
 
 
 ### Beispiel
@@ -27,4 +27,4 @@ Die realen Nutzenden werden in die Entwicklung einer Lösung frühzeitig und reg
   title: 'Beispiel'
 }) }}
 
-Wir gehen vor Ort zu unseren Nutzenden, um sie zu interviewen oder zu beobachten. Unsere Prototypen testen wir dort wo die Nutzenden ihre Arbeiten ausführen. Das kann unterwegs sein, in der Betriebszentrale, dem Büro, am Schalter, im Zug etc.{.lead}
+Wir gehen vor Ort zu unseren Nutzenden, um sie zu interviewen oder zu beobachten. Unsere Prototypen testen wir dort wo die Nutzenden ihre Arbeiten ausführen. Das kann unterwegs sein, in der Betriebszentrale, dem Büro, am Schalter, im Zug etc. {.lead}

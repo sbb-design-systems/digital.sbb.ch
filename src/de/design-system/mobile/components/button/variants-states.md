@@ -9,7 +9,7 @@ parent: button-mobile_de
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 *   Normal
 *   Pressed
 *   Disabled
@@ -22,7 +22,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung des Primary Button',
   title: 'Primary Button'
 }) }}
-*   Ganze Breite des Screens oder des modalen Dialogs (abzüglich Abstand).{.lead}
+
+*   Ganze Breite des Screens oder des modalen Dialogs (abzüglich Abstand). {.lead}
 
 ### Secondary
 {{ imageWithMode({
@@ -30,7 +31,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung des Secondary Button',
   title: 'Secondary Button'
 }) }}
-*   Ganze Breite des Screens oder des modalen Dialogs (abzüglich Abstand).{.lead}
+
+*   Ganze Breite des Screens oder des modalen Dialogs (abzüglich Abstand). {.lead}
 
 
 ### Tertiary

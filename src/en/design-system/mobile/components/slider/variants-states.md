@@ -9,7 +9,7 @@ parent: slider-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Default
 *   Disabled
 

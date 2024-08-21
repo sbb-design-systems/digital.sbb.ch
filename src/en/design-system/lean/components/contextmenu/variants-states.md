@@ -9,14 +9,14 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Hover
 
 ## Variants
 
 ### Default
-This variant also has the following states:{.lead}
+This variant also has the following states: {.lead}
 * Expanded (optional)
 
 {{ imageOnGreyBackground({
@@ -26,7 +26,7 @@ This variant also has the following states:{.lead}
 }) }}
 
 ### Icon
-This variant also has the following states:{.lead}
+This variant also has the following states: {.lead}
 * Expanded Hover
 * Expanded Active
 
@@ -36,10 +36,10 @@ This variant also has the following states:{.lead}
   title: 'Contextmenu with icon'
 }) }}
 
-* The three dots are used for the icon as default.{.lead}
+* The three dots are used for the icon as default. {.lead}
 
 ### Sorting
-This variant also has the following states:{.lead}
+This variant also has the following states: {.lead}
 * Expanded Hover
 * Expanded Active
 
@@ -49,10 +49,10 @@ This variant also has the following states:{.lead}
   title: 'Contextmenu with sorting function'
 }) }}
 
-* The arrow icon is used to display the sorting.{.lead}
-* Sorting is ascending by default.{.lead}
-* When hovering over an active sorted attribute, the arrow icon is turned around.{.lead}
-* The entire menu entry (name and icon) is clickable.{.lead}
+* The arrow icon is used to display the sorting. {.lead}
+* Sorting is ascending by default. {.lead}
+* When hovering over an active sorted attribute, the arrow icon is turned around. {.lead}
+* The entire menu entry (name and icon) is clickable. {.lead}
 
 ## Specifications
 {{ specificationLinks({

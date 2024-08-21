@@ -7,7 +7,7 @@ parent: getting-started_de
 order: 3
 ---
 
-Die Anleitungen wie die entsprechenden Libraries verwendet werden können, liegen auf folgenden Plattformen:{.lead}
+Die Anleitungen wie die entsprechenden Libraries verwendet werden können, liegen auf folgenden Plattformen: {.lead}
 
 <sbb-table-wrapper>
 

@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hover
 * On-click
@@ -52,7 +52,7 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Icon Button'
 }) }}
 
-Beim Hover über einen Icon Button sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip/">Tooltip</sbb-link> verwendet werden, um die dahinterliegende Aktion klarer zu machen.{.lead}
+Beim Hover über einen Icon Button sollte ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/tooltip/">Tooltip</sbb-link> verwendet werden, um die dahinterliegende Aktion klarer zu machen. {.lead}
 
 ### Mehrere Aktionen
 {{ imageOnGreyBackground({

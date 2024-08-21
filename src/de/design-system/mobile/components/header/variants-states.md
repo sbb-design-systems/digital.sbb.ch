@@ -9,7 +9,7 @@ parent: header-mobile_de
 ---
 
 ## Varianten
-*   ohne Navigation, mit Icon (Chevron) mit Text (Abbrechen){.lead}
+*   ohne Navigation, mit Icon (Chevron) mit Text (Abbrechen) {.lead}
 *   iOS und Android
 *   Grösse: Default/Small
 *   mit und ohne Toggle

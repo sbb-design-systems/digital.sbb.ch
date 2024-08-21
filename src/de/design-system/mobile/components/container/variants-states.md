@@ -9,7 +9,7 @@ parent: container-mobile_de
 ---
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 
 * Content-Box
 * Footer-Box

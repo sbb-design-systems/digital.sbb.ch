@@ -9,7 +9,7 @@ parent: chip-mobile
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Default
 *   Selected
 *   Disabled

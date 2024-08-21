@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Active (Default)
 * Inactive
 * Hover active
@@ -22,9 +22,10 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung der Komponente Tag zur Verwendung als Filter',
   title: 'Darstellung der Komponente Tag zur Verwendung als Filter'
 }) }}
-* Im Filter sind die Tags im aktiven und inaktiven Zustand vorhanden.{.lead}
-* Mit Klick auf ein Tag toggelt der jeweilige Zustand in den anderen und beeinflusst so das Filterergebnis.{.lead}
-* Innerhalb des Filter wird immer zusätzlich ein Tag «Alle» eingefügt. Wird dieses Filtertag angeklickt, wechselt es in den Zustand aktiv und alle anderen Tags im Filter werden in den Zustand inaktiv gesetzt.{.lead}
+
+* Im Filter sind die Tags im aktiven und inaktiven Zustand vorhanden. {.lead}
+* Mit Klick auf ein Tag toggelt der jeweilige Zustand in den anderen und beeinflusst so das Filterergebnis. {.lead}
+* Innerhalb des Filter wird immer zusätzlich ein Tag «Alle» eingefügt. Wird dieses Filtertag angeklickt, wechselt es in den Zustand aktiv und alle anderen Tags im Filter werden in den Zustand inaktiv gesetzt. {.lead}
 
 Beispiel:
 {{ imageOnGreyBackground({
@@ -39,8 +40,9 @@ Beispiel:
   alt: 'Darstellung der Komponente Tag zur Verwendung als Link',
   title: 'Darstellung der Komponente Tag zur Verwendung als Link'
 }) }}
-* Linktags sind nur im aktiven Zustand vorhanden.{.lead}
-* Mit einem Klick auf das Tag gelangt der Benutzer auf die entsprechende Kategorienseite.{.lead}
+
+* Linktags sind nur im aktiven Zustand vorhanden. {.lead}
+* Mit einem Klick auf das Tag gelangt der Benutzer auf die entsprechende Kategorienseite. {.lead}
 
 Beispiel:
 {{ imageOnGreyBackground({

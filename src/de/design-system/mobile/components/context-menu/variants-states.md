@@ -9,7 +9,7 @@ parent: context-menu-mobile_de
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 *   Closed
 *   Open
 

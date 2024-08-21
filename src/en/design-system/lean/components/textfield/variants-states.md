@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States 
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Placeholder
 * Focused
@@ -32,7 +32,8 @@ The component has the following states:{.lead}
   alt: 'Image of a text field, password',
   title: 'Text field, password'
 }) }}
-* The entry field in the ‘password’ variant does not provide a ‘Placeholder’ status.{.lead}
+
+* The entry field in the ‘password’ variant does not provide a ‘Placeholder’ status. {.lead}
 
 ### Clearable
 {{ imageOnGreyBackground({

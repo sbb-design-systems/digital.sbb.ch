@@ -17,7 +17,7 @@ image: aufgabenorientiert.webp
   title: 'Aufgabenorientiert'
 }) }}
 
-Nous analysons l’interaction entre les individus, la technique et l’organisation dans son ensemble, en partant d’une tâche, puis nous déterminons quelle structure est la plus pertinente.{.lead}
+Nous analysons l’interaction entre les individus, la technique et l’organisation dans son ensemble, en partant d’une tâche, puis nous déterminons quelle structure est la plus pertinente. {.lead}
 
 
 ### Example
@@ -27,4 +27,4 @@ Nous analysons l’interaction entre les individus, la technique et l’organisa
   title: 'Beispiel'
 }) }}
 
-Lorsqu’un besoin de changement se fait sentir, nous réfléchissons à ce que cela implique pour le système dans son ensemble (individus, technique et organisation). Par exemple, d’un point de vue technique, des check-lists électroniques permettent de contrôler les processus de travail de manière stricte. D’un point de vue organisationnel et individuel, cela modifie la capacité d’adaptation de ces derniers. Cela peut entraîner un manque de flexibilité dans l’ensemble du système en cas de perturbations et de fluctuations, car il n’est pas possible de modifier l’ordre de la check-list et donc d’exécuter la tâche manière sûre et efficace.{.lead}
+Lorsqu’un besoin de changement se fait sentir, nous réfléchissons à ce que cela implique pour le système dans son ensemble (individus, technique et organisation). Par exemple, d’un point de vue technique, des check-lists électroniques permettent de contrôler les processus de travail de manière stricte. D’un point de vue organisationnel et individuel, cela modifie la capacité d’adaptation de ces derniers. Cela peut entraîner un manque de flexibilité dans l’ensemble du système en cas de perturbations et de fluctuations, car il n’est pas possible de modifier l’ordre de la check-list et donc d’exécuter la tâche manière sûre et efficace. {.lead}

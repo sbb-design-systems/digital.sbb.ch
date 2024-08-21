@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The module has the following states:{.lead}
+The module has the following states: {.lead}
 * Filtered
 * Not Filtered
 
@@ -22,8 +22,8 @@ The module has the following states:{.lead}
   title: 'Live Filters'
 }) }}
 
-* The live filter contains the most frequently used filter criteria for finding specific information.{.lead}
-* When a filter criterion is changed, the results are updated live in the viewport.{.lead}
+* The live filter contains the most frequently used filter criteria for finding specific information. {.lead}
+* When a filter criterion is changed, the results are updated live in the viewport. {.lead}
 
 ### Filter Dialog
 {{ imageOnGreyBackground({
@@ -32,11 +32,11 @@ The module has the following states:{.lead}
   title: 'Filter Dialog'
 }) }}
 
-* The filter dialog is opened by a button or link.{.lead}
-* The filter dialog contains a large number of filter criteria for finding specific information.{.lead}
-* If required, further filter criteria can be added to the dialog to provide additional filter elements.{.lead}
-* Filtering can be confirmed by clicking on «Filtern» (Primary Button) or can be cancelled by clicking on «Abbrechen» (Secondary Button).{.lead}
-* The results are updated in the viewport after confirming the filter criteria in the dialog box.{.lead}
+* The filter dialog is opened by a button or link. {.lead}
+* The filter dialog contains a large number of filter criteria for finding specific information. {.lead}
+* If required, further filter criteria can be added to the dialog to provide additional filter elements. {.lead}
+* Filtering can be confirmed by clicking on «Filtern» (Primary Button) or can be cancelled by clicking on «Abbrechen» (Secondary Button). {.lead}
+* The results are updated in the viewport after confirming the filter criteria in the dialog box. {.lead}
 
 ## Specifications
 {{ specificationLinks({

@@ -17,7 +17,7 @@ image: passend.webp
     title: 'Passend'
 }) }}
 
-Quando l’attività lavorativa, l’ambiente e le condizioni di lavoro lo consentono, le persone lavorano in modo dinamico ed efficace. Per questo motivo configuriamo questi elementi tenendo conto delle capacità delle persone, in modo da sfruttare il loro potenziale in modo ottimale.{.lead}
+Quando l’attività lavorativa, l’ambiente e le condizioni di lavoro lo consentono, le persone lavorano in modo dinamico ed efficace. Per questo motivo configuriamo questi elementi tenendo conto delle capacità delle persone, in modo da sfruttare il loro potenziale in modo ottimale. {.lead}
 
 
 ### Esempio
@@ -27,4 +27,4 @@ Quando l’attività lavorativa, l’ambiente e le condizioni di lavoro lo conse
     title: 'Beispiel'
 }) }}
 
-Con l’automazione, ad esempio, le persone possono evitare di svolgere lavori di routine, una scelta ragionevole in linea di principio. Tuttavia, se l’automazione porta a un incremento delle attività di monitoraggio, per lo più noiose, c’è il rischio che il lavoro non soddisfi più le esigenze e le capacità della maggior parte delle persone.{.lead}
+Con l’automazione, ad esempio, le persone possono evitare di svolgere lavori di routine, una scelta ragionevole in linea di principio. Tuttavia, se l’automazione porta a un incremento delle attività di monitoraggio, per lo più noiose, c’è il rischio che il lavoro non soddisfi più le esigenze e le capacità della maggior parte delle persone. {.lead}

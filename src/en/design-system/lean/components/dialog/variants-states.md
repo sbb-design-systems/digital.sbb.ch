@@ -10,7 +10,7 @@ permalink: false
 
 ## Variants
 ### Simple (Warnings / Confirmations)
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Default
 
 <!-- end of the list -->
@@ -22,7 +22,7 @@ This variant has following states:{.lead}
 
 
 ### Complex (Forms)
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Valid
 * Not Valid
 
@@ -33,10 +33,10 @@ This variant has following states:{.lead}
   title: 'Dialog, complex'
 }) }}
 
-* The complex variant is used to create or edit complex data objects if they cannot be edited directly in the content of the application.{.lead}
-* If the user wants to dismiss the dialog and ...{.lead}
-    * no changes have been made, the dialog closes and no discard confirmation is required.{.lead}
-    * the user has made changes, the user is prompted to confirm the discard action.{.lead}
+* The complex variant is used to create or edit complex data objects if they cannot be edited directly in the content of the application. {.lead}
+* If the user wants to dismiss the dialog and ... {.lead}
+    * no changes have been made, the dialog closes and no discard confirmation is required. {.lead}
+    * the user has made changes, the user is prompted to confirm the discard action. {.lead}
 
 ## Specifications
 {{ specificationLinks({

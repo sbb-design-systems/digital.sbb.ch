@@ -9,14 +9,14 @@ parent: text-input-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Default
 *   Active
 *   Error
 *   Disabled
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 *   listed / boxed
 *   mit Icon / ohne Icon
 *   mit Label / ohne Label

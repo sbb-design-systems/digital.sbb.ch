@@ -17,7 +17,7 @@ image: wiedererkennbar.webp
   title: 'Wiedererkennbar'
 }) }}
 
-Our users should find their way easily around all SBB digital channels and access the information they require as quickly as possible. This means that consistent interaction patterns and design elements are used consistently across the different channels.{.lead}
+Our users should find their way easily around all SBB digital channels and access the information they require as quickly as possible. This means that consistent interaction patterns and design elements are used consistently across the different channels. {.lead}
 
 
 ### Example
@@ -27,4 +27,4 @@ Our users should find their way easily around all SBB digital channels and acces
   title: 'Wiedererkennbar'
 }) }}
 
-Purchasing a ticket on the SBB website, SBB mobile app or from ticket machines is a clear and recognisable procedure for our customers. They know how it works with SBB. The same applies to internal business applications.​{.lead}
+Purchasing a ticket on the SBB website, SBB mobile app or from ticket machines is a clear and recognisable procedure for our customers. They know how it works with SBB. The same applies to internal business applications.​ {.lead}

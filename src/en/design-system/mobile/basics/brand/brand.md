@@ -13,16 +13,16 @@ order: 10
 ---
 
 ## What does the component do?
-*   It identifies the sender of a page.{.lead}
+*   It identifies the sender of a page. {.lead}
 
 ## When should the component be used?
-*   For all SBB apps.{.lead}
+*   For all SBB apps. {.lead}
 
 ## Rules
-*   The signet appears exactly once per page and is always located in the header.{.lead}
-*   It is always positioned top-right.{.lead}
-*   Variations of the signet are not permitted.{.lead}
-*   The signet is always linked to the app homepage.{.lead}
+*   The signet appears exactly once per page and is always located in the header. {.lead}
+*   It is always positioned top-right. {.lead}
+*   Variations of the signet are not permitted. {.lead}
+*   The signet is always linked to the app homepage. {.lead}
 
 ## Variants and States
 *   Default / Fallback
@@ -42,7 +42,7 @@ order: 10
 }) }}
 
 ## Accessibility
-* The signet must be entered with an alternative text (e.g. ‘Back to homepage’).{.lead}
+* The signet must be entered with an alternative text (e.g. ‘Back to homepage’). {.lead}
 
 ## Specification
 {{ specificationLinks({

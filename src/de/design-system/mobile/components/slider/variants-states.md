@@ -9,7 +9,7 @@ parent: slider-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Default
 *   Disabled
 

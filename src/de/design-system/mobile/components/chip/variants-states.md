@@ -9,7 +9,7 @@ parent: chip-mobile
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 *   Default
 *   Selected
 *   Disabled

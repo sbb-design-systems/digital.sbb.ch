@@ -9,14 +9,14 @@ parent: message-mobile_de
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 
 * Default 
 * Error
 * Loading
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 
 * Illustration: Optional
 * Fehlercode: Optional

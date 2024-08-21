@@ -9,7 +9,7 @@ parent: button-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Normal
 *   Pressed
 *   Disabled
@@ -22,7 +22,8 @@ The component has the following states:{.lead}
   alt: 'Image of the Primary Button',
   title: 'Primary button'
 }) }}
-*   Full width of the screen or modal dialogue (minus spacing).{.lead}
+
+*   Full width of the screen or modal dialogue (minus spacing). {.lead}
 
 ### Secondary
 {{ imageWithMode({
@@ -30,7 +31,8 @@ The component has the following states:{.lead}
   alt: 'Image of the secondary button',
   title: 'Secondary button'
 }) }}
-*   Full width of the screen or modal dialogue (minus spacing).{.lead}
+
+*   Full width of the screen or modal dialogue (minus spacing). {.lead}
 
 
 ### Tertiary

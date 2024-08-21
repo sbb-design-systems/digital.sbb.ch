@@ -37,9 +37,10 @@ permalink: false
   alt: 'Image of a notification, error with jump marker',
   title: 'Notification, error with jump marker'
 }) }}
-* The individual jump markers are separated by a ‘/’.{.lead}
-* Clicking on a skip marker scrolls directly to the cause of the error.{.lead}
-* The jump marker target is always on the same page as the notification (no jumping to other pages).{.lead}
+
+* The individual jump markers are separated by a ‘/’. {.lead}
+* Clicking on a skip marker scrolls directly to the cause of the error. {.lead}
+* The jump marker target is always on the same page as the notification (no jumping to other pages). {.lead}
 
 ## Specification
 {{ specificationLinks({

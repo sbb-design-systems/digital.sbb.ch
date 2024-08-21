@@ -9,10 +9,10 @@ permalink: false
 ---
 
 ## What does the component do?
-It scrolls through a list of elements or pages.{.lead}
+It scrolls through a list of elements or pages. {.lead}
 
 ## When should the component be used?
-For long lists of elements or pages.{.lead}
+For long lists of elements or pages. {.lead}
 
 ## Rules
-* The number of elements per page must be defined on a context-specific base.{.lead}
+* The number of elements per page must be defined on a context-specific base. {.lead}

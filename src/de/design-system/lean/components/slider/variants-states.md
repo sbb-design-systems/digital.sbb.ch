@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hover
 * Pressed
@@ -31,7 +31,7 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Slider, Variante kontinuierlich in vertikaler Ausrichtung'
 }) }}
 
-* Diese Variante sollte nicht bei ganz grossen oder sehr kleinen Wertebereichen sondern v.a. bei unpräzisen Wertebereichen verwendet werden (z.B. "leise" - "laut", "wenig" - "viel"){.lead}
+* Diese Variante sollte nicht bei ganz grossen oder sehr kleinen Wertebereichen sondern v.a. bei unpräzisen Wertebereichen verwendet werden (z.B. "leise" - "laut", "wenig" - "viel") {.lead}
 
 ### Diskret
 {{ imageOnGreyBackground({

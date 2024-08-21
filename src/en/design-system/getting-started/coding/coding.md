@@ -7,7 +7,7 @@ parent: getting-started_en
 order: 3
 ---
 
-The guides on how to use the libraries are on the following platforms:{.lead}
+The guides on how to use the libraries are on the following platforms: {.lead}
 
 <sbb-table-wrapper>
 

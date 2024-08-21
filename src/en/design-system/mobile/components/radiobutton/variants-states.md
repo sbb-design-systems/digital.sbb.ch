@@ -9,7 +9,7 @@ parent: radiobutton-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Checked
 *   Unchecked
 *   Disabled checked
@@ -17,7 +17,7 @@ The component has the following states:{.lead}
 *   Loading
 
 ## Variants
-The component has the following variants:{.lead} 
+The component has the following variants: {.lead} 
 *   Radiobutton
     *   with icon / without icon
 *   Radiobutton-Item

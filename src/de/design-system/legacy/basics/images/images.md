@@ -13,36 +13,36 @@ order: 40
 ---
 
 ## Was macht diese Komponente?
-* Bilder unterstützen das Verständnis von Texten und lockern textlastige Seiten auf.{.lead}
+* Bilder unterstützen das Verständnis von Texten und lockern textlastige Seiten auf. {.lead}
 
 ## Wann soll diese Komponente eingesetzt werden?
-* Zur Unterstützung der textuellen Kommunikation können Bilder eingesetzt werden (visuelle Kommunikation).{.lead}
-* Grosse (content-wide) Bilder sollen sparsam eingesetzt werden.{.lead}
+* Zur Unterstützung der textuellen Kommunikation können Bilder eingesetzt werden (visuelle Kommunikation). {.lead}
+* Grosse (content-wide) Bilder sollen sparsam eingesetzt werden. {.lead}
 
 ## Regeln 
-* Die Aufbereitung von Bildern und Illustrationen ist durch die Vorgaben von KOM geregelt (siehe Links).{.lead}
-* Illustrationen und Infografiken als SVG einsetzen, bei Fotografien auf genügend grosse Auflösung für alle Screengrössen achten.{.lead}
-* Ausser dem roten SBB Panel dürfen Bilder keine Overlays enthalten.{.lead}
-* Es dürfen nur kontextrelevante Bilder verwendet werden (das Bild muss zum Inhalt passen).{.lead}
-* Kombinieren verschiedener Stile kann die UX positiv beeinflussen (Fotografie für Gegebenheiten, Illustrationen für Konzepte){.lead}
-* Um die Wichtigkeit von Bildern zu unterstreichen (zu priorisieren), können verschiedene Bildgrössen helfen.{.lead}
-* Bilder haben optional einen Beschreibungstext (Caption).{.lead}
+* Die Aufbereitung von Bildern und Illustrationen ist durch die Vorgaben von KOM geregelt (siehe Links). {.lead}
+* Illustrationen und Infografiken als SVG einsetzen, bei Fotografien auf genügend grosse Auflösung für alle Screengrössen achten. {.lead}
+* Ausser dem roten SBB Panel dürfen Bilder keine Overlays enthalten. {.lead}
+* Es dürfen nur kontextrelevante Bilder verwendet werden (das Bild muss zum Inhalt passen). {.lead}
+* Kombinieren verschiedener Stile kann die UX positiv beeinflussen (Fotografie für Gegebenheiten, Illustrationen für Konzepte) {.lead}
+* Um die Wichtigkeit von Bildern zu unterstreichen (zu priorisieren), können verschiedene Bildgrössen helfen. {.lead}
+* Bilder haben optional einen Beschreibungstext (Caption). {.lead}
 
 ## Varianten und Zustände 
-Bei Bildern werden folgende Stile unterschieden:{.lead}
+Bei Bildern werden folgende Stile unterschieden: {.lead}
 * Fotografie
 * Illustration
 * Infografik
 
 ### Key Visual 
-* Nur Fotografien (keine Illustrationen) verwenden.{.lead}
-* Keyvisuals haben keinen eigenen Informationsgehalt.{.lead}
-* Keyvisuals können statische Bilder oder Videos sein. Animated GIFs sind nicht möglich.{.lead}
-    * Bilder und Videos werden grundsätzlich gleich behandelt.{.lead}
-* Keyvisuals haben nie Bildunterschriften oder Copyright-Infos.{.lead}
-* Keyvisuals haben je Endgerät ein festes Format, der Bildausschnitt passt sich dem Viewport an.{.lead}
-* Keyvisuals können als <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/mediaslider">Mediaslider</sbb-link> umgesetzt werden.{.lead}
-* Kein Beschreibungstext erlaubt.{.lead}
+* Nur Fotografien (keine Illustrationen) verwenden. {.lead}
+* Keyvisuals haben keinen eigenen Informationsgehalt. {.lead}
+* Keyvisuals können statische Bilder oder Videos sein. Animated GIFs sind nicht möglich. {.lead}
+    * Bilder und Videos werden grundsätzlich gleich behandelt. {.lead}
+* Keyvisuals haben nie Bildunterschriften oder Copyright-Infos. {.lead}
+* Keyvisuals haben je Endgerät ein festes Format, der Bildausschnitt passt sich dem Viewport an. {.lead}
+* Keyvisuals können als <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/mediaslider">Mediaslider</sbb-link> umgesetzt werden. {.lead}
+* Kein Beschreibungstext erlaubt. {.lead}
 
 ### Formate
 <table>
@@ -118,23 +118,23 @@ Bei Bildern werden folgende Stile unterschieden:{.lead}
 
 
 ## Infobild 
-* Infobilder können statische Bilder, animated GIFs oder Videos sein.{.lead}
-    * Statische Bilder, animated GIFs und Videos werden grundsätzlich gleich behandelt.{.lead}
-* Infobilder können optional eine Bildunterschrift und eine Copyright-Info unter dem Bild stehen haben.{.lead}
-    * Empfohlene Textlänge der Bildunterschrift inkl. Copyright-Info: sollte auf Desktop max. 2 Zeilen umfassen.{.lead}
-* Infobilder dürfen kein Panel verwenden.{.lead}
-* Infobilder sind nie verlinkt.{.lead}
-* Infobilder haben immer das Format 16:9.{.lead}
-* Infobilder haben keine Grossansicht.{.lead}
+* Infobilder können statische Bilder, animated GIFs oder Videos sein. {.lead}
+    * Statische Bilder, animated GIFs und Videos werden grundsätzlich gleich behandelt. {.lead}
+* Infobilder können optional eine Bildunterschrift und eine Copyright-Info unter dem Bild stehen haben. {.lead}
+    * Empfohlene Textlänge der Bildunterschrift inkl. Copyright-Info: sollte auf Desktop max. 2 Zeilen umfassen. {.lead}
+* Infobilder dürfen kein Panel verwenden. {.lead}
+* Infobilder sind nie verlinkt. {.lead}
+* Infobilder haben immer das Format 16:9. {.lead}
+* Infobilder haben keine Grossansicht. {.lead}
 
 ## Lazyload 
-* Wenn viele Bilder auf einer Seite vorhanden sind, dann werden Bilder ausserhalb des Viewports lazyloaded.{.lead}
+* Wenn viele Bilder auf einer Seite vorhanden sind, dann werden Bilder ausserhalb des Viewports lazyloaded. {.lead}
 
 ## Innerhalb eines Teasers
-* Bild muss bei Mouseover leicht reingezoomt werden.{.lead}
+* Bild muss bei Mouseover leicht reingezoomt werden. {.lead}
 
 ## Als Hintergrund (z.B. Karte)
-* Beim Scrollen nach unten, wird das Bild eingezoomt, beim Scrollen nach oben wird es ausgezoomt.{.lead}
-* Bild soll den ganzen Viewport des Contentbereichs bedecken.{.lead}
-* Text und Interaktionselemente (Buttons) über dem Bild sind erlaubt.{.lead}
-* Wichtig: Kontraste einhalten → Bilder sollten dunkle Farben beinhalten, sodass Text in weiss darüber geht.{.lead}
+* Beim Scrollen nach unten, wird das Bild eingezoomt, beim Scrollen nach oben wird es ausgezoomt. {.lead}
+* Bild soll den ganzen Viewport des Contentbereichs bedecken. {.lead}
+* Text und Interaktionselemente (Buttons) über dem Bild sind erlaubt. {.lead}
+* Wichtig: Kontraste einhalten → Bilder sollten dunkle Farben beinhalten, sodass Text in weiss darüber geht. {.lead}

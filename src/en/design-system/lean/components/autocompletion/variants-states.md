@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Default
 * Hover
 * Active
@@ -24,7 +24,7 @@ The component has the following states:{.lead}
 }) }}
 
 ### With hit display
-As an option to the standard variant, this variant can be used when an auto-completion list always contains more than the maximum ten hits shown.{.lead}
+As an option to the standard variant, this variant can be used when an auto-completion list always contains more than the maximum ten hits shown. {.lead}
 {{ imageOnGreyBackground({
   url: '/assets/images/lean/Autocompletion_Overflow',
   alt: 'Image of a autocomplete, with hit display',

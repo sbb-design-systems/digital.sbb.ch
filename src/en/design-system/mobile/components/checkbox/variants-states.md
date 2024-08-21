@@ -9,7 +9,7 @@ parent: checkbox-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Selected
 *   Unselected
 *   Indeterminate
@@ -19,7 +19,7 @@ The component has the following states:{.lead}
 *   Loading
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 *   Checkbox
     *   without icon / with Icon
 *   Checkbox-Item

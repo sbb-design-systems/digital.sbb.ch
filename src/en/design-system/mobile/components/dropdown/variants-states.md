@@ -9,7 +9,7 @@ parent: dropdown-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Default
 *   Error
 *   Disabled
@@ -17,7 +17,7 @@ The component has the following states:{.lead}
 *   Expanded
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 *   listed / boxed
 *   with icon / without icon
 *   with label / without label

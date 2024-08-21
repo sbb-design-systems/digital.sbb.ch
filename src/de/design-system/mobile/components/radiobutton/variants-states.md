@@ -9,7 +9,7 @@ parent: radiobutton-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Checked
 *   Unchecked
 *   Disabled checked
@@ -17,7 +17,7 @@ DIe Komponente hat folgende Zustände:{.lead}
 *   Loading
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 *   Radiobutton
     *   ohne Icon / mit Icon
 *   Radiobutton-Item

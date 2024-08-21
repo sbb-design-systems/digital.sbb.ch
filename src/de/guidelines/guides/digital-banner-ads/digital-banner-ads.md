@@ -8,14 +8,14 @@ parent: guides_de
 order: 4
 ---
 
-Die SBB stellt Vorlagen für digitale Werbebanner zur Verfügung. Dabei gibt es zwei unterschiedliche Anwendungen, welche, abhängig vom Format, eingesetzt werden.{.lead}  
+Die SBB stellt Vorlagen für digitale Werbebanner zur Verfügung. Dabei gibt es zwei unterschiedliche Anwendungen, welche, abhängig vom Format, eingesetzt werden. {.lead}  
  
 ## Verwendung 
-Die Vorlagen sind einzuhalten. Sollte das gewünschte Format nicht in den Vorlagen vorhanden sein, kann eine bestehende Vorlage adaptiert werden. Als Vorlage ist eine ähnliche Grösse zu verwenden.{.lead}
+Die Vorlagen sind einzuhalten. Sollte das gewünschte Format nicht in den Vorlagen vorhanden sein, kann eine bestehende Vorlage adaptiert werden. Als Vorlage ist eine ähnliche Grösse zu verwenden. {.lead}
  
-Grundsätzlich und wo immer möglich wird das vollständige rote Panel (Version 1) eingesetzt. Bei kleinen Formaten oder Extremformaten kann Version 2 eingesetzt werden. Es ist darauf zu achten, dass die Mehrheit der umgesetzten Banner die Version 1 mit dem roten Panel ist.{.lead}
+Grundsätzlich und wo immer möglich wird das vollständige rote Panel (Version 1) eingesetzt. Bei kleinen Formaten oder Extremformaten kann Version 2 eingesetzt werden. Es ist darauf zu achten, dass die Mehrheit der umgesetzten Banner die Version 1 mit dem roten Panel ist. {.lead}
 
-Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessibility Guideline) müssen bei der Erstellung der Werbemittel eingehalten werden.{.lead}
+Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessibility Guideline) müssen bei der Erstellung der Werbemittel eingehalten werden. {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
 <sbb-tab-label>Version 1</sbb-tab-label>

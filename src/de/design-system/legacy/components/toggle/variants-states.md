@@ -9,9 +9,9 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
-* First (erstes Option gewählt){.lead}
-* Second (zweite Option gewählt){.lead}
+Die Komponente hat folgende Zustände: {.lead}
+* First (erstes Option gewählt) {.lead}
+* Second (zweite Option gewählt) {.lead}
 
 ## Varianten
 

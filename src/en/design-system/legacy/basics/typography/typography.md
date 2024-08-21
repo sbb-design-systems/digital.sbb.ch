@@ -13,10 +13,10 @@ order: 60
 ---
 
 ## Font
-The company font ‘SBB Web’ is used as a web font and in the styles Thin, Light, Roman and Bold.{.lead}
+The company font ‘SBB Web’ is used as a web font and in the styles Thin, Light, Roman and Bold. {.lead}
 
 ## Style
-The font styles defined here form the base of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" href="/en/foundation/colors/base-colors/">SBB colors</sbb-link> apply to font colors.{.lead}
+The font styles defined here form the base of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" href="/en/foundation/colors/base-colors/">SBB colors</sbb-link> apply to font colors. {.lead}
 
 ### Heading H1
 {{ imageOnGreyBackground({
@@ -24,9 +24,10 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the H1 style',
   title: 'H1'
 }) }}
-* Only once per page.{.lead}
-* Never contains a link.{.lead}
-* The text of the heading should be the same as the title in the navigation.{.lead}
+
+* Only once per page. {.lead}
+* Never contains a link. {.lead}
+* The text of the heading should be the same as the title in the navigation. {.lead}
 
 ### Heading H2
 {{ imageOnGreyBackground({
@@ -34,9 +35,10 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the H2 style',
   title: 'H2'
 }) }}
-* It is generally left-justified.{.lead}
-* If the H2 title is used for additional information directly beneath a H1 title, this may also be centred.{.lead}
-* Cannot be used without a preceding H1 title.{.lead}
+
+* It is generally left-justified. {.lead}
+* If the H2 title is used for additional information directly beneath a H1 title, this may also be centred. {.lead}
+* Cannot be used without a preceding H1 title. {.lead}
 
 ### Heading H3
 {{ imageOnGreyBackground({
@@ -44,8 +46,9 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the H3 style',
   title: 'H3'
 }) }}
-* Alignment is left-justified.{.lead}
-* It cannot be used without a preceding H2 title.{.lead}
+
+* Alignment is left-justified. {.lead}
+* It cannot be used without a preceding H2 title. {.lead}
 
 ### Heading H4
 {{ imageOnGreyBackground({
@@ -53,8 +56,9 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the H4 style',
   title: 'H4'
 }) }}
+
 * Alignment is left-justified.
-* It cannot be used without a preceding H3 title.{.lead}
+* It cannot be used without a preceding H3 title. {.lead}
 
 ### Lead
 {{ imageOnGreyBackground({
@@ -76,8 +80,9 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the link style',
   title: 'Link'
 }) }}
-* Is used as a standard link within texts.{.lead}
-* Further information about links can be found at <sbb-link variant="inline" href="/en/design-system/legacy/components/link">link</sbb-link>.{.lead}
+
+* Is used as a standard link within texts. {.lead}
+* Further information about links can be found at <sbb-link variant="inline" href="/en/design-system/legacy/components/link">link</sbb-link>. {.lead}
 
 ### Subtext
 {{ imageOnGreyBackground({
@@ -92,7 +97,8 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the table header style',
   title: 'Table header'
 }) }}
-* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>.{.lead}
+
+* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>. {.lead}
 
 
 ### Table data
@@ -101,7 +107,8 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the table data style',
   title: 'Table data'
 }) }}
-* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>.{.lead}
+
+* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>. {.lead}
 
 ### Structured list
 {{ imageOnGreyBackground({
@@ -109,10 +116,11 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the structured list style',
   title: 'Structured list'
 }) }}
-* The list has a maximum of three hierarchy levels.{.lead}
-* Simple links are permitted.{.lead}
-* Bold, superscript and subscript numbers are permitted.{.lead}
-* Short descriptions should be defined for a list entry (no four-line texts) whenever possible.{.lead}
+
+* The list has a maximum of three hierarchy levels. {.lead}
+* Simple links are permitted. {.lead}
+* Bold, superscript and subscript numbers are permitted. {.lead}
+* Short descriptions should be defined for a list entry (no four-line texts) whenever possible. {.lead}
 
 ### Unstructured list
 {{ imageOnGreyBackground({
@@ -120,10 +128,11 @@ The font styles defined here form the base of web applications and their compone
   alt: 'Image of the unstructured list style',
   title: 'Unstructured list'
 }) }}
-* The list has a maximum of three hierarchy levels.{.lead}
-* Simple links are permitted.{.lead}
-* Bold, superscript and subscript numbers are permitted.{.lead}
-* Short descriptions should be defined for a list entry (no four-line texts) whenever possible.{.lead}
+
+* The list has a maximum of three hierarchy levels. {.lead}
+* Simple links are permitted. {.lead}
+* Bold, superscript and subscript numbers are permitted. {.lead}
+* Short descriptions should be defined for a list entry (no four-line texts) whenever possible. {.lead}
 
 ### Fieldset simple
 {{ imageOnGreyBackground({

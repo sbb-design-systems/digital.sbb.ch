@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände 
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Active
 * Inactive
 
@@ -22,9 +22,9 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Tag zur Verwendung als Filter'
 }) }}
 
-* Im Filter sind die Tags im aktiven und inaktiven Zustand vorhanden.{.lead}
-* Mit Klick auf ein Tag toggelt der jeweilige Zustand in den anderen und beeinflusst so das Filterergebnis.{.lead}
-* Innerhalb des Filter wird immer zusätzlich ein Tag «Alle» eingefügt. Wird dieses Filtertag angeklickt, wechselt es in den Zustand aktiv und alle anderen Tags im Filter werden in den Zustand inaktiv gesetzt.{.lead}
+* Im Filter sind die Tags im aktiven und inaktiven Zustand vorhanden. {.lead}
+* Mit Klick auf ein Tag toggelt der jeweilige Zustand in den anderen und beeinflusst so das Filterergebnis. {.lead}
+* Innerhalb des Filter wird immer zusätzlich ein Tag «Alle» eingefügt. Wird dieses Filtertag angeklickt, wechselt es in den Zustand aktiv und alle anderen Tags im Filter werden in den Zustand inaktiv gesetzt. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

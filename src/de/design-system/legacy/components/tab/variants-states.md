@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Active
 * Inactive
 * Hover
@@ -30,8 +30,9 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung der Komponente Tab mit zusätzlichen Mengenindikatoren',
   title: 'Darstellung der Komponente Tab mit zusätzlichen Mengenindikatoren'
 }) }}
-* Der Mengenindikator liefert einen Hinweis, wie viele Einträge eine Liste im Content des Registers aufweist.{.lead}
-* Der Mengenindikator beinhaltet nur Zahlen, maximal 3-stellig.{.lead}
+
+* Der Mengenindikator liefert einen Hinweis, wie viele Einträge eine Liste im Content des Registers aufweist. {.lead}
+* Der Mengenindikator beinhaltet nur Zahlen, maximal 3-stellig. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

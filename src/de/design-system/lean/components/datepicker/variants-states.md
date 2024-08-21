@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände 
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Placeholder
 * Focused
@@ -33,13 +33,14 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung des Date Pickers mit Blätterfunktion',
   title: 'Date Picker mit Blätterfunktion'
 }) }}
-* Die Navigationspfeile werden nur dargestellt, wenn auch ein vorangehendes/nachfolgende Datum gewählt werden kann.{.lead}
+
+* Die Navigationspfeile werden nur dargestellt, wenn auch ein vorangehendes/nachfolgende Datum gewählt werden kann. {.lead}
 
 ### Datumsbereich
-* Um einen Datumsbereich zu wählen, werden zwei Datepicker kombiniert.{.lead}
-* Wird das Von-Datum mittels Kalender-Layer gewählt und das Bis-Datum ist noch nicht definiert, öffnet sich der Kalender-Layer des Bis-Feldes. Wurde bereits ein Bis-Datum gewählt, öffnet sich der Kalender-Layer nicht.{.lead}
-* Wählen die Benutzer*innen ein Von-Datum > Bis-Datum, wird das Bis-Datum gelöscht und dessen Kalender-Layer eingeblendet.{.lead}
-* Sind beide Daten gewählt, wird im Kalender der gewählte Bereich farblich hinterlegt.{.lead}
+* Um einen Datumsbereich zu wählen, werden zwei Datepicker kombiniert. {.lead}
+* Wird das Von-Datum mittels Kalender-Layer gewählt und das Bis-Datum ist noch nicht definiert, öffnet sich der Kalender-Layer des Bis-Feldes. Wurde bereits ein Bis-Datum gewählt, öffnet sich der Kalender-Layer nicht. {.lead}
+* Wählen die Benutzer*innen ein Von-Datum > Bis-Datum, wird das Bis-Datum gelöscht und dessen Kalender-Layer eingeblendet. {.lead}
+* Sind beide Daten gewählt, wird im Kalender der gewählte Bereich farblich hinterlegt. {.lead}
 
 ### Geburtsdatum
 {{ imageOnGreyBackground({
@@ -55,12 +56,12 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Date Picker, mit Kalenderdarstellung'
 }) }}
 
-Die Tab-Reihenfolge innerhalb des Kalender-Layers ist wie folgt defniert:{.lead}
+Die Tab-Reihenfolge innerhalb des Kalender-Layers ist wie folgt defniert: {.lead}
 1. Monat zurück
 2. Monat vor
 3. Jahr zurück
 4. Jahr vor
-5. Bereich der einzelnen Tage. Wenn der Fokus im Bereich der Tage liegt, kann mittels Pfeiltasten links, rechts, auf und ab innerhalb der Tage navigiert werden.{.lead}
+5. Bereich der einzelnen Tage. Wenn der Fokus im Bereich der Tage liegt, kann mittels Pfeiltasten links, rechts, auf und ab innerhalb der Tage navigiert werden. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

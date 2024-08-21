@@ -17,7 +17,7 @@ image: reduziert.webp
   title: 'Reduziert'
 }) }}
 
-Our solutions support our users in carrying out a certain task – and in doing this as simply and effectively as possible. Only the information and functions necessary for the working step are suggested. This helps prevent cognitive overload.{.lead}
+Our solutions support our users in carrying out a certain task – and in doing this as simply and effectively as possible. Only the information and functions necessary for the working step are suggested. This helps prevent cognitive overload. {.lead}
 
 
 ### Example
@@ -26,6 +26,7 @@ Our solutions support our users in carrying out a certain task – and in doing 
   alt: 'Beispiel',
   title: 'Beispiel'
 }) }}
-We show the user only the necessary relevant information and avoid complex content. ​By consciously leaving out or hiding information at the first level, the operation/application is made simpler for users.​{.lead}
 
-For example, on the timetable for the connection, only the start point, destination and number of stops are shown initially.{.lead}
+We show the user only the necessary relevant information and avoid complex content. ​By consciously leaving out or hiding information at the first level, the operation/application is made simpler for users.​ {.lead}
+
+For example, on the timetable for the connection, only the start point, destination and number of stops are shown initially. {.lead}

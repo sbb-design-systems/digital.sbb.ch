@@ -8,7 +8,7 @@ order: 4
 eleventyExcludeFromCollections: true
 ---
 
-Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritäten der Arbeiten sind in den entsprechenden Boards einsehbar.{.lead}
+Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritäten der Arbeiten sind in den entsprechenden Boards einsehbar. {.lead}
 
 <sbb-table-wrapper>
 

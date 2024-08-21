@@ -9,12 +9,12 @@ permalink: false
 ---
 
 ## What does the component do?
-* It is used to show the user which stage of a process they are on.{.lead}
+* It is used to show the user which stage of a process they are on. {.lead}
 
 ## When should the component be used?
-* In all processes where a user has to go through several steps/pages to complete them.{.lead}
+* In all processes where a user has to go through several steps/pages to complete them. {.lead}
 
 ## Rules
-* The process flow is always positioned at the top immediately after the <sbb-link variant="inline" href="/en/design-system/legacy/components/breadcrumb">breadcrumb</sbb-link>.{.lead}
-* The user can navigate back to a process step already passed through.{.lead}
-* Forward navigation in the process is only permitted by the call-to-action of the page concerned. Skipping steps (forward) is not permitted.{.lead}
+* The process flow is always positioned at the top immediately after the <sbb-link variant="inline" href="/en/design-system/legacy/components/breadcrumb">breadcrumb</sbb-link>. {.lead}
+* The user can navigate back to a process step already passed through. {.lead}
+* Forward navigation in the process is only permitted by the call-to-action of the page concerned. Skipping steps (forward) is not permitted. {.lead}

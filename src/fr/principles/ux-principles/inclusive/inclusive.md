@@ -17,7 +17,7 @@ image: inklusiv.webp
   title: 'Inklusiv'
 }) }}
 
-Notre objectif est de développer des solutions utilisables quel que soit le handicap individuel. Ce faisant, nous améliorons également l’expérience utilisateur en cas de handicap temporaire, une situation qui peut affecter tous nos utilisateurs.{.lead}
+Notre objectif est de développer des solutions utilisables quel que soit le handicap individuel. Ce faisant, nous améliorons également l’expérience utilisateur en cas de handicap temporaire, une situation qui peut affecter tous nos utilisateurs. {.lead}
 
 
 ### Example
@@ -27,4 +27,4 @@ Notre objectif est de développer des solutions utilisables quel que soit le han
   title: 'Inklusiv'
 }) }}
 
-Un handicap temporaire peut être par exemple une jambe cassée, voyager avec un objet restreignant la liberté de mouvement, comme une poussette ou un vélo, être ébloui par le soleil lors de la lecture d’un texte ou encore utiliser un écran tactile avec des gants.{.lead}
+Un handicap temporaire peut être par exemple une jambe cassée, voyager avec un objet restreignant la liberté de mouvement, comme une poussette ou un vélo, être ébloui par le soleil lors de la lecture d’un texte ou encore utiliser un écran tactile avec des gants. {.lead}

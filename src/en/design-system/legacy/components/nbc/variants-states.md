@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## States
-The Next Best Click container does not have any cross-viewport states as they behave differently. The individual variants also have different forms.{.lead}
+The Next Best Click container does not have any cross-viewport states as they behave differently. The individual variants also have different forms. {.lead}
 
 ## Variants
 ### Action
@@ -49,13 +49,13 @@ The Next Best Click container does not have any cross-viewport states as they be
 
 ## Behaviour
 ### Desktop (and higher resolutions)
-* All Next-Best-Click options are arranged on the content pages in the margin column (right column).{.lead}
-* When scrolling all boxes in the right column are sticky. The individual boxes are successively minimised as soon as they reach the upper edge of the viewport (below the sticky header) and below with already minimised boxes.{.lead}
-* In the minimised status, all boxes are always accessible for the user.{.lead}
-* The user can then open a box (and also close it again).{.lead}
-* Only one box can be opened at the same time in the scrolled status.{.lead}
-* The NBC box remains sticky until the user reaches the end of the content area. If the user continues to scroll down, the boxes with the content scroll away upwards.{.lead}
-* If the user then scrolls upwards again, the NBC box also reappears and is sticky again.{.lead}
+* All Next-Best-Click options are arranged on the content pages in the margin column (right column). {.lead}
+* When scrolling all boxes in the right column are sticky. The individual boxes are successively minimised as soon as they reach the upper edge of the viewport (below the sticky header) and below with already minimised boxes. {.lead}
+* In the minimised status, all boxes are always accessible for the user. {.lead}
+* The user can then open a box (and also close it again). {.lead}
+* Only one box can be opened at the same time in the scrolled status. {.lead}
+* The NBC box remains sticky until the user reaches the end of the content area. If the user continues to scroll down, the boxes with the content scroll away upwards. {.lead}
+* If the user then scrolls upwards again, the NBC box also reappears and is sticky again. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
@@ -77,12 +77,12 @@ The Next Best Click container does not have any cross-viewport states as they be
 }) }}
 
 ### Tablet
-* All Next-Best-Click options are always available via the sticky element on the bottom right.{.lead}
-* When clicked, a layer with all NBC modules alongside one another opens in the open status (two-column display){.lead}
-* The icon in the sticky element then changes into the close button (toggle button).{.lead}
-* In the tablet variant, the NBC boxes at the end of the content area are displayed as redundant (open).{.lead}
-* If the user scrolls into the relevant area (and beyond) the element for opening the NBC layer is hidden.{.lead}
-* If the user scrolls up again, the sticky element also reappears.{.lead}
+* All Next-Best-Click options are always available via the sticky element on the bottom right. {.lead}
+* When clicked, a layer with all NBC modules alongside one another opens in the open status (two-column display) {.lead}
+* The icon in the sticky element then changes into the close button (toggle button). {.lead}
+* In the tablet variant, the NBC boxes at the end of the content area are displayed as redundant (open). {.lead}
+* If the user scrolls into the relevant area (and beyond) the element for opening the NBC layer is hidden. {.lead}
+* If the user scrolls up again, the sticky element also reappears. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
@@ -93,13 +93,13 @@ The Next Best Click container does not have any cross-viewport states as they be
 
 
 ### Mobile
-* All Next-Best-Click options are always accessible via the sticky element in the bottom right.{.lead}
-* When clicked, a layer with all NBC modules opens in closed status.{.lead}
-* Only one module can be opened at a time.{.lead}
-* The icon in the sticky element turns into the close icon (toggle button).{.lead}
-* In the mobile variant, the NBC boxes at the end of the content area are displayed as redundant (open).{.lead}
-* If the user scrolls into the relevant area (and beyond) the element for opening the NBC layer is hidden.{.lead}
-* If the user scrolls up again, the sticky element also reappears.{.lead}
+* All Next-Best-Click options are always accessible via the sticky element in the bottom right. {.lead}
+* When clicked, a layer with all NBC modules opens in closed status. {.lead}
+* Only one module can be opened at a time. {.lead}
+* The icon in the sticky element turns into the close icon (toggle button). {.lead}
+* In the mobile variant, the NBC boxes at the end of the content area are displayed as redundant (open). {.lead}
+* If the user scrolls into the relevant area (and beyond) the element for opening the NBC layer is hidden. {.lead}
+* If the user scrolls up again, the sticky element also reappears. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({

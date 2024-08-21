@@ -9,7 +9,7 @@ parent: promotion-box-mobile_en
 ---
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 
 * Close-Button: Optional
 * Detail-Link: Optional

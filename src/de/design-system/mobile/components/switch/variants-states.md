@@ -9,7 +9,7 @@ parent: switch-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Selected
 *   Unselected
 *   Disabled Selected
@@ -18,7 +18,7 @@ DIe Komponente hat folgende Zustände:{.lead}
 *   Error (default / retry / reloading / button)
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 *   Switch
     *   Selected / Unselected
 *   Switch-Item

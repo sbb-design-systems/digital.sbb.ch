@@ -9,11 +9,11 @@ permalink: false
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 * Active
 * Inactive
 
-Only one option can be selected (active). The remaining options are inactive.{.lead}
+Only one option can be selected (active). The remaining options are inactive. {.lead}
 
 ## Variants
 

@@ -7,7 +7,7 @@ parent: introduction_en
 order: 3
 ---
 
-Within SBB, the core team for digital accessibility deals with accessibility. If you have questions or can contribute further support, please get in touch at any time.{.lead}
+Within SBB, the core team for digital accessibility deals with accessibility. If you have questions or can contribute further support, please get in touch at any time. {.lead}
 
 Contact for the Passenger Division: <sbb-link variant="inline" type="button" href="mailto:joice.loureiro@sbb.ch">joice.loureiro@sbb.ch</sbb-link>
 Contact for all other Divisions: <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>  

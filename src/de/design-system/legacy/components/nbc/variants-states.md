@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da sie sich unterschiedlich verhalten.{.lead}
+Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da sie sich unterschiedlich verhalten. {.lead}
 
 ## Varianten
 
@@ -50,13 +50,13 @@ Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da s
 
 ## Verhalten
 ### Desktop
-* Alle Next-Best-Click Optionen sind auf Inhalts-Seiten in der Margin-Spalte (rechten Spalte) angeordnet.{.lead}
-* Beim Scrollen werden alle Boxen in der rechten Spalte sticky. Die einzelnen Boxen werden sukzessive minimiert, sobald sie an den oberen Rand des Viewports (unterhalb des Sticky Headers) angelangt sind (respektive bei schon minimierten Boxen jeweils darunter).{.lead}
-* Im minimierten Zustand bleiben alle Boxen jederzeit für den User zugängig/erreichbar.{.lead}
-* Der User kann dann jeweils eine Box öffnen (und auch wieder schliessen).{.lead}
-* Im gescrollten Zustand kann jeweils nur eine Box zugleich geöffnet sein.{.lead}
-* Die NBC-Box bleibt solange sticky, bis der User am Ende der Content-Area angelangt ist. Scrollt der User weiter nach unten werden die Boxen mit dem Content nach oben weggescrolled.{.lead}
-* Scrollt der User danach wieder nach oben, erscheint auch die NBC-Box wieder und bleibt wieder sticky.{.lead}
+* Alle Next-Best-Click Optionen sind auf Inhalts-Seiten in der Margin-Spalte (rechten Spalte) angeordnet. {.lead}
+* Beim Scrollen werden alle Boxen in der rechten Spalte sticky. Die einzelnen Boxen werden sukzessive minimiert, sobald sie an den oberen Rand des Viewports (unterhalb des Sticky Headers) angelangt sind (respektive bei schon minimierten Boxen jeweils darunter). {.lead}
+* Im minimierten Zustand bleiben alle Boxen jederzeit für den User zugängig/erreichbar. {.lead}
+* Der User kann dann jeweils eine Box öffnen (und auch wieder schliessen). {.lead}
+* Im gescrollten Zustand kann jeweils nur eine Box zugleich geöffnet sein. {.lead}
+* Die NBC-Box bleibt solange sticky, bis der User am Ende der Content-Area angelangt ist. Scrollt der User weiter nach unten werden die Boxen mit dem Content nach oben weggescrolled. {.lead}
+* Scrollt der User danach wieder nach oben, erscheint auch die NBC-Box wieder und bleibt wieder sticky. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
@@ -67,9 +67,9 @@ Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da s
 
 
 #### Sonderfall NBC-Box innerhalb eines Accordion
-* Bei der Anwendung einer NBC-Box innerhalb eines <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/accordion">Accordion</sbb-link> wird diese nie minimiert.{.lead}
-* Es darf nur eine NBC-Box in einem Accordion eingesetzt werden.{.lead}
-* Beim Scrollen bleibt die NBC-Box sticky am oberen Rand bis zum Ende der Content-Area des Accordions, dannach wird die Box mit dem Content weitergescrollt.{.lead}
+* Bei der Anwendung einer NBC-Box innerhalb eines <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/accordion">Accordion</sbb-link> wird diese nie minimiert. {.lead}
+* Es darf nur eine NBC-Box in einem Accordion eingesetzt werden. {.lead}
+* Beim Scrollen bleibt die NBC-Box sticky am oberen Rand bis zum Ende der Content-Area des Accordions, dannach wird die Box mit dem Content weitergescrollt. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
@@ -79,12 +79,12 @@ Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da s
 }) }}
 
 ### Tablet
-* Alle Next-Best-Click Optionen sind jederzeit über das sticky Element rechts unten verfügbar.{.lead}
-* Auf Klick öffnet sich ein Layer mit allen NBC-Komponenten im offenen Zustand nebeneinander (zweispaltige Darstellung).{.lead}
-* Das Icon im Sticky-Element wechselt dann zum Schliessen-Button (Toggle-Button).{.lead}
-* In der Tablet-Variante werden die NBC-Boxen am Ende der Content-Area redundant (offen) dargestellt.{.lead}
-* Scrollt der User in den entsprechenden Bereich (und darüberhinaus) wird das Element zum Öffnen des NBC-Layers ausgeblendet.{.lead}
-* Scrollt der User wieder nach oben erscheint auch das Sticky-Element wieder.{.lead}
+* Alle Next-Best-Click Optionen sind jederzeit über das sticky Element rechts unten verfügbar. {.lead}
+* Auf Klick öffnet sich ein Layer mit allen NBC-Komponenten im offenen Zustand nebeneinander (zweispaltige Darstellung). {.lead}
+* Das Icon im Sticky-Element wechselt dann zum Schliessen-Button (Toggle-Button). {.lead}
+* In der Tablet-Variante werden die NBC-Boxen am Ende der Content-Area redundant (offen) dargestellt. {.lead}
+* Scrollt der User in den entsprechenden Bereich (und darüberhinaus) wird das Element zum Öffnen des NBC-Layers ausgeblendet. {.lead}
+* Scrollt der User wieder nach oben erscheint auch das Sticky-Element wieder. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({
@@ -95,13 +95,13 @@ Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da s
 
 
 ### Mobile
-* Alle Next-Best-Click Optionen sind jederzeit über das Sticky-Element rechts unten aufrufbar.{.lead}
-* Auf Klick öffnet sich ein Layer mit allen NBC-Komponenten im geschlossenen Zustand.{.lead}
-* Es kann jeweils nur eine Komponente einzeln geöffnet werden.{.lead}
-* Das Icon in dem Sticky Element wechselt zum Schliessen-Icon (Toggle-Button).{.lead}
-* In der mobilen Variante werden die NBC-Boxen am Ende der Content-Area redundant (offen) dargestellt.{.lead}
-* Scrollt der User in den entsprechenden Bereich (und darüberhinaus) wird das Element zum Öffnen des NBC-Layers ausgeblendet.{.lead}
-* Scrollt der User wieder nach oben erscheint auch das Sticky-Element wieder.{.lead}
+* Alle Next-Best-Click Optionen sind jederzeit über das Sticky-Element rechts unten aufrufbar. {.lead}
+* Auf Klick öffnet sich ein Layer mit allen NBC-Komponenten im geschlossenen Zustand. {.lead}
+* Es kann jeweils nur eine Komponente einzeln geöffnet werden. {.lead}
+* Das Icon in dem Sticky Element wechselt zum Schliessen-Icon (Toggle-Button). {.lead}
+* In der mobilen Variante werden die NBC-Boxen am Ende der Content-Area redundant (offen) dargestellt. {.lead}
+* Scrollt der User in den entsprechenden Bereich (und darüberhinaus) wird das Element zum Öffnen des NBC-Layers ausgeblendet. {.lead}
+* Scrollt der User wieder nach oben erscheint auch das Sticky-Element wieder. {.lead}
 
 <!-- end of the list -->
 {{ imageOnGreyBackground({

@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Focused
 * Disabled
@@ -24,11 +24,11 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Darstellung der Komponente Datumswahl in der Variante Standard'
 }) }}
 
-* Das gewählte Datum wird im Format Wochentag, TT.MM.JJJJ dargestellt (Beispiel Fr, 04.08.2017).{.lead}
-* Ein Klick auf das Kalender-Icon öffnet den Kalender-Layer.{.lead}
-* Wenn der Fokus im Kalender-Layer liegt, kann dieser wie folgt mittels Tastatur bedient  werden:{.lead}
-  * Pfeiltasten: Wechseln des markierten Tages.{.lead}
-  * Leertaste / Enter: Auswahl des markierten Tages.{.lead}
+* Das gewählte Datum wird im Format Wochentag, TT.MM.JJJJ dargestellt (Beispiel Fr, 04.08.2017). {.lead}
+* Ein Klick auf das Kalender-Icon öffnet den Kalender-Layer. {.lead}
+* Wenn der Fokus im Kalender-Layer liegt, kann dieser wie folgt mittels Tastatur bedient  werden: {.lead}
+  * Pfeiltasten: Wechseln des markierten Tages. {.lead}
+  * Leertaste / Enter: Auswahl des markierten Tages. {.lead}
 
 ### Mit Blätterfunktion
 {{ imageOnGreyBackground({
@@ -37,20 +37,20 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Darstellung der Komponente Datumswahl mit Blätterfunktion'
 }) }}
 
-* Das gewählte Datum wird im Format Wochentag, TT.MM.JJJJ dargestellt (Beispiel Fr, 04.08.2017).{.lead}
-* Die Navigationspfeile werden nur dargestellt, wenn auch ein vorangehendes/nachfolgende Datum gewählt werden kann.{.lead}
-* Ein Klick auf das Kalender-Icon öffnet den Kalender-Layer.{.lead}
-* Wenn der Fokus im Kalender-Layer liegt, kann dieser wie folgt mittels Tastatur bedient  werden:{.lead}
-  * Pfeiltasten: Wechseln des markierten Tages.{.lead}
-  * Leertaste / Enter: Auswahl des markierten Tages.{.lead}
-* In dieser Variante ist immer ein gültige Datum vorausgewählt.{.lead}
+* Das gewählte Datum wird im Format Wochentag, TT.MM.JJJJ dargestellt (Beispiel Fr, 04.08.2017). {.lead}
+* Die Navigationspfeile werden nur dargestellt, wenn auch ein vorangehendes/nachfolgende Datum gewählt werden kann. {.lead}
+* Ein Klick auf das Kalender-Icon öffnet den Kalender-Layer. {.lead}
+* Wenn der Fokus im Kalender-Layer liegt, kann dieser wie folgt mittels Tastatur bedient  werden: {.lead}
+  * Pfeiltasten: Wechseln des markierten Tages. {.lead}
+  * Leertaste / Enter: Auswahl des markierten Tages. {.lead}
+* In dieser Variante ist immer ein gültige Datum vorausgewählt. {.lead}
 
 ### Datumsbereich
-* Um einen Datumsbereich zu wählen, werden zwei Datepicker kombiniert.{.lead}
-* Wird das Von-Datum mittels Kalender-Layer gewählt und das Bis-Datum ist noch nicht definiert, öffnet sich der Kalender-Layer des Bis-Feldes. Wurde bereits ein Bis-Datum gewählt, öffnet sich der Kalender-Layer nicht.{.lead}
-* Wählt der Benutzer ein Von-Datum > Bis-Datum, wird das Bis-Datum gelöscht und dessen Kalender-Layer eingeblendet.{.lead}
-* Sind beide Daten gewählt, wird im Kalender der gewählte Bereich farblich hinterlegt.{.lead}
-* Die gewählten Daten wird im Format Wochentag, TT.MM.JJJJ dargestellt (Beispiel Fr, 04.08.2017).{.lead}
+* Um einen Datumsbereich zu wählen, werden zwei Datepicker kombiniert. {.lead}
+* Wird das Von-Datum mittels Kalender-Layer gewählt und das Bis-Datum ist noch nicht definiert, öffnet sich der Kalender-Layer des Bis-Feldes. Wurde bereits ein Bis-Datum gewählt, öffnet sich der Kalender-Layer nicht. {.lead}
+* Wählt der Benutzer ein Von-Datum > Bis-Datum, wird das Bis-Datum gelöscht und dessen Kalender-Layer eingeblendet. {.lead}
+* Sind beide Daten gewählt, wird im Kalender der gewählte Bereich farblich hinterlegt. {.lead}
+* Die gewählten Daten wird im Format Wochentag, TT.MM.JJJJ dargestellt (Beispiel Fr, 04.08.2017). {.lead}
 
 ### Geburtsdatum
 {{ imageOnGreyBackground({
@@ -59,7 +59,7 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Darstellung der Komponente Datumswahl zur Eingabe eines Geburtstages'
 }) }}
 
-* Das Geburtsdatum wird im Format TT.MM.JJJJ dargestellt (Beispiel 02.09.1986).{.lead}
+* Das Geburtsdatum wird im Format TT.MM.JJJJ dargestellt (Beispiel 02.09.1986). {.lead}
 
 ### Kalender-Layer
 {{ imageOnGreyBackground({
@@ -68,12 +68,12 @@ Die Komponente hat folgende Zustände:{.lead}
   title: 'Darstellung der Komponente Datumswahl mit geöffnetem Datepicker'
 }) }}
 
-Die Tab-Reihenfolge innerhalb des Kalender-Layers ist wie folgt defniert:{.lead}
-1.  Monat zurück{.lead}
-2.  Monat vor{.lead}
-3.  Jahr zurück{.lead}
-4.  Jahr vor{.lead}
-5.  Bereich der einzelnen Tage. Wenn der Fokus im Bereich der Tageliegt, kann mittels Pfeiltasten links, rechts, auf und ab innerhalb der Tage navigiert werden.{.lead}
+Die Tab-Reihenfolge innerhalb des Kalender-Layers ist wie folgt defniert: {.lead}
+1.  Monat zurück {.lead}
+2.  Monat vor {.lead}
+3.  Jahr zurück {.lead}
+4.  Jahr vor {.lead}
+5.  Bereich der einzelnen Tage. Wenn der Fokus im Bereich der Tageliegt, kann mittels Pfeiltasten links, rechts, auf und ab innerhalb der Tage navigiert werden. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

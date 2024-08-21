@@ -17,7 +17,7 @@ image: inklusiv.webp
   title: 'Inklusiv'
 }) }}
 
-Our aspiration is to develop solutions that can be used regardless of individual impairments. We therefore also improve user experience during temporary impairments that could affect all our users.{.lead}
+Our aspiration is to develop solutions that can be used regardless of individual impairments. We therefore also improve user experience during temporary impairments that could affect all our users. {.lead}
 
 
 ### Example
@@ -27,4 +27,4 @@ Our aspiration is to develop solutions that can be used regardless of individual
   title: 'Inklusiv'
 }) }}
 
-Temporary impairments could be a broken leg, a journey with a pushchair or bicycle or reading texts in strong sunlight.{.lead}
+Temporary impairments could be a broken leg, a journey with a pushchair or bicycle or reading texts in strong sunlight. {.lead}

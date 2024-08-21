@@ -9,7 +9,7 @@ order: 1
 
 ## Arbeitsweise
 
-Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritäten der Arbeiten sind in den entsprechenden Boards einsehbar.{.lead}
+Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritäten der Arbeiten sind in den entsprechenden Boards einsehbar. {.lead}
 
 <sbb-table-wrapper>
 
@@ -25,5 +25,5 @@ Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritä
 
 </sbb-table-wrapper>
 
-Wöchentlich finden Weeklys und Refinements statt. In den Weeklys werden Bug Reports, Contributing Anfragen, Feature Requests oder Erweiterungen und allgemeine Fragen aus der Community besprochen und direkt im Ticket beantwortet. In den Refinements werden die weiteren Arbeiten geschärft.{.lead}  
+Wöchentlich finden Weeklys und Refinements statt. In den Weeklys werden Bug Reports, Contributing Anfragen, Feature Requests oder Erweiterungen und allgemeine Fragen aus der Community besprochen und direkt im Ticket beantwortet. In den Refinements werden die weiteren Arbeiten geschärft. {.lead}  
 

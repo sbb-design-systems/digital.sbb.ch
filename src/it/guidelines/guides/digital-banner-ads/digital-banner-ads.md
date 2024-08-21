@@ -8,14 +8,14 @@ parent: guides_it
 order: 4
 ---
 
-Le FFS mettono a disposizione modelli di banner pubblicitari digitali in due versioni diverse, il cui impiego dipende dal formato.{.lead}  
+Le FFS mettono a disposizione modelli di banner pubblicitari digitali in due versioni diverse, il cui impiego dipende dal formato. {.lead}  
  
 ## Utilizzo
-I modelli devono essere rispettati. Nel caso in cui il formato desiderato non sia compreso, è possibile adattare un modello esistente, utilizzando come riferimento una dimensione simile.{.lead}
+I modelli devono essere rispettati. Nel caso in cui il formato desiderato non sia compreso, è possibile adattare un modello esistente, utilizzando come riferimento una dimensione simile. {.lead}
  
-In linea di massima e nei limiti del possibile si utilizza il pannello rosso completo (versione 1). La versione 2 si presta a piccoli formati o formati estremi. Per la maggior parte dei banner si deve fare in modo di utilizzare la versione 1 con pannello rosso.{.lead}
+In linea di massima e nei limiti del possibile si utilizza il pannello rosso completo (versione 1). La versione 2 si presta a piccoli formati o formati estremi. Per la maggior parte dei banner si deve fare in modo di utilizzare la versione 1 con pannello rosso. {.lead}
 
-Per la creazione di materiale pubblicitario devono essere seguite le raccomandazioni per l’accessibilità dei contenuti web 2.0 delle Web Content Accessibility Guideline (WCAG).{.lead}
+Per la creazione di materiale pubblicitario devono essere seguite le raccomandazioni per l’accessibilità dei contenuti web 2.0 delle Web Content Accessibility Guideline (WCAG). {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
 <sbb-tab-label>Versione 1</sbb-tab-label>

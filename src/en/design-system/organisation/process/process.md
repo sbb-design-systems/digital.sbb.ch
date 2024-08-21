@@ -9,7 +9,7 @@ order: 1
 
 ## Mode of Operation
 
-The various manifestations work in teams using the Kanban mode. The priorities of the tasks can be seen in the corresponding boards.{.lead}
+The various manifestations work in teams using the Kanban mode. The priorities of the tasks can be seen in the corresponding boards. {.lead}
 
 <sbb-table-wrapper>
 
@@ -25,5 +25,5 @@ The various manifestations work in teams using the Kanban mode. The priorities o
 
 </sbb-table-wrapper>
 
-Weeklys and refinements are taking place on a weekly basis. In the weeklys, bug reports, contributing requests, feature requests or enhancements and general questions from the community are discussed and answered directly in the ticket. In the refinements, further work is refined.{.lead}  
+Weeklys and refinements are taking place on a weekly basis. In the weeklys, bug reports, contributing requests, feature requests or enhancements and general questions from the community are discussed and answered directly in the ticket. In the refinements, further work is refined. {.lead}  
 

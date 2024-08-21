@@ -9,7 +9,7 @@ parent: notification-box-mobile_de
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 
 * Alert
 * Warning
@@ -17,7 +17,7 @@ Die Komponente hat folgende Zustände:{.lead}
 * Information
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 
 * Titel: Optional
 * Close-Button: Optional

@@ -8,7 +8,7 @@ order: 2
 ---
 
 We invite you to actively participate in the further development and improvement of our design system. Your ideas, feedback and experience are of immense value in building a powerful, flexible and future-proof design system.
-We greatly value your contribution and are confident that you will be key to further professionalizing our design system.{.lead}
+We greatly value your contribution and are confident that you will be key to further professionalizing our design system. {.lead}
 
 ## The most important Github links.
 
@@ -30,22 +30,22 @@ We greatly value your contribution and are confident that you will be key to fur
 
 
 ## Adding Content
-There are several criteria that have to be met in order for a component or a design token to be incorporated into the design system. If your requirement meets the following criteria, it has a good chance of being included in the system:{.lead} 
+There are several criteria that have to be met in order for a component or a design token to be incorporated into the design system. If your requirement meets the following criteria, it has a good chance of being included in the system: {.lead} 
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Can be used on multiple occasions{.with-icon}
-Components that can be used on multiple occasions and are designed to be as generic as possible have a good chance of beeing accepted.  We are happy to help with generalization, if necessary. {.lead}
+Components that can be used on multiple occasions and are designed to be as generic as possible have a good chance of beeing accepted.  We are happy to help with generalization, if necessary.  {.lead}
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Contribute to the user experience principles{.with-icon}
-Components that contribute to our principles also have a good chance. Especially vital are the principles "recognisable", "inclusive", "self-explanatory" and "reduced". {.lead}
+Components that contribute to our principles also have a good chance. Especially vital are the principles "recognisable", "inclusive", "self-explanatory" and "reduced".  {.lead}
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Does not have a business logic{.with-icon}
-Components with business logic or attached services/APIs have no chance to be included. The business logic can change and is the responsibility of the business owners. Our teams are not organizationally able to run and monitor these changes/developments. However, in most cases the business logic can be extracted. We are happy to help with architectural issues.{.lead}
+Components with business logic or attached services/APIs have no chance to be included. The business logic can change and is the responsibility of the business owners. Our teams are not organizationally able to run and monitor these changes/developments. However, in most cases the business logic can be extracted. We are happy to help with architectural issues. {.lead}
 
 ###  <sbb-icon name="circle-tick-medium"></sbb-icon> Contribute to efficiency{.with-icon}
-Components that speed up the design and development process by reducing the need to perform repetitive or time-consuming tasks are good candidates for adoption into the design system.{.lead}
+Components that speed up the design and development process by reducing the need to perform repetitive or time-consuming tasks are good candidates for adoption into the design system. {.lead}
 
 
 ## Yes, no or yes & no. 
-Together we decide whether content should be included or not. This quiz is intended to help you decide whether a component belongs in the design system or should be developed in the project. In case of doubt/uncertainty: do not hesitate to contact us.{.lead}
+Together we decide whether content should be included or not. This quiz is intended to help you decide whether a component belongs in the design system or should be developed in the project. In case of doubt/uncertainty: do not hesitate to contact us. {.lead}
 
 <div class="experiment"><questionaire-form></questionaire-form></div>

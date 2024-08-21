@@ -9,13 +9,13 @@ parent: up-dn-counter-mobile_en
 ---
 
 ## States
-The component has the following states:{.lead}
+The component has the following states: {.lead}
 *   Default
 *   Min-Value
 *   Max-Value
 
 ## Variants
-The component has the following variants:{.lead}
+The component has the following variants: {.lead}
 *   listed / boxed
 
 ### Listed

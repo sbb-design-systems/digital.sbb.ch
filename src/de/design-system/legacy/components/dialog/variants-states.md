@@ -24,11 +24,12 @@ permalink: false
   alt: 'Darstellung der Komponente Lightbox mit Formular als Inhalt',
   title: 'Darstellung der Komponente Lightbox mit Formular als Inhalt'
 }) }}
-* Eine Lightbox mit Formularelementen erhält mindestens einen «Abbrechen» und einen «Übernehmen» Button.{.lead}
-* Der «Abbrechen» Button schliesst die Lightbox wieder.{.lead}
-* Wird die Lightbox geschlossen («Abbrechen» oder X-Button) während bereits Eingaben im Formular geändert wurden, erscheint ein Warnhinweis das ungesicherte Daten im Formular sind.{.lead}
-* Die Buttons eines Formulars («Abbrechen», «Übernehmen», andere Funktionen) dürfen im Footer eingesetzt werden.{.lead}
-* Der Footer ist immer sticky und wird über die ganze Breite der Lightbox dargestellt (gleich wie Header).{.lead}
+
+* Eine Lightbox mit Formularelementen erhält mindestens einen «Abbrechen» und einen «Übernehmen» Button. {.lead}
+* Der «Abbrechen» Button schliesst die Lightbox wieder. {.lead}
+* Wird die Lightbox geschlossen («Abbrechen» oder X-Button) während bereits Eingaben im Formular geändert wurden, erscheint ein Warnhinweis das ungesicherte Daten im Formular sind. {.lead}
+* Die Buttons eines Formulars («Abbrechen», «Übernehmen», andere Funktionen) dürfen im Footer eingesetzt werden. {.lead}
+* Der Footer ist immer sticky und wird über die ganze Breite der Lightbox dargestellt (gleich wie Header). {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

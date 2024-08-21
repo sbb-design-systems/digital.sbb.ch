@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hinted
 * Focused
@@ -31,7 +31,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung der Komponente Eingabefeld für Passwort',
   title: 'Darstellung der Komponente Eingabefeld für Passwort'
 }) }}
-* Das Eingabefeld in der Variante "Passwort" stellt keinen Zustand "Hinted" zur Verfügung.{.lead}
+
+* Das Eingabefeld in der Variante "Passwort" stellt keinen Zustand "Hinted" zur Verfügung. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

@@ -9,11 +9,11 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Active
 * Inactive
 
-Es kann nur eine Option gewählt werden (active). Die restlichen Optionen sind inaktiv.{.lead}
+Es kann nur eine Option gewählt werden (active). Die restlichen Optionen sind inaktiv. {.lead}
 
 ## Varianten
 

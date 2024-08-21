@@ -13,10 +13,10 @@ order: 20
 ---
 
 ## What does the component do?
-It determines the vertical spaces between components.{.lead}
+It determines the vertical spaces between components. {.lead}
 
 ## When should the component be used? 
-For the layout of components.{.lead}
+For the layout of components. {.lead}
 
 ## Variants
 

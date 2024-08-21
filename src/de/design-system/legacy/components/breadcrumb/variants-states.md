@@ -9,11 +9,11 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hover
 
-Beim Viewport «Mobile» gibt es folgende Zustände:{.lead}
+Beim Viewport «Mobile» gibt es folgende Zustände: {.lead}
 * Full
 * Overflow
 
@@ -27,7 +27,7 @@ Beim Viewport «Mobile» gibt es folgende Zustände:{.lead}
 }) }}
 
 ### Mit Schwesterseiten
-Diese Variante hat zusätzlich folgende Zustände:{.lead}
+Diese Variante hat zusätzlich folgende Zustände: {.lead}
 * Expanded  
 
 <!-- end of the list -->
@@ -37,10 +37,10 @@ Diese Variante hat zusätzlich folgende Zustände:{.lead}
   title: 'Darstellung der Komponente Breadcrumb mit der Angabe der Schwesterseiten'
 }) }}
 
-* Klick auf Bezeichner oder Pfeil öffnet das Dropdown.{.lead}
-* Im Dropdown sind alle Schwesterseiten aufgelistet.{.lead}
-* Ein Klick ausserhalb des Dropdowns schliesst dieses wieder.{.lead}
-* Die aktive Seite wird im Dropdown hervorgehoben.{.lead}
+* Klick auf Bezeichner oder Pfeil öffnet das Dropdown. {.lead}
+* Im Dropdown sind alle Schwesterseiten aufgelistet. {.lead}
+* Ein Klick ausserhalb des Dropdowns schliesst dieses wieder. {.lead}
+* Die aktive Seite wird im Dropdown hervorgehoben. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

@@ -17,7 +17,7 @@ image: ganzheitlich.webp
   title: 'Ganzheitlich'
 }) }}
 
-Lors de la conception de solutions, nous incluons toujours l’ensemble de la chaîne d’expérience. Les processus en amont et en aval sont pris en compte au même titre que les autres applications présentes dans l’environnement. Cela permet d’améliorer durablement et globalement l’expérience utilisateur liée aux processus.{.lead}
+Lors de la conception de solutions, nous incluons toujours l’ensemble de la chaîne d’expérience. Les processus en amont et en aval sont pris en compte au même titre que les autres applications présentes dans l’environnement. Cela permet d’améliorer durablement et globalement l’expérience utilisateur liée aux processus. {.lead}
 
 
 ### Example
@@ -27,4 +27,4 @@ Lors de la conception de solutions, nous incluons toujours l’ensemble de la ch
   title: 'Beispiel'
 }) }}
 
-L’observation des utilisateurs au travail nous permet de prendre en considération le contexte dans lequel les tâches sont effectuées ainsi que les outils utilisés. Nous ne nous concentrons donc pas seulement sur le système à remplacer ou sur le nouveau système.{.lead}
+L’observation des utilisateurs au travail nous permet de prendre en considération le contexte dans lequel les tâches sont effectuées ainsi que les outils utilisés. Nous ne nous concentrons donc pas seulement sur le système à remplacer ou sur le nouveau système. {.lead}

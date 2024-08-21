@@ -17,7 +17,7 @@ image: selbsterklaerend.webp
   title: 'Selbsterklaerend'
 }) }}
 
-Our aspiration is to direct users along their way with our products and support them where necessary. We use their language (terminology and prior knowledge) and consider how our users think. We provide assistance for wrong entries by offering simple error correction. In addition, we allow users to make adjustments to their personal preference.​{.lead}
+Our aspiration is to direct users along their way with our products and support them where necessary. We use their language (terminology and prior knowledge) and consider how our users think. We provide assistance for wrong entries by offering simple error correction. In addition, we allow users to make adjustments to their personal preference.​ {.lead}
 
 
 ### Example
@@ -27,4 +27,4 @@ Our aspiration is to direct users along their way with our products and support 
   title: 'Beispiel'
 }) }}
 
-Users are guided through the process and see at a glance that a date must be entered and in what form the entry is required.{.lead}
+Users are guided through the process and see at a glance that a date must be entered and in what form the entry is required. {.lead}

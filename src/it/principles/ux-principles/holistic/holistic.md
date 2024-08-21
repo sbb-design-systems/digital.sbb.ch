@@ -17,7 +17,7 @@ image: ganzheitlich.webp
   title: 'Ganzheitlich'
 }) }}
 
-Nel configurarle, coinvolgiamo sempre l’intera catena dell’esperienza. Altrettanto importante è la considerazione dei processi precedenti e successivi nonchè le altre applicazioni nello stesso contesto. Questo consente di migliorare in modo sostenibile la User Experience in tutti i processi.{.lead}
+Nel configurarle, coinvolgiamo sempre l’intera catena dell’esperienza. Altrettanto importante è la considerazione dei processi precedenti e successivi nonchè le altre applicazioni nello stesso contesto. Questo consente di migliorare in modo sostenibile la User Experience in tutti i processi. {.lead}
 
 
 ### Esempio
@@ -27,4 +27,4 @@ Nel configurarle, coinvolgiamo sempre l’intera catena dell’esperienza. Altre
   title: 'Beispiel'
 }) }}
 
-Osservando gli utenti durante il loro lavoro, osserviamo tuttie le attività eseguite nel contesto con tutti gli strumenti impiegati anziché di concentrarci solo sul sistema nuovo o da sostituire.{.lead}
+Osservando gli utenti durante il loro lavoro, osserviamo tuttie le attività eseguite nel contesto con tutti gli strumenti impiegati anziché di concentrarci solo sul sistema nuovo o da sostituire. {.lead}

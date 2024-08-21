@@ -14,10 +14,10 @@ order: 30
 ---
 
 ## What does the component do?
-*   It defines all permitted fonts in the SBB Mobile context.{.lead}
+*   It defines all permitted fonts in the SBB Mobile context. {.lead}
 
 ## When should the component be used?
-*   For the design of all components and pages.{.lead}
+*   For the design of all components and pages. {.lead}
 
 ## Rules
 *   None

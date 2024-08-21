@@ -13,13 +13,13 @@ order: 10
 ---
 
 ## Use
-The logo is used in all SBB applications.{.lead}
+The logo is used in all SBB applications. {.lead}
 
 ## Rules
-* The logo appears exactly once per page and is always located in the header.{.lead}
-* It is always positioned top right.{.lead}
-* Variations of the logo are not permitted.{.lead}
-* The logo is not linked.{.lead}
+* The logo appears exactly once per page and is always located in the header. {.lead}
+* It is always positioned top right. {.lead}
+* Variations of the logo are not permitted. {.lead}
+* The logo is not linked. {.lead}
 
 ## Variants
 ### Default

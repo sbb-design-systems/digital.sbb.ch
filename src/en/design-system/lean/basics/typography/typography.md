@@ -13,9 +13,9 @@ order: 50
 ---
 
 ## Font
-The company font «SBB Web» is used as a web font and in the styles Thin, Light, Roman and Bold. «SBB Web» can be downloaded <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4/de#/markenelemente/typographie-1">here</sbb-link>.{.lead}
+The company font «SBB Web» is used as a web font and in the styles Thin, Light, Roman and Bold. «SBB Web» can be downloaded <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4/de#/markenelemente/typographie-1">here</sbb-link>. {.lead}
 
-The use of a mono-spaced font is recommended for some applications. The font required is selected when used for the first time. The following fonts are currently available:{.lead}
+The use of a mono-spaced font is recommended for some applications. The font required is selected when used for the first time. The following fonts are currently available: {.lead}
 * Courier
 * OCR-B
 * Consolas
@@ -23,7 +23,7 @@ The use of a mono-spaced font is recommended for some applications. The font req
 * DejaVu Sans Mono
 
 ## Style
-The font styles defined here form the basis of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" type="button" href="/en/foundation/colors/base-colors">SBB colors</sbb-link> apply to the font colors.{.lead}
+The font styles defined here form the basis of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" type="button" href="/en/foundation/colors/base-colors">SBB colors</sbb-link> apply to the font colors. {.lead}
 
 ### Heading H1
 {{ imageOnGreyBackground({
@@ -32,7 +32,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Heading H1'
 }) }}
 
-* Before H1 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Big» is inserted, afterwards (below) a Divider of variant «Medium».{.lead}
+* Before H1 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Big» is inserted, afterwards (below) a Divider of variant «Medium». {.lead}
 
 ###  Heading H2
 {{ imageOnGreyBackground({
@@ -41,7 +41,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Heading H2'
 }) }}
 
-* Before H2 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Medium» is inserted, afterwards (below) a Divider of variant «Small».{.lead}
+* Before H2 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Medium» is inserted, afterwards (below) a Divider of variant «Small». {.lead}
 
 ###  Heading H3
 {{ imageOnGreyBackground({
@@ -49,7 +49,8 @@ The font styles defined here form the basis of web applications and their compon
   alt: 'Image of a heading H3',
   title: 'Heading H3'
 }) }}
-* Before H3 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin».{.lead}
+
+* Before H3 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
 
 ###  Heading H4
 {{ imageOnGreyBackground({
@@ -57,7 +58,8 @@ The font styles defined here form the basis of web applications and their compon
   alt: 'Image of a heading H4',
   title: 'Heading H4'
 }) }}
-* Before H4 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin».{.lead}
+
+* Before H4 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
 
 ###  Body (copy)
 {{ imageOnGreyBackground({
@@ -65,7 +67,8 @@ The font styles defined here form the basis of web applications and their compon
   alt: 'Image of a body (copy)',
   title: 'Body (copy)'
 }) }}
-* Before the copy (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Thin» is inserted, afterwards (below) a Divider of variant «Thin».{.lead}
+
+* Before the copy (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Thin» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
 
 ###  Link
 {{ imageOnGreyBackground({
@@ -73,12 +76,13 @@ The font styles defined here form the basis of web applications and their compon
   alt: 'Image of a link',
   title: 'Link'
 }) }}
-* Is used as a standard link within texts.{.lead}
-* Further information about links can be found at <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/link">link</sbb-link>.{.lead} 
+
+* Is used as a standard link within texts. {.lead}
+* Further information about links can be found at <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/link">link</sbb-link>. {.lead} 
 
 
 ### Table header
-This style has the following states:{.lead}
+This style has the following states: {.lead}
 * Default
 * Hover
 * Sorted
@@ -90,7 +94,7 @@ This style has the following states:{.lead}
 }) }}
 
 ### Table subtitle
-This style has the following states:{.lead}
+This style has the following states: {.lead}
 * Default
 * Hover
 * Sorted

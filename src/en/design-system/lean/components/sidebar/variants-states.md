@@ -11,7 +11,7 @@ permalink: false
 ## Variants
 
 ### Plain
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Default
 
 {{ imageOnGreyBackground({
@@ -20,11 +20,11 @@ This variant has following states:{.lead}
   title: 'Sidebar, Plain Variante'
 }) }}
 
-* The menu items can be divided into categories / areas.{.lead}
-* For the categories you can choose between <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/accordion">accordion</sbb-link> and <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/fieldset">fieldset</sbb-link> when using the sidebar.{.lead}
+* The menu items can be divided into categories / areas. {.lead}
+* For the categories you can choose between <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/accordion">accordion</sbb-link> and <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/fieldset">fieldset</sbb-link> when using the sidebar. {.lead}
 
 ### Icon bar
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Collapsed
 * Collapsed Hover
 * Expanded
@@ -36,12 +36,12 @@ This variant has following states:{.lead}
   title: 'Sidebar, icon bar'
 }) }}
 
-* The default state (collapsed, expanded) can be defined per application.{.lead}
-* If required, the navigation points can be grouped visually using separators.{.lead}
-* By default, the first (top) navigation point should be active.{.lead}
+* The default state (collapsed, expanded) can be defined per application. {.lead}
+* If required, the navigation points can be grouped visually using separators. {.lead}
+* By default, the first (top) navigation point should be active. {.lead}
 
 ### Submenu
-This variant has following states:{.lead}
+This variant has following states: {.lead}
 * Collapsed
 * Expanded
 
@@ -51,9 +51,9 @@ This variant has following states:{.lead}
   title: 'Sidebar, submenu'
 }) }}
 
-* The default state (collapsed, expanded) can be defined per application.{.lead}
-* The menu items can be divided into categories / areas.{.lead}
-* For the categories you can choose between <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/accordion">accordion</sbb-link> and <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/fieldset">fieldset</sbb-link> when using the sidebar.{.lead}
+* The default state (collapsed, expanded) can be defined per application. {.lead}
+* The menu items can be divided into categories / areas. {.lead}
+* For the categories you can choose between <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/accordion">accordion</sbb-link> and <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/fieldset">fieldset</sbb-link> when using the sidebar. {.lead}
 
 ## Specifications
 {{ specificationLinks({

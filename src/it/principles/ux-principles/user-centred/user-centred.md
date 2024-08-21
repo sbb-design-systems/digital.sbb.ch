@@ -17,7 +17,7 @@ image: benuzterzentriert.webp
   title: 'Benuzterzentriert'
 }) }}
 
-Coinvolgiamo utenti reali regolarmente e fin dalle prime fasi dello sviluppo di una soluzione. Nella progettazione questo coinvolgimento costituisce parte integrante dell’intero processo di sviluppo dei prodotti. Le decisioni prese sui prodotti si basano quindi su fatti concreti.​{.lead}
+Coinvolgiamo utenti reali regolarmente e fin dalle prime fasi dello sviluppo di una soluzione. Nella progettazione questo coinvolgimento costituisce parte integrante dell’intero processo di sviluppo dei prodotti. Le decisioni prese sui prodotti si basano quindi su fatti concreti.​ {.lead}
 
 
 ### Esempio
@@ -27,4 +27,4 @@ Coinvolgiamo utenti reali regolarmente e fin dalle prime fasi dello sviluppo di 
   title: 'Beispiel'
 }) }}
 
-Visitiamo gli utenti in loco, per intervistarli o osservarli. Testiamo i prototipi direttamente li dove vengono utilizzati. Sia per strada, sia  nella centrale d’esercizio, sia in ufficio, o allo sportello, o sul treno ecc.​{.lead}
+Visitiamo gli utenti in loco, per intervistarli o osservarli. Testiamo i prototipi direttamente li dove vengono utilizzati. Sia per strada, sia  nella centrale d’esercizio, sia in ufficio, o allo sportello, o sul treno ecc.​ {.lead}

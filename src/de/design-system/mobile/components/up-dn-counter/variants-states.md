@@ -9,13 +9,13 @@ parent: up-dn-counter-mobile_de
 ---
 
 ## Zustände
-DIe Komponente hat folgende Zustände:{.lead}
+DIe Komponente hat folgende Zustände: {.lead}
 *   Default
 *   Min-Value
 *   Max-Value
 
 ## Varianten
-Die Komponente hat folgende Varianten:{.lead}
+Die Komponente hat folgende Varianten: {.lead}
 *   listed / boxed
 
 ### Listed

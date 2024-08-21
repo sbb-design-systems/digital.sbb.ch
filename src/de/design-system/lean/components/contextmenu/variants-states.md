@@ -9,14 +9,14 @@ permalink: false
 ---
 
 ## Zustände
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Hover
 
 ## Varianten
 
 ### Standard
-Diese Variante hat zusätzlich folgende Zustände:{.lead}
+Diese Variante hat zusätzlich folgende Zustände: {.lead}
 * Expanded (optional)
 
 {{ imageOnGreyBackground({
@@ -26,7 +26,7 @@ Diese Variante hat zusätzlich folgende Zustände:{.lead}
 }) }}
 
 ### Icon
-Diese Variante hat zusätzlich folgende Zustände:{.lead}
+Diese Variante hat zusätzlich folgende Zustände: {.lead}
 * Expanded Hover Underneath
 * Expanded Hover Above
 
@@ -36,10 +36,10 @@ Diese Variante hat zusätzlich folgende Zustände:{.lead}
   title: 'Kontextmenü mit Icon'
 }) }}
 
-* Als Icon werden standardmässig die drei Punkte verwendet.{.lead}
+* Als Icon werden standardmässig die drei Punkte verwendet. {.lead}
 
 ### Sorting
-Diese Variante hat zusätzlich folgende Zustände:{.lead}
+Diese Variante hat zusätzlich folgende Zustände: {.lead}
 * Expanded Hover
 * Expanded Active
 
@@ -49,10 +49,10 @@ Diese Variante hat zusätzlich folgende Zustände:{.lead}
   title: 'Kontextmenü zur Sortierung von Inhalten'
 }) }}
 
-* Zur Anzeige der Sortierung wird das Pfeil-Icon verwendet.{.lead}
-* Per Default wird absteigend (ascending) sortiert.{.lead}
-* Beim Hover auf aktiv sortiertes Attribut wird das Pfeil-Icon gedreht.{.lead}
-* Der ganze Menueintrag (Name und Icon) ist klickbar.{.lead}
+* Zur Anzeige der Sortierung wird das Pfeil-Icon verwendet. {.lead}
+* Per Default wird absteigend (ascending) sortiert. {.lead}
+* Beim Hover auf aktiv sortiertes Attribut wird das Pfeil-Icon gedreht. {.lead}
+* Der ganze Menueintrag (Name und Icon) ist klickbar. {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

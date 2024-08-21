@@ -9,7 +9,7 @@ permalink: false
 ---
 
 ## Zustände 
-Die Komponente hat folgende Zustände:{.lead}
+Die Komponente hat folgende Zustände: {.lead}
 * Default
 * Placeholder
 * Focused
@@ -33,7 +33,8 @@ Die Komponente hat folgende Zustände:{.lead}
   alt: 'Darstellung eines Textfelds zur Passworteingabe',
   title: 'Textfeld zur Passworteingabe'
 }) }}
-* Das Eingabefeld in der Variante «Passwort» stellt keinen Zustand «Placeholder» zur Verfügung.{.lead}
+
+* Das Eingabefeld in der Variante «Passwort» stellt keinen Zustand «Placeholder» zur Verfügung. {.lead}
 
 ### Löschbar
 {{ imageOnGreyBackground({

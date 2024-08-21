@@ -11,7 +11,7 @@ permalink: false
 ## Varianten
 
 ### Standard
-Diese Variante hat folgende Zustände:{.lead}
+Diese Variante hat folgende Zustände: {.lead}
 * Default
 
 {{ imageOnGreyBackground({
@@ -21,7 +21,7 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 
 ### Submenu
-Diese Variante hat folgende Zustände:{.lead}
+Diese Variante hat folgende Zustände: {.lead}
 * Collapsed
 * Expanded
 * Hover
@@ -33,7 +33,7 @@ Diese Variante hat folgende Zustände:{.lead}
 }) }}
 
 ### Suite
-Diese Variante hat folgende Zustände:{.lead}
+Diese Variante hat folgende Zustände: {.lead}
 * Collapsed
 * Expanded
 

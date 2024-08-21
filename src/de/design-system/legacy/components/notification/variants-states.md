@@ -37,9 +37,10 @@ permalink: false
   alt: 'Darstellung der Komponente Notification zur Darstellung von Fehlermeldungen mit zusätzlichen Sprungmarken',
   title: 'Darstellung der Komponente Notification zur Darstellung von Fehlermeldungen mit zusätzlichen Sprungmarken'
 }) }}
-* Die einzelnen Sprungmarken werden durch ein «/» getrennt.{.lead}
-* Beim Klick auf eine Sprungmarke wird direkt zum Ursprung des entsprechenden Fehlers gescrollt.{.lead}
-* Das Sprungmarkenziel ist immer auf derselben Seite wie die Notification (kein Absprung auf andere Seiten).{.lead}
+
+* Die einzelnen Sprungmarken werden durch ein «/» getrennt. {.lead}
+* Beim Klick auf eine Sprungmarke wird direkt zum Ursprung des entsprechenden Fehlers gescrollt. {.lead}
+* Das Sprungmarkenziel ist immer auf derselben Seite wie die Notification (kein Absprung auf andere Seiten). {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({

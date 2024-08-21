@@ -9,13 +9,13 @@ parent: header-mobile_en
 ---
 
 ## What does the component do?
-*   The component is used for orientation and navigation.{.lead}
+*   The component is used for orientation and navigation. {.lead}
 
 ## When should the component be used?
-*   The component appears on every page directly beneath the status bar.{.lead}
+*   The component appears on every page directly beneath the status bar. {.lead}
 
 ## Rules
-* The header consists of title, signet and optionally a <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/segmented-button">toggle</sbb-link> or the navigation icon ("left arrow").{.lead}
-* The "left arrow" navigates back to the previous page.{.lead}
-* The <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/segmented-button">toggle</sbb-link> navigates between two or three tabs.{.lead}
-* Title describes the content of the function/page.{.lead}
+* The header consists of title, signet and optionally a <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/segmented-button">toggle</sbb-link> or the navigation icon ("left arrow"). {.lead}
+* The "left arrow" navigates back to the previous page. {.lead}
+* The <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/segmented-button">toggle</sbb-link> navigates between two or three tabs. {.lead}
+* Title describes the content of the function/page. {.lead}
