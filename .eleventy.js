@@ -36,7 +36,9 @@ module.exports = async function(eleventyConfig) {
                 ],
             });*/
         } 
-    else { console.log(`SSR plugin not active`);}
+    else { 
+        //console.log(`SSR plugin not active`);
+    }
 
 
     eleventyConfig.setLibrary('md', markdownLib)
