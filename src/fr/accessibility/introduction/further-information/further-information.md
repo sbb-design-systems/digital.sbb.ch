@@ -24,7 +24,7 @@ order: 4
 ## Documents pour la certification
 * Directives pour l’accessibilité des contenus Web (WCAG). Recommandations sur lesquelles se fondent la certification et les fondements juridiques (en anglais uniquement): <sbb-link variant="inline" type="button" target="_blank" href="https://www.w3.org/TR/WCAG21">https://www.w3.org/TR/WCAG21</sbb-link>
 * Liste de contrôle complète pour les certifications établie sur la base des directives WCAG: <sbb-link variant="inline" type="button" target="_blank" href="http://www.accessibility-checklist.ch">http://www.accessibility-checklist.ch</sbb-link>
-* Prestations de conseil de la fondation Accès pour tous (en allemand ou anglais): <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/leistungen/beratung/">https://access-for-all.ch/leistungen/beratung/</sbb-link>
+* Prestations de conseil de la fondation Accès pour tous (en allemand ou anglais): <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/fr/consultation/">https://access-for-all.ch/fr/consultation/</sbb-link>
 
 
 ## Principales sources d’inspiration pour ce guide

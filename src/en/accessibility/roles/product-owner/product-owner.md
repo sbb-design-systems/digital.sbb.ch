@@ -21,4 +21,4 @@ Accessibility issues are easily deprioritized in the backlog. Try to prioritise 
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Plan an external review promptly{.with-icon}
 Ensure sufficient time when planning an external review or any <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/further-information/">certification</sbb-link> of accessibility. A typical review through Access For All takes around two weeks. Ideally, you should register for this at least two months in advance. {.lead}
 
-Further information: <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/ch/beratung.html">https://access-for-all.ch/ch/beratung.html</sbb-link>
+Further information: <sbb-link variant="inline" type="button" target="_blank" href="https://access-for-all.ch/leistungen/beratung/">https://access-for-all.ch/leistungen/beratung/</sbb-link>
