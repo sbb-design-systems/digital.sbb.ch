@@ -44,3 +44,7 @@
 {% if availablelanguages.length %}
 <link rel="canonical" href="/de{{ page.url.slice(3, -1) }}/">
 {% endif %}
+
+{% if cannonicalhome == true %}
+<link rel="canonical" href="https://digital.sbb.ch/">
+{% endif %}

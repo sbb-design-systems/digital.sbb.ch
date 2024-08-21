@@ -1,7 +1,12 @@
 ---
-layout: redirect.njk
-tags: page
+layout: page.njk
+tags: home
 key: root
 title: Home
-redirect: /de/
+alternativetitle: Alles zu den digitalen Anwendungen der SBB.
+parent: root
 ---
+
+{%- for alias in collections.aliashomede -%}
+  {{ alias.content | safe }}
+{%- endfor -%}

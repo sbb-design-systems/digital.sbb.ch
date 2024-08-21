@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" dir="{{translations[page.lang].dir}}">
+<html lang="{{page.lang}}" dir="{{translations[page.lang].dir}}">
   <head>
     <meta http-equiv="refresh" content="0; url={% if env.environment == "production" %}https://digital.sbb.ch{% else %}http://localhost:8080{% endif %}{{redirect}}">
   </head>
 </head>
   <body>
-    <h1>Redirect</h1>
-    <p>You will be redirected to <a href="{% if env.environment == "production" %}https://digital.sbb.ch{% else %}http://localhost:8080{% endif %}{{redirect}}">this page</a>. If your web browser does not support this, you can follow the link by clicking on it.</p>
     <script type="text/javascript">
         window.location.href = '{% if env.environment == "production" %}https://digital.sbb.ch{% else %}http://localhost:8080{% endif %}{{redirect}}';
     </script>
