@@ -1,7 +1,5 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_fr
 key: signet-lyne_fr
 title: Signet
 parent: components-lyne_fr

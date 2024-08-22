@@ -1,10 +1,8 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
     - lyne_components_form_field_clear_de
     - lyne_components_form_field_children_de
-    - is_in_folder_de
 key: form-field-clear-lyne_de
 title: Form-Field-Clear
 parent: form-field-folder-lyne_de

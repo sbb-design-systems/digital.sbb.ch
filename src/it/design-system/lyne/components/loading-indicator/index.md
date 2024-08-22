@@ -1,8 +1,5 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: loading-indicator-lyne_it
 title: Loading-Indicator
 parent: components-lyne_it

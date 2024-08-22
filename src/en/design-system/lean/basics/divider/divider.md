@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_basics_en
-    - page
 key: divider-lean_en
 title: Divider
 parent: basics-lean_en

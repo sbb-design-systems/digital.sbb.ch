@@ -1,9 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
     - lyne_components_datepicker_child_de
-    - is_in_folder_de
 key: datepicker-next-day-lyne_de
 title: Datepicker-Next-Day
 parent: datepicker-folder-lyne_de

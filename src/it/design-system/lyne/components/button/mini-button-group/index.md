@@ -1,9 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_it
-    - lyne_components_it
-    - is_in_folder_it
+    - showitem_it
 key: mini-button-group-lyne_it
 title: Mini Button-Group
 parent: button-folder-lyne_it

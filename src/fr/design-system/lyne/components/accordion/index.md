@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: accordion-folder-lyne_fr
 title: Accordion
 parent: components-lyne_fr

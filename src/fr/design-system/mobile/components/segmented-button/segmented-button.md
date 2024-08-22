@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: segmented-button-mobile_fr
 title: Segmented button
 parent: components-mobile_fr

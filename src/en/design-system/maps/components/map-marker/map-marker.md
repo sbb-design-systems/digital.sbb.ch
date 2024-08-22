@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - maps_en
-    - maps_components_en
-    - page
 key: map-marker-maps_en
 title: Map-Marker
 parent: components-maps_en

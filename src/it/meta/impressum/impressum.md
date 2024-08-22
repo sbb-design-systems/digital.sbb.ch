@@ -1,6 +1,5 @@
 ---
 layout: page.njk
-tags: page
 key: impressum_it
 title: Colophon
 order: 1

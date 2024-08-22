@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_de
-    - lyne_components_de
 key: teaser-folder-lyne_de
 title: Teaser
 parent: components-lyne_de

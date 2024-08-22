@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: breadcrumb-lean_fr
 title: Breadcrumb
 parent: components-lean_fr

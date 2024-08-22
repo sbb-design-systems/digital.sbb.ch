@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: pagination-mobile_fr
 title: Pagination
 parent: components-mobile_fr

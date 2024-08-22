@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_it
-    - mobile_components_it
-    - page
 key: picker-mobile_it
 title: Picker
 parent: components-mobile_it

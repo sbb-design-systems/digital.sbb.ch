@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: button-lean_en
 title: Button
 alternativetitle: Button

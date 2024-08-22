@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_basics_it
-    - page
 key: brand-lean_it
 title: Brand
 parent: basics-lean_it

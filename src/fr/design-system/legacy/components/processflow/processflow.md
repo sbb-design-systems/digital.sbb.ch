@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: processflow-legacy_fr
 title: Processflow
 parent: components-legacy_fr

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_de
-    - lean_basics_de
-    - page
 key: icon-lean_de
 title: Icon
 parent: basics-lean_de

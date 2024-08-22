@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: loadingindicator-legacy_fr
 title: Loading Indicator
 parent: components-legacy_fr

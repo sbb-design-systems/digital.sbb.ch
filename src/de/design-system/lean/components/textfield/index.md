@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_de
-    - lean_components_de
-    - page
 key: textfield-lean_de
 title: Textfield
 parent: components-lean_de

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: captcha-legacy_fr
 title: Captcha
 parent: components-legacy_fr

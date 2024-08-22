@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: toggle-folder-lyne_fr
 title: Toggle
 parent: components-lyne_fr

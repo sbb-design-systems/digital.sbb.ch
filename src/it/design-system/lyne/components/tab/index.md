@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: tab-folder-lyne_it
 title: Tab
 parent: components-lyne_it

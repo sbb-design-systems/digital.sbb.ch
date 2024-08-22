@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_de
-    - lean_components_de
-    - page
 key: slider-lean_de
 title: Slider
 alternativetitle: Slider

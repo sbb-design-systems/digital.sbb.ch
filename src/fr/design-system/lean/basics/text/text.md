@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_basics_fr
-    - page
 key: text-lean_fr
 title: Text
 alternativetitle: Text

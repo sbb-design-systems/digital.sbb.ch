@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: contextmenu-lean_en
 title: Contextmenu
 alternativetitle: Contextmenu

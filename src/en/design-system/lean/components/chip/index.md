@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: chip-lean_en
 title: Chip
 parent: components-lean_en

@@ -21,11 +21,13 @@
         </div>
         <div class="component-list horizontal list component">
             <sbb-title level="5" class="browser-title">Basics</sbb-title>
-            {%- for component in collections[dsbasics] | sortByOrder -%}
+            {% set basicPages = collections.all | include("data.parent", dsbasics) | sortByOrder %}
+            {%- for entry in basicPages %}
                 {% include "./component.njk" %}
             {%- endfor -%}
             <sbb-title level="5" class="browser-title">Components</sbb-title>
-            {%- for component in collections[dscomponents] | sortByOrder -%}
+            {% set componentsPages = collections.all | include("data.parent", dscomponents) | sortByOrder %}
+            {%- for entry in componentsPages %}
                 {% include "./component.njk" %}
             {%- endfor -%}
         </div>

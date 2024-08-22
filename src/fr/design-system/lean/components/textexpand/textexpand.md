@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: textexpand-lean_fr
 title: Textexpand
 parent: components-lean_fr

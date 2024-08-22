@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: loading-indicator-mobile_fr
 title: Loading indicator
 parent: components-mobile_fr

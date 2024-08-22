@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_de
-    - mobile_components_de
-    - page
 key: tabbar-mobile_de
 title: Tabbar
 alternativetitle: Tabbar

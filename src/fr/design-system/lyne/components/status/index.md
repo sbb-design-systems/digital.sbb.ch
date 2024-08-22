@@ -1,8 +1,5 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: status-lyne_fr
 title: Status
 parent: components-lyne_fr

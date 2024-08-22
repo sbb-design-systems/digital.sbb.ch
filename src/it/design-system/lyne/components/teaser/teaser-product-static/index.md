@@ -1,11 +1,9 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_it
-    - lyne_components_it
-    - is_in_folder_it
+    - showitem_it
 key: teaser-product-static-lyne_it
-title: Teaser-Hero
+title: Teaser-Product-Static
 parent: teaser-folder-lyne_it
 keywords: teaser-product-static
 order: 660

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: tooltip-lean_fr
 title: Tooltip
 parent: components-lean_fr

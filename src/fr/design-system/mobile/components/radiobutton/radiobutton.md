@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: radiobutton-mobile_fr
 title: Radiobutton
 alternativetitle: Radiobutton

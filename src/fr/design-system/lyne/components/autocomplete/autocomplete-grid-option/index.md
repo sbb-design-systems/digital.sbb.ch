@@ -1,9 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
     - lyne_components_autocomplete_grid_row_children_fr
-    - is_in_folder_fr
 key: autocomplete-grid-option-lyne_fr
 title: Autocomplete-Grid-Option
 parent: autocomplete-folder-lyne_fr

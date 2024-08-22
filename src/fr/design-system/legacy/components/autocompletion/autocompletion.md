@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: autocompletion-legacy_fr
 title: Autocompletion
 parent: components-legacy_fr

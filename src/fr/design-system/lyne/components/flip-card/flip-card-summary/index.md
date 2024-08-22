@@ -1,10 +1,8 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
-    - lyne_components_fr
     - lyne_components_flip_card_child_fr
-    - is_in_folder_fr
+    - showitem_fr
 key: flip-card-summary-lyne_fr
 title: Flip-Card-Summary
 parent: flip-card-folder-lyne_fr

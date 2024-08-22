@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_de
-    - lean_components_de
-    - page
 key: autocompletion-lean_de
 title: Autocompletion
 parent: components-lean_de

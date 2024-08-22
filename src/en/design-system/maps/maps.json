@@ -1,6 +1,6 @@
 {
   "dsname": "Maps",
   "dsurl": "/en/design-system/maps/overview/",
-  "dsbasics": "maps_basics_en",
-  "dscomponents": "maps_components_en"
+  "dsbasics": "basics-maps_en",
+  "dscomponents": "components-maps_en"
 }

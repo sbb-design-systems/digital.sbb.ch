@@ -1,7 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_en
     - lyne_components_signet_en
 key: signet-lyne_en
 title: Signet

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: textarea-lean_fr
 title: Textarea
 parent: components-lean_fr

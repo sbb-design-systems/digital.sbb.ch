@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: textfield-legacy_fr
 title: Textfield
 parent: components-legacy_fr

@@ -1,9 +1,5 @@
 ---
 layout: page.njk
-tags: 
-    - legacy_de
-    - legacy_basics_de
-    - page
 key: images-legacy_de
 title: Images
 parent: basics-legacy_de

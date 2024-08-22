@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_it
-    - legacy_components_it
-    - page
 key: toggle-legacy_it
 title: Toggle
 parent: components-legacy_it

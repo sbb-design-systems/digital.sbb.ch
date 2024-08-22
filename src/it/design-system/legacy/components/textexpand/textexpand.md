@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_it
-    - legacy_components_it
-    - page
 key: textexpand-legacy_it
 title: Textexpand
 parent: components-legacy_it

@@ -1,6 +1,5 @@
 ---
 layout: page.njk
-tags: page
 key: abnahme-prozesse_de
 title: Abnahme-Prozesse
 parent: de

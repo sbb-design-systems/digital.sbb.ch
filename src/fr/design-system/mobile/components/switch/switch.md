@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: switch-mobile_fr
 title: Switch
 parent: components-mobile_fr

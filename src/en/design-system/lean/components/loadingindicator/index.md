@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: loading-indicator-lean_en
 title: Loading Indicator
 alternativetitle: Loading Indicator

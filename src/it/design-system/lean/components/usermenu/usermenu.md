@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_components_it
-    - page
 key: usermenu-lean_it
 title: Usermenu
 alternativetitle: Usermenu

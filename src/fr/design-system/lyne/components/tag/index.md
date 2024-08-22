@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: tag-folder-lyne_fr
 title: Tag
 parent: components-lyne_fr

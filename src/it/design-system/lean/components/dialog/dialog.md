@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_components_it
-    - page
 key: dialog-lean_it
 title: Dialog
 parent: components-lean_it

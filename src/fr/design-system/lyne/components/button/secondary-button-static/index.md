@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
-    - is_in_folder_fr
 key: secondary-button-static-lyne_fr
 title: Secondary Button (Static)
 parent: button-folder-lyne_fr

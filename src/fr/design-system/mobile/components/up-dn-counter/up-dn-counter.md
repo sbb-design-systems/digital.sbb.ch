@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: up-dn-counter-mobile_fr
 title: Up dn counter
 parent: components-mobile_fr

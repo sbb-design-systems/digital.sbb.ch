@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_de
-    - lyne_components_de
 key: autocomplete-folder-lyne_de
 title: Autocomplete
 parent: components-lyne_de

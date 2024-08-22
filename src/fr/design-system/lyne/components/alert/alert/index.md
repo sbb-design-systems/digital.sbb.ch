@@ -1,9 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
-    - lyne_components_fr
-    - is_in_folder_fr
+    - showitem_fr
 key: alert-lyne_fr
 title: Alert
 parent: alert-folder-lyne_fr

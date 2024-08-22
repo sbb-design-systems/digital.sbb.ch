@@ -3,7 +3,7 @@ layout: overview.njk
 tags: 
     - page
     - dshome
-key: overview_it
+key: overview-legacy_it
 title: Introduzione
 alternativetitle: Web (Legacy)
 parent: legacy_it

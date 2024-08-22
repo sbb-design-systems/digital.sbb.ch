@@ -1,6 +1,6 @@
 {
   "dsname": "Lean",
   "dsurl": "/it/design-system/lean/overview/",
-  "dsbasics": "lean_basics_it",
-  "dscomponents": "lean_components_it"
+  "dsbasics": "basics-lean_it",
+  "dscomponents": "components-lean_it"
 }

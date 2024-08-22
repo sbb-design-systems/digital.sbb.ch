@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_de
-    - lean_components_de
-    - page
 key: radiobutton-lean_de
 title: Radiobutton
 parent: components-lean_de

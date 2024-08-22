@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
-    - lyne_components_de
     - lyne_components_image_de
 key: image-lyne_de
 title: Image

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: datepicker-lean_fr
 title: Datepicker
 parent: components-lean_fr

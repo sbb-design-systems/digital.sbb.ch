@@ -1,8 +1,6 @@
 {
   "dsname": "Lyne",
   "dsurl": "/it/design-system/lyne/overview/",
-  "dsbasics": "lyne_design_tokens_it",
-  "dscomponents": "lyne_components_it",
-  "dsbasicskey": "basics-lyne_it",
-  "dscomponentskey": "components-lyne_it"
+  "dsbasics": "basics-lyne_it",
+  "dscomponents": "components-lyne_it"
 }

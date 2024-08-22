@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_de
-    - lean_components_de
-    - page
 key: select-lean_de
 title: Select (Dropdown)
 parent: components-lean_de

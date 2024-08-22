@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: card-folder-lyne_fr
 title: Card
 parent: components-lyne_fr

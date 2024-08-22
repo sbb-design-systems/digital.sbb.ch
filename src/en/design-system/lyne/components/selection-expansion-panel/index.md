@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_en
-    - lyne_components_en
     - lyne_components_selection_panel_en
 key: selection-expansion-panel-lyne_en
 title: Selection-Expansion-Panel

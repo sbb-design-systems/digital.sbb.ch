@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_de
-    - mobile_basics_de
-    - page
 key: typography-mobile_de
 title: Typography
 alternativetitle: Typography

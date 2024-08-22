@@ -1,8 +1,5 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: file-selector-lyne_fr
 title: File-Selector
 parent: components-lyne_fr

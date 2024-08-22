@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_it
-    - mobile_components_it
-    - page
 key: container-mobile_it
 title: Container
 parent: components-mobile_it

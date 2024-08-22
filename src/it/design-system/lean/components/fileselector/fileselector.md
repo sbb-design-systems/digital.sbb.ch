@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_components_it
-    - page
 key: fileselector-lean_it
 title: Fileselector
 alternativetitle: Fileselector

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_it
-    - legacy_components_it
-    - page
 key: fileselector-legacy_it
 title: Fileselector
 parent: components-legacy_it

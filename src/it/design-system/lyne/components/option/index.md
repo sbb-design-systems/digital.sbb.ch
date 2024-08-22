@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: option-folder-lyne_it
 title: Option
 parent: components-lyne_it

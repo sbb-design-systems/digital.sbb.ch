@@ -1,8 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
-    - is_in_folder_fr
+    - showitem_fr
 key: navigation-link-lyne_fr
 title: Navigation-Link
 parent: navigation-folder-lyne_fr

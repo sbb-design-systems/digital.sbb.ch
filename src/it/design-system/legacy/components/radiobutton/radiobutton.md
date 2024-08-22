@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_it
-    - legacy_components_it
-    - page
 key: radiobutton-legacy_it
 title: Radiobutton
 parent: components-legacy_it

@@ -1,6 +1,5 @@
 ---
 layout: page.njk
-tags: page
 key: impressum_en
 title: Publication details
 order: 1

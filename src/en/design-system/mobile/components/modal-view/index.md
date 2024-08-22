@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_en
-    - mobile_components_en
-    - page
 key: modal-view-mobile_en
 title: Modal view
 alternativetitle: Modal view

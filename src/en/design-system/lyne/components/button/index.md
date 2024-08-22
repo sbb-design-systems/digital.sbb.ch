@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_en
-    - lyne_components_en
 key: button-folder-lyne_en
 title: Button
 parent: components-lyne_en

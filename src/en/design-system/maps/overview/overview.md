@@ -3,7 +3,7 @@ layout: overview.njk
 tags: 
     - level3
     - dshome
-key: overview_en
+key: overview-maps_en
 title: Overview
 alternativetitle: Maps
 parent: maps_en

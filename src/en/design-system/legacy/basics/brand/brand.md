@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_en
-    - legacy_basics_en
-    - page
 key: brand-legacy_en
 title: Brand
 parent: basics-legacy_en

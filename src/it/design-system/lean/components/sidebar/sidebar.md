@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_components_it
-    - page
 key: sidebar-lean_it
 title: Sidebar
 parent: components-lean_it

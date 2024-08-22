@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: timefield-lean_en
 title: Timefield
 alternativetitle: Timefield

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_components_it
-    - page
 key: pagination-lean_it
 title: Pagination
 parent: components-lean_it

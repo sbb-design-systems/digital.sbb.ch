@@ -1,8 +1,5 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: divider-lyne_it
 title: Divider
 parent: components-lyne_it

@@ -1,10 +1,8 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
     - lyne_components_button_link_de
     - lyne_components_button_variants_de
-    - is_in_folder_de
 key: button-link-lyne_de
 title: Button (Primary, Link)
 parent: button-folder-lyne_de

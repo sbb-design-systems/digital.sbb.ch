@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_de
-    - legacy_basics_de
-    - page
 key: divider-legacy_de
 title: Divider
 parent: basics-legacy_de

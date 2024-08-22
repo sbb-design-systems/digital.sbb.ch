@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: toast-mobile_fr
 title: Toast
 parent: components-mobile_fr

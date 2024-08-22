@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_fr
-    - mobile_components_fr
-    - page
 key: textarea-mobile_fr
 title: Textarea
 parent: components-mobile_fr

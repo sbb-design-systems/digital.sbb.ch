@@ -1,6 +1,6 @@
 {
   "dsname": "Mobile",
   "dsurl": "/fr/design-system/mobile/overview/",
-  "dsbasics": "mobile_basics_fr",
-  "dscomponents": "mobile_components_fr"
+  "dsbasics": "basics-mobile_fr",
+  "dscomponents": "components-mobile_fr"
 }

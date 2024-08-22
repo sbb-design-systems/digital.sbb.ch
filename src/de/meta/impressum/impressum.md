@@ -1,6 +1,5 @@
 ---
 layout: page.njk
-tags: page
 key: impressum_de
 title: Impressum
 order: 1

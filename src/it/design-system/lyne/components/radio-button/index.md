@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: radio-button-folder-lyne_it
 title: Radio-Button
 parent: components-lyne_it

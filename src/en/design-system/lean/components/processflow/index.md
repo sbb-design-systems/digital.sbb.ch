@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: processflow-lean_en
 title: Processflow
 alternativetitle: Processflow

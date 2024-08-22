@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: flip-card-folder-lyne_it
 title: Flip-Card
 parent: components-lyne_it

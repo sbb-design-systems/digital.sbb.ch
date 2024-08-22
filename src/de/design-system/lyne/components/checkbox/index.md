@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_de
-    - lyne_components_de
 key: checkbox-folder-lyne_de
 title: Checkbox
 parent: components-lyne_de

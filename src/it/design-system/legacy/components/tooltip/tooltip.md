@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_it
-    - legacy_components_it
-    - page
 key: tooltip-legacy_it
 title: Tooltip
 parent: components-legacy_it

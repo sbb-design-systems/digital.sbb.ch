@@ -1,6 +1,5 @@
 ---
 layout: page.njk
-tags: page
 key: impressum_fr
 title: Mentions légales
 order: 1

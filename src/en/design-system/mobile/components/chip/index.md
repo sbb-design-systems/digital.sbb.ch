@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_en
-    - mobile_components_en
-    - page
 key: chip-mobile_en
 title: Chip
 alternativetitle: Chip

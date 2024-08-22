@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - maps_de
-    - maps_components_de
-    - page
 key: pop-up-maps_de
 title: Pop-Up
 parent: components-maps_de

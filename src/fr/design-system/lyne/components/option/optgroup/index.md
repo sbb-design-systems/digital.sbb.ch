@@ -1,8 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
-    - is_in_folder_fr
+    - showitem_fr
 key: optgroup-lyne_fr
 title: Optgroup
 parent: option-folder-lyne_fr

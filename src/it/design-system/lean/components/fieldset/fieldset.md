@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_it
-    - lean_components_it
-    - page
 key: fieldset-lean_it
 title: Fieldset
 parent: components-lean_it

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: notification-legacy_fr
 title: Notification
 parent: components-legacy_fr

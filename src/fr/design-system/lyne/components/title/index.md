@@ -1,8 +1,5 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: title-lyne_fr
 title: Title
 parent: components-lyne_fr

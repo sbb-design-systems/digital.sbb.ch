@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_en
-    - mobile_components_en
-    - page
 key: context-menu-mobile_en
 title: Context menu
 parent: components-mobile_en

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: tag-legacy_fr
 title: Tag
 parent: components-legacy_fr

@@ -1,9 +1,5 @@
 ---
 layout: page.njk
-tags: 
-    - legacy_en
-    - legacy_basics_en
-    - page
 key: icon-legacy_en
 title: Icon
 parent: basics-legacy_en

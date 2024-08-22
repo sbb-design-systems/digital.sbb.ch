@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_en
-    - legacy_basics_en
-    - page
 key: typography-legacy_en
 title: Typografie
 parent: basics-legacy_en

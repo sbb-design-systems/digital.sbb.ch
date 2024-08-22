@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_en
-    - mobile_components_en
-    - page
 key: text-input-mobile_en
 title: Text input
 parent: components-mobile_en

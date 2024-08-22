@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
-    - lyne_components_de
     - lyne_components_clock_de
 key: clock-lyne_de
 title: Clock

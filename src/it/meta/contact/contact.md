@@ -1,6 +1,5 @@
 ---
 layout: page.njk
-tags: page
 key: contact_it
 title: Contatti
 order: 2

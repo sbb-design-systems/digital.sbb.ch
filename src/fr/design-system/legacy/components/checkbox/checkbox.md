@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: checkbox-legacy_fr
 title: Checkbox
 parent: components-legacy_fr

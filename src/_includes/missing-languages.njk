@@ -9,7 +9,7 @@
             {% endfor -%}
         {%- endfor -%}
     </sbb-notification>
-    {%- for defaultcontent in collections.page | defaultlanguagecontent(page.url) -%}
+    {%- for defaultcontent in collections.all | defaultlanguagecontent(page.url) -%}
         {% include "../_includes/title.njk" %}
         {{ defaultcontent.content | safe }}
     {%- endfor -%}

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_it
-    - legacy_components_it
-    - page
 key: mediagallery-legacy_it
 title: Mediagallery
 parent: components-legacy_it

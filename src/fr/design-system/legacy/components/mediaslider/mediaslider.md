@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - legacy_fr
-    - legacy_components_fr
-    - page
 key: mediaslider-legacy_fr
 title: Mediaslider
 parent: components-legacy_fr

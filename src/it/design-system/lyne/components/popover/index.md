@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: popover-folder-lyne_it
 title: Popover
 parent: components-lyne_it

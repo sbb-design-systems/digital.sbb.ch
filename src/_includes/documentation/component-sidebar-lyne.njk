@@ -19,11 +19,15 @@
 
         <ul id="scroll-position" class="component-list list component tree">
             <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
-            {% set basicPages = collections[dsbasics] | include("data.parent", dsbasicskey) | sortByOrder %}
-            {%- for entry in basicPages %}{% include "./tree-item.njk" %}{%- endfor -%}
+            {% set basicPages = collections.all | include("data.parent", dsbasics) | sortByOrder %}
+            {%- for entry in basicPages %}
+                {% include "./tree-item.njk" %}
+            {%- endfor -%}
             <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
-            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponentskey) | sortByOrder %}
-            {%- for entry in componentsPages %}{% include "./tree-item.njk" %}{%- endfor -%}
+            {% set componentsPages = collections.all | include("data.parent", dscomponents) | sortByOrder %}
+            {%- for entry in componentsPages %}
+                {% include "./tree-item.njk" %}
+            {%- endfor -%}
         </ul>
 
     </div>

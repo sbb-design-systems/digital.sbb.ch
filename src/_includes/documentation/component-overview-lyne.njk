@@ -10,7 +10,7 @@
             <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
         {% endif %}
         {% if basics == true %}
-            {% set basicPages = collections[dsbasics] | include("data.parent", dsbasicskey) | sortByOrder %}
+            {% set basicPages = collections.all | include("data.parent", dsbasics) | sortByOrder %}
             {%- for entry in basicPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}
@@ -19,7 +19,7 @@
             <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
         {% endif %}
         {% if components == true %}
-            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponentskey) | sortByOrder %}
+            {% set componentsPages = collections.all | include("data.parent", dscomponents) | sortByOrder %}
             {%- for entry in componentsPages %}
                 {% include "./tree-item.njk" %}
             {%- endfor -%}

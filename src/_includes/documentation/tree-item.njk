@@ -1,15 +1,20 @@
-<li {% if entry.data.folder == true %} class="has-subcategory {% if entry.url == page.url %}current{% endif %}"{% else %} class="no-subcategory {% if entry.url == page.url %}current{% endif %}"{% endif %} data-keywords="{{ entry.data.keywords }}">
+{% set foldercomponents = ["showitem_", page.lang] | join %}
+{% set children = collections[foldercomponents] | include("data.parent", entry.data.key) | sortByOrder  %}
+
+<li {% if entry.data.folder == true %}class="has-subcategory {% if entry.url == page.url %} current{% endif %}{% for open in children %}{% if open.url == page.url %} selected{% endif %}{% endfor %}"{% else %} class="no-subcategory {% if entry.url == page.url %}current{% endif %}"{% endif %} data-keywords="{{ entry.data.keywords }}">
 {% if entry.data.folder == true %} {{ entry.data.title }} {% else %} <a href="{{entry.url}}">{{ entry.data.title }}</a>{% endif %}    
 
 {% if entry.data.folder == true %}
-<ul class="subcategory">
-    {% set foldercomponents = ["is_in_folder_", page.lang] | join %}
-    {% set children = collections[foldercomponents] | include("data.parent", entry.data.key) | sortByOrder  %}
-    {% for child in children %}
-            <li class="no-subcategory{% if child.url == page.url %} current{% endif %}" data-keywords="{{ child.data.keywords }}">
-                <a href="{{child.url}}">{{ child.data.title }}</a>   
-            </li>
-    {% endfor %}
-</ul>
+
+    
+    <ul class="subcategory {% for open in children %}{% if open.url == page.url %}open{% endif %}{% endfor %}">
+        {% for child in children %}
+                <li class="no-subcategory{% if child.url == page.url %} current{% endif %}" data-keywords="{{ child.data.keywords }}">
+                    <a href="{{child.url}}">{{ child.data.title }}</a>   
+                </li>
+        {% endfor %}
+    </ul>
 {% endif %}
 </li>
+
+

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_en
-    - mobile_components_en
-    - page
 key: status-mobile_en
 title: Status
 parent: components-mobile_en

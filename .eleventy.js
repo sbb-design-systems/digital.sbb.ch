@@ -107,13 +107,23 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyI18nPlugin, {defaultLanguage: "de",});
 
     eleventyConfig.addFilter("include", (arr, path, value) => {
+     // arr = object, path = data.parent, value: regulations_it   
+    //console.log("arr: "+arr+" path: "+path+" value: "+value);    
 
     value = lodash.deburr(value).toLowerCase();
     
     return arr.filter((item) => {
         let pathValue = lodash.get(item, path);
         pathValue = lodash.deburr(pathValue).toLowerCase();
-        return pathValue.includes(value);
+        //console.log("pathValue: "+pathValue+" value: "+value); 
+        //console.log(pathValue.includes(value));   
+        //console.log(pathValue.length + " " + value.length);  
+        if (pathValue.length == value.length) {
+            return pathValue.includes(value);
+        } else {
+            return false;
+        }
+        
     });
 
     });

@@ -1,6 +1,6 @@
 {
   "dsname": "Web (Legacy)",
   "dsurl": "/de/design-system/legacy/overview/",
-  "dsbasics": "legacy_basics_de",
-  "dscomponents": "legacy_components_de"
+  "dsbasics": "basics-legacy_de",
+  "dscomponents": "components-legacy_de"
 }

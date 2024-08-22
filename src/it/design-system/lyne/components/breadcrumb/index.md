@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_it
-    - lyne_components_it
 key: breadcrumb-folder-lyne_it
 title: Breadcrumb
 parent: components-lyne_it

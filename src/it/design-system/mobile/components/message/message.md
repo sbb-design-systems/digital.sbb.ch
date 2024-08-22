@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - mobile_it
-    - mobile_components_it
-    - page
 key: message-mobile_it
 title: Message
 parent: components-mobile_it

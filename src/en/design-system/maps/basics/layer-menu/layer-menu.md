@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - maps_en
-    - maps_basics_en
-    - page
 key: layer-menu-maps_en
 title: Layer Menu
 parent: basics-maps_en

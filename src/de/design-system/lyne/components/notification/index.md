@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_de
-    - lyne_components_de
     - lyne_components_notification_de
 key: notification-lyne_de
 title: Notification

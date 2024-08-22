@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_fr
-    - lyne_components_fr
 key: form-field-folder-lyne_fr
 title: Form-Field
 parent: components-lyne_fr

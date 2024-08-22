@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_it
-    - is_in_folder_it
 key: navigation-section-lyne_it
 title: Navigation-Section
 parent: navigation-folder-lyne_it

@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: menuitem-lean_fr
 title: Menuitem
 parent: components-lean_fr

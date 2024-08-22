@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_en
-    - lean_components_en
-    - page
 key: checkbox-lean_en
 title: Checkbox
 parent: components-lean_en

@@ -1,6 +1,6 @@
 {
   "dsname": "Mobile",
   "dsurl": "/it/design-system/mobile/overview/",
-  "dsbasics": "lean_basics_it",
-  "dscomponents": "lean_components_it"
+  "dsbasics": "basics-mobile_it",
+  "dscomponents": "components-mobile_it"
 }

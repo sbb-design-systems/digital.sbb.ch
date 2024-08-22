@@ -1,9 +1,5 @@
 ---
 layout: pattern.njk
-tags: 
-    - lean_fr
-    - lean_components_fr
-    - page
 key: toggle-lean_fr
 title: Toggle
 parent: components-lean_fr

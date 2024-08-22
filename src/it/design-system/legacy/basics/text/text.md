@@ -1,9 +1,5 @@
 ---
 layout: page.njk
-tags: 
-    - legacy_it
-    - legacy_basics_it
-    - page
 key: text-legacy_it
 title: Text
 parent: basics-legacy_it

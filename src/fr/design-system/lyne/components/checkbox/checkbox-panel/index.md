@@ -1,9 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - lyne_fr
-    - lyne_components_fr
-    - is_in_folder_fr
+    - showitem_fr
 key: checkbox-panel-lyne_fr
 title: Checkbox-Panel
 parent: checkbox-folder-lyne_fr

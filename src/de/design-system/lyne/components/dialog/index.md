@@ -1,8 +1,5 @@
 ---
 layout: redirect.njk
-tags: 
-    - lyne_de
-    - lyne_components_de
 key: dialog-folder-lyne_de
 title: Dialog
 parent: components-lyne_de
