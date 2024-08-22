@@ -1,5 +1,6 @@
 ---
-tags: tab-group-lyne_en
+tags: 
+    - tab-group-lyne_en
 title: Anatomy
 key: tab-group-lyne-anatomy_en
 parent: tab-group-lyne_en

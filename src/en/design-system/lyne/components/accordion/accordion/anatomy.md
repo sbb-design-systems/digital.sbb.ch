@@ -1,5 +1,6 @@
 ---
-tags: accordion-lyne_en
+tags: 
+    - accordion-lyne_en
 title: Anatomy
 key: accordion-lyne-anatomy_en
 parent: accordion-lyne_en

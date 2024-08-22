@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_de
 key: layer-menu-maps_de
 title: Layer Menu
 parent: basics-maps_de

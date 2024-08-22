@@ -1,5 +1,6 @@
 ---
-tags: skiplink-list-lyne_en
+tags: 
+    - skiplink-list-lyne_en
 title: Info
 key: skiplink-list-lyne-overview_en
 parent: skiplink-list-lyne_en

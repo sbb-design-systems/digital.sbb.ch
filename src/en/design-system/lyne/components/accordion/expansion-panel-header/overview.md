@@ -1,5 +1,6 @@
 ---
-tags: expansion-panel-header-lyne_en
+tags: 
+    - expansion-panel-header-lyne_en
 title: Info
 key: expansion-panel-header-lyne-overview_en
 parent: expansion-panel-header-lyne_en

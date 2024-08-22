@@ -1,5 +1,6 @@
 ---
-tags: datepicker-toggle-lyne_en
+tags: 
+    - datepicker-toggle-lyne_en
 title: Info
 key: datepicker-toggle-lyne-overview_en
 parent: datepicker-toggle-lyne_en

@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: block-link-lyne_it
 title: Block-Link
 parent: link-folder-lyne_it

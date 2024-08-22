@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: tooltip-lean_it
 title: Tooltip
-parent: components-lean_it
+parent: lean_components_it
 image: lean/overview/tooltip.webp
 keywords: tooltip, popover, toggletip
 order: 350

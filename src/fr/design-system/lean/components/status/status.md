@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: status-lean_fr
 title: Status
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/status.webp
 keywords: status, valid, invalid, warning
 order: 250

@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_de
 key: toggle-folder-lyne_de
 title: Toggle
-parent: components-lyne_de
+parent: lyne_components_de
 keywords: toggle, toggle-option, toggle-check, check, option
 order: 450
 redirect: /de/design-system/lyne/components/toggle/toggle/

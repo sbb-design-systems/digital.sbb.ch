@@ -1,8 +1,10 @@
 ---
 layout: pattern-lyne.njk
+tags: 
+    - lyne_components_fr
 key: journey-header-lyne_fr
 title: Journey-Header
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: journey-header
 order: 200
 availablelanguages: 

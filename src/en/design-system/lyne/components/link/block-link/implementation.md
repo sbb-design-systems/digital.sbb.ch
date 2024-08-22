@@ -1,5 +1,6 @@
 ---
-tags: block-link-lyne_en
+tags: 
+    - block-link-lyne_en
 title: Implementation
 key: block-link-lyne-implementation_en
 parent: block-link-lyne_en

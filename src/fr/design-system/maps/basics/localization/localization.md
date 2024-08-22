@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_fr
 key: localization-maps_fr
 title: Localization
 parent: basics-maps_fr

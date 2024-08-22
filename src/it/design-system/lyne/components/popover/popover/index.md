@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: popover-lyne_it
 title: Popover
 parent: popover-folder-lyne_it

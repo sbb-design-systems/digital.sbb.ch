@@ -1,5 +1,6 @@
 ---
-tags: flip-card-lyne_en
+tags: 
+    - flip-card-lyne_en
 title: Implementation
 key: flip-card-lyne-implementation_en
 parent: flip-card-lyne_en

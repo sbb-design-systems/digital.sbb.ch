@@ -1,5 +1,6 @@
 ---
-tags: action-group-lyne_en
+tags: 
+    - action-group-lyne_en
 title: Info
 key: action-group-lyne-overview_en
 parent: action-group-lyne_en

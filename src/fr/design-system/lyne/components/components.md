@@ -1,7 +1,8 @@
 ---
 layout: overview-lyne.njk
-tags: level3
-key: components-lyne_fr
+tags: 
+    - level3
+key: lyne_components_fr
 title: Composants
 alternativetitle: Composants
 parent: lyne_fr

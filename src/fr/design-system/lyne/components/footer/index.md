@@ -1,8 +1,10 @@
 ---
 layout: pattern-lyne.njk
+tags: 
+    - lyne_components_fr
 key: footer-lyne_fr
 title: Footer
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: footer
 order: 150
 availablelanguages: 

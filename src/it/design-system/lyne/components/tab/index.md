@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_it
 key: tab-folder-lyne_it
 title: Tab
-parent: components-lyne_it
+parent: lyne_components_it
 keywords: tab, tab-group, group
 order: 390
 redirect: /it/design-system/lyne/components/tab/tab-group/

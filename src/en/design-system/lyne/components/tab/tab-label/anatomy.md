@@ -1,5 +1,6 @@
 ---
-tags: tab-label-lyne_en
+tags: 
+    - tab-label-lyne_en
 title: Anatomy
 key: tab-label-lyne-anatomy_en
 parent: tab-label-lyne_en

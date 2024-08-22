@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: option-lyne_it
 title: Option
 parent: option-folder-lyne_it

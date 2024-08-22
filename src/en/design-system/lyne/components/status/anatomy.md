@@ -1,5 +1,6 @@
 ---
-tags: status-lyne_en
+tags: 
+    - status-lyne_en
 title: Anatomy
 key: status-lyne-anatomy_en
 parent: status-lyne_en

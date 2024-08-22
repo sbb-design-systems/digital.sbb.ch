@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: dialog-lean_fr
 title: Dialog
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/dialog.webp
 keywords: dialog, modal, popup, lightbox
 order: 100

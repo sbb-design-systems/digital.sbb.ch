@@ -1,5 +1,6 @@
 ---
-tags: journey-header-lyne_en
+tags: 
+    - journey-header-lyne_en
 title: Anatomy
 key: journey-header-lyne-anatomy_en
 parent: journey-header-lyne_en

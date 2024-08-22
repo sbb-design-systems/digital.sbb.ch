@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: filter-lean_fr
 title: Filter
-parent: components-lean_fr
+parent: lean_components_fr
 image: teaser/fallback.webp
 keywords: filter
 order: 130

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_fr
 key: carousel-maps_fr
 title: Carousel
-parent: components-maps_fr
+parent: maps_components_fr
 image: maps/overview/carousel.webp
 keywords: Carousel
 order: 10

@@ -1,5 +1,6 @@
 ---
-tags: button-link-lyne_en
+tags: 
+    - button-link-lyne_en
 title: Info
 key: button-link-lyne-overview_en
 parent: button-link-lyne_en

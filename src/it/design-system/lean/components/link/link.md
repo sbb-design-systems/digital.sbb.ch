@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: link-lean_it
 title: Link
-parent: components-lean_it
+parent: lean_components_it
 image: lean/overview/link.webp
 keywords: link, anchor, hyperlink, action, button
 order: 150

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_fr
 key: nbc-legacy_fr
 title: NBC
-parent: components-legacy_fr
+parent: legacy_components_fr
 image: legacy/overview/nbc.webp
 keywords: 
 order: 160

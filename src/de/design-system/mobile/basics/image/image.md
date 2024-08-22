@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_de
 key: image-mobile_de
 title: Image
 parent: basics-mobile_de

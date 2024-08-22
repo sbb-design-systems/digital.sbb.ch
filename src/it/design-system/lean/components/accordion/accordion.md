@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: accordion-lean_it
 title: Accordion
-parent: components-lean_it
+parent: lean_components_it
 image: lean/overview/accordion.webp
 keywords: accordion, collapse, collapsible, details, expand
 order: 10

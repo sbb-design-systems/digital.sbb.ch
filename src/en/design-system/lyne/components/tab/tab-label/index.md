@@ -1,9 +1,8 @@
 ---
 layout: pattern-lyne.njk
-tags:
-
+ttags: 
+    - lyne_components_en
     - lyne_components_tab_title_en
-    - showitem_en
 key: tab-label-lyne_en
 title: Tab-Label
 parent: tab-folder-lyne_en

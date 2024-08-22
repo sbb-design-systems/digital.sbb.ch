@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: fieldset-lean_it
 title: Fieldset
-parent: components-lean_it
+parent: lean_components_it
 image: lean/overview/fieldset.webp
 keywords: fieldset, field, set, group
 order: 110

@@ -1,5 +1,4 @@
-{% set foldercomponents = ["showitem_", page.lang] | join %}
-{% set children = collections[foldercomponents] | include("data.parent", entry.data.key) | sortByOrder  %}
+{% set children = collections[dscomponents] | include("data.parent", entry.data.key) | exclude("data.excludeInNavigation", true) | sortByOrder  %}
 
 <li {% if entry.data.folder == true %}class="has-subcategory {% if entry.url == page.url %} current{% endif %}{% for open in children %}{% if open.url == page.url %} selected{% endif %}{% endfor %}"{% else %} class="no-subcategory {% if entry.url == page.url %}current{% endif %}"{% endif %} data-keywords="{{ entry.data.keywords }}">
 {% if entry.data.folder == true %} {{ entry.data.title }} {% else %} <a href="{{entry.url}}">{{ entry.data.title }}</a>{% endif %}    

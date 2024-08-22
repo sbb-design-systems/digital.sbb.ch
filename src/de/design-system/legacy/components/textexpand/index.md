@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_de
 key: textexpand-legacy_de
 title: Textexpand
-parent: components-legacy_de
+parent: legacy_components_de
 image: legacy/overview/textexpand.webp
 keywords: 
 order: 280

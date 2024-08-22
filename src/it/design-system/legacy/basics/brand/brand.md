@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: brand-legacy_it
 title: Brand
 parent: basics-legacy_it

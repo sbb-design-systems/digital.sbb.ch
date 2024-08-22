@@ -1,5 +1,6 @@
 ---
-tags: navigation-marker-lyne_en
+tags: 
+    - navigation-marker-lyne_en
 title: Anatomy
 key: navigation-marker-lyne-anatomy_en
 parent: navigation-marker-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: card-lyne_en
+tags: 
+    - card-lyne_en
 title: Info
 key: card-lyne-overview_en
 parent: card-lyne_en

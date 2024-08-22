@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: dialog-title-lyne_it
 title: Dialog-Title
 parent: dialog-folder-lyne_it

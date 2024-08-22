@@ -1,5 +1,6 @@
 ---
-tags: loading-indicator-lyne_en
+tags: 
+    - loading-indicator-lyne_en
 title: Anatomy
 key: loading-indicator-lyne-anatomy_en
 parent: loading-indicator-lyne_en

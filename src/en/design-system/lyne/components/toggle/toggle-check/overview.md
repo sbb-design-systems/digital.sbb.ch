@@ -1,5 +1,6 @@
 ---
-tags: toggle-check-lyne_en
+tags: 
+    - toggle-check-lyne_en
 title: Info
 key: toggle-check-lyne-overview_en
 parent: toggle-check-lyne_en

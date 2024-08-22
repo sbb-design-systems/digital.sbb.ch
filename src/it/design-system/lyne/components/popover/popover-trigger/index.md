@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: popover-trigger-lyne_it
 title: Popover-Trigger
 parent: popover-folder-lyne_it

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: mediagallery-legacy_it
 title: Mediagallery
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/mediagallery.webp
 keywords: 
 order: 140

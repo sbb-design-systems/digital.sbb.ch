@@ -1,5 +1,6 @@
 ---
-tags: dialog-content-lyne_en
+tags: 
+    - dialog-content-lyne_en
 title: Info
 key: dialog-content-lyne-overview_en
 parent: dialog-parent-lyne_en

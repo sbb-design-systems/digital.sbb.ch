@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: accordion-lyne_it
 title: Accordion
 parent: accordion-folder-lyne_it

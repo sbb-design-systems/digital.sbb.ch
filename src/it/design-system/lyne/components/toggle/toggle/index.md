@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: toggle-lyne_it
 title: Toggle
 parent: toggle-folder-lyne_it

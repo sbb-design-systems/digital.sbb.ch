@@ -1,5 +1,6 @@
 ---
-tags: navigation-marker-lyne_en
+tags: 
+    - navigation-marker-lyne_en
 title: Info
 key: navigation-marker-lyne-overview_en
 parent: navigation-marker-lyne_en

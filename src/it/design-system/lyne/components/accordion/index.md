@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_it
 key: accordion-folder-lyne_it
 title: Accordion
-parent: components-lyne_it
+parent: lyne_components_it
 keywords: accordion, expansion-panel, expansion, panel
 order: 10
 redirect: /it/design-system/lyne/components/accordion/accordion/

@@ -1,5 +1,6 @@
 ---
-tags: card-lyne_en
+tags: 
+    - card-lyne_en
 title: Anatomy
 key: card-lyne-anatomy_en
 parent: card-lyne_en

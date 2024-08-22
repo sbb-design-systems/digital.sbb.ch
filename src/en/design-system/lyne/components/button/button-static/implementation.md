@@ -1,5 +1,6 @@
 ---
-tags: button-static-lyne_en
+tags: 
+    - button-static-lyne_en
 title: Implementation
 key: button-static-lyne-implementation_en
 parent: button-static-lyne_en

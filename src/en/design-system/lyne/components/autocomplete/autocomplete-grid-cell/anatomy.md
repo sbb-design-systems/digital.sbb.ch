@@ -1,5 +1,6 @@
 ---
-tags: autocomplete-grid-cell-lyne_en
+tags: 
+    - autocomplete-grid-cell-lyne_en
 title: Anatomy
 key: autocomplete-grid-cell-lyne-anatomy_en
 parent: autocomplete-grid-cell-lyne_en

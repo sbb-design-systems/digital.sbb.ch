@@ -1,5 +1,6 @@
 ---
-tags: checkbox-lyne_en
+tags: 
+    - checkbox-lyne_en
 title: Info
 key: checkbox-lyne-overview_en
 parent: checkbox-lyne_en

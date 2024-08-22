@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_fr
 key: textarea-mobile_fr
 title: Textarea
-parent: components-mobile_fr
+parent: mobile_components_fr
 image: mobile/overview/textarea.webp
 keywords: textarea, textbox, text input
 order: 200

@@ -1,5 +1,6 @@
 ---
-tags: alert-group-lyne_en
+tags: 
+    - alert-group-lyne_en
 title: Info
 key: alert-group-lyne-overview_en
 parent: alert-group-lyne_en

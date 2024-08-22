@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: datepicker-lyne_it
 title: Datepicker
 parent: datepicker-folder-lyne_it

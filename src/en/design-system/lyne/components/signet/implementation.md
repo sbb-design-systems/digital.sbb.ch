@@ -1,5 +1,6 @@
 ---
-tags: signet-lyne_en
+tags: 
+    - signet-lyne_en
 title: Implementation
 key: signet-lyne-implementation_en
 parent: signet-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: button-static-lyne_en
+tags: 
+    - button-static-lyne_en
 title: Info
 key: button-static-lyne-overview_en
 parent: button-static-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: icon-lyne_en
+tags: 
+    - icon-lyne_en
 title: Implementation
 key: icon-lyne-implementation_en
 parent: icon-lyne_en

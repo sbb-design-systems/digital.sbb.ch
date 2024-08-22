@@ -13,7 +13,7 @@
             <sbb-title level="5" class="browser-title">Basics</sbb-title>
         {% endif %}
         {% if basics == true %}
-            {% set basicPages = collections.all | include("data.parent", dsbasics) | sortByOrder %}
+            {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
             {%- for entry in basicPages %}
                 {% include "./component.njk" %}
             {%- endfor -%}
@@ -22,7 +22,7 @@
             <sbb-title level="5" class="browser-title">Components</sbb-title>
         {% endif %}
         {% if components == true %}
-            {% set componentsPages = collections.all | include("data.parent", dscomponents) | sortByOrder %}
+            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponents) | sortByOrder %}
             {%- for entry in componentsPages %}
                 {% include "./component.njk" %}
             {%- endfor -%}

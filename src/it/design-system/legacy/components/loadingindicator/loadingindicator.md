@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: loadingindicator-legacy_it
 title: Loading Indicator
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/loadingindicator.webp
 keywords: 
 order: 130

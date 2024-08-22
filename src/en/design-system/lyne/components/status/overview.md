@@ -1,5 +1,6 @@
 ---
-tags: status-lyne_en
+tags: 
+    - status-lyne_en
 title: Info
 key: status-lyne-overview_en
 parent: status-lyne_en

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: accordion-legacy_it
 title: Accordion
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/accordion.webp
 keywords: 
 order: 10

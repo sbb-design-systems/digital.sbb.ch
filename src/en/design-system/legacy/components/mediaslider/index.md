@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_en
 key: mediaslider-legacy_en
 title: Mediaslider
-parent: components-legacy_en
+parent: legacy_components_en
 image: legacy/overview/mediaslider.webp
 keywords: 
 order: 150

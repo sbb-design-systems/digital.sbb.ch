@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: icon-lean_it
 title: Icon
 parent: basics-lean_it

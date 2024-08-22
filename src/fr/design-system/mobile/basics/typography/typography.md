@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_fr
 key: typography-mobile_fr
 title: Typography
 alternativetitle: Typography

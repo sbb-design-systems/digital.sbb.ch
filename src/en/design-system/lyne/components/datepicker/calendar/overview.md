@@ -1,5 +1,6 @@
 ---
-tags: calendar-lyne_en
+tags: 
+    - calendar-lyne_en
 title: Info
 key: calendar-lyne-overview_en
 parent: calendar-lyne_en

@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: link-list-lyne_fr
 title: Link-List
 parent: link-list-folder-lyne_fr

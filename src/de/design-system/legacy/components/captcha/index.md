@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_de
 key: captcha-legacy_de
 title: Captcha
-parent: components-legacy_de
+parent: legacy_components_de
 image: legacy/overview/captcha.webp
 keywords: 
 order: 50

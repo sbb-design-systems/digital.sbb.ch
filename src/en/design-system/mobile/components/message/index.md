@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_en
 key: message-mobile_en
 title: Message
-parent: components-mobile_en
+parent: mobile_components_en
 image: mobile/overview/message.webp
 keywords: message, error, success, info
 order: 100

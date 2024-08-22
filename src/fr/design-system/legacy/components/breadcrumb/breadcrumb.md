@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_fr
 key: breadcrumb-legacy_fr
 title: Breadcrumb
-parent: components-legacy_fr
+parent: legacy_components_fr
 image: legacy/overview/breadcrumb.webp
 keywords: 
 order: 30

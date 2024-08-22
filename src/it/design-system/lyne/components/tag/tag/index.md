@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: tag-lyne_it
 title: Tag
 parent: tag-folder-lyne_it

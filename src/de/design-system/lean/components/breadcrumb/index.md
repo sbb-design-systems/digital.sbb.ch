@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_de
 key: breadcrumb-lean_de
 title: Breadcrumb
-parent: components-lean_de
+parent: lean_components_de
 image: lean/overview/breadcrumb.webp
 keywords: breadcrumb, breadcrumbs
 order: 30

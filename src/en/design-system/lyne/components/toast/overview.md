@@ -1,5 +1,6 @@
 ---
-tags: toast-lyne_en
+tags: 
+    - toast-lyne_en
 title: Info
 key: toast-lyne-overview_en
 parent: toast-lyne_en

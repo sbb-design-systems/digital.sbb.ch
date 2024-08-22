@@ -1,5 +1,6 @@
 ---
-tags: notification-lyne_en
+tags: 
+    - notification-lyne_en
 title: Anatomy
 key: notification-lyne-anatomy_en
 parent: notification-lyne_en

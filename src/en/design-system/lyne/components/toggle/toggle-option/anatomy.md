@@ -1,5 +1,6 @@
 ---
-tags: toggle-option-lyne_en
+tags: 
+    - toggle-option-lyne_en
 title: Anatomy
 key: toggle-option-lyne-anatomy_en
 parent: toggle-option-lyne_en

@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: sticky-bar-lyne_fr
 title: Sticky-Bar
 parent: container-folder-lyne_fr

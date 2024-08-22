@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: radio-button-panel-lyne_fr
 title: Radio-Button-Panel
 parent: radio-button-folder-lyne_fr

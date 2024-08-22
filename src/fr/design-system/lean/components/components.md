@@ -1,7 +1,7 @@
 ---
 layout: overview.njk
 tags: level3
-key: components-lean_fr
+key: lean_components_fr
 title: Composants
 alternativetitle: Composants Lean
 parent: lean_fr

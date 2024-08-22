@@ -1,5 +1,6 @@
 ---
-tags: button-static-lyne_en
+tags: 
+    - button-static-lyne_en
 title: Anatomy
 key: button-static-lyne-anatomy_en
 parent: button-static-lyne_en

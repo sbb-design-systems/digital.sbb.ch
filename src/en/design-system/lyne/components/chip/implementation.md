@@ -1,5 +1,6 @@
 ---
-tags: chip-lyne_en
+tags: 
+    - chip-lyne_en
 title: Implementation
 key: chip-lyne-implementation_en
 parent: chip-lyne_en

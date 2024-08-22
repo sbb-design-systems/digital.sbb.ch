@@ -1,5 +1,6 @@
 ---
-tags: autocomplete-grid-optgroup-lyne_en
+tags: 
+    - autocomplete-grid-optgroup-lyne_en
 title: Info
 key: autocomplete-grid-optgroup-lyne-overview_en
 parent: autocomplete-grid-optgroup-lyne_en

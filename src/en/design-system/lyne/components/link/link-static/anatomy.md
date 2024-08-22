@@ -1,5 +1,6 @@
 ---
-tags: link-static-lyne_en
+tags: 
+    - link-static-lyne_en
 title: Anatomy
 key: link-static-lyne-anatomy_en
 parent: link-static-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: selection-expansion-panel-lyne_en
+tags: 
+    - selection-expansion-panel-lyne_en
 title: Implementation
 key: selection-expansion-panel-lyne-implementation_en
 parent: selection-expansion-panel-lyne_en

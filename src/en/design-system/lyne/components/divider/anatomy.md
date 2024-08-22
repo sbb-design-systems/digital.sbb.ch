@@ -1,5 +1,6 @@
 ---
-tags: divider-lyne_en
+tags: 
+    - divider-lyne_en
 title: Anatomy
 key: divider-lyne-anatomy_en
 parent: divider-lyne_en

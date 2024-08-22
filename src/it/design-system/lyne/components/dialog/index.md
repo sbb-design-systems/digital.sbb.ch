@@ -1,10 +1,10 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: dialog-lyne_it
 title: Dialog
-parent: components-lyne_it
+parent: lyne_components_it
 keywords: dialog
 order: 120
 availablelanguages: 

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: radiobutton-legacy_it
 title: Radiobutton
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/radiobutton.webp
 keywords: 
 order: 200

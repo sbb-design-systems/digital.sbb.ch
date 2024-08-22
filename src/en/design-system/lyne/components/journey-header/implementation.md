@@ -1,5 +1,6 @@
 ---
-tags: journey-header-lyne_en
+tags: 
+    - journey-header-lyne_en
 title: Implementation
 key: journey-header-lyne-implementation_en
 parent: journey-header-lyne_en

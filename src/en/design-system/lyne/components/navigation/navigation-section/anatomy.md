@@ -1,5 +1,6 @@
 ---
-tags: navigation-section-lyne_en
+tags: 
+    - navigation-section-lyne_en
 title: Anatomy
 key: navigation-section-lyne-anatomy_en
 parent: navigation-section-lyne_en

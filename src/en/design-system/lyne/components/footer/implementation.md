@@ -1,5 +1,6 @@
 ---
-tags: footer-lyne_en
+tags: 
+    - footer-lyne_en
 title: Implementation
 key: footer-lyne-implementation_en
 parent: footer-lyne_en

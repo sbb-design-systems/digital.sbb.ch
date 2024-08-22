@@ -1,5 +1,6 @@
 ---
-tags: teaser-hero-lyne_en
+tags: 
+    - teaser-hero-lyne_en
 title: Implementation
 key: teaser-hero-lyne-implementation_en
 parent: teaser-hero-lyne_en

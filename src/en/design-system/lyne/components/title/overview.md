@@ -1,5 +1,6 @@
 ---
-tags: title-lyne_en
+tags: 
+    - title-lyne_en
 title: Info
 key: title-lyne-overview_en
 parent: title-lyne_en

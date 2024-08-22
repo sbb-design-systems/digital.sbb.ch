@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: datepicker-legacy_it
 title: Datepicker
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/datepicker.webp
 keywords: 
 order: 80

@@ -1,5 +1,6 @@
 ---
-tags: icon-lyne_en
+tags: 
+    - icon-lyne_en
 title: Info
 key: icon-lyne-overview_en
 parent: icon-lyne_en

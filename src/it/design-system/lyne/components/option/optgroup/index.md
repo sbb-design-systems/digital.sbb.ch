@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: optgroup-lyne_it
 title: Optgroup
 parent: option-folder-lyne_it

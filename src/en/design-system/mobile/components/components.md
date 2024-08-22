@@ -1,7 +1,7 @@
 ---
 layout: overview.njk
 tags: level3
-key: components-mobile_en
+key: mobile_components_en
 title: Components
 parent: mobile_en
 alternativetitle: Components Mobile

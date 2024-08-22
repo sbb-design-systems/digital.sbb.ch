@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: buttonbar-lean_fr
 title: Buttonbar
-parent: components-lean_fr
+parent: lean_components_fr
 image: teaser/fallback.webp
 keywords: buttonbar
 order: 50

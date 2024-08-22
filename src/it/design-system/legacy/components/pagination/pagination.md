@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: pagination-legacy_it
 title: Pagination
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/pagination.webp
 keywords: 
 order: 180

@@ -1,5 +1,6 @@
 ---
-tags: transparent-button-link-lyne_en
+tags: 
+    - transparent-button-link-lyne_en
 title: Info
 key: transparent-button-link-lyne-overview_en
 parent: transparent-button-link-lyne_en

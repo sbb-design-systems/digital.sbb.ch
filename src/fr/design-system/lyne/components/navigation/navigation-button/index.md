@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: navigation-button-lyne_fr
 title: Navigation-Button
 parent: navigation-folder-lyne_fr

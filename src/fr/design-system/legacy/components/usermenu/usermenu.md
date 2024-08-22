@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_fr
 key: usermenu-legacy_fr
 title: Usermenu
-parent: components-legacy_fr
+parent: legacy_components_fr
 image: legacy/overview/usermenu.webp
 keywords: 
 order: 330

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: checkbox-lean_fr
 title: Checkbox
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/checkbox.webp
 keywords: checkbox, checkboxes, check
 order: 60

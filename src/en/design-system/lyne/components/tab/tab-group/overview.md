@@ -1,5 +1,6 @@
 ---
-tags: tab-group-lyne_en
+tags: 
+    - tab-group-lyne_en
 title: Info
 key: tab-group-lyne-overview_en
 parent: tab-group-lyne_en

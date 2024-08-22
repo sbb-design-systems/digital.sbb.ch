@@ -1,5 +1,6 @@
 ---
-tags: datepicker-toggle-lyne_en
+tags: 
+    - datepicker-toggle-lyne_en
 title: Anatomy
 key: datepicker-toggle-lyne-anatomy_en
 parent: datepicker-toggle-lyne_en

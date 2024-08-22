@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: timefield-legacy_it
 title: Timefield
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/timefield.webp
 keywords: 
 order: 300

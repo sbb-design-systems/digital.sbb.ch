@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_fr
 key: typography-legacy_fr
 title: Typografie
 parent: basics-legacy_fr

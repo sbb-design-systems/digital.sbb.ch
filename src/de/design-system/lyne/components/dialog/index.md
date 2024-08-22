@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_de
 key: dialog-folder-lyne_de
 title: Dialog
-parent: components-lyne_de
+parent: lyne_components_de
 keywords: dialog, modal
 order: 120
 redirect: /de/design-system/lyne/components/dialog/dialog/

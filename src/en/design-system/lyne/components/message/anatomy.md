@@ -1,5 +1,6 @@
 ---
-tags: message-lyne_en
+tags: 
+    - message-lyne_en
 title: Anatomy
 key: message-lyne-anatomy_en
 parent: message-lyne_en

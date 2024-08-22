@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_de
 key: processflow-legacy_de
 title: Processflow
-parent: components-legacy_de
+parent: legacy_components_de
 image: legacy/overview/processflow.webp
 keywords: 
 order: 190

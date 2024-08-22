@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: expansion-panel-lyne_fr
 title: Expansion-Panel
 parent: accordion-folder-lyne_fr

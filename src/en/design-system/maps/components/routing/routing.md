@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_en
 key: routing-maps_en
 title: Routing
-parent: components-maps_en
+parent: maps_components_en
 image: maps/overview/routing.webp
 keywords: routing
 order: 40

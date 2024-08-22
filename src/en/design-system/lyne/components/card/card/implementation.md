@@ -1,5 +1,6 @@
 ---
-tags: card-lyne_en
+tags: 
+    - card-lyne_en
 title: Implementation
 key: card-lyne-implementation_en
 parent: card-lyne_en

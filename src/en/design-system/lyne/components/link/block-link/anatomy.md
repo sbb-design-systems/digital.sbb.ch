@@ -1,5 +1,6 @@
 ---
-tags: block-link-lyne_en
+tags: 
+    - block-link-lyne_en
 title: Anatomy
 key: block-link-lyne-anatomy_en
 parent: block-link-lyne_en

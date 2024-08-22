@@ -1,8 +1,10 @@
 ---
 layout: pattern-lyne.njk
+tags: 
+    - lyne_components_fr
 key: title-lyne_fr
 title: Title
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: title
 order: 430
 availablelanguages: 

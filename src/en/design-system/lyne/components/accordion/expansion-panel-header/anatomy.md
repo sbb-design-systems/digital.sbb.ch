@@ -1,5 +1,6 @@
 ---
-tags: expansion-panel-header-lyne_en
+tags: 
+    - expansion-panel-header-lyne_en
 title: Anatomy
 key: expansion-panel-header-lyne-anatomy_en
 parent: expansion-panel-header-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: clock-lyne_en
+tags: 
+    - clock-lyne_en
 title: Info
 key: clock-lyne-overview_en
 parent: clock-lyne_en

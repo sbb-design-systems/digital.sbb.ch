@@ -1,5 +1,6 @@
 ---
-tags: journey-header-lyne_en
+tags: 
+    - journey-header-lyne_en
 title: Info
 key: journey-header-lyne-overview_en
 parent: journey-header-lyne_en

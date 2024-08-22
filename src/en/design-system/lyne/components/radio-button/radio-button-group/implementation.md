@@ -1,5 +1,6 @@
 ---
-tags: radio-button-group-lyne_en
+tags: 
+    - radio-button-group-lyne_en
 title: Implementation
 key: radio-button-group-lyne-implementation_en
 parent: radio-button-group-lyne_en

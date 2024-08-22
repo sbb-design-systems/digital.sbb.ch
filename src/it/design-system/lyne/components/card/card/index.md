@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: card-lyne_it
 title: Card
 parent: card-folder-lyne_it

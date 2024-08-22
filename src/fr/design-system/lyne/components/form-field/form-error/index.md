@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: form-error-lyne_fr
 title: Form-Error
 parent: form-field-folder-lyne_fr

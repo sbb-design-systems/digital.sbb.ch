@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_fr
 key: container-mobile_fr
 title: Container
-parent: components-mobile_fr
+parent: mobile_components_fr
 image: mobile/overview/container.webp
 keywords: container, content, footer, header
 order: 35

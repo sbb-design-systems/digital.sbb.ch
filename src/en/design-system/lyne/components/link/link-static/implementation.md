@@ -1,5 +1,6 @@
 ---
-tags: link-static-lyne_en
+tags: 
+    - link-static-lyne_en
 title: Implementation
 key: link-static-lyne-implementation_en
 parent: link-static-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: option-lyne_en
+tags: 
+    - option-lyne_en
 title: Info
 key: option-lyne-overview_en
 parent: option-lyne_en

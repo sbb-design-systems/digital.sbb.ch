@@ -1,6 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
+    - lyne_components_fr
 key: menu-link-lyne_fr
 title: Menu-Link
 parent: menu-folder-lyne_fr

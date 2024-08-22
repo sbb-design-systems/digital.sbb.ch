@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: chip-lean_fr
 title: Chip
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/chips.webp
 keywords: chip, chips, tag, label, badge
 order: 70

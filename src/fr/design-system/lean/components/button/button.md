@@ -1,9 +1,11 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: button-lean_fr
 title: Button
 alternativetitle: Button
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/button.webp
 keywords: button, icon, split, action
 order: 40

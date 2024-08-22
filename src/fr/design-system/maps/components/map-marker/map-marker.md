@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_fr
 key: map-marker-maps_fr
 title: Map-Marker
-parent: components-maps_fr
+parent: maps_components_fr
 image: maps/overview/map_marker.webp
 keywords: map marker
 order: 20

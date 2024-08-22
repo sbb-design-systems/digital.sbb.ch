@@ -1,5 +1,6 @@
 ---
-tags: skiplink-list-lyne_en
+tags: 
+    - skiplink-list-lyne_en
 title: Anatomy
 key: skiplink-list-lyne-anatomy_en
 parent: skiplink-list-lyne_en

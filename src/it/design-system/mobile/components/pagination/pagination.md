@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_it
 key: pagination-mobile_it
 title: Pagination
-parent: components-mobile_it
+parent: mobile_components_it
 image: mobile/overview/pagination.webp
 keywords: pagination
 order: 120

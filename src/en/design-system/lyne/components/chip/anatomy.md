@@ -1,5 +1,6 @@
 ---
-tags: chip-lyne_en
+tags: 
+    - chip-lyne_en
 title: Anatomy
 key: chip-lyne-anatomy_en
 parent: chip-lyne_en

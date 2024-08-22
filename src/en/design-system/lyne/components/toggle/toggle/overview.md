@@ -1,5 +1,6 @@
 ---
-tags: toggle-lyne_en
+tags: 
+    - toggle-lyne_en
 title: Info
 key: toggle-lyne-overview_en
 parent: toggle-lyne_en

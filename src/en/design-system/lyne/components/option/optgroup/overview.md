@@ -1,5 +1,6 @@
 ---
-tags: optgroup-lyne_en
+tags: 
+    - optgroup-lyne_en
 title: Info
 key: optgroup-lyne-overview_en
 parent: optgroup-lyne_en

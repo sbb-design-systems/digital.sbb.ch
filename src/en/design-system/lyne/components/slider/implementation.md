@@ -1,5 +1,6 @@
 ---
-tags: slider-lyne_en
+tags: 
+    - slider-lyne_en
 title: Implementation
 key: slider-lyne-implementation_en
 parent: slider-lyne_en

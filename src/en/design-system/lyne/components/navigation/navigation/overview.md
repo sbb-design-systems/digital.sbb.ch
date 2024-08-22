@@ -1,5 +1,6 @@
 ---
-tags: navigation-lyne_en
+tags: 
+    - navigation-lyne_en
 title: Info
 key: navigation-lyne-overview_en
 parent: navigation-lyne_en

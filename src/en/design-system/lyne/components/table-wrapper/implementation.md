@@ -1,5 +1,6 @@
 ---
-tags: table-wrapper-lyne_en
+tags: 
+    - table-wrapper-lyne_en
 title: Implementation
 key: table-wrapper-lyne-implementation_en
 parent: table-wrapper-lyne_en

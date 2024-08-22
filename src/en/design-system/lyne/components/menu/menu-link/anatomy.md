@@ -1,5 +1,6 @@
 ---
-tags: menu-link-lyne_en
+tags: 
+    - menu-link-lyne_en
 title: Anatomy
 key: menu-link-lyne-anatomy_en
 parent: menu-link-lyne_en

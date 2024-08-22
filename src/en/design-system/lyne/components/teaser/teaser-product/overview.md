@@ -1,5 +1,6 @@
 ---
-tags: teaser-product-lyne_en
+tags: 
+    - teaser-product-lyne_en
 title: Info
 key: teaser-product-lyne-overview_en
 parent: teaser-product-lyne_en

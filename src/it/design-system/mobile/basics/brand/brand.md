@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_it
 key: brand-mobile_it
 title: Brand
 parent: basics-mobile_it

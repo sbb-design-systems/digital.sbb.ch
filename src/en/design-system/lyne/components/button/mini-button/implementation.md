@@ -1,5 +1,6 @@
 ---
-tags: mini-button-lyne_en
+tags: 
+    - mini-button-lyne_en
 title: Implementation
 key: mini-button-lyne-implementation_en
 parent: mini-button-lyne_en

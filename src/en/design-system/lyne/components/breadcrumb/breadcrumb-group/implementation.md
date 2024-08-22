@@ -1,5 +1,6 @@
 ---
-tags: breadcrumb-group-lyne_en
+tags: 
+    - breadcrumb-group-lyne_en
 title: Implementation
 key: breadcrumb-group-lyne-implementation_en
 parent: breadcrumb-group-lyne_en

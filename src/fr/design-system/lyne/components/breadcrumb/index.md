@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_fr
 key: breadcrumb-folder-lyne_fr
 title: Breadcrumb
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: bread, breadcrumb, breadcrumb-group, breadcrumb group
 order: 40
 redirect: /fr/design-system/lyne/components/breadcrumb/breadcrumb-group/

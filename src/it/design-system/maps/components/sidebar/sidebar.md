@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_it
 key: sidebar-maps_it
 title: Sidebar
-parent: components-maps_it
+parent: maps_components_it
 image: maps/overview/sidebar.webp
 keywords: sidebar
 order: 50

@@ -1,5 +1,6 @@
 ---
-tags: autocomplete-grid-lyne_en
+tags: 
+    - autocomplete-grid-lyne_en
 title: Implementation
 key: autocomplete-grid-lyne-implementation_en
 parent: autocomplete-grid-lyne_en

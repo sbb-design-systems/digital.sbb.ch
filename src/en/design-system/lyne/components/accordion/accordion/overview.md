@@ -1,5 +1,6 @@
 ---
-tags: accordion-lyne_en
+tags: 
+    - accordion-lyne_en
 title: Info
 key: accordion-lyne-overview_en
 parent: accordion-lyne_en

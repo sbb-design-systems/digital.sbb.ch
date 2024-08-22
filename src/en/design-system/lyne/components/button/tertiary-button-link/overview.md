@@ -1,5 +1,6 @@
 ---
-tags: tertiary-button-link-lyne_en
+tags: 
+    - tertiary-button-link-lyne_en
 title: Info
 key: tertiary-button-lyne-overview_en
 parent: tertiary-button-link-lyne_en

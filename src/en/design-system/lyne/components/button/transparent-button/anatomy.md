@@ -1,5 +1,6 @@
 ---
-tags: transparent-button-lyne_en
+tags: 
+    - transparent-button-lyne_en
 title: Anatomy
 key: transparent-button-lyne-anatomy_en
 parent: transparent-button-lyne_en

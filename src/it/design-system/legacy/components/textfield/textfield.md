@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: textfield-legacy_it
 title: Textfield
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/textfield.webp
 keywords: 
 order: 290

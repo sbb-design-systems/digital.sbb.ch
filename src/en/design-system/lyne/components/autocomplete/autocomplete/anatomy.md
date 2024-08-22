@@ -1,5 +1,6 @@
 ---
-tags: autocomplete-lyne_en
+tags: 
+    - autocomplete-lyne_en
 title: Anatomy
 key: autocomplete-lyne-anatomy_en
 parent: autocomplete-lyne_en

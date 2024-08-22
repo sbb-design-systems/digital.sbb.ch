@@ -1,5 +1,6 @@
 ---
-tags: radio-button-panel-lyne_en
+tags: 
+    - radio-button-panel-lyne_en
 title: Info
 key: radio-button-panel-lyne-overview_en
 parent: radio-button-panel-lyne_en

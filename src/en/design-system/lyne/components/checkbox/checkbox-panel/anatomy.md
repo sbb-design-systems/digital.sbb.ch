@@ -1,5 +1,6 @@
 ---
-tags: checkbox-panel-lyne_en
+tags: 
+    - checkbox-panel-lyne_en
 title: Anatomy
 key: checkbox-panel-lyne-anatomy_en
 parent: checkbox-panel-lyne_en

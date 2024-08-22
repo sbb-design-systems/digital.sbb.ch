@@ -1,10 +1,11 @@
 ---
 layout: pattern-lyne.njk
 tags: 
+    - lyne_components_de
     - lyne_components_overlay_de
 key: overlay-lyne_de
 title: Overlay
-parent: components-lyne_de
+parent: lyne_components_de
 keywords: overlay
 order: 295
 ---

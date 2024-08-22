@@ -1,9 +1,11 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: processflow-lean_fr
 title: Processflow
 alternativetitle: Processflow
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/processflow.webp
 keywords: processflow, process indicator, progress tracker, multi step, wizard, stepper, steps
 order: 200

@@ -1,7 +1,7 @@
 ---
 layout: overview.njk
 tags: level3
-key: components-maps_fr
+key: maps_components_fr
 title: Informations
 alternativetitle: Informations Maps
 parent: maps_fr

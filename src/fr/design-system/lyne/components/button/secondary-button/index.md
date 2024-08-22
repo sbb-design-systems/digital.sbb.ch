@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: secondary-button-lyne_fr
 title: Secondary Button
 parent: button-folder-lyne_fr

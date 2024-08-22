@@ -1,5 +1,6 @@
 ---
-tags: footer-lyne_en
+tags: 
+    - footer-lyne_en
 title: Info
 key: footer-lyne-overview_en
 parent: footer-lyne_en

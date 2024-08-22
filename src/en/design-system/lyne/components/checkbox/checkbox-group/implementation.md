@@ -1,5 +1,6 @@
 ---
-tags: checkbox-group-lyne_en
+tags: 
+    - checkbox-group-lyne_en
 title: Implementation
 key: checkbox-group-lyne-implementation_en
 parent: checkbox-group-lyne_en

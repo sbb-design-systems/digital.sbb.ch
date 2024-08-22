@@ -1,5 +1,6 @@
 ---
-tags: flip-card-details-lyne_en
+tags: 
+    - flip-card-details-lyne_en
 title: Anatomy
 key: flip-card-details-lyne-anatomy_en
 parent: flip-card-details-lyne_en

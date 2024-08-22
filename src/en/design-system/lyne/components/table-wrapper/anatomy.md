@@ -1,5 +1,6 @@
 ---
-tags: table-wrapper-lyne_en
+tags: 
+    - table-wrapper-lyne_en
 title: Anatomy
 key: table-wrapper-lyne-anatomy_en
 parent: table-wrapper-lyne_en

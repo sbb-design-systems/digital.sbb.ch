@@ -1,5 +1,6 @@
 ---
-tags: action-group-lyne_en
+tags: 
+    - action-group-lyne_en
 title: Anatomy
 key: action-group-lyne-anatomy_en
 parent: action-group-lyne_en

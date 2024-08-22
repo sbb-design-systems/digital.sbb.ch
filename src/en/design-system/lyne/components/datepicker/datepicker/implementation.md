@@ -1,5 +1,6 @@
 ---
-tags: datepicker-lyne_en
+tags: 
+    - datepicker-lyne_en
 title: Implementation
 key: datepicker-lyne-implementation_en
 parent: datepicker-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: menu-link-lyne_en
+tags: 
+    - menu-link-lyne_en
 title: Implementation
 key: menu-link-lyne-implementation_en
 parent: menu-link-lyne_en

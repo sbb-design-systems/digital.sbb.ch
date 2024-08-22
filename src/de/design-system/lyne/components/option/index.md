@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_de
 key: option-folder-lyne_de
 title: Option
-parent: components-lyne_de
+parent: lyne_components_de
 keywords: option, option group, optgroup
 order: 290
 redirect: /de/design-system/lyne/components/option/option/

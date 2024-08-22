@@ -1,5 +1,6 @@
 ---
-tags: signet-lyne_en
+tags: 
+    - signet-lyne_en
 title: Info
 key: signet-lyne-overview_en
 parent: signet-lyne_en

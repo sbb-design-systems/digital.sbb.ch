@@ -1,5 +1,6 @@
 ---
-tags: autocomplete-grid-row-lyne_en
+tags: 
+    - autocomplete-grid-row-lyne_en
 title: Info
 key: autocomplete-grid-row-lyne-overview_en
 parent: autocomplete-grid-row-lyne_en

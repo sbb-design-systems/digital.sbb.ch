@@ -1,5 +1,6 @@
 ---
-tags: dialog-actions-lyne_en
+tags: 
+    - dialog-actions-lyne_en
 title: Implementation
 key: dialog-actions-lyne-implementation_en
 parent: dialog-actions-lyne_en

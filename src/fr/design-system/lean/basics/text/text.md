@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: text-lean_fr
 title: Text
 alternativetitle: Text

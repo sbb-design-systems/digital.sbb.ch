@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_en
 key: tab-legacy_en
 title: Tab
-parent: components-legacy_en
+parent: legacy_components_en
 image: legacy/overview/tab.webp
 keywords: 
 order: 240

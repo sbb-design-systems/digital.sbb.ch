@@ -1,9 +1,11 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_it
 key: chip-mobile_it
 title: Chip
 alternativetitle: Chip
-parent: components-mobile_it
+parent: mobile_components_it
 image: mobile/overview/chip.webp
 keywords: chip, chips, tag, label, badge
 order: 30

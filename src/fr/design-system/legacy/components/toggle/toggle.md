@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_fr
 key: toggle-legacy_fr
 title: Toggle
-parent: components-legacy_fr
+parent: legacy_components_fr
 image: legacy/overview/toggle.webp
 keywords: 
 order: 310

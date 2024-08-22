@@ -1,5 +1,6 @@
 ---
-tags: link-list-lyne_en
+tags: 
+    - link-list-lyne_en
 title: Anatomy
 key: link-list-lyne-anatomy_en
 parent: link-list-lyne_en

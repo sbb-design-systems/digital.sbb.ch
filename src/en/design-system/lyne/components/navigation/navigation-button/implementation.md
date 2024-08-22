@@ -1,5 +1,6 @@
 ---
-tags: navigation-button-lyne_en
+tags: 
+    - navigation-button-lyne_en
 title: Implementation
 key: navigation-button-lyne-implementation_en
 parent: navigation-button-lyne_en

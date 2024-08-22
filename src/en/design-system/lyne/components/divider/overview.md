@@ -1,5 +1,6 @@
 ---
-tags: divider-lyne_en
+tags: 
+    - divider-lyne_en
 title: Info
 key: divider-lyne-overview_en
 parent: divider-lyne_en

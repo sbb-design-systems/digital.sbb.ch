@@ -1,8 +1,10 @@
 ---
 layout: pattern-lyne.njk
+tags: 
+    - lyne_components_fr
 key: file-selector-lyne_fr
 title: File-Selector
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: file-selector
 order: 140
 availablelanguages: 

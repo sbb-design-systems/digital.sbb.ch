@@ -1,9 +1,9 @@
 ---
 layout: pattern-lyne.njk
 tags: 
+    - lyne_components_de
     - lyne_components_teaser_product-static_de
     - lyne_components_teaser_siblings_de
-    - showitem_de
 key: teaser-product-static-lyne_de
 title: Teaser-Product-Static
 parent: teaser-folder-lyne_de

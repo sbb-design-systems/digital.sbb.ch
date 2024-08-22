@@ -1,5 +1,6 @@
 ---
-tags: menu-button-lyne_en
+tags: 
+    - menu-button-lyne_en
 title: Implementation
 key: menu-button-lyne-implementation_en
 parent: menu-button-lyne_en

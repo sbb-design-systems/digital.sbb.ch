@@ -1,5 +1,6 @@
 ---
-tags: radio-button-panel-lyne_en
+tags: 
+    - radio-button-panel-lyne_en
 title: Anatomy
 key: radio-button-panel-lyne-anatomy_en
 parent: radio-button-panel-lyne_en

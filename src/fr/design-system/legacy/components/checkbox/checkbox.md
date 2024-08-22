@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_fr
 key: checkbox-legacy_fr
 title: Checkbox
-parent: components-legacy_fr
+parent: legacy_components_fr
 image: legacy/overview/checkbox.webp
 keywords: 
 order: 60

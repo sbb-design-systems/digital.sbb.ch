@@ -1,7 +1,7 @@
 ---
 layout: overview.njk
 tags: level3
-key: components-legacy_it
+key: legacy_components_it
 title: Componenti
 alternativetitle: Componenti Web (Legacy)
 parent: legacy_it

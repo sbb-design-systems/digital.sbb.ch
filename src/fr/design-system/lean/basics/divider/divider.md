@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: divider-lean_fr
 title: Divider
 parent: basics-lean_fr

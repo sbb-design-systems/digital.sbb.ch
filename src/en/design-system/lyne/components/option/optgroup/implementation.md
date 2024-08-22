@@ -1,5 +1,6 @@
 ---
-tags: optgroup-lyne_en
+tags: 
+    - optgroup-lyne_en
 title: Implementation
 key: optgroup-lyne-implementation_en
 parent: optgroup-lyne_en

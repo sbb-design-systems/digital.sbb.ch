@@ -1,5 +1,6 @@
 ---
-tags: notification-lyne_en
+tags: 
+    - notification-lyne_en
 title: Implementation
 key: notification-lyne-implementation_en
 parent: notification-lyne_en

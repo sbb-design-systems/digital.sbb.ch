@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: autocompletion-lean_fr
 title: Autocompletion
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/autocomplete.webp
 keywords: autocomplete, combobox, autosuggest, typeahead, dropdown, listbox
 order: 20

@@ -1,5 +1,6 @@
 ---
-tags: block-link-static-lyne_en
+tags: 
+    - block-link-static-lyne_en
 title: Info
 key: block-link-static-lyne-overview_en
 parent: block-link-static-lyne_en

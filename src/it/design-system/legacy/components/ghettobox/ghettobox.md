@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: ghettobox-legacy_it
 title: Ghettobox
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/ghettobox.webp
 keywords: 
 order: 110

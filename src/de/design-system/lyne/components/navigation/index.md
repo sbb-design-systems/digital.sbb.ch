@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_de
 key: navigation-folder-lyne_de
 title: Navigation
-parent: components-lyne_de
+parent: lyne_components_de
 keywords: navigation, menu, navigation-link, navigation-list, navigation-marker, navigation-section
 order: 270
 redirect: /de/design-system/lyne/components/navigation/navigation/

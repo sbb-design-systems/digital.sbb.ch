@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: container-lyne_fr
 title: Container
 parent: container-folder-lyne_fr

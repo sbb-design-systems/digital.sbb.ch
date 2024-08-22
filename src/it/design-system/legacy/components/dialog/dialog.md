@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: lightbox-legacy_it
 title: lightbox
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/lightbox.webp
 keywords: 
 order: 90

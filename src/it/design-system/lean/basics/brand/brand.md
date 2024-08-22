@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: brand-lean_it
 title: Brand
 parent: basics-lean_it

@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_de
 key: tab-lean_de
 title: Tab
-parent: components-lean_de
+parent: lean_components_de
 image: lean/overview/tab.webp
 keywords: tab, tabs, tab group, 
 order: 260

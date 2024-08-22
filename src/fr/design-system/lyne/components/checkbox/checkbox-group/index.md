@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: checkbox-group-lyne_fr
 title: Checkbox-Group
 parent: checkbox-folder-lyne_fr

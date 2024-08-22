@@ -107,26 +107,30 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyI18nPlugin, {defaultLanguage: "de",});
 
     eleventyConfig.addFilter("include", (arr, path, value) => {
-     // arr = object, path = data.parent, value: regulations_it   
-    //console.log("arr: "+arr+" path: "+path+" value: "+value);    
-
     value = lodash.deburr(value).toLowerCase();
-    
     return arr.filter((item) => {
         let pathValue = lodash.get(item, path);
         pathValue = lodash.deburr(pathValue).toLowerCase();
-        //console.log("pathValue: "+pathValue+" value: "+value); 
-        //console.log(pathValue.includes(value));   
-        //console.log(pathValue.length + " " + value.length);  
-        if (pathValue.length == value.length) {
-            return pathValue.includes(value);
+        if (pathValue.length == value.length && pathValue.includes(value) == true) {
+            return true;
         } else {
             return false;
         }
-        
+        });
     });
 
-    });
+    eleventyConfig.addFilter("exclude", (arr, path, value) => {
+        value = lodash.deburr(value).toLowerCase();
+        return arr.filter((item) => {
+            let pathValue = lodash.get(item, path);
+            pathValue = lodash.deburr(pathValue).toLowerCase();
+            if (pathValue.length == value.length && pathValue.includes(value) == true) {
+                return false;
+            } else {
+                return true;
+            }
+            });
+        });
 
     eleventyConfig.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    

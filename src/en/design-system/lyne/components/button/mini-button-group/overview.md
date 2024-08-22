@@ -1,5 +1,6 @@
 ---
-tags: mini-button-group-lyne_en
+tags: 
+    - mini-button-group-lyne_en
 title: Info
 key: mini-button-group-lyne-overview_en
 parent: mini-button-group-lyne_en

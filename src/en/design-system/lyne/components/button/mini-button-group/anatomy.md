@@ -1,5 +1,6 @@
 ---
-tags: mini-button-group-lyne_en
+tags: 
+    - mini-button-group-lyne_en
 title: Anatomy
 key: mini-button-group-lyne-anatomy_en
 parent: mini-button-group-lyne_en

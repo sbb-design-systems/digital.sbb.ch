@@ -1,5 +1,6 @@
 ---
-tags: tag-lyne_en
+tags: 
+    - tag-lyne_en
 title: Anatomy
 key: tag-lyne-anatomy_en
 parent: tag-lyne_en

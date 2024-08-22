@@ -1,5 +1,6 @@
 ---
-tags: alert-lyne_en
+tags: 
+    - alert-lyne_en
 title: Info
 key: alert-lyne-overview_en
 parent: alert-lyne_en

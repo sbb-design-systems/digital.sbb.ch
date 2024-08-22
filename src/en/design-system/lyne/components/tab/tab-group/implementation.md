@@ -1,5 +1,6 @@
 ---
-tags: tab-group-lyne_en
+tags: 
+    - tab-group-lyne_en
 title: Implementation
 key: tab-group-lyne-implementation_en
 parent: tab-group-lyne_en

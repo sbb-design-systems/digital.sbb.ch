@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_de
 key: autocomplete-folder-lyne_de
 title: Autocomplete
-parent: components-lyne_de
+parent: lyne_components_de
 keywords: autocomplete, autocomplete-grid
 order: 30
 redirect: /de/design-system/lyne/components/autocomplete/autocomplete/

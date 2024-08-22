@@ -1,5 +1,6 @@
 ---
-tags: menu-button-lyne_en
+tags: 
+    - menu-button-lyne_en
 title: Anatomy
 key: menu-button-lyne-anatomy_en
 parent: menu-button-lyne_en

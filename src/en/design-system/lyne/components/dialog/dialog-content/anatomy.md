@@ -1,5 +1,6 @@
 ---
-tags: dialog-content-lyne_en
+tags: 
+    - dialog-content-lyne_en
 title: Anatomy
 key: dialog-content-lyne-anatomy_en
 parent: dialog-content-lyne_en

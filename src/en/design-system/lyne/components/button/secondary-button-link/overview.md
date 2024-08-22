@@ -1,5 +1,6 @@
 ---
-tags: secondary-button-link-lyne_en
+tags: 
+    - secondary-button-link-lyne_en
 title: Info
 key: secondary-button-link-lyne-overview_en
 parent: secondary-button-link-lyne_en

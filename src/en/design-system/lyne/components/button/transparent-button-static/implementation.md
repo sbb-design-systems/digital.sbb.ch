@@ -1,5 +1,6 @@
 ---
-tags: transparent-button-static-lyne_en
+tags: 
+    - transparent-button-static-lyne_en
 title: Implementation
 key: transparent-button-static-lyne-implementation_en
 parent: transparent-button-static-lyne_en

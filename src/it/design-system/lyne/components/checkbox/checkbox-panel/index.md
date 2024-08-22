@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: checkbox-panel-lyne_it
 title: Checkbox-Panel
 parent: checkbox-folder-lyne_it

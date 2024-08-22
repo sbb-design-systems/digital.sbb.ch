@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: transparent-button-lyne_fr
 title: Transparent Button
 parent: button-folder-lyne_fr

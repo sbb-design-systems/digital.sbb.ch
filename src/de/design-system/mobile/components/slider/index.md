@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - mobile_components_de
 key: slider-mobile_de
 title: Slider
-parent: components-mobile_de
+parent: mobile_components_de
 image: mobile/overview/slider.webp
 keywords: slider, range, input
 order: 170

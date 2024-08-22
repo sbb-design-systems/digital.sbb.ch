@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_fr
 key: button-folder-lyne_fr
 title: Button
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: button, link
 order: 50
 redirect: /fr/design-system/lyne/components/button/button/

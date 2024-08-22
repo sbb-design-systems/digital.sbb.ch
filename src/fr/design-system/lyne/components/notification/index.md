@@ -1,8 +1,10 @@
 ---
 layout: pattern-lyne.njk
+tags: 
+    - lyne_components_fr
 key: notification-lyne_fr
 title: Notification
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: notification
 order: 280
 availablelanguages: 

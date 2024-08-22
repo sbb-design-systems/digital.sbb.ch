@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: sidebar-lean_fr
 title: Sidebar
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/sidebar.webp
 keywords: sidebar, navigation, menu, nav
 order: 230

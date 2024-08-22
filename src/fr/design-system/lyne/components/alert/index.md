@@ -1,8 +1,10 @@
 ---
 layout: redirect.njk
+tags: 
+    - lyne_components_fr
 key: alert-folder-lyne_fr
 title: Alert
-parent: components-lyne_fr
+parent: lyne_components_fr
 keywords: alert, alert-group, alert group
 order: 25
 redirect: /fr/design-system/lyne/components/alert/alert/

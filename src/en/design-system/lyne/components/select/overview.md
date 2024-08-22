@@ -1,5 +1,6 @@
 ---
-tags: select-lyne_en
+tags: 
+    - select-lyne_en
 title: Info
 key: select-lyne-overview_en
 parent: select-lyne_en

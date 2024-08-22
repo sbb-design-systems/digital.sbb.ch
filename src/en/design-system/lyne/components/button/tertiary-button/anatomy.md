@@ -1,5 +1,6 @@
 ---
-tags: tertiary-button-lyne_en
+tags: 
+    - tertiary-button-lyne_en
 title: Anatomy
 key: tertiary-button-lyne-anatomy_en
 parent: tertiary-button-lyne_en

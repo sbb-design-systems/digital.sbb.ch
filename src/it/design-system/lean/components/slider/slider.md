@@ -1,9 +1,11 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_it
 key: slider-lean_it
 title: Slider
 alternativetitle: Slider
-parent: components-lean_it
+parent: lean_components_it
 image: lean/overview/slider.webp
 keywords: slider, range, input
 order: 240

@@ -1,5 +1,6 @@
 ---
-tags: form-error-lyne_en
+tags: 
+    - form-error-lyne_en
 title: Anatomy
 key: form-error-lyne-anatomy_en
 parent: form-error-lyne_en

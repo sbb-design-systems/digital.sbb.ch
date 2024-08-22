@@ -1,5 +1,6 @@
 ---
-tags: calendar-lyne_en
+tags: 
+    - calendar-lyne_en
 title: Anatomy
 key: calendar-lyne-anatomy_en
 parent: calendar-lyne_en

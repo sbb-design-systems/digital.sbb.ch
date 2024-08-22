@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: form-field-lyne_it
 title: Form-Field
 parent: form-field-folder-lyne_it

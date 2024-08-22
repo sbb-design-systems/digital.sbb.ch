@@ -1,5 +1,6 @@
 ---
-tags: autocomplete-lyne_en
+tags: 
+    - autocomplete-lyne_en
 title: Info
 key: autocomplete-lyne-overview_en
 parent: autocomplete-lyne_en

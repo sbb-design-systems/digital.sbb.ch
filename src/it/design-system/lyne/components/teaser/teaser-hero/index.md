@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: teaser-hero-lyne_it
 title: Teaser-Hero
 parent: teaser-folder-lyne_it

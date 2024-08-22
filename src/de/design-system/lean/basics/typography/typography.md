@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_de
 key: typography-lean_de
 title: Typografie
 parent: basics-lean_de

@@ -1,5 +1,6 @@
 ---
-tags: slider-lyne_en
+tags: 
+    - slider-lyne_en
 title: Anatomy
 key: slider-lyne-anatomy_en
 parent: slider-lyne_en

@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: breadcrumb-lyne_fr
 title: Breadcrumb
 parent: breadcrumb-folder-lyne_fr

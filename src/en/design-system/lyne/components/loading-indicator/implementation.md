@@ -1,5 +1,6 @@
 ---
-tags: loading-indicator-lyne_en
+tags: 
+    - loading-indicator-lyne_en
 title: Implementation
 key: loading-indicator-lyne-implementation_en
 parent: loading-indicator-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: teaser-product-static-lyne_en
+tags: 
+    - teaser-product-static-lyne_en
 title: Anatomie
 key: teaser-product-static-lyne-anatomy_en
 parent: teaser-product-static-lyne_en

@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_de
 key: copyright-maps_de
 title: Copyright
 parent: basics-maps_de

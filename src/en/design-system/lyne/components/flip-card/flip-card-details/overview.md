@@ -1,5 +1,6 @@
 ---
-tags: flip-card-details-lyne_en
+tags: 
+    - flip-card-details-lyne_en
 title: Info
 key: flip-card-details-lyne-overview_en
 parent: flip-card-details-lyne_en

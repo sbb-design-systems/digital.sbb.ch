@@ -1,5 +1,6 @@
 ---
-tags: header-button-lyne_en
+tags: 
+    - header-button-lyne_en
 title: Anatomy
 key: header-button-lyne-anatomy_en
 parent: header-button-lyne_en

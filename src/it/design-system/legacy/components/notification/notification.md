@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: notification-legacy_it
 title: Notification
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/notification.webp
 keywords: 
 order: 170

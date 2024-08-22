@@ -1,5 +1,6 @@
 ---
-tags: expansion-panel-header-lyne_en
+tags: 
+    - expansion-panel-header-lyne_en
 title: Implementation
 key: expansion-panel-header-lyne-implementation_en
 parent: expansion-panel-header-lyne_en

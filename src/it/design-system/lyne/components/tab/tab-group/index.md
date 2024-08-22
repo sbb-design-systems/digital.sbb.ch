@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: tab-group-lyne_it
 title: Tab-Group
 parent: tab-folder-lyne_it

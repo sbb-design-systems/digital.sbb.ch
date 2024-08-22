@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: mini-button-lyne_fr
 title: Mini Button
 parent: button-folder-lyne_fr

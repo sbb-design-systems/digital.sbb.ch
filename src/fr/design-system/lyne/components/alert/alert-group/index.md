@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: alert-group-lyne_fr
 title: Alert-Group
 parent: alert-folder-lyne_fr

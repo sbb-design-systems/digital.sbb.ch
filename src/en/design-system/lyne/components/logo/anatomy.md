@@ -1,5 +1,6 @@
 ---
-tags: logo-lyne_en
+tags: 
+    - logo-lyne_en
 title: Anatomy
 key: logo-lyne-anatomy_en
 parent: logo-lyne_en

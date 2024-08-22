@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_fr
 key: table-lean_fr
 title: Table
-parent: components-lean_fr
+parent: lean_components_fr
 image: lean/overview/table.webp
 keywords: table, data table
 order: 270

@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_fr
+    - lyne_components_fr
 key: button-lyne_fr
 title: Primary Button
 parent: button-folder-lyne_fr

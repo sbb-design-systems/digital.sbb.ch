@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - lean_components_en
 key: tree-lean_en
 title: Tree
-parent: components-lean_en
+parent: lean_components_en
 image: lean/overview/tree.webp
 keywords: tree, folder, folders
 order: 360

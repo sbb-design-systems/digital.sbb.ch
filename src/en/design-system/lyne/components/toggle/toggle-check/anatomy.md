@@ -1,5 +1,6 @@
 ---
-tags: toggle-check-lyne_en
+tags: 
+    - toggle-check-lyne_en
 title: Anatomy
 key: toggle-check-lyne-anatomy_en
 parent: toggle-check-lyne_en

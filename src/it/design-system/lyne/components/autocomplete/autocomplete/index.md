@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: autocomplete-lyne_it
 title: Autocomplete
 parent: autocomplete-folder-lyne_it

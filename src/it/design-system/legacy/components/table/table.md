@@ -1,8 +1,10 @@
 ---
 layout: pattern.njk
+tags: 
+    - legacy_components_it
 key: table-legacy_it
 title: Table
-parent: components-legacy_it
+parent: legacy_components_it
 image: legacy/overview/table.webp
 keywords: 
 order: 250

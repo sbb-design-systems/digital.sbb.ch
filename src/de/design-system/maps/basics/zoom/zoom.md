@@ -1,5 +1,7 @@
 ---
 layout: pattern.njk
+tags: 
+    - maps_components_de
 key: zoom-maps_de
 title: Zoom
 parent: basics-maps_de

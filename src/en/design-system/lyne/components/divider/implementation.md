@@ -1,5 +1,6 @@
 ---
-tags: divider-lyne_en
+tags: 
+    - divider-lyne_en
 title: Implementation
 key: divider-lyne-implementation_en
 parent: divider-lyne_en

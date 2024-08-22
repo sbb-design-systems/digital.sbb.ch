@@ -1,7 +1,7 @@
 ---
 layout: pattern-lyne.njk
 tags: 
-    - showitem_it
+    - lyne_components_it
 key: calendar-lyne_it
 title: Calendar
 parent: datepicker-folder-lyne_it

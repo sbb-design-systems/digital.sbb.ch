@@ -1,5 +1,6 @@
 ---
-tags: popover-trigger-lyne_en
+tags: 
+    - popover-trigger-lyne_en
 title: Info
 key: popover-trigger-lyne-overview_en
 parent: popover-trigger-lyne_en

@@ -1,5 +1,6 @@
 ---
-tags: popover-trigger-lyne_en
+tags: 
+    - popover-trigger-lyne_en
 title: Anatomy
 key: popover-trigger-lyne-anatomy_en
 parent: popover-trigger-lyne_en

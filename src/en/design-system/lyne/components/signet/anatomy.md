@@ -1,5 +1,6 @@
 ---
-tags: signet-lyne_en
+tags: 
+    - signet-lyne_en
 title: Anatomy
 key: signet-lyne-anatomy_en
 parent: signet-lyne_en
