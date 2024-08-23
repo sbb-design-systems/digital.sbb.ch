@@ -52,7 +52,7 @@ The component has the following states: {.lead}
   title: 'Icon Button'
 }) }}
 
-When hovering over an icon button, a <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/tooltip">tooltip</sbb-link>  should be used to make the underlying action clearer. {.lead}
+When hovering over an icon button, a <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/tooltip/">tooltip</sbb-link>  should be used to make the underlying action clearer. {.lead}
 
 ### Multiple actions
 {{ imageOnGreyBackground({

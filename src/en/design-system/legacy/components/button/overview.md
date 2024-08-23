@@ -20,7 +20,7 @@ It triggers an action on a page. {.lead}
 * It cannot be used within body copy. {.lead}
 * Cannot be used in the header as navigation or a function. {.lead}
 * The minimum width is 60px, the maximum width is 400px. {.lead}
-* The width increases with the text length. When used in the <sbb-link variant="inline" href="/en/design-system/legacy/components/nbc">next best click (NBC)</sbb-link> or in mobile views, the width is 100%. {.lead}
+* The width increases with the text length. When used in the <sbb-link variant="inline" href="/en/design-system/legacy/components/nbc/">next best click (NBC)</sbb-link> or in mobile views, the width is 100%. {.lead}
 * If the text is still too long when the maximum length is reached, it is shortened with “...”. {.lead}
 * The text is always single-line. {.lead}
 * In exceptional cases, the arrow icon can be replaced with a different, suitable icon. {.lead}

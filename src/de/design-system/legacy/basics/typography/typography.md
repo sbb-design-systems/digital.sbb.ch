@@ -80,7 +80,7 @@ Die hier definierten Schriftstile bilden die Basis von Webseiten und deren Kompo
 }) }}
 
 * Gilt als Standardlink innerhalb von Texten. {.lead}
-* Zusätzliche Ausführungen von Links sind unter <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/link">Link</sbb-link> zu finden. {.lead}
+* Zusätzliche Ausführungen von Links sind unter <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/link/">Link</sbb-link> zu finden. {.lead}
 
 ### Subtext
 {{ imageOnGreyBackground({
@@ -96,7 +96,7 @@ Die hier definierten Schriftstile bilden die Basis von Webseiten und deren Kompo
   title: 'Tabellenheader'
 }) }}
 
-* Definition der Tabelle als Komponente ist unter <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/table">Table</sbb-link> zu finden. {.lead}
+* Definition der Tabelle als Komponente ist unter <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/table/">Table</sbb-link> zu finden. {.lead}
 
 ### Tabellendaten
 {{ imageOnGreyBackground({
@@ -105,7 +105,7 @@ Die hier definierten Schriftstile bilden die Basis von Webseiten und deren Kompo
   title: 'Tabellendaten'
 }) }}
 
-* Definition der Tabelle als Komponente ist unter <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/table">Table</sbb-link> zu finden. {.lead}
+* Definition der Tabelle als Komponente ist unter <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/table/">Table</sbb-link> zu finden. {.lead}
 
 ### Liste geordnet
 {{ imageOnGreyBackground({

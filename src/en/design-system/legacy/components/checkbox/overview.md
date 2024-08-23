@@ -24,4 +24,4 @@ permalink: false
 * The text can be multi-line. {.lead}
 * In addition to the actual checkbox, the entire text can also be used as a click target. {.lead}
 * A title can be inserted above a checkbox group. {.lead}
-* A question mark in the circle can also be shown – in addition to the title – for detailed explanations. A <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip">tooltip</sbb-link> opens when this question mark is clicked on. {.lead}
+* A question mark in the circle can also be shown – in addition to the title – for detailed explanations. A <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip/">tooltip</sbb-link> opens when this question mark is clicked on. {.lead}

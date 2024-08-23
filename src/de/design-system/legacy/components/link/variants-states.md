@@ -58,7 +58,7 @@ Die Komponente hat folgende Zustände:
 }) }}
 
 ### Spezifikationen
-Der Standard-Link ist keine eigenständige Komponente sonder ist direkt im Bereich <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/basics/typography">Typografie</sbb-link> definiert.
+Der Standard-Link ist keine eigenständige Komponente sonder ist direkt im Bereich <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/basics/typography/">Typografie</sbb-link> definiert.
 
 {{ specificationLinks({
   figma: 'https://www.figma.com/file/BQzBsQBWB0TAIbpWMhss7P/Web-(Legacy)?node-id=13%3A7875&t=8HES1IZKZfP9aXCY-1'

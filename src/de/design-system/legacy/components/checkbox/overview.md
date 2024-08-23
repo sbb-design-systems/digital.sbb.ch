@@ -24,4 +24,4 @@ Dient zur Eingabe von Ja/Nein-Werten. {.lead}
 * Der Text kann mehrzeilig sein. {.lead}
 * Nebst der eigentlich Checkbox dient auch der gesamte Text als Click-Target. {.lead}
 * Oberhalb einer Checkbox-Gruppe kann ein Titel eingesetzt werden. {.lead}
-* Für detaillierte Erklärungen zu einer Checkbox-Gruppe kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">Tooltip</sbb-link>. {.lead}
+* Für detaillierte Erklärungen zu einer Checkbox-Gruppe kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip/">Tooltip</sbb-link>. {.lead}

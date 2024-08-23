@@ -17,7 +17,7 @@ Wenn vom Benutzer längere Texteingaben verlangt werden. {.lead}
 ## Regeln 
 * Die Textarea hat immer ein Label. {.lead}
 * Optionale Eingaben werden mit dem Text «(optional)» hinter dem Label versehen. Bei kurzen Feldern kann der Text «(optional)» mit «(opt.)» abgekürzt werden. {.lead}
-* Für detaillierte Erklärungen kann neben dem Label ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">Tooltip</sbb-link>. {.lead}
+* Für detaillierte Erklärungen kann neben dem Label ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip/">Tooltip</sbb-link>. {.lead}
 * Unten rechts wird die noch verfügbare Anzahl Zeichen angezeigt (ausser die Textarea ist disabled). {.lead}
 * Die Breite der Textarea entspricht immer der ganzen Formularbreite. {.lead}
 * Die Basishöhe kann beim Gestalten des Formulars gesetzt werden. {.lead}

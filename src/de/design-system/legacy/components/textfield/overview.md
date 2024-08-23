@@ -17,7 +17,7 @@ Wenn vom Benutzer eine Eingabe benötigt. wird. {.lead}
 ## Regeln 
 * Ein Eingabefeld hat immer ein Label. {.lead}
 * Optionale Eingaben werden mit dem Text «(optional)» hinter dem Label-Text versehen. Bei kurzen Feldern darf der Text «(optional)» mit «(opt.)» abgekürzt werden. {.lead}
-* Für detaillierte Erklärungen kann neben dem Label ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">Tooltip</sbb-link>. {.lead}
+* Für detaillierte Erklärungen kann neben dem Label ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip/">Tooltip</sbb-link>. {.lead}
 * Der Eingabetext ist immer einzeilig. {.lead}
 * Wird der Text während der Eingabe länger als die Breite des Eingabefeldes wird der geschriebene Text nach links verdrängt, damit das aktuell Geschriebene immer gesehen wird. {.lead}
 * Nach dem Verlassen des Eingabefeldes mit einem langen Text wird dieser am Ende abgeschnitten und mit «\...» gekennzeichnet. {.lead}

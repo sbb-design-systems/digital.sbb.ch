@@ -21,7 +21,7 @@ The use of a mono-spaced font is recommended for some applications. The font req
 * DejaVu Sans Mono
 
 ## Style
-The font styles defined here form the basis of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" type="button" href="/en/foundation/colors/base-colors">SBB colors</sbb-link> apply to the font colors. {.lead}
+The font styles defined here form the basis of web applications and their components. If others are used, a clear hierarchy must be ensured as well as sufficient contrast and appropriate line/paragraph spacing. The <sbb-link variant="inline" type="button" href="/en/foundation/colors/base-colors/">SBB colors</sbb-link> apply to the font colors. {.lead}
 
 ### Heading H1
 {{ imageOnGreyBackground({
@@ -30,7 +30,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Heading H1'
 }) }}
 
-* Before H1 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Big» is inserted, afterwards (below) a Divider of variant «Medium». {.lead}
+* Before H1 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider/">divider</sbb-link> of variant «Big» is inserted, afterwards (below) a Divider of variant «Medium». {.lead}
 
 ###  Heading H2
 {{ imageOnGreyBackground({
@@ -39,7 +39,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Heading H2'
 }) }}
 
-* Before H2 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Medium» is inserted, afterwards (below) a Divider of variant «Small». {.lead}
+* Before H2 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider/">divider</sbb-link> of variant «Medium» is inserted, afterwards (below) a Divider of variant «Small». {.lead}
 
 ###  Heading H3
 {{ imageOnGreyBackground({
@@ -48,7 +48,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Heading H3'
 }) }}
 
-* Before H3 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
+* Before H3 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider/">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
 
 ###  Heading H4
 {{ imageOnGreyBackground({
@@ -57,7 +57,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Heading H4'
 }) }}
 
-* Before H4 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
+* Before H4 (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider/">divider</sbb-link> of variant «Small» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
 
 ###  Body (copy)
 {{ imageOnGreyBackground({
@@ -66,7 +66,7 @@ The font styles defined here form the basis of web applications and their compon
   title: 'Body (copy)'
 }) }}
 
-* Before the copy (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider">divider</sbb-link> of variant «Thin» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
+* Before the copy (above), a <sbb-link variant="inline" type="button" href="/en/design-system/lean/basics/divider/">divider</sbb-link> of variant «Thin» is inserted, afterwards (below) a Divider of variant «Thin». {.lead}
 
 ###  Link
 {{ imageOnGreyBackground({
@@ -76,7 +76,7 @@ The font styles defined here form the basis of web applications and their compon
 }) }}
 
 * Is used as a standard link within texts. {.lead}
-* Further information about links can be found at <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/link">link</sbb-link>. {.lead} 
+* Further information about links can be found at <sbb-link variant="inline" type="button" href="/en/design-system/lean/components/link/">link</sbb-link>. {.lead} 
 
 
 ### Table header

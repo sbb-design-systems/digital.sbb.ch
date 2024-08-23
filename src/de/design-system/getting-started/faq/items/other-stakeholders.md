@@ -5,4 +5,4 @@ permalink: false
 order: 1
 ---
 
-Ja, du kannst gerne der <sbb-link variant="inline" href="/{{page.lang}}/design-system/getting-started/designing/#enter-community">SBB UX Community</sbb-link> beitreten. 
+Ja, du kannst gerne der <sbb-link variant="inline" href="/{{page.lang}}/design-system/getting-started/designing/#enter-community/">SBB UX Community</sbb-link> beitreten. 

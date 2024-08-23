@@ -23,4 +23,4 @@ Bei zwei und mehr Auswahlmöglichkeiten, bei der sich die Optionen gegenseitig a
 * Der Text kann mehrzeilig sein. {.lead}
 * Nebst dem eigentlichen Radiobutton dient auch der gesamte Text als Click-Target. {.lead}
 * Oberhalb einer Radiobutton-Gruppe kann ein Titel eingesetzt werden. {.lead}
-* Für detaillierte Erklärungen zu einer Radiobutton-Gruppe kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">Tooltip</sbb-link>. {.lead}
+* Für detaillierte Erklärungen zu einer Radiobutton-Gruppe kann neben dem Titel ein Fragezeichen im Kreis dargestellt werden. Beim Klick auf dieses Fragezeichen öffnet sich ein <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip/">Tooltip</sbb-link>. {.lead}

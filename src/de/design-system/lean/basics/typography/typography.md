@@ -21,7 +21,7 @@ Für gewisse Anwendungsbereiche ist der Einsatz einer Monospaced Schrift sinnvol
 * DejaVu Sans Mono
 
 ## Stile
-Die hier definierten Schriftstile bilden die Basis von Webapplikationen und deren Komponenten. Werden andere eingesetzt ist auf eine klare Hierarchie zu achten ebenso wie auf ausreichenden Kontrast und entsprechenden Zeilen- / Absatzabstand. Für die Schriftfarben gelten die <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors">SBB-Farben</sbb-link>. {.lead}
+Die hier definierten Schriftstile bilden die Basis von Webapplikationen und deren Komponenten. Werden andere eingesetzt ist auf eine klare Hierarchie zu achten ebenso wie auf ausreichenden Kontrast und entsprechenden Zeilen- / Absatzabstand. Für die Schriftfarben gelten die <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB-Farben</sbb-link>. {.lead}
 
 ### Überschrift H1
 {{ imageOnGreyBackground({

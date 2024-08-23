@@ -80,7 +80,7 @@ The font styles defined here form the base of web applications and their compone
 }) }}
 
 * Is used as a standard link within texts. {.lead}
-* Further information about links can be found at <sbb-link variant="inline" href="/en/design-system/legacy/components/link">link</sbb-link>. {.lead}
+* Further information about links can be found at <sbb-link variant="inline" href="/en/design-system/legacy/components/link/">link</sbb-link>. {.lead}
 
 ### Subtext
 {{ imageOnGreyBackground({
@@ -96,7 +96,7 @@ The font styles defined here form the base of web applications and their compone
   title: 'Table header'
 }) }}
 
-* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>. {.lead}
+* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table/">table</sbb-link>. {.lead}
 
 
 ### Table data
@@ -106,7 +106,7 @@ The font styles defined here form the base of web applications and their compone
   title: 'Table data'
 }) }}
 
-* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table">table</sbb-link>. {.lead}
+* The definition of the table as a component can be found under <sbb-link variant="inline" href="/en/design-system/legacy/components/table/">table</sbb-link>. {.lead}
 
 ### Structured list
 {{ imageOnGreyBackground({

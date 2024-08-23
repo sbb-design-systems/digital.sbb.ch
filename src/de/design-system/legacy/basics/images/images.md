@@ -37,7 +37,7 @@ Bei Bildern werden folgende Stile unterschieden: {.lead}
     * Bilder und Videos werden grundsätzlich gleich behandelt. {.lead}
 * Keyvisuals haben nie Bildunterschriften oder Copyright-Infos. {.lead}
 * Keyvisuals haben je Endgerät ein festes Format, der Bildausschnitt passt sich dem Viewport an. {.lead}
-* Keyvisuals können als <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/mediaslider">Mediaslider</sbb-link> umgesetzt werden. {.lead}
+* Keyvisuals können als <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/mediaslider/">Mediaslider</sbb-link> umgesetzt werden. {.lead}
 * Kein Beschreibungstext erlaubt. {.lead}
 
 ### Formate

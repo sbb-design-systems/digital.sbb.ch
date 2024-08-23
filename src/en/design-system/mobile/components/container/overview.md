@@ -17,4 +17,4 @@ parent: container-mobile_en
 ## Rules
 * The content box can be used anywhere. {.lead}
 * Header-Box and Footer-Box are fixed in front of the other content. {.lead}
-* The footer box adjoins the <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/tabbar">tabbar</sbb-link> at the top. {.lead}
+* The footer box adjoins the <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/tabbar/">tabbar</sbb-link> at the top. {.lead}

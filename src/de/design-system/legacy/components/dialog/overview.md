@@ -12,7 +12,7 @@ permalink: false
 Dient zur Darstellung von Detailinformationen einer Content-Seite. {.lead}
 
 ## Wann soll die Komponente eingesetzt werden? 
-* Wenn zu einem Teil einer Seite on-demand detailliertere oder zusätzliche Informationen angezeigt werden soll (beispielsweise erweiterte Hilfestellungen, bei denen der <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip">Tooltip</sbb-link> nicht ausreicht). {.lead}
+* Wenn zu einem Teil einer Seite on-demand detailliertere oder zusätzliche Informationen angezeigt werden soll (beispielsweise erweiterte Hilfestellungen, bei denen der <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/tooltip/">Tooltip</sbb-link> nicht ausreicht). {.lead}
 * Zur Darstellung des Editiermodus bei Formularen. {.lead}
 * Zur vergrösserten Ansicht von Bildern. {.lead}
 

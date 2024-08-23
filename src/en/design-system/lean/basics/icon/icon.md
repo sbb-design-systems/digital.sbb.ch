@@ -11,7 +11,7 @@ order: 30
 ---
 
 ## Use
-Icons are used to visually support themes and actions. Icons are used in SBB style for use in SBB applications. Details on this and a set of already available icons can be found <sbb-link variant="inline" type="button" href="/en/foundation/assets/icons">here</sbb-link>. {.lead}
+Icons are used to visually support themes and actions. Icons are used in SBB style for use in SBB applications. Details on this and a set of already available icons can be found <sbb-link variant="inline" type="button" href="/en/foundation/assets/icons/">here</sbb-link>. {.lead}
 
 ## Rules
 * The use of icons within body copy should be avoided as far as possible. {.lead}

@@ -65,7 +65,7 @@ The Next Best Click container does not have any cross-viewport states as they be
 }) }}
 
 #### Special case: NBC box within an accordion
-* A NBC box is never minimised when used within an <sbb-link variant="inline" href="/en/design-system/legacy/components/accordion">accordion</sbb-link>.
+* A NBC box is never minimised when used within an <sbb-link variant="inline" href="/en/design-system/legacy/components/accordion/">accordion</sbb-link>.
 * Only one NBC box can be inserted into an accordion.
 * When scrolling, the NBC box remains sticky on the top edge to the end of the content area of the accordion, after which the box continues to be scrolled with the content.
 

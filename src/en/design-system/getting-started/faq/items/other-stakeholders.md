@@ -5,5 +5,5 @@ permalink: false
 order: 1
 ---
 
-Yes, you are welcome to join the <sbb-link variant="inline" href="/{{page.lang}}/design-system/getting-started/designing/#enter-community">SBB UX Community</sbb-link>
+Yes, you are welcome to join the <sbb-link variant="inline" href="/{{page.lang}}/design-system/getting-started/designing/#enter-community/">SBB UX Community</sbb-link>
 

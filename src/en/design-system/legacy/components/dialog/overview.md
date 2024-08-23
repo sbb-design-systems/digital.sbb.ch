@@ -12,7 +12,7 @@ permalink: false
 It is used to display detailed information of a content page. {.lead}
 
 ## When should the component be used?
-* If detailed or additional information has to be shown on-demand on part of a page (for example, additional support when the <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip">tooltip</sbb-link> is not sufficient). {.lead}
+* If detailed or additional information has to be shown on-demand on part of a page (for example, additional support when the <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip/">tooltip</sbb-link> is not sufficient). {.lead}
 * To display the editing mode on forms. {.lead}
 * For an enlarged view of images. {.lead}
 

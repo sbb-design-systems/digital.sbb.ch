@@ -67,7 +67,7 @@ Der Next Best Click Container hat keine Viewport übergreifenden Zustände, da s
 
 
 #### Sonderfall NBC-Box innerhalb eines Accordion
-* Bei der Anwendung einer NBC-Box innerhalb eines <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/accordion">Accordion</sbb-link> wird diese nie minimiert. {.lead}
+* Bei der Anwendung einer NBC-Box innerhalb eines <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/accordion/">Accordion</sbb-link> wird diese nie minimiert. {.lead}
 * Es darf nur eine NBC-Box in einem Accordion eingesetzt werden. {.lead}
 * Beim Scrollen bleibt die NBC-Box sticky am oberen Rand bis zum Ende der Content-Area des Accordions, dannach wird die Box mit dem Content weitergescrollt. {.lead}
 

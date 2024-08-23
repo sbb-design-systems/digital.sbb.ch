@@ -27,7 +27,7 @@ Diese Variante hat folgende Zustände: {.lead}
   title: 'Darstellung der Komponente Ghettobox mit Link'
 }) }}
 
-* Sofern der Text einen weiterführenden <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/link">Link</sbb-link> beinhaltet, unterscheidet die Ghettobox die Zustände Normal und Hover. {.lead}
+* Sofern der Text einen weiterführenden <sbb-link variant="inline" href="/{{page.lang}}/design-system/legacy/components/link/">Link</sbb-link> beinhaltet, unterscheidet die Ghettobox die Zustände Normal und Hover. {.lead}
 * Am Ende des Textes folgt immer ein Pfeil-Icon. {.lead}
 * Die ganze Fläche der Ghettobox ist klickbar und öffnet den hinterlegten Link (ausser über dem X-Icon). {.lead}
 

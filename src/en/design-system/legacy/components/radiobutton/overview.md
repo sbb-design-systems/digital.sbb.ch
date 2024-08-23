@@ -23,4 +23,4 @@ permalink: false
 * The text can be multi-line. {.lead}
 * In addition to the actual radiobutton, the entire text can also be used as a click target. {.lead}
 * A title can be used above a radiobutton group. {.lead}
-* A question mark in the circle – in addition to the title – can also be shown for detailed explanations on a radiobutton group. A <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip">tooltip</sbb-link> opens if the question mark is clicked on. {.lead}
+* A question mark in the circle – in addition to the title – can also be shown for detailed explanations on a radiobutton group. A <sbb-link variant="inline" href="/en/design-system/legacy/components/tooltip/">tooltip</sbb-link> opens if the question mark is clicked on. {.lead}
