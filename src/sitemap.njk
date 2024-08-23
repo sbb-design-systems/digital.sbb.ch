@@ -9,6 +9,10 @@ permalink: /sitemap.xml
 {% for page in collections.all %}{% if page.url | url == "." %}{% else %}{% if page.data.redirect.length %}{% else %}
 <url>
     <loc>{{ site.url }}{{ page.url | url }}</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="/de{{ page.url.slice(3, -1) }}/" /> 
+    <xhtml:link rel="alternate" hreflang="fr" href="/fr{{ page.url.slice(3, -1) }}/" /> 
+    <xhtml:link rel="alternate" hreflang="it" href="/it{{ page.url.slice(3, -1) }}/" /> 
+    <xhtml:link rel="alternate" hreflang="en" href="/en{{ page.url.slice(3, -1) }}/" /> 
     <lastmod>{{ page.date.toISOString() }}</lastmod>
     <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "weekly" }}</changefreq>
 </url>{% endif %}{% endif %}{% endfor %}

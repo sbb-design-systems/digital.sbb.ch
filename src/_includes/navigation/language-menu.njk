@@ -1,7 +1,7 @@
 <sbb-navigation-marker size="s">
     {% if translations.languages.length %}
         {% for loc in translations.languages -%}
-          <sbb-navigation-link {% if (page.lang == loc.url)  %}class="sbb-active" {% endif %} href="/{{ loc.url }}{{ page.url.slice(3, -1) }}/">{{ loc.label }}</sbb-navigation-link>
+          <sbb-navigation-link {% if (page.lang == loc.url)  %}class="sbb-active" {% endif %} hreflang="{{loc.url}}" href="/{{ loc.url }}{{ page.url.slice(3, -1) }}/">{{ loc.label }}</sbb-navigation-link>
         {% endfor -%}
     {% endif %}
   </sbb-navigation-marker>
