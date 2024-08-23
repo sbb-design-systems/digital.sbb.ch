@@ -1,6 +1,6 @@
 {
     "tag":"sbb-datepicker",
-    "content":"<sbb-form-field><sbb-datepicker-previous-day></sbb-datepicker-previous-day><sbb-datepicker-toggle></sbb-datepicker-toggle><input value='01.01.2023'/><sbb-datepicker class='demo-item' wide></sbb-datepicker><sbb-datepicker-next-day></sbb-datepicker-next-day></sbb-form-field>",
+    "content":"<sbb-form-field size='m' class='form-field'><sbb-datepicker-previous-day></sbb-datepicker-previous-day><sbb-datepicker-toggle></sbb-datepicker-toggle><input value='01.01.2023'/><sbb-datepicker class='demo-item' wide></sbb-datepicker><sbb-datepicker-next-day></sbb-datepicker-next-day></sbb-form-field>",
     "configuration" : [
         {
             "attribute":"wide",
@@ -15,6 +15,25 @@
             {
                 "value":"true",
                 "label":"true"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"form-field",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            },
+            {
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
             }]
         }
     ]
