@@ -15,7 +15,7 @@ Become familiar with different types of disability and how these influence the u
 Introduction to different disabilities: <sbb-link variant="inline" type="button" target="_blank" href="https://webaim.org/intro/#people">https://webaim.org/intro/#people</sbb-link>
 
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Include people with disabilities{.with-icon}
-As with all other users, you can of course also ask people with disabilities and invite them to take usability tests. This can be done via the SBB Disability Council or the various specialist working groups. Get in touch with your (link: /en/accessibility/introduction/contact text: contacts). {.lead}
+As with all other users, you can of course also ask people with disabilities and invite them to take usability tests. This can be done via the SBB Disability Council or the various specialist working groups. Get in touch with your <sbb-link variant="inline" type="button" target="_blank" href="/en/accessibility/introduction/contact/">contacts</sbb-link>. {.lead}
 
 Tips on user involvement: <sbb-link variant="inline" type="button" target="_blank" href="https://www.w3.org/WAI/test-evaluate/involving-users">https://www.w3.org/WAI/test-evaluate/involving-users</sbb-link>
 

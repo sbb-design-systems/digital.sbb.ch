@@ -15,7 +15,7 @@ Apprends à connaître les différents types de handicaps et leur incidence sur 
 Présentation de différents handicaps: <sbb-link variant="inline" type="button" target="_blank" href="https://webaim.org/intro/#people">https://webaim.org/intro/#people</sbb-link>
 
 ## <sbb-icon name="circle-tick-medium"></sbb-icon> Associe des personnes avec un handicap à ta réflexion{.with-icon}
-Au même titre que les autres utilisateurs, les personnes souffrant d’un handicap peuvent être simplement consultées ou invitées à effectuer des tests d’utilisabilité. Cela peut se faire notamment par l’intermédiaire du Comité consultatif handicap des CFF. Adresse-toi dans ce cas à tes (link: /fr/accessibilite/introduction/contact text: contacts). {.lead}
+Au même titre que les autres utilisateurs, les personnes souffrant d’un handicap peuvent être simplement consultées ou invitées à effectuer des tests d’utilisabilité. Cela peut se faire notamment par l’intermédiaire du Comité consultatif handicap des CFF. Adresse-toi dans ce cas à tes <sbb-link variant="inline" type="button" target="_blank" href="/fr/accessibilite/introduction/contact/">contacts</sbb-link>. {.lead}
 
 Conseils pour la participation des utilisateurs: <sbb-link variant="inline" type="button" target="_blank" href="https://www.w3.org/WAI/test-evaluate/involving-users">https://www.w3.org/WAI/test-evaluate/involving-users</sbb-link> 
 
