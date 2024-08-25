@@ -11,11 +11,8 @@
       {{ content | safe }}
     </sbb-container>
     {% include "../_includes/footer.njk" %}
-
     <script type="module" src="/assets/js/lyne-bundle.js"></script>
-    <script type="module" src="/assets/js/ux-components/ux-components.esm.js"></script>
-
-    <script src="/assets/js/navigation.js"></script>
+  
     {% if layout == "community-assets.njk" %}
     <script src="/assets/js/community-assets.js"></script>
     {% elif layout == "overview.njk" %}
