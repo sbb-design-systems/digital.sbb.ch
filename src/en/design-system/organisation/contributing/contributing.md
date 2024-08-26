@@ -48,4 +48,5 @@ Components that speed up the design and development process by reducing the need
 ## Yes, no or yes & no. 
 Together we decide whether content should be included or not. This quiz is intended to help you decide whether a component belongs in the design system or should be developed in the project. In case of doubt/uncertainty: do not hesitate to contact us. {.lead}
 
+ <script src="/assets/js/ux-components/ux-components.esm.js"></script>
 <div class="experiment"><questionaire-form></questionaire-form></div>
