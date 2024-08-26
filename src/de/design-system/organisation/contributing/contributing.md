@@ -46,5 +46,5 @@ Komponenten, die den Design- und Entwicklungsprozess beschleunigen, indem sie di
 ## Ja, Nein oder Jein. 
 Zusammen entscheiden wir ob Inhalte aufgenommen werden oder nicht. Dieses Quiz soll bei der Fragestellung helfen ob eine Komponente ins Design System gehört oder im Projekt entwickelt werden soll. Bei Zweifel/Unsicherheit: Zögere nicht uns zu kontaktieren. {.lead}
 
- <script src="/assets/js/ux-components/ux-components.esm.js"></script>
+ <script type="module" src="/assets/js/ux-components/ux-components.esm.js"></script>
 <div class="experiment"><questionaire-form></questionaire-form></div>
