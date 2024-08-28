@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: 
     - lyne_components_en
 key: popover-folder-lyne_en

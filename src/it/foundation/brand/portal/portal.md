@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: level3
 key: portal_it
 title: Portale della marca FFS

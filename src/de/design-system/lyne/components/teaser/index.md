@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: 
     - lyne_components_de
 key: teaser-folder-lyne_de

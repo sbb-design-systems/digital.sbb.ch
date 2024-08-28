@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: 
     - lyne_components_it
 key: card-folder-lyne_it

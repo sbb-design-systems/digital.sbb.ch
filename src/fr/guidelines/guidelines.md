@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: level1
 key: guidelines_fr
 title: Guidelines

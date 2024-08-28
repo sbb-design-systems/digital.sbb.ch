@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: 
     - lyne_components_fr
 key: option-folder-lyne_fr

@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: level2
 key: regulations_fr
 title: Spécifications

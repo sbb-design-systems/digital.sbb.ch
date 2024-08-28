@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+hideInSitemap: true
 tags: level3
 key: portal_fr
 title: Portail de la marque CFF

@@ -6,7 +6,7 @@ parent: root
 eleventyExcludeFromCollections: true
 permalink: /sitemap.xml
 ---
-{% for page in collections.all %}{% if page.url | url == "." %}{% else %}{% if page.data.redirect.length %}{% else %}
+{% for page in collections.all | exclude("data.hideInSitemap", true) %}{% if page.url | url == "." %}{% else %}{% if page.data.redirect.length %}{% else %}
 <url>
     <loc>{{ site.url }}{{ page.url | url }}</loc>
     <xhtml:link rel="alternate" hreflang="de" href="/de{{ page.url.slice(3, -1) }}/" /> 

@@ -42,6 +42,7 @@ module.exports = async function(eleventyConfig) {
 
 
     eleventyConfig.setLibrary('md', markdownLib)
+    eleventyConfig.addPassthroughCopy("src/assets/redirects");
     eleventyConfig.addPassthroughCopy("src/assets/images");
     eleventyConfig.addPassthroughCopy("src/assets/js");
     eleventyConfig.addPassthroughCopy("src/assets/fonts");
