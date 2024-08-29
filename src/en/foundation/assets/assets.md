@@ -1,5 +1,6 @@
 ---
 layout: redirect.njk
+permalink: false
 hideInSitemap: true
 tags: level2
 key: assets_en

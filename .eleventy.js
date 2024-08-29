@@ -133,6 +133,12 @@ module.exports = async function(eleventyConfig) {
             });
         });
 
+    eleventyConfig.addFilter("removeLastPathSegment", function(url) {
+        if (typeof url !== 'string') return url;
+        // Entfernt alles nach dem letzten "/"
+        return url.substring(0, url.lastIndexOf('/'));
+        });    
+
     eleventyConfig.addFilter("lyneexample", (pattern) => {
         const lyneStories = require('@sbb-esta/lyne-elements/dist/collection/storybundle');    
         const rawStories = lyneStories[pattern];

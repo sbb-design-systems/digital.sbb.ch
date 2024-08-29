@@ -1,0 +1,10 @@
+---
+layout: redirects.njk
+key: redirects
+title: Redirects
+parent: root
+eleventyExcludeFromCollections: true
+permalink: /redirects.txt
+---
+{% for page in collections.all | include("data.hideInSitemap", true) %}{{ page.filePathStem | removeLastPathSegment }} https://digital.sbb.ch{{page.data.redirect}}
+{% endfor %}
