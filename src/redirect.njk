@@ -6,5 +6,5 @@ parent: root
 eleventyExcludeFromCollections: true
 permalink: /redirects.txt
 ---
-{% for page in collections.all | include("data.hideInSitemap", true) | exclude("data.external", true) %}{{ page.filePathStem | removeLastPathSegment }} https://digital.sbb.ch{{page.data.redirect}};
+{% for page in collections.all | include("data.hideInSitemap", true) | exclude("data.external", true) %}{{ page.filePathStem | removeLastPathSegment }} {{page.data.redirect}};
 {% endfor %}
