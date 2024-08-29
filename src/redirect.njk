@@ -7,4 +7,4 @@ eleventyExcludeFromCollections: true
 permalink: /redirects.txt
 ---
 {% for page in collections.all | include("data.hideInSitemap", true) %}
-    {{ page.filePathStem | removeLastPathSegment }}/ https://digital.sbb.ch{{page.data.redirect}};{% endfor %}
+{{ page.filePathStem | removeLastPathSegment }}/ https://digital.sbb.ch{{page.data.redirect}};{% endfor %}
