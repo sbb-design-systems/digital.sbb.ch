@@ -1,9 +1,6 @@
 ---
 tags: file-selector-lyne_de
-title: Info
-key: file-selector-lyne-overview_de
 parent: file-selector-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: checkbox-panel-lyne_de
-title: Info
-key: checkbox-panel-lyne-overview_de
 parent: checkbox-panel-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

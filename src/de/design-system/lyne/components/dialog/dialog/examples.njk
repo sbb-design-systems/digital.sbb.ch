@@ -1,15 +1,12 @@
 ---
 tags: dialog-lyne_de
-title: Demo
-key: dialog-lyne-examples_de
 parent: dialog-lyne_de
-icon: demo
 order: 3
 permalink: false  
 ---
 
 {{ lynePlayground({
-  json: lyne.playgrounds.dialog,
+  json: lyne.components.dialog.sbbDialog.playground,
   translations: translations["de"].lyne
   }) }}
 
@@ -19,15 +16,15 @@ permalink: false
   translations: translations["de"].lyne
   }) }}
 
- <script>
-const buttons = document.querySelectorAll(".dialogtrigger");
-function buttonClicked(index) {
+<script>
+  const buttons = document.querySelectorAll(".dialogtrigger");
+  function buttonClicked(index) {
     const dialog = document.getElementById("dialog-"+(index + 1));
     console.log(dialog.id);
     dialog.open(event);
-}
-buttons.forEach((button, index) => {
-  button.addEventListener("click", () => buttonClicked(index));
-});
+  }
+  buttons.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+  });
 </script>
  

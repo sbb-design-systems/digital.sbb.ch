@@ -1,9 +1,6 @@
 ---
 tags: form-field-clear-lyne_de
-title: Anatomie
-key: form-field-clear-lyne-anatomy_de
 parent: form-field-clear-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

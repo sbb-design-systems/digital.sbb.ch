@@ -2,9 +2,7 @@
 tags: 
     - clock-lyne_en
 title: Anatomy
-key: clock-lyne-anatomy_en
 parent: clock-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

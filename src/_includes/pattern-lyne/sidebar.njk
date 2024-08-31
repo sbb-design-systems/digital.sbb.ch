@@ -1,0 +1,34 @@
+<div id="body-overlay"></div>
+<dialog id="sidebar">
+    <div id="componentbrowser" class="browser component lyne-browser">
+        <div class="browser-header-component">   
+        <div>
+            <sbb-title level="5" class="browser-title">{{ translations[page.lang].findcomponent }}</sbb-title>
+            <p class="metal no-margin">{{dsname}}</p>
+        </div>
+        <div>
+        <sbb-secondary-button size="m" id="close-browser">
+            <sbb-icon slot="icon" name="cross-small"></sbb-icon>
+        </sbb-secondary-button>
+        </div>
+        <sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
+            <label>{{ translations[page.lang].searchinput }}</label>
+            <input id="search-form-field" class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
+        </sbb-form-field>
+        </div>
+
+        <ul id="scroll-position" class="component-list list component tree">
+            <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
+            {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
+            {%- for entry in basicPages %}
+                {% include "./tree.njk" %}
+            {%- endfor -%}
+            <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
+            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponents) | sortByOrder %}
+            {%- for entry in componentsPages %}
+                {% include "./tree.njk" %}
+            {%- endfor -%}
+        </ul>
+
+    </div>
+</dialog>

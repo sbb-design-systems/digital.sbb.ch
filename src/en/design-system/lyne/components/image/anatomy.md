@@ -2,7 +2,6 @@
 tags: 
     - image-lyne_en
 title: Anatomy
-key: image-lyne-anatomy_en
 parent: image-lyne_en
 image: specification
 order: 2

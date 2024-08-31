@@ -2,9 +2,7 @@
 tags: 
     - radio-button-lyne_en
 title: Anatomy
-key: radio-button-lyne-anatomy_en
 parent: radio-button-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -1,12 +1,11 @@
 ---
+id: sbbMiniButton
+folder: button
 tags: mini-button-lyne_de
-title: Implementation
-key: mini-button-lyne-implementation_de
 parent: mini-button-lyne_de
-icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.button.minibutton | absolutelinks | safe }}
+{{ lyne.components[folder][id].implementation | absolutelinks | safe }}
 
 

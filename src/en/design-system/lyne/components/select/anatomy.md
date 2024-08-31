@@ -2,9 +2,7 @@
 tags: 
     - select-lyne_en
 title: Anatomy
-key: select-lyne-anatomy_en
 parent: select-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

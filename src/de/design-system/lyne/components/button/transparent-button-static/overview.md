@@ -1,9 +1,6 @@
 ---
 tags: transparent-button-static-lyne_de
-title: Info
-key: transparent-button-static-lyne-overview_de
 parent: transparent-button-static-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

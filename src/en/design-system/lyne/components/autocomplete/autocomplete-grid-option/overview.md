@@ -2,9 +2,7 @@
 tags: 
     - autocomplete-grid-option-lyne_en
 title: Info
-key: autocomplete-grid-option-lyne-overview_en
 parent: autocomplete-grid-option-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

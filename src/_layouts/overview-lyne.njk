@@ -3,9 +3,9 @@ layout: base.njk
 ---
 {% if availablelanguages.length %}
   {% include "../_includes/missing-languages.njk" %}
-  {% include "../_includes/documentation/component-overview-lyne.njk" %}
+  {% include "../_includes/pattern-lyne/overview.njk" %}
 {% else %}
   {% include "../_includes/title.njk" %}
   {{ content | safe }}
-  {% include "../_includes/documentation/component-overview-lyne.njk" %}
+  {% include "../_includes/pattern-lyne/overview.njk" %}
 {% endif %}

@@ -2,9 +2,7 @@
 tags: 
     - link-list-anchor-lyne_en
 title: Info
-key: link-list-anchor-lyne-overview_en
 parent: link-list-anchor-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

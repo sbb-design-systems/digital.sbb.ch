@@ -2,9 +2,7 @@
 tags: 
     - file-selector-lyne_en
 title: Info
-key: file-selector-lyne-overview_en
 parent: file-selector-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

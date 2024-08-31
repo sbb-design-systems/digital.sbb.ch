@@ -2,9 +2,7 @@
 tags: 
     - teaser-product-static-lyne_en
 title: Info
-key: teaser-product-static-lyne-overview_en
 parent: teaser-product-static-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

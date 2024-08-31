@@ -1,12 +1,11 @@
 ---
+id: sbbMessage
+folder: message
 tags: message-lyne_de
-title: Implementation
-key: message-lyne-implementation_de
 parent: message-lyne_de
-icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.message.message | absolutelinks | safe }}
+{{ lyne.components[folder][id].implementation | absolutelinks | safe }}
 
 

@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: option-folder-lyne_en
 title: Option
 parent: lyne_components_en
 keywords: option, option group, optgroup

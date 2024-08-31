@@ -2,9 +2,7 @@
 tags: 
     - button-static-lyne_en
 title: Info
-key: button-static-lyne-overview_en
 parent: button-static-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

@@ -2,9 +2,7 @@
 tags: 
     - autocomplete-lyne_en
 title: Anatomy
-key: autocomplete-lyne-anatomy_en
 parent: autocomplete-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -2,9 +2,7 @@
 tags: 
     - slider-lyne_en
 title: Anatomy
-key: slider-lyne-anatomy_en
 parent: slider-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: table-wrapper-lyne_de
-title: Info
-key: table-wrapper-lyne-overview_de
 parent: table-wrapper-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

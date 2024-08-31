@@ -1,9 +1,6 @@
 ---
 tags: autocomplete-lyne_de
-title: Anatomie
-key: autocomplete-lyne-anatomy_de
 parent: autocomplete-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

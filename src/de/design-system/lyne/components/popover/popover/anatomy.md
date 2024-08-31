@@ -1,9 +1,6 @@
 ---
 tags: popover-lyne_de
-title: Anatomie
-key: popover-lyne-anatomy_de
 parent: popover-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

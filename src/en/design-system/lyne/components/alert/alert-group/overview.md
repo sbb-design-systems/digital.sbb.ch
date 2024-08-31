@@ -2,9 +2,7 @@
 tags: 
     - alert-group-lyne_en
 title: Info
-key: alert-group-lyne-overview_en
 parent: alert-group-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

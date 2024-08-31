@@ -1,9 +1,6 @@
 ---
 tags: overlay-lyne_de
-title: Anatomie
-key: overlay-lyne-anatomy_de
 parent: overlay-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

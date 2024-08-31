@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: radio-button-folder-lyne_en
 title: Radio-Button
 parent: lyne_components_en
 keywords: radiobutton, radio, radio-button, radio-button-group, group

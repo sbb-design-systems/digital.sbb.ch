@@ -7,35 +7,18 @@ module.exports = {
      * @param {String} pageUrl is the page context
      * @returns {String} is the attributes or empty
      */
-    getLinkActiveState(itemUrl, pageUrl) {
+    getLinkActiveState(itemUrl, pageUrl, topLevel) {
         let response = '';
-        if (itemUrl.length > 1 && pageUrl.indexOf(itemUrl) === 0) {
+        let result = itemUrl;
+        if (topLevel) {
+            result = itemUrl.substring(0, itemUrl.lastIndexOf('/') + 1);
+        } else {
+        }
+        if (result.length > 1 && pageUrl.indexOf(result) === 0) {
             response += ' class="sbb-active" ';
         }
         return response;
     }
     
-    /*
-    ,
 
-    getLinkActiveState2(itemUrl, pageUrl) {
-        let response = '';
-
-        let splitsItemUrl = itemUrl.split("/").at(-2);
-        let splitsPageUrl = pageUrl.split("/").at(-3);
-
-        console.log(splitsItemUrl +": "+splitsPageUrl);
-
-        if (splitsItemUrl == splitsPageUrl) {
-            response += ' class="sbb-active" ';
-        }
-
-        
-        if (itemUrl.length > 1 && pageUrl.indexOf(itemUrl) === 0) {
-            response += ' class="sbb-active" ';
-        }
-        
-        return response;
-    }
-    */
 };

@@ -1,5 +1,4 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 

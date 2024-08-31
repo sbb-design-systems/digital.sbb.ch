@@ -1,9 +1,6 @@
 ---
 tags: header-lyne_de
-title: Anatomie
-key: header-lyne-anatomy_de
 parent: header-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

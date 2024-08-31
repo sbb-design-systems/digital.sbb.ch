@@ -1,9 +1,6 @@
 ---
 tags: datepicker-next-day-lyne_de
-title: Anatomie
-key: datepicker-next-day-lyne-anatomy_de
 parent: datepicker-next-day-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

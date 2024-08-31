@@ -2,9 +2,7 @@
 tags: 
     - selection-expansion-panel-lyne_en
 title: Info
-key: selection-expansion-panel-lyne-overview_en
 parent: selection-expansion-panel-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

@@ -2,9 +2,7 @@
 tags: 
     - accordion-lyne_en
 title: Anatomy
-key: accordion-lyne-anatomy_en
 parent: accordion-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

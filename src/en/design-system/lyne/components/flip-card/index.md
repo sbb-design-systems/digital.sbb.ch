@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: flip-card-folder-lyne_en
 title: Flip-Card
 parent: lyne_components_en
 keywords: flip-card, flip, card

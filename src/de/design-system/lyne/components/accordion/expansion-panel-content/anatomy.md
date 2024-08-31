@@ -1,9 +1,6 @@
 ---
 tags: expansion-panel-content-lyne_de
-title: Anatomie
-key: expansion-panel-content-lyne-anatomy_de
 parent: expansion-panel-content-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

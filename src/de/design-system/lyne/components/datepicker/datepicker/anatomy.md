@@ -1,9 +1,6 @@
 ---
 tags: datepicker-lyne_de
-title: Anatomie
-key: datepicker-lyne-anatomy_de
 parent: datepicker-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

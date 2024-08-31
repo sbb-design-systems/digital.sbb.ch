@@ -1,0 +1,28 @@
+{
+    "tag":"sbb-accordion",
+    "category":"component",
+    "dev":"production",
+    "figma":true,
+    "appearance" : [{
+        "label":"positive",
+        "value":true,
+        "state":"ready"
+    }, 
+    {
+        "label":"negative",
+        "value":false,
+        "state":"missing"
+    }],
+    "mode" : [{
+        "label":"Light",
+        "value":true,
+        "state":"ready"
+    }, 
+    {
+        "label":"Dark",
+        "value":false,
+        "state":"missing"
+    }]
+}
+
+ 

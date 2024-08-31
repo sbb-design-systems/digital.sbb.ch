@@ -1,4 +1,4 @@
-{% macro imageWithMode(params) %}<div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x"></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x"></figure></div>{% include "../documentation/mode-switch.njk" %}{% endmacro %}
+{% macro imageWithMode(params) %}<div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x"></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x"></figure></div>{% include "../pattern-default/mode-switch.njk" %}{% endmacro %}
 
 {% macro imageOnGreyBackground(params) %}<div class="boxed-image"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure></div>{% endmacro %}
 
@@ -50,7 +50,8 @@
 
 {% macro lynePlayground(params) %}
 {% set pattern = params.json %}
-{% if pattern.content !== '' %}<h2>{{ params.translations["playground"] }}</h2>
+{% if pattern.content %}
+    <h2>{{ params.translations["playground"] }}</h2>
     <div class="demo {% if params.wide == true %}wide{% endif %}">
         <div class="background" id="background">
             {{pattern.content | safe}}
@@ -86,6 +87,7 @@
         </div>
     </div>
 {% else %}
+Kaputt
 {% endif %}
 <script src="/assets/js/lyne-playground.js"></script>
 {% endmacro %}

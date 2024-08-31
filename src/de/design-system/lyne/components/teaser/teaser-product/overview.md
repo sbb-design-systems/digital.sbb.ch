@@ -1,9 +1,6 @@
 ---
 tags: teaser-product-lyne_de
-title: Info
-key: teaser-product-lyne-overview_de
 parent: teaser-product-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

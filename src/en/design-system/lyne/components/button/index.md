@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: button-folder-lyne_en
 title: Button
 parent: lyne_components_en
 keywords: button, link

@@ -1,9 +1,6 @@
 ---
 tags: card-lyne_de
-title: Info
-key: card-lyne-overview_de
 parent: card-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

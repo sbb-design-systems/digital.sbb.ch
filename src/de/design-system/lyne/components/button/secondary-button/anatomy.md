@@ -1,9 +1,6 @@
 ---
 tags: secondary-button-lyne_de
-title: Anatomie
-key: secondary-button-lyne-anatomy_de
 parent: secondary-button-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

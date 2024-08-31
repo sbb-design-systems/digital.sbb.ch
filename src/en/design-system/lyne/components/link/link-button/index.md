@@ -4,7 +4,6 @@ tags:
     - lyne_components_en
     - lyne_components_link_button_en
     - lyne_components_link_variants_en
-key: link-button-lyne_en
 title: Link (Button)
 parent: link-folder-lyne_en
 keywords: link, icon, split, action

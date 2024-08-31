@@ -2,9 +2,7 @@
 tags: 
     - block-link-button-lyne_en
 title: Info
-key: block-link-button-lyne-overview_en
 parent: block-link-button-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

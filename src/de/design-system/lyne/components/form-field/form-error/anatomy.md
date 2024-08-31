@@ -1,9 +1,6 @@
 ---
 tags: form-error-lyne_de
-title: Anatomie
-key: form-error-lyne-anatomy_de
 parent: form-error-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

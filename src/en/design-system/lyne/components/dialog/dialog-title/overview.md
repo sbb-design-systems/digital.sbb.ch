@@ -2,9 +2,7 @@
 tags: 
     - dialog-title-lyne_en
 title: Info
-key: dialog-title-lyne-overview_en
 parent: dialog-title-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

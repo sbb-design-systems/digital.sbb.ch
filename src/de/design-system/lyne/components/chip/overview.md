@@ -1,9 +1,6 @@
 ---
 tags: chip-lyne_de
-title: Info
-key: chip-lyne-overview_de
 parent: chip-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: breadcrumb-folder-lyne_en
 title: Breadcrumb
 parent: lyne_components_en
 keywords: bread, breadcrumb, breadcrumb-group, breadcrumb group

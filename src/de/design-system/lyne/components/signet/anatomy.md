@@ -1,9 +1,6 @@
 ---
 tags: signet-lyne_de
-title: Anatomie
-key: signet-lyne-anatomy_de
 parent: signet-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

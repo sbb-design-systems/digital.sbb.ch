@@ -1,9 +1,6 @@
 ---
 tags: dialog-content-lyne_de
-title: Anatomie
-key: dialog-content-lyne-anatomy_de
 parent: dialog-content-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

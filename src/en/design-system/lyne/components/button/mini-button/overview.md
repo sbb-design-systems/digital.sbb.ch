@@ -2,9 +2,7 @@
 tags: 
     - mini-button-lyne_en
 title: Info
-key: mini-button-lyne-overview_en
 parent: mini-button-lyne_en
-icon: overview
 order: 1
 permalink: false
 

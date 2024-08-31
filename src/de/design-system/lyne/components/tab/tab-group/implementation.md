@@ -1,12 +1,11 @@
 ---
+id: sbbTabGroup
+folder: tab
 tags: tab-group-lyne_de
-title: Implementation
-key: tab-group-lyne-implementation_de
 parent: tab-group-lyne_de
-icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.tabs.tabgroup | absolutelinks | safe }}
+{{ lyne.components[folder][id].implementation | absolutelinks | safe }}
 
 

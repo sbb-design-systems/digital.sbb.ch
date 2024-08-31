@@ -1,9 +1,6 @@
 ---
 tags: container-lyne_de
-title: Anatomie
-key: container-lyne-anatomy_de
 parent: container-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

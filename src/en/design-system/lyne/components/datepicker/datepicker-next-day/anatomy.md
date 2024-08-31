@@ -2,9 +2,7 @@
 tags: 
     - datepicker-next-day-lyne_en
 title: Anatomy
-key: datepicker-next-day-lyne-anatomy_en
 parent: datepicker-next-day-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

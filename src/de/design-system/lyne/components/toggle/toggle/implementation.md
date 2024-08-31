@@ -1,12 +1,11 @@
 ---
+id: sbbToggle
+folder: toggle
 tags: toggle-lyne_de
-title: Implementation
-key: toggle-lyne-implementation_de
 parent: toggle-lyne_de
-icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.toggle.toggle | absolutelinks | safe }}
+{{ lyne.components[folder][id].implementation | absolutelinks | safe }}
 
 

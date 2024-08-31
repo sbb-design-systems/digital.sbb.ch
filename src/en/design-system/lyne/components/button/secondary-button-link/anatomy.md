@@ -2,9 +2,7 @@
 tags: 
     - secondary-button-link-lyne_en
 title: Anatomy
-key: secondary-button-link-lyne-anatomy_en
 parent: secondary-button-link-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

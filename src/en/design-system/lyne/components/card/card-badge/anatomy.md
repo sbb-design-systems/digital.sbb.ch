@@ -2,9 +2,7 @@
 tags: 
     - card-badge-lyne_en
 title: Anatomy
-key: card-badge-lyne-anatomy_en
 parent: card-badge-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

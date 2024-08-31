@@ -1,9 +1,6 @@
 ---
 tags: menu-button-lyne_de
-title: Info
-key: menu-button-lyne-overview_de
 parent: menu-button-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

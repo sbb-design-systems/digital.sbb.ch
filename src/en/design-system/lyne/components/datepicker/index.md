@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: datepicker-folder-lyne_en
 title: Datepicker
 parent: lyne_components_en
 keywords: date, datepicker, calendar, picker

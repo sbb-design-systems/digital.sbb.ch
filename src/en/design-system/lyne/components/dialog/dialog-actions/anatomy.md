@@ -2,9 +2,7 @@
 tags: 
     - dialog-actions-lyne_en
 title: Anatomy
-key: dialog-actions-lyne-anatomy_en
 parent: dialog-actions-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

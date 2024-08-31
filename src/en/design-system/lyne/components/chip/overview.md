@@ -2,9 +2,7 @@
 tags: 
     - chip-lyne_en
 title: Info
-key: chip-lyne-overview_en
 parent: chip-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

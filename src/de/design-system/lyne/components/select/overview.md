@@ -1,9 +1,6 @@
 ---
 tags: select-lyne_de
-title: Info
-key: select-lyne-overview_de
 parent: select-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

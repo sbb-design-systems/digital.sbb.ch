@@ -2,9 +2,7 @@
 tags: 
     - mini-button-lyne_en
 title: Anatomy
-key: mini-button-lyne-anatomy_en
 parent: mini-button-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: radio-button-panel-lyne_de
-title: Info
-key: radio-button-panel-lyne-overview_de
 parent: radio-button-panel-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

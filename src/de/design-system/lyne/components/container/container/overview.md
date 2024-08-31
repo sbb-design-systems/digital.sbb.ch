@@ -1,9 +1,6 @@
 ---
 tags: container-lyne_de
-title: Info
-key: container-lyne-overview_de
 parent: container-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: slider-lyne_de
-title: Anatomie
-key: slider-lyne-anatomy_de
 parent: slider-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: sticky-bar-lyne_de
-title: Anatomie
-key: sticky-bar-lyne-anatomy_de
 parent: sticky-bar-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

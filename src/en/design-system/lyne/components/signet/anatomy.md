@@ -2,9 +2,7 @@
 tags: 
     - signet-lyne_en
 title: Anatomy
-key: signet-lyne-anatomy_en
 parent: signet-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

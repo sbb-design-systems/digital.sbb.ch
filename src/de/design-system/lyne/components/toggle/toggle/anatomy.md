@@ -1,9 +1,6 @@
 ---
 tags: toggle-lyne_de
-title: Anatomie
-key: toggle-lyne-anatomy_de
 parent: toggle-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

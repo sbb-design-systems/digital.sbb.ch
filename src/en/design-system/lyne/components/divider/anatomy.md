@@ -2,9 +2,7 @@
 tags: 
     - divider-lyne_en
 title: Anatomy
-key: divider-lyne-anatomy_en
 parent: divider-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: radio-button-panel-lyne_de
-title: Anatomie
-key: radio-button-panel-lyne-anatomy_de
 parent: radio-button-panel-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

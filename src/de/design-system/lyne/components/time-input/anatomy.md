@@ -1,9 +1,6 @@
 ---
 tags: time-input-lyne_de
-title: Anatomie
-key: time-input-lyne-anatomy_de
 parent: time-input-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

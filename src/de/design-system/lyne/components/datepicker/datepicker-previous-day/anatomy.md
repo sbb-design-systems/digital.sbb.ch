@@ -1,9 +1,6 @@
 ---
 tags: datepicker-previous-day-lyne_de
-title: Anatomie
-key: datepicker-previous-day-lyne-anatomy_de
 parent: datepicker-previous-day-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

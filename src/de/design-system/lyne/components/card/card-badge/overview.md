@@ -1,9 +1,6 @@
 ---
 tags: card-badge-lyne_de
-title: Info
-key: card-badge-lyne-overview_de
 parent: card-badge-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

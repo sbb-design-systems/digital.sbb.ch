@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: accordion-folder-lyne_en
 title: Accordion
 parent: lyne_components_en
 keywords: accordion, expansion-panel, expansion, panel

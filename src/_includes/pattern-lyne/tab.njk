@@ -1,0 +1,12 @@
+
+<sbb-tab-group class="tab-documentation" initial-selected-index="0">
+    {%- for tab in collections[tabkey] | sortByOrder -%}
+    <sbb-tab-label level="1">
+        <sbb-icon name="{{lyne.tabs.tabs[tab.data.order - 1].icon}}" slot="icon"></sbb-icon>
+        {{lyne.tabs.tabs[tab.data.order - 1].label[page.lang]}}
+    </sbb-tab-label>
+    <sbb-tab>
+        {{tab.content | safe}}
+    </sbb-tab>
+    {%- endfor -%}
+</sbb-tab-group>

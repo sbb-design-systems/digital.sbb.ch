@@ -1,1 +1,3 @@
+{% for page in collections.all | include("data.hideInSitemap", true) %}{{ page.filePathStem | removeLastPathSegment }}/ {{page.data.redirect}};
+{% endfor %}
 {{ content | safe }}

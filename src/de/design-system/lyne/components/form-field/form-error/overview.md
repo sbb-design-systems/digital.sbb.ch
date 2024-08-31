@@ -1,9 +1,6 @@
 ---
 tags: form-error-lyne_de
-title: Info
-key: form-error-lyne-overview_de
 parent: form-error-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

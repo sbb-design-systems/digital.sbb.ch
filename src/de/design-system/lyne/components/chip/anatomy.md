@@ -1,9 +1,6 @@
 ---
 tags: chip-lyne_de
-title: Anatomie
-key: chip-lyne-anatomy_de
 parent: chip-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

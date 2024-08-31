@@ -1,9 +1,6 @@
 ---
 tags: clock-lyne_de
-title: Info
-key: clock-lyne-overview_de
 parent: clock-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

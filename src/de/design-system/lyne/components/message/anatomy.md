@@ -1,9 +1,6 @@
 ---
 tags: message-lyne_de
-title: Anatomie
-key: message-lyne-anatomy_de
 parent: message-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

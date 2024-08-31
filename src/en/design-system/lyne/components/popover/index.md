@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: popover-folder-lyne_en
 title: Popover
 parent: lyne_components_en
 keywords: popover, pop, over, trigger, popver-trigger

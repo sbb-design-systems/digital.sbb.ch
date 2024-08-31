@@ -1,9 +1,6 @@
 ---
 tags: alert-group-lyne_de
-title: Info
-key: alert-group-lyne-overview_de
 parent: alert-group-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

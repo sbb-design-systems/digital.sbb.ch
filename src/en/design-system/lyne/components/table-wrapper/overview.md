@@ -2,9 +2,7 @@
 tags: 
     - table-wrapper-lyne_en
 title: Info
-key: table-wrapper-lyne-overview_en
 parent: table-wrapper-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

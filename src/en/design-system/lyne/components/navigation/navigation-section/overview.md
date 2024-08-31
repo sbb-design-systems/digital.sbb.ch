@@ -2,9 +2,7 @@
 tags: 
     - navigation-section-lyne_en
 title: Info
-key: navigation-section-lyne-overview_en
 parent: navigation-section-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

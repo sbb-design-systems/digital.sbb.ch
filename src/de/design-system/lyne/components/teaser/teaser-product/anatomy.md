@@ -1,9 +1,6 @@
 ---
 tags: teaser-product-lyne_de
-title: Anatomie
-key: teaser-product-lyne-anatomy_de
 parent: teaser-product-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

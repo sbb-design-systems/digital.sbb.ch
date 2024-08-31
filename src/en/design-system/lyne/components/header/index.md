@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: header-folder-lyne_en
 title: Header
 parent: lyne_components_en
 keywords: header, header-link, link

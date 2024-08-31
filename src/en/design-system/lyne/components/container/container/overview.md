@@ -2,9 +2,7 @@
 tags: 
     - container-lyne_en
 title: Info
-key: container-lyne-overview_en
 parent: container-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

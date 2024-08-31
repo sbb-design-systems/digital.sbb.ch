@@ -1,9 +1,6 @@
 ---
 tags: footer-lyne_de
-title: Anatomie
-key: footer-lyne-anatomy_de
 parent: footer-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

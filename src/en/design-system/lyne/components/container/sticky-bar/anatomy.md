@@ -2,9 +2,7 @@
 tags: 
     - sticky-bar-lyne_en
 title: Anatomy
-key: sticky-bar-lyne-anatomy_en
 parent: sticky-bar-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

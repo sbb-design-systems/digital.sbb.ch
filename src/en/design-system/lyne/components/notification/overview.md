@@ -2,9 +2,7 @@
 tags: 
     - notification-lyne_en
 title: Info
-key: notification-lyne-overview_en
 parent: notification-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

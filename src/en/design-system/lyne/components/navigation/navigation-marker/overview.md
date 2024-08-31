@@ -2,9 +2,7 @@
 tags: 
     - navigation-marker-lyne_en
 title: Info
-key: navigation-marker-lyne-overview_en
 parent: navigation-marker-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

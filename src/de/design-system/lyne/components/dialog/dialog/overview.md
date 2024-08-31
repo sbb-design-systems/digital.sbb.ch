@@ -1,9 +1,6 @@
 ---
 tags: dialog-lyne_de
-title: Info
-key: dialog-lyne-overview_de
 parent: dialog-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

@@ -1,9 +1,6 @@
 ---
 tags: accordion-lyne_de
-title: Anatomie
-key: accordion-lyne-anatomy_de
 parent: accordion-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

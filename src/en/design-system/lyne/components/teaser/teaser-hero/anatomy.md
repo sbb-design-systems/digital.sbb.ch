@@ -2,9 +2,7 @@
 tags: 
     - teaser-hero-lyne_en
 title: Anatomy
-key: teaser-hero-lyne-anatomy_en
 parent: teaser-hero-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

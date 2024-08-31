@@ -1,9 +1,6 @@
 ---
 tags: toast-lyne_de
-title: Anatomie
-key: toast-lyne-anatomy_de
 parent: toast-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

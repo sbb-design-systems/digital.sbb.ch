@@ -2,9 +2,7 @@
 tags: 
     - breadcrumb-lyne_en
 title: Anatomy
-key: breadcrumb-lyne-anatomy_en
 parent: breadcrumb-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

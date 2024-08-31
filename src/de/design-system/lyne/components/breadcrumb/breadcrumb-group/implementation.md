@@ -1,12 +1,11 @@
 ---
+id: sbbBreadcrumbGroup
+folder: breadcrumb
 tags: breadcrumb-group-lyne_de
-title: Implementation
-key: breadcrumb-group-lyne-implementation_de
 parent: breadcrumb-group-lyne_de
-icon: implementation
 order: 4
 permalink: false  
 ---
-{{ lyne.readmes.breadcrumb.breadcrumbgroup | absolutelinks | safe }}
+{{ lyne.components[folder][id].implementation | absolutelinks | safe }}
 
 

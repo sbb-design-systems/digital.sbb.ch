@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: tag-folder-lyne_en
 title: Tag
 parent: lyne_components_en
 keywords: tag, tag-group, group

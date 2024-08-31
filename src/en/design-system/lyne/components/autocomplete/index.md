@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: autocomplete-folder-lyne_en
 title: Autocomplete
 parent: lyne_components_en
 keywords: autocomplete, autocomplete-grid

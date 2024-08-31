@@ -1,9 +1,6 @@
 ---
 tags: logo-lyne_de
-title: Info
-key: logo-lyne-overview_de
 parent: logo-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

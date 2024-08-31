@@ -1,9 +1,6 @@
 ---
 tags: checkbox-group-lyne_de
-title: Anatomie
-key: checkbox-group-lyne-anatomy_de
 parent: checkbox-group-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

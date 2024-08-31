@@ -2,9 +2,7 @@
 tags: 
     - autocomplete-grid-lyne_en
 title: Anatomy
-key: autocomplete-grid-lyne-anatomy_en
 parent: autocomplete-grid-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

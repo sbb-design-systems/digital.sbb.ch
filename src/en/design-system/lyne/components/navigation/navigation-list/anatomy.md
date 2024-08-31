@@ -2,9 +2,7 @@
 tags: 
     - navigation-list-lyne_en
 title: Anatomy
-key: navigation-list-lyne-anatomy_en
 parent: navigation-list-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

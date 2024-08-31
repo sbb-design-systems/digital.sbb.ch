@@ -1,7 +1,5 @@
 ---
 tags: image-lyne_de
-title: Anatomie
-key: image-lyne-anatomy_de
 parent: image-lyne_de
 image: specification
 order: 2

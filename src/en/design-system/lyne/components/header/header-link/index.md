@@ -4,7 +4,6 @@ tags:
     - lyne_components_en
     - lyne_components_header_link_en
     - lyne_components_header_children_en
-key: header-link-lyne_en
 title: Header-Link
 parent: header-folder-lyne_en
 keywords: header-link

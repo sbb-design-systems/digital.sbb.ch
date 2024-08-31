@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: menu-folder-lyne_en
 title: Menu
 parent: lyne_components_en
 keywords: menu

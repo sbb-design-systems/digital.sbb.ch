@@ -2,9 +2,7 @@
 tags: 
     - flip-card-lyne_en
 title: Anatomy
-key: flip-card-lyne-anatomy_en
 parent: flip-card-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

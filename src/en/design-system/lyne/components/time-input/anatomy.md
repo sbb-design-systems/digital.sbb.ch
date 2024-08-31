@@ -2,9 +2,7 @@
 tags: 
     - time-input-lyne_en
 title: Anatomy
-key: time-input-lyne-anatomy_en
 parent: time-input-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -1,7 +1,5 @@
 ---
 tags: image-lyne_de
-title: Info
-key: image-lyne-overview_de
 parent: image-lyne_de
 image: overview
 order: 1

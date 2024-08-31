@@ -13,6 +13,8 @@ cannonicalhome: true
   Wie nutze ich das Design System
 </sbb-button-link>
 
+ {{ lyne.status | dump | safe }}
+
 <div class="teasers home">
   {%- for teaser in collections.teaserhome_de | sortByOrder -%}
     {% include "../_includes/teaser/teaser-home.njk" %}

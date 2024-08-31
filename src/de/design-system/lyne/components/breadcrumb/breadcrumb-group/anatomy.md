@@ -1,9 +1,6 @@
 ---
 tags: breadcrumb-group-lyne_de
-title: Anatomie
-key: breadcrumb-group-lyne-anatomy_de
 parent: breadcrumb-group-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

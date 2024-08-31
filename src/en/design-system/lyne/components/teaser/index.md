@@ -1,10 +1,8 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: 
     - lyne_components_en
-key: teaser-folder-lyne_en
 title: Teaser
 parent: lyne_components_en
 keywords: teaser, teaser-hero, hero, teaser-paid, paid

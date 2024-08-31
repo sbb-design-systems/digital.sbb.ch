@@ -1,9 +1,6 @@
 ---
 tags: accordion-lyne_de
-title: Info
-key: accordion-lyne-overview_de
 parent: accordion-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

@@ -2,9 +2,7 @@
 tags: 
     - datepicker-toggle-lyne_en
 title: Anatomy
-key: datepicker-toggle-lyne-anatomy_en
 parent: datepicker-toggle-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

@@ -4,17 +4,17 @@
 {% if defaultcontent.data.key.length %}
     {% if defaultcontent.data.alternativetitle.length %}
     <sbb-title level="1">{{defaultcontent.data.alternativetitle}}</sbb-title>
-    <p class="subtext">{% if defaultcontent.data.alternativetitle == "Lyne" %}{{lyne.lyneversion.branch}}{% else %}{% endif %}</p>
+    <p class="subtext">{% if defaultcontent.data.alternativetitle == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
     {% else %}
     <sbb-title level="1">{{defaultcontent.data.title}}</sbb-title>
-    <p class="subtext">{% if defaultcontent.data.title == "Lyne" %}{{lyne.lyneversion.branch}}{% else %}{% endif %}</p>
+    <p class="subtext">{% if defaultcontent.data.title == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
     {% endif %}
 {% else %}
     {% if alternativetitle.length %}
     <sbb-title level="1">{{alternativetitle}}</sbb-title>
-    <p class="subtext">{% if alternativetitle == "Lyne" %}{{lyne.lyneversion.branch}}{% else %}{% endif %}</p>
+    <p class="subtext">{% if alternativetitle == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
     {% else %}
     <sbb-title level="1">{{title}}</sbb-title>
-    <p  class="subtext">{% if title == "Lyne" %}{{lyne.lyneversion.branch}}{% else %}{% endif %}</p>
+    <p  class="subtext">{% if title == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
     {% endif %}
 {% endif %}

@@ -1,9 +1,6 @@
 ---
 tags: loading-indicator-lyne_de
-title: Anatomie
-key: loading-indicator-lyne-anatomy_de
 parent: loading-indicator-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

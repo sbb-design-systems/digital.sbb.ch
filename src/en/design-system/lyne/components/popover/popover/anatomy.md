@@ -2,9 +2,7 @@
 tags: 
     - popover-lyne_en
 title: Anatomy
-key: popover-lyne-anatomy_en
 parent: popover-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

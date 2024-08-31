@@ -1,9 +1,6 @@
 ---
 tags: divider-lyne_de
-title: Anatomie
-key: divider-lyne-anatomy_de
 parent: divider-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

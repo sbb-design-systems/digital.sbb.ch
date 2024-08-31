@@ -2,9 +2,7 @@
 tags: 
     - toast-lyne_en
 title: Anatomy
-key: toast-lyne-anatomy_en
 parent: toast-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

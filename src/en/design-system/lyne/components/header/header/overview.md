@@ -2,9 +2,7 @@
 tags: 
     - header-lyne_en
 title: Info
-key: header-lyne-overview_en
 parent: header-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

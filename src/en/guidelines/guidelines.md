@@ -1,5 +1,4 @@
 ---
-layout: redirect.njk
 permalink: false
 hideInSitemap: true
 tags: level1
@@ -8,5 +7,5 @@ title: Guidelines
 alternativetitle: SBB guidelines that help.
 redirect: /en/guidelines/guides/sap/
 parent: en
-order: 1
+order: 5
 ---

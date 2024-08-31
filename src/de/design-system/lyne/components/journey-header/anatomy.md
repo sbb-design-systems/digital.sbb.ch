@@ -1,9 +1,6 @@
 ---
 tags: journey-header-lyne_de
-title: Anatomie
-key: journey-header-lyne-anatomy_de
 parent: journey-header-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

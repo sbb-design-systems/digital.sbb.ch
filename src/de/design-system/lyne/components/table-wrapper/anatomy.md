@@ -1,9 +1,6 @@
 ---
 tags: table-wrapper-lyne_de
-title: Anatomie
-key: table-wrapper-lyne-anatomy_de
 parent: table-wrapper-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

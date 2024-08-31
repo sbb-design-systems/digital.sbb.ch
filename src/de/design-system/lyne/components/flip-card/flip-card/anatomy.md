@@ -1,9 +1,6 @@
 ---
 tags: flip-card-lyne_de
-title: Anatomie
-key: flip-card-lyne-anatomy_de
 parent: flip-card-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

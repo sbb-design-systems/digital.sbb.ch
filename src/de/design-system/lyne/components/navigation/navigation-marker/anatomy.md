@@ -1,9 +1,6 @@
 ---
 tags: navigation-marker-lyne_de
-title: Anatomie
-key: navigation-marker-lyne-anatomy_de
 parent: navigation-marker-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

@@ -2,9 +2,7 @@
 tags: 
     - radio-button-panel-lyne_en
 title: Info
-key: radio-button-panel-lyne-overview_en
 parent: radio-button-panel-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

@@ -2,9 +2,7 @@
 tags: 
     - checkbox-group-lyne_en
 title: Anatomy
-key: checkbox-group-lyne-anatomy_en
 parent: checkbox-group-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

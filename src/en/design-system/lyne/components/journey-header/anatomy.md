@@ -2,9 +2,7 @@
 tags: 
     - journey-header-lyne_en
 title: Anatomy
-key: journey-header-lyne-anatomy_en
 parent: journey-header-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

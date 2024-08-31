@@ -2,9 +2,7 @@
 tags: 
     - form-field-clear-lyne_en
 title: Anatomy
-key: form-field-clear-lyne-anatomy_en
 parent: form-field-clear-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---

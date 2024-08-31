@@ -1,9 +1,6 @@
 ---
 tags: card-lyne_de
-title: Anatomie
-key: card-lyne-anatomy_de
 parent: card-lyne_de
-icon: specification
 order: 2
 permalink: false
 ---

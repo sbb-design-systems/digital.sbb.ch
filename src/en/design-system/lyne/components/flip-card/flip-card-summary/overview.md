@@ -2,9 +2,7 @@
 tags: 
     - flip-card-summary-lyne_en
 title: Info
-key: flip-card-summary-lyne-overview_en
 parent: flip-card-summary-lyne_en
-icon: overview
 order: 1
 permalink: false
 ---

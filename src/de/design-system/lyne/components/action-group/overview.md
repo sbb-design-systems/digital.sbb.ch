@@ -1,9 +1,6 @@
 ---
 tags: action-group-lyne_de
-title: Info
-key: action-group-lyne-overview_de
 parent: action-group-lyne_de
-icon: overview
 order: 1
 permalink: false
 ---

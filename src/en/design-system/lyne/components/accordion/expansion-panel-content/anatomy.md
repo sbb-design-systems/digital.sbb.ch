@@ -2,9 +2,7 @@
 tags: 
     - expansion-panel-content-lyne_en
 title: Anatomy
-key: expansion-panel-content-lyne-anatomy_en
 parent: expansion-panel-content-lyne_en
-icon: specification
 order: 2
 permalink: false
 ---
