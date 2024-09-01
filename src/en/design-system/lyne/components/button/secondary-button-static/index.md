@@ -5,6 +5,7 @@ tags:
     - lyne_components_secondary_button_static_en
     - lyne_components_secondary_button_variants_en
 title: Secondary-Button (Static)
+key: secondary-button-static-lyne_en
 parent: button-folder-lyne_en
 keywords: button, icon, split, action
 order: 70

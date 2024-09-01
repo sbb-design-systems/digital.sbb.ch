@@ -6,6 +6,7 @@ tags:
     - lyne_components_optgroup_parent_en
     - lyne_components_option_parent_en
 title: Autocomplete
+key: autocomplete-lyne_en
 parent: autocomplete-folder-lyne_en
 keywords: autocomplete
 order: 10

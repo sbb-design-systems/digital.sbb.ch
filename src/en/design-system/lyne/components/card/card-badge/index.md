@@ -5,6 +5,7 @@ tags:
     - lyne_components_card_badge_en
     - lyne_components_card_child_en
 title: Card-Badge
+key: card-badge-lyne_en
 parent: card-folder-lyne_en
 keywords: card-badge
 order: 120
