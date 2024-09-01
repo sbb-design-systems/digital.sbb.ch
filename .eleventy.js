@@ -224,7 +224,7 @@ module.exports = async function(eleventyConfig) {
         }); 
 
     eleventyConfig.addFilter("renderUsingMarkdown", function(rawString) {
-        return mdRender.render(rawString);
+        return markdownLib.render(rawString);
       });  
 
 

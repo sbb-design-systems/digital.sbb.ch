@@ -8,4 +8,6 @@ title: Message
 parent: lyne_components_de
 keywords: message
 order: 260
+patternId: sbbMessage
+patternDirectory: message
 ---

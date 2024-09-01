@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-form-error",
+    "patternId":"sbbFormError",
+    "patternDirectory":"formfield",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

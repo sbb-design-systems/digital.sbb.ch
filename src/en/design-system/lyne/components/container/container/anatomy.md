@@ -1,8 +1,6 @@
 ---
 tags: 
     - container-lyne_en
-title: Anatomy
-parent: container-lyne_en
 order: 2
 permalink: false
 ---

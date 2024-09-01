@@ -1,8 +1,6 @@
 ---
 tags: 
     - autocomplete-lyne_en
-title: Info
-parent: autocomplete-lyne_en
 order: 1
 permalink: false
 ---

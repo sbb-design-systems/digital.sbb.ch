@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Checkbox
+key: checkbox-folder-lyne_en
 parent: lyne_components_en
 keywords: checkbox, checkbox-group, checkbox group
 order: 70

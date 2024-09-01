@@ -1,8 +1,6 @@
 ---
 tags: 
     - file-selector-lyne_en
-title: Anatomy
-parent: file-selector-lyne_en
 order: 2
 permalink: false
 ---

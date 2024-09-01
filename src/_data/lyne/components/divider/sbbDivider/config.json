@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-divider",
+    "patternId":"sbbDivider",
+    "patternDirectory":"divider",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

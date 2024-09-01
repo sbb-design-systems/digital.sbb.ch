@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-pearl-chain",
+    "patternId":"sbbPearlChain",
+    "patternDirectory":"pearlchain",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

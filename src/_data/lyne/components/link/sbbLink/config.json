@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-link",
+    "patternId":"sbbLink",
+    "patternDirectory":"link",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

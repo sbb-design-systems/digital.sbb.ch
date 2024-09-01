@@ -1,6 +1,5 @@
 ---
 tags: teaser-product-lyne_de
-parent: teaser-product-lyne_de
 order: 1
 permalink: false
 ---

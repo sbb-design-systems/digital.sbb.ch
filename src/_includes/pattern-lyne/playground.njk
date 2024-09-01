@@ -1,0 +1,35 @@
+    <h2>{{ translations[page.lang].lyne["playground"] }}</h2>
+    <div class="demo {% if params.wide == true %}wide{% endif %}">
+        <div class="background" id="background">
+            {{playground.content | safe}}
+        </div>
+        <div class="config-bar">
+            <sbb-accordion title-level='3'>
+            {% for item in playground.configuration %}
+                <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
+                    <sbb-expansion-panel-header>{{ translations[page.lang].lyne[item.label] }}</sbb-expansion-panel-header>
+                    <sbb-expansion-panel-content>
+                        <sbb-radio-button-group value="{{item.default}}" orientation="vertical" data-mode="{{ item.mode }}" data-target="{{ item.target }}" data-property="{{item.attribute}}">
+                            {% for option in item.options %}
+                                <sbb-radio-button value="{{option.value}}">{{ translations[page.lang].lyne[option.label] }}</sbb-radio-button>
+                            {% endfor %}
+                        </sbb-radio-button-group>
+                    </sbb-expansion-panel-content>
+                </sbb-expansion-panel>
+            {% else %}
+            {% endfor %}
+                <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
+                    <sbb-expansion-panel-header>{{ translations[page.lang].lyne["background"] }}</sbb-expansion-panel-header>
+                    <sbb-expansion-panel-content>
+                        <sbb-radio-button-group value="white" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
+                            <sbb-radio-button value="white">White</sbb-radio-button>
+                            <sbb-radio-button value="milk">Milk</sbb-radio-button>
+                            <sbb-radio-button value="iron">Iron</sbb-radio-button>
+                            <sbb-radio-button value="charcoal">Charcoal</sbb-radio-button>
+                            <sbb-radio-button value="black">Black</sbb-radio-button>
+                        </sbb-radio-button-group>
+                    </sbb-expansion-panel-content>
+                </sbb-expansion-panel>
+            </sbb-accordion>
+        </div>
+    </div>

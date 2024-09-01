@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-transparent-button",
+    "patternId":"sbbTransparentButton",
+    "patternDirectory":"button",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

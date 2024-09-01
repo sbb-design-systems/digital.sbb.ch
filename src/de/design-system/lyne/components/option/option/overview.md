@@ -1,6 +1,5 @@
 ---
 tags: option-lyne_de
-parent: option-lyne_de
 order: 1
 permalink: false
 ---

@@ -9,4 +9,6 @@ title: Calendar
 parent: lyne_components_de
 keywords: calendar
 order: 55
+patternId: sbbCalendar
+patternDirectory: calendar
 ---

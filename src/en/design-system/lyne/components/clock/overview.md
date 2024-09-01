@@ -1,8 +1,6 @@
 ---
 tags: 
     - clock-lyne_en
-title: Info
-parent: clock-lyne_en
 order: 1
 permalink: false
 ---

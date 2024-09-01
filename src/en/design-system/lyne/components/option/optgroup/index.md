@@ -9,4 +9,6 @@ title: Optgroup
 parent: option-folder-lyne_en
 keywords: optgroup
 order: 290
+patternId: sbbOptgroup
+patternDirectory: option
 ---

@@ -8,4 +8,6 @@ title: Tab-Group
 parent: tab-folder-lyne_de
 keywords: tab-group
 order: 610
+patternId: sbbTabGroup
+patternDirectory: tab
 ---

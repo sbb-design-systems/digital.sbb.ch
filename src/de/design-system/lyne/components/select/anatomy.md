@@ -1,6 +1,5 @@
 ---
 tags: select-lyne_de
-parent: select-lyne_de
 order: 2
 permalink: false
 ---

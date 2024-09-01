@@ -8,4 +8,6 @@ parent: datepicker-folder-lyne_en
 keywords: datepicker-next-day
 order: 30
 excludeInNavigation: true
+patternId: sbbDatepickerNextDay
+patternDirectory: datepicker
 ---

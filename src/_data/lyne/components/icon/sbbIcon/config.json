@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-icon",
+    "patternId":"sbbIcon",
+    "patternDirectory":"icon",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

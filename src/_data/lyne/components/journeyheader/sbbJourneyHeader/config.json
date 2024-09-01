@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-journey-header",
+    "patternId":"sbbJourneyHeader",
+    "patternDirectory":"journeyheader",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

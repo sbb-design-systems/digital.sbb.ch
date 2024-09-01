@@ -9,4 +9,6 @@ title: Tertiary-Button
 parent: button-folder-lyne_en
 keywords: button, icon, split, action
 order: 80
+patternId: sbbTertiaryButton
+patternDirectory: button
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - autocomplete-lyne_en
-title: Anatomy
-parent: autocomplete-lyne_en
 order: 2
 permalink: false
 ---

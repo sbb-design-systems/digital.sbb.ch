@@ -1,6 +1,5 @@
 ---
 tags: time-input-lyne_de
-parent: time-input-lyne_de
 order: 1
 permalink: false
 ---

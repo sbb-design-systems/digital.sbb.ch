@@ -1,8 +1,6 @@
 ---
 tags: 
     - tertiary-button-link-lyne_en
-title: Info
-parent: tertiary-button-link-lyne_en
 order: 1
 permalink: false
 ---

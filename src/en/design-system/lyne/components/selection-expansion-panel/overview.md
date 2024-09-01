@@ -1,8 +1,6 @@
 ---
 tags: 
     - selection-expansion-panel-lyne_en
-title: Info
-parent: selection-expansion-panel-lyne_en
 order: 1
 permalink: false
 ---

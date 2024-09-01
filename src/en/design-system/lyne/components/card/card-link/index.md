@@ -9,4 +9,6 @@ parent: card-folder-lyne_en
 keywords: card-link
 order: 110
 excludeInNavigation: true
+patternId: sbbCardLink
+patternDirectory: card
 ---

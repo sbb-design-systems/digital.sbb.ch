@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-sticky-bar",
+    "patternId":"sbbStickyBar",
+    "patternDirectory":"container",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-card-badge",
+    "patternId":"sbbCardBadge",
+    "patternDirectory":"card",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

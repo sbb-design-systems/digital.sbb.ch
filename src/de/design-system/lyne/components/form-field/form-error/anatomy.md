@@ -1,6 +1,5 @@
 ---
 tags: form-error-lyne_de
-parent: form-error-lyne_de
 order: 2
 permalink: false
 ---

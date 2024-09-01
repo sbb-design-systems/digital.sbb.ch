@@ -1,8 +1,6 @@
 ---
 tags: 
     - toast-lyne_en
-title: Anatomy
-parent: toast-lyne_en
 order: 2
 permalink: false
 ---

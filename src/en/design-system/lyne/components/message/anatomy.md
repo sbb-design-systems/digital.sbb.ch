@@ -1,8 +1,6 @@
 ---
 tags: 
     - message-lyne_en
-title: Anatomy
-parent: message-lyne_en
 order: 2
 permalink: false
 ---

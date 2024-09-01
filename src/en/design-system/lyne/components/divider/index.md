@@ -7,4 +7,6 @@ title: Divider
 parent: lyne_components_en
 keywords: divider
 order: 130
+patternId: sbbDivider
+patternDirectory: divider
 ---

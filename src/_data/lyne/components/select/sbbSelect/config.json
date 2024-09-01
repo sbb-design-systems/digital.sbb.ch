@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-select",
+    "patternId":"sbbSelect",
+    "patternDirectory":"select",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

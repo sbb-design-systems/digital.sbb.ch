@@ -1,8 +1,6 @@
 ---
 tags: 
     - time-input-lyne_en
-title: Info
-parent: time-input-lyne_en
 order: 1
 permalink: false
 ---

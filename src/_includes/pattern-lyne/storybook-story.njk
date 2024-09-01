@@ -1,0 +1,16 @@
+{% for storybookStory, story in storybookStories %}
+{% if story.tag == tag and story.component == true %}
+<sbb-title level="3" visual-level="5">{{story.name}}</sbb-title>
+    <div class="example">
+        <iframe id="{{story.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{story.id}}&viewMode=story" title="{{story.name}}"></iframe>
+        <div class="example-footer">
+            <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
+                <sbb-secondary-button-link size="m" icon-name="book-small" href="https://lyne-storybook.app.sbb.ch/?path=/story/{{story.id}}" target="_blank">{{ translations[page.lang].lyne["storybooklink"] }}</sbb-secondary-button-link>
+                <sbb-secondary-button size="m" data-iframeid="{{story.id}}" icon-name="clipboard-list-small"></sbb-secondary-button>
+                <sbb-toggle-check data-codetoggle="{{story.id}}" size="m" label-position="after">{{ translations[page.lang].lyne["showhtml"] }}</sbb-toggle-check>
+            </sbb-action-group>
+        </div>
+    </div>
+{% endif %}
+{% endfor %}
+<sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">{{ translations[page.lang].lyne["copyhtml"] }}</sbb-toast>

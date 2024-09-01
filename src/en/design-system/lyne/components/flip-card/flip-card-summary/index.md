@@ -7,4 +7,6 @@ title: Flip-Card-Summary
 parent: flip-card-folder-lyne_en
 keywords: flip-card-summary
 order: 147
+patternId: sbbFlipCardSummary
+patternDirectory: flipcard
 ---

@@ -7,4 +7,6 @@ title: Popover-Trigger
 parent: popover-folder-lyne_en
 keywords: popover-trigger
 order: 510
+patternId: sbbPopoverTrigger
+patternDirectory: popover
 ---

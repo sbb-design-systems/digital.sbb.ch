@@ -1,6 +1,5 @@
 ---
 tags: image-lyne_de
-parent: image-lyne_de
 image: overview
 order: 1
 permalink: false

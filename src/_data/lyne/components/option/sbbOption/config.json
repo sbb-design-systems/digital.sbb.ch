@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-option",
+    "patternId":"sbbOption",
+    "patternDirectory":"option",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

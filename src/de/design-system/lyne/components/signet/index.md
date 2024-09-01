@@ -8,4 +8,6 @@ title: Signet
 parent: lyne_components_de
 keywords: signet
 order: 350
+patternId: sbbSignet
+patternDirectory: logo 
 ---

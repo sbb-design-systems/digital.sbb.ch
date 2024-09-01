@@ -1,8 +1,6 @@
 ---
 tags: 
     - menu-lyne_en
-title: Info
-parent: menu-lyne_en
 order: 1
 permalink: false
 ---

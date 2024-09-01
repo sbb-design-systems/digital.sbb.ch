@@ -7,4 +7,6 @@ title: File-Selector
 parent: lyne_components_de
 keywords: file-selector
 order: 140
+patternId: sbbFileSelector
+patternDirectory: fileselector
 ---

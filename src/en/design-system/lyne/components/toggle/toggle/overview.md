@@ -1,8 +1,6 @@
 ---
 tags: 
     - toggle-lyne_en
-title: Info
-parent: toggle-lyne_en
 order: 1
 permalink: false
 ---

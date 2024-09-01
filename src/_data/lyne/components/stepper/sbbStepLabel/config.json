@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-step-label",
+    "patternId":"sbbStepLabel",
+    "patternDirectory":"stepper",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

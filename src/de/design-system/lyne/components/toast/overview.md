@@ -1,6 +1,5 @@
 ---
 tags: toast-lyne_de
-parent: toast-lyne_de
 order: 1
 permalink: false
 ---

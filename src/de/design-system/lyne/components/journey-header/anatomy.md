@@ -1,6 +1,5 @@
 ---
 tags: journey-header-lyne_de
-parent: journey-header-lyne_de
 order: 2
 permalink: false
 ---

@@ -7,4 +7,6 @@ title: Tab-Label
 parent: tab-folder-lyne_en
 keywords: tab-title
 order: 620
+patternId: sbbTabLabel
+patternDirectory: tab
 ---

@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-chip",
+    "patternId":"sbbChip",
+    "patternDirectory":"chip",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

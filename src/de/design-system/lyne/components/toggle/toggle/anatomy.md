@@ -1,6 +1,5 @@
 ---
 tags: toggle-lyne_de
-parent: toggle-lyne_de
 order: 2
 permalink: false
 ---

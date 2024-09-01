@@ -1,6 +1,5 @@
 ---
 tags: message-lyne_de
-parent: message-lyne_de
 order: 1
 permalink: false
 ---

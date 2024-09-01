@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-form-field",
+    "patternId":"sbbFormField",
+    "patternDirectory":"formfield",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

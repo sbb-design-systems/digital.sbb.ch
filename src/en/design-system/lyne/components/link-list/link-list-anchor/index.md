@@ -7,4 +7,6 @@ title: Link-List-Anchor
 parent: link-list-folder-lyne_en
 keywords: link-list, anchor, link
 order: 10
+patternId: sbbLinkListAnchor
+patternDirectory: linklist
 ---

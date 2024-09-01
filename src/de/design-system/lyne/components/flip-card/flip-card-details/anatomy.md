@@ -1,6 +1,5 @@
 ---
 tags: flip-card-details-lyne_de
-parent: flip-card-details-lyne_de
 order: 2
 permalink: false
 ---

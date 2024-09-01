@@ -1,8 +1,6 @@
 ---
 tags: 
     - toast-lyne_en
-title: Info
-parent: toast-lyne_en
 order: 1
 permalink: false
 ---

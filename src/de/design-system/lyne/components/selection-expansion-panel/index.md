@@ -8,4 +8,6 @@ title: Selection-Expansion-Panel
 parent: lyne_components_de
 keywords: selection-expansion-panel
 order: 340
+patternId: sbbSelectionExpansionPanel
+patternDirectory: selectionexpansionpanel
 ---

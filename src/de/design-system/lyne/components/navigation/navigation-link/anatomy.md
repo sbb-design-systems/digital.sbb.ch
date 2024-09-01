@@ -1,6 +1,5 @@
 ---
 tags: navigation-link-lyne_de
-parent: navigation-link-lyne_de
 order: 2
 permalink: false
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - chip-lyne_en
-title: Info
-parent: chip-lyne_en
 order: 1
 permalink: false
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - checkbox-group-lyne_en
-title: Anatomy
-parent: checkbox-group-lyne_en
 order: 2
 permalink: false
 ---

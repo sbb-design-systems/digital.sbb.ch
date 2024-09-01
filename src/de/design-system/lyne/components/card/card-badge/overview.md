@@ -1,6 +1,5 @@
 ---
 tags: card-badge-lyne_de
-parent: card-badge-lyne_de
 order: 1
 permalink: false
 ---

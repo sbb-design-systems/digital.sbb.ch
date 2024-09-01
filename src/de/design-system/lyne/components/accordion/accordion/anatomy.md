@@ -1,6 +1,5 @@
 ---
 tags: accordion-lyne_de
-parent: accordion-lyne_de
 order: 2
 permalink: false
 ---

@@ -1,6 +1,5 @@
 ---
 tags: breadcrumb-group-lyne_de
-parent: breadcrumb-group-lyne_de
 order: 2
 permalink: false
 ---

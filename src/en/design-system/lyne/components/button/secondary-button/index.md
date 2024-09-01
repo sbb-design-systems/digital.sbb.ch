@@ -9,4 +9,6 @@ title: Secondary-Button
 parent: button-folder-lyne_en
 keywords: button, icon, split, action
 order: 50
+patternId: sbbSecondaryButton
+patternDirectory: button
 ---

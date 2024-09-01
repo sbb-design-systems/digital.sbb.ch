@@ -1,8 +1,6 @@
 ---
 tags: 
     - sticky-bar-lyne_en
-title: Info
-parent: sticky-bar-lyne_en
 order: 1
 permalink: false
 ---

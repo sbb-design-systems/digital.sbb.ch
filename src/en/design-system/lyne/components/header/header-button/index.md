@@ -8,4 +8,6 @@ title: Header-Button
 parent: header-folder-lyne_en
 keywords: header-button
 order: 310
+patternId: sbbHeaderButton
+patternDirectory: header
 ---

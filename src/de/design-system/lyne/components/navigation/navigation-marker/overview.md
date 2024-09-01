@@ -1,6 +1,5 @@
 ---
 tags: navigation-marker-lyne_de
-parent: navigation-marker-lyne_de
 order: 1
 permalink: false
 ---

@@ -10,4 +10,6 @@ title: Transparent-Button
 parent: button-folder-lyne_de
 keywords: button, icon, split, action
 order: 110
+patternId: sbbTransparentButton
+patternDirectory: button
 ---

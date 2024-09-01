@@ -7,4 +7,6 @@ title: Breadcrumb-Group
 parent: breadcrumb-folder-lyne_en
 keywords: breadcrumb, bread, crumb
 order: 70
+patternId: sbbBreadcrumbGroup
+patternDirectory: breadcrumb
 ---

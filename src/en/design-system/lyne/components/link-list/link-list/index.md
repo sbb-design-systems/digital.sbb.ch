@@ -7,4 +7,6 @@ title: Link-List
 parent: link-list-folder-lyne_en
 keywords: link-list, action
 order: 220
+patternId: sbbLinkList
+patternDirectory: linklist
 ---

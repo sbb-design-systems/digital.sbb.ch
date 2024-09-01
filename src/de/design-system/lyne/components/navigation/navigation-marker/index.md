@@ -10,4 +10,6 @@ parent: navigation-folder-lyne_de
 keywords: navigation-marker
 order: 450
 excludeInNavigation: true
+patternId: sbbNavigationMarker
+patternDirectory: navigation
 ---

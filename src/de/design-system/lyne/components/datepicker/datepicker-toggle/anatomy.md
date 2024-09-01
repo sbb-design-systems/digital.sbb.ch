@@ -1,6 +1,5 @@
 ---
 tags: datepicker-toggle-lyne_de
-parent: datepicker-toggle-lyne_de
 order: 2
 permalink: false
 ---

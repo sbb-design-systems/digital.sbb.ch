@@ -8,4 +8,6 @@ title: Time-Input
 parent: lyne_components_de
 keywords: Time, Input
 order: 420
+patternId: sbbTimeInput
+patternDirectory: timeinput
 ---

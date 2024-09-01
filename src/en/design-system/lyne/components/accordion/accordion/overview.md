@@ -1,8 +1,5 @@
 ---
-tags: 
-    - accordion-lyne_en
-title: Info
-parent: accordion-lyne_en
+tags: accordion-lyne_en
 order: 1
 permalink: false
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - footer-lyne_en
-title: Info
-parent: footer-lyne_en
 order: 1
 permalink: false
 ---

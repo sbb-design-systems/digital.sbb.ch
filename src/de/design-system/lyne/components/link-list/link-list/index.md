@@ -8,4 +8,6 @@ title: Link-List
 parent: link-list-folder-lyne_de
 keywords: link-list, link
 order: 10
+patternId: sbbLinkList
+patternDirectory: linklist
 ---

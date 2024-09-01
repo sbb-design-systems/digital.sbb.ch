@@ -1,6 +1,5 @@
 ---
 tags: link-list-anchor-lyne_de
-parent: link-list-anchor-lyne_de
 order: 2
 permalink: false
 ---

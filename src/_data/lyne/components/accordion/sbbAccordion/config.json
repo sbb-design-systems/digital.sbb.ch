@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-accordion",
+    "patternId":"sbbAccordion",
+    "patternDirectory":"accordion",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

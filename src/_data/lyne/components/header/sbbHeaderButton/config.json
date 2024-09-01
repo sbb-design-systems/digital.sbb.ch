@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-header-button",
+    "patternId":"sbbHeaderButton",
+    "patternDirectory":"header",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

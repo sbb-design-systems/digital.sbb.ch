@@ -1,8 +1,6 @@
 ---
 tags: 
     - chip-lyne_en
-title: Anatomy
-parent: chip-lyne_en
 order: 2
 permalink: false
 ---

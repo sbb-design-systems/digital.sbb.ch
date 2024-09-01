@@ -1,8 +1,6 @@
 ---
 tags: 
     - slider-lyne_en
-title: Anatomy
-parent: slider-lyne_en
 order: 2
 permalink: false
 ---

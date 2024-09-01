@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-autocomplete",
+    "patternId":"sbbAutocomplete",
+    "patternDirectory":"autocomplete",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Autocomplete
+key: autocomplete-folder-lyne_en
 parent: lyne_components_en
 keywords: autocomplete, autocomplete-grid
 order: 30

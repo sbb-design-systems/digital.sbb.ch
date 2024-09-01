@@ -1,6 +1,5 @@
 ---
 tags: mini-button-lyne_de
-parent: mini-button-lyne_de
 order: 2
 permalink: false
 ---

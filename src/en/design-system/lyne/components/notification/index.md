@@ -7,4 +7,6 @@ title: Notification
 parent: lyne_components_en
 keywords: notification
 order: 280
+patternId: sbbNotification
+patternDirectory: notification
 ---

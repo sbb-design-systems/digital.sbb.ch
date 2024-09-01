@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-message",
+    "patternId":"sbbMessage",
+    "patternDirectory":"message",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

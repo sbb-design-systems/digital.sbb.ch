@@ -9,4 +9,6 @@ parent: datepicker-folder-lyne_de
 keywords: datepicker-toggle
 order: 50
 excludeInNavigation: true
+patternId: sbbDatepickerToggle
+patternDirectory: datepicker
 ---

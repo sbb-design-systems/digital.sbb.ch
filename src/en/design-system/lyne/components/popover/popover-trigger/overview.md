@@ -1,8 +1,6 @@
 ---
 tags: 
     - popover-trigger-lyne_en
-title: Info
-parent: popover-trigger-lyne_en
 order: 1
 permalink: false
 ---

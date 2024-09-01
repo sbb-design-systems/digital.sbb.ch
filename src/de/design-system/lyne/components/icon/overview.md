@@ -1,6 +1,5 @@
 ---
 tags: icon-lyne_de
-parent: icon-lyne_de
 order: 1
 permalink: false
 ---

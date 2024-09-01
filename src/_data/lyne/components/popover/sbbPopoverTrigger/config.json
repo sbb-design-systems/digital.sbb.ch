@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-popover-trigger",
+    "patternId":"sbbPopoverTrigger",
+    "patternDirectory":"popover",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

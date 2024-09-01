@@ -9,4 +9,6 @@ title: Menu-Button
 parent: menu-folder-lyne_de
 keywords: menu-link
 order: 400
+patternId: sbbMenuButton
+patternDirectory: menu
 ---

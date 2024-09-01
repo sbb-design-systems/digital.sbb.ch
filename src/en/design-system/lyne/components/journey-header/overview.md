@@ -1,8 +1,6 @@
 ---
 tags: 
     - journey-header-lyne_en
-title: Info
-parent: journey-header-lyne_en
 order: 1
 permalink: false
 ---

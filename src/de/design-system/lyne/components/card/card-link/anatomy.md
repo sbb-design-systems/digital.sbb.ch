@@ -1,6 +1,5 @@
 ---
 tags: card-link-lyne_de
-parent: card-link-lyne_de
 order: 2
 permalink: false
 ---

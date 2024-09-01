@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Container
+key: container-folder-lyne_en
 parent: lyne_components_en
 keywords: container, sticky-bar, sticky, bar
 order: 100

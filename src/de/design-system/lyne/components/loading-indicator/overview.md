@@ -1,6 +1,5 @@
 ---
 tags: loading-indicator-lyne_de
-parent: loading-indicator-lyne_de
 order: 1
 permalink: false
 ---

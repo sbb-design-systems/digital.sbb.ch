@@ -1,8 +1,6 @@
 ---
 tags: 
     - clock-lyne_en
-title: Anatomy
-parent: clock-lyne_en
 order: 2
 permalink: false
 ---

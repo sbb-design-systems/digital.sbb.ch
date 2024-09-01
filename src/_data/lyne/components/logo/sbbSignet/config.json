@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-signet",
+    "patternId":"sbbSignet",
+    "patternDirectory":"logo",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

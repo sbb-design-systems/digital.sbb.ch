@@ -8,4 +8,6 @@ title: Logo
 parent: lyne_components_de
 keywords: logo
 order: 240
+patternId: sbbLogo
+patternDirectory: logo
 ---

@@ -10,4 +10,6 @@ parent: form-field-folder-lyne_de
 keywords: form-field-clear
 order: 30
 excludeInNavigation: true
+patternId: sbbFormFieldClear
+patternDirectory: formfield
 ---

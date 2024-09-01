@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-container",
+    "patternId":"sbbContainer",
+    "patternDirectory":"container",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

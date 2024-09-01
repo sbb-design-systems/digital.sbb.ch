@@ -1,8 +1,6 @@
 ---
 tags: 
     - signet-lyne_en
-title: Info
-parent: signet-lyne_en
 order: 1
 permalink: false
 ---

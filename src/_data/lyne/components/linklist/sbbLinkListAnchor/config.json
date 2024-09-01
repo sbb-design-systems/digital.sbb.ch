@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-link-list-anchor",
+    "patternId":"sbbLinkListAnchor",
+    "patternDirectory":"linklist",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

@@ -1,6 +1,5 @@
 ---
 tags: image-lyne_de
-parent: image-lyne_de
 image: specification
 order: 2
 permalink: false

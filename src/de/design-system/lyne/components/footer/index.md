@@ -7,4 +7,6 @@ title: Footer
 parent: lyne_components_de
 keywords: footer
 order: 150
+patternId: sbbFooter
+patternDirectory: footer
 ---

@@ -9,4 +9,6 @@ title: Form-Error
 parent: form-field-folder-lyne_de
 keywords: form-error
 order: 20
+patternId: sbbFormError
+patternDirectory: formfield
 ---

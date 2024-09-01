@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Breadcrumb
+key: breadcrumb-folder-lyne_en
 parent: lyne_components_en
 keywords: bread, breadcrumb, breadcrumb-group, breadcrumb group
 order: 40

@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-logo",
+    "patternId":"sbbLogo",
+    "patternDirectory":"logo",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

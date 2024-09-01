@@ -9,4 +9,6 @@ parent: navigation-folder-lyne_en
 keywords: navigation-list
 order: 440
 excludeInNavigation: true
+patternId: sbbNavigationList
+patternDirectory: navigation
 ---

@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Flip-Card
+key: flip-card-folder-lyne_en
 parent: lyne_components_en
 keywords: flip-card, flip, card
 order: 145

@@ -1,6 +1,5 @@
 ---
 tags: footer-lyne_de
-parent: footer-lyne_de
 order: 1
 permalink: false
 ---

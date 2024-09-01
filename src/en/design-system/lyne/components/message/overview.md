@@ -1,8 +1,6 @@
 ---
 tags: 
     - message-lyne_en
-title: Info
-parent: message-lyne_en
 order: 1
 permalink: false
 ---

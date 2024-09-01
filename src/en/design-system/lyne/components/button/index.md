@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Button
+key: button-folder-lyne_en
 parent: lyne_components_en
 keywords: button, link
 order: 50

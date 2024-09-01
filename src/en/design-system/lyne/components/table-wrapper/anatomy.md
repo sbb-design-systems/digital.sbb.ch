@@ -1,8 +1,6 @@
 ---
 tags: 
     - table-wrapper-lyne_en
-title: Anatomy
-parent: table-wrapper-lyne_en
 order: 2
 permalink: false
 ---

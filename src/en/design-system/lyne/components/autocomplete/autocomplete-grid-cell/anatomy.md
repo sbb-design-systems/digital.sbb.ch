@@ -1,8 +1,6 @@
 ---
 tags: 
     - autocomplete-grid-cell-lyne_en
-title: Anatomy
-parent: autocomplete-grid-cell-lyne_en
 order: 2
 permalink: false
 ---

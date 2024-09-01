@@ -1,8 +1,6 @@
 ---
 tags: 
     - navigation-section-lyne_en
-title: Info
-parent: navigation-section-lyne_en
 order: 1
 permalink: false
 ---

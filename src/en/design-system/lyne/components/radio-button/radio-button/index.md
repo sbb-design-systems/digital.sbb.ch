@@ -7,4 +7,6 @@ title: Radio-Button
 parent: radio-button-folder-lyne_en
 keywords: radio-button
 order: 520
+patternId: sbbRadioButton
+patternDirectory: radiobutton
 ---

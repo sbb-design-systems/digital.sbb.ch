@@ -1,6 +1,5 @@
 ---
 tags: notification-lyne_de
-parent: notification-lyne_de
 order: 1
 permalink: false
 ---

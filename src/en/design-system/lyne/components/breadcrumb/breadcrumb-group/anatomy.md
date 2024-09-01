@@ -1,8 +1,6 @@
 ---
 tags: 
     - breadcrumb-group-lyne_en
-title: Anatomy
-parent: breadcrumb-group-lyne_en
 order: 2
 permalink: false
 ---

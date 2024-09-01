@@ -9,4 +9,6 @@ title: Option
 parent: option-folder-lyne_en
 keywords: option
 order: 300
+patternId: sbbOption
+patternDirectory: option
 ---

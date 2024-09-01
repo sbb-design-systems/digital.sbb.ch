@@ -1,8 +1,6 @@
 ---
 tags: 
     - radio-button-group-lyne_en
-title: Info
-parent: radio-button-group-lyne_en
 order: 1
 permalink: false
 ---

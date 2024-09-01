@@ -8,4 +8,6 @@ title: Expansion-Panel-Content
 parent: accordion-folder-lyne_en
 order: 240
 excludeInNavigation: true
+patternId: sbbExpansionPanelContent
+patternDirectory: accordion
 ---

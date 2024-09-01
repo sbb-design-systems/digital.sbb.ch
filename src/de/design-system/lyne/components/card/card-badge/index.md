@@ -9,4 +9,6 @@ title: Card-Badge
 parent: card-folder-lyne_de
 keywords: card-badge
 order: 120
+patternId: sbbCardBadge
+patternDirectory: card
 ---

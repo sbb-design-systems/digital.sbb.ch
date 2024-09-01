@@ -1,8 +1,6 @@
 ---
 tags: 
     - popover-trigger-lyne_en
-title: Anatomy
-parent: popover-trigger-lyne_en
 order: 2
 permalink: false
 ---

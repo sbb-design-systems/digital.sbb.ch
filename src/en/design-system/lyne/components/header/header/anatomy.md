@@ -1,8 +1,6 @@
 ---
 tags: 
     - header-lyne_en
-title: Anatomy
-parent: header-lyne_en
 order: 2
 permalink: false
 ---

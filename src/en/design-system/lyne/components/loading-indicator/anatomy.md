@@ -1,8 +1,6 @@
 ---
 tags: 
     - loading-indicator-lyne_en
-title: Anatomy
-parent: loading-indicator-lyne_en
 order: 2
 permalink: false
 ---

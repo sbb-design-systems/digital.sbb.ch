@@ -1,8 +1,6 @@
 ---
 tags: 
     - accordion-lyne_en
-title: Anatomy
-parent: accordion-lyne_en
 order: 2
 permalink: false
 ---

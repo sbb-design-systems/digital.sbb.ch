@@ -1,6 +1,5 @@
 ---
 tags: radio-button-lyne_de
-parent: radio-button-lyne_de
 order: 1
 permalink: false
 ---

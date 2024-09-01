@@ -1,8 +1,6 @@
 ---
 tags: 
     - notification-lyne_en
-title: Anatomy
-parent: notification-lyne_en
 order: 2
 permalink: false
 ---

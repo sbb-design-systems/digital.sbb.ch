@@ -1,8 +1,6 @@
 ---
 tags: 
     - card-lyne_en
-title: Anatomy
-parent: card-lyne_en
 order: 2
 permalink: false
 ---

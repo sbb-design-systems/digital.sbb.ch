@@ -9,4 +9,6 @@ parent: dialog-folder-lyne_en
 keywords: dialog
 order: 30
 excludeInNavigation: true
+patternId: sbbDialogContent
+patternDirectory: dialog
 ---

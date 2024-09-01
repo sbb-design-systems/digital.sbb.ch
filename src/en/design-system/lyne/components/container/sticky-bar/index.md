@@ -7,4 +7,6 @@ title: Sticky-Bar
 parent: container-folder-lyne_en
 keywords: sticky-bar
 order: 600
+patternId: sbbStickyBar
+patternDirectory: container
 ---

@@ -8,4 +8,6 @@ key: expansion-panel-lyne_de
 title: Expansion-Panel
 parent: accordion-folder-lyne_de
 order: 240
+patternId: sbbExpansionPanel
+patternDirectory: accordion
 ---

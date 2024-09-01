@@ -1,8 +1,6 @@
 ---
 tags: 
     - dialog-title-lyne_en
-title: Info
-parent: dialog-title-lyne_en
 order: 1
 permalink: false
 ---

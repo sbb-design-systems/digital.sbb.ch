@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-popover",
+    "patternId":"sbbPopover",
+    "patternDirectory":"popover",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

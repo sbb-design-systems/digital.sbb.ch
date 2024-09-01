@@ -8,4 +8,6 @@ title: Table-Wrapper
 parent: lyne_components_de
 keywords: table-wrapper
 order: 395
+patternId: sbbTableWrapper
+patternDirectory: table
 ---

@@ -1,6 +1,5 @@
 ---
 tags: block-link-lyne_de
-parent: block-link-lyne_de
 order: 2
 permalink: false
 ---

@@ -10,4 +10,6 @@ title: Select
 parent: lyne_components_de
 keywords: select
 order: 330
+patternId: sbbSelect
+patternDirectory: select
 ---

@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-alert",
+    "patternId":"sbbAlert",
+    "patternDirectory":"alert",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

@@ -1,8 +1,6 @@
 ---
 tags: 
     - sticky-bar-lyne_en
-title: Anatomy
-parent: sticky-bar-lyne_en
 order: 2
 permalink: false
 ---

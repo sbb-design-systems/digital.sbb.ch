@@ -10,4 +10,6 @@ parent: link-folder-lyne_de
 keywords: link, icon, split, action
 order: 350
 excludeInNavigation: true
+patternId: sbbBlockLinkStatic
+patternDirectory: link
 ---

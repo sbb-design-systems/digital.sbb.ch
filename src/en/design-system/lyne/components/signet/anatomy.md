@@ -1,8 +1,6 @@
 ---
 tags: 
     - signet-lyne_en
-title: Anatomy
-parent: signet-lyne_en
 order: 2
 permalink: false
 ---

@@ -8,4 +8,6 @@ title: Menu
 parent: menu-folder-lyne_de
 keywords: menu
 order: 390
+patternId: sbbMenu
+patternDirectory: menu
 ---

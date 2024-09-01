@@ -8,4 +8,6 @@ title: Journey-Header
 parent: lyne_components_de
 keywords: journey-header
 order: 200
+patternId: sbbJourneyHeader
+patternDirectory: journeyheader
 ---

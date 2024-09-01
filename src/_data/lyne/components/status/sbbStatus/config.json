@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-status",
+    "patternId":"sbbStatus",
+    "patternDirectory":"status",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

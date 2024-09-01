@@ -1,6 +1,5 @@
 ---
 tags: container-lyne_de
-parent: container-lyne_de
 order: 2
 permalink: false
 ---

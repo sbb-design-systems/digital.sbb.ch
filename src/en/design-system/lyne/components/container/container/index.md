@@ -7,4 +7,6 @@ title: Container
 parent: container-folder-lyne_en
 keywords: container
 order: 170
+patternId: sbbContainer
+patternDirectory: container
 ---

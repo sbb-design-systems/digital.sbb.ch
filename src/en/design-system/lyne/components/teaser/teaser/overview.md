@@ -1,8 +1,6 @@
 ---
 tags: 
     - teaser-lyne_en
-title: Info
-parent: teaser-lyne_en
 order: 1
 permalink: false
 ---

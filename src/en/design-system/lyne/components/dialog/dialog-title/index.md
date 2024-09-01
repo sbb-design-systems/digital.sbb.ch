@@ -8,4 +8,6 @@ title: Dialog-Title
 parent: dialog-folder-lyne_en
 keywords: dialog
 order: 20
+patternId: sbbDialogTitle
+patternDirectory: dialog
 ---

@@ -9,4 +9,6 @@ parent: button-folder-lyne_en
 keywords: button, icon, split, action
 order: 30
 excludeInNavigation: true
+patternId: sbbButtonStatic
+patternDirectory: button
 ---

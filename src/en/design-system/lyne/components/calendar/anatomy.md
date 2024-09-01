@@ -1,8 +1,6 @@
 ---
 tags: 
     - calendar-lyne_en
-title: Anatomy
-parent: calendar-lyne_en
 order: 2
 permalink: false
 ---

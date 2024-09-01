@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-table-wrapper",
+    "patternId":"sbbTableWrapper",
+    "patternDirectory":"table",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

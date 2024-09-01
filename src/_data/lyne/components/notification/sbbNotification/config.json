@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-notification",
+    "patternId":"sbbNotification",
+    "patternDirectory":"notification",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

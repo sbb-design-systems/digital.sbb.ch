@@ -9,4 +9,6 @@ title: Block-Link
 parent: link-folder-lyne_de
 keywords: link, icon, split, action
 order: 350
+patternId: sbbBlockLink
+patternDirectory: link
 ---

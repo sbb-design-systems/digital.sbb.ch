@@ -7,4 +7,6 @@ title: Tag
 parent: tag-folder-lyne_en
 keywords: tag
 order: 630
+patternId: sbbTag
+patternDirectory: tag
 ---

@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Toggle
+key: toggle-folder-lyne_en
 parent: lyne_components_en
 keywords: toggle, toggle-option, toggle-check, check, option
 order: 450

@@ -8,4 +8,6 @@ title: Teaser
 parent: teaser-folder-lyne_en
 keywords: teaser
 order: 650
+patternId: sbbTeaser
+patternDirectory: teaser
 ---

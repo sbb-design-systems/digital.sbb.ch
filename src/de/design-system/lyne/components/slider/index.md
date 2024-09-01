@@ -8,4 +8,6 @@ title: Slider
 parent: lyne_components_de
 keywords: slider
 order: 370
+patternId: sbbSlider
+patternDirectory: slider
 ---

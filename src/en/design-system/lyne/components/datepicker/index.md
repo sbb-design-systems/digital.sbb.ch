@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Datepicker
+key: datepicker-folder-lyne_en
 parent: lyne_components_en
 keywords: date, datepicker, calendar, picker
 order: 110

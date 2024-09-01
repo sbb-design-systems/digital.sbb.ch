@@ -9,4 +9,6 @@ title: Mini-Button
 parent: button-folder-lyne_en
 keywords: button, icon, split, action
 order: 140
+patternId: sbbMiniButton
+patternDirectory: button
 ---

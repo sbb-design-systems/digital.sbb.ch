@@ -8,4 +8,6 @@ title: Status
 parent: lyne_components_de
 keywords: status
 order: 380
+patternId: sbbStaus
+patternDirectory: status
 ---

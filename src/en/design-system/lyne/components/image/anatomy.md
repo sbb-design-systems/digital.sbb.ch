@@ -1,8 +1,6 @@
 ---
 tags: 
     - image-lyne_en
-title: Anatomy
-parent: image-lyne_en
 image: specification
 order: 2
 permalink: false

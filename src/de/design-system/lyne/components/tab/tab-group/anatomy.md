@@ -1,6 +1,5 @@
 ---
 tags: tab-group-lyne_de
-parent: tab-group-lyne_de
 order: 2
 permalink: false
 ---

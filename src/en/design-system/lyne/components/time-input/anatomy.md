@@ -1,8 +1,6 @@
 ---
 tags: 
     - time-input-lyne_en
-title: Anatomy
-parent: time-input-lyne_en
 order: 2
 permalink: false
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - expansion-panel-lyne_en
-title: Anatomy
-parent: expansion-panel-lyne_en
 order: 2
 permalink: false
 ---

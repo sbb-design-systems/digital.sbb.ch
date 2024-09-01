@@ -8,4 +8,6 @@ title: Popover
 parent: popover-folder-lyne_de
 keywords: popover
 order: 500
+patternId: sbbPopover
+patternDirectory: popover 
 ---

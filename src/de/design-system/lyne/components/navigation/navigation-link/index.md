@@ -10,4 +10,6 @@ title: Navigation-Link
 parent: navigation-folder-lyne_de
 keywords: navigation-link
 order: 430
+patternId: sbbNavigationLink
+patternDirectory: navigation
 ---

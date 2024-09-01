@@ -8,4 +8,6 @@ title: Container
 parent: container-folder-lyne_de
 keywords: container
 order: 170
+patternId: sbbContainer
+patternDirectory: container
 ---

@@ -1,6 +1,5 @@
 ---
 tags: expansion-panel-content-lyne_de
-parent: expansion-panel-content-lyne_de
 order: 1
 permalink: false
 ---

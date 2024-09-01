@@ -8,4 +8,6 @@ title: Datepicker
 parent: datepicker-folder-lyne_de
 keywords: datepicker
 order: 10
+patternId: sbbDatepicker
+patternDirectory: datepicker
 ---

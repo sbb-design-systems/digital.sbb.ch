@@ -1,6 +1,5 @@
 ---
 tags: checkbox-group-lyne_de
-parent: checkbox-group-lyne_de
 order: 2
 permalink: false
 ---

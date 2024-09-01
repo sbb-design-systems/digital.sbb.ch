@@ -1,8 +1,6 @@
 ---
 tags: 
     - radio-button-lyne_en
-title: Anatomy
-parent: radio-button-lyne_en
 order: 2
 permalink: false
 ---

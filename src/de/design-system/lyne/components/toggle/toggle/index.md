@@ -8,4 +8,6 @@ title: Toggle
 parent: toggle-folder-lyne_de
 keywords: toggle
 order: 700
+patternId: sbbToggle
+patternDirectory: toggle
 ---

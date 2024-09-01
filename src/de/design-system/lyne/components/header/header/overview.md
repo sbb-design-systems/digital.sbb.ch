@@ -1,6 +1,5 @@
 ---
 tags: header-lyne_de
-parent: header-lyne_de
 order: 1
 permalink: false
 ---

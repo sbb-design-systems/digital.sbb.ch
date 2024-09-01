@@ -1,8 +1,6 @@
 ---
 tags: 
     - overlay-lyne_en
-title: Anatomy
-parent: overlay-lyne_en
 order: 2
 permalink: false
 ---

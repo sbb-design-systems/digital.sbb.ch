@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-toggle-check",
+    "patternId":"sbbToggleCheck",
+    "patternDirectory":"togglecheck",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

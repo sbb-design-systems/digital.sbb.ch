@@ -6,4 +6,6 @@ tags:
 title: Alert
 parent: alert-folder-lyne_en
 order: 30
+patternId: sbbAlert
+patternDirectory: alert
 ---

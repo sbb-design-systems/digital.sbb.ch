@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-clock",
+    "patternId":"sbbClock",
+    "patternDirectory":"clock",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

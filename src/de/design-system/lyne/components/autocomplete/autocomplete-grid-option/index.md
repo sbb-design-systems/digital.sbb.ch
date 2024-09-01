@@ -9,4 +9,6 @@ parent: autocomplete-folder-lyne_de
 keywords: autocomplete-grid-option
 order: 30
 excludeInNavigation: true
+patternId: sbbAutocompleteGridOption
+patternDirectory: autocomplete
 ---

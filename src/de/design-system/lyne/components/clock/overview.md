@@ -1,6 +1,5 @@
 ---
 tags: clock-lyne_de
-parent: clock-lyne_de
 order: 1
 permalink: false
 ---

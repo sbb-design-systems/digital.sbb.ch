@@ -1,8 +1,6 @@
 ---
 tags: 
     - form-field-clear-lyne_en
-title: Info
-parent: form-field-clear-lyne_en
 order: 1
 permalink: false
 ---

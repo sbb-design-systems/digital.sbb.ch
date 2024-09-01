@@ -7,4 +7,6 @@ title: Card
 parent: card-folder-lyne_en
 keywords: card
 order: 100
+patternId: sbbCard
+patternDirectory: card
 ---

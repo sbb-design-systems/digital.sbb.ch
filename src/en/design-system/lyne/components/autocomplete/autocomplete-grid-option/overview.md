@@ -1,8 +1,6 @@
 ---
 tags: 
     - autocomplete-grid-option-lyne_en
-title: Info
-parent: autocomplete-grid-option-lyne_en
 order: 1
 permalink: false
 ---

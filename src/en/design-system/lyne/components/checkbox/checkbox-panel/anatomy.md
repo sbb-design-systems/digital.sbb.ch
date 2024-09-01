@@ -1,8 +1,6 @@
 ---
 tags: 
     - checkbox-panel-lyne_en
-title: Anatomy
-parent: checkbox-panel-lyne_en
 order: 2
 permalink: false
 ---

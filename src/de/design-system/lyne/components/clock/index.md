@@ -8,4 +8,6 @@ title: Clock
 parent: lyne_components_de
 keywords: clock
 order: 90
+patternId: sbbClock
+patternDirectory: clock
 ---

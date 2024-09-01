@@ -9,4 +9,6 @@ parent: header-folder-lyne_en
 keywords: header-link
 order: 310
 excludeInNavigation: true
+patternId: sbbHeaderLink
+patternDirectory: header
 ---

@@ -1,6 +1,5 @@
 ---
 tags: overlay-lyne_de
-parent: overlay-lyne_de
 order: 2
 permalink: false
 ---

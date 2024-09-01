@@ -8,4 +8,6 @@ title: Dialog-Actions
 parent: dialog-folder-lyne_en
 keywords: dialog
 order: 40
+patternId: sbbDialogActions
+patternDirectory: dialog
 ---

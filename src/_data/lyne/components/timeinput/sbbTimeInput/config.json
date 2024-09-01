@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-time-input",
+    "patternId":"sbbTimeInput",
+    "patternDirectory":"timeinput",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

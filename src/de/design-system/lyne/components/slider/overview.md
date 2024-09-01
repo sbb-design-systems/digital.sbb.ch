@@ -1,6 +1,5 @@
 ---
 tags: slider-lyne_de
-parent: slider-lyne_de
 order: 1
 permalink: false
 ---

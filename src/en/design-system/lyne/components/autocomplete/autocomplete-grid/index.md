@@ -7,4 +7,6 @@ title: Autocomplete-Grid
 parent: autocomplete-folder-lyne_en
 keywords: autocomplete-grid
 order: 20
+patternId: sbbAutocompleteGrid
+patternDirectory: autocomplete
 ---

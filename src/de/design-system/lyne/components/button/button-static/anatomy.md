@@ -1,6 +1,5 @@
 ---
 tags: button-static-lyne_de
-parent: button-static-lyne_de
 order: 2
 permalink: false
 ---

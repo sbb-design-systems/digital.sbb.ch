@@ -1,8 +1,6 @@
 ---
 tags: 
     - alert-lyne_en
-title: Info
-parent: alert-lyne_en
 order: 1
 permalink: false
 ---

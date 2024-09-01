@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-teaser",
+    "patternId":"sbbTeaser",
+    "patternDirectory":"teaser",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

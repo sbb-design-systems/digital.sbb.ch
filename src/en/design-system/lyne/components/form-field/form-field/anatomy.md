@@ -1,8 +1,6 @@
 ---
 tags: 
     - form-field-lyne_en
-title: Anatomy
-parent: form-field-lyne_en
 order: 2
 permalink: false
 ---

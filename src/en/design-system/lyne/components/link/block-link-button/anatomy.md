@@ -1,8 +1,6 @@
 ---
 tags: 
     - block-link-button-lyne_en
-title: Anatomy
-parent: block-link-button-lyne_en
 order: 2
 permalink: false
 ---

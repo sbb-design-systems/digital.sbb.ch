@@ -8,5 +8,6 @@ title: Toggle-Option
 parent: toggle-folder-lyne_de
 keywords: toggle-option
 order: 720
-excludeInNavigation: true
+patternId: sbbToggleOption
+patternDirectory: toggle
 ---

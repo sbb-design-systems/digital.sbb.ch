@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Alert
+key: alert-folder-lyne_en
 parent: lyne_components_en
 keywords: alert, alert-group, alert group
 order: 25

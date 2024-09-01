@@ -1,8 +1,6 @@
 ---
 tags: 
     - skiplink-list-lyne_en
-title: Info
-parent: skiplink-list-lyne_en
 order: 1
 permalink: false
 ---

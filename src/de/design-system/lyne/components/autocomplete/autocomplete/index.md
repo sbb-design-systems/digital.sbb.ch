@@ -10,4 +10,6 @@ title: Autocomplete
 parent: autocomplete-folder-lyne_de
 keywords: autocomplete
 order: 10
+patternId: sbbAutocomplete
+patternDirectory: autocomplete
 ---

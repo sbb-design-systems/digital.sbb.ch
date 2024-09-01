@@ -8,4 +8,6 @@ title: Overlay
 parent: lyne_components_de
 keywords: overlay
 order: 295
+patternId: sbbOverlay
+patternDirectory: overlay
 ---

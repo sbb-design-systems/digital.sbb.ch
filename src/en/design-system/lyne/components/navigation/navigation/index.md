@@ -7,4 +7,6 @@ title: Navigation
 parent: navigation-folder-lyne_en
 keywords: navigation
 order: 420
+patternId: sbbNavigation
+patternDirectory: navigation
 ---

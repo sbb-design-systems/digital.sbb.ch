@@ -9,4 +9,6 @@ title: Teaser-Hero
 parent: teaser-folder-lyne_de
 keywords: teaser-hero
 order: 660
+patternId: sbbTeaserHero
+patternDirectory: teaser
 ---

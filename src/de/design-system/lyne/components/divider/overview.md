@@ -1,6 +1,5 @@
 ---
 tags: divider-lyne_de
-parent: divider-lyne_de
 order: 1
 permalink: false
 ---

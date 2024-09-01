@@ -1,8 +1,6 @@
 ---
 tags: 
     - container-lyne_en
-title: Info
-parent: container-lyne_en
 order: 1
 permalink: false
 ---

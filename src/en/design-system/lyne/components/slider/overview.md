@@ -1,8 +1,6 @@
 ---
 tags: 
     - slider-lyne_en
-title: Info
-parent: slider-lyne_en
 order: 1
 permalink: false
 ---

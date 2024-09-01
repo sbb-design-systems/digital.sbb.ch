@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-button-link",
+    "patternId":"sbbButtonLink",
+    "patternDirectory":"button",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

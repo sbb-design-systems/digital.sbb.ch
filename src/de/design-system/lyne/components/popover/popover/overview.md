@@ -1,6 +1,5 @@
 ---
 tags: popover-lyne_de
-parent: popover-lyne_de
 order: 1
 permalink: false
 ---

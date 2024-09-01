@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-optgroup",
+    "patternId":"sbbOptgroup",
+    "patternDirectory":"option",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

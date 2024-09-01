@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-checkbox-group",
+    "patternId":"sbbCheckboxGroup",
+    "patternDirectory":"checkbox",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

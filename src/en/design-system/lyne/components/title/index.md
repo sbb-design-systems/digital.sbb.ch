@@ -7,4 +7,6 @@ title: Title
 parent: lyne_components_en
 keywords: title
 order: 430
+patternId: sbbTitle
+patternDirectory: title
 ---

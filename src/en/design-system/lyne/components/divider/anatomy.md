@@ -1,8 +1,6 @@
 ---
 tags: 
     - divider-lyne_en
-title: Anatomy
-parent: divider-lyne_en
 order: 2
 permalink: false
 ---

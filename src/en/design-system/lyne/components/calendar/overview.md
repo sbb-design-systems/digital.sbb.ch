@@ -1,8 +1,6 @@
 ---
 tags: 
     - calendar-lyne_en
-title: Info
-parent: calendar-lyne_en
 order: 1
 permalink: false
 ---

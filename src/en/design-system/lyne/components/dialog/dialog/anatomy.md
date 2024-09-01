@@ -1,8 +1,6 @@
 ---
 tags: 
     - dialog-lyne_en
-title: Anatomy
-parent: dialog-lyne_en
 order: 2
 permalink: false
 ---

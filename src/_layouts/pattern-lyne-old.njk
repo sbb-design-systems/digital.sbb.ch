@@ -1,0 +1,24 @@
+---
+layout: base.njk
+---
+{% set tabkey = key %}
+{% if availablelanguages.length %}
+  {% include "../_includes/missing-languages.njk" %}
+  
+  {% set tabkey = key.slice(0, -2)+"de" %}
+  {% set subpagescheck = collections[tabkey] %}
+  {% if subpagescheck|length %}
+    {% include "../_includes/pattern-lyne/tab.njk" %}
+  {% endif %}
+
+
+  
+{% else %}
+  {% include "../_includes/title.njk" %}
+  {{ content | safe }}
+  {% set subpagescheck = collections[tabkey] %}
+  {% if subpagescheck|length %}
+    {% include "../_includes/pattern-lyne/tab.njk" %}
+  {% endif %}
+{% endif %}
+{% include "../_includes/pattern-lyne/sidebar.njk" %}

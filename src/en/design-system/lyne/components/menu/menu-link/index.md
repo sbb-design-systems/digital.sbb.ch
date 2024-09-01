@@ -8,4 +8,6 @@ title: Menu-Link
 parent: menu-folder-lyne_en
 keywords: menu-link
 order: 400
+patternId: sbbMenuLink
+patternDirectory: menu
 ---

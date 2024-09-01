@@ -1,6 +1,5 @@
 ---
 tags: menu-button-lyne_de
-parent: menu-button-lyne_de
 order: 2
 permalink: false
 ---

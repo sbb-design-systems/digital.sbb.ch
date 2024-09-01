@@ -10,4 +10,6 @@ title: Navigation-Button
 parent: navigation-folder-lyne_en
 keywords: navigation-button
 order: 430
+patternId: sbbNavigationButton
+patternDirectory: navigation
 ---

@@ -1,6 +1,5 @@
 ---
 tags: table-wrapper-lyne_de
-parent: table-wrapper-lyne_de
 order: 2
 permalink: false
 ---

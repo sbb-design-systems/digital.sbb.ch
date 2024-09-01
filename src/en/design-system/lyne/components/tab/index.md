@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Tab
+key: tab-folder-lyne_en
 parent: lyne_components_en
 keywords: tab, tab-group, group
 order: 390

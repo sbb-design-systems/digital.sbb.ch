@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-skiplink-list",
+    "patternId":"sbbSkiplinkList",
+    "patternDirectory":"skiplinklist",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

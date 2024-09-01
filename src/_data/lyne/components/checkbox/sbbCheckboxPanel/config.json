@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-checkbox-panel",
+    "patternId":"sbbCheckboxPanel",
+    "patternDirectory":"checkbox",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

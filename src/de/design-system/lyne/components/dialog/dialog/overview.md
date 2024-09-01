@@ -1,6 +1,5 @@
 ---
 tags: dialog-lyne_de
-parent: dialog-lyne_de
 order: 1
 permalink: false
 ---

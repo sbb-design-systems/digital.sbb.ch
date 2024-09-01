@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-teasser-hero",
+    "patternId":"sbbTeaserHero",
+    "patternDirectory":"teaser",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

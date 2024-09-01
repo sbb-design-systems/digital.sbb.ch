@@ -8,4 +8,6 @@ parent: autocomplete-folder-lyne_en
 keywords: autocomplete-grid-optgroup
 order: 30
 excludeInNavigation: true
+patternId: sbbAutocompleteGridOptgroup
+patternDirectory: autocomplete
 ---

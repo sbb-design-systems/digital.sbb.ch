@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-header",
+    "patternId":"sbbHeader",
+    "patternDirectory":"header",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

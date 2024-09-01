@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-radio-button-group",
+    "patternId":"sbbRadioButtonGroup",
+    "patternDirectory":"radiobutton",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

@@ -7,4 +7,6 @@ title: Skiplink-List
 parent: lyne_components_en
 keywords: skiplink-list
 order: 360
+patternId: sbbSkiplinkList
+patternDirectory: skiplinklist
 ---

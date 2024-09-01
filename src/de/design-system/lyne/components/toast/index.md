@@ -8,4 +8,6 @@ title: Toast
 parent: lyne_components_de
 keywords: toast
 order: 440
+patternId: sbbToast
+patternDirectory: toast
 ---

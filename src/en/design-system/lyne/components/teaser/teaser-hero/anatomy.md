@@ -1,8 +1,6 @@
 ---
 tags: 
     - teaser-hero-lyne_en
-title: Anatomy
-parent: teaser-hero-lyne_en
 order: 2
 permalink: false
 ---

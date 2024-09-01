@@ -1,6 +1,5 @@
 ---
 tags: teaser-hero-lyne_de
-parent: teaser-hero-lyne_de
 order: 2
 permalink: false
 ---

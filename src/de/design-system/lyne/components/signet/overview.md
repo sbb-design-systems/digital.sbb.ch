@@ -1,6 +1,5 @@
 ---
 tags: signet-lyne_de
-parent: signet-lyne_de
 order: 1
 permalink: false
 ---

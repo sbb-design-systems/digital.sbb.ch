@@ -1,6 +1,5 @@
 ---
 tags: datepicker-next-day-lyne_de
-parent: datepicker-next-day-lyne_de
 order: 2
 permalink: false
 ---

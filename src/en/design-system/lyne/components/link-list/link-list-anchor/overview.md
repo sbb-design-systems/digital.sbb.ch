@@ -1,8 +1,6 @@
 ---
 tags: 
     - link-list-anchor-lyne_en
-title: Info
-parent: link-list-anchor-lyne_en
 order: 1
 permalink: false
 ---

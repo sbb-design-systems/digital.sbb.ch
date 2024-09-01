@@ -7,4 +7,6 @@ title: Checkbox
 parent: checkbox-folder-lyne_en
 keywords: checkbox
 order: 130
+patternId: sbbCheckbox
+patternDirectory: checkbox
 ---

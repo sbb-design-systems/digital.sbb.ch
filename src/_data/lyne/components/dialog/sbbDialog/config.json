@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-dialog",
+    "patternId":"sbbDialog",
+    "patternDirectory":"dialog",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

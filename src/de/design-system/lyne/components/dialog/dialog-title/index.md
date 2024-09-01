@@ -9,4 +9,6 @@ title: Dialog-Title
 parent: dialog-folder-lyne_de
 keywords: dialog
 order: 20
+patternId: sbbDialogTitle
+patternDirectory: dialog
 ---

@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-datepicker-next-day",
+    "patternId":"sbbDatepickerNextDay",
+    "patternDirectory":"datepicker",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true
+}

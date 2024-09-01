@@ -1,6 +1,5 @@
 ---
 tags: chip-lyne_de
-parent: chip-lyne_de
 order: 1
 permalink: false
 ---

@@ -1,6 +1,5 @@
 ---
 tags: alert-group-lyne_de
-parent: alert-group-lyne_de
 order: 1
 permalink: false
 ---

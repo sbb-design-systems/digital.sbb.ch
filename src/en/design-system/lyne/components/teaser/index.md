@@ -4,6 +4,7 @@ hideInSitemap: true
 tags: 
     - lyne_components_en
 title: Teaser
+key: teaser-folder-lyne_en
 parent: lyne_components_en
 keywords: teaser, teaser-hero, hero, teaser-paid, paid
 order: 410

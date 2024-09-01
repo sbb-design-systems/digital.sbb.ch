@@ -8,4 +8,6 @@ title: Icon
 parent: lyne_components_de
 keywords: icon
 order: 180
+patternId: sbbIcon
+patternDirectory: icon
 ---

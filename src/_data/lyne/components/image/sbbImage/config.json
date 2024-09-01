@@ -1,0 +1,8 @@
+{
+    "tag":"sbb-image",
+    "patternId":"sbbImage",
+    "patternDirectory":"image",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true
+}

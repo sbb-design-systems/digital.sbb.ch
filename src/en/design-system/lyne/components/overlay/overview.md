@@ -1,8 +1,6 @@
 ---
 tags: 
     - overlay-lyne_en
-title: Info
-parent: overlay-lyne_en
 order: 1
 permalink: false
 ---

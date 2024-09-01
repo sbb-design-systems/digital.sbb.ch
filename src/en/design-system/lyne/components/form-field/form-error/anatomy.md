@@ -1,8 +1,6 @@
 ---
 tags: 
     - form-error-lyne_en
-title: Anatomy
-parent: form-error-lyne_en
 order: 2
 permalink: false
 ---

@@ -7,4 +7,6 @@ title: Header
 parent: header-folder-lyne_en
 keywords: header
 order: 300
+patternId: sbbHeader
+patternDirectory: header
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - tab-lyne_en
-title: Info
-parent: tab-lyne_en
 order: 1
 permalink: false
 ---

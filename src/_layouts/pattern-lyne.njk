@@ -1,21 +1,86 @@
 ---
 layout: base.njk
 ---
-{% set tabkey = key %}
+
+{% set tabkey = key%}
+
 {% if availablelanguages.length %}
   {% include "../_includes/missing-languages.njk" %}
-  
   {% set tabkey = key.slice(0, -2)+"de" %}
-  {% set subpagescheck = collections[tabkey] %}
-  {% if subpagescheck|length %}
-    {% include "../_includes/pattern-lyne/tab.njk" %}
-  {% endif %}
-{% else %}
-  {% include "../_includes/title.njk" %}
-  {{ content | safe }}
-  {% set subpagescheck = collections[tabkey] %}
-  {% if subpagescheck|length %}
-    {% include "../_includes/pattern-lyne/tab.njk" %}
-  {% endif %}
 {% endif %}
+
+{% set subPages = collections[tabkey] %}
+
+
+{% set patternConfig = lyne.components[patternDirectory][patternId].config %}
+{% set tag = patternConfig.tag %}
+
+{% if patternConfig.hasPlayground == true %}
+  {% set playground = lyne.components[patternConfig.patternDirectory][patternConfig.patternId].playground %}
+{% endif %}
+
+{% if patternConfig.hasImplementation == true %}
+  {% set implementation = lyne.components[patternConfig.patternDirectory][patternConfig.patternId].implementation %}
+{% endif %}
+
+{% if patternConfig.hasStorybook == true %}
+  {% set storybookStories = lyne.stories[0] %}
+{% endif %}
+
+{% if availablelanguages.length %}
+{% else %}
+{% include "../_includes/title.njk" %}
+{% endif %}
+
+
+
+{{ content | safe }}
+
+<sbb-tab-group class="tab-documentation" initial-selected-index="0">
+  {#Subpages#}
+  {% if subPages|length %}
+    {%- for tab in collections[tabkey] | sortByOrder -%}
+    <sbb-tab-label level="1">
+      <sbb-icon name="{{lyne.tabs.tabs[tab.data.order - 1].icon}}" slot="icon"></sbb-icon>
+      {{lyne.tabs.tabs[tab.data.order - 1].label[page.lang]}}
+    </sbb-tab-label>
+    <sbb-tab>
+      {{tab.content | safe}}
+    </sbb-tab>
+    {%- endfor -%}
+  {% endif %}
+  {#Playground#}
+  {% if (patternConfig.hasPlayground == true) or (patternConfig.hasStorybook == true) %}  
+    <sbb-tab-label level="1">
+      <sbb-icon name="{{lyne.tabs.tabs[2].icon}}" slot="icon"></sbb-icon>
+      Demo
+    </sbb-tab-label>
+    <sbb-tab>
+      {% if patternConfig.hasPlayground == true%}
+          {% include "../_includes/pattern-lyne/playground.njk" %}
+          <script src="/assets/js/lyne-playground.js"></script>
+      {% endif %}
+      {% if patternConfig.hasStorybook == true %}
+          {% include "../_includes/pattern-lyne/storybook-story.njk" %}
+          <script src="/assets/js/lyne-examples.js"></script>
+      {% endif %}
+    </sbb-tab>
+  {% endif %}
+  {#Implementation#}
+  {% if patternConfig.hasImplementation == true %}
+    <sbb-tab-label level="1">
+      <sbb-icon name="{{lyne.tabs.tabs[3].icon}}" slot="icon"></sbb-icon>
+      Implementation
+    </sbb-tab-label>
+    <sbb-tab>
+    {{ implementation | absolutelinks | renderUsingMarkdown | safe }}
+    </sbb-tab>
+  {% endif %}
+</sbb-tab-group>
+
 {% include "../_includes/pattern-lyne/sidebar.njk" %}
+
+
+
+
+

@@ -1,8 +1,6 @@
 ---
 tags: 
     - form-field-lyne_en
-title: Info
-parent: form-field-lyne_en
 order: 1
 permalink: false
 ---

@@ -1,8 +1,6 @@
 ---
 tags: 
     - select-lyne_en
-title: Info
-parent: select-lyne_en
 order: 1
 permalink: false
 ---

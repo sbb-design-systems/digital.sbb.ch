@@ -1,6 +1,5 @@
 ---
 tags: file-selector-lyne_de
-parent: file-selector-lyne_de
 order: 2
 permalink: false
 ---

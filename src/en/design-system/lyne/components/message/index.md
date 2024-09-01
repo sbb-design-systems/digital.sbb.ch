@@ -7,4 +7,6 @@ title: Message
 parent: lyne_components_en
 keywords: message
 order: 260
+patternId: sbbMessage
+patternDirectory: message
 ---
