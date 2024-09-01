@@ -5,6 +5,7 @@ tags:
     - lyne_components_header_link_en
     - lyne_components_header_children_en
 title: Header-Link
+key: header-link-lyne_en
 parent: header-folder-lyne_en
 keywords: header-link
 order: 310

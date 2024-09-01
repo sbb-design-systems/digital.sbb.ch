@@ -5,6 +5,7 @@ tags:
     - lyne_components_header_button_en
     - lyne_components_header_children_en
 title: Header-Button
+key: header-button-lyne_en
 parent: header-folder-lyne_en
 keywords: header-button
 order: 310

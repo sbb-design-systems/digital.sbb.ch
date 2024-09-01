@@ -4,6 +4,7 @@ tags:
     - lyne_components_en
     - lyne_components_loading_indicator_en
 title: Loading-Indicator
+key: loading-indicator-lyne_en
 parent: lyne_components_en
 keywords: loading-indicator
 order: 230

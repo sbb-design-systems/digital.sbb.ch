@@ -6,6 +6,7 @@ tags:
     - lyne_components_navigation_marker_children_en
     - lyne_components_navigation_list_children_en
 title: Navigation-Link
+key: navigation-link-lyne_en
 parent: navigation-folder-lyne_en
 keywords: navigation-link
 order: 430

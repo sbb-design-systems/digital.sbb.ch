@@ -4,6 +4,7 @@ tags:
     - lyne_components_en
     - lyne_components_tag_en
 title: Tag
+key: tag-lyne_en
 parent: tag-folder-lyne_en
 keywords: tag
 order: 630

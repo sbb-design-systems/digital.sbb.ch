@@ -5,6 +5,7 @@ tags:
     - lyne_components_form_field_clear_en
     - lyne_components_form_field_children_en
 title: Form-Field-Clear
+key: form-field-clear-lyne_en
 parent: form-field-folder-lyne_en
 keywords: form-field-clear
 order: 30

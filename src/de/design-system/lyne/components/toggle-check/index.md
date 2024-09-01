@@ -9,5 +9,5 @@ parent: lyne_components_de
 keywords: toggle-check
 order: 710
 patternId: sbbToggleCheck
-patternDirectory: toggle
+patternDirectory: togglecheck
 ---

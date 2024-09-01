@@ -5,6 +5,7 @@ tags:
     - lyne_components_teaser_en
     - lyne_components_teaser_siblings_en
 title: Teaser
+key: teaser-lyne_en
 parent: teaser-folder-lyne_en
 keywords: teaser
 order: 650

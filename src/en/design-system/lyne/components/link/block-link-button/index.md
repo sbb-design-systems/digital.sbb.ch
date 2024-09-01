@@ -5,6 +5,7 @@ tags:
     - lyne_components_block_link_button_en
     - lyne_components_block_link_variants_en
 title: Block-Link (Button)
+key: block-link-button-lyne_en
 parent: link-folder-lyne_en
 keywords: link, icon, split, action
 order: 350

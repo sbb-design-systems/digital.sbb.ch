@@ -5,6 +5,7 @@ tags:
     - lyne_components_navigation_list_en
     - lyne_components_navigation_section_children_en
 title: Navigation-List
+key: navigation-list-lyne_en
 parent: navigation-folder-lyne_en
 keywords: navigation-list
 order: 440

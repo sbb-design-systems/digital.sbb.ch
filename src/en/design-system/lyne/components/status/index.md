@@ -4,6 +4,7 @@ tags:
     - lyne_components_en
     - lyne_components_status_en
 title: Status
+key: status-lyne_en
 parent: lyne_components_en
 keywords: status
 order: 380

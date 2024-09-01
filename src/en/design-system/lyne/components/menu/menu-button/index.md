@@ -5,6 +5,7 @@ tags:
     - lyne_components_menu_button_en
     - lyne_components_menu_children_en
 title: Menu-Button
+key: menu-button-lyne_en
 parent: menu-folder-lyne_en
 keywords: menu-link
 order: 400

@@ -4,6 +4,7 @@ tags:
     - lyne_components_en
     - lyne_components_menu_en
 title: Menu
+key: menu-lyne_en
 parent: menu-folder-lyne_en
 keywords: menu
 order: 390

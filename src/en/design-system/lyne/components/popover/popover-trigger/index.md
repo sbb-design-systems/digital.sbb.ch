@@ -4,6 +4,7 @@ tags:
     - lyne_components_en
     - lyne_components_popover_trigger_en
 title: Popover-Trigger
+key: popover-trigger-lyne_en
 parent: popover-folder-lyne_en
 keywords: popover-trigger
 order: 510

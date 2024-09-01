@@ -5,6 +5,7 @@ tags:
     - lyne_components_checkbox_en
 title: Checkbox-Panel
 parent: checkbox-folder-lyne_en
+key: checkbox-panel-lyne_en
 keywords: checkbox-panel
 order: 135
 patternId: sbbCheckboxPanel
