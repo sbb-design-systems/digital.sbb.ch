@@ -4,7 +4,7 @@
   display: grid;
   gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
   grid-template-columns: 1fr;
-  margin-top: var(--sbb-spacing-responsive-xs);
+  margin-block-start: var(--sbb-spacing-responsive-xs);
 
   @include sbb.mq($from: small) {
     gap: var(--sbb-layout-base-grid-gutter-responsive-small);
@@ -31,29 +31,29 @@
 
 .color {
   .preview {
-    height: var(--sbb-spacing-fixed-24x);
+    block-size: var(--sbb-spacing-fixed-24x);
     display: block;
-    width: calc(100% + 48px);
-    margin-left: -24px;
-    margin-right: -24px;
-    margin-top: -12px;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
+    inline-size: calc(100% + var(--sbb-spacing-fixed-12x));
+    margin-inline: calc(-1 * var(--sbb-spacing-fixed-6x));
+    margin-block-start: calc(-1 * var(--sbb-spacing-fixed-6x));
+    border-start-start-radius: calc(var(--sbb-spacing-fixed-3x) - var(--sbb-border-width-1x));
+    border-start-end-radius: calc(var(--sbb-spacing-fixed-3x) - var(--sbb-border-width-1x));
 
     @include sbb.mq($from: medium) {
-      width: calc(100% + 64px);
-      margin-left: -32px;
-      margin-right: -32px;
-      margin-top: -16px;
+      inline-size: calc(100% + var((--sbb-spacing-fixed-16x)));
+      margin-inline: calc(-1 * var(--sbb-spacing-fixed-8x));
+      margin-block-start: calc(-1 * var(--sbb-spacing-fixed-4x));
+
+      
     }
   }
 
   sbb-title {
-    margin-top: var(--sbb-spacing-fixed-4x);
+    margin-block-start: var(--sbb-spacing-fixed-4x);
   }
 
   .info {
-    margin-top: var(--sbb-spacing-fixed-4x);
+    margin-block-start: var(--sbb-spacing-fixed-4x);
   }
 
   p {
@@ -63,15 +63,15 @@
 }
 
 .color-ratio {
-  width: 100%;
+  inline-size: 100%;
   border-radius: var(--sbb-border-radius-4x);
   overflow: hidden;
-  border: solid 1px var(--sbb-color-cloud);
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
   display: flex;
 }
 
 .color-ratio div {
-  height: var(--sbb-spacing-fixed-24x);
+  block-size: var(--sbb-spacing-fixed-24x);
   line-height: var(--sbb-spacing-fixed-24x);
   text-align: center;
 }

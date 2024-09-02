@@ -4,10 +4,10 @@
   display: grid;
   gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
   grid-template-columns: 1fr;
-  margin-top: var(--sbb-spacing-responsive-xxl);
+  margin-block-start: var(--sbb-spacing-responsive-xxl);
 
   sbb-teaser {
-    margin-bottom: var(--sbb-spacing-responsive-xs);
+    margin-block-end: var(--sbb-spacing-responsive-xs);
 
     a img {
       border-radius: var(--sbb-border-radius-4x);
@@ -32,8 +32,7 @@
 }
 
 .teasers.ds-overview {
-  margin-top: var(--sbb-spacing-responsive-m);
-  margin-bottom: var(--sbb-spacing-responsive-m);
+  margin-block: var(--sbb-spacing-responsive-m);
   @include sbb.mq($from: small) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -55,7 +54,7 @@
 }
 
 .full-width-image {
-  width: 100%;
+  inline-size: 100%;
 }
 
 .teaser-title {

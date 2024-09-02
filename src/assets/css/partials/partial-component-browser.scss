@@ -1,20 +1,20 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
 #body-overlay {
-  width: 100vw;
-  height: 100vh;
+  inline-size: 100vw;
+  block-size: 100vh;
   display: none;
   position: fixed;
   z-index: 1999;
-  top: 0;
+  inset-block-start: 0;
   overflow: hidden;
   background: var(--sbb-color-black-alpha-50);
 }
 
 #sidebar {
   overflow: hidden;
-  height: 100%;
-  width: 100%;
+  block-size: 100%;
+  inline-size: 100%;
   box-sizing: border-box;
   padding: var(--sbb-spacing-responsive-xxxs);
   margin: 0;
@@ -23,8 +23,8 @@
 }
 
 #sidebar:modal {
-  max-width: 100%;
-  max-height: 100%;
+  max-inline-size: 100%;
+  max-block-size: 100%;
 }
 
 #sidebar[open] {
@@ -89,14 +89,14 @@
 .browser {
   background-color: var(--sbb-color-milk);
   box-sizing: border-box;
-  width: 100%;
+  inline-size: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
   gap: 0;
 
   &.component {
-    height: 100%;
+    block-size: 100%;
     border-radius: var(--sbb-border-radius-4x);
     @include sbb.mq($from: medium) {
       border-radius: var(--sbb-border-radius-4x);
@@ -104,25 +104,25 @@
   }
 
   &.overview {
-    width: 100%;
+    inline-size: 100%;
     border-radius: var(--sbb-border-radius-4x);
   }
 
   @include sbb.mq($from: medium) {
-    width: 60vw;
+    inline-size: 60vw;
   }
   @include sbb.mq($from: large) {
-    width: 50vw;
+    inline-size: 50vw;
   }
   @include sbb.mq($from: ultra) {
-    width: 40vw;
+    inline-size: 40vw;
   }
 
 
 }
 
 .browser-header-component {
-  width: 100%;
+  inline-size: 100%;
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr 1fr;
@@ -134,7 +134,7 @@
 
   sbb-form-field {
     grid-area: 2 / 1 / 3 / 3;
-    width: 100%;
+    inline-size: 100%;
     border-radius: var(--sbb-form-field-border-radius);
     @include sbb.shadow-level-5-hard;
   }
@@ -150,7 +150,7 @@
 }
 
 .browser-header-overview {
-  width: 100%;
+  inline-size: 100%;
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr;
@@ -159,7 +159,7 @@
   padding: var(--sbb-spacing-responsive-m);
 
   sbb-form-field {
-    width: 100%;
+    inline-size: 100%;
     border-radius: var(--sbb-form-field-border-radius);
     @include sbb.shadow-level-5-hard;
   }
@@ -168,7 +168,7 @@
 
 .component-list {
   box-sizing: border-box;
-  width: 100%;
+  inline-size: 100%;
   overflow: scroll;
   @include sbb.scrollbar;
 
@@ -183,7 +183,7 @@
       flex-basis: 100%;
 
       &:first-child {
-        margin-top: 0;
+        margin-block-start: 0;
       }
     }
 
@@ -202,13 +202,13 @@
   &.vertical {
     sbb-title {
       &:first-child {
-        margin-top: 0;
+        margin-block-start: 0;
       }
     }
 
     sbb-teaser {
-      width: 100%;
-      margin-bottom: var(--sbb-spacing-fixed-4x);
+      inline-size: 100%;
+      margin-block-end: var(--sbb-spacing-fixed-4x);
 
 /*
       img {
@@ -241,7 +241,8 @@
     }
 
     &.tree {
-      padding: 0 var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-m) var(--sbb-spacing-responsive-m);
+      padding-block: 0 var(--sbb-spacing-responsive-m);
+      padding-inline: var(--sbb-spacing-responsive-m);
     }
     
   }
@@ -249,7 +250,7 @@
 }
 
 .button-header {
-  margin-top: var(--sbb-spacing-fixed-8x);
+  margin-block-start: var(--sbb-spacing-fixed-8x);
 }
 
 p.metal {
@@ -258,13 +259,13 @@ p.metal {
 
 .lyne-browser {
   @include sbb.mq($from: medium) {
-    width: 50vw;
+    inline-size: 50vw;
   }
   @include sbb.mq($from: large) {
-    width: 40vw;
+    inline-size: 40vw;
   }
   @include sbb.mq($from: ultra) {
-    width: 30vw;
+    inline-size: 30vw;
   }
 }
 
@@ -281,7 +282,8 @@ p.metal {
   }
 
   li {
-    margin: 8px 0;
+    margin-block: var(--sbb-spacing-fixed-2x);
+    margin-inline: 0;
 
     &::before {
       content: '' !important;
@@ -296,7 +298,8 @@ p.metal {
 
     ul {
       li {
-        margin: 8px 0;
+        margin-block: var(--sbb-spacing-fixed-2x);
+        margin-inline: 0;
       }
     }
   }
@@ -304,9 +307,9 @@ p.metal {
   .no-subcategory, .has-subcategory {
     cursor: pointer;
     display: block;
-    padding-left: 36px;
-    margin-top: 0;
-    margin-block-start: 8px;
+    padding-inline-start: var(--sbb-spacing-fixed-9x);
+    margin-block-start: 0;
+    margin-block-start: var(--sbb-spacing-fixed-2x);
 
     &:hover {
       color: var(--sbb-color-red125);
@@ -320,16 +323,18 @@ p.metal {
 
   .no-subcategory::before, .has-subcategory::before, .selected::before {
     content: '';
-    left: 2px;
-    top: 2px;
-    width: 24px;
-    height: 24px;
     background-image: url("https://icons.app.sbb.ch/icons/four-diamonds-small.svg");
+    inset-inline-start: calc(var(--sbb-spacing-fixed-1x) / 2);
+    inset-block-start: calc(var(--sbb-spacing-fixed-1x) / 2);
+    inline-size: var(--sbb-spacing-fixed-6x);
+    block-size: var(--sbb-spacing-fixed-6x);
     background-repeat: no-repeat;
     background-position: center left;
-    background-size: 24px 24px;
+    background-size: var(--sbb-spacing-fixed-6x) var(--sbb-spacing-fixed-6x);
     position: absolute;
     display: block;
+
+
   }
 
   .has-subcategory::before {
@@ -345,13 +350,13 @@ p.metal {
     margin: 0;
     padding: 0;
     padding-inline-start: 0;
-    max-height: 0;
-    transition: max-height 0.5s ease-out;
+    max-block-size: 0;
+    transition: max-block-size 0.5s ease-out;
     overflow: hidden;
 
     &.open {
-      max-height: 1000px;
-      transition: max-height 0.5s ease-in;
+      max-block-size: 100%;
+      transition: max-block-size 0.5s ease-in;
       overflow: visible;
     }
 

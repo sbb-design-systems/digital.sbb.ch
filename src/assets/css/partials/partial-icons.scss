@@ -1,18 +1,18 @@
 .icon-content {
   sbb-title {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 
   .icon-items {
     display: grid;
-    grid-template-columns: repeat(3, 72px);
-    gap: 10px;
-    margin-top: var(--sbb-spacing-fixed-4x);
+    grid-template-columns: repeat(3, var(--sbb-spacing-fixed-18x));
+    gap: var(--sbb-spacing-fixed-2x);
+    margin-block-start: var(--sbb-spacing-fixed-4x);
   }
 
   .icon-preview {
-    width: var(--sbb-spacing-fixed-18x);
-    height: var(--sbb-spacing-fixed-18x);
+    inline-size: var(--sbb-spacing-fixed-18x);
+    block-size: var(--sbb-spacing-fixed-18x);
     border-radius: var(--sbb-border-radius-2x);
     background: var(--sbb-color-white);
     border-style: solid;
@@ -49,8 +49,8 @@
   }
 
   .icon {
-    width: 75.076px;
-    height: 75.076px;
+    inline-size: calc(var(--sbb-size-icon-ui-small) + var(--sbb-size-icon-ui-large));
+    block-size: calc(var(--sbb-size-icon-ui-small) + var(--sbb-size-icon-ui-large));
     border-radius: var(--sbb-border-radius-2x);
     background: var(--sbb-color-white);
     display: flex;
@@ -68,13 +68,13 @@
 }
 
 .filters {
-  margin-bottom: 24px;
+  margin-block-end: var(--sbb-spacing-fixed-6x);
 
 }
 
 .icons {
   > :first-child {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 }
 
@@ -83,26 +83,26 @@
 }
 
 .icons-header {
-  width: 100%;
+  inline-size: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   gap: var(--sbb-spacing-fixed-4x);
   align-items: center;
-  padding-bottom: var(--sbb-spacing-responsive-m);
+  padding-block-end: var(--sbb-spacing-responsive-m);
 
   sbb-form-field {
-    width: 100%;
+    inline-size: 100%;
     border-radius: var(--sbb-form-field-border-radius);
   }
 }
 
 .popover-max-width {
-  max-width: 260px;
-  margin-bottom: 0;
+  max-inline-size: calc(var(--sbb-spacing-fixed-30x) *2 + var(--sbb-spacing-fixed-5x));
+  margin-block-end: 0;
   hyphens: auto;
 }
 
 .download-icons {
-  margin-top: var(--sbb-spacing-fixed-4x);
+  margin-block-start: var(--sbb-spacing-fixed-4x);
 }

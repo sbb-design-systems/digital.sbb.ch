@@ -1,7 +1,7 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
 .home-primary {
-  margin-top: var(--sbb-spacing-responsive-xxs);
+  margin-block-start: var(--sbb-spacing-responsive-xxs);
 }
 
 .intro {
@@ -31,7 +31,7 @@
 
 
 .card-home {
-  margin-top: var(--sbb-spacing-responsive-xxl);
+  margin-block-start: var(--sbb-spacing-responsive-xxl);
 
   p {
     color: var(--sbb-color-metal);

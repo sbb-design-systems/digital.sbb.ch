@@ -7,17 +7,15 @@
   #onetrust-banner-sdk, #onetrust-banner-sdk.otFlat {
     color: var(--sbb-color-black);
     background-color: var(--sbb-color-white);
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-start-start-radius: 24px;
+    border-start-end-radius: 24px;
     padding-inline: var(--sbb-layout-base-offset-responsive);
     margin-inline: auto;
-    width: 100%;
-    max-width: calc(var(--sbb-layout-base-page-max-width) + 2 * var(--sbb-layout-base-offset-responsive));
-    padding-top: var(--sbb-spacing-responsive-s);
-    padding-bottom: var(--sbb-spacing-responsive-s);
+    inline-size: 100%;
+    max-inline-size: calc(var(--sbb-layout-base-page-max-width) + 2 * var(--sbb-layout-base-offset-responsive));
+    padding-block: var(--sbb-spacing-responsive-s);
     @include sbb.mq($from: medium) {
-      padding-top: var(--sbb-spacing-responsive-m);
-      padding-bottom: var(--sbb-spacing-responsive-m);
+      padding-block: var(--sbb-spacing-responsive-m);
     }
 
     & * {
@@ -28,12 +26,12 @@
       border: none;
       box-sizing: border-box;
       inset: auto;
-      width: auto;
-      height: auto;
-      min-width: 0;
-      max-width: none;
-      min-height: 0;
-      max-height: none;
+      inline-size: auto;
+      block-size: auto;
+      min-inline-size: 0;
+      max-inline-size: none;
+      min-block-size: 0;
+      max-block-size: none;
       margin: 0;
       padding: 0;
     }
@@ -51,7 +49,7 @@
       .ot-sdk-row {
         padding: 0 !important;
         margin: 0 !important;
-        width: 100% !important;
+        inline-size: 100% !important;
         display: grid !important;
         gap: var(--sbb-spacing-fixed-8x) !important;
         grid-template-columns: 1fr !important;
@@ -85,7 +83,7 @@
               a {
                 color: var(--sbb-color-black) !important;
                 display: inline !important;
-                padding-left: 4px !important;
+                padding-inline-start: 4px !important;
               }
             }
           }
@@ -94,16 +92,15 @@
         #onetrust-button-group-parent.ot-sdk-three.ot-sdk-columns {
           transform: none;
           padding: 0;
-          right: 0;
-          left: 0;
+          inset-inline: 0;
           @include sbb.mq($from: medium) {
-            margin-top: 55px;
+            margin-block-start: 55px;
           }
 
           #onetrust-button-group {
             margin: 0;
             padding: 0;
-            width: 100%;
+            inline-size: 100%;
             display: grid !important;
             gap: 12px !important;
             grid-template-columns: 1fr !important;
@@ -116,7 +113,8 @@
               font-family: inherit;
               font-size: 15px;
               font-weight: normal;
-              padding: 12px 24px;
+              padding-block: 12px;
+              padding-inline: 24px;
               text-decoration: none;
               letter-spacing: 0;
               flex-basis: 100%;
@@ -143,7 +141,8 @@
               font-family: inherit;
               font-size: 15px;
               font-weight: normal;
-              padding: 12px 24px;
+              padding-block: 12px;
+              padding-inline: 24px;
               text-decoration: none;
               letter-spacing: 0;
               flex-basis: 100%;
@@ -168,7 +167,7 @@
   }
 
   #onetrust-pc-sdk {
-    padding-bottom: 96px !important;
+    padding-block-end: 96px !important;
     @include sbb.mq($from: medium) {
       border-radius: 24px !important;
     }
@@ -176,17 +175,18 @@
     .ot-pc-header,
     #ot-pc-content,
     .ot-pc-header {
-      width: 100%;
-      padding: 15px 30px;
+      inline-size: 100%;
+      padding-block: 15px;
+      padding-inline: 30px;
 
       .ot-title-cntr {
-        width: inherit;
+        inline-size: inherit;
         display: block;
-        padding-left: 0;
-        margin-top: 10px;
+        padding-inline-start: 0;
+        margin-block-start: 10px;
 
         .ot-close-cntr {
-          top: -50px;
+          inset-block-start: -50px;
         }
 
 
@@ -200,10 +200,10 @@
 
       #close-pc-btn-handler {
         position: absolute;
-        right: 0;
-        top: 0;
-        height: 40px;
-        width: 40px;
+        inset-inline-end: 0;
+        inset-block-start: 0;
+        block-size: 40px;
+        inline-size: 40px;
         overflow: hidden;
         background: none;
         font-size: 16px;
@@ -214,10 +214,10 @@
         &::after {
           content: '';
           position: absolute;
-          left: 20px;
-          top: 12px;
-          height: 16px;
-          width: 1px;
+          inset-inline-start: 20px;
+          inset-block-start: 12px;
+          block-size: 16px;
+          inline-size: 1px;
           background-color: var(--sbb-color-black);
 
         }
@@ -242,8 +242,9 @@
     }
 
     #ot-pc-content {
-      width: 100%;
-      padding: 20px 0 0;
+      inline-size: 100%;
+      padding-block: 20px 0;
+      padding-inline: 0;
       margin: 0;
 
       h3 {
@@ -253,21 +254,22 @@
 
       h4 {
         color: var(--sbb-color-black);
-        margin: 0 0 10px;
+        margin-block: 0 10px;
+        margin-inline: 0;
         font-weight: normal;
         font-size: 20px;
         padding: 0;
       }
 
       .ot-desc-cntr {
-        margin-top: 6px;
-        padding-right: 30px;
+        margin-block-start: 6px;
+        padding-inline-end: 30px;
       }
 
       .ot-active-menu, .category-menu-switch-handler {
-        border-left: 0;
-        padding-left: 30px;
-        border-bottom: 2px solid var(--sbb-color-white);
+        border-inline-start: 0;
+        padding-inline-start: 30px;
+        border-block-end: 2px solid var(--sbb-color-white);
 
         h3 {
           font-weight: normal;
@@ -288,7 +290,7 @@
       }
 
       .ot-cat-grp {
-        padding-bottom: 24px !important;
+        padding-block-end: 24px !important;
       }
 
       #ot-pc-desc {
@@ -302,7 +304,7 @@
         a {
           color: var(--sbb-color-black) !important;
           display: inline !important;
-          padding-left: 4px !important;
+          padding-inline-start: 4px !important;
         }
       }
 
@@ -312,7 +314,8 @@
         font-family: inherit;
         font-size: 15px;
         font-weight: normal;
-        padding: 12px 24px;
+        padding-block: 12px;
+        padding-inline: 24px;
         text-decoration: none;
         letter-spacing: 0;
         flex-basis: 100%;
@@ -322,7 +325,7 @@
         -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
         background-color: var(--sbb-color-cement);
         color: var(--sbb-color-black);
-        margin-bottom: 0;
+        margin-block-end: 0;
 
         &:hover,
         &:focus {
@@ -335,20 +338,20 @@
 
       .ot-cat-item {
         border-radius: 8px !important;
-        border: 1px solid var(--sbb-color-cement);
+        border: solid var(--sbb-border-width-1x) var(--sbb-color-cement);
 
         > button {
           position: absolute;
-          height: 100%;
-          width: 100%;
+          block-size: 100%;
+          inline-size: 100%;
         }
 
         .ot-tgl {
           flex-shrink: 0;
 
           .ot-switch {
-            height: 32px;
-            width: 50px;
+            block-size: 32px;
+            inline-size: 50px;
             -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
 
             .ot-switch-nob {
@@ -362,10 +365,10 @@
               &::before {
                 content: '';
                 position: absolute;
-                bottom: 2px;
-                left: 2px;
-                height: 2px;
-                width: 2px;
+                inset-block-end: 2px;
+                inset-inline-start: 2px;
+                block-size: 2px;
+                inline-size: 2px;
                 background-color: var(--sbb-color-white);
                 border-radius: 50%;
                 transition: none;
@@ -375,12 +378,12 @@
                 content: '';
                 opacity: 0;
                 position: absolute;
-                top: 8px;
-                left: 32px;
-                height: 12px;
-                width: 5px;
-                border-bottom: 1px solid var(--sbb-color-red);
-                border-right: 1px solid var(--sbb-color-red);
+                inset-block-start: 8px;
+                inset-inline-start: 32px;
+                block-size: 12px;
+                inline-size: 5px;
+                border-block-end: solid var(--sbb-border-width-1x) var(--sbb-color-red);
+                border-inline-end: solid var(--sbb-border-width-1x) var(--sbb-color-red);
                 transform: rotate(45deg);
                 transition: none;
               }
@@ -388,8 +391,8 @@
           }
 
           input {
-            height: 0;
-            width: 0;
+            block-size: 0;
+            inline-size: 0;
 
             &:checked + .ot-switch .ot-switch-nob {
               background-color: var(--sbb-color-red);
@@ -426,16 +429,16 @@
             line-height: var(--sbb-typo-line-height-body-text) !important;
             font-size: var(--sbb-font-size-text-m) !important;
             color: var(--sbb-color-black) !important;
-            margin-bottom: 0 !important;
+            margin-block-end: 0 !important;
 
             &::before,
             &::after {
               content: '';
               position: absolute;
-              left: pxtoem(11);
-              top: calc(50% - #{pxToEm(8)});
-              height: pxtoem(16);
-              width: pxtoem(1);
+              inset-inline-start: pxtoem(11);
+              inset-block-start: calc(50% - #{pxToEm(8)});
+              block-size: pxtoem(16);
+              inline-size: pxtoem(1);
               background-color: var(--sbb-color-black);
               font-size: 16px;
             }
@@ -446,7 +449,7 @@
           }
 
           .ot-tgl {
-            margin-top: pxtoem(-32);
+            margin-block-start: pxtoem(-32);
             transform: translateY(50%);
           }
 
@@ -467,9 +470,9 @@
 
         .ot-acc-txt {
           display: none;
-          padding-top: 0;
+          padding-block-start: 0;
           margin: 0;
-          border-top: 1px solid var(--sbb-color-cement);
+          border-block-start: 1px solid var(--sbb-color-cement);
           background: none;
 
           .ot-category-desc {
@@ -489,7 +492,7 @@
               justify-content: space-between;
               flex-wrap: wrap;
               align-items: center;
-              padding-bottom: 0;
+              padding-block-end: 0;
 
               h5 {
                 flex-basis: calc(100% - #{58px});
@@ -510,8 +513,8 @@
 
           .ot-scrn-rdr {
             position: absolute;
-            width: 1px;
-            height: 1px;
+            inline-size: 1px;
+            block-size: 1px;
             overflow: hidden;
             clip: rect(0 0 0 0);
             clip-path: inset(0 0 0 0);
@@ -551,12 +554,12 @@
 
     #ot-pc-lst {
       position: absolute;
-      top: 96px;
-      bottom: 196px;
+      inset-block: 96px 196px;
       padding: 0;
 
       #ot-pc-hdr {
-        padding: 0 16px;
+        padding-block: 0;
+        padding-inline: 16px;
         margin: 0;
 
         #ot-back-arw {
@@ -567,23 +570,22 @@
           margin: 0;
 
           ~ svg {
-            right: 0;
+            inset-inline-end: 0;
           }
         }
 
         .ot-fltr-cntr {
           position: absolute;
-          right: 16px;
+          inset-inline-end: 16px;
           float: none;
         }
 
         #ot-anchor {
-          right: 20px;
+          inset-inline-end: 20px;
         }
 
         #ot-fltr-cnt {
-          left: auto;
-          right: 16px;
+          inset-inline: auto 16px;
 
           #clear-filters-handler:focus,
           #clear-filters-handler:active {
@@ -595,15 +597,16 @@
       #ot-lst-cnt {
         padding: 0;
         margin: 0;
-        width: 100%;
+        inline-size: 100%;
 
         #ot-sel-blk {
-          padding: 0 16px;
-          width: auto;
+          padding-block: 0;
+          padding-inline: 16px;
+          inline-size: auto;
         }
 
         .ot-sdk-row {
-          width: 100%;
+          inline-size: 100%;
           padding: 0;
           margin: 0;
         }
@@ -614,8 +617,7 @@
       @include sbb.shadow-level-5-hard;
 
       .ot-btn-container {
-        padding-top: 7px !important;
-        padding-bottom: 7px !important;
+        padding-block: 7px !important;
         background-color: var(--sbb-color-white);
 
         button, .ot-btn-subcntr {
@@ -631,14 +633,15 @@
           white-space: nowrap;
           text-overflow: ellipsis;
           -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
-          padding: 10px 20px;
+          padding-block: 10px;
+          padding-inline: 20px;
           text-align: center;
-          min-width: inherit;
-          max-width: inherit;
+          min-inline-size: inherit;
+          max-inline-size: inherit;
           margin: 0;
           font-weight: normal;
           font-size: 15px;
-          float: left;
+          float: inline-start;
 
           &:hover,
           &:focus {
@@ -650,7 +653,7 @@
         }
 
         .ot-btn-subcntr {
-          float: right;
+          float: inline-end;
           padding: 0;
         }
       }
@@ -658,13 +661,13 @@
       .ot-pc-footer-logo {
         display: flex;
         justify-content: flex-end;
-        padding-bottom: 24px !important;
+        padding-block-end: 24px !important;
         background-color: var(--sbb-color-white) !important;
-        border-top: none !important;
+        border-block-start: none !important;
 
         a {
-          height: pxtoem(22);
-          width: pxtoem(149);
+          block-size: pxtoem(22);
+          inline-size: pxtoem(149);
         }
       }
     }
@@ -678,7 +681,7 @@
   font-size: 15px !important;
   margin: 0 !important;
   background-color: transparent !important;
-  width: auto !important;
+  inline-size: auto !important;
 
   &:hover {
     background-color: transparent !important;

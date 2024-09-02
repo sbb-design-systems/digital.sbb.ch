@@ -1,7 +1,7 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
 html, body {
-  height: 100vh;
+  block-size: 100vh;
   background-color: var(--sbb-color-white);
 }
 
@@ -17,10 +17,10 @@ body {
     }
 
     .sidebar {
-      left: 0;
+      inset-inline-start: 0;
 
       .browser {
-        height: 100%;
+        block-size: 100%;
       }
     }
   }
@@ -31,7 +31,7 @@ ul, ol {
 }
 
 .content {
-  padding-bottom: var(--sbb-spacing-responsive-xl);
+  padding-block-end: var(--sbb-spacing-responsive-xl);
 
 }
 
@@ -45,7 +45,7 @@ figure {
 
 .lead {
   @include sbb.mq($from: large) {
-    width: 75%;
+    inline-size: 75%;
   }
 }
 
@@ -59,19 +59,19 @@ strong, b {
 }
 
 .no-margin-bottom {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .no-margin-top {
-  margin-top: 0;
+  margin-block-start: 0;
 }
 
 .principle-image {
-  max-width: 100%;
-  margin-top: 24px;
+  max-inline-size: 100%;
+  margin-block-start: var(--sbb-spacing-fixed-6x);
 
   img {
-    max-width: 100%;
+    max-inline-size: 100%;
   }
 }
 
@@ -80,13 +80,15 @@ h2.with-icon {
   grid-template-columns: auto 1fr;
 
   sbb-icon {
-    padding: 0 8px 0 0;
-    margin-top: -3px;
+    padding-block: 0;
+    padding-inline: 0 var(--sbb-spacing-fixed-2x);
+    margin-block-start: calc(-1 * var(--sbb-spacing-fixed-1x));
     stroke: var(--sbb-color-black);
     stroke-width: 1.5;
     @include sbb.mq($from: medium) {
-      margin-top: 2px;
-      padding: 0 12px 0 0;
+      margin-block-start: calc(var(--sbb-spacing-fixed-1x) / 2);
+      padding-block: 0;
+      padding-inline: 0 var(--sbb-spacing-fixed-3x);
     }
 
   }
@@ -97,13 +99,15 @@ h3.with-icon {
   grid-template-columns: auto 1fr;
 
   sbb-icon {
-    padding: 0 12px 0 0;
-    margin-top: -5px;
+    padding-block: 0;
+    padding-inline: 0 var(--sbb-spacing-fixed-3x);
+    margin-block-start: calc(-1 * var(--sbb-spacing-fixed-1x));
     stroke: var(--sbb-color-black);
     stroke-width: 1.5;
     @include sbb.mq($from: medium) {
-      padding: 0 12px 0 0;
-      margin-top: -3px;
+      padding-block: 0;
+      padding-inline: 0 var(--sbb-spacing-fixed-3x);
+      margin-block-start: calc(-1 * var(--sbb-spacing-fixed-1x));
     }
 
   }
@@ -116,15 +120,16 @@ h3.with-icon {
 code:not([class]) {
   color: var(--sbb-color-violet);
   background-color: var(--sbb-color-milk);
-  padding: 2px 8px;
-  border-radius: 8px;
-  border: solid 1px var(--sbb-color-cloud)
+  padding-block: calc(var(--sbb-spacing-fixed-1x) / 2);
+  padding-inline: var(--sbb-spacing-fixed-2x);
+  border-radius: var(--sbb-spacing-fixed-2x);
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud)
 }
 
 
 .sbb-section-panel {
   h2:first-child {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 
   hr {
@@ -133,22 +138,22 @@ code:not([class]) {
 }
 
 .default-image {
-  max-width: 100%;
+  max-inline-size: 100%;
 
   img {
-    max-width: 100%;
+    max-inline-size: 100%;
   }
 }
 
 .boxed-image {
-  max-width: 100%;
-  padding: 24px;
-  margin-bottom: var(--sbb-spacing-fixed-4x);
+  max-inline-size: 100%;
+  padding: var(--sbb-spacing-fixed-6x);
+  margin-block-end: var(--sbb-spacing-fixed-4x);
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
 
   img {
-    max-width: 100%;
+    max-inline-size: 100%;
   }
 
   &.dark {
@@ -167,35 +172,39 @@ code:not([class]) {
 
   &.specification {
     > * {
-      margin: var(--sbb-spacing-responsive-xl) auto;
+      margin-block: var(--sbb-spacing-responsive-xl);
+      margin-inline: auto;
       text-align: center;
     }
   }
 }
 
 .boxed-component {
-  max-width: 100%;
-  padding: 24px;
+  max-inline-size: 100%;
+  padding: var(--sbb-spacing-fixed-6x);
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
   text-align: center;
 
   > * {
-    margin: var(--sbb-spacing-responsive-xl) auto;
+    margin-block: var(--sbb-spacing-responsive-xl);
+    margin-inline: auto;
   }
 }
 
 sbb-table-wrapper + sbb-table-wrapper { 
-  margin-top: 16px;
+  margin-block-start: var(--sbb-spacing-fixed-4x);
 }
 
 .overview-buttons {
-  margin: var(--sbb-spacing-responsive-m) 0;
+  margin-block: var(--sbb-spacing-responsive-m);
+  margin-inline: 0;
 }
 
 
 .intro-links {
-  margin: var(--sbb-spacing-responsive-l) 0;
+  margin-block: var(--sbb-spacing-responsive-l);
+  margin-inline: 0;
 
   .links {
     display: grid;
@@ -250,10 +259,11 @@ sbb-table-wrapper + sbb-table-wrapper {
   align-items: center;
   justify-content: center;
   border-radius: var(--sbb-border-radius-4x);
-  padding: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
+  padding-block: var(--sbb-spacing-fixed-8x);
+  padding-inline: var(--sbb-spacing-fixed-8x);
   background-color: var(--sbb-color-white);
-  border: solid 1px var(--sbb-color-cloud);
-  min-height: var(--sbb-spacing-fixed-24x);
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
+  min-block-size: var(--sbb-spacing-fixed-24x);
   @include sbb.mq($from: medium) {
     padding: var(--sbb-spacing-fixed-8x);
   }
@@ -279,12 +289,12 @@ sbb-table-wrapper + sbb-table-wrapper {
   }
 
   sbb-clock {
-    width: 50%;
+    inline-size: 50%;
   }
 }
 
 #more-buttons {
-  margin-top: var(--sbb-spacing-fixed-8x);
+  margin-block-start: var(--sbb-spacing-fixed-8x);
 }
 
 .badge-wrapper {
@@ -292,8 +302,8 @@ sbb-table-wrapper + sbb-table-wrapper {
   overflow: hidden;
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
-  width: 100%;
-  height: var(--sbb-spacing-fixed-20x);
+  inline-size: 100%;
+  block-size: var(--sbb-spacing-fixed-20x);
 }
 
 .language-mermaid {
@@ -305,37 +315,35 @@ sbb-table-wrapper + sbb-table-wrapper {
 }
 
 .error-divider {
-  margin-top: var(--sbb-spacing-fixed-20x);
-  margin-bottom: var(--sbb-spacing-fixed-18x);
+  margin-block: var(--sbb-spacing-fixed-20x) var(--sbb-spacing-fixed-18x);
 }
 
 .full-width-wrapper {
-  width: 100%;
+  inline-size: 100%;
 }
 
 .release-card {
-  margin-bottom: var(--sbb-spacing-fixed-6x);
+  margin-block-end: var(--sbb-spacing-fixed-6x);
 
   h2 {
-    margin-top: 0;
-    margin-bottom: var(--sbb-spacing-fixed-2x);
+    margin-block: 0 var(--sbb-spacing-fixed-2x);
   }
 }
 
 
 .iframe-border {
-  width: 100%;
+  inline-size: 100%;
   border: none;
   resize: vertical;
 }
 
 .lyne-demo-example-button {
-  margin-top: var(--sbb-spacing-fixed-2x);
+  margin-block-start: var(--sbb-spacing-fixed-2x);
 }
 
 .example {
   border-radius: var(--sbb-border-radius-4x);
-  border: solid 1px var(--sbb-color-cloud);
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
   background-color: var(--sbb-color-milk);
 
   iframe, pre, code {
@@ -345,12 +353,12 @@ sbb-table-wrapper + sbb-table-wrapper {
 
   iframe {
     background-color: var(--sbb-color-white);
-    border-top-left-radius: var(--sbb-border-radius-4x);
-    border-top-right-radius: var(--sbb-border-radius-4x);
+    border-start-start-radius: var(--sbb-border-radius-4x);
+    border-start-end-radius: var(--sbb-border-radius-4x);
   }
 
   .example-footer {
-    padding: 24px;
+    padding: var(--sbb-spacing-fixed-6x);
   }
 
   pre[class*="language-"] {
@@ -368,5 +376,5 @@ p.subtext {
 }
 
 .switcher { 
-  margin-bottom: 16px;
+  margin-block-end: var(--sbb-spacing-fixed-4x);
 }
