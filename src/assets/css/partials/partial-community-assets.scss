@@ -36,6 +36,7 @@
     grid-template-columns: 2fr 1fr;
     grid-template-areas: ".  .";
     gap: var(--sbb-layout-base-grid-gutter-responsive-small);
+
     .col-2 {
       justify-content: right;
     }
@@ -63,10 +64,8 @@
 
 .community-asset-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
+  flex-flow: row wrap;
+  place-content: flex-start flex-start;
   align-items: flex-start;
   border-radius: var(--sbb-border-radius-4x);
   overflow: hidden;

@@ -8,6 +8,7 @@
 
   sbb-teaser {
     margin-bottom: var(--sbb-spacing-responsive-xs);
+
     a img {
       border-radius: var(--sbb-border-radius-4x);
     } 
@@ -16,12 +17,8 @@
   @include sbb.mq($from: small) {
     gap: var(--sbb-layout-base-grid-gutter-responsive-small);
   }
-  @include sbb.mq($from: medium) {
-  }
   @include sbb.mq($from: large) {
     gap: var(--sbb-layout-base-grid-gutter-responsive-large);
-  }
-  @include sbb.mq($from: wide) {
   }
 }
 

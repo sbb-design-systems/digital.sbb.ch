@@ -27,10 +27,7 @@
       float: none;
       border: none;
       box-sizing: border-box;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: auto;
+      inset: auto;
       width: auto;
       height: auto;
       min-width: 0;
@@ -47,7 +44,7 @@
     }
 
     .ot-sdk-container {
-      &:after {
+      &::after {
         content: none;
       }
 
@@ -62,7 +59,7 @@
           grid-template-columns: 1fr auto !important;
         }
 
-        &:after {
+        &::after {
           clear: both;
           content: none;
         }
@@ -126,8 +123,9 @@
               overflow: hidden;
               white-space: nowrap;
               text-overflow: ellipsis;
-              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+              -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
               margin: 0;
+
               &:hover,
               &:focus {
                 background-color: var(--sbb-color-red125);
@@ -152,8 +150,9 @@
               overflow: hidden;
               white-space: nowrap;
               text-overflow: ellipsis;
-              -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+              -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
               margin: 0 !important;
+
               &:hover,
               &:focus {
                 background-color: var(--sbb-color-red125);
@@ -173,6 +172,7 @@
     @include sbb.mq($from: medium) {
       border-radius: 24px !important;
     }
+
     .ot-pc-header,
     #ot-pc-content,
     .ot-pc-header {
@@ -207,11 +207,11 @@
         overflow: hidden;
         background: none;
         font-size: 16px;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
 
 
-        &:before,
-        &:after {
+        &::before,
+        &::after {
           content: '';
           position: absolute;
           left: 20px;
@@ -222,11 +222,11 @@
 
         }
 
-        &:before {
+        &::before {
           transform: rotate(45deg);
         }
 
-        &:after {
+        &::after {
           transform: rotate(-45deg);
         }
 
@@ -240,9 +240,10 @@
         }
       }
     }
+
     #ot-pc-content {
       width: 100%;
-      padding: 20px 0 0 0;
+      padding: 20px 0 0;
       margin: 0;
 
       h3 {
@@ -252,7 +253,7 @@
 
       h4 {
         color: var(--sbb-color-black);
-        margin: 0 0 10px 0;
+        margin: 0 0 10px;
         font-weight: normal;
         font-size: 20px;
         padding: 0;
@@ -306,10 +307,8 @@
       }
 
       #accept-recommended-btn-handler#accept-recommended-btn-handler {
-        background-color: var(--sbb-color-red);
         border: none;
         border-radius: 50px !important;
-        color: var(--sbb-color-white);
         font-family: inherit;
         font-size: 15px;
         font-weight: normal;
@@ -320,10 +319,11 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
         background-color: var(--sbb-color-cement);
         color: var(--sbb-color-black);
         margin-bottom: 0;
+
         &:hover,
         &:focus {
           background-color: var(--sbb-color-cement);
@@ -349,20 +349,17 @@
           .ot-switch {
             height: 32px;
             width: 50px;
-            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
 
             .ot-switch-nob {
               position: absolute;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              left: 0;
+              inset: 0;
               overflow: hidden;
               background-color: var(--sbb-color-cement);
               border-radius: 20px;
               transition: none;
 
-              &:before {
+              &::before {
                 content: '';
                 position: absolute;
                 bottom: 2px;
@@ -374,7 +371,7 @@
                 transition: none;
               }
 
-              &:after {
+              &::after {
                 content: '';
                 opacity: 0;
                 position: absolute;
@@ -397,11 +394,11 @@
             &:checked + .ot-switch .ot-switch-nob {
               background-color: var(--sbb-color-red);
 
-              &:before {
+              &::before {
                 transform: translateX(18px);
               }
 
-              &:after {
+              &::after {
                 opacity: 1;
               }
             }
@@ -416,7 +413,7 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 0 0;
+          padding: 0;
           cursor: pointer;
 
           .ot-plus-minus {
@@ -431,25 +428,25 @@
             color: var(--sbb-color-black) !important;
             margin-bottom: 0 !important;
 
-            &:before,
-            &:after {
+            &::before,
+            &::after {
               content: '';
               position: absolute;
-              left: pxToEm(11);
+              left: pxtoem(11);
               top: calc(50% - #{pxToEm(8)});
-              height: pxToEm(16);
-              width: pxToEm(1);
+              height: pxtoem(16);
+              width: pxtoem(1);
               background-color: var(--sbb-color-black);
               font-size: 16px;
             }
 
-            &:before {
+            &::before {
               transform: rotate(90deg);
             }
           }
 
           .ot-tgl {
-            margin-top: pxToEm(-32);
+            margin-top: pxtoem(-32);
             transform: translateY(50%);
           }
 
@@ -535,13 +532,13 @@
           text-decoration: underline !important;
           display: inline !important;
 
-          &:after {
+          &::after {
             display: none;
           }
         }
 
-        button[aria-expanded=true] {
-          ~ .ot-acc-hdr .ot-cat-header:after {
+        button[aria-expanded="true"] {
+          ~ .ot-acc-hdr .ot-cat-header::after {
             display: none;
           }
 
@@ -551,6 +548,7 @@
         }
       }
     }
+
     #ot-pc-lst {
       position: absolute;
       top: 96px;
@@ -611,6 +609,7 @@
         }
       }
     }
+
     .ot-pc-footer {
       @include sbb.shadow-level-5-hard;
 
@@ -625,16 +624,13 @@
           border-radius: 50px !important;
           color: var(--sbb-color-white);
           font-family: inherit;
-          font-size: 15px;
-          font-weight: normal;
-          padding: 12px 24px;
           text-decoration: none;
           letter-spacing: 0;
           flex-basis: 100%;
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis;
-          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+          -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
           padding: 10px 20px;
           text-align: center;
           min-width: inherit;
@@ -643,6 +639,7 @@
           font-weight: normal;
           font-size: 15px;
           float: left;
+
           &:hover,
           &:focus {
             background-color: var(--sbb-color-red125);
@@ -666,8 +663,8 @@
         border-top: none !important;
 
         a {
-          height: pxToEm(22);
-          width: pxToEm(149);
+          height: pxtoem(22);
+          width: pxtoem(149);
         }
       }
     }
@@ -682,6 +679,7 @@
   margin: 0 !important;
   background-color: transparent !important;
   width: auto !important;
+
   &:hover {
     background-color: transparent !important;
   }

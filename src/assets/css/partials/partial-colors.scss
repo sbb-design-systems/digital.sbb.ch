@@ -5,16 +5,20 @@
   gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
   grid-template-columns: 1fr;
   margin-top: var(--sbb-spacing-responsive-xs);
+
   @include sbb.mq($from: small) {
     gap: var(--sbb-layout-base-grid-gutter-responsive-small);
     grid-template-columns: repeat(2, 1fr);
   }
+
   @include sbb.mq($from: medium) {
     grid-template-columns: repeat(3, 1fr);
   }
+
   @include sbb.mq($from: large) {
     gap: var(--sbb-layout-base-grid-gutter-responsive-large);
   }
+  
   @include sbb.mq($from: wide) {
     grid-template-columns: repeat(4, 1fr);
   }

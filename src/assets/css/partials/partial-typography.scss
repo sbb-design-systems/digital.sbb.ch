@@ -1,7 +1,6 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
 sbb-container {
-
   p:not(.demo *) {
     @include sbb.text-m--regular;
   }

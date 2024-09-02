@@ -15,8 +15,7 @@ sbb-footer {
 }
 
 .footer-content {
-  padding-inline-start: 0;
-  padding-inline-end: 0;
+  padding-inline: 0;
   row-gap: 0;
 
   .sbb-text-s {
@@ -32,6 +31,7 @@ sbb-footer {
   .clock {
     grid-column: 1 / 1;
     order: 1;
+
     sbb-clock {
       max-width: 100px;
       margin-bottom: var(--sbb-spacing-responsive-xl);
@@ -48,6 +48,7 @@ sbb-footer {
       order: 1;
       grid-column: 1 / 8;
     }
+
     .clock {
       order: 2;
       grid-column: 8 / 9;
@@ -57,6 +58,7 @@ sbb-footer {
         margin-bottom: 0;
       }
     }
+
     .footer-divider {
       grid-column: 1 / 9;
     }
@@ -65,9 +67,11 @@ sbb-footer {
     .contact {
       grid-column: 1 / 11;
     }
+
     .clock {
       grid-column: 11 / 13;
     }
+
     .footer-divider {
       grid-column: 1 / 13;
     }
@@ -76,9 +80,11 @@ sbb-footer {
     .contact {
       grid-column: 1 / 15;
     }
+
     .clock {
       grid-column: 15 / 17;
     }
+
     .footer-divider {
       grid-column: 1 / 17;
     }

@@ -1,8 +1,6 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
 .token-table {
-
-
   .row {
     width: 100%;
     display: grid;
@@ -52,16 +50,20 @@
       .center {
         justify-content: center;
       }
+
       .left {
         justify-content: left;
       }
+
       .right {
         justify-content: right;
       }
+
       &.show-from-medium {
         display: grid;
         text-transform: capitalize;
       }
+
       .hide-from-medium {
         display: none;
         text-transform: capitalize;
@@ -96,6 +98,7 @@
     }
   }
 }
+
 .color-token {
   .row {
     @include sbb.mq($from: small) {
@@ -113,13 +116,12 @@
 }
 
 .spacing-responsive-token {
-
   sbb-title {
     margin: var(--sbb-spacing-fixed-2x) 0 var(--sbb-spacing-fixed-2x) 0;
   }
 
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
@@ -128,7 +130,7 @@
 
 .spacing-fixed-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -137,7 +139,7 @@
 
 .breakpoint-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -146,7 +148,7 @@
 
 .scalye-typo-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -155,7 +157,7 @@
 
 .face-typo-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 2fr 3fr auto;
     }
@@ -164,7 +166,7 @@
 
 .letter-spacing-typo-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -173,7 +175,7 @@
 
 .line-height-typo-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -182,18 +184,20 @@
 
 .remaining-typo-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 1fr 2fr;
     }
   }
 }
+
 .shadow-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
 
     @include sbb.mq($from: large) {
       grid-template-columns: 3fr 1fr;
+
       .value {
         text-align: right;
       }
@@ -204,7 +208,7 @@
 
 .base-grid-columns-token, .base-grid-gutter-token, .base-grid-offset-token {
   .row {
-    gap: var(--sbb-spacing-fixed-4x) 0px;
+    gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: medium) {
       grid-template-columns: 5fr 1fr 2fr;
     }
@@ -248,6 +252,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-3-soft;
 }
+
 .shadow-3-soft-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -258,6 +263,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-3-hard;
 }
+
 .shadow-3-hard-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -269,6 +275,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-5-soft;
 }
+
 .shadow-5-soft-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -279,6 +286,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-5-hard;
 }
+
 .shadow-5-hard-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -290,6 +298,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-9-soft;
 }
+
 .shadow-9-soft-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -300,6 +309,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-9-hard;
 }
+
 .shadow-9-hard-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -311,6 +321,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-11-soft;
 }
+
 .shadow-11-soft-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -321,6 +332,7 @@
   background: var(--sbb-color-white);
   @include sbb.shadow-level-11-hard;
 }
+
 .shadow-11-hard-negative {
   background: var(--sbb-color-black);
   color: var(--sbb-color-white);
@@ -330,8 +342,7 @@
 .shadow-box {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: var(--sbb-spacing-fixed-12x);
-  grid-row-gap: var(--sbb-spacing-fixed-12x);
+  grid-gap: var(--sbb-spacing-fixed-12x) var(--sbb-spacing-fixed-12x);
   margin: var(--sbb-spacing-fixed-12x) 0;
 
   @include sbb.mq($from: medium) {
@@ -340,9 +351,11 @@
 
   div {
     padding: var(--sbb-spacing-fixed-4x);
+
     sbb-title {
       margin:0;
     }
+
     code {
       font-size: 12px;
     }

@@ -12,7 +12,6 @@ body {
   grid-template-columns: 100%;
 
   &.menu-open {
-    //background-color: var(--sbb-color-black-alpha-50);
     #body-overlay {
       display: block;
     }
@@ -87,7 +86,7 @@ h2.with-icon {
     stroke-width: 1.5;
     @include sbb.mq($from: medium) {
       margin-top: 2px;
-      padding: 0px 12px 0px 0;
+      padding: 0 12px 0 0;
     }
 
   }
@@ -145,7 +144,6 @@ code:not([class]) {
   max-width: 100%;
   padding: 24px;
   margin-bottom: var(--sbb-spacing-fixed-4x);
-  background-color: var(--sbb-color-milk);
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
 
@@ -178,7 +176,6 @@ code:not([class]) {
 .boxed-component {
   max-width: 100%;
   padding: 24px;
-  background-color: var(--sbb-color-milk);
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
   text-align: center;
@@ -238,8 +235,6 @@ sbb-table-wrapper + sbb-table-wrapper {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
-  //background-color: var(--sbb-color-milk);
-  //padding: var(--sbb-spacing-fixed-8x);
 
   @include sbb.mq($from: medium) {
     grid-template-columns: 2fr 1fr;
@@ -282,6 +277,7 @@ sbb-table-wrapper + sbb-table-wrapper {
   &[data-background="black"] {
     background-color: var(--sbb-color-black);
   }
+
   sbb-clock {
     width: 50%;
   }
@@ -302,12 +298,6 @@ sbb-table-wrapper + sbb-table-wrapper {
 
 .language-mermaid {
   display: none;
-}
-
-h3 {
-  &:contains("Graph") {
-    display: none;
-  }
 }
 
 .hidden, .hide-icon {

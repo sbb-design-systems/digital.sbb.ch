@@ -3,11 +3,10 @@
   padding: var(--sbb-spacing-fixed-3x) var(--sbb-spacing-fixed-6x);;
   border-radius: 50px;
   margin-left: var(--sbb-spacing-fixed-1x);
-
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
-  gap: 0px var(--sbb-spacing-fixed-2x);
+  gap: 0 var(--sbb-spacing-fixed-2x);
 
   p, sbb-icon {
     margin: 0;
@@ -36,7 +35,6 @@
 
   &.progress {
     sbb-icon {
-      //background-color: orange;
       padding: 2px 4px 4px 2px;
       color: orange;
       border: solid 1px orange;

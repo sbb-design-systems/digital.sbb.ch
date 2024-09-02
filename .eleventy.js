@@ -71,7 +71,7 @@ module.exports = async function(eleventyConfig) {
         outputFileExtension: "css", 
         compile: function (inputContent, inputPath) {
             let parsed = path.parse(inputPath);
-            if (parsed.name.startsWith("_")) {
+            if (parsed.name.startsWith("partial-")) {
                 return;
             }
             let result = sass.compileString(inputContent, {

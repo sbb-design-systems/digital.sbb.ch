@@ -28,59 +28,58 @@
 }
 
 #sidebar[open] {
-  -webkit-animation: show-dialog 0.5s ease normal;
+  animation: show-dialog 0.5s ease normal;
 }
 
 #sidebar.hide-sidebar {
-  -webkit-animation: hide-dialog 0.5s ease normal;
+  animation: hide-dialog 0.5s ease normal;
 }
 
 #sidebar::backdrop {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  -webkit-animation: none;
+  inset: 0;
+  background-color: rgb(0 0 0 / 50%);
+  animation: none;
 }
 
 #sidebar[open]::backdrop {
-  -webkit-animation: show-backdrop 0.5s normal;
+  animation: show-backdrop 0.5s normal;
 }
 
 #sidebar.hide-sidebar::backdrop {
-  -webkit-animation: hide-backdrop 0.5s normal;
+  animation: hide-backdrop 0.5s normal;
 }
 
-@-webkit-keyframes show-dialog {
+@keyframes show-dialog {
   from {
     opacity: 0;
     transform: translateX(-100%);
   }
+
   to {
     opacity: 1;
     transform: translateX(0%);
   }
 }
 
-@-webkit-keyframes hide-dialog {
+@keyframes hide-dialog {
   to {
     opacity: 0;
     transform: translateX(-100%);
   }
 }
 
-@-webkit-keyframes show-backdrop {
+@keyframes show-backdrop {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
 
-@-webkit-keyframes hide-backdrop {
+@keyframes hide-backdrop {
   to {
     opacity: 0;
   }
@@ -130,6 +129,7 @@
   gap: var(--sbb-spacing-responsive-xs) 0;
   align-items: center;
   @include sbb.shadow-level-5-hard;
+
   padding: var(--sbb-spacing-responsive-s);
 
   sbb-form-field {
@@ -174,10 +174,8 @@
 
   &.horizontal {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
+    flex-flow: row wrap;
+    place-content: flex-start flex-start;
     align-items: flex-start;
     gap: var(--sbb-spacing-fixed-4x);
 
@@ -200,6 +198,7 @@
       }
     }
   }
+
   &.vertical {
     sbb-title {
       &:first-child {
@@ -210,6 +209,7 @@
     sbb-teaser {
       width: 100%;
       margin-bottom: var(--sbb-spacing-fixed-4x);
+
 /*
       img {
         max-width: var(--sbb-spacing-fixed-30x);
@@ -217,9 +217,11 @@
         */
     }
   }
+
   &.component {
     padding: var(--sbb-spacing-responsive-s);
   }
+
   &.overview {
     padding: var(--sbb-spacing-responsive-m);
 
@@ -270,7 +272,6 @@ p.metal {
 .tree {
   padding: 0;
   margin: 0;
-  list-style-type: none;
   list-style: none;
   font-size: inherit;
 
@@ -323,7 +324,7 @@ p.metal {
     top: 2px;
     width: 24px;
     height: 24px;
-    background-image: url(https://icons.app.sbb.ch/icons/four-diamonds-small.svg);
+    background-image: url("https://icons.app.sbb.ch/icons/four-diamonds-small.svg");
     background-repeat: no-repeat;
     background-position: center left;
     background-size: 24px 24px;
@@ -332,11 +333,11 @@ p.metal {
   }
 
   .has-subcategory::before {
-    background-image: url(https://icons.app.sbb.ch/icons/folder-small.svg);
+    background-image: url("https://icons.app.sbb.ch/icons/folder-small.svg");
   }
 
   .selected::before {
-    background-image: url(https://icons.app.sbb.ch/icons/folder-open-small.svg);
+    background-image: url("https://icons.app.sbb.ch/icons/folder-open-small.svg");
   }
 
 

@@ -21,7 +21,11 @@
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.19.11",
         "gzipper": "^7.2.0",
-        "html-minifier": "^4.0.0"
+        "html-minifier": "^4.0.0",
+        "stylelint": "^16.9.0",
+        "stylelint-config-prettier-scss": "^1.0.0",
+        "stylelint-config-standard": "^36.0.1",
+        "stylelint-config-standard-scss": "^13.1.0"
     },
     "dependencies": {
         "@11ty/eleventy-fetch": "^4.0.0",
