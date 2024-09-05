@@ -15,7 +15,7 @@ order: 50
 * Es soll in Gegenwartsform geschrieben werden. {.lead}
 * Begriffen in verschiedenen Anwendungsfällen muss immer die gleiche Bedeutung zugewiesen werden. {.lead}
 
-Weitere Details zu den Schreibregeln sind in den <sbb-link variant="inline" target="_blank" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/sprache.html">SBB Sprach- und Schreibregeln</sbb-link> ersichtlich. {.lead}
+Weitere Details zu den Schreibregeln sind in den <sbb-link variant="inline" target="_blank" href="https://brand.sbb.ch/document/6/de#/sprache/so-schreiben-wir-1">SBB Sprach- und Schreibregeln</sbb-link> ersichtlich. {.lead}
 
 ## Formatierung
 ### Zahlen

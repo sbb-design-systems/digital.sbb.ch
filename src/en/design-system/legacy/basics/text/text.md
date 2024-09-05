@@ -15,7 +15,7 @@ order: 50
 * The present tense should be used. {.lead}
 * Terms in different scenarios should always be attributed the same meaning. {.lead}
 
-Further details on the style guide can be found in the <sbb-link variant="inline" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/sprache.html">SBB rules on language and style</sbb-link>. {.lead}
+Further details on the style guide can be found in the <sbb-link variant="inline" href="https://brand.sbb.ch/document/6/de#/sprache/so-schreiben-wir-1">SBB rules on language and style</sbb-link>. {.lead}
 
 ## Formatting
 ### Numbers
