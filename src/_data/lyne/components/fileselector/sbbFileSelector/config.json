@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-file-selector",
-    "patternId":"sbbFileSelector",
-    "patternDirectory":"fileselector",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: navigation-folder-lyne_de
+    - lyne_components_navigation_de
+key: navigation-lyne_de
 title: Navigation
 parent: lyne_components_de
-keywords: navigation, menu, navigation-link, navigation-list, navigation-marker, navigation-section
-order: 270
-redirect: /de/design-system/lyne/components/navigation/navigation/
-folder: true
+keywords: navigation
+order: 700
+patternId: sbbNavigation
 ---

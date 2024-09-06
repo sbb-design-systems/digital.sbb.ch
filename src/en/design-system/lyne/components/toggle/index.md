@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_toggle_en
 title: Toggle
-key: toggle-folder-lyne_en
+key: toggle-lyne_en
 parent: lyne_components_en
-keywords: toggle, toggle-option, toggle-check, check, option
-order: 450
-redirect: /en/design-system/lyne/components/toggle/toggle/
-folder: true
+keywords: toggle
+order: 700
+patternId: sbbToggle
 ---

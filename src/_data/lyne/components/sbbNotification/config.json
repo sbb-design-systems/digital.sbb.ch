@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-notification",
+    "patternId":"sbbNotification",
+    "patternDirectory":"notification",
+    "category": "Indicator",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": false
+}

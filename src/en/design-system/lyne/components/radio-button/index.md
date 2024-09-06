@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_radio_button_en
 title: Radio-Button
-key: radio-button-folder-lyne_en
+key: radio-button-lyne_en
 parent: lyne_components_en
-keywords: radiobutton, radio, radio-button, radio-button-group, group
-order: 320
-redirect: /en/design-system/lyne/components/radio-button/radio-button/
-folder: true
+keywords: radio-button
+order: 520
+patternId: sbbRadioButton
 ---

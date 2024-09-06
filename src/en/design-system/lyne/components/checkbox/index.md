@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_checkbox_en
 title: Checkbox
-key: checkbox-folder-lyne_en
+key: checkbox-lyne_en
 parent: lyne_components_en
-keywords: checkbox, checkbox-group, checkbox group
-order: 70
-redirect: /en/design-system/lyne/components/checkbox/checkbox/
-folder: true
+keywords: checkbox
+order: 130
+patternId: sbbCheckbox
 ---

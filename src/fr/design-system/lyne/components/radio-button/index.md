@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: radio-button-folder-lyne_fr
+key: radio-button-lyne_fr
 title: Radio-Button
 parent: lyne_components_fr
-keywords: radiobutton, radio, radio-button, radio-button-group, group
-order: 320
-redirect: /fr/design-system/lyne/components/radio-button/radio-button/
-folder: true
+keywords: radio-button
+order: 520
+availablelanguages: 
+    - de
+    - en
 ---

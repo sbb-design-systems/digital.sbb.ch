@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: Time, Input
 order: 420
 patternId: sbbTimeInput
-patternDirectory: timeinput
 ---

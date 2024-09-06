@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: container-folder-lyne_de
+    - lyne_components_container_de
+key: container-lyne_de
 title: Container
 parent: lyne_components_de
-keywords: container, sticky-bar, sticky, bar
-order: 100
-redirect: /de/design-system/lyne/components/container/container/
-folder: true
+keywords: container
+order: 300
+patternId: sbbContainer
 ---

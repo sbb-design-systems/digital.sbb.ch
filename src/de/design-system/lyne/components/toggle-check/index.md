@@ -7,7 +7,6 @@ key: toggle-check-lyne_de
 title: Toggle-Check
 parent: lyne_components_de
 keywords: toggle-check
-order: 710
+order: 1120
 patternId: sbbToggleCheck
-patternDirectory: togglecheck
 ---

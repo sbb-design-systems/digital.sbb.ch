@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-file-selector",
+    "patternId":"sbbFileSelector",
+    "patternDirectory":"fileselector",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": false
+}

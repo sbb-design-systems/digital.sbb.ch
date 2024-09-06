@@ -7,7 +7,6 @@ key: overlay-lyne_de
 title: Overlay
 parent: lyne_components_de
 keywords: overlay
-order: 295
+order: 790
 patternId: sbbOverlay
-patternDirectory: overlay
 ---

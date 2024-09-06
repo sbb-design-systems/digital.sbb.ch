@@ -1,13 +1,14 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: button-folder-lyne_de
-title: Button
+    - lyne_components_button_de
+    - lyne_components_action_group_child_de
+    - lyne_components_button_siblings_de
+key: button-lyne_de
+title: Button (Primary)
 parent: lyne_components_de
-keywords: button, link
-order: 50
-redirect: /de/design-system/lyne/components/button/button/
-folder: true
+keywords: button, icon, split, action
+order: 170
+patternId: sbbButton
 ---

@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: breadcrumb-folder-lyne_de
+    - lyne_components_breadcrumb_de
+key: breadcrumb-lyne_de
 title: Breadcrumb
 parent: lyne_components_de
-keywords: bread, breadcrumb, breadcrumb-group, breadcrumb group
-order: 40
-redirect: /de/design-system/lyne/components/breadcrumb/breadcrumb-group/
-folder: true
+keywords: breadcrumb, bread, crumb
+order: 150
+patternId: sbbBreadcrumb
 ---

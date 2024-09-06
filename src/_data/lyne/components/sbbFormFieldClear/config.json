@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-form-field-clear",
+    "patternId":"sbbFormFieldClear",
+    "patternDirectory":"formfield",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs":false,
+    "isChildOf":["sbbFormField"]
+}

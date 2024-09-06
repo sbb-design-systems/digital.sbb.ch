@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_popover_en
 title: Popover
-key: popover-folder-lyne_en
+key: popover-lyne_en
 parent: lyne_components_en
-keywords: popover, pop, over, trigger, popver-trigger
-order: 310
-redirect: /en/design-system/lyne/components/popover/popover/
-folder: true
+keywords: popover
+order: 500
+patternId: sbbPopover
 ---

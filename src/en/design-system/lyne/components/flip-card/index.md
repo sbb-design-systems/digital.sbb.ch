@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_flip_card_en
 title: Flip-Card
-key: flip-card-folder-lyne_en
+key: flip-card-lyne_en
 parent: lyne_components_en
-keywords: flip-card, flip, card
+keywords: flip-card
 order: 145
-redirect: /en/design-system/lyne/components/flip-card/flip-card/
-folder: true
+patternId: sbbFlipCard
 ---

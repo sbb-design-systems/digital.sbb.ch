@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-teaser-product-static",
-    "patternId":"sbbTeaserProductStatic",
-    "patternDirectory":"teaser",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

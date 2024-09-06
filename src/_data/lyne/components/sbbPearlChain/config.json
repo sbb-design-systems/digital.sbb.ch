@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-pearl-chain",
+    "patternId":"sbbPearlChain",
+    "patternDirectory":"pearlchain",
+    "category": "Time-Table",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": false
+}

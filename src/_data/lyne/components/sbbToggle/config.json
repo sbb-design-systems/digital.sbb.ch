@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-toggle",
+    "patternId":"sbbToggle",
+    "patternDirectory":"toggle",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": ["sbbToggleOption"],
+    "isChildOf": false
+}

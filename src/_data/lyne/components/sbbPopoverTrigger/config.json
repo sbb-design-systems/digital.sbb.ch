@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-popover-trigger",
+    "patternId":"sbbPopoverTrigger",
+    "patternDirectory":"popover",
+    "category": "Overlay",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": ["sbbPopover"],
+    "isChildOf": false
+}

@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: slider
 order: 370
 patternId: sbbSlider
-patternDirectory: slider
 ---

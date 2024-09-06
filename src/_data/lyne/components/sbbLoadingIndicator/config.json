@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-loading-indicator",
+    "patternId":"sbbLoadingIndicator",
+    "patternDirectory":"loadingindicator",
+    "category": "Indicator",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

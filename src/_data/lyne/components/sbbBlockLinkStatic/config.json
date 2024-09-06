@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-block-link-static",
+    "patternId":"sbbBlockLinkStatic",
+    "patternDirectory":"link",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs":false,
+    "isChildOf": false
+}

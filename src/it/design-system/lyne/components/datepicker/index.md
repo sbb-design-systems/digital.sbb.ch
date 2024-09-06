@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_it
-key: datepicker-folder-lyne_it
+key: datepicker-lyne_it
 title: Datepicker
 parent: lyne_components_it
-keywords: date, datepicker, calendar, picker
-order: 110
-redirect: /it/design-system/lyne/components/datepicker/datepicker/
-folder: true
+keywords: datepicker
+order: 20
+availablelanguages: 
+    - de
+    - en
 ---

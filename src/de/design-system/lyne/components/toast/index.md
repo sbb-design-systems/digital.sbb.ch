@@ -7,7 +7,6 @@ key: toast-lyne_de
 title: Toast
 parent: lyne_components_de
 keywords: toast
-order: 440
+order: 1100
 patternId: sbbToast
-patternDirectory: toast
 ---

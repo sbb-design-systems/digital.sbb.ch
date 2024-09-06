@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: card-folder-lyne_de
+    - lyne_components_card_de
+key: card-lyne_de
 title: Card
 parent: lyne_components_de
-keywords: card, card-link, card-badge, badge, link
-order: 60
-redirect: /de/design-system/lyne/components/card/card/
-folder: true
+keywords: card
+order: 210
+patternId: sbbCard
 ---

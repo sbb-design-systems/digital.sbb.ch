@@ -7,7 +7,6 @@ key: signet-lyne_de
 title: Signet
 parent: lyne_components_de
 keywords: signet
-order: 350
+order: 900
 patternId: sbbSignet
-patternDirectory: logo 
 ---

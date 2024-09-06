@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-calendar",
+    "patternId":"sbbCalendar",
+    "patternDirectory":"calendar",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":false,
+    "isChildOf":["sbbDatepicker"]
+}

@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-checkbox-group",
+    "patternId":"sbbCheckboxGroup",
+    "patternDirectory":"checkbox",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbCheckbox", "sbbCheckboxPanel"],
+    "isChildOf":false
+}

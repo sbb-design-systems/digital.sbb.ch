@@ -8,5 +8,4 @@ parent: lyne_components_en
 keywords: file-selector
 order: 140
 patternId: sbbFileSelector
-patternDirectory: fileselector
 ---

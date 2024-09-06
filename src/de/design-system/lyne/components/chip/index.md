@@ -7,7 +7,6 @@ key: chip-lyne_de
 title: Chip
 parent: lyne_components_de
 keywords: chip
-order: 80
+order: 280
 patternId: sbbChip
-patternDirectory: chip
 ---

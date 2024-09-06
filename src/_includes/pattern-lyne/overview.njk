@@ -1,3 +1,6 @@
+
+
+
 <div id="componentlist" class="browser overview">
     <div class="browser-header-overview">   
         <sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
@@ -19,10 +22,7 @@
             <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
         {% endif %}
         {% if components == true %}
-            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponents) | sortByOrder %}
-            {%- for entry in componentsPages %}
-                {% include "./tree.njk" %}
-            {%- endfor -%}
+            {% include "./tree-status.njk" %}
         {% endif %}
     </ul>
 </div>

@@ -1,6 +1,6 @@
 {
     "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss"],
-    "ignoreFiles": ["src/assets/css/partials/partial-code.scss", "dist/**/*.scss", "dist/**/*.css"],
+    "ignoreFiles": ["src/assets/css/partials/partial-code.scss", "src/assets/css/partials/partial-onetrust.scss", "dist/**/*.scss", "dist/**/*.css"],
     "plugins": [
         "stylelint-use-logical-spec"
     ],

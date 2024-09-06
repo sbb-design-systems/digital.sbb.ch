@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-toggle-option",
-    "patternId":"sbbToggleOption",
-    "patternDirectory":"toggle",
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true
-}

@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: alert-folder-lyne_fr
+key: alert-lyne_fr
 title: Alert
 parent: lyne_components_fr
-keywords: alert, alert-group, alert group
-order: 25
-redirect: /fr/design-system/lyne/components/alert/alert/
-folder: true
+order: 30
+availablelanguages: 
+    - de
+    - en
 ---

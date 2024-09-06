@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-radio-button-panel",
+    "patternId":"sbbRadioButtonPanel",
+    "patternDirectory":"radiobutton",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": ["sbbRadioButton"],
+    "isChildOf": false
+}

@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-footer",
-    "patternId":"sbbFooter",
-    "patternDirectory":"footer",
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true
-}

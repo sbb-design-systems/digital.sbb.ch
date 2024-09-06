@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-stepper",
+    "patternId":"sbbStepper",
+    "patternDirectory":"stepper",
+    "category": "Indicator",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

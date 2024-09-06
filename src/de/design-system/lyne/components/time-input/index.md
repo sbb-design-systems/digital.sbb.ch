@@ -7,7 +7,6 @@ key: time-input-lyne_de
 title: Time-Input
 parent: lyne_components_de
 keywords: Time, Input
-order: 420
+order: 1080
 patternId: sbbTimeInput
-patternDirectory: timeinput
 ---

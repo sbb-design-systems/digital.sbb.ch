@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_link_list_en
 title: Link-List
-key: link-list-folder-lyne_en
+key: link-list-lyne_en
 parent: lyne_components_en
-keywords: link, list, anchor
+keywords: link-list, action
 order: 220
-redirect: /en/design-system/lyne/components/link-list/link-list/
-folder: true
+patternId: sbbLinkList
 ---

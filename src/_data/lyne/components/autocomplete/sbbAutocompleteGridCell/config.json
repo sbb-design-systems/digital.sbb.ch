@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-autocomplete-grid-cell",
-    "patternId":"sbbAutocompleteGridCell",
-    "patternDirectory":"autocomplete",
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true
-}

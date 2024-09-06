@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-clock",
+    "patternId":"sbbClock",
+    "patternDirectory":"clock",
+    "category": "Brand",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf":["sbbFooter"]
+}

@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: link-folder-lyne_fr
+key: link-lyne_fr
 title: Link
 parent: lyne_components_fr
-keywords: link, icon, action
-order: 210
-redirect: /fr/design-system/lyne/components/link/block-link/
-folder: true
+keywords: link, icon, split, action
+order: 350
+availablelanguages: 
+    - de
+    - en
 ---

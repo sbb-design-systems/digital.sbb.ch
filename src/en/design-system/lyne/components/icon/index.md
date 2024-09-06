@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: icon
 order: 180
 patternId: sbbIcon
-patternDirectory: icon
 ---

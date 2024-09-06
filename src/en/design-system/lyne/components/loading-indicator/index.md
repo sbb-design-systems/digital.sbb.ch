@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: loading-indicator
 order: 230
 patternId: sbbLoadingIndicator
-patternDirectory: loadingindicator
 ---

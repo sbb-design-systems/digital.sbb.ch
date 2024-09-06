@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-teasser-hero",
+    "patternId":"sbbTeaserHero",
+    "patternDirectory":"teaser",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbImage"],
+    "isChildOf": false
+}

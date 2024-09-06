@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: header-folder-lyne_fr
+key: header-lyne_fr
 title: Header
 parent: lyne_components_fr
-keywords: header, header-link, link
-order: 170
-redirect: /fr/design-system/lyne/components/header/header/
-folder: true
+keywords: header
+order: 300
+availablelanguages: 
+    - de
+    - en
 ---

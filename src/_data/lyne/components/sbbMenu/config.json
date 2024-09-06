@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-menu",
+    "patternId":"sbbMenu",
+    "patternDirectory":"menu",
+    "category": "Navigation",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

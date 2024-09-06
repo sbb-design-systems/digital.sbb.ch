@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: header-folder-lyne_de
+    - lyne_components_header_de
+key: header-lyne_de
 title: Header
 parent: lyne_components_de
-keywords: header, header-link, link
-order: 170
-redirect: /de/design-system/lyne/components/header/header/
-folder: true
+keywords: header
+order: 510
+patternId: sbbHeader
 ---

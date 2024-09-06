@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-image",
+    "patternId":"sbbImage",
+    "patternDirectory":"image",
+    "category": "Visual asset",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

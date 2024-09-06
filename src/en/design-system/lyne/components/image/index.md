@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: image
 order: 190
 patternId: sbbImage
-patternDirectory: image
 ---

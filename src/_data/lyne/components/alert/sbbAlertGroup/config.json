@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-alert-group",
-    "patternId":"sbbAlertGroup",
-    "patternDirectory":"alert",
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true
-}

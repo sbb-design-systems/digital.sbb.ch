@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-transparent-button",
+    "patternId":"sbbTransparentButton",
+    "patternDirectory":"button",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":false,
+    "isChildOf": false
+}

@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-navigation-list",
+    "patternId":"sbbNavigationList",
+    "patternDirectory":"navigation",
+    "category": "Navigation",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "isChildOf": ["sbbNavigation"]
+}

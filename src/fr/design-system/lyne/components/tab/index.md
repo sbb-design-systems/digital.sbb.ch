@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
-tags: 
+layout: pattern-lyne.njk
+tags:
     - lyne_components_fr
-key: tab-folder-lyne_fr
+key: tab-label-lyne_fr
 title: Tab
 parent: lyne_components_fr
-keywords: tab, tab-group, group
-order: 390
-redirect: /fr/design-system/lyne/components/tab-group/tab-group/
-folder: true
+keywords: tab
+order: 620
+availablelanguages: 
+    - de
+    - en
 ---

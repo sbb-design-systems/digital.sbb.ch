@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: overlay
 order: 295
 patternId: sbbOverlay
-patternDirectory: overlay
 ---

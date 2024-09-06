@@ -7,7 +7,6 @@ key: image-lyne_de
 title: Image
 parent: lyne_components_de
 keywords: image
-order: 190
+order: 550
 patternId: sbbImage
-patternDirectory: image
 ---

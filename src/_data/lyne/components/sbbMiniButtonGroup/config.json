@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-mini-button-group",
+    "patternId":"sbbMiniButtonGroup",
+    "patternDirectory":"button",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

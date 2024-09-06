@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-overlay",
-    "patternId":"sbbOverlay",
-    "patternDirectory":"overlay",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

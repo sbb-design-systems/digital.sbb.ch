@@ -1,0 +1,32 @@
+{
+    "tag":"sbb-action-group",
+    "patternId":"sbbActionGroup",
+    "patternDirectory":"actiongroup",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbButton", "sbbSecondaryButton", "sbbTertiaryButton", "sbbTransparentButton", "sbbBlockLink"],
+    "isChildOf":false,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "context": [
+            {
+                "public": true
+            },
+            {
+                "business": true
+            }
+        ],
+        "modes": [
+            {
+                "light": true
+            },
+            {
+                "dark": false
+            }
+        ]
+    }
+}

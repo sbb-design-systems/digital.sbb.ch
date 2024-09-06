@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_dialog_en
 title: Dialog
-key: dialog-folder-lyne_en
+key: dialog-lyne_en
 parent: lyne_components_en
-keywords: dialog, modal
-order: 120
-redirect: /en/design-system/lyne/components/dialog/dialog/
-folder: true
+keywords: dialog
+order: 10
+patternId: sbbDialog
 ---

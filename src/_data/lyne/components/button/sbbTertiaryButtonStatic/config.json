@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-tertiary-button-static",
-    "patternId":"sbbTertiaryButtonStatic",
-    "patternDirectory":"button",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

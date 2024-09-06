@@ -7,7 +7,6 @@ key: logo-lyne_de
 title: Logo
 parent: lyne_components_de
 keywords: logo
-order: 240
+order: 630
 patternId: sbbLogo
-patternDirectory: logo
 ---

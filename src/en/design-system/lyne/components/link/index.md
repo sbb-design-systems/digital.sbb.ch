@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_link_en
 title: Link
-key: link-folder-lyne_en
+key: link-lyne_en
 parent: lyne_components_en
-keywords: link, icon, action
-order: 210
-redirect: /en/design-system/lyne/components/link/block-link/
-folder: true
+keywords: link, icon, split, action
+order: 350
+patternId: sbbLink
 ---

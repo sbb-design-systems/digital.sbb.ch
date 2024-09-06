@@ -6,7 +6,7 @@ key: dialog-lyne_it
 title: Dialog
 parent: lyne_components_it
 keywords: dialog
-order: 120
+order: 10
 availablelanguages: 
     - de
     - en

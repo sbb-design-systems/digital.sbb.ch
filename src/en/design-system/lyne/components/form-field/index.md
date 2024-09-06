@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_form_field_en
 title: Form-Field
-key: form-field-folder-lyne_en
+key: form-field-lyne_en
 parent: lyne_components_en
-keywords: form-field, form, field, text-input, select, input
-order: 160
-redirect: /en/design-system/lyne/components/form-field/form-field/
-folder: true
+keywords: form-field
+order: 10
+patternId: sbbFormField
 ---

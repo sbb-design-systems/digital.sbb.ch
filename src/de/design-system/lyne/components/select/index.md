@@ -9,7 +9,6 @@ key: select-lyne_de
 title: Select
 parent: lyne_components_de
 keywords: select
-order: 330
+order: 880
 patternId: sbbSelect
-patternDirectory: select
 ---

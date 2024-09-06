@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-slider",
-    "patternId":"sbbSlider",
-    "patternDirectory":"slider",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

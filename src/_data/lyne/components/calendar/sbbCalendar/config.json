@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-calendar",
-    "patternId":"sbbCalendar",
-    "patternDirectory":"calendar",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

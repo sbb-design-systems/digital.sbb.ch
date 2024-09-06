@@ -7,7 +7,6 @@ key: slider-lyne_de
 title: Slider
 parent: lyne_components_de
 keywords: slider
-order: 370
+order: 920
 patternId: sbbSlider
-patternDirectory: slider
 ---

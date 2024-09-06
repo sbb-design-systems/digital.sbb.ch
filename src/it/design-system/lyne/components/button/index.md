@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_it
-key: button-folder-lyne_it
-title: Button
+key: button-lyne_it
+title: Button (Primary)
 parent: lyne_components_it
-keywords: button, link
-order: 50
-redirect: /it/design-system/lyne/components/button/button/
-folder: true
+keywords: button, icon, split, action
+order: 10
+availablelanguages: 
+    - de
+    - en
 ---

@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-mini-button",
-    "patternId":"sbbMiniButton",
-    "patternDirectory":"button",
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true
-}

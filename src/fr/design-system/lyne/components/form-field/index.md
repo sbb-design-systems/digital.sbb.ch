@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: form-field-folder-lyne_fr
+key: form-field-lyne_fr
 title: Form-Field
 parent: lyne_components_fr
-keywords: form-field, form, field, text-input, select, input
-order: 160
-redirect: /fr/design-system/lyne/components/form-field/form-field/
-folder: true
+keywords: form-field
+order: 20
+availablelanguages: 
+    - de
+    - en
 ---

@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-header-button",
+    "patternId":"sbbHeaderButton",
+    "patternDirectory":"header",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "isChildOf":["sbbHeader"]
+}

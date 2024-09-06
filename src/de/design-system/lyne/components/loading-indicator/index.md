@@ -7,7 +7,6 @@ key: loading-indicator-lyne_de
 title: Loading-Indicator
 parent: lyne_components_de
 keywords: loading-indicator
-order: 230
+order: 620
 patternId: sbbLoadingIndicator
-patternDirectory: loadingindicator
 ---

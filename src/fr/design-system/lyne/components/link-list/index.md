@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: link-list-folder-lyne_fr
+key: link-list-lyne_fr
 title: Link-List
 parent: lyne_components_fr
-keywords: link, icon, action, link-list
+keywords: link-list, action
 order: 220
-redirect: /fr/design-system/lyne/components/link-list/link-list/
-folder: true
+availablelanguages: 
+    - de
+    - en
 ---

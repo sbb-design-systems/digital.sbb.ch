@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: status
 order: 380
 patternId: sbbStatus
-patternDirectory: status
 ---

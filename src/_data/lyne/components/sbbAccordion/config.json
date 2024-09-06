@@ -1,0 +1,32 @@
+{
+    "tag":"sbb-accordion",
+    "patternId":"sbbAccordion",
+    "patternDirectory":"accordion",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbExpansionPanel", "sbbExpansionPanelHeader", "sbbExpansionPanelContent"],
+    "isChildOf":false,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "context": [
+            {
+                "public": true
+            },
+            {
+                "business": true
+            }
+        ],
+        "modes": [
+            {
+                "light": true
+            },
+            {
+                "dark": false
+            }
+        ]
+    }
+}

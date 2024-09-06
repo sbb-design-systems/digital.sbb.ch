@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-toast",
-    "patternId":"sbbToast",
-    "patternDirectory":"toast",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

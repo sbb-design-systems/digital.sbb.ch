@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-breadcrumb",
+    "patternId":"sbbBreadcrumb",
+    "patternDirectory":"breadcrumb",
+    "category": "Navigation",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":false,
+    "isChildOf":["sbbBreadcrumbGroup"]
+}

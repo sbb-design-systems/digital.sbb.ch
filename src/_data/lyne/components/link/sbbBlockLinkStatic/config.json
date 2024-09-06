@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-block-link-static",
-    "patternId":"sbbBlockLinkStatic",
-    "patternDirectory":"link",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

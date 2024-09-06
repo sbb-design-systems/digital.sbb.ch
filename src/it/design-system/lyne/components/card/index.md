@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_it
-key: card-folder-lyne_it
+key: card-lyne_it
 title: Card
 parent: lyne_components_it
-keywords: card, card-link, card-badge, badge, link
-order: 60
-redirect: /it/design-system/lyne/components/card/card/
-folder: true
+keywords: card
+order: 100
+availablelanguages: 
+    - de
+    - en
 ---

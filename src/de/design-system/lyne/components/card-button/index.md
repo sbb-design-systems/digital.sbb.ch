@@ -1,0 +1,14 @@
+---
+layout: pattern-lyne.njk
+tags: 
+    - lyne_components_de
+    - lyne_components_card_button_de
+    - lyne_components_card_child_de
+key: card-button-lyne_de
+title: Card-Button
+parent: lyne_components_de
+keywords: card-button
+order: 230
+excludeInNavigation: true
+patternId: sbbCardButton
+---

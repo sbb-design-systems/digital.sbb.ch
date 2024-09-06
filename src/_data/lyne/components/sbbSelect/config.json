@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-select",
+    "patternId":"sbbSelect",
+    "patternDirectory":"select",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": ["sbbFormField"]
+}

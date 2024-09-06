@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_menu_en
 title: Menu
-key: menu-folder-lyne_en
+key: menu-lyne_en
 parent: lyne_components_en
 keywords: menu
-order: 250
-redirect: /en/design-system/lyne/components/menu/menu/
-folder: true
+order: 390
+patternId: sbbMenu
 ---

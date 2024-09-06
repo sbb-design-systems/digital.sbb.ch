@@ -1,13 +1,14 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: autocomplete-folder-lyne_de
+    - lyne_components_autocomplete_de
+    - lyne_components_optgroup_parent_de
+    - lyne_components_option_parent_de
+key: autocomplete-lyne_de
 title: Autocomplete
 parent: lyne_components_de
-keywords: autocomplete, autocomplete-grid
-order: 30
-redirect: /de/design-system/lyne/components/autocomplete/autocomplete/
-folder: true
+keywords: autocomplete
+order: 50
+patternId: sbbAutocomplete
 ---

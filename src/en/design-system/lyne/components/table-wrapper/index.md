@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: table-wrapper
 order: 395
 patternId: sbbTableWrapper
-patternDirectory: table
 ---

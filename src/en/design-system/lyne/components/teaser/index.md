@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_teaser_en
+    - lyne_components_teaser_siblings_en
 title: Teaser
-key: teaser-folder-lyne_en
+key: teaser-lyne_en
 parent: lyne_components_en
-keywords: teaser, teaser-hero, hero, teaser-paid, paid
-order: 410
-redirect: /en/design-system/lyne/components/teaser/teaser/
-folder: true
+keywords: teaser
+order: 650
+patternId: sbbTeaser
 ---

@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_de
-key: tab-folder-lyne_de
+    - lyne_components_tab_de
+key: tab-lyne_de
 title: Tab
 parent: lyne_components_de
-keywords: tab, tab-group, group
-order: 390
-redirect: /de/design-system/lyne/components/tab/tab-group/
-folder: true
+keywords: tab
+order: 950
+patternId: sbbTab
 ---

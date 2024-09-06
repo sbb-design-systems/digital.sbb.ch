@@ -12,15 +12,15 @@ layout: base.njk
 {% set subPages = collections[tabkey] %}
 
 
-{% set patternConfig = lyne.components[patternDirectory][patternId].config %}
+{% set patternConfig = lyne.components[patternId].config %}
 {% set tag = patternConfig.tag %}
 
 {% if patternConfig.hasPlayground == true %}
-  {% set playground = lyne.components[patternConfig.patternDirectory][patternConfig.patternId].playground %}
+  {% set playground = lyne.components[patternConfig.patternId].playground %}
 {% endif %}
 
 {% if patternConfig.hasImplementation == true %}
-  {% set implementation = lyne.components[patternConfig.patternDirectory][patternConfig.patternId].implementation %}
+  {% set implementation = lyne.components[patternConfig.patternId].implementation %}
 {% endif %}
 
 {% if patternConfig.hasStorybook == true %}

@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-secondary-button-link",
+    "patternId":"sbbSecondaryButtonLink",
+    "patternDirectory":"button",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": false,
+    "isChildOf": false
+}

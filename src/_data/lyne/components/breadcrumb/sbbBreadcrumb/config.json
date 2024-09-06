@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-breadcrumb",
-    "patternId":"sbbBreadcrumb",
-    "patternDirectory":"breadcrumb",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-button-static",
-    "patternId":"sbbButtonStatic",
-    "patternDirectory":"button",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

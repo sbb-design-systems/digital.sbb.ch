@@ -1,0 +1,32 @@
+{
+    "tag":"sbb-alert",
+    "patternId":"sbbAlert",
+    "patternDirectory":"alert",
+    "category": "Indicator",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf":["sbbAlertGroup"],
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "context": [
+            {
+                "public": true
+            },
+            {
+                "business": true
+            }
+        ],
+        "modes": [
+            {
+                "light": true
+            },
+            {
+                "dark": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-teaser-product-static",
+    "patternId":"sbbTeaserProductStatic",
+    "patternDirectory":"teaser",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbButton", "sbbSecondaryButton", "sbbImage"],
+    "isChildOf": false
+}

@@ -1,13 +1,11 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_accordion_en
+key: accordion-lyne_en
 title: Accordion
-key: accordion-folder-lyne_en
 parent: lyne_components_en
-keywords: accordion, expansion-panel, expansion, panel
 order: 10
-redirect: /en/design-system/lyne/components/accordion/accordion/
-folder: true
+patternId: sbbAccordion
 ---

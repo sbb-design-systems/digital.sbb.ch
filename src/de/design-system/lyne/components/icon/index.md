@@ -7,7 +7,6 @@ key: icon-lyne_de
 title: Icon
 parent: lyne_components_de
 keywords: icon
-order: 180
+order: 540
 patternId: sbbIcon
-patternDirectory: icon
 ---

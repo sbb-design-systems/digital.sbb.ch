@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-header",
+    "patternId":"sbbHeader",
+    "patternDirectory":"header",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

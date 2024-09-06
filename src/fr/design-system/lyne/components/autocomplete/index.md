@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: autocomplete-folder-lyne_fr
+key: autocomplete-lyne_fr
 title: Autocomplete
 parent: lyne_components_fr
-keywords: autocomplete, autocomplete-grid
-order: 30
-redirect: /fr/design-system/lyne/components/autocomplete/autocomplete/
-folder: true
+keywords: autocomplete
+order: 10
+availablelanguages: 
+    - de
+    - en
 ---

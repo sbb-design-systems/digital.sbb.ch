@@ -1,13 +1,12 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_tag_en
 title: Tag
-key: tag-folder-lyne_en
+key: tag-lyne_en
 parent: lyne_components_en
-keywords: tag, tag-group, group
-order: 400
-redirect: /en/design-system/lyne/components/tag/tag-group/
-folder: true
+keywords: tag
+order: 630
+patternId: sbbTag
 ---

@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-logo",
+    "patternId":"sbbLogo",
+    "patternDirectory":"logo",
+    "category": "Brand",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": ["sbbHeader"]
+}

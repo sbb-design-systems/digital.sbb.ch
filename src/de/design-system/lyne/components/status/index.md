@@ -7,7 +7,6 @@ title: Status
 key: status-lyne_de
 parent: lyne_components_de
 keywords: status
-order: 380
+order: 930
 patternId: sbbStatus
-patternDirectory: status
 ---

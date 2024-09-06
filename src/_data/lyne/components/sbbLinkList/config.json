@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-link-list",
+    "patternId":"sbbLinkList",
+    "patternDirectory":"linklist",
+    "category": "Collection",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: container-folder-lyne_fr
+key: container-lyne_fr
 title: Container
 parent: lyne_components_fr
-keywords: container, sticky-bar, sticky, bar
-order: 100
-redirect: /fr/design-system/lyne/components/container/container/
-folder: true
+keywords: container
+order: 170
+availablelanguages: 
+    - de
+    - en
 ---

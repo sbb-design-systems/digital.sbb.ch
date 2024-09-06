@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-navigation-list",
-    "patternId":"sbbNavigationList",
-    "patternDirectory":"navigation",
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true
-}

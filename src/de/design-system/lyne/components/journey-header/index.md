@@ -7,7 +7,6 @@ key: journey-header-lyne_de
 title: Journey-Header
 parent: lyne_components_de
 keywords: journey-header
-order: 200
+order: 560
 patternId: sbbJourneyHeader
-patternDirectory: journeyheader
 ---

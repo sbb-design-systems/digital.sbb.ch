@@ -9,5 +9,4 @@ parent: lyne_components_de
 keywords: action-group
 order: 20
 patternId: sbbActionGroup
-patternDirectory: actiongroup
 ---

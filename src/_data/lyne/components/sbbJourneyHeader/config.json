@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-journey-header",
+    "patternId":"sbbJourneyHeader",
+    "patternDirectory":"journeyheader",
+    "category": "Time-Table",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

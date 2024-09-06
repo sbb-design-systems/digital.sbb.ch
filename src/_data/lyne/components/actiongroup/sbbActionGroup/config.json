@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-action-group",
-    "patternId":"sbbActionGroup",
-    "patternDirectory":"actiongroup",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

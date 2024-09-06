@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: chip
 order: 80
 patternId: sbbChip
-patternDirectory: chip
 ---

@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-expansion-panel",
+    "patternId":"sbbExpansionPanel",
+    "patternDirectory":"accordion",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": ["sbbExpansionPanelContent", "sbbExpansionPanelHeader"],
+    "isChildOf":["sbbAccordion"]
+}

@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-button",
+    "patternId":"sbbButton",
+    "patternDirectory":"button",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":false,
+    "isChildOf": false
+}

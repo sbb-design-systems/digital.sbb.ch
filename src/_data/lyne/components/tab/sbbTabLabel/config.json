@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-tab-label",
-    "patternId":"sbbTabLabel",
-    "patternDirectory":"tab",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

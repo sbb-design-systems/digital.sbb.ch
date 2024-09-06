@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-message",
+    "patternId":"sbbMessage",
+    "patternDirectory":"message",
+    "category": "Indicator",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf": false
+}

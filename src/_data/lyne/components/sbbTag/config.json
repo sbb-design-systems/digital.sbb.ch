@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-tag",
+    "patternId":"sbbTag",
+    "patternDirectory":"tag",
+    "category": "Indicator",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": false,
+    "isChildOf": ["sbbTagGroup"]
+}

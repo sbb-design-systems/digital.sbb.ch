@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-datepicker",
+    "patternId":"sbbDatepicker",
+    "patternDirectory":"datepicker",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbDatepickerNextDay", "sbbDatepickerPreviousDay", "sbbDatepickerToggle"],
+    "isChildOf": false
+}

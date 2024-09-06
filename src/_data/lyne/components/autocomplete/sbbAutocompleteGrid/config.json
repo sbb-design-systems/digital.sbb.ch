@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-autocomplete-grid",
-    "patternId":"sbbAutocompleteGrid",
-    "patternDirectory":"autocomplete",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

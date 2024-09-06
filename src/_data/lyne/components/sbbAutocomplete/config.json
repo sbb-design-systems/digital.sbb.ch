@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-autocomplete",
+    "patternId":"sbbAutocomplete",
+    "patternDirectory":"autocomplete",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbOption", "sbbOptgroup"],
+    "isChildOf":["sbbFormField"]
+}

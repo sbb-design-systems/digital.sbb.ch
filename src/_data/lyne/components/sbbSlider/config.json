@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-slider",
+    "patternId":"sbbSlider",
+    "patternDirectory":"slider",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": false
+}

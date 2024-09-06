@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: signet
 order: 350
 patternId: sbbSignet
-patternDirectory: logo
 ---

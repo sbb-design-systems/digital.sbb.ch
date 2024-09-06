@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-form-field",
+    "patternId":"sbbFormField",
+    "patternDirectory":"formfield",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": ["Input", "Label", "Select", "Textarea", "sbbDatePicker", "sbbSelect", "sbbSlider", "sbbTimeInput", "sbbAutocomplete", "sbbAutocompleteGrid", "sbbFormError"],
+    "isChildOf": false
+}

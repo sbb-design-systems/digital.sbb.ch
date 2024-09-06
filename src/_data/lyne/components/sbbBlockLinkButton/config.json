@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-block-link-button",
+    "patternId":"sbbBlockLinkButton",
+    "patternDirectory":"link",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs":false,
+    "isChildOf": false
+}

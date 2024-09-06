@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-tab-label",
+    "patternId":"sbbTabLabel",
+    "patternDirectory":"tab",
+    "category": "Navigation",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": false,
+    "isChildOf": ["sbbTabGroup"]
+}

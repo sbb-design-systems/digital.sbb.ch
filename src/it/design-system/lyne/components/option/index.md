@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_it
-key: option-folder-lyne_it
+key: option-lyne_it
 title: Option
 parent: lyne_components_it
-keywords: option, option group, optgroup
-order: 290
-redirect: /it/design-system/lyne/components/option/option/
-folder: true
+keywords: option
+order: 300
+availablelanguages: 
+    - de
+    - en
 ---

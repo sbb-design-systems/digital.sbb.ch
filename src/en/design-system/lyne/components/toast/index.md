@@ -9,5 +9,4 @@ parent: lyne_components_en
 keywords: toast
 order: 440
 patternId: sbbToast
-patternDirectory: toast
 ---

@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-menu",
-    "patternId":"sbbMenu",
-    "patternDirectory":"menu",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-optgroup",
+    "patternId":"sbbOptgroup",
+    "patternDirectory":"option",
+    "category": "Form",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": false,
+    "isChildOf": ["sbbSelect"]
+}

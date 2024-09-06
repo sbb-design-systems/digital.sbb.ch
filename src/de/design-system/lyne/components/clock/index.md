@@ -7,7 +7,6 @@ key: clock-lyne_de
 title: Clock
 parent: lyne_components_de
 keywords: clock
-order: 90
+order: 290
 patternId: sbbClock
-patternDirectory: clock
 ---

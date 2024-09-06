@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-card-button",
-    "patternId":"sbbCardButton",
-    "patternDirectory":"card",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

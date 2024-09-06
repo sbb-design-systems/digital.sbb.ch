@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-dialog",
+    "patternId":"sbbDialog",
+    "patternDirectory":"dialog",
+    "category": "Overlay",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": ["sbbDialogActions", "sbbDialogActions", "sbbDialogTitle"],
+    "isChildOf": false
+}

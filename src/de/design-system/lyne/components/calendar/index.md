@@ -8,7 +8,6 @@ key: calendar-lyne_de
 title: Calendar
 parent: lyne_components_de
 keywords: calendar
-order: 55
+order: 200
 patternId: sbbCalendar
-patternDirectory: calendar
 ---

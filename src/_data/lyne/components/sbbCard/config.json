@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-card",
+    "patternId":"sbbCard",
+    "patternDirectory":"card",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs":["sbbCardButton", "sbbCardButton"],
+    "isChildOf":false
+}

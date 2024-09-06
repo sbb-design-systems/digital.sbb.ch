@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-link",
+    "patternId":"sbbLink",
+    "patternDirectory":"link",
+    "category": "Action",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "isChildOf":["sbbLinkList"]
+}

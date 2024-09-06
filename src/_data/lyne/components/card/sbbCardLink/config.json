@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-card-link",
-    "patternId":"sbbCardLink",
-    "patternDirectory":"card",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

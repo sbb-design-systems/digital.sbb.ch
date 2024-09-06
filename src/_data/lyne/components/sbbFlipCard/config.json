@@ -1,0 +1,11 @@
+{
+    "tag":"sbb-flip-card",
+    "patternId":"sbbFlipCard",
+    "patternDirectory":"flipcard",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "childs": ["sbbFlipCardDetails", "sbbFlipCardSummary"],
+    "isChildOf": false
+}

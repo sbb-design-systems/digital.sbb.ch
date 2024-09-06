@@ -1,13 +1,14 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_en
+    - lyne_components_option_en
+    - lyne_components_autocomplete_children_en
+    - lyne_components_select_children_en
 title: Option
-key: option-folder-lyne_en
+key: option-lyne_en
 parent: lyne_components_en
-keywords: option, option group, optgroup
-order: 290
-redirect: /en/design-system/lyne/components/option/option/
-folder: true
+keywords: option
+order: 300
+patternId: sbbOption
 ---

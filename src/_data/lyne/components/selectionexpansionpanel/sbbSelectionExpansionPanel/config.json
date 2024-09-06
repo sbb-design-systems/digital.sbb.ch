@@ -1,8 +1,0 @@
-{
-    "tag":"sbb-selection-expansion-panel",
-    "patternId":"sbbSelectionExpansionPanel",
-    "patternDirectory":"selectionexpansionpanel",
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true
-}

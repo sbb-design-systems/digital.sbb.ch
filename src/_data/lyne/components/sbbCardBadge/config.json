@@ -1,0 +1,12 @@
+{
+    "tag":"sbb-card-badge",
+    "patternId":"sbbCardBadge",
+    "patternDirectory":"card",
+    "category": "Layout",
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs":false,
+    "isChildOf":["sbbCard"]
+}

@@ -1,13 +1,13 @@
 ---
-permalink: false
-hideInSitemap: true
+layout: pattern-lyne.njk
 tags: 
     - lyne_components_fr
-key: checkbox-folder-lyne_fr
+key: checkbox-lyne_fr
 title: Checkbox
 parent: lyne_components_fr
-keywords: checkbox, checkbox-group, checkbox group
-order: 70
-redirect: /fr/design-system/lyne/components/checkbox/checkbox/
-folder: true
+keywords: checkbox
+order: 130
+availablelanguages: 
+    - de
+    - en
 ---
