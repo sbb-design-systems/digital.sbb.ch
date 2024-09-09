@@ -21,10 +21,3 @@ The Checkbox-Panel has the same function as the Checkbox. In addition to the nor
 * Groups of checkboxes should be logically organised.
 * Avoid too many options in a group in order to maintain clarity (max. 5-7 options).
 * Avoid too much content in the Checkbox-Panel to ensure readability and clarity.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_checkbox_group_en
-}) }}
-

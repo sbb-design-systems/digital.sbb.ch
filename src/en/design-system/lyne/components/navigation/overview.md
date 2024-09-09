@@ -15,9 +15,3 @@ The navigation component displays a list of navigation links that help users to 
 ## Rules
 * The navigation should be hidden behind a hamburger icon and placed as the first element in the header.
 * The navigation links should be logically grouped and arranged in a sensible order.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_navigation_children_en
-}) }}

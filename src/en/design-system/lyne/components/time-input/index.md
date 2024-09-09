@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_time_input_en
+tags: lyne_components_en
 title: Time-Input
 key: time-input-lyne_en
 parent: lyne_components_en

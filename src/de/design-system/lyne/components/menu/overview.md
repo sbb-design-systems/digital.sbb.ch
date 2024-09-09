@@ -16,10 +16,3 @@ Ein Menü zeigt kontextabhängige Aktionen oder Optionen für ein definiertes El
 * Die Menüoptionen sollen klar beschriftet und leicht verständlich sein.
 * Achte darauf, dass die Menüoptionen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sind.
 * Vermeide zu viele Optionen in einem Kontext-Menü, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_menu_children_de
-}) }}
-

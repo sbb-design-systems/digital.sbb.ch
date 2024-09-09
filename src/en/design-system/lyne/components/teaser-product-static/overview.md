@@ -17,9 +17,3 @@ A teaser is a preview that is intended to arouse users' curiosity and encourage 
 * Do not use too many different teaser types and sizes on one page.
 * Several teasers can be structured with one title.
 * The teaser-product-static should only be used if the teaser is to contain several CTAs.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "sibling",
-  collection: collections.lyne_components_teaser_siblings_en
-}) }}

@@ -14,9 +14,3 @@ Die Navigations-Komponente zeigt eine Liste von Navigationslinks an, die Nutzend
 ## Regeln
 * Die Navigation soll hinter einem Hamburger-Icon versteckt sein und wird jeweils im Header als erstes Element platziert.
 * Die Navigationslinks sollen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sein.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_navigation_children_de
-}) }}

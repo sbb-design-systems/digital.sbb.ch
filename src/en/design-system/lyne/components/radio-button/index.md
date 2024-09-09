@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_radio_button_en
+tags: lyne_components_en
 title: Radio-Button
 key: radio-button-lyne_en
 parent: lyne_components_en

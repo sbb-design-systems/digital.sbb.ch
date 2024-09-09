@@ -7,5 +7,6 @@
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
+    "childs": ["sbbBlockLink"],
     "isChildOf": false
 }

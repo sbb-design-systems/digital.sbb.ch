@@ -14,9 +14,3 @@ Versteckt Inhalt (Text und Links) hinter einem Titel und einem Bild. Mit einem K
 ## Regeln
 * Titel und Bild sind zwingend
 * Der Detail-Text sollte nach Möglichkeit nicht zu lang sein, bzw. nur so lang, dass die Flip-Card nach dem Einblenden der Details nicht grösser werden muss.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_flip_card_child_de
-}) }}

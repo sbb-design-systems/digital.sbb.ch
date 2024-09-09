@@ -17,9 +17,3 @@ Ein Date-Picker ist eine Eingabekomponente, die es den Nutzenden ermöglicht, ei
 * Der Date-Picker kann mit oder ohne Vor- und Zurück-Buttons dargestellt werden.
 * Der Date-Picker soll lokalisiert dargestellt werden und das Datumsformat der Nutzenden berücksichtigen.
 * Bei Fehlermeldungen (z.B. ungültiges Datum) soll eine klare und verständliche Fehlermeldung angezeigt werden.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_datepicker_child_de
-}) }}

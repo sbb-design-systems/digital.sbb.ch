@@ -14,9 +14,3 @@ The form field is a wrapper that ensures the standardised display and function o
 
 ## Rules
 * The use of form elements without a form field is not recommended. Should it be necessary for reasons, the presentation must be respected and must be guaranteed by the website or application.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_form_field_children_en
-}) }}

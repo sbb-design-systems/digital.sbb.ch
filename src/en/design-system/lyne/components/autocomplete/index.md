@@ -1,10 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_autocomplete_en
-    - lyne_components_optgroup_parent_en
-    - lyne_components_option_parent_en
+tags: lyne_components_en
 title: Autocomplete
 key: autocomplete-lyne_en
 parent: lyne_components_en

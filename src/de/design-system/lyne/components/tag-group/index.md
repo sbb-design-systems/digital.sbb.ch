@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_tag_group_de
+tags: lyne_components_de
 key: tag-group-lyne_de
 title: Tag-Group
 parent: lyne_components_de

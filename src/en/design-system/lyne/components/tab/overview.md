@@ -10,9 +10,3 @@ It is part of the tab-group component.
 
 ## When should the component be used?
 * Only within the tab-group component.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_tab_group_en
-}) }}

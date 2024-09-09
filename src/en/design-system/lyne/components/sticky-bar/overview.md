@@ -10,9 +10,3 @@ It is part of the container component.
 
 ## When should the component be used?
 * Only within the container component.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_container_en
-}) }}

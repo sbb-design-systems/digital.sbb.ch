@@ -7,5 +7,6 @@
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": false,
+    "childs": false,
     "isChildOf": false
 }

@@ -9,9 +9,11 @@
             <li data-keywords="{{ entry.data.keywords }}">
 
                 <sbb-card size="l" color="white">
+                    <sbb-card-link href="{{entry.url}}">More Info</sbb-card-link>
                     <div class="card-content-component">
                         <sbb-title level="5">{{ entry.data.title }}</sbb-title>
-                        <sbb-action-group orientation="horizontal" align-group="end">
+                        {#%<sbb-action-group orientation="horizontal" align-group="end">
+
 
                             {% if componentData.childs|length %}
                                 <sbb-secondary-button icon-name="arrow-turn-down-small" size="m" id="menu-child-{{componentData.tag}}"></sbb-secondary-button>
@@ -44,6 +46,7 @@
 
                             <sbb-button-link icon-name="arrow-right-small" size="m" href="{{entry.url}}"></sbb-button-link>
                         </sbb-action-group>
+                        %#}
                     </div>
                 </sbb-card>
 

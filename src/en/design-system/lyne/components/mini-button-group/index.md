@@ -1,9 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_mini_button_en
-    - lyne_components_button_siblings_en
+tags: lyne_components_en
 title: Mini-Button-Group
 key: mini-button-group-lyne_en
 parent: lyne_components_en

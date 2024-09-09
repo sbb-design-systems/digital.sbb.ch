@@ -16,10 +16,3 @@ Ein Teaser ist eine Vorschau, der Nutzende neugierig machen und sie dazu anregen
 * Verwende nicht zu viele verschiedene Teaser-Arten- und Grössen auf einer Seite.
 * Mehrere Teaser können mit einem Titel strukturiert werden.
 * Beim Teaser-Product ist nur eine CTA erlaubt. Sollten mehrere CTA benötigt werden, kann der Teaser-Product-Static verwendet werden.
-
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "sibling",
-  collection: collections.lyne_components_teaser_siblings_de
-}) }}

@@ -16,9 +16,3 @@ Ein Popover ist ein kleines Overlay, das zusätzlichen Kontext oder interaktive 
 * Achte darauf, dass die Inhalte des Popover auf verschiedenen Geräten und Bildschirmgrößen gut funktioniert und bedienbar ist. 
 * Achte darauf, dass der Popover nicht zu viele Informationen oder Elemente enthält, um die Übersichtlichkeit zu gewährleisten
 * Vermeide es, mehrere Popovers gleichzeitig offen zu halten.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "sibling",
-  collection: collections.lyne_components_popover_trigger_de
-}) }}

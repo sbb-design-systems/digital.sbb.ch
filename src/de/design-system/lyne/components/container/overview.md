@@ -15,9 +15,3 @@ Ein Container gruppiert zusammengehörige Inhalte, definiert Abstände zum vorhe
 ## Regeln
 * Jeglicher Inhalt (abgesehen von Header und Footer) ist in einem Container zu platzieren. Somit muss mindestens ein Container je Seite eingesetzt werden.
 * Die Abstände der Container können angepasst werden, sofern dies erforlderlich ist.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_sticky_bar_de
-}) }}

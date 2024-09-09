@@ -18,9 +18,3 @@ The header is the top section of a website or application that contains importan
 * If a hamburger menu is placed, it is always displayed first and to the left.
 * The header should contain a search function if the website offers a lot of content.
 * Avoid too many elements in the header so that clarity and responsive behaviour are not negatively affected.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_header_children_en
-}) }}

@@ -1,9 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_teaser_hero_de
-    - lyne_components_teaser_siblings_de
+tags: lyne_components_de
 key: teaser-hero-lyne_de
 title: Teaser-Hero
 parent: lyne_components_de

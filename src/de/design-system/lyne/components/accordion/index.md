@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_accordion_de
+tags: lyne_components_de
 key: accordion-lyne_de
 title: Accordion
 parent: lyne_components_de

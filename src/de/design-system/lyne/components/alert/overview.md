@@ -15,9 +15,3 @@ Eine Alert-Komponente ist ein visuelles Element, das wichtige Informationen oder
 * Ein Alert soll eine klare und prägnante Nachricht enthalten
 * Alerts und Notifications sollten nicht kombiniert werden.
 * Alert sollen nicht für Fehlermeldungen in Formularen eingesetzt werden.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_alert_group_de
-}) }}

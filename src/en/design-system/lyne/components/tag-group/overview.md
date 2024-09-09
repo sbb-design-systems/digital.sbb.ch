@@ -17,9 +17,3 @@ A tag is a small labelling element that is used for categorisation and as a filt
 * Tags should be short and clearly labelled.
 * Use a logical and intuitive order of tags to maximise usability.
 * Avoid too many tags at once to ensure clarity.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_tag_en
-}) }}

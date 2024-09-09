@@ -10,10 +10,3 @@ It is part of the date-picker component.
 
 ## When should the component be used?
 * Only within the date-picker component.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_datepicker_en
-}) }}
-

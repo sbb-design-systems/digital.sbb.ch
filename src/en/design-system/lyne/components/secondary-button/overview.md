@@ -15,15 +15,3 @@ A button is an interactive element that triggers an action when it is clicked.
 
 ## Rules
 * A button should be clearly labelled and describe a specific action.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "variant",
-  collection: collections.lyne_components_secondary_button_variants_en
-}) }}
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "sibling",
-  collection: collections.lyne_components_button_siblings_en
-}) }}

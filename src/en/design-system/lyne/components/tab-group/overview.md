@@ -17,9 +17,3 @@ A tab-group allows users to switch between different content or views within the
 * Tabs should be clearly labelled and easy to understand.
 * The order and labelling of tabs should be logical and intuitive.
 * Avoid too many tabs at once to ensure clarity and not overwhelm users.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_tab_title_en
-}) }}

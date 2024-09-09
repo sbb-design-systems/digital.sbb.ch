@@ -15,9 +15,3 @@ Eine Card ist ein flexibles Container-Element, das verschiedene Arten von Inhalt
 ## Regeln
 * Die Inhalte innerhalb einer Card sollen logisch zusammenhängen und gut strukturiert sein. Der Inhalt sollte so knapp wie möglich formuliert werden.
 * Hat eine Card mehrere Interaktive Elemente, so liegen die Klick-Targets auf den eingesetzten interaktiven Elementen. Hat die Card nur ein interaktives Element, so kann dient die ganze Card als Klick-Target.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_card_child_de
-}) }}

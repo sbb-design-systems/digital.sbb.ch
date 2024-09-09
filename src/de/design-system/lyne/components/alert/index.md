@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_alert_de
+tags: lyne_components_de
 key: alert-lyne_de
 title: Alert
 parent: lyne_components_de

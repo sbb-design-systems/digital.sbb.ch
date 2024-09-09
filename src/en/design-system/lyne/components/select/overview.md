@@ -16,9 +16,3 @@ A select allows users to make a choice from a list of several options.
 ## Rules
 * The options in the select menu should be clearly labelled and easy to understand.
 * Use a useful default selection if this is relevant for the use case.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_select_children_en
-}) }}

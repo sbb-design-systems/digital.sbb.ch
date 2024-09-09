@@ -16,9 +16,3 @@ A container groups related content, defines distances to the previous and next c
 ## Rules
 * All content (apart from header and footer) must be placed in a container. This means that at least one container must be used per page.
 * The spacing of the containers can be adjusted if necessary.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_sticky_bar_en
-}) }}

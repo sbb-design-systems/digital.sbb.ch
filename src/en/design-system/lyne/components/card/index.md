@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_card_en
+tags: lyne_components_en
 title: Card
 key: card-lyne_en
 parent: lyne_components_en

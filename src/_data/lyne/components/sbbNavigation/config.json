@@ -7,5 +7,6 @@
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
+    "childs":["sbbNavigationMarker", "sbbNavigationSection"],
     "isChildOf": false
 }

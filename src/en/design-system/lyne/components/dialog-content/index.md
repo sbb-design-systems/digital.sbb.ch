@@ -1,9 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_dialog_content_en
-    - lyne_components_dialog_children_en
+tags: lyne_components_en
 title: Dialog-Content
 key: dialog-content-lyne_en
 parent: lyne_components_en

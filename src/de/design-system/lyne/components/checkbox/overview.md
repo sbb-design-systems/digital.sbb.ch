@@ -16,9 +16,3 @@ Eine Checkbox ist ein Auswahlfeld, das es Nutzenden ermöglicht, eine oder mehre
 * Jede Checkbox soll klar beschriftet sein und die Option eindeutig benennen.
 * Gruppen von Checkboxes sollen logisch zusammengefasst werden.
 * Vermeide zu viele Optionen in einer Gruppe, um die Übersichtlichkeit zu bewahren (max. 5-7 Optionen).
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_checkbox_group_de
-}) }}

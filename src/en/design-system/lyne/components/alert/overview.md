@@ -16,9 +16,3 @@ An alert component is a visual element that communicates important information o
 * An alert should contain a clear and precise message
 * Alerts and notifications should not be combined.
 * Alerts should not be used for error messages in forms.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_alert_group_en
-}) }}

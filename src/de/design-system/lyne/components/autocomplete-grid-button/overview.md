@@ -9,9 +9,3 @@ Sie ist Teil der Autocomplete-Grid-Cell-Komponente.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Nur innerhalb der Autocomplete-Grid-Cell-Komponente.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_autocomplete_grid_cell_de
-}) }}

@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_flip_card_de
+tags: lyne_components_de
 key: flip-card-lyne_de
 title: Flip-Card
 parent: lyne_components_de

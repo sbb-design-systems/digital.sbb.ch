@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_slider_de
+tags: lyne_components_de
 key: slider-lyne_de
 title: Slider
 parent: lyne_components_de

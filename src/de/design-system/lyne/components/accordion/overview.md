@@ -15,10 +15,3 @@ Versteckt Inhalt hinter einem Titel. Mit einem Klick auf den Titel kann der dazu
 ## Regeln
 * Ein Accordion soll aus min. zwei Einträgen bestehen.
 * Ineinander verschachtelte Akkordeons sind nicht erlaubt.
-
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_accordion_child_de
-}) }}

@@ -16,9 +16,3 @@ Eine Tab-Group ermöglicht es Nutzenden, zwischen verschiedenen Inhalten oder An
 * Tabs sollen klar beschriftet und leicht verständlich sein.
 * Die Reihenfolge und Beschriftung der Tabs sollen logisch und intuitiv sein.
 * Vermeide zu viele Tabs auf einmal, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_tab_title_de
-}) }}

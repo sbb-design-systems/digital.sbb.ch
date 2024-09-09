@@ -17,9 +17,3 @@ A breadcrumb-group is a navigation help that shows users where they are within t
 * A breadcrumb group should always start from the home page and display the complete path to the current page
 * The individual levels in the breadcrumb group should be labelled clearly and understandably
 * A breadcrumb-group should not display more than 5-7 levels in order to maintain clarity
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_breadcrumb_en
-}) }}

@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_icon_de
+tags: lyne_components_de
 key: icon-lyne_de
 title: Icon
 parent: lyne_components_de

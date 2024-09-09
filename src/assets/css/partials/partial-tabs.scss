@@ -1,3 +1,5 @@
+@use '@sbb-esta/lyne-elements' as sbb;
+
 .tab-documentation {
   padding-block-start: var(--sbb-spacing-fixed-9x);
 }
@@ -5,5 +7,32 @@
 sbb-tab {
   h2:first-child, h3:first-child, sbb-title:first-child {
     margin-block-start: 0;
+  }
+}
+
+.relative-components {
+  margin-block-start: var(--sbb-spacing-fixed-9x);
+  inline-size: 100%;
+
+  .relative-components-lists {
+    sbb-link-list {
+      &:not(:last-child) {
+        margin-block-end: var(--sbb-spacing-fixed-9x);
+      }
+    }
+
+    @include sbb.mq($from: medium) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-gap: var(--sbb-spacing-fixed-6x);
+
+      sbb-link-list {
+        margin-block-end: 0;
+      }
+    }
+
+    
+
   }
 }

@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_table-wrapper_de
+tags: lyne_components_de
 key: table-wrapper-lyne_de
 title: Table-Wrapper
 parent: lyne_components_de

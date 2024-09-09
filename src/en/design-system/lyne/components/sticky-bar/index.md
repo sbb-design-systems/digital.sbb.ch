@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_sticky_bar_en
+tags: lyne_components_en
 title: Sticky-Bar
 key: sticky-bar-lyne_en
 parent: lyne_components_en

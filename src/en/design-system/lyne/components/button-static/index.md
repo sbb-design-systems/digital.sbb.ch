@@ -1,9 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_button_static_en
-    - lyne_components_button_variants_en
+tags: lyne_components_en
 title: Button (Primary, Static)
 key: button-static-lyne_en
 parent: lyne_components_en

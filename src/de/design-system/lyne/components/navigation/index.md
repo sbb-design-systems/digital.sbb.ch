@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_navigation_de
+tags: lyne_components_de
 key: navigation-lyne_de
 title: Navigation
 parent: lyne_components_de

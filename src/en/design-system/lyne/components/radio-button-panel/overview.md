@@ -20,9 +20,3 @@ The Radio-Button-Panel has the same function as the Radio-Button. In addition to
 * Each option within a radio-button-group should be clearly labelled and easy to understand.
 * Avoid placing too many options in a radio button group to ensure clarity and to make selection easier.
 * Avoid too much content in the Radio-Button-Panel to ensure readability and clarity.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_radio_button_group_en
-}) }}

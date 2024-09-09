@@ -15,9 +15,3 @@ Ein Teaser ist eine Vorschau, der Nutzende neugierig machen und sie dazu anregen
 * Verwende eine prägnante und einladende Überschrift sowie eine kurze, interessante Beschreibung.
 * Verwende nicht zu viele verschiedene Teaser-Arten- und Grössen auf einer Seite.
 * Mehrere Teaser können mit einem Titel strukturiert werden.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "sibling",
-  collection: collections.lyne_components_teaser_siblings_de
-}) }}

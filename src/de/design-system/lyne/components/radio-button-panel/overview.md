@@ -19,9 +19,3 @@ Das Radio-Button-Panel erfüllt die gleiche Aufgabe wie der Radio-Button. Zusät
 * Jede Option innerhalb einer Gruppe von Radio-Button-Panels soll eindeutig beschriftet und leicht verständlich sein.
 * Vermeide es, zu viele Optionen in einer Radio-Button-Gruppe zu platzieren, um die Übersichtlichkeit zu gewährleisten und die Auswahl zu erleichtern.
 * Vermeide zu viele Inhalte im Radio-Button-Panel um die Lesbarkeit und Übersichtlichkeit zu gewährleisten.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_radio_button_group_de
-}) }}

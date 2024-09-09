@@ -15,10 +15,3 @@ A mini button group is a horizontal arrangement of mini buttons.
 ## Rules
 * Mini buttons can be grouped thematically with the divider component.
 * The available sizes (S, M, L, XL) are based on the available form elements and should be used consistently. 
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_mini_button_group_children_en
-}) }}
-

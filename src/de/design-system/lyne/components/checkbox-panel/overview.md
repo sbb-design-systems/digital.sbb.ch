@@ -21,9 +21,3 @@ Das Checkbox-Panel erfüllt die gleiche Aufgabe wie die Checkbox. Zusätzlich zu
 * Gruppen von Checkboxes sollen logisch zusammengefasst werden.
 * Vermeide zu viele Optionen in einer Gruppe, um die Übersichtlichkeit zu bewahren (max. 5-7 Optionen).
 * Vermeide zu viele Inhalte im Checkbox-Panel um die Lesbarkeit und Übersichtlichkeit zu gewährleisten.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_checkbox_group_de
-}) }}

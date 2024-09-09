@@ -13,9 +13,3 @@ Das Form-Field ist ein Wrapper, der die einheitliche Darstellung und Funktion vo
 
 ## Regeln
 * Der Einsatz von Formular-Elementen ohne Form-Field ist nicht empfohlen. Sollte es aus Gründen doch nötig sein, so ist die Darstellung einzuhalten und muss von der Webseite oder Applikation gewährleistet sein.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_form_field_children_de
-}) }}

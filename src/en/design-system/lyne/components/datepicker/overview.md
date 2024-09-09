@@ -18,9 +18,3 @@ A date picker is an input component that allows users to select a date from a ca
 * The date picker can be displayed with or without back and forward buttons.
 * The date picker should be localised and respect the user's date format.
 * Error messages (e.g. invalid date) should be displayed with a clear and understandable error message.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_datepicker_child_en
-}) }}

@@ -15,9 +15,3 @@ Ein Select ermöglicht es Nutzenden, eine Auswahl aus einer Liste mit mehreren O
 ## Regeln
 * Die Optionen im Select-Menü sollen eindeutig beschriftet und leicht verständlich sein.
 * Verwende eine sinnvolle Standardauswahl, falls dies für den Anwendungsfall relevant ist.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_select_children_de
-}) }}

@@ -17,10 +17,3 @@ A menu shows context-dependent actions or options for a defined element. It can 
 * Menu options should be clearly labelled and easy to understand.
 * Make sure that the menu options are logically grouped and arranged in a useful order.
 * Avoid too many options in a context menu to ensure clarity and not overwhelm users.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_menu_children_en
-}) }}
-

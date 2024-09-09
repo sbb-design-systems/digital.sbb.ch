@@ -16,9 +16,3 @@ Ein Tag ist ein kleines Beschriftungselement, das zur Kategorisierung und als al
 * Tags sollen kurz und eindeutig beschriftet sein.
 * Verwende eine logische und intuitive Reihenfolge der Tags, um die Benutzerfreundlichkeit zu maximieren.
 * Vermeide zu viele Tags auf einmal, um die Übersichtlichkeit zu gewährleisten.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_tag_de
-}) }}

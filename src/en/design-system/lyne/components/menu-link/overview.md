@@ -10,10 +10,3 @@ It is part of the menu component.
 
 ## When should the component be used?
 * Only within the menu component.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_menu_en
-}) }}
-

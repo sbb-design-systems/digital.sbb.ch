@@ -1,9 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_secondary_button_link_de
-    - lyne_components_secondary_button_variants_de
+tags: lyne_components_de
 key: secondary-button-link-lyne_de
 title: Secondary-Button (Link)
 parent: lyne_components_de

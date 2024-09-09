@@ -18,9 +18,3 @@ A dialogue is an overlay that overlays the main content of the page and presents
 * The dialogue should be easy to close, either by a close button or by clicking outside the dialogue.
 * If no actions are defined in the dialogue footer, users must always be able to close the dialogue.
 * Dialogues can also always be closed with the ESC key.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_dialog_children_en
-}) }}

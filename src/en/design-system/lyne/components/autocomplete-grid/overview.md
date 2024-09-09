@@ -15,9 +15,3 @@ The component offers the same functionalities as the Autocomplete component, but
 * The component should not be used for small data sets (e.g. only 10 entries/options).
 * The autocomplete list should not display too many suggestions at once in order to maintain clarity (max. 10 suggestions).
 * Users should be able to ignore the autocomplete function and make their own entries.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_autocomplete_grid_children_en
-}) }}

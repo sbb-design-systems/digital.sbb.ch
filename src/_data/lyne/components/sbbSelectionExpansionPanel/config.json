@@ -7,8 +7,6 @@
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
-    "isChildOf": false,
-    "showInFirstLevel": true,
     "childs": ["sbbCheckboxPanel", "sbbRadioButtonPanel"],
     "isChildOf": false
 }

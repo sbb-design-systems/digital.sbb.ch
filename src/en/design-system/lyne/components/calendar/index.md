@@ -1,9 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_calendar_en
-    - lyne_components_datepicker_child_en
+tags: lyne_components_en
 title: Calendar
 key: calendar-lyne_en
 parent: lyne_components_en

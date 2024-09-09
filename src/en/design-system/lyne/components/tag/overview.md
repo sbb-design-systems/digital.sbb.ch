@@ -10,9 +10,3 @@ It is part of the tag-group component.
 
 ## When should the component be used?
 * Only within the tag-group component.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_tag_group_en
-}) }}

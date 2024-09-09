@@ -9,9 +9,3 @@ Sie ist Teil der Dialog-Komponente.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Nur innerhalb der Dialog-Komponente.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_dialog_de
-}) }}

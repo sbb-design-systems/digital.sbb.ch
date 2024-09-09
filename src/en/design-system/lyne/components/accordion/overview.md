@@ -15,10 +15,3 @@ Hides content behind a title. The corresponding content can be shown or hidden b
 ## Rules
 * An accordion should consist of at least two entries.
 * Nested accordions are not permitted.
-
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_accordion_child_en
-}) }}

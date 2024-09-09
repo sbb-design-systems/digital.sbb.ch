@@ -17,9 +17,3 @@ Der Header ist der obere Abschnitt einer Webseite oder Applikation, der wichtige
 * Wird ein Hamburger-Menu platziert, so wird es immer als erstes und links dargestellt.
 * Der Header soll eine Suchfunktion enthalten, wenn die Website umfangreiche Inhalte bietet.
 * Vermeide zu viele Elemente im Header, um die Übersichtlichkeit und das Responsive Verhalten nicht zu beeinträchtigen.
-
-{{ lyneComponentLinks({
-  translations: translations["de"].lyne,
-  mode: "child",
-  collection: collections.lyne_components_header_children_de
-}) }}

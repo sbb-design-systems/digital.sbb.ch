@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
-    - lyne_components_link_list_de
+tags: lyne_components_de
 key: link-list-lyne_de
 title: Link-List
 parent: lyne_components_de

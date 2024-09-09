@@ -10,9 +10,3 @@ It is part of the flip-card component.
 
 ## When should the component be used?
 * Only within the flip-card component.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "parent",
-  collection: collections.lyne_components_flip_card_en
-}) }}

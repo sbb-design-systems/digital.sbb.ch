@@ -1,7 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_de
+tags: lyne_components_de
 key: footer-lyne_de
 title: Footer
 parent: lyne_components_de

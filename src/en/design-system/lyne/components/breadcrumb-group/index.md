@@ -1,8 +1,6 @@
 ---
 layout: pattern-lyne.njk
-tags: 
-    - lyne_components_en
-    - lyne_components_breadcrumb_group_en
+tags: lyne_components_en
 title: Breadcrumb-Group
 key: breadcrumb-group-lyne_en
 parent: lyne_components_en

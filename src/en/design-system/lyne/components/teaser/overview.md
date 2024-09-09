@@ -16,9 +16,3 @@ A teaser is a preview that is intended to arouse users' curiosity and encourage 
 * Use a catchy and inviting headline and a short, interesting description.
 * Do not use too many different teaser types and sizes on one page.
 * Several teasers can be structured with one title.
-
-{{ lyneComponentLinks({
-  translations: translations["en"].lyne,
-  mode: "sibling",
-  collection: collections.lyne_components_teaser_siblings_en
-}) }}
