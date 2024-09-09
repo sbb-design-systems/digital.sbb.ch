@@ -21,13 +21,11 @@ layout: base.njk
 
 
 
-{% if (page.lang == "de") or (page.lang == "de") %}
+{% if (page.lang == "de") or (page.lang == "en") %}
   {% set language = page.lang %}
 {% else %}
     {% set language = "de" %}
     {% include "../_includes/pattern-lyne/missing-language.njk" %}
-
-
 {% endif %}
 
 

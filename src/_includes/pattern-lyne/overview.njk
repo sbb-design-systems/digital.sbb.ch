@@ -10,19 +10,22 @@
     </div>
     <ul class="component-list list overview tree">
         {% if basics == true and components == true %}
-            <li><sbb-title level="5" class="browser-title">Design Tokens</sbb-title></li>
+            <li class="components-title"><sbb-chip color="granite" size="xs">Design Tokens</sbb-chip></li>
         {% endif %}
         {% if basics == true %}
             {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
             {%- for entry in basicPages %}
-                {% include "./tree.njk" %}
+                {% include "./overview-item-token.njk" %}
+
+
+
+
             {%- endfor -%}
         {% endif %}
         {% if basics == true and components == true %}
-            <li><sbb-title level="5" class="browser-title">Components</sbb-title></li>
         {% endif %}
         {% if components == true %}
-            {% include "./tree-status.njk" %}
+            {% include "./overview-item-component.njk" %}
         {% endif %}
     </ul>
 </div>

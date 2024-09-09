@@ -10,7 +10,7 @@
         {% set componentData = entry.config %}
        
         {% if (category|length) and (category == componentData.category) and (componentData.showInFirstLevel == true) %}
-            <li data-keywords="{{ entry.confi.keywords }}">
+            <li data-keywords="{{ entry.config.keywords }}">
 
                 <sbb-card size="l" color="white">
                     <sbb-card-link href="{{page.lang}}/design-system/lyne/components/{{entry.config.tag.slice(4)}}">More Info</sbb-card-link>
