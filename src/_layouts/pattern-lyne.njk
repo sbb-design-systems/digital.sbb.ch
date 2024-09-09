@@ -2,17 +2,9 @@
 layout: base.njk
 ---
 
-{% set tabkey = key%}
-
-{% if availablelanguages.length %}
-  {% include "../_includes/missing-languages.njk" %}
-  {% set tabkey = key.slice(0, -2)+"de" %}
-{% endif %}
-
-{% set subPages = collections[tabkey] %}
 
 
-{% set patternConfig = lyne.components[patternId].config %}
+{% set patternConfig = lyne.components[component].config %}
 {% set tag = patternConfig.tag %}
 
 {% if patternConfig.hasPlayground == true %}
@@ -27,69 +19,82 @@ layout: base.njk
   {% set storybookStories = lyne.stories[0] %}
 {% endif %}
 
-{% if availablelanguages.length %}
+
+
+{% if (page.lang == "de") or (page.lang == "de") %}
+  {% set language = page.lang %}
 {% else %}
-{% include "../_includes/title.njk" %}
+    {% set language = "de" %}
+    {% include "../_includes/pattern-lyne/missing-language.njk" %}
+
+
 {% endif %}
 
 
 
-{{ content | safe }}
+{% set key = [patternConfig.tag.slice(4), "-lyne_", language] | join %}
+{% set subPages = collections[key] %}
+
+{% include "../_includes/pattern-lyne/title.njk" %}
+
+
+
+
+{% if availablelanguages.length %}
+  {% include "../_includes/missing-languages.njk" %}
+  {% set tabkey = key.slice(0, -2)+"de" %}
+{% endif %}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-  {#Subpages#}
-  {% if subPages|length %}
-    {%- for tab in collections[tabkey] | sortByOrder -%}
-    <sbb-tab-label level="1">
-      <sbb-icon name="{{lyne.tabs.tabs[tab.data.order - 1].icon}}" slot="icon"></sbb-icon>
-      {{lyne.tabs.tabs[tab.data.order - 1].label[page.lang]}}
-    </sbb-tab-label>
-    <sbb-tab>
-      {{tab.content | safe}}
+{#Subpages#}
+{% if subPages|length %}
+    {%- for tab in subPages | sortByOrder -%}
+        <sbb-tab-label level="1">
+        <sbb-icon name="{{lyne.tabs.tabs[tab.data.order - 1].icon}}" slot="icon"></sbb-icon>
+        {{lyne.tabs.tabs[tab.data.order - 1].label[language]}}
+        </sbb-tab-label>
+        <sbb-tab>
+            {{tab.content | safe}}
 
+            {% if (tab.data.order == 1) and ((patternConfig.childs|length) or (patternConfig.isChildOf|length)) %}
+                <sbb-card size="xxl" color="milk" class="relative-components">
+                    <div class="relative-components-lists">
+                        {% if patternConfig.childs|length %}
+                            <sbb-link-list title-content="Childs">
+                                {% for child in patternConfig.childs %}
+                                    {% set childData = lyne.components[child].config %}
+                                    {% if childData|length %}
+                                        <sbb-block-link style="text-transform: capitalize" icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4)}}</sbb-block-link>
+                                    {% else %}
+                                        <sbb-block-link-static style="text-transform: capitalize" icon-name="chevron-small-left-right-small">{{child}}</sbb-block-link-static>
+                                    {% endif %}
+                                {% endfor %}
+                            </sbb-link-list>
+                        {% endif %}
 
-{% if (tab.data.order == 1) and ((patternConfig.childs|length) or (patternConfig.isChildOf|length)) %}
-
-<sbb-card size="xxl" color="milk" class="relative-components">
-
-<div class="relative-components-lists">
-      {% if patternConfig.childs|length %}
-          <sbb-link-list title-content="Childs">
-              {% for child in patternConfig.childs %}
-                  {% set childData = lyne.components[child].config %}
-                  {% if childData|length %}
-                      <sbb-block-link style="text-transform: capitalize" icon-name="four-diamonds-small" href="/{{page.lang}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4)}}</sbb-block-link>
-                  {% else %}
-                      <sbb-block-link-static style="text-transform: capitalize" icon-name="chevron-small-left-right-small">{{child}}</sbb-block-link-static>
-                  {% endif %}
-              {% endfor %}
-          </sbb-link-list>
-
-      {% endif %}
-
-      {% if patternConfig.isChildOf|length %}
-          <sbb-link-list title-content="Child of">
-              {% for child in patternConfig.isChildOf %}
-                      {% set childData = lyne.components[child].config %}
-                      {% if childData|length %}
-                          <sbb-block-link style="text-transform: capitalize" icon-name="four-diamonds-small" href="/{{page.lang}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4)}}</sbb-block-link>
-                      {% else %}
-                          <sbb-block-link-static style="text-transform: capitalize" icon-name="chevron-small-left-right-small">{{child}}</sbb-block-link-static>
-                      {% endif %}
-              {% endfor %}
-          </sbb-menu>
-      {% endif %}
-</div>
-</sbb-card>
+                        {% if patternConfig.isChildOf|length %}
+                            <sbb-link-list title-content="Child of">
+                                {% for child in patternConfig.isChildOf %}
+                                        {% set childData = lyne.components[child].config %}
+                                        {% if childData|length %}
+                                            <sbb-block-link style="text-transform: capitalize" icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4)}}</sbb-block-link>
+                                        {% else %}
+                                            <sbb-block-link-static style="text-transform: capitalize" icon-name="chevron-small-left-right-small">{{child}}</sbb-block-link-static>
+                                        {% endif %}
+                                {% endfor %}
+                            </sbb-menu>
+                        {% endif %}
+                    </div>
+                </sbb-card>
+            {% endif %}
+        </sbb-tab>
+    {% endfor %}
 {% endif %}
 
 
-    </sbb-tab>
-    {%- endfor -%}
-  {% endif %}
-  {#Playground#}
-  {% if (patternConfig.hasPlayground == true) or (patternConfig.hasStorybook == true) %}  
-    <sbb-tab-label level="1">
+{#Playground#}
+{% if (patternConfig.hasPlayground == true) or (patternConfig.hasStorybook == true) %}  
+    <sbb-tab-label level="2">
       <sbb-icon name="{{lyne.tabs.tabs[2].icon}}" slot="icon"></sbb-icon>
       Demo
     </sbb-tab-label>
@@ -103,22 +108,18 @@ layout: base.njk
           <script src="/assets/js/lyne-examples.js"></script>
       {% endif %}
     </sbb-tab>
-  {% endif %}
-  {#Implementation#}
-  {% if patternConfig.hasImplementation == true %}
-    <sbb-tab-label level="1">
+{% endif %}
+
+{#Implementation#}
+{% if patternConfig.hasImplementation == true %}
+    <sbb-tab-label level="2">
       <sbb-icon name="{{lyne.tabs.tabs[3].icon}}" slot="icon"></sbb-icon>
       Implementation
     </sbb-tab-label>
     <sbb-tab>
     {{ implementation | absolutelinks | renderUsingMarkdown | safe }}
     </sbb-tab>
-  {% endif %}
+{% endif %}
 </sbb-tab-group>
 
 {% include "../_includes/pattern-lyne/sidebar.njk" %}
-
-
-
-
-
