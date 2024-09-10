@@ -3,10 +3,15 @@
     "patternId":"sbbSelectionExpansionPanel",
     "patternDirectory":"selectionexpansionpanel",
     "category": "Form",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": ["sbbCheckboxPanel", "sbbRadioButtonPanel"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

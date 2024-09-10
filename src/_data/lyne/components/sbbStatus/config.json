@@ -3,10 +3,15 @@
     "patternId":"sbbStatus",
     "patternDirectory":"status",
     "category": "Indicator",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

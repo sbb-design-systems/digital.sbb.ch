@@ -3,10 +3,15 @@
     "patternId":"sbbCard",
     "patternDirectory":"card",
     "category": "Layout",
+    "keywords":["Card", "Container", "Tile"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbCardButton", "sbbCardButton"],
-    "isChildOf":false
+    "isChildOf":false,
+    "similar":[""],
+    "similar":false
 }

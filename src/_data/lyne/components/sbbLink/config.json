@@ -3,10 +3,15 @@
     "patternId":"sbbLink",
     "patternDirectory":"link",
     "category": "Action",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf":["sbbLinkList"]
+    "isChildOf":["sbbLinkList"],
+    "similar":[""],
+    "similar":false
 }

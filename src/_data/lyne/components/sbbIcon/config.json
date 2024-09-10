@@ -3,10 +3,15 @@
     "patternId":"sbbIcon",
     "patternDirectory":"icon",
     "category": "Visual asset",
+    "keywords":["Icon", "Pictogram", "CDN"],
+    "hasOverview": true,
+    "hasAnatomy": false,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

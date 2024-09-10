@@ -3,10 +3,15 @@
     "patternId":"sbbTeaserProduct",
     "patternDirectory":"teaser",
     "category": "Action",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbButton", "sbbSecondaryButton", "sbbImage"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

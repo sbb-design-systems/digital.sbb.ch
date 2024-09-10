@@ -3,10 +3,15 @@
     "patternId":"sbbStepper",
     "patternDirectory":"stepper",
     "category": "Indicator",
+    "keywords":[""],
+    "hasOverview": false,
+    "hasAnatomy": false,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbStep", "sbbStepLabel"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

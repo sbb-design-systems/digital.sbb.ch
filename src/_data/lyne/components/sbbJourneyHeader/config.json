@@ -3,10 +3,15 @@
     "patternId":"sbbJourneyHeader",
     "patternDirectory":"journeyheader",
     "category": "Time-Table",
+    "keywords":["Trip", "Journey", "Round trip"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

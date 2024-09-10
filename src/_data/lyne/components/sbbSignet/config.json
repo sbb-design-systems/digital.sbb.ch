@@ -3,9 +3,14 @@
     "patternId":"sbbSignet",
     "patternDirectory":"logo",
     "category": "Brand",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "childs": false,
-    "isChildOf": ["sbbLogo"]
+    "isChildOf": ["sbbLogo"],
+    "similar":[""],
+    "similar":false
 }

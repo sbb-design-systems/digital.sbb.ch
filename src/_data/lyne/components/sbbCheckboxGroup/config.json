@@ -3,10 +3,15 @@
     "patternId":"sbbCheckboxGroup",
     "patternDirectory":"checkbox",
     "category": "Form",
+    "keywords":["Checkbox", "Checkboxes"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbCheckbox", "sbbCheckboxPanel"],
-    "isChildOf":false
+    "isChildOf":false,
+    "similar":[""],
+    "similar":false
 }

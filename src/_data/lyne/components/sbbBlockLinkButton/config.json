@@ -3,10 +3,15 @@
     "patternId":"sbbBlockLinkButton",
     "patternDirectory":"link",
     "category": "Action",
+    "keywords":["Link", "Anchor", "Hyperlink", "Call to action"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs":false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

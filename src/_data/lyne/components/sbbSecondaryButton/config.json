@@ -3,10 +3,15 @@
     "patternId":"sbbSecondaryButton",
     "patternDirectory":"button",
     "category": "Action",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": ["sbbActionGroup"]
+    "isChildOf": ["sbbActionGroup"],
+    "similar":[""],
+    "similar":false
 }

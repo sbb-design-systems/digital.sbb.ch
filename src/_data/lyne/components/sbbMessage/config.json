@@ -3,10 +3,15 @@
     "patternId":"sbbMessage",
     "patternDirectory":"message",
     "category": "Indicator",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": ["sbbImage", "sbbTitle", "sbbButton", "sbbSecondaryButton"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

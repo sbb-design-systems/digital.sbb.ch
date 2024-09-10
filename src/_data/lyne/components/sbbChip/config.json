@@ -3,10 +3,15 @@
     "patternId":"sbbChip",
     "patternDirectory":"chip",
     "category": "Indicator",
+    "keywords":["Chip", "Badge", "Tag", "Label"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

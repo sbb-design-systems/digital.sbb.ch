@@ -3,10 +3,15 @@
     "patternId":"sbbRadioButtonGroup",
     "patternDirectory":"radiobutton",
     "category": "Form",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": ["sbbRadioButton", "sbbRadioButtonPanel", "sbbSelectionExpansionPanel"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

@@ -3,10 +3,15 @@
     "patternId":"sbbCalendar",
     "patternDirectory":"calendar",
     "category": "Form",
+    "keywords":["Calendar", "Picker", "Date picker", "Datetime picker", "Picker"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":false,
-    "isChildOf":["sbbDatepicker"]
+    "isChildOf":["sbbDatepicker"],
+    "similar":[""],
+    "similar":false
 }

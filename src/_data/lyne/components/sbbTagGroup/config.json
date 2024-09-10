@@ -3,10 +3,15 @@
     "patternId":"sbbTagGroup",
     "patternDirectory":"tag",
     "category": "Indicator",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbTag"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

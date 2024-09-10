@@ -3,10 +3,15 @@
     "patternId":"sbbFormFieldClear",
     "patternDirectory":"formfield",
     "category": "Form",
+    "keywords":["Form", "Clear", "Delete"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs":false,
-    "isChildOf":["sbbFormField"]
+    "isChildOf":["sbbFormField"],
+    "similar":[""],
+    "similar":false
 }

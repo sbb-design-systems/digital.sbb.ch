@@ -3,10 +3,15 @@
     "patternId":"sbbDivider",
     "patternDirectory":"divider",
     "category": "Layout",
+    "keywords":["Divider", "Horizonal rule", "Vertical rule", "Ruler"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf":false
+    "isChildOf":false,
+    "similar":[""],
+    "similar":false
 }

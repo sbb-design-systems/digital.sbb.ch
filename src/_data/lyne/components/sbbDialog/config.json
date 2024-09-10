@@ -3,10 +3,15 @@
     "patternId":"sbbDialog",
     "patternDirectory":"dialog",
     "category": "Overlay",
+    "keywords":["Dialog", "Popup", "Modal window", "Lightbox"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": ["sbbDialogActions", "sbbDialogActions", "sbbDialogTitle"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

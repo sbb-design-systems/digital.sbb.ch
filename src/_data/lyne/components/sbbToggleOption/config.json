@@ -3,10 +3,15 @@
     "patternId":"sbbToggleOption",
     "patternDirectory":"toggle",
     "category": "Form",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs":false,
-    "isChildOf": ["sbbToggle"]
+    "isChildOf": ["sbbToggle"],
+    "similar":[""],
+    "similar":false
 }

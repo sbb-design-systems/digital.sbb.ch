@@ -3,10 +3,15 @@
     "patternId":"sbbTab",
     "patternDirectory":"tab",
     "category": "Navigation",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs": false,
-    "isChildOf": ["sbbTabGroup"]
+    "isChildOf": ["sbbTabGroup"],
+    "similar":[""],
+    "similar":false
 }

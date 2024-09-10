@@ -3,10 +3,15 @@
     "patternId":"sbbFormField",
     "patternDirectory":"formfield",
     "category": "Form",
+    "keywords":["Input", "Text field", "Text box", "Label", "Textarea", "Select", "Autocomplete", "Wrapper"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": ["Input", "Label", "Select", "Textarea", "sbbDatePicker", "sbbSelect", "sbbSlider", "sbbTimeInput", "sbbAutocomplete", "sbbAutocompleteGrid", "sbbFormError"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

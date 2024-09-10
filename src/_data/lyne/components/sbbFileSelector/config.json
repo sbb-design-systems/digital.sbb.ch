@@ -3,10 +3,15 @@
     "patternId":"sbbFileSelector",
     "patternDirectory":"fileselector",
     "category": "Form",
+    "keywords":["File input", "File uploader", "Dropzone"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

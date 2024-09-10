@@ -3,10 +3,15 @@
     "patternId":"sbbExpansionPanel",
     "patternDirectory":"accordion",
     "category": "Layout",
+    "keywords":["Collapse", "Collapsible sections", "Collapsible", "Details", "Disclosure", "Expandable", "Expander"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs": ["sbbExpansionPanelContent", "sbbExpansionPanelHeader"],
-    "isChildOf":["sbbAccordion"]
+    "isChildOf":["sbbAccordion"],
+    "similar":[""],
+    "similar":false
 }

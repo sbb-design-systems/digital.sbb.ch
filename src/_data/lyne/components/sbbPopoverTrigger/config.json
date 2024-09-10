@@ -3,10 +3,15 @@
     "patternId":"sbbPopoverTrigger",
     "patternDirectory":"popover",
     "category": "Overlay",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs": ["sbbPopover"],
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

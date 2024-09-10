@@ -3,9 +3,14 @@
     "patternId":"sbbTimeInput",
     "patternDirectory":"timeinput",
     "category": "Form",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "childs":false,
-    "isChildOf": false
+    "isChildOf": false,
+    "similar":[""],
+    "similar":false
 }

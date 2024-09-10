@@ -3,10 +3,15 @@
     "patternId":"sbbNavigationMarker",
     "patternDirectory":"navigation",
     "category": "Navigation",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs": ["sbbNavigationButton", "sbbNavigationLink"],
-    "isChildOf": ["sbbNavigation"]
+    "isChildOf": ["sbbNavigation"],
+    "similar":[""],
+    "similar":false
 }

@@ -3,10 +3,15 @@
     "patternId":"sbbClock",
     "patternDirectory":"clock",
     "category": "Brand",
+    "keywords":["Clock", "Watch", "Time", "Mondaine"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf":["sbbFooter"]
+    "isChildOf":["sbbFooter"],
+    "similar":[""],
+    "similar":false
 }

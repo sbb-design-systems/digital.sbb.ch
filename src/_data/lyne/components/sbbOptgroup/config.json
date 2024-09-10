@@ -3,10 +3,15 @@
     "patternId":"sbbOptgroup",
     "patternDirectory":"option",
     "category": "Form",
+    "keywords":[""],
+    "hasOverview": true,
+    "hasAnatomy": false,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": false,
     "childs": false,
-    "isChildOf": ["sbbSelect"]
+    "isChildOf": ["sbbSelect"],
+    "similar":[""],
+    "similar":false
 }

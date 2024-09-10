@@ -3,10 +3,15 @@
     "patternId":"sbbBreadcrumbGroup",
     "patternDirectory":"breadcrumb",
     "category": "Navigation",
+    "keywords":["Breadcrumbs", "Breadcrumb", "Breadcrumb trail"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbBreadcrumb"],
-    "isChildOf":false
+    "isChildOf":false,
+    "similar":[""],
+    "similar":false
 }

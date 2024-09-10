@@ -3,10 +3,15 @@
     "patternId":"sbbAutocomplete",
     "patternDirectory":"autocomplete",
     "category": "Form",
+    "keywords":["Autocomplete", "Autosuggest", "Combobox", "Typeahead", "Dropdown"],
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs":["sbbOption", "sbbOptgroup"],
-    "isChildOf":["sbbFormField"]
+    "isChildOf":["sbbFormField"],
+    "similar":[""],
+    "similar":false
 }
