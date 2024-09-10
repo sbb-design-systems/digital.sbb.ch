@@ -81,7 +81,6 @@ const radiusTokens = borderTokens.filter((token) => token.attributes.type === 'r
 
 //color
 const colorTokens = designTokensByCategory(tokens, 'color');
-const sortedColorTokens = sortByKey(colorTokens, 'name');
 
 // grid
 const breakpointTokens = designTokensByPath(tokens, 'breakpoint');
@@ -101,9 +100,6 @@ const scaleTypoTokens = designTokensByType(tokens, 'scale');
 const fontFamilyTypoTokens = typoTokens.filter((token) => token.attributes.type === 'fontFamily');
 const letterSpacingTypoTokens = typoTokens.filter((token) => token.attributes.type === 'letterSpacing');
 const lineHeightTypoTokens = typoTokens.filter((token) => token.attributes.type === 'lineHeight');
-const remainingTypoTokens = typoTokens.filter(
-  (token) => token.attributes.type === 'fontFamilyFallback'
-);
 
 // size
 const sizeTokens = designTokensByPath(tokens, 'size');

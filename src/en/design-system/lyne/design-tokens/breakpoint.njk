@@ -9,18 +9,4 @@ keywords: Breakpoint
 order: 30
 ---
 
-<div class="token-table breakpoint-token">
-{% for token in breakpointTokens %}
-{% if token.attributes.item == "min" %}    
-    <sbb-title level="3" visual-level="5">{{ token.path[1] }}</sbb-title>     
-    <div class="row">
-        <div class="token-name left">{{ token.name }}</div>
-        <div class="token-value center">{{ token.value }} - 
-{% endif %}   
-{% if token.attributes.item == "max" %}    
-        {{ token.value }}</div>     
-        <div class="token-name right">{{ token.name }}</div>
-    </div>
-{% endif %}     
-{% endfor %}
-</div>
+{% include "../../../../_includes/lyne-token/breakpoint.njk" %}

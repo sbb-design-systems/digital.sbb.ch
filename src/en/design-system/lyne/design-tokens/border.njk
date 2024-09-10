@@ -9,24 +9,4 @@ keywords: Border
 order: 20
 ---
 
-<sbb-title level="2">Border-width</sbb-title>
-<div class="token-table border-width-token">
-{% for token in borderWidthTokens %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="border-demo" style="border-width: {{token.original.value}}px; "></div></div>
-    </div>
-{% endfor %}
-</div>
-<sbb-title level="2">Radius</sbb-title>
-<div class="token-table border-radius-token">
-{% for token in borderRadiusTokens %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="border-demo" style="border-radius: {{token.original.value}}px; "></div></div>
-    </div>
-{% endfor %}
-</div>
-
+{% include "../../../../_includes/lyne-token/border.njk" %}

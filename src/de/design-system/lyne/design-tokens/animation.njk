@@ -7,22 +7,5 @@ parent: basics-lyne_de
 keywords: Animation
 order: 10
 ---
-<sbb-title level="2">Duration</sbb-title>
-<div class="token-table duration-token">
-{% for token in durationAnimationTokens %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="animation-demo" style="width: calc((100/500)*{{token.original.value}}%); "></div></div>
-    </div>
-{% endfor %}
-</div>
-<sbb-title level="2">Easing</sbb-title>
-<div class="token-table easing-token">
-{% for token in easingAnimationTokens %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
-    </div>
-{% endfor %}
-</div>
+
+{% include "../../../../_includes/lyne-token/animation.njk" %}
