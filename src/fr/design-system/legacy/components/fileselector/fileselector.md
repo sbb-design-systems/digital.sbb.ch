@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - legacy_components_fr
 key: fileselector-legacy_fr

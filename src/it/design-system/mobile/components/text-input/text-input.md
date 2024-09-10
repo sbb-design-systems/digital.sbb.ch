@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - mobile_components_it
 key: text-input-mobile_it

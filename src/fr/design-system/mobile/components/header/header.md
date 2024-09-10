@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - mobile_components_fr
 key: header-mobile_fr

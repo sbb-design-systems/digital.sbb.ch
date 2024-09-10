@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - mobile_components_de
 key: radiobutton-mobile_de

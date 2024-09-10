@@ -1,0 +1,61 @@
+---
+layout: base.njk
+---
+
+{# get Component from _data #}
+{% set patternConfig = lyne.components[component].config %}
+{% set tag = patternConfig.tag %}
+
+{# set Languages #}
+{% if (page.lang == "de") or (page.lang == "en") %}{% set language = page.lang %}{% else %}{% set language = "de" %}{% endif %}
+
+{# set Overview #}
+{% if patternConfig.hasOverview == true %}
+    {% set overviewpath = ["src/_data/lyne/components/", component, "/overview_", language, ".md"] | join %}
+    {% set overview %}{% include overviewpath %}{% endset %}
+{% endif %}
+
+{# set Anatomy #}
+{% if patternConfig.hasAnatomy == true %}
+    {% set anatomypath = ["src/_data/lyne/components/", component, "/anatomy_", language, ".md"] | join %}
+    {% set anatomy %}{% include anatomypath %}{% endset %}
+{% endif %}
+
+{# set Playground #}
+{% if patternConfig.hasPlayground == true %}
+  {% set playground = lyne.components[patternConfig.patternId].playground %}
+{% endif %}
+
+{% if patternConfig.hasStorybook == true %}
+  {% set storybookStories = lyne.stories[0] %}
+{% endif %}
+
+{# set Implementation #}
+{% if patternConfig.hasImplementation == true %}
+  {% set implementation = lyne.components[patternConfig.patternId].implementation %}
+{% endif %}
+
+{% include "../_includes/lyne-component/missing-language.njk" %}
+{% include "../_includes/lyne-component/title.njk" %}
+
+
+<sbb-tab-group class="tab-documentation" initial-selected-index="0">
+    {#Overview#}
+    {% if patternConfig.hasOverview == true %}
+        {% include "../_includes/lyne-component/tab-overview.njk" %}
+    {% endif %}
+    {#Anatomy#}
+    {% if patternConfig.hasAnatomy == true %}
+        {% include "../_includes/lyne-component/tab-anatomy.njk" %}
+    {% endif %}
+    {#Playground#}
+    {% if (patternConfig.hasPlayground == true) or (patternConfig.hasStorybook == true) %}  
+        {% include "../_includes/lyne-component/tab-playground.njk" %}
+    {% endif %}
+    {#Implementation#}
+    {% if patternConfig.hasImplementation == true %}
+        {% include "../_includes/lyne-component/tab-implementation.njk" %}
+    {% endif %}
+</sbb-tab-group>
+
+{% include "../_includes/lyne-component-list/sidebar.njk" %}

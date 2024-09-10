@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - maps_components_fr
 key: layer-menu-maps_fr

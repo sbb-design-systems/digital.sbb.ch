@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - lean_components_en
 key: loading-indicator-lean_en

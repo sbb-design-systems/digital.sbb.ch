@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - legacy_components_en
 key: toggle-legacy_en

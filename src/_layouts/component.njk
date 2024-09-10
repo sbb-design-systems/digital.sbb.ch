@@ -8,15 +8,15 @@ layout: base.njk
   {% set tabkey = key.slice(0, -2)+"de" %}
   {% set subpagescheck = collections[tabkey] %}
   {% if subpagescheck|length %}
-    {% include "../_includes/pattern-default/tab.njk" %}
+    {% include "../_includes/default-component/tab.njk" %}
   {% endif %}
 {% else %}
   {% include "../_includes/title.njk" %}
   {{ content | safe }}
   {% set subpagescheck = collections[tabkey] %}
   {% if subpagescheck|length %}
-    {% include "../_includes/pattern-default/tab.njk" %}
+    {% include "../_includes/default-component/tab.njk" %}
   {% endif %}
 {% endif %}
-{% include "../_includes/pattern-default/sidebar.njk" %}
+{% include "../_includes/default-component/sidebar.njk" %}
 

@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - lean_components_de
 key: radiobutton-lean_de

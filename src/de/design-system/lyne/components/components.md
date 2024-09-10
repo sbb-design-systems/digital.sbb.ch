@@ -1,5 +1,5 @@
 ---
-layout: overview-lyne.njk
+layout: lyne-overview.njk
 tags: level3
 title: Komponenten
 alternativetitle: Komponenten Lyne

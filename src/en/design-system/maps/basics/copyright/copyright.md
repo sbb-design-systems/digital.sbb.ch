@@ -1,5 +1,5 @@
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - maps_components_en
 key: copyright-maps_en
@@ -14,7 +14,7 @@ availablelanguages:
 
 
 ---
-layout: pattern.njk
+layout: component.njk
 tags: 
     - maps_basics_de
     - page

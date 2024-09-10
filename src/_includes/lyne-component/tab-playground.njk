@@ -1,0 +1,14 @@
+<sbb-tab-label level="2">
+    <sbb-icon name="{{lyne.tabs.tabs[2].icon}}" slot="icon"></sbb-icon>
+    Demo
+</sbb-tab-label>
+<sbb-tab>
+    {% if patternConfig.hasPlayground == true%}
+        {% include "./playground.njk" %}
+        <script src="/assets/js/lyne-playground.js"></script>
+    {% endif %}
+    {% if patternConfig.hasStorybook == true %}
+        {% include "./storybook-story.njk" %}
+        <script src="/assets/js/lyne-examples.js"></script>
+    {% endif %}
+</sbb-tab>
