@@ -1,5 +1,5 @@
 {% set breakpoints = [] %}
-{% for breakpoint in sizeTokensElement %}
+{% for breakpoint in lyne.tokens.size.element %}
     {% if breakpoint.attributes.subitem in breakpoints %}
     {% else %}
       {% set breakpoints = (breakpoints.push(breakpoint.attributes.subitem), breakpoints) %}
@@ -8,7 +8,7 @@
 
 
 {% set spacesizes = [] %}
-{% for space in sizeTokensElement %}
+{% for space in lyne.tokens.size.element %}
     {% if space.attributes.item in spacesizes %}
     {% else %}
       {% set spacesizes = (spacesizes.push(space.attributes.item), spacesizes) %}
@@ -26,7 +26,7 @@
     {% for size in spacesizes %}
         <p>sbb-size-element-{{size}}</p>
         <div class="row">
-        {% for token in sizeTokensElement %}
+        {% for token in lyne.tokens.size.element %}
             {% if token.attributes.item == size %}
             <div class="breakpoint">
                 <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
@@ -42,7 +42,7 @@
 
 <sbb-title level="2">Icon UI Sizes</sbb-title>  
 <div class="token-table spacing-fixed-token">
-    {% for token in sizeTokensUIicon %}
+    {% for token in lyne.tokens.size.icon %}
         <div class="row">
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>

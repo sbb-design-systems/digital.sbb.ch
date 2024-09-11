@@ -1,6 +1,6 @@
 <sbb-title level="2">Base Grid Columns</sbb-title>
 <div class="token-table base-grid-columns-token">
-{% for token in baseGridColumns %}
+{% for token in lyne.tokens.grid.columns %}
     <div class="row">
         <div class="token-name">{{ token.name }}</div>
         <div class="token-value">{{ token.value }}</div>
@@ -18,7 +18,7 @@
 
 <sbb-title level="2">Base Grid Gutter</sbb-title>  
 <div class="token-table base-grid-gutter-token">
-    {% for token in baseGridGutterResponsive %}
+    {% for token in lyne.tokens.grid.gutter %}
         <div class="row">
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
@@ -32,7 +32,7 @@
 
 <sbb-title level="2">Base Grid Offset</sbb-title>  
 <div class="token-table base-grid-offset-token">
-    {% for token in baseOffsetResponsive %}
+    {% for token in lyne.tokens.grid.offset %}
         <div class="row">
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>

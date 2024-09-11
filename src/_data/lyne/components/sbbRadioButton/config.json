@@ -13,5 +13,14 @@
     "childs": false,
     "isChildOf": ["sbbRadioButtonGroup", "sbbRadioButtonPanel"],
     "similar":[""],
-    "similar":false
+    "similar":false,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok",
+        "context": { 
+            "public": true,
+            "business": true
+        }
+    }
 }

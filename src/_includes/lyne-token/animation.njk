@@ -1,6 +1,6 @@
 <sbb-title level="2">Duration</sbb-title>
 <div class="token-table duration-token">
-{% for token in durationAnimationTokens %}
+{% for token in lyne.tokens.animation.duration %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
@@ -10,7 +10,7 @@
 </div>
 <sbb-title level="2">Easing</sbb-title>
 <div class="token-table easing-token">
-{% for token in easingAnimationTokens %}
+{% for token in lyne.tokens.animation.easing %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>

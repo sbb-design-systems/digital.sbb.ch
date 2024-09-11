@@ -1,6 +1,6 @@
 <sbb-title level="2">Font Family</sbb-title>
 <div class="token-table face-typo-token">
-{% for token in fontFamilyTypoTokens %}
+{% for token in lyne.tokens.typography.family %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
@@ -10,7 +10,7 @@
 
 <sbb-title level="2">Scale</sbb-title>
 <div class="token-table scalye-typo-token">
-{% for token in scaleTypoTokens %}
+{% for token in lyne.tokens.typography.scale %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
@@ -21,7 +21,7 @@
 
 <sbb-title level="2">Letter Spacing</sbb-title>
 <div class="token-table letter-spacing-typo-token">
-{% for token in letterSpacingTypoTokens %}
+{% for token in lyne.tokens.typography.letterspacing %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
@@ -33,7 +33,7 @@
 
 <sbb-title level="2">Line Height</sbb-title>
 <div class="token-table line-height-typo-token">
-{% for token in lineHeightTypoTokens %}
+{% for token in lyne.tokens.typography.lineheight %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>

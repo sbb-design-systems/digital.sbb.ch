@@ -17,21 +17,10 @@
     "status": {
         "design": "ok",
         "code": "ok",
-        "context": [
-            {
-                "public": true
-            },
-            {
-                "business": true
-            }
-        ],
-        "modes": [
-            {
-                "light": true
-            },
-            {
-                "dark": false
-            }
-        ]
+        "documentation": "ok",
+        "context": { 
+            "public": true,
+            "business": true
+        }
     }
 }

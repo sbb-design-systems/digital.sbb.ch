@@ -1,6 +1,6 @@
 <sbb-title level="2">Strichstärke</sbb-title>
 <div class="token-table border-width-token">
-{% for token in borderWidthTokens %}
+{% for token in lyne.tokens.border.width %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
@@ -10,7 +10,7 @@
 </div>
 <sbb-title level="2">Radius</sbb-title>
 <div class="token-table border-radius-token">
-{% for token in borderRadiusTokens %}
+{% for token in lyne.tokens.border.radius %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>

@@ -13,5 +13,14 @@
     "childs": false,
     "isChildOf": false,
     "similar":[""],
-    "similar":false
+    "similar":false,
+    "status": {
+        "design": "ok",
+        "code": "in progress",
+        "documentation": "in progress",
+        "context": { 
+            "public": true,
+            "business": "hidden"
+        }
+    }
 }

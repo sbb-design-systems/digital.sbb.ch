@@ -375,12 +375,17 @@ p.metal {
 
 .card-content-component {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 0 var(--sbb-spacing-fixed-6x);
     align-items: center;
 
     sbb-title {
       margin:0
+    }
+
+    .component-status {
+      display: flex;
+      gap: var(--sbb-spacing-fixed-2x);
     }
 }
