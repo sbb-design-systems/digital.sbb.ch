@@ -2,6 +2,7 @@
     "tag":"sbb-radio-button-group",
     "patternId":"sbbRadioButtonGroup",
     "patternDirectory":"radiobutton",
+    "order": 840,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

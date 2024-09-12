@@ -2,6 +2,7 @@
     "tag":"sbb-alert-group",
     "patternId":"sbbAlertGroup",
     "patternDirectory":"alert",
+    "order": 40,
     "category": "Indicator",
     "keywords":["Notification", "Feedback", "Message", "Banner", "Callout"],
     "hasOverview": true,

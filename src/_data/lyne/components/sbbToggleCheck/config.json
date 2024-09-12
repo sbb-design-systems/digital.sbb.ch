@@ -2,6 +2,7 @@
     "tag":"sbb-toggle-check",
     "patternId":"sbbToggleCheck",
     "patternDirectory":"togglecheck",
+    "order": 1150,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

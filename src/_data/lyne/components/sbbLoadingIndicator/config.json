@@ -2,6 +2,7 @@
     "tag":"sbb-loading-indicator",
     "patternId":"sbbLoadingIndicator",
     "patternDirectory":"loadingindicator",
+    "order": 620,
     "category": "Indicator",
     "keywords":["Loading", "Spinner"],
     "hasOverview": true,

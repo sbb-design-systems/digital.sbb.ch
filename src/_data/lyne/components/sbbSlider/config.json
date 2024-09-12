@@ -2,6 +2,7 @@
     "tag":"sbb-slider",
     "patternId":"sbbSlider",
     "patternDirectory":"slider",
+    "order": 930,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

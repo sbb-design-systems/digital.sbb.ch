@@ -2,6 +2,7 @@
     "tag":"sbb-form-field",
     "patternId":"sbbFormField",
     "patternDirectory":"formfield",
+    "order": 490,
     "category": "Form",
     "keywords":["Input", "Text field", "Text box", "Label", "Textarea", "Select", "Autocomplete", "Wrapper"],
     "hasOverview": true,

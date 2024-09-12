@@ -2,6 +2,7 @@
     "tag":"sbb-breadcrumb",
     "patternId":"sbbBreadcrumb",
     "patternDirectory":"breadcrumb",
+    "order": 150,
     "category": "Navigation",
     "keywords":["Breadcrumbs", "Breadcrumb", "Breadcrumb trail"],
     "hasOverview": true,

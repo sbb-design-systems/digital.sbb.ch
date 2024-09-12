@@ -2,6 +2,7 @@
     "tag":"sbb-transparent-button",
     "patternId":"sbbTransparentButton",
     "patternDirectory":"button",
+    "order": 1170,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

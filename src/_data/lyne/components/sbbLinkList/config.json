@@ -2,6 +2,7 @@
     "tag":"sbb-link-list",
     "patternId":"sbbLinkList",
     "patternDirectory":"linklist",
+    "order": 590,
     "category": "Collection",
     "keywords":["Link", "Hyperlink", "Text", "Group", "List"],
     "hasOverview": true,

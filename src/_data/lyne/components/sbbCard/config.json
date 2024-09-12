@@ -2,6 +2,7 @@
     "tag":"sbb-card",
     "patternId":"sbbCard",
     "patternDirectory":"card",
+    "order": 210,
     "category": "Layout",
     "keywords":["Card", "Container", "Tile"],
     "hasOverview": true,

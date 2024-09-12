@@ -2,6 +2,7 @@
     "tag":"sbb-overlay",
     "patternId":"sbbOverlay",
     "patternDirectory":"overlay",
+    "order": 790,
     "category": "Overlay",
     "keywords":[""],
     "hasOverview": true,

@@ -2,6 +2,7 @@
     "tag":"sbb-menu",
     "patternId":"sbbMenu",
     "patternDirectory":"menu",
+    "order": 640,
     "category": "Navigation",
     "keywords":[""],
     "hasOverview": true,

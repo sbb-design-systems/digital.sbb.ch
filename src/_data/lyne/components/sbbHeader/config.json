@@ -2,6 +2,7 @@
     "tag":"sbb-header",
     "patternId":"sbbHeader",
     "patternDirectory":"header",
+    "order": 510,
     "category": "Layout",
     "keywords":["Head", "Header"],
     "hasOverview": true,

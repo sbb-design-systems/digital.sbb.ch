@@ -2,6 +2,7 @@
     "tag":"sbb-dialog-title",
     "patternId":"sbbDialogTitle",
     "patternDirectory":"dialog",
+    "order": 380,
     "category": "Overlay",
     "keywords":["Dialog", "Popup", "Modal window", "Lightbox"],
     "hasOverview": true,

@@ -2,6 +2,7 @@
     "tag":"sbb-expansion-panel",
     "patternId":"sbbExpansionPanel",
     "patternDirectory":"accordion",
+    "order": 400,
     "category": "Layout",
     "keywords":["Collapse", "Collapsible sections", "Collapsible", "Details", "Disclosure", "Expandable", "Expander"],
     "hasOverview": true,

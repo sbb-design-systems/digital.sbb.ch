@@ -2,6 +2,7 @@
     "tag":"sbb-block-link-button",
     "patternId":"sbbBlockLinkButton",
     "patternDirectory":"link",
+    "order": 130,
     "category": "Action",
     "keywords":["Link", "Anchor", "Hyperlink", "Call to action"],
     "hasOverview": true,

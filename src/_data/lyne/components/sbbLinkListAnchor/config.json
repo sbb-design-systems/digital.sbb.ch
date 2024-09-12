@@ -2,6 +2,7 @@
     "tag":"sbb-link-list-anchor",
     "patternId":"sbbLinkListAnchor",
     "patternDirectory":"linklist",
+    "order": 600,
     "category": "Collection",
     "keywords":["Link", "Hyperlink", "Jump", "Group", "List"],
     "hasOverview": true,

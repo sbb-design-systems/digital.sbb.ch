@@ -2,6 +2,7 @@
     "tag":"sbb-footer",
     "patternId":"sbbFooter",
     "patternDirectory":"footer",
+    "order": 470,
     "category": "Layout",
     "keywords":["Footer", "copyright legal", "information", "related content"],
     "hasOverview": true,

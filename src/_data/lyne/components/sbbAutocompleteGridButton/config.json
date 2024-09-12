@@ -2,6 +2,7 @@
     "tag":"sbb-autocomplete-grid-button",
     "patternId":"sbbAutocompleteGridButton",
     "patternDirectory":"autocomplete",
+    "order": 70,
     "category": "Form",
     "keywords":["Autocomplete", "Autosuggest", "Combobox", "Typeahead", "Dropdown"],
     "hasOverview": true,

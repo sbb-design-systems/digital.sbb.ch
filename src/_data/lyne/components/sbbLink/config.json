@@ -2,6 +2,7 @@
     "tag":"sbb-link",
     "patternId":"sbbLink",
     "patternDirectory":"link",
+    "order": 570,
     "category": "Action",
     "keywords":["Link", "Hyperlink", "Text"],
     "hasOverview": true,

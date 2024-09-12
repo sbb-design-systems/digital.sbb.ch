@@ -2,6 +2,7 @@
     "tag":"sbb-notification",
     "patternId":"sbbNotification",
     "patternDirectory":"notification",
+    "order": 760,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": true,

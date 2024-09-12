@@ -2,6 +2,7 @@
     "tag":"sbb-file-selector",
     "patternId":"sbbFileSelector",
     "patternDirectory":"fileselector",
+    "order": 430,
     "category": "Form",
     "keywords":["File input", "File uploader", "Dropzone"],
     "hasOverview": true,

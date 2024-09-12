@@ -2,6 +2,7 @@
     "tag":"sbb-step-label",
     "patternId":"sbbStepLabel",
     "patternDirectory":"stepper",
+    "order": 955,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": false,

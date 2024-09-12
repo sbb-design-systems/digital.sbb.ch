@@ -2,6 +2,7 @@
     "tag":"sbb-select",
     "patternId":"sbbSelect",
     "patternDirectory":"select",
+    "order": 890,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

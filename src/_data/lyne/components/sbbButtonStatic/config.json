@@ -2,6 +2,7 @@
     "tag":"sbb-button-static",
     "patternId":"sbbButtonStatic",
     "patternDirectory":"button",
+    "order": 190,
     "category": "Action",
     "keywords":["Button, Primary, Action"],
     "hasOverview": true,

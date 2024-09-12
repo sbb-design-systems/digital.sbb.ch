@@ -2,6 +2,7 @@
     "tag":"sbb-chip",
     "patternId":"sbbChip",
     "patternDirectory":"chip",
+    "order": 280,
     "category": "Indicator",
     "keywords":["Chip", "Badge", "Tag", "Label"],
     "hasOverview": true,

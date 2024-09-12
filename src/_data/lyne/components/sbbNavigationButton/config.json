@@ -2,6 +2,7 @@
     "tag":"sbb-navigation-button",
     "patternId":"sbbNavigationButton",
     "patternDirectory":"navigation",
+    "order": 710,
     "category": "Navigation",
     "keywords":[""],
     "hasOverview": true,

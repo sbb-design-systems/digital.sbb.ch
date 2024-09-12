@@ -2,6 +2,7 @@
     "tag":"sbb-transparent-button-link",
     "patternId":"sbbTransparentButtonLink",
     "patternDirectory":"button",
+    "order": 1180,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

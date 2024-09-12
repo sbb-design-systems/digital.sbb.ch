@@ -2,6 +2,7 @@
     "tag":"sbb-pearl-chain",
     "patternId":"sbbPearlChain",
     "patternDirectory":"pearlchain",
+    "order": 800,
     "category": "Time-Table",
     "keywords":[""],
     "hasOverview": false,

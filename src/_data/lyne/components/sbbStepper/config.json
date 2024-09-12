@@ -2,6 +2,7 @@
     "tag":"sbb-stepper",
     "patternId":"sbbStepper",
     "patternDirectory":"stepper",
+    "order": 960,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": false,

@@ -2,6 +2,7 @@
     "tag":"sbb-mini-button-group",
     "patternId":"sbbMiniButtonGroup",
     "patternDirectory":"button",
+    "order": 690,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

@@ -2,6 +2,7 @@
     "tag":"sbb-flip-card",
     "patternId":"sbbFlipCard",
     "patternDirectory":"flipcard",
+    "order": 440,
     "category": "Layout",
     "keywords":["Collapse", "Collapsible sections", "Collapsible", "Details", "Disclosure", "Expandable", "Expander"],
     "hasOverview": true,

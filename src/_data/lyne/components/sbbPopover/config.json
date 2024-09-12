@@ -2,6 +2,7 @@
     "tag":"sbb-popover",
     "patternId":"sbbPopover",
     "patternDirectory":"popover",
+    "order": 810,
     "category": "Overlay",
     "keywords":[""],
     "hasOverview": true,

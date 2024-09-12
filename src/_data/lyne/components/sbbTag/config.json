@@ -2,6 +2,7 @@
     "tag":"sbb-tag",
     "patternId":"sbbTag",
     "patternDirectory":"tag",
+    "order": 1020,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": true,

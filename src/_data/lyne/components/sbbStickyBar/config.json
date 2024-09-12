@@ -2,6 +2,7 @@
     "tag":"sbb-sticky-bar",
     "patternId":"sbbStickyBar",
     "patternDirectory":"container",
+    "order": 970,
     "category": "Layout",
     "keywords":[""],
     "hasOverview": true,

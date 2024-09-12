@@ -2,6 +2,7 @@
     "tag":"sbb-card-button",
     "patternId":"sbbCardButton",
     "patternDirectory":"card",
+    "order": 230,
     "category": "Layout",
     "keywords":["Card", "Container", "Tile"],
     "hasOverview": true,

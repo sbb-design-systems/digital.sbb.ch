@@ -2,6 +2,7 @@
     "tag":"sbb-teaser-product",
     "patternId":"sbbTeaserProduct",
     "patternDirectory":"teaser",
+    "order": 1060,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

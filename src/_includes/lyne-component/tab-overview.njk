@@ -12,9 +12,9 @@
                         {% for child in patternConfig.childs %}
                             {% set childData = lyne.components[child].config %}
                             {% if childData|length %}
-                                <sbb-block-link style="text-transform: capitalize" icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4)}}</sbb-block-link>
+                                <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4) | capitalizeWords}}</sbb-block-link>
                             {% else %}
-                                <sbb-block-link-static style="text-transform: capitalize" icon-name="chevron-small-left-right-small">{{child}}</sbb-block-link-static>
+                                <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
                             {% endif %}
                         {% endfor %}
                     </sbb-link-list>
@@ -25,9 +25,9 @@
                         {% for child in patternConfig.isChildOf %}
                                 {% set childData = lyne.components[child].config %}
                                 {% if childData|length %}
-                                    <sbb-block-link style="text-transform: capitalize" icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4)}}</sbb-block-link>
+                                    <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4) | capitalizeWords}}</sbb-block-link>
                                 {% else %}
-                                    <sbb-block-link-static style="text-transform: capitalize" icon-name="chevron-small-left-right-small">{{child}}</sbb-block-link-static>
+                                    <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
                                 {% endif %}
                         {% endfor %}
                     </sbb-menu>

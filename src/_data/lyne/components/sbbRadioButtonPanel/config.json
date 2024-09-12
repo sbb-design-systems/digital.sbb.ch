@@ -2,6 +2,7 @@
     "tag":"sbb-radio-button-panel",
     "patternId":"sbbRadioButtonPanel",
     "patternDirectory":"radiobutton",
+    "order": 850,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

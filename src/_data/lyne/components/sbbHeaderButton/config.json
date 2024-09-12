@@ -2,6 +2,7 @@
     "tag":"sbb-header-button",
     "patternId":"sbbHeaderButton",
     "patternDirectory":"header",
+    "order": 520,
     "category": "Layout",
     "keywords":["Head", "Header"],
     "hasOverview": true,

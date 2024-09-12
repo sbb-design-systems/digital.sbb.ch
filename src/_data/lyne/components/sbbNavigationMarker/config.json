@@ -2,6 +2,7 @@
     "tag":"sbb-navigation-marker",
     "patternId":"sbbNavigationMarker",
     "patternDirectory":"navigation",
+    "order": 740,
     "category": "Navigation",
     "keywords":[""],
     "hasOverview": true,

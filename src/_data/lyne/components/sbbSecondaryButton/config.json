@@ -2,6 +2,7 @@
     "tag":"sbb-secondary-button",
     "patternId":"sbbSecondaryButton",
     "patternDirectory":"button",
+    "order": 860,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

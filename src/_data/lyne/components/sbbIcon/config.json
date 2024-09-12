@@ -2,6 +2,7 @@
     "tag":"sbb-icon",
     "patternId":"sbbIcon",
     "patternDirectory":"icon",
+    "order": 540,
     "category": "Visual asset",
     "keywords":["Icon", "Pictogram", "CDN"],
     "hasOverview": true,

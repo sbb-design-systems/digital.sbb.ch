@@ -2,6 +2,7 @@
     "tag":"sbb-teaser",
     "patternId":"sbbTeaser",
     "patternDirectory":"teaser",
+    "order": 1040,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

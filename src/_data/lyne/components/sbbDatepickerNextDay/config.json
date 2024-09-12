@@ -2,6 +2,7 @@
     "tag":"sbb-datepicker-next-day",
     "patternId":"sbbDatepickerNextDay",
     "patternDirectory":"datepicker",
+    "order": 320,
     "category": "Form",
     "keywords":["Calendar", "Picker", "Date picker", "Datetime picker", "Picker"],
     "hasOverview": true,

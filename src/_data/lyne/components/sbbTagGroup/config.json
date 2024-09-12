@@ -2,6 +2,7 @@
     "tag":"sbb-tag-group",
     "patternId":"sbbTagGroup",
     "patternDirectory":"tag",
+    "order": 1030,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": true,

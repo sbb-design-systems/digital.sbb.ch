@@ -2,6 +2,7 @@
     "tag":"sbb-form-error",
     "patternId":"sbbFormError",
     "patternDirectory":"formfield",
+    "order": 480,
     "category": "Form",
     "keywords":["Form", "Error"],
     "hasOverview": true,

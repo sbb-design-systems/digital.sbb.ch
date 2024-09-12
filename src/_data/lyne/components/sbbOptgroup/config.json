@@ -2,6 +2,7 @@
     "tag":"sbb-optgroup",
     "patternId":"sbbOptgroup",
     "patternDirectory":"option",
+    "order": 770,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

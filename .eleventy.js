@@ -18,6 +18,7 @@ function sortByOrder(values) {
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
 }
 
+
 module.exports = async function(eleventyConfig) {
     const { EleventyI18nPlugin } = await import("@11ty/eleventy");
 
@@ -89,6 +90,26 @@ module.exports = async function(eleventyConfig) {
     });
 
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
+
+    eleventyConfig.addFilter("sortLyneComponentsByOrder", (obj) => {
+        const sorted = {};
+        Object.keys(obj)
+          .sort((a, b) => {
+            return obj[a].config.order > obj[b].config.order ? 1 : -1;
+          })
+          .forEach((name) => (sorted[name] = obj[name]));
+        return sorted;
+      });
+
+    // Custom filter to capitalize each word in a string
+    eleventyConfig.addFilter("capitalizeWords", function(value) {
+    if (typeof value !== 'string') {
+      return ''; // or handle the undefined case as needed
+    }
+  
+    return value.replace(/\b\w/g, char => char.toUpperCase());
+  });  
+
     eleventyConfig.addFilter("lastOfArray", function(array) {return array.slice(-1);});
     eleventyConfig.addFilter("absolutelinks", (post) => {
         const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");

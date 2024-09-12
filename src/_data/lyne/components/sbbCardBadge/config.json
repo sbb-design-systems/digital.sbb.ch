@@ -2,6 +2,7 @@
     "tag":"sbb-card-badge",
     "patternId":"sbbCardBadge",
     "patternDirectory":"card",
+    "order": 220,
     "category": "Layout",
     "keywords":["Card", "Container", "Tile"],
     "hasOverview": true,

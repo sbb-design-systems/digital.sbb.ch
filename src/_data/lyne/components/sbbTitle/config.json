@@ -2,6 +2,7 @@
     "tag":"sbb-title",
     "patternId":"sbbTitle",
     "patternDirectory":"title",
+    "order": 1120,
     "category": "Layout",
     "keywords":[""],
     "hasOverview": true,

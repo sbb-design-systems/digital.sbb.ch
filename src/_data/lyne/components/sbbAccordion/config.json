@@ -2,6 +2,7 @@
     "tag":"sbb-accordion",
     "patternId":"sbbAccordion",
     "patternDirectory":"accordion",
+    "order": 10,
     "category": "Layout",
     "keywords":["Collapse", "Collapsible sections", "Collapsible", "Details", "Disclosure", "Expandable", "Expander"],
     "hasOverview": true,

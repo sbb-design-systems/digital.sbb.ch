@@ -2,6 +2,7 @@
     "tag":"sbb-tertiary-button-static",
     "patternId":"sbbTertiaryButtonStatic",
     "patternDirectory":"button",
+    "order": 1100,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

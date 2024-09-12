@@ -2,6 +2,7 @@
     "tag":"sbb-link-button",
     "patternId":"sbbLinkButton",
     "patternDirectory":"link",
+    "order": 580,
     "category": "Action",
     "keywords":["Link", "Hyperlink", "Text"],
     "hasOverview": true,

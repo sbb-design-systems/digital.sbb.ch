@@ -2,6 +2,7 @@
     "tag":"sbb-journey-header",
     "patternId":"sbbJourneyHeader",
     "patternDirectory":"journeyheader",
+    "order": 560,
     "category": "Time-Table",
     "keywords":["Trip", "Journey", "Round trip"],
     "hasOverview": true,

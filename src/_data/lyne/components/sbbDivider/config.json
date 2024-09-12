@@ -2,6 +2,7 @@
     "tag":"sbb-divider",
     "patternId":"sbbDivider",
     "patternDirectory":"divider",
+    "order": 390,
     "category": "Layout",
     "keywords":["Divider", "Horizonal rule", "Vertical rule", "Ruler"],
     "hasOverview": true,

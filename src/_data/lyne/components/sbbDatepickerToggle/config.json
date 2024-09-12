@@ -2,6 +2,7 @@
     "tag":"sbb-datepicker-toggle",
     "patternId":"sbbDatepickerToggle",
     "patternDirectory":"datepicker",
+    "order": 340,
     "category": "Form",
     "keywords":["Calendar", "Picker", "Date picker", "Datetime picker", "Picker"],
     "hasOverview": true,

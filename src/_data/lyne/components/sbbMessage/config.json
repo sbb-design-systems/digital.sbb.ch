@@ -2,6 +2,7 @@
     "tag":"sbb-message",
     "patternId":"sbbMessage",
     "patternDirectory":"message",
+    "order": 670,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": true,

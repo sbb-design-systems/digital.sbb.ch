@@ -2,6 +2,7 @@
     "tag":"sbb-time-input",
     "patternId":"sbbTimeInput",
     "patternDirectory":"timeinput",
+    "order": 1110,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,

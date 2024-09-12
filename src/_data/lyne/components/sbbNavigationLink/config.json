@@ -2,6 +2,7 @@
     "tag":"sbb-navigation-link",
     "patternId":"sbbNavigationLink",
     "patternDirectory":"navigation",
+    "order": 720,
     "category": "Navigation",
     "keywords":[""],
     "hasOverview": true,

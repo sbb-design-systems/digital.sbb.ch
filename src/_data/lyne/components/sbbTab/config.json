@@ -2,6 +2,7 @@
     "tag":"sbb-tab",
     "patternId":"sbbTab",
     "patternDirectory":"tab",
+    "order": 980,
     "category": "Navigation",
     "keywords":[""],
     "hasOverview": true,

@@ -9,7 +9,11 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
+{% if (layout == "lyne-component.njk") %}
+    <title>{{lyne.components[component].config.tag.slice(4) | capitalizeWords}} – digital.sbb.ch</title>
+{% else %}
+    <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
+{% endif %}
 
 {% if env.environment == "production" %}
 <script src="https://cdn.cookielaw.org/consent/c87fd437-3de0-439c-b5cf-16054903c772/OtAutoBlock.js"></script>

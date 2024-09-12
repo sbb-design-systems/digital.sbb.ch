@@ -2,6 +2,7 @@
     "tag":"sbb-skiplink-list",
     "patternId":"sbbSkiplinkList",
     "patternDirectory":"skiplinklist",
+    "order": 920,
     "category": "Collection",
     "keywords":[""],
     "hasOverview": true,

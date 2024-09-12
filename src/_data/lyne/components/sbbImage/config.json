@@ -2,6 +2,7 @@
     "tag":"sbb-image",
     "patternId":"sbbImage",
     "patternDirectory":"image",
+    "order": 550,
     "category": "Visual asset",
     "keywords":["Image", "Picture", "Img", "Figure"],
     "hasOverview": true,

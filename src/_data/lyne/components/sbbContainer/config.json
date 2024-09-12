@@ -2,6 +2,7 @@
     "tag":"sbb-container",
     "patternId":"sbbContainer",
     "patternDirectory":"container",
+    "order": 300,
     "category": "Layout",
     "keywords":["Container", "Wrapper", "Stack"],
     "hasOverview": true,

@@ -2,6 +2,7 @@
     "tag":"sbb-toast",
     "patternId":"sbbToast",
     "patternDirectory":"toast",
+    "order": 1130,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": true,

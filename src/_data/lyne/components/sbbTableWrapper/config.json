@@ -1,6 +1,7 @@
 {
     "tag":"sbb-table-wrapper",
     "patternId":"sbbTableWrapper",
+    "order": 1010,
     "category": "Collection",
     "keywords":[""],
     "patternDirectory":"table",

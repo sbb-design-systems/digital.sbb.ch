@@ -2,6 +2,7 @@
     "tag":"sbb-teasser-hero",
     "patternId":"sbbTeaserHero",
     "patternDirectory":"teaser",
+    "order": 1050,
     "category": "Action",
     "keywords":[""],
     "hasOverview": true,

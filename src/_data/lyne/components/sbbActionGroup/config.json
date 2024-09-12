@@ -2,6 +2,7 @@
     "tag":"sbb-action-group",
     "patternId":"sbbActionGroup",
     "patternDirectory":"actiongroup",
+    "order": 20,
     "category": "Action",
     "keywords":["Button group", "Toolbar"],
     "hasOverview": true,

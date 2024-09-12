@@ -2,6 +2,7 @@
     "tag":"sbb-status",
     "patternId":"sbbStatus",
     "patternDirectory":"status",
+    "order": 940,
     "category": "Indicator",
     "keywords":[""],
     "hasOverview": true,

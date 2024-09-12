@@ -2,6 +2,7 @@
     "tag":"sbb-form-field-clear",
     "patternId":"sbbFormFieldClear",
     "patternDirectory":"formfield",
+    "order": 500,
     "category": "Form",
     "keywords":["Form", "Clear", "Delete"],
     "hasOverview": true,

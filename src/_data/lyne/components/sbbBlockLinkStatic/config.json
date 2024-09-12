@@ -2,6 +2,7 @@
     "tag":"sbb-block-link-static",
     "patternId":"sbbBlockLinkStatic",
     "patternDirectory":"link",
+    "order": 140,
     "category": "Action",
     "keywords":["Link", "Anchor", "Hyperlink", "Call to action"],
     "hasOverview": true,

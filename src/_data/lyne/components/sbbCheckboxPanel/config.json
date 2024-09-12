@@ -2,6 +2,7 @@
     "tag":"sbb-checkbox-panel",
     "patternId":"sbbCheckboxPanel",
     "patternDirectory":"checkbox",
+    "order": 270,
     "category": "Form",
     "keywords":["Checkbox", "Checkboxes"],
     "hasOverview": true,

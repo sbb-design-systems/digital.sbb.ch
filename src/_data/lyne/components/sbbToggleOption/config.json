@@ -2,6 +2,7 @@
     "tag":"sbb-toggle-option",
     "patternId":"sbbToggleOption",
     "patternDirectory":"toggle",
+    "order": 1160,
     "category": "Form",
     "keywords":[""],
     "hasOverview": true,
