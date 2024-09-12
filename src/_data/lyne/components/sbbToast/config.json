@@ -4,7 +4,7 @@
     "patternDirectory":"toast",
     "order": 1130,
     "category": "Indicator",
-    "keywords":[""],
+    "keywords":["Toast", "Snackbar", "Notification"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

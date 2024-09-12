@@ -4,7 +4,7 @@
     "patternDirectory":"tab",
     "order": 990,
     "category": "Navigation",
-    "keywords":[""],
+    "keywords":["Tabs"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

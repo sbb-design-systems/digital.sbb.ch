@@ -4,7 +4,7 @@
     "patternDirectory":"tag",
     "order": 1030,
     "category": "Indicator",
-    "keywords":[""],
+    "keywords":["Tag", "Taxonomy"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

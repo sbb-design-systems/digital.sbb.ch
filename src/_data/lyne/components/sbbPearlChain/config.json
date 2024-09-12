@@ -4,7 +4,7 @@
     "patternDirectory":"pearlchain",
     "order": 800,
     "category": "Time-Table",
-    "keywords":[""],
+    "keywords":["Pearl", "Chain", "Fahrplan", "Time-Table"],
     "hasOverview": false,
     "hasAnatomy": false,
     "hasStorybook": true,

@@ -4,7 +4,7 @@
     "patternDirectory":"menu",
     "order": 660,
     "category": "Navigation",
-    "keywords":[""],
+    "keywords":["Context Menu", "Menu", "Link", "Button"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

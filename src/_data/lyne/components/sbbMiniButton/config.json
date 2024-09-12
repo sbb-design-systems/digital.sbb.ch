@@ -4,7 +4,7 @@
     "patternDirectory":"button",
     "order": 680,
     "category": "Action",
-    "keywords":[""],
+    "keywords":["Mini", "Button"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

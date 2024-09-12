@@ -4,7 +4,7 @@
     "patternDirectory":"stepper",
     "order": 950,
     "category": "Stepper",
-    "keywords":[""],
+    "keywords":["Progress indicator", "Progress tracker", "Stepper", "Steps", "Meter"],
     "hasOverview": false,
     "hasAnatomy": false,
     "hasStorybook": true,

@@ -4,7 +4,7 @@
     "patternDirectory":"button",
     "order": 1190,
     "category": "Action",
-    "keywords":[""],
+    "keywords":["Button", "Transparent"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

@@ -4,7 +4,7 @@
     "patternDirectory":"slider",
     "order": 930,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Slider", "Range", "Input"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

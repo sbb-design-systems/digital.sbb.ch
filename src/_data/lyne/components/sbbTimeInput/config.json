@@ -4,7 +4,7 @@
     "patternDirectory":"timeinput",
     "order": 1110,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Form-Field", "Time", "Input"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

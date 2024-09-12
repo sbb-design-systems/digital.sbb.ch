@@ -4,7 +4,7 @@
     "patternDirectory":"overlay",
     "order": 790,
     "category": "Overlay",
-    "keywords":[""],
+    "keywords":["Dialog", "Popup", "Modal", "Window", "Lightbox"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

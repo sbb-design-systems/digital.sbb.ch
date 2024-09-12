@@ -4,7 +4,7 @@
     "patternDirectory":"option",
     "order": 770,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Form", "Option", "Option-Group"],
     "hasOverview": true,
     "hasAnatomy": false,
     "hasStorybook": true,

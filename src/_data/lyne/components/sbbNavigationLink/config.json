@@ -4,7 +4,7 @@
     "patternDirectory":"navigation",
     "order": 720,
     "category": "Navigation",
-    "keywords":[""],
+    "keywords":["Nav", "Menu", "Mega-Menu", "Mega"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

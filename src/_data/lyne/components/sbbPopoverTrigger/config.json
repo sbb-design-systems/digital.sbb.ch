@@ -4,7 +4,7 @@
     "patternDirectory":"popover",
     "order": 820,
     "category": "Overlay",
-    "keywords":[""],
+    "keywords":["Popover", "Overlay", "Modal"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

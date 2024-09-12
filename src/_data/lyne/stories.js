@@ -33,6 +33,6 @@ const storybookstories = async function() {
 }
 
 module.exports = async function() {
-    let icons = await storybookstories();
-    return [icons];
+    let finalresult = await storybookstories();
+    return [finalresult];
   };

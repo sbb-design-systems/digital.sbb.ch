@@ -4,7 +4,7 @@
     "patternDirectory":"notification",
     "order": 760,
     "category": "Indicator",
-    "keywords":[""],
+    "keywords":["Notification", "Feedback", "Message", "Banner", "Callout"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

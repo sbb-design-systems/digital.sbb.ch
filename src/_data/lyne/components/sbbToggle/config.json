@@ -4,7 +4,7 @@
     "patternDirectory":"toggle",
     "order": 1140,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Segmented control", "Toggle button group"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

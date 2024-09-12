@@ -4,7 +4,7 @@
     "patternDirectory":"radiobutton",
     "order": 830,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Radio", "Radio Group", "Radio-Button-Group"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

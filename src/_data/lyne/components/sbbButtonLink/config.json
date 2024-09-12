@@ -4,7 +4,7 @@
     "patternDirectory":"button",
     "order": 180,
     "category": "Action",
-    "keywords":["Button, Primary, Action"],
+    "keywords":["Button, Primary"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

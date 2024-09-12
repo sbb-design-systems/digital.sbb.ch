@@ -3,7 +3,7 @@
     "patternId":"sbbTableWrapper",
     "order": 1010,
     "category": "Collection",
-    "keywords":[""],
+    "keywords":["Table", "Data", "Row", "Column"],
     "patternDirectory":"table",
     "hasOverview": true,
     "hasAnatomy": true,

@@ -4,7 +4,7 @@
     "patternDirectory":"status",
     "order": 940,
     "category": "Indicator",
-    "keywords":[""],
+    "keywords":["Status", "State", "Error", "Warning", "Information", "Pending", "Incomplete"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

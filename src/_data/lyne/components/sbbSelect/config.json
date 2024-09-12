@@ -4,7 +4,7 @@
     "patternDirectory":"select",
     "order": 890,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Dropdown", "Select input", "Menu", "Autocomplete"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

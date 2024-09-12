@@ -4,7 +4,7 @@
     "patternDirectory":"toggle",
     "order": 1160,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Switch", "Toggle button"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

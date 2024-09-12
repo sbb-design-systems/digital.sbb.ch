@@ -4,7 +4,7 @@
     "patternDirectory":"container",
     "order": 970,
     "category": "Layout",
-    "keywords":[""],
+    "keywords":["Sticky", "Bar", "Footer"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

@@ -4,7 +4,7 @@
     "patternDirectory":"selectionexpansionpanel",
     "order": 900,
     "category": "Form",
-    "keywords":[""],
+    "keywords":["Radio", "Check", "Collapse", "Expandable", "Expander"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,
