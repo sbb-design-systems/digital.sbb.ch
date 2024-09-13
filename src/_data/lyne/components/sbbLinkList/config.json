@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs": ["sbbBlockLink"],
     "isChildOf": false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbLinkListAnchor"],
     "status": {
         "design": "ok",
         "code": "ok",

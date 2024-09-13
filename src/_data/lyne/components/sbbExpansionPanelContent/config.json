@@ -13,7 +13,6 @@
     "showInFirstLevel": false,
     "childs": false,
     "isChildOf":["sbbExpansionPanel"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

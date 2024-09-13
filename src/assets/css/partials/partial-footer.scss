@@ -32,7 +32,7 @@ sbb-footer {
     order: 1;
 
     sbb-clock {
-      max-inline-size: calc(var(sbb-size-icon-ui-large) * 2);
+      max-inline-size: calc(var(--sbb-size-icon-ui-large) * 2);
       margin-block-end: var(--sbb-spacing-responsive-xl);
     }
   }

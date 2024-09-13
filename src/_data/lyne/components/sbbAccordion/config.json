@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs":["sbbExpansionPanel", "sbbExpansionPanelHeader", "sbbExpansionPanelContent"],
     "isChildOf":false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbFlipCard"],
     "status": {
         "design": "ok",
         "code": "ok",

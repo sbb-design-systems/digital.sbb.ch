@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs": ["sbbImage", "sbbTitle", "sbbButton", "sbbSecondaryButton"],
     "isChildOf": false,
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

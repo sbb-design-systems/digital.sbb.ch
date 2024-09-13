@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf": ["sbbFormField"],
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbAutocomplete", "sbbAutocompleteGrid"],
     "status": {
         "design": "ok",
         "code": "ok",

@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs": ["sbbRadioButton"],
     "isChildOf": false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbRadioButton", "sbbCheckboxPanel"],
     "status": {
         "design": "ok",
         "code": "ok",

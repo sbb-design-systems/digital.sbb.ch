@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs":["Table"],
     "isChildOf": false,
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

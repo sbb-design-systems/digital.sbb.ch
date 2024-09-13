@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs": ["sbbMenuButton", "sbbMenuLink"],
     "isChildOf": false,
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

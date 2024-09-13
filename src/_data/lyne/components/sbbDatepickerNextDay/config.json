@@ -13,8 +13,7 @@
     "showInFirstLevel": false,
     "childs": false,
     "isChildOf":["sbbDatepicker"],
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbDatepickerPreviousDay", "sbbDatepickerToggle"],
     "status": {
         "design": "ok",
         "code": "ok",

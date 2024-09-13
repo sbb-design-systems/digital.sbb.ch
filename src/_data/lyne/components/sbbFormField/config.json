@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs": ["Input", "Label", "Select", "Textarea", "sbbDatePicker", "sbbSelect", "sbbSlider", "sbbTimeInput", "sbbAutocomplete", "sbbAutocompleteGrid", "sbbFormError"],
     "isChildOf": false,
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

@@ -12,7 +12,6 @@
     "hasImplementation": true,
     "childs": false,
     "isChildOf": ["sbbLogo"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

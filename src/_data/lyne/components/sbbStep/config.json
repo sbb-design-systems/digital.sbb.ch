@@ -13,7 +13,6 @@
     "showInFirstLevel": false,
     "childs": false,
     "isChildOf": ["sbbStepper"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

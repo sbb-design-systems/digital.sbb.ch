@@ -13,8 +13,7 @@
     "showInFirstLevel": false,
     "childs": false,
     "isChildOf":["sbbHeader"],
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbHeaderLink"],
     "status": {
         "design": "ok",
         "code": "ok",

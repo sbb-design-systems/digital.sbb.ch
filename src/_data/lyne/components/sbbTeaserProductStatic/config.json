@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs":["sbbButton", "sbbSecondaryButton", "sbbImage"],
     "isChildOf": false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbTeaser", "sbbTeaserHero", "sbbTeaserProduct"],
     "status": {
         "design": "ok",
         "code": "ok",

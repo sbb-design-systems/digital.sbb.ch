@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs": ["sbbSignet"],
     "isChildOf": ["sbbHeader"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

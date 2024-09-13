@@ -13,7 +13,6 @@
     "showInFirstLevel": false,
     "childs": false,
     "isChildOf": ["sbbMiniButtonGroup"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

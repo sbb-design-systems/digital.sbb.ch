@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs":["sbbTab", "sbbTabLabel"],
     "isChildOf": false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbTagGroup"],
     "status": {
         "design": "ok",
         "code": "ok",

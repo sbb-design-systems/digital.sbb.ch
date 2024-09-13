@@ -13,8 +13,7 @@
     "showInFirstLevel": false,
     "childs": false,
     "isChildOf": ["sbbMenu"],
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbMenuLink"],
     "status": {
         "design": "ok",
         "code": "ok",

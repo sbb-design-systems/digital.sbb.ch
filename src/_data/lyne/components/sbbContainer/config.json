@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs":["sbbStickyBar"],
     "isChildOf":false,
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

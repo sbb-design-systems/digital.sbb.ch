@@ -4,9 +4,22 @@
 </sbb-tab-label>
 <sbb-tab>
     {{ overview | renderUsingMarkdown | safe }}
-    {% if (patternConfig.childs|length) or (patternConfig.isChildOf|length) %}
+    {% if (patternConfig.childs|length) or (patternConfig.isChildOf|length) or (patternConfig.similar|length) %}
         <sbb-card size="xxl" color="milk" class="relative-components">
             <div class="relative-components-lists">
+                {% if patternConfig.similar|length %}
+                    <sbb-link-list title-content="Similar">
+                        {% for child in patternConfig.similar %}
+                                {% set childData = lyne.components[child].config %}
+                                {% if childData|length %}
+                                    <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/lyne/components/{{childData.tag.slice(4)}}/">{{childData.tag.slice(4) | capitalizeWords}}</sbb-block-link>
+                                {% else %}
+                                    <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
+                                {% endif %}
+                        {% endfor %}
+                    </sbb-link-list>
+                {% endif %}
+
                 {% if patternConfig.childs|length %}
                     <sbb-link-list title-content="Childs">
                         {% for child in patternConfig.childs %}
@@ -19,7 +32,7 @@
                         {% endfor %}
                     </sbb-link-list>
                 {% endif %}
-
+                
                 {% if patternConfig.isChildOf|length %}
                     <sbb-link-list title-content="Child of">
                         {% for child in patternConfig.isChildOf %}
@@ -30,7 +43,7 @@
                                     <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
                                 {% endif %}
                         {% endfor %}
-                    </sbb-menu>
+                    </sbb-link-list>
                 {% endif %}
             </div>
         </sbb-card>

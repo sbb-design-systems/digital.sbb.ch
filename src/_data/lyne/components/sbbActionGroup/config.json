@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs":["sbbButton", "sbbSecondaryButton", "sbbTertiaryButton", "sbbTransparentButton", "sbbBlockLink"],
     "isChildOf":false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbMiniButtonGroup"],
     "status": {
         "design": "ok",
         "code": "ok",

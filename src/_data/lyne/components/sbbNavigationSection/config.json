@@ -13,7 +13,6 @@
     "showInFirstLevel": false,
     "childs": ["sbbNavigationList", "sbbButton"],
     "isChildOf": ["sbbNavigation"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

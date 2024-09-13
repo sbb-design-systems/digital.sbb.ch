@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs":["sbbCardButton", "sbbCardButton"],
     "isChildOf":false,
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

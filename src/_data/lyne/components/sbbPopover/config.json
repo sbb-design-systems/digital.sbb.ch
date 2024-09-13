@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf": ["sbbPopoverTrigger"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",

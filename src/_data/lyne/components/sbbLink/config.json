@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf":["sbbLinkList"],
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbLinkButton", "sbbLinkStatic", "sbbBlockLinkButton", "sbbBlockLinkStatic"],
     "status": {
         "design": "ok",
         "code": "ok",

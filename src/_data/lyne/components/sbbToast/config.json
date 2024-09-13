@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs":false,
     "isChildOf": false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbNotification"],
     "status": {
         "design": "ok",
         "code": "ok",

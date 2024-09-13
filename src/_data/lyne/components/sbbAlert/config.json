@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf":["sbbAlertGroup"],
-    "similar":[""],
-    "similar":false,
+    "similar":["Notification"],
     "status": {
         "design": "ok",
         "code": "ok",

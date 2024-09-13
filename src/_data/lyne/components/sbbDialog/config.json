@@ -13,8 +13,7 @@
     "showInFirstLevel": true,
     "childs": ["sbbDialogActions", "sbbDialogActions", "sbbDialogTitle"],
     "isChildOf": false,
-    "similar":[""],
-    "similar":false,
+    "similar":["sbbOverlay"],
     "status": {
         "design": "ok",
         "code": "ok",

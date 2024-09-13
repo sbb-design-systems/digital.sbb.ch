@@ -13,7 +13,6 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf":["sbbFooter"],
-    "similar":[""],
     "similar":false,
     "status": {
         "design": "ok",
