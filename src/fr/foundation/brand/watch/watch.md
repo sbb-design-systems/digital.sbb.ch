@@ -7,11 +7,10 @@ parent: brand_fr
 order: 3
 ---
 
-L’horloge numérique des CFF est utilisée dans des applications web ou sur les canaux dynamiques d’information à la clientèle dans le train ou en gare. Elle imite le mouvement et reproduit le design de l’horloge physique des CFF. {.lead}
+L’horloge numérique des CFF est utilisée dans des applications web ou sur les canaux dynamiques d’information à la clientèle dans le train ou en gare. Elle imite le mouvement et reproduit le design de l’horloge physique des CFF. L’horloge CFF est une marque déposée. {.lead}
  
 ## Utilisation
-L’utilisation de l’horloge numérique des CFF doit être conforme aux spécifications y relatives. Ni le design ni le mouvement des aiguilles ne peuvent être modifiés. {.lead}
-
+La montre digitale CFF peut être utilisée par toutes les entreprises de transport concessionnaires de Suisse ainsi que pour des projets en rapport avec les transports publics suisses. Il doit être utilisé tel qu'il est spécifié.
 L’horloge doit être placée sur un fond monochrome. Il n’est pas autorisé de l’intégrer dans des images ou des graphiques. Sur les fonds clairs, un cadre gris permet une séparation visuelle du cadran. Sur les fonds sombres, la version sans cadre sera préférée. {.lead}
 
 ## Que fait le composant?
