@@ -7,10 +7,10 @@ parent: brand_it
 order: 3
 ---
  
-L’orologio digitale FFS sarà utilizzato in treno o in stazione per applicazioni web o canali dinamici di informazione alla clientela, simulando i movimenti e adattando il design dell’orologio fisico delle FFS. L’orologio FFS è un marchio protetto. {.lead}   
+L’orologio digitale FFS sarà utilizzato in treno o in stazione per applicazioni web o canali dinamici di informazione alla clientela, simulando i movimenti e adattando il design dell’orologio fisico delle FFS. L’orologio della stazione FFS è protetto da copyright e dalla legge sulla protezione dei marchi. {.lead}   
 
 ## Utilizzo
-L'orologio digitale delle FFS può essere utilizzato da tutte le aziende di trasporto autorizzate in Svizzera e per progetti relativi ai trasporti pubblici in Svizzera. Deve essere utilizzato esattamente nel modo in cui è specificato.
+Può essere utilizzato solo dai gestori di infrastrutture (GI) e dalle imprese di trasporto concessionarie (ITC) della Svizzera. Deve essere utilizzato esattamente nel modo in cui è specificato.
 L’orologio deve essere posizionato su uno sfondo monocromatico; il posizionamento su immagini o grafici è da evitare. Su sfondi chiari, il quadrante deve essere separato visivamente dallo sfondo tramite un contorno di colore grigio; su sfondi scuri è necessario utilizzare la versione senza contorno. {.lead}   
 
 ## Come funzionano i componenti?
@@ -39,7 +39,7 @@ I componenti presentano le seguenti caratteristiche: {.lead}
 }) }}
 
 ## Contatto
-<sbb-link variant="inline" type="button" target="_blank" href="mailto:entwicklung.bahnhof@sbb.ch">entwicklung.bahnhof@sbb.ch</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
 
 ## Download
 L'orologio digitale è disponibile su GitHub.

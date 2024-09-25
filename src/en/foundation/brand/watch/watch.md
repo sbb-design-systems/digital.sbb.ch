@@ -7,10 +7,10 @@ parent: brand_en
 order: 3
 ---
 
-The digital SBB clock is used in web applications or on dynamic customer information channels on the train or at the station. It imitates the motion of the physical SBB clock and adapts its design. The SBB watch is a registered trade mark. {.lead} 
+The digital SBB clock is used in web applications or on dynamic customer information channels on the train or at the station. It imitates the motion of the physical SBB clock and adapts its design. The SBB station clock is protected by trade mark and copyright law. {.lead} 
  
 ## Use 
-The digital SBB clock may be used by all licensed transport companies in Switzerland and for projects relating to public transport in Switzerland. It must be used exactly as it is specified. 
+It may only be used by all Swiss infrastructure managers (IMs) and licensed transport companies (LTCs). It must be used exactly as it is specified. 
 The clock should be placed on a solid-colour background; it should not be placed on pictures or graphics. On light backgrounds, the clock face is visually separated from the background using a grey frame; the version without the frame should be used on dark backgrounds. {.lead}   
 
 ## What does the component do?
@@ -39,7 +39,7 @@ The component has the following formats. {.lead}
 }) }}
 
 ## Contact
-<sbb-link variant="inline" type="button" target="_blank" href="mailto:entwicklung.bahnhof@sbb.ch">entwicklung.bahnhof@sbb.ch</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
 
 ## Download
 The digital clock specifications are available on GitHub.

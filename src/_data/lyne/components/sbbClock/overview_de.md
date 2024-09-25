@@ -1,7 +1,7 @@
-Die digitale SBB Uhr wird in Webanwendungen oder auf dynamischen Kundeninformationskanälen im Zug oder am Bahnhof eingesetzt. Sie imitiert die Bewegungen und adaptiert das Design der physischen SBB Uhr. Die SBB Uhr ist eine geschützte Marke. {.lead} 
+Die digitale SBB Uhr wird in Webanwendungen oder auf dynamischen Kundeninformationskanälen im Zug oder am Bahnhof eingesetzt. Sie imitiert die Bewegungen und adaptiert das Design der physischen SBB Uhr. Die SBB Bahnhofsuhr ist marken- und urheberrechtlich geschützt. {.lead} 
  
 ## Verwendung 
-Die digitale SBB Uhr darf durch alle konzessionierten Transportunternehmen der Schweiz sowie für Projekte im Zusammenhang mit dem öffentlichen Verkehr der Schweiz verwendet werden. Sie muss genauso verwendet werden, wie sie spezifiziert ist.
+Sie darf ausschliesslich von allen Schweizer Infrastrukturbetreibern (ISB) und konzessionierten Transportunternehmen (KTU) genutzt werden. Sie muss genauso verwendet werden, wie sie spezifiziert ist.
 Die Uhr soll auf einem einfarbigen Hintergrund platziert werden, Platzierungen auf Bilder oder Grafiken sind zu unterlassen. Auf hellen Hintergründen wird das Zifferblatt mit einem grauen Rahmen visuell vom Hintergrund getrennt, auf dunklen Hintergründen ist die Version ohne Rahmen zu verwenden. {.lead}   
 
 ## Was macht die Komponente?
