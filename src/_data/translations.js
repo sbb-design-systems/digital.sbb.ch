@@ -42,6 +42,7 @@ module.exports = {
     impressum: "Imprint",
     contact: "Contact",
     cookies: "Cookie settings",
+    dataprivacy: "Data privacy",
     notfoundtitle: "No search results were found.",
     notfoundtext: "Try using different or fewer search terms.",
     communityassets: {
@@ -273,6 +274,7 @@ module.exports = {
     impressum: "Impressum",
     contact: "Kontakt",
     cookies: "Cookie Einstellungen",
+    dataprivacy: "Datenschutz",
     notfoundtitle: "Es wurden keine Suchresultate gefunden.",
     notfoundtext: "Probiere es mit anderen oder weniger Suchbegriffen.",
     communityassets: {
@@ -504,6 +506,7 @@ module.exports = {
     impressum: "Impressum",
     contact: "Contact",
     cookies: "Paramètres des cookies",
+    dataprivacy: "Protection des données",
     notfoundtitle: "Aucun résultat de recherche trouvé.",
     notfoundtext: "Essaie d'utiliser des termes de recherche différents ou moins nombreux.",
     communityassets: {
@@ -549,6 +552,7 @@ module.exports = {
     impressum: "Impressum",
     contact: "Contatto",
     cookies: "Impostazioni dei cookie",
+    dataprivacy: "Protezione dei dati",
     notfoundtitle: "Non sono stati trovati risultati di ricerca.",
     notfoundtext: "Provate a utilizzare termini di ricerca diversi o meno numerosi.",
     communityassets: {
