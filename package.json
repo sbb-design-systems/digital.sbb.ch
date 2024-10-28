@@ -32,8 +32,8 @@
         "@11ty/eleventy-fetch": "^4.0.0",
         "@kevingimbel/eleventy-plugin-mermaid": "^2.1.0",
         "@lit-labs/eleventy-plugin-lit": "^1.0.3",
-        "@sbb-esta/lyne-elements": "1.11.3",
-        "@sbb-esta/lyne-elements-experimental": "1.11.3",
+        "@sbb-esta/lyne-elements": "1.14.0",
+        "@sbb-esta/lyne-elements-experimental": "1.14.0",
         "@webcomponents/template-shadowroot": "^0.2.1",
         "copyfiles": "^2.4.1",
         "eleventy-plugin-i18n": "^0.1.3",
@@ -42,10 +42,5 @@
         "markdown-it-attrs": "^4.1.6",
         "sass": "^1.77.8",
         "ux-components": "https://github.com/mcilurzo/ux-components/tarball/main"
-    },
-    "overrides": {
-        "@11ty/eleventy": {
-            "liquidjs": "10.16.4"
-        }
     }
 }
