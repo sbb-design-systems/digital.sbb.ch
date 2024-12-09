@@ -1,0 +1,26 @@
+{
+    "tag":"sbb-compact-paginator",
+    "patternId":"sbbCompactPaginator",
+    "patternDirectory":"paginator",
+    "order": 795,
+    "category": "Collection",
+    "keywords":["Paginator", "Pager", "Page", "Compact"],
+    "hasOverview": false,
+    "hasAnatomy": false,
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": ["sbbPopoverTrigger"],
+    "similar":false,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "in progress",
+        "context": { 
+            "public": true,
+            "business": "hidden"
+        }
+    }
+}

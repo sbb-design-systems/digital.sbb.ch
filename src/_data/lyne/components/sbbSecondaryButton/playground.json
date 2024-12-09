@@ -9,6 +9,9 @@
                 "default":"m",
                 "mode":"property",
                 "options" : [{
+                    "value":"s",
+                    "label":"s"
+                },{
                     "value":"m",
                     "label":"m"
                 }, 

@@ -1,26 +1,26 @@
 {
-    "tag":"sbb-header",
-    "patternId":"sbbHeader",
-    "patternDirectory":"header",
-    "order": 510,
+    "tag":"sbb-map-container",
+    "patternId":"sbbMapContainer",
+    "patternDirectory":"map-container",
+    "order": 635,
     "category": "Layout",
-    "keywords":["Head", "Header"],
-    "hasOverview": true,
-    "hasAnatomy": true,
+    "keywords":["Map", "Container", "Layout"],
+    "hasOverview": false,
+    "hasAnatomy": false,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
-    "childs": ["sbbHeaderButton", "sbbHeaderLink"],
+    "childs": false,
     "isChildOf": false,
     "similar":false,
     "status": {
         "design": "ok",
         "code": "ok",
-        "documentation": "ok",
+        "documentation": "in progress",
         "context": { 
             "public": true,
-            "business": true
+            "business": false
         }
     }
 }
