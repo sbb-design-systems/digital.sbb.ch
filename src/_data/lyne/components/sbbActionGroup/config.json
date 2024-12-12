@@ -11,7 +11,7 @@
     "hasPlayground": true,
     "hasImplementation": true,
     "showInFirstLevel": true,
-    "childs":["sbbButton", "sbbSecondaryButton", "sbbTertiaryButton", "sbbTransparentButton", "sbbBlockLink"],
+    "childs":["sbbButton", "sbbSecondaryButton", "sbbAccentButton", "sbbTransparentButton", "sbbBlockLink"],
     "isChildOf":false,
     "similar":["sbbMiniButtonGroup"],
     "status": {

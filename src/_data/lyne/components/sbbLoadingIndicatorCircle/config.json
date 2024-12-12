@@ -1,10 +1,10 @@
 {
-    "tag":"sbb-chip",
-    "patternId":"sbbChip",
-    "patternDirectory":"chip",
-    "order": 280,
+    "tag":"sbb-loading-indicator-circle",
+    "patternId":"sbbLoadingIndicatorCircle",
+    "patternDirectory":"loadingindicator",
+    "order": 625,
     "category": "Indicator",
-    "keywords":["Chip", "Badge", "Tag", "Label"],
+    "keywords":["Loading", "Spinner"],
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,
@@ -20,7 +20,7 @@
         "documentation": "ok",
         "context": { 
             "public": true,
-            "business": true
+            "business": "hidden"
         }
     }
 }

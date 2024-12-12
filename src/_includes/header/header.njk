@@ -5,7 +5,8 @@
   <sbb-header-link href="{{dsurl}}" icon-name="four-squares-small" expand-from="medium">{{ translations[page.lang].overviewds }} {{dsname}}</sbb-header-link>
 {% else %}
 {% endif %}
-  <a href="/{{page.lang}}/" aria-label="{{ translations[page.lang].homelink }}" slot="logo">
+  <div class="sbb-header-spacer"></div>
+  <a href="/{{page.lang}}/" aria-label="{{ translations[page.lang].homelink }}" class="sbb-header-logo">
     <sbb-logo protective-room="none"></sbb-logo>
   </a>
 </sbb-header>

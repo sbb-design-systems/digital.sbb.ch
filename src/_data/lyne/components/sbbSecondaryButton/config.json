@@ -13,7 +13,7 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf": ["sbbActionGroup"],
-    "similar":["sbbSecondaryButtonLink", "sbbSecondaryButtonStatic", "sbbButton", "sbbButtonLink", "sbbButtonStatic", "sbbTertiaryButton", "sbbTertiaryButtonLink", "sbbTertiaryButtonStatic", "sbbTransparentButton", "sbbTransparentButtonLink", "sbbTransparentButtonStatic"],
+    "similar":["sbbSecondaryButtonLink", "sbbSecondaryButtonStatic", "sbbButton", "sbbButtonLink", "sbbButtonStatic", "sbbAccentButton", "sbbAccentButtonLink", "sbbAccentButtonStatic", "sbbTransparentButton", "sbbTransparentButtonLink", "sbbTransparentButtonStatic"],
     "status": {
         "design": "ok",
         "code": "ok",

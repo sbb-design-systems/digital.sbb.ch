@@ -3,33 +3,30 @@
     "content":"<sbb-loading-indicator class='demo-item' variant='window' size='small' color='default'></sbb-loading-indicator>",
     "configuration" : [
         {
-            "attribute":"variant",
-            "label":"variant",
-            "target":"demo-item",
-            "default":"window",
-            "mode":"property",
-            "options" : [{
-                "value":"window",
-                "label":"window"
-            }, 
-            {
-                "value":"circle",
-                "label":"circle"
-            }]
-        },
-        {
             "attribute":"size",
             "label":"size",
             "target":"demo-item",
-            "default":"small",
+            "default":"l",
             "mode":"property",
             "options" : [{
-                "value":"small",
-                "label":"small"
+                "value":"s",
+                "label":"s"
             }, 
             {
-                "value":"large",
-                "label":"large"
+                "value":"l",
+                "label":"l"
+            }, 
+            {
+                "value":"xl",
+                "label":"xl"
+            }, 
+            {
+                "value":"xxl",
+                "label":"xxl"
+            }, 
+            {
+                "value":"xxxl",
+                "label":"xxxl"
             }]
         },
         {

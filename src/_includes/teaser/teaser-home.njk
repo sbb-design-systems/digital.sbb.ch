@@ -1,7 +1,10 @@
- <sbb-teaser title-content="{{ teaser.data.head }}" title-level="2" alignment="below" aria-label="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
-    <img slot="image" class="full-width-image" loading="lazy" src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+<sbb-teaser style="--sbb-teaser-align-items: stretch" title-content="{{ teaser.data.head }}" title-level="2" alignment="below" aria-label="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
+  <figure slot="image" class="sbb-figure">
+    <img src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}" class="sbb-image-4-3">
     {% if teaser.data.chip|length %}
-    <span slot="chip">{{ teaser.data.chip }}</span>
+      <sbb-chip-label class="sbb-figure-overlap-start-start">{{ teaser.data.chip }}</sbb-chip-label>
     {% endif %}
-      {{ teaser.data.description }}
+  </figure>
+  {{ teaser.data.description }}
 </sbb-teaser>
+

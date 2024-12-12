@@ -1,6 +1,6 @@
 {
-        "tag":"sbb-tertiary-button",
-        "content":"<sbb-tertiary-button class='demo-item' icon-name='glass-cocktail-small' size='m'><span id='value'>Label</span></sbb-tertiary-button>",
+        "tag":"sbb-accent-button-static",
+        "content":"<sbb-accent-button-static class='demo-item' icon-name='glass-cocktail-small' size='m'><span id='value'>Label</span></sbb-accent-button-static>",
         "configuration" : [
             {
                 "attribute":"size",

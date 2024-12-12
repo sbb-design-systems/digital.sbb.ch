@@ -1,6 +1,6 @@
 {
         "tag":"sbb-alert",
-        "content":"<sbb-alert class='demo-item' size='m' disable-animation title-content='Interruption between Berne and Olten' icon-name='disruption' href='#'>Between Bern and Olten from 03.11.2021 to 05.12.2022 each time from 22:30 to 06:00 o'clock construction work will take place. You have to expect changed travel times and changed connections.</sbb-alert>",
+        "content":"<sbb-alert class='demo-item' size='m' disable-animation title-content='Interruption between Berne and Olten' icon-name='disruption' href='#'>Between Bern and Olten from 03.11.2021 to 05.12.2022 each time from 22:30 to 06:00 o'clock construction work will take place. You have to expect changed travel times and changed connections.<sbb-link class='demo-link' href='#'>Find out more</sbb-link></sbb-alert>",
         "configuration" : [
             {
                 "attribute":"size",
@@ -37,20 +37,19 @@
                 }]
             },
             {
-                "attribute":"href",
+                "attribute":"style",
                 "label":"href",
-                "target":"demo-item",
-                "default":"#",
+                "target":"demo-link",
+                "default":"display:inline-block;",
                 "mode":"property",
-                "options" : [ 
-                {
-                    "value":"#",
+                "options" : [{
+                    "value":"display:inline-block;",
                     "label":"true"
                 },
                 {
-                    "value":"",
+                    "value":"display:none;",
                     "label":"false"
-                }]
+                } ]
             }
         ]
 }

@@ -21,4 +21,4 @@ parent: button-mobile_de
 *   Der Text ist immer einzeilig. {.lead}
 *   Pro Seite/Dialog darf nur ein Primary Button eingesetzt werden. {.lead}
 *   Pro Seite/Dialog sind mehrere Secondary Buttons erlaubt. {.lead}
-*   Secondary und Tertiary Buttons dürfen nur eingesetzt werden, wenn bereits ein Primary Button vorhanden ist. {.lead}
+*   Secondary und Accent Buttons dürfen nur eingesetzt werden, wenn bereits ein Primary Button vorhanden ist. {.lead}

@@ -1,6 +1,6 @@
 {
     "tag":"sbb-message",
-    "content":"<sbb-message title-content='Unfortunately, an error has occurred.' title-level='3'><sbb-image class='demo-image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/sharedimages/grafiken/Frau-No-Results.png'></sbb-image><p class='demo-subtitle' slot='subtitle'>Please reload the page or try your search again later.</p><p class='demo-legend' slot='legend'>Error code: 0001</p><sbb-secondary-button class='demo-action' slot='action' icon-name='arrows-circle-small' size='m'></sbb-secondary-button></sbb-message>",
+    "content":"<sbb-message title-content='Unfortunately, an error has occurred.' title-level='3'><sbb-image style='' class='demo-image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/sharedimages/grafiken/Frau-No-Results.png'></sbb-image><p class='demo-subtitle' slot='subtitle'>Please reload the page or try your search again later.</p><p class='demo-legend' slot='legend'>Error code: 0001</p><sbb-secondary-button class='demo-action' slot='action' icon-name='arrows-circle-small' size='m'></sbb-secondary-button></sbb-message>",
     "configuration" : [
         {
             "attribute":"slot",

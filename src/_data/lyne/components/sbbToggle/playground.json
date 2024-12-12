@@ -4,6 +4,21 @@
     "content":"<sbb-toggle class='demo-item' size='m' value='value-1'><sbb-toggle-option value='value-1'>Bern, Bahnhof</sbb-toggle-option><sbb-toggle-option value='value-2'>Zürich</sbb-toggle-option></sbb-toggle>",
     "configuration" : [
         {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }]
+        },
+        {
             "attribute":"disabled",
             "label":"disabled",
             "target":"demo-item",
@@ -31,21 +46,6 @@
             {
                 "value":"true",
                 "label":"fix"
-            }]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"m",
-                "label":"m"
-            }, 
-            {
-                "value":"s",
-                "label":"s"
             }]
         }
     ]
