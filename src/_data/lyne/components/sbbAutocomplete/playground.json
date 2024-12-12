@@ -36,7 +36,7 @@
         {
             "attribute":"negative",
             "label":"negative",
-            "target":"form-field",
+            "target":"demo-form-field",
             "default":"false",
             "mode":"boolean",
             "options" : [{
@@ -49,7 +49,5 @@
             }]
         }
 
-        
-       
     ]
 }
