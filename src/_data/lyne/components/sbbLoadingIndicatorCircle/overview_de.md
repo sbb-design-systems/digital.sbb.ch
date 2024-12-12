@@ -1,6 +1,6 @@
 
 ## Was macht die Komponente?
-Ein Loading-Indicator zeigt an, dass eine Aktion oder ein Prozess im Hintergrund ausgeführt wird und Nutzende auf die Beendigung dieses Prozessess warten müssen.
+Ein Loading-Indicator-Circle zeigt an, dass eine Aktion oder ein Prozess im Hintergrund ausgeführt wird und Nutzende auf die Beendigung dieses Prozessess warten müssen.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um die Nutzenden darüber zu informieren, dass eine Aktion oder ein Prozess im Hintergrund läuft.

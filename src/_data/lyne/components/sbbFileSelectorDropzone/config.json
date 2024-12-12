@@ -1,0 +1,26 @@
+{
+    "tag":"sbb-file-selector-dropzone",
+    "patternId":"sbbFileSelectorDropzone",
+    "patternDirectory":"fileselector",
+    "order": 430,
+    "category": "Form",
+    "keywords":["File input", "File uploader", "Dropzone"],
+    "hasOverview": true,
+    "hasAnatomy": true,
+    "hasStorybook": true,
+    "hasPlayground": true,
+    "hasImplementation": true,
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": false,
+    "similar":["sbbFileSelector"],
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok",
+        "context": { 
+            "public": true,
+            "business": true
+        }
+    }
+}

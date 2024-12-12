@@ -11,8 +11,7 @@
 
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
-|1|Animation|Variante `windwow`|Nein|Verfügbar in "Red", "Smoke" und "White". Geeignet für Overlay-Einsatz|
-|2|Animation|Variante `circle`|Nein|Verfügbar in "Red", "Smoke" und "White". Geeignet für Inline-Einsatz|
+|1|Animation||Nein|Verfügbar in "Red", "Smoke" und "White". Geeignet für Overlay-Einsatz|
 
 
 {.sbb-table}

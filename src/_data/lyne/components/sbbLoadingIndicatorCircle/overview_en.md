@@ -1,6 +1,6 @@
 
 ## What does the component do?
-A loading indicator shows that an action or process is running in the background and users have to wait for this process to finish.
+A loading-indicator-circle shows that an action or process is running in the background and users have to wait for this process to finish.
 
 ## When should the component be used?
 * To inform users that an action or process is running in the background.

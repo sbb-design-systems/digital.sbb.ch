@@ -3,21 +3,6 @@
     "content":"<sbb-action-group orientation='vertical' align-group='stretch' horizontal-from='unset' button-size='m'><sbb-secondary-button class='dialogtrigger' vairant='secondary' type='button'>mit Action-Group</sbb-secondary-button><sbb-secondary-button class='dialogtrigger' vairant='secondary' type='button'>ohne Action-Group</sbb-secondary-button></sbb-action-group><sbb-dialog id='dialog-1'><sbb-dialog-title class='dialog-title' back-button='false'>Title</sbb-dialog-title><sbb-dialog-content><p>Dialog content</p></sbb-dialog-content><sbb-dialog-actions align-group='stretch' orientation='vertical' horizontal-from='medium' size='m'><sbb-link align-self='start' icon-name='chevron-small-left-small' href='#' sbb-dialog-close=''>Link</sbb-link><sbb-button variant='secondary' sbb-dialog-close=''>Cancel</sbb-button><sbb-button variant='primary' sbb-dialog-close=''>Confirm</sbb-button></sbb-dialog-actions></sbb-dialog><sbb-dialog id='dialog-2'><sbb-dialog-title class='dialog-title' back-button='false'>Title</sbb-dialog-title><sbb-dialog-content><p>Dialog content</p></sbb-dialog-content></sbb-dialog>",
     "configuration" : [
         {
-            "attribute":"negative",
-            "label":"negative",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
             "attribute":"back-button",
             "label":"title-back-button",
             "target":"dialog-title",

@@ -13,7 +13,7 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf": false,
-    "similar":false,
+    "similar":["sbbFileSelectorDropzone"],
     "status": {
         "design": "ok",
         "code": "ok",

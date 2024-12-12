@@ -39,6 +39,9 @@ layout: base.njk
 {% include "../_includes/lyne-component/title.njk" %}
 
 
+
+
+
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
     {#Overview#}
     {% if patternConfig.hasOverview == true %}
@@ -58,4 +61,34 @@ layout: base.njk
     {% endif %}
 </sbb-tab-group>
 
+{% if (page.url == "/de/design-system/lyne/components/dialog/") or (page.url == "/en/design-system/lyne/components/dialog/") %}
+    <script>
+    const buttons = document.querySelectorAll(".dialogtrigger");
+    function buttonClicked(index) {
+        const dialog = document.getElementById("dialog-"+(index + 1));
+        console.log(dialog.id);
+        dialog.open(event);
+    }
+    buttons.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+    });
+    </script>
+{% endif %}
+
+{% if (page.url == "/de/design-system/lyne/components/overlay/") or (page.url == "/en/design-system/lyne/components/overlay/") %}
+    <script>
+    const buttons = document.querySelectorAll(".overlaytrigger");
+    function buttonClicked(index) {
+        const overlay = document.getElementById("overlay-"+(index + 1));
+        console.log(overlay.id);
+        overlay.open(event);
+    }
+    buttons.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+    });
+    </script>
+{% endif %}
+
 {% include "../_includes/lyne-component-list/sidebar.njk" %}
+
+

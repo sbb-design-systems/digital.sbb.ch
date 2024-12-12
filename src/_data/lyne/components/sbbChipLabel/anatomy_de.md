@@ -2,7 +2,7 @@
 {%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/lyne/anatomy/anatomy_chip',
+  url: '/assets/images/lyne/anatomy/anatomy_chip_label',
   alt: 'Anatomie der Komponente',
   title: 'Anatomie der Komponente'
 }) }}
@@ -11,8 +11,7 @@
 
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
-|1|Text|Label|Nein|checked|
-|2|Komponente|`sbb-icon`|Ja|Noch nicht implementiert|
+|1|Text|Label|Nein||
 
 
 {.sbb-table}
