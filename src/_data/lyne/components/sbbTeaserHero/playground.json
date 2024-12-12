@@ -1,6 +1,6 @@
 {
     "tag":"sbb-teaser-hero",
-    "content":"<sbb-teaser-hero style='width:100%' class='demo-item' href='#' link-content='Find out more'>Break out and explore castles and palaces.<sbb-image id='image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='Alt'></sbb-image><sbb-chip class='chip' slot='chip'>Label</sbb-chip></sbb-teaser-hero>",
+    "content":"<div style='width:100%;'><sbb-teaser-hero class='demo-item' href='#'>Break out and explore castles and palaces.<span slot='link-content'>Find out more</span><figure slot='image' class='sbb-figure'><sbb-image id='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='Höhenrundweg Gryden Lenk'></sbb-image><sbb-chip-label class='sbb-figure-overlap-start-start chip' style='z-index: 1'>Chip label</sbb-chip-label></figure></sbb-teaser-hero></div>",
     "configuration" : [
         {
             "attribute":"link-content",
