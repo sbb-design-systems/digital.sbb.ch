@@ -18,7 +18,7 @@
         </div>
 
         <ul id="scroll-position" class="component-list list component tree">
-            <li class="components-title"><sbb-chip color="granite" size="xs">Design Tokens</sbb-chip></li>
+            <li class="components-title"><sbb-chip-label color="granite" size="xs">Design Tokens</sbb-chip-label></li>
             {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
             {%- for entry in basicPages %}
                 {% include "./overview-item-token.njk" %}

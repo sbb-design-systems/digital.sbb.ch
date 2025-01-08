@@ -7,7 +7,7 @@
     </div>
     <ul class="component-list list overview tree">
         {% if basics == true and components == true %}
-            <li class="components-title"><sbb-chip color="granite" size="xs">Design Tokens</sbb-chip></li>
+            <li class="components-title"><sbb-chip-label color="granite" size="xs">Design Tokens</sbb-chip-label></li>
         {% endif %}
         {% if basics == true %}
             {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}

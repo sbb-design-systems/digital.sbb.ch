@@ -4,7 +4,7 @@
 
 
 {% for category in categories %}
-    <li class="components-title"><sbb-chip color="granite" size="xs">{{category}}</sbb-chip></li>
+    <li class="components-title"><sbb-chip-label color="granite" size="xs">{{category}}</sbb-chip-label></li>
     {% for component, entry in componentsPages | sortLyneComponentsByOrder %}
         {% set componentData = entry.config %}
         {% if (category|length) and (category == componentData.category) and (componentData.showInFirstLevel == true) %}
