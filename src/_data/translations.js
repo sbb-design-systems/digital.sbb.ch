@@ -247,7 +247,11 @@ module.exports = {
       "showhtml": "Show HTML",
       "chip": "Chip",
       "footnote": "Footnote",
-      "image-alignment": "Image alignment"
+      "image-alignment": "Image alignment",
+      "top-left": "top, left",
+      "top-right": "top, right",
+      "bottom-left": "bottom, left",
+      "bottom-right": "bottom, right",
     }
   },
   de: {
@@ -480,7 +484,11 @@ module.exports = {
       "showhtml": "HTML einblenden",
       "chip": "Chip",
       "footnote": "Footnote",
-      "image-alignment": "Bild-Anordnung"
+      "image-alignment": "Bild-Anordnung",
+      "top-left": "oben, links",
+      "top-right": "oben, rechts",
+      "bottom-left": "unten, links",
+      "bottom-right": "unten, rechts",
     }
   },
   fr: {
