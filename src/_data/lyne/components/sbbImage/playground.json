@@ -1,6 +1,6 @@
 {
     "tag":"sbb-image",
-    "content":"<div style='width: 66%'><figure class='sbb-figure'><sbb-image class='demo-item sbb-image-16-9' alt='Alt-Text' copyright='' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/upload/raw/images/Tell-Pass-Zentralschweiz.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image><figcaption class='demo-figcaption'>Caption</figcaption></figure></div>",
+    "content":"<div style='width: 66%'><figure class='sbb-figure'><sbb-image class='demo-item sbb-image-16-9' alt='Alt-Text' copyright='' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/upload/raw/images/Tell-Pass-Zentralschweiz.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image><sbb-chip-label class='chip-label hidden' style='z-index: 1'>AI generated</sbb-chip-label><figcaption class='demo-figcaption'>Caption</figcaption></figure></div>",
     "configuration" : [
         {
             "attribute":"style",
@@ -16,6 +16,35 @@
                 "value":"display:none;",
                 "label":"false"
             } 
+            ]
+        },
+        {
+            "attribute":"class",
+            "label":"chip",
+            "target":"chip-label",
+            "default":"chip-label hidden",
+            "mode":"property",
+            "options" : [
+            {
+                "value":"chip-label hidden",
+                "label":"false"
+            },
+            {
+                "value":"sbb-figure-overlap-start-start chip-label",
+                "label":"top-left"
+            },
+            {
+                "value":"sbb-figure-overlap-start-end chip-label",
+                "label":"top-right"
+            },
+            {
+                "value":"sbb-figure-overlap-end-start chip-label",
+                "label":"bottom-left"
+            },
+            {
+                "value":"sbb-figure-overlap-end-end chip-label",
+                "label":"bottom-right"
+            }
             ]
         },
         {
