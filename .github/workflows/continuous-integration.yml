@@ -59,11 +59,15 @@ jobs:
         with:
           name: showcase
           path: dist/
-      - name: 'Container: Login to GitHub Container Repository'
-        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username ${{ github.actor }} --password-stdin
-      - name: 'Container: Build image'
-        run: docker build -t $IMAGE_REPO:latest .
+      - uses: ./.github/actions/setup-mint
+      - name: 'Container: Build and push image'
+        run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io --username ${{ github.actor }} --password-stdin
+          docker build -t $IMAGE_REPO:latest-fat .
+          mint slim \
+            --target $IMAGE_REPO:latest-fat \
+            --tag $IMAGE_REPO:latest \
+            --preserve-path /usr/share/nginx/html
+          docker push $IMAGE_REPO:latest
         env:
           DOCKER_BUILDKIT: 1
-      - name: 'Container: Publish image'
-        run: docker push $IMAGE_REPO:latest
