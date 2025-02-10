@@ -5,7 +5,7 @@
 
   .icon-items {
     display: grid;
-    grid-template-columns: repeat(3, var(--sbb-spacing-fixed-18x));
+    grid-template-columns: repeat(4, var(--sbb-spacing-fixed-18x));
     gap: var(--sbb-spacing-fixed-2x);
     margin-block-start: var(--sbb-spacing-fixed-4x);
   }

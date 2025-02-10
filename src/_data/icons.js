@@ -43,6 +43,10 @@ const computedicons = async function() {
           if (indexlarge >= 0) {
               icon.tags.splice(indexlarge, 1);
           }
+          var indexextrasmall = icon.tags.indexOf("Size=extra-small");
+          if (indexextrasmall >= 0) {
+              icon.tags.splice(indexextrasmall, 1);
+          }
       }
       if (icon.tags.includes("timetable-icons")) {
           icon.type = "FPL";
