@@ -56,14 +56,8 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 </sbb-tab>
 </sbb-tab-group>
 
-## Download 
-<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
-Html5-Vorlagen als Download
-</sbb-secondary-button-link>
-
-
 ## Kontakt 
-Fragen zum CD und zu Formatadaptationen: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
+Kontakt für Vorlagen, Fragen zum Corporate Design und Formatanpassungen: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
 Fragen zu Barrierefreiheit: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
 
 

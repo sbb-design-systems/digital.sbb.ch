@@ -56,12 +56,6 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 </sbb-tab>
 </sbb-tab-group>
 
-## Download 
-<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
-HTML5 templates for download
-</sbb-secondary-button-link>
-
-
 ## Contact
-Questions about CD: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Brand Portal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
+Contact for templates, questions about corporate design and format customisation: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Brand Portal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
 Questions about accessibility: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>

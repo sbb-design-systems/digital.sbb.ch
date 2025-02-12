@@ -56,12 +56,6 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 </sbb-tab>
 </sbb-tab-group>
 
-## Download 
-<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
-Modèle html5 à télécharger
-</sbb-secondary-button-link>
-
-
 ## Contact
-Pour toutes les questions concernant le Corporate Design: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/fr">Portail de la marque CFF</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>   
+Contact pour les modèles et pour toutes les questions concernant l'identité visuelle et les adaptations de format: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/fr">Portail de la marque CFF</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>   
 Pour toutes les questions concernant l’accessibilité: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">lien</sbb-link>

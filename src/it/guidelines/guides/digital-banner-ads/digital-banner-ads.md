@@ -56,14 +56,8 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 </sbb-tab>
 </sbb-tab-group>
 
-## Download 
-<sbb-secondary-button-link size="m" href="/assets/downloads/digitale-werbebanner.zip">
-Modelli HTML5 in versione download
-</sbb-secondary-button-link>
-
-
 ## Contatto
-Domande sul Corporate Design: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/it">Portale della marca FFS</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marca@ffs.ch">marca@ffs.ch</sbb-link>   
+Contattare per modelli, domande sul Corporate Design e sulla personalizzazione del formato: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/it">Portale della marca FFS</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marca@ffs.ch">marca@ffs.ch</sbb-link>   
 Domande sull’accessibilità: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
 
 
