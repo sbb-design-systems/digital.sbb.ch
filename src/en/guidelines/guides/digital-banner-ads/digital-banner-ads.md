@@ -22,7 +22,7 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 <sbb-tab>
 
 ### Example
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Example 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Example 1</sbb-link>
 
 ### Formats
 - Wideboard (994 x 250)</li>
@@ -35,16 +35,15 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 - Halfpage-Ad (300 x 600) </li>
 - Maxi Skyscraper (245 x 600)</li>
 
-* Utilisation of the window in expanded view
+*Utilisation of the window in expanded view
 
 </sbb-tab>
 <sbb-tab-label>Version 2</sbb-tab-label>
 <sbb-tab>
 
 ### Examples
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Example 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Example 2</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Example 3</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Example 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Example 2</sbb-link>
 
 ### Formats
 - Wide Skyscraper (160 x 600) </li>

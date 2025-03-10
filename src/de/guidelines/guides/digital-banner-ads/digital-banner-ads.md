@@ -22,7 +22,7 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 <sbb-tab>
 
 ### Beispiele
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Beispiel 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Beispiel 1</sbb-link>
 
 ### Formate
 - Wideboard (994 x 250)</li>
@@ -35,16 +35,15 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 - Halfpage-Ad (300 x 600) </li>
 - Maxi Skyscraper (245 x 600)</li>
 
-* Anwendung des Fensters in der ausgeklappten (expanded) Ansicht
+*Anwendung des Fensters in der ausgeklappten (expanded) Ansicht
 
 </sbb-tab>
 <sbb-tab-label>Version 2</sbb-tab-label>
 <sbb-tab>
 
 ### Beispiele
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Beispiel 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Beispiel 2</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Beispiel 3</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Beispiel 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Beispiel 2</sbb-link>
 
 ### Formate
 - Wide Skyscraper (160 x 600) </li>

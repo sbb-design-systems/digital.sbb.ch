@@ -22,7 +22,7 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 <sbb-tab>
 
 ### Esempi
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_rshzxi49">Esempio 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Esempio 1</sbb-link>
 
 ### Formati
 - Wideboard (994 x 250)</li>
@@ -35,16 +35,15 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 - Halfpage-Ad (300 x 600) </li>
 - Maxi Skyscraper (245 x 600)</li>
 
-* Finestra utilizzata con visualizzazione estesa (expanded)
+*Finestra utilizzata con visualizzazione estesa (expanded)
 
 </sbb-tab>
 <sbb-tab-label>Versione 2</sbb-tab-label>
 <sbb-tab>
 
 ### Beispiele
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_b25tcfpk">Esempio 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_axviyik4">Esempio 2</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="https://api.eu.kaltura.com/p/324/sp/32400/embedIframeJs/uiconf_id/23453841/partner_id/324?iframeembed=true&playerId=kaltura_player&entry_id=0_3kl5zla7">Esempio 3</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Esempio 1</sbb-link>
+<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Esempio 2</sbb-link>
 
 ### Formati
 - Wide Skyscraper (160 x 600) </li>
