@@ -1,6 +1,6 @@
 {
     "tag":"sbb-calendar",
-    "content":"<sbb-calendar class='demo-item'></sbb-calendar>",
+    "content":"<sbb-calendar class='demo-item' orientation='horizontal'></sbb-calendar>",
     "configuration" : [
         {
             "attribute":"wide",
@@ -15,6 +15,21 @@
             {
                 "value":"true",
                 "label":"true"
+            }]
+        },
+        {
+            "attribute":"orientation",
+            "label":"orientation",
+            "target":"demo-item",
+            "default":"horizontal",
+            "mode":"property",
+            "options" : [{
+                "value":"horizontal",
+                "label":"horizontal"
+            },
+            {
+                "value":"vertical",
+                "label":"vertical"
             }]
         }
     ]
