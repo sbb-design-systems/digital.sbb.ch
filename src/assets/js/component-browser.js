@@ -6,4 +6,4 @@ var options = {
       }
     ]
   };
-  var componentlist = new List('componentlist', options);
+  var componentlist = new List('componentbrowser', options);

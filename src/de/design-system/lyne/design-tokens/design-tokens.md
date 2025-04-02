@@ -1,5 +1,5 @@
 ---
-layout: lyne-overview.njk
+layout: overview-lyne.njk
 tags: level3
 key: basics-lyne_de
 title: Design Tokens

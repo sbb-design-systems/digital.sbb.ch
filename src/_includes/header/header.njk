@@ -1,6 +1,6 @@
-<sbb-header hide-on-scroll>
+<sbb-header hide-on-scroll scroll-origin="content">
   <sbb-header-button id="nav-trigger" icon-name="hamburger-menu-small" expand-from="small">Menu</sbb-header-button>
-{% if (layout == "component.njk") or (layout == "lyne-component.njk") or (layout == "token-lyne.njk") %}
+{% if (layout == "component.njk") or (layout == "component-lyne.njk") or (layout == "token-lyne.njk") %}
   <sbb-header-button id="toggle-component-browser" icon-name="magnifying-glass-small" expand-from="medium">{{ translations[page.lang].actioncomponentbrowser }}</sbb-header-button>
   <sbb-header-link href="{{dsurl}}" icon-name="four-squares-small" expand-from="medium">{{ translations[page.lang].overviewds }} {{dsname}}</sbb-header-link>
 {% else %}

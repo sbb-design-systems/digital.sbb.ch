@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-{% if (layout == "lyne-component.njk") %}
+{% if (layout == "component-lyne.njk") %}
     <title>{{lyne.components[component].config.tag.slice(4) | capitalizeWords}} – digital.sbb.ch</title>
 {% else %}
     <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
@@ -36,7 +36,7 @@
 <link rel="modulepreload" href="/assets/js/lyne-bundle.js">
 <link rel="modulepreload" href="/assets/js/ux-components/ux-components.esm.js">
 
-{% if (layout == "community-assets.njk") or (layout == "assets.njk") or (layout == "overview.njk") or (layout == "lyne-overview.njk") or (layout == "component.njk") or (layout == "lyne-component.njk") or (layout == "token-lyne.njk") %}
+{% if (layout == "community-assets.njk") or (layout == "assets.njk") or (layout == "overview.njk") or (layout == "overview-lyne.njk") or (layout == "component.njk") or (layout == "component-lyne.njk") or (layout == "token-lyne.njk") %}
 <script src="/assets/js/listjs/list.min.js"></script>
 {% endif %}
 

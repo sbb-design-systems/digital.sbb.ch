@@ -35,8 +35,8 @@ layout: base.njk
   {% set implementation = lyne.components[patternConfig.patternId].implementation %}
 {% endif %}
 
-{% include "../_includes/lyne-component/missing-language.njk" %}
-{% include "../_includes/lyne-component/title.njk" %}
+{% include "../_includes/component/lyne/missing-language.njk" %}
+{% include "../_includes/component/lyne/title.njk" %}
 
 
 
@@ -45,19 +45,19 @@ layout: base.njk
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
     {#Overview#}
     {% if patternConfig.hasOverview == true %}
-        {% include "../_includes/lyne-component/tab-overview.njk" %}
+        {% include "../_includes/component/lyne/tab-overview.njk" %}
     {% endif %}
     {#Anatomy#}
     {% if patternConfig.hasAnatomy == true %}
-        {% include "../_includes/lyne-component/tab-anatomy.njk" %}
+        {% include "../_includes/component/lyne/tab-anatomy.njk" %}
     {% endif %}
     {#Playground#}
     {% if (patternConfig.hasPlayground == true) or (patternConfig.hasStorybook == true) %}  
-        {% include "../_includes/lyne-component/tab-playground.njk" %}
+        {% include "../_includes/component/lyne/tab-playground.njk" %}
     {% endif %}
     {#Implementation#}
     {% if patternConfig.hasImplementation == true %}
-        {% include "../_includes/lyne-component/tab-implementation.njk" %}
+        {% include "../_includes/component/lyne/tab-implementation.njk" %}
     {% endif %}
 </sbb-tab-group>
 
@@ -88,7 +88,3 @@ layout: base.njk
     });
     </script>
 {% endif %}
-
-{% include "../_includes/lyne-component-list/sidebar.njk" %}
-
-

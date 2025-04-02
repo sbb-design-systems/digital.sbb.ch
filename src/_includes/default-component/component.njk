@@ -1,9 +1,0 @@
-
-    <sbb-teaser class="component-teaser" title-content="" title-level="6" alignment="below" aria-label="{{ entry.data.title }}" href="{{ entry.url }}" data-keywords="{{ entry.data.keywords }}">
-        {% if entry.data.image|length %}
-            <img slot="image" loading="lazy" class="full-width-image" src="/assets/images/{{ entry.data.image }}" alt="{{ entry.data.title }}">
-        {% else %}
-            <img slot="image" loading="lazy" class="full-width-image" src="/assets/images/teaser/fallback.webp" alt="fallback">
-        {% endif %}
-        {{ entry.data.title }}
-    </sbb-teaser>

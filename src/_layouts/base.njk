@@ -6,43 +6,50 @@
   <body>
     {% include "../_includes/skiplinks.njk" %}
     {% include "../_includes/header/header.njk" %}
-    {% include "../_includes/navigation/navigation.njk" %}
-    <sbb-container id="content" class="content">
-      {{ content | safe }}
-    </sbb-container>
-    {% include "../_includes/footer.njk" %}
+
+    {% if layout == "component-lyne.njk" or layout == "token-lyne.njk" or layout == "component.njk" %}
+    <sbb-sidebar-container>
+      <sbb-sidebar role="navigation" position="start" color="milk" mode="over" focus-on-open id="sidebar">
+        <sbb-sidebar-title>{{ translations[page.lang].findcomponent }}</sbb-sidebar-title>
+        <sbb-sidebar-close-button></sbb-sidebar-close-button>
+        {% if layout == "component-lyne.njk" or layout == "token-lyne.njk" %}
+        {% include "../_includes/browser/browser-lyne.njk" %}
+        {% else %}
+        {% include "../_includes/browser/browser.njk" %}
+        {% endif %}
+      </sbb-sidebar>
+      <sbb-sidebar-content id="content" role="main">
+    {% endif %}
+        {% include "../_includes/navigation/navigation.njk" %}
+        <sbb-container id="content" class="content">
+          {{ content | safe }}
+        </sbb-container>
+        {% include "../_includes/footer.njk" %}
+    {% if layout == "component-lyne.njk" or layout == "token-lyne.njk" or layout == "component.njk" %}
+      </sbb-sidebar-content>
+    </sbb-sidebar-container>
+    {% endif %}
+
     <script type="module" src="/assets/js/lyne-bundle.js"></script>
-  
+
+    {% if layout == "overview.njk" or layout == "overview-lyne.njk" %}
+    <script src="/assets/js/component-browser.js"></script>
+    {% endif %}
+
+    {% if layout == "component.njk" %} 
+    <script src="/assets/js/mode-toggle.js"></script>
+    {% endif %}
+
+    {% if layout == "component.njk" or layout == "component-lyne.njk" or layout == "token-lyne.njk" %} 
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
+    <script src="/assets/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    {% endif %}
+
     {% if layout == "community-assets.njk" %}
     <script src="/assets/js/community-assets.js"></script>
-    {% elif layout == "overview.njk" %}
-    <script src="/assets/js/list-toggle.js"></script>
-    <script src="/assets/js/component-browser.js"></script>
-    {% elif layout == "lyne-overview.njk" %}
-    <script src="/assets/js/tree.js"></script>
-    <script src="/assets/js/component-browser.js"></script>
-    {% elif layout == "component.njk" %} 
-    <script src="/assets/js/list-toggle.js"></script>
-    <script src="/assets/js/mode-toggle.js"></script>
-    <script src="/assets/js/sidebar.js"></script>
-    <script src="/assets/js/component-browser.js"></script>
-    <script src="/assets/js/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    {% elif layout == "lyne-component.njk" %} 
-    <script src="/assets/js/tree.js"></script>
-    <script src="/assets/js/sidebar.js"></script>
-    <script src="/assets/js/component-browser.js"></script>
-    <script src="/assets/js/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    {% elif layout == "token-lyne.njk" %} 
-    <script src="/assets/js/tree.js"></script>
-    <script src="/assets/js/sidebar.js"></script>
-    <script src="/assets/js/component-browser.js"></script>
-    <script src="/assets/js/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
-    {% else %}
     {% endif %}
   </body>
 </html>
-
 

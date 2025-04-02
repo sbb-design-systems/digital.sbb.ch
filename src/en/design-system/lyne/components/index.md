@@ -1,5 +1,5 @@
 ---
-layout: lyne-overview.njk
+layout: overview-lyne.njk
 tags: 
     - level3
 key: lyne_components_en

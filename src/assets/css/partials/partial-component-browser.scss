@@ -1,377 +1,68 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
-#body-overlay {
-  inline-size: 100vw;
-  block-size: 100vh;
-  display: none;
-  position: fixed;
-  z-index: 1999;
-  inset-block-start: 0;
-  overflow: hidden;
-  background: var(--sbb-color-black-alpha-50);
+sbb-sidebar {
+  inline-size: 400px;
 }
 
-#sidebar {
-  overflow: hidden;
-  block-size: 100%;
-  inline-size: 100%;
-  box-sizing: border-box;
-  padding: var(--sbb-spacing-responsive-xxxs);
-  margin: 0;
-  border: none;
-  background: none;
-}
-
-#sidebar:modal {
-  max-inline-size: 100%;
-  max-block-size: 100%;
-}
-
-#sidebar[open] {
-  animation: show-dialog 0.5s ease normal;
-}
-
-#sidebar.hide-sidebar {
-  animation: hide-dialog 0.5s ease normal;
-}
-
-#sidebar::backdrop {
-  position: fixed;
-  inset: 0;
-  background-color: rgb(0 0 0 / 50%);
-  animation: none;
-}
-
-#sidebar[open]::backdrop {
-  animation: show-backdrop 0.5s normal;
-}
-
-#sidebar.hide-sidebar::backdrop {
-  animation: hide-backdrop 0.5s normal;
-}
-
-@keyframes show-dialog {
-  from {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-
-@keyframes hide-dialog {
-  to {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes show-backdrop {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes hide-backdrop {
-  to {
-    opacity: 0;
-  }
-}
+.component-browser {
+  padding-block-end: var(--sbb-spacing-fixed-6x);
+  position: relative;
 
 
-.browser {
-  background-color: var(--sbb-color-milk);
-  box-sizing: border-box;
-  inline-size: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
-  gap: 0;
-
-  &.component {
-    block-size: 100%;
-    border-radius: var(--sbb-border-radius-4x);
-    @include sbb.mq($from: medium) {
-      border-radius: var(--sbb-border-radius-4x);
-    }
-  }
-
-  &.overview {
+  .component-search{
+    z-index: 999;
     inline-size: 100%;
-    border-radius: var(--sbb-border-radius-4x);
-  }
+    position: sticky;
+    inset-block-start: 24px;
 
-  @include sbb.mq($from: medium) {
-    inline-size: 60vw;
-  }
-  @include sbb.mq($from: large) {
-    inline-size: 50vw;
-  }
-  @include sbb.mq($from: ultra) {
-    inline-size: 40vw;
-  }
-
-
-}
-
-.browser-header-component {
-  inline-size: 100%;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: 1fr 1fr;
-  gap: var(--sbb-spacing-responsive-xs) 0;
-  align-items: center;
-  @include sbb.shadow-level-5-hard;
-
-  padding: var(--sbb-spacing-responsive-s);
-
-  sbb-form-field {
-    grid-area: 2 / 1 / 3 / 3;
-    inline-size: 100%;
-    border-radius: var(--sbb-form-field-border-radius);
-    @include sbb.shadow-level-5-hard;
-  }
-
-  sbb-title {
-    grid-area: 1 / 1 / 2 / 3;
-    margin: 0;
-  }
-
-  sbb-button {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-}
-
-.browser-header-overview {
-  inline-size: 100%;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: 1fr;
-  gap: var(--sbb-spacing-fixed-4x);
-  align-items: center;
-  padding: var(--sbb-spacing-responsive-m);
-
-  sbb-form-field {
-    inline-size: 100%;
-    border-radius: var(--sbb-form-field-border-radius);
-    @include sbb.shadow-level-5-hard;
-  }
-
-}
-
-.component-list {
-  box-sizing: border-box;
-  inline-size: 100%;
-  overflow: scroll;
-  @include sbb.scrollbar;
-
-  &.horizontal {
-    display: flex;
-    flex-flow: row wrap;
-    place-content: flex-start flex-start;
-    align-items: flex-start;
-    gap: var(--sbb-spacing-fixed-4x);
-
-    sbb-title {
-      flex-basis: 100%;
-
-      &:first-child {
-        margin-block-start: 0;
-      }
-    }
-
-    sbb-teaser {
-      flex: 0 0 100%;
-      align-self: auto;
-      @include sbb.mq($from: small) {
-        flex: 0 0 calc((100% - var(--sbb-spacing-fixed-4x)) / 2);
-      }
-      @include sbb.mq($from: large) {
-        flex: 0 0 calc((100% - (var(--sbb-spacing-fixed-4x) * 2)) / 3);
-      }
-    }
-  }
-
-  &.vertical {
-    sbb-title {
-      &:first-child {
-        margin-block-start: 0;
-      }
-    }
-
-    sbb-teaser {
+    sbb-form-field {
       inline-size: 100%;
-      margin-block-end: var(--sbb-spacing-fixed-4x);
-
-/*
-      img {
-        max-width: var(--sbb-spacing-fixed-30x);
-      }
-        */
+      border-radius: var(--sbb-border-radius-4x);
+      @include sbb.shadow-level-9-hard;
     }
-  }
-
-  &.component {
-    padding: var(--sbb-spacing-responsive-s);
-  }
-
-  &.overview {
-    padding: var(--sbb-spacing-responsive-m);
-
-    sbb-teaser {
-      @include sbb.mq($from: small) {
-        flex: 0 0 calc((100% - var(--sbb-spacing-fixed-4x)) / 2);
-      }
-      @include sbb.mq($from: medium) {
-        flex: 0 0 calc((100% - (var(--sbb-spacing-fixed-4x) * 2)) / 3);
-      }
-      @include sbb.mq($from: large) {
-        flex: 0 0 calc((100% - (var(--sbb-spacing-fixed-4x) * 3)) / 4);
-      }
-      @include sbb.mq($from: wide) {
-        flex: 0 0 calc((100% - (var(--sbb-spacing-fixed-4x) * 4)) / 5);
-      }
-    }
-
-    &.tree {
-      padding-block: 0 var(--sbb-spacing-responsive-m);
-      padding-inline: var(--sbb-spacing-responsive-m);
-    }
-    
-  }
-  
 }
 
-.button-header {
-  margin-block-start: var(--sbb-spacing-fixed-8x);
-}
-
-p.metal {
-  color: var(--sbb-color-metal);
-}
-
-.lyne-browser {
-  @include sbb.mq($from: medium) {
-    inline-size: 50vw;
-  }
-  @include sbb.mq($from: large) {
-    inline-size: 40vw;
-  }
-  @include sbb.mq($from: ultra) {
-    inline-size: 30vw;
-  }
-}
-
-
-.tree {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  font-size: inherit;
-
-  a, a:hover {
-    text-decoration: none;
-    display: block;
-  }
-
-  li {
-    margin-block: var(--sbb-spacing-fixed-1x);
-    margin-inline: 0;
-
-    &::before {
-      content: '' !important;
-      transform: scale(1.0);
-    }
-
-    &:first-child {
-      sbb-title {
-        margin-block-start: 0;
-      }
-    }
-
-    &.components-title {
-      margin-block-start: var(--sbb-spacing-fixed-16x);
-    }
-
-    ul {
-      li {
-        margin-block: var(--sbb-spacing-fixed-2x);
-        margin-inline: 0;
-      }
-    }
-  }
-
-  .no-subcategory, .has-subcategory {
-    cursor: pointer;
-    display: block;
-    padding-inline-start: var(--sbb-spacing-fixed-9x);
-    margin-block-start: 0;
-    margin-block-start: var(--sbb-spacing-fixed-2x);
-
-    &:hover {
-      color: var(--sbb-color-red125);
-    }
-
-    &.current {
-      @include sbb.text-m--bold;
-    }
-
-  }
-
-  .no-subcategory::before, .has-subcategory::before, .selected::before {
-    content: '';
-    background-image: url("https://icons.app.sbb.ch/icons/four-diamonds-small.svg");
-    inset-inline-start: calc(var(--sbb-spacing-fixed-1x) / 2);
-    inset-block-start: calc(var(--sbb-spacing-fixed-1x) / 2);
-    inline-size: var(--sbb-spacing-fixed-6x);
-    block-size: var(--sbb-spacing-fixed-6x);
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: var(--sbb-spacing-fixed-6x) var(--sbb-spacing-fixed-6x);
-    position: absolute;
-    display: block;
-
-
-  }
-
-  .has-subcategory::before {
-    background-image: url("https://icons.app.sbb.ch/icons/folder-small.svg");
-  }
-
-  .selected::before {
-    background-image: url("https://icons.app.sbb.ch/icons/folder-open-small.svg");
-  }
-
-
-  .subcategory {
-    margin: 0;
+  .component-list {
+    background: var(--sbb-color-milk);
+    box-sizing: border-box;
+    inline-size: 100%;
     padding: 0;
-    padding-inline-start: 0;
-    max-block-size: 0;
-    transition: max-block-size 0.5s ease-out;
-    overflow: hidden;
+    margin: 0;
+    list-style: none;
+    font-size: inherit;
 
-    &.open {
-      max-block-size: 100%;
-      transition: max-block-size 0.5s ease-in;
-      overflow: visible;
+    a, a:hover {
+      text-decoration: none;
+      display: block;
     }
 
-    .current {
-      @include sbb.text-m--bold;
+    li {
+      margin-block: var(--sbb-spacing-fixed-1x);
+      margin-inline: 0;
+
+      &::before {
+        content: '' !important;
+        transform: scale(1.0);
+      }
+
+      &:first-child {
+        sbb-title {
+          margin-block-start: 0;
+        }
+      }
+
+      &.components-title {
+        margin-block-start: var(--sbb-spacing-fixed-16x);
+      }
+
+      ul {
+        li {
+          margin-block: var(--sbb-spacing-fixed-2x);
+          margin-inline: 0;
+        }
+      }
     }
-  }
-
-
 }
-
 
 .card-content-component {
     display: grid;
@@ -388,4 +79,10 @@ p.metal {
       display: flex;
       gap: var(--sbb-spacing-fixed-2x);
     }
+}
+}
+
+#componentlist {
+  padding-block: 0;
+
 }

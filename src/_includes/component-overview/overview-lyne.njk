@@ -1,0 +1,28 @@
+<sbb-card class="intro-links" color="milk" size="xxl">
+    <div id="componentbrowser" class="component-browser">
+<div class="component-search">
+        <sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
+            <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
+            <label>{{ translations[page.lang].searchinput }}</label>
+            <input id="search-form-field" class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
+        </sbb-form-field>
+</div>
+        <ul id="scroll-position" class="component-list list">
+            {% if basics == true and components == true %}
+                <li class="components-title"><sbb-chip-label color="granite" size="xs">Design Tokens</sbb-chip-label></li>
+            {% endif %}
+            {% if basics == true %}
+                {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
+                {%- for entry in basicPages %}
+                {% include "../browser/browser-item-token-lyne.njk" %}
+                {%- endfor -%}
+            {% endif %}
+            {% if basics == true and components == true %}
+            {% endif %}
+            {% if components == true %}
+                {% include "../browser/browser-item-component-lyne.njk" %}
+            {% endif %}
+        </ul>
+    </div>
+</sbb-card>
+

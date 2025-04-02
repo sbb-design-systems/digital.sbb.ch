@@ -49,17 +49,24 @@ document.querySelector('#scroll-position')?.addEventListener('scroll', () => {
 
 
 
+
+
+/*
+
 var dialog = document.querySelector('dialog');
+
+
 document.querySelector('#toggle-component-browser').onclick = function() {
     dialog.showModal();
 
     if (hugeDiv != null) {
       hugeDiv.scrollTo(0, storedScrollPosition);
     }
-
-
-    
 };
+
+
+
+
 document.querySelector('#close-browser').onclick = function() {
     dialog.classList.add('hide-sidebar');
     
@@ -70,5 +77,10 @@ document.querySelector('#close-browser').onclick = function() {
     }, 500);
     
 };
+*/
 
 
+var sidebar = document.getElementById("sidebar");
+document.querySelector('#toggle-component-browser').onclick = function() {
+  sidebar.open();
+};

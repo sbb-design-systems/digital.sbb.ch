@@ -1,5 +1,5 @@
 ---
-layout: lyne-component.njk
+layout: component-lyne.njk
 pagination:
   data: lyne.components
   size: 1
