@@ -1,6 +1,7 @@
+{% set getSegementsOfPageUrl = page.url.split('/') %}
 <li data-keywords="{{ entry.data.keywords }}">
     <sbb-card size="l" color="white">
-        <sbb-card-link href="{{ entry.url }}">More Info</sbb-card-link>
+        <sbb-card-link {% if entry.url == page.url %}id="active-card" active{% endif %} href="{{ entry.url }}">More Info</sbb-card-link>
         <div class="card-content-component">
             <sbb-title level="5">{{ entry.data.title }}</sbb-title>
         </div>

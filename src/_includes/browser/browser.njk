@@ -1,4 +1,4 @@
-<div id="componentbrowser" class="component-browser">
+<div id="componentbrowser" class="component-browser sidebar-browser">
     <div class="component-search">
         <sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
             <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
@@ -6,7 +6,7 @@
             <input id="search-form-field" class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
         </sbb-form-field>
     </div>
-    <ul id="scroll-position" class="component-list list">
+    <ul class="component-list list">
         <li class="components-title"><sbb-chip-label color="granite" size="xs">Basics</sbb-chip-label></li>
             {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
             {%- for entry in basicPages %}

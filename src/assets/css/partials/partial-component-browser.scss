@@ -9,11 +9,9 @@ sbb-sidebar {
   position: relative;
 
 
+
   .component-search{
-    z-index: 999;
     inline-size: 100%;
-    position: sticky;
-    inset-block-start: 24px;
 
     sbb-form-field {
       inline-size: 100%;
@@ -22,11 +20,21 @@ sbb-sidebar {
     }
 }
 
+&.sidebar-browser {
+  .component-search{
+    z-index: 99;
+    position: sticky;
+    inset-block-start: 24px;
+  }
+}
+
+
   .component-list {
     background: var(--sbb-color-milk);
     box-sizing: border-box;
     inline-size: 100%;
     padding: 0;
+    padding-block-start: var(--sbb-spacing-fixed-10x);
     margin: 0;
     list-style: none;
     font-size: inherit;
@@ -52,7 +60,7 @@ sbb-sidebar {
       }
 
       &.components-title {
-        margin-block-start: var(--sbb-spacing-fixed-16x);
+        margin-block: var(--sbb-spacing-fixed-16x) var(--sbb-spacing-fixed-3x);
       }
 
       ul {

@@ -11,7 +11,7 @@
             {% set getSegementsOfPageUrl = page.url.split('/') %}
             <li data-keywords="{{ entry.config.category }}, {{ entry.config.keywords }}">
                 <sbb-card size="l" color="white">
-                    <sbb-card-link href="{{page.lang}}/design-system/lyne/components/{{entry.config.tag.slice(4)}}" {% if getSegementsOfPageUrl[5] == entry.config.tag.slice(4) %}active{% endif %}>More Info</sbb-card-link>
+                    <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag.slice(4) %}id="active-card"{% endif %} href="{{page.lang}}/design-system/lyne/components/{{entry.config.tag.slice(4)}}" {% if getSegementsOfPageUrl[5] == entry.config.tag.slice(4) %}active{% endif %}>More Info</sbb-card-link>
                     <div class="card-content-component">
                         <sbb-title level="5">{{ entry.config.tag.slice(4) | capitalizeWords}}</sbb-title>
                         {% if components == true %}
