@@ -1,13 +1,11 @@
 
 ## Was macht die Komponente?
-Ein Popover ist ein kleines Overlay, das zusätzlichen Kontext oder interaktive Inhalte anzeigt, wenn Nutzende auf ein Element klicken oder es fokussieren.
+Die Compact-Paginator-Komponente ermöglicht die Navigation durch grosse Mengen von Inhalten, indem sie die Inhalte in mehrere Seiten unterteilt. Er zeigt Benutzer:innen an, auf welcher Seite man sich befindet und bietet Steuerungselemente zum Wechseln zwischen den Seiten.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um zusätzliche Informationen oder Aktionen anzuzeigen, ohne die aktuelle Seite zu verlassen.
-* Wenn Nutzende eine detaillierte Erklärung oder erweiterte Optionen zu einem bestimmten Element benötigen.
-* Um kontextabhängige Inhalte übersichtlich und platzsparend darzustellen.
+* Wenn eine große Anzahl von Einträgen oder Inhalten effizient verwaltet werden muss.
+* Wenn eine Alternative zu unendlichem Scrollen benötigt wird.
+* Wenn die Platzverhältnisse keine Paginator-Komponente zulassen
 
 ## Regeln
-* Achte darauf, dass die Inhalte des Popover auf verschiedenen Geräten und Bildschirmgrößen gut funktioniert und bedienbar ist. 
-* Achte darauf, dass der Popover nicht zu viele Informationen oder Elemente enthält, um die Übersichtlichkeit zu gewährleisten
-* Vermeide es, mehrere Popovers gleichzeitig offen zu halten.
+* Bei geringer Anzahl von Seiten kann eine alternative Lösung wie "Mehr laden" anstelle eines Paginators in Betracht gezogen werden.

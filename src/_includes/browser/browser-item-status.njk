@@ -24,12 +24,4 @@
     {% else %}
         <sbb-status type="error">Documentation</sbb-status>
     {% endif %}
-
-    {# Context: Business #}
-    {% if entry.config.status.context.business == true %}
-        <sbb-status type="success">Business-Context</sbb-status>
-    {% elseif entry.config.status.context.business == "hidden" %}
-    {% else %}
-        <sbb-status type="error">Business-Context</sbb-status>
-    {% endif %}
 </div>

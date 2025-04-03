@@ -1,0 +1,22 @@
+{
+    "tag":"sbb-icon-sidebar-link",
+    "patternId":"sbbIconSidebarLink",
+    "patternDirectory":"navigation",
+    "order": 702,
+    "category": "Navigation",
+    "keywords":["Icon Sidebar", "Link"],
+    "hasOverview": false,
+    "hasAnatomy": false,
+    "hasStorybook": true,
+    "hasPlayground": false,
+    "hasImplementation": true,
+    "showInFirstLevel": false,
+    "childs": false,
+    "isChildOf":["sbbIconSidebar"],
+    "similar": false,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

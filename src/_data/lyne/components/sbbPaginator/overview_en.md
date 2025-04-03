@@ -1,13 +1,10 @@
 
 ## What does the component do?
-A popover is a small overlay that displays additional context or interactive content when users click or focus on an element.
+The Paginator component enables navigation through large amounts of content by dividing the content into several pages. It shows users which page they are on and provides control elements for switching between pages.
 
 ## When should the component be used?
-* To display additional information or actions without leaving the current page.
-* When users need a detailed explanation or advanced options for a specific element.
-* To display context-dependent content in a clear and space-saving way.
+* When a large number of entries or content needs to be managed efficiently.
+* When an alternative to infinite scrolling is required.
 
 ## Rules
-* Make sure that the content of the popover works well and is usable on different devices and screen sizes. 
-* Make sure that the popover does not contain too much information or elements to ensure clarity
-* Avoid keeping several popovers open at the same time.
+* If the number of pages is small, an alternative solution such as ‘Load more’ can be considered instead of a paginator.

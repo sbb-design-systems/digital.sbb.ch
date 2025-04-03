@@ -17,10 +17,6 @@
     "status": {
         "design": "ok",
         "code": "ok",
-        "documentation": "ok",
-        "context": { 
-            "public": true,
-            "business": true
-        }
+        "documentation": "ok"
     }
 }

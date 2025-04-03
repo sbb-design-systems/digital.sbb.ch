@@ -5,7 +5,7 @@
     "order": 955,
     "category": "Indicator",
     "keywords":["Progress indicator", "Progress tracker", "Stepper", "Steps", "Meter"],
-    "hasOverview": false,
+    "hasOverview": true,
     "hasAnatomy": false,
     "hasStorybook": true,
     "hasPlayground": false,
@@ -17,10 +17,6 @@
     "status": {
         "design": "ok",
         "code": "ok",
-        "documentation": "in progress",
-        "context": { 
-            "public": true,
-            "business": true
-        }
+        "documentation": "ok"
     }
 }

@@ -5,22 +5,18 @@
     "order": 795,
     "category": "Collection",
     "keywords":["Paginator", "Pager", "Page"],
-    "hasOverview": false,
-    "hasAnatomy": false,
+    "hasOverview": true,
+    "hasAnatomy": true,
     "hasStorybook": true,
     "hasPlayground": false,
     "hasImplementation": true,
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": ["sbbPopoverTrigger"],
-    "similar":false,
+    "isChildOf": false,
+    "similar":["sbbCompactPaginator"],
     "status": {
         "design": "ok",
         "code": "ok",
-        "documentation": "in progress",
-        "context": { 
-            "public": true,
-            "business": "hidden"
-        }
+        "documentation": "ok"
     }
 }

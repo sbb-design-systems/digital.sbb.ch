@@ -1,4 +1,4 @@
-<sbb-teaser style="--sbb-teaser-align-items: stretch" title-content="{{ teaser.data.head }}" title-level="2" alignment="below" aria-label="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
+<sbb-teaser style="--sbb-teaser-align-items: stretch" title-content="{{ teaser.data.head }}" title-level="2" alignment="below" accessibility-label="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
   <figure slot="image" class="sbb-figure" style="width: 100%;">
     <img src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
     {% if teaser.data.chip|length %}

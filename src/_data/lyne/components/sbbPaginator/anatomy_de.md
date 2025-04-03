@@ -2,7 +2,7 @@
 {%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/lyne/anatomy/anatomy_popover',
+  url: '/assets/images/lyne/anatomy/anatomy_pagination',
   alt: 'Anatomie der Komponente',
   title: 'Anatomie der Komponente'
 }) }}
@@ -11,9 +11,11 @@
 
 |Nummer|Typ|Beschreibung|Optional|Hinweis|
 |------|---|------------|--------|-------|
-|1|Slot|Beliebiger Inhalt erlaubt|Nein||
-|2|Komponente|`sbb-secondary-button`|Nein||
-|3|Komponente|`sbb-popover-trigger` oder beliebiger Inhalt|Nein|Wenn kein Icon oder anderer Inhalt angegeben wird, wird das Info-Icon angezeigt.|
+|1|Komponente|Zurück- und Vorwärts-Buttons|Nein||
+|2a|Komponente|Seite, aktiv|Nein||
+|2b|Komponente|Seite|Nein||
+|3|Label||Ja||
+|4|Komponente|`sbb-select`|Ja||
 
 
 {.sbb-table}
