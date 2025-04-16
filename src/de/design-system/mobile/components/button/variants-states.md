@@ -82,5 +82,5 @@ Die Komponente hat folgende Zustände: {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=2%3A429'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=7-12&t=OQ7s4wE6eWI2fLGh-1'
 }) }}

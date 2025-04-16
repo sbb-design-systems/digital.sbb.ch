@@ -43,5 +43,5 @@ The component has the following variants
 
 ## Specification
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=29%3A6608'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=282-933&t=OQ7s4wE6eWI2fLGh-1'
 }) }}

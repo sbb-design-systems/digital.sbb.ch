@@ -1,11 +1,11 @@
 ---
-tags: modal-view-mobile_en
+tags: bottom-sheet-mobile_en
 title: Overview
 icon: overview
 order: 1
 permalink: false  
-key: modal-view-mobile-overview_en
-parent: modal-view-mobile_en
+key: bottom-sheet-mobile-overview_en
+parent: bottom-sheet-mobile_en
 ---
 
 ## What does the component do?

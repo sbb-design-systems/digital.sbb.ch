@@ -1,11 +1,11 @@
 ---
-tags: modal-view-mobile_de
+tags: bottom-sheet-mobile_de
 title: Übersicht
 icon: overview
 order: 1
 permalink: false  
-key: modal-view-mobile-overview_de
-parent: modal-view-mobile_de
+key: bottom-sheet-mobile-overview_de
+parent: bottom-sheet-mobile_de
 ---
 
 ## Was macht die Komponente?

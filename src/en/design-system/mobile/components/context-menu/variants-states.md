@@ -23,5 +23,5 @@ The component has the following states: {.lead}
 
 ## Specification
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=36%3A10433'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=344-13800&t=OQ7s4wE6eWI2fLGh-1'
 }) }}

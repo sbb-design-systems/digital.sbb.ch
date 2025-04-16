@@ -28,5 +28,5 @@ parent: loading-indicator-mobile_de
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=2%3A206'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=33-538&t=OQ7s4wE6eWI2fLGh-1'
 }) }}

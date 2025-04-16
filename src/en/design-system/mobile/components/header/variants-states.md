@@ -103,5 +103,5 @@ parent: header-mobile_en
 
 ## Specification
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=10%3A2260'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=42-4484&t=OQ7s4wE6eWI2fLGh-1'
 }) }}

@@ -1,11 +1,11 @@
 ---
-tags: modal-view-mobile_en
+tags: bottom-sheet-mobile_en
 title: Variants
 icon: variantsstates
 order: 2
 permalink: false  
-key: modal-view-mobile-variantsstates_en
-parent: modal-view-mobile_en
+key: bottom-sheet-mobile-variantsstates_en
+parent: bottom-sheet-mobile_en
 ---
 
 ## Variants
@@ -42,5 +42,5 @@ parent: modal-view-mobile_en
 
 ## Specification
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=25%3A8074'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=339-8447&t=N7M8b5Y9aIJc4LzY-1'
 }) }}

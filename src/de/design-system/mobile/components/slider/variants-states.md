@@ -20,3 +20,8 @@ DIe Komponente hat folgende Zustände: {.lead}
   alt: 'Darstellung des Sliders',
   title: 'Slider'
 }) }}
+
+## Spezifikationen
+{{ specificationLinks({
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=347-19701&t=N7M8b5Y9aIJc4LzY-1'
+}) }}

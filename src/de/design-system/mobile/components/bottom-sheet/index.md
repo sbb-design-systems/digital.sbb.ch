@@ -2,13 +2,13 @@
 layout: component.njk
 tags: 
     - mobile_components_de
-key: modal-view-mobile_de
-title: Modal view
-alternativetitle: Modal view
+key: bottom-sheet-mobile_de
+title: Bottom-Sheet
+alternativetitle: Bottom-Sheet
 parent: mobile_components_de
 image: mobile/overview/modal-view.webp
 keywords: dialog, modal, popup, lightbox
-order: 110
+order: 05
 ---
 
 

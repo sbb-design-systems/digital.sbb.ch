@@ -19,5 +19,5 @@ parent: toast-mobile_de
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=36%3A16488'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=253-1600&t=N7M8b5Y9aIJc4LzY-1'
 }) }}

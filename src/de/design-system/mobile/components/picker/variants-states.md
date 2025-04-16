@@ -49,5 +49,5 @@ parent: picker-mobile_de
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?type=design&node-id=49%3A6884&mode=design&t=CcC1ZK2tk4eldLPC-1'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=345-16710&t=N7M8b5Y9aIJc4LzY-1'
 }) }}

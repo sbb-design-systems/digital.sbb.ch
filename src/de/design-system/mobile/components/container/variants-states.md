@@ -38,5 +38,5 @@ Die Komponente hat folgende Varianten: {.lead}
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?type=design&node-id=6137%3A46&mode=design&t=g20X3jZNv7HkqZou-1'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=141-2024&t=OQ7s4wE6eWI2fLGh-1'
 }) }}

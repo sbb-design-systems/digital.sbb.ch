@@ -18,5 +18,5 @@ parent: tabbar-mobile_de
 
 ## Spezifikationen
 {{ specificationLinks({
-  figma: 'https://www.figma.com/file/WOtLIam1xwrqcgnAITsEhV/Design-System-Mobile?node-id=74%3A9257'
+  figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=43-4996&t=N7M8b5Y9aIJc4LzY-1'
 }) }}
