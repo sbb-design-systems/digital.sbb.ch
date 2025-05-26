@@ -1,7 +1,7 @@
 ---
 tags: buttonmap_de
 label: Figma Library
-url: https://www.figma.com/file/x3oTjSN37QqQP0CVdXVpyE/Map-Components-(ROKAS)?node-id=0%3A1&t=Ri52i0Lbeii2Q02P-1
+url: https://www.figma.com/design/TgaWiZ0UY3DpqOcElb7BqE/Design-System-Maps-2.0?node-id=26199-45506&t=ds4MRV05Vp616Of3-1
 icon: figma-small
 external: true
 variant: secondary
