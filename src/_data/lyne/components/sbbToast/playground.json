@@ -1,6 +1,6 @@
 {
     "tag":"sbb-toast",
-    "content":"<sbb-button onclick='document.querySelector(\".demo-item\").open()'>Open toast</sbb-button><sbb-toast class='demo-item' position='bottom-center' timeout='6000' politeness='polite'>Lorem ipsum dolor <sbb-transparent-button class='demo-action' slot='test' icon-name='cross-small' sbb-toast-close></sbb-transparent-button><sbb-icon class='demo-icon' slot='test' name='circle-tick-small'></sbb-icon></sbb-toast>",
+    "content":"<sbb-button onclick='document.querySelector(\".demo-item\").open()'>Open toast</sbb-button><sbb-toast class='demo-item' position='bottom-center' timeout='6000' politeness='polite'>Lorem ipsum dolor <sbb-link class='demo-action' slot='test' sbb-toast-close href='#'>Link action</sbb-link><sbb-icon class='demo-icon' slot='test' name='circle-tick-small'></sbb-icon></sbb-toast>",
     "configuration" : [
         {
             "attribute":"position",
@@ -45,6 +45,21 @@
             }, 
             {
                 "value":"icon",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"readOnly",
+            "label":"readonly",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
                 "label":"true"
             }]
         },

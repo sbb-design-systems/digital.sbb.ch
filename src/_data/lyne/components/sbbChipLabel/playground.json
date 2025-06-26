@@ -29,7 +29,7 @@
                 "attribute":"size",
                 "label":"size",
                 "target":"demo-item",
-                "default":"xxs",
+                "default":"xs",
                 "mode":"property",
                 "options" : [{
                     "value":"xxs",

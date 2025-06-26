@@ -1,6 +1,6 @@
 {
     "tag":"sbb-teaser",
-    "content":"<sbb-teaser class='demo-item' accessibility-label='Aria Label' title-content='This is a title' href='#' alignment='below'><figure slot='image' class='sbb-figure'><img src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='alt'></figure>This is a paragraph</sbb-teaser>",
+    "content":"<sbb-teaser class='demo-item' accessibility-label='Aria Label' href='#' alignment='below'><figure slot='image' class='sbb-figure'><img src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='alt'></figure><sbb-title level='2'>This is a title</sbb-title>This is a paragraph</sbb-teaser>",
     "configuration" : [
         {
             "attribute":"alignment",

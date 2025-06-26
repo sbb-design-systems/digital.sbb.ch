@@ -1,12 +1,12 @@
 {
     "tag":"sbb-loading-indicator",
-    "content":"<sbb-loading-indicator class='demo-item' variant='window' size='small' color='default'></sbb-loading-indicator>",
+    "content":"<sbb-loading-indicator class='demo-item' variant='window' size='s' color='default'></sbb-loading-indicator>",
     "configuration" : [
         {
             "attribute":"size",
             "label":"size",
             "target":"demo-item",
-            "default":"l",
+            "default":"s",
             "mode":"property",
             "options" : [{
                 "value":"s",

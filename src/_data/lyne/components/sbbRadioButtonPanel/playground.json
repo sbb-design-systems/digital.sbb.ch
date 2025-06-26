@@ -1,6 +1,6 @@
 {
     "tag":"sbb-radio-button-panel",
-    "content":"<sbb-radio-button-panel style='width:75%' value='Value' name='name' color='white' size='m' class='demo-item'>Label<span slot='subtext' class='subtext' >Subtext</span><span slot='suffix' class='suffix' style='margin-inline-start: auto;'><span style='display:flex;align-items:center;'><sbb-icon name='diamond-small' style='margin-inline: var(--sbb-spacing-fixed-2x);'></sbb-icon><span class='sbb-text-m sbb-text--bold'>CHF 40.00</span></span></span><sbb-card-badge class='badge' slot='no'>%</sbb-card-badge></sbb-radio-button-panel>",
+    "content":"<sbb-radio-button-panel style='width:75%' value='Value' name='name' color='white' size='m' class='demo-item'>Label<span slot='subtext' class='subtext' >Subtext</span><span slot='suffix' class='suffix' style='margin-inline-start: auto;'><span style='display:flex;align-items:center;'><sbb-icon name='diamond-small' style='margin-inline: var(--sbb-spacing-fixed-2x);'></sbb-icon><span class='sbb-text-m sbb-text--bold'>CHF 40.00</span></span></span><sbb-card-badge class='badge' slot='badge'>%</sbb-card-badge></sbb-radio-button-panel>",
     "configuration" : [
         {
             "attribute":"color",
