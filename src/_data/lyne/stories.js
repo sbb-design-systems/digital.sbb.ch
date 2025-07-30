@@ -1,38 +1,18 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
-let url = "https://lyne-storybook.app.sbb.ch/index.json";
+module.exports = async () => {
+  const result = await EleventyFetch(
+    "https://lyne-storybook.app.sbb.ch/index.json",
+    { duration: "1s", type: "json" }
+  );
 
-const loadjson = async function() {
-  return EleventyFetch(url, {
-      duration: "1s",
-      type: "json"
-    });
-}
-const storybookstories = async function() {
-  const result = await loadjson();
+  const stories = result.entries;
 
-  var stories = result.entries;
+  Object.values(stories).forEach((value) => {
+    const titlesplit = value.title.split("/");
+    value.component = titlesplit[0] === "elements" && value.type !== "docs";
+    value.tag = titlesplit[titlesplit.length - 1];
+  });
 
-  for (const [key, value] of Object.entries(stories)) {
-    let titlesplit = value.title.split("/");
-    if (titlesplit[0]== "elements") {
-      value.component = true;
-    } else {
-      value.component = false
-    }
-    let lastElement = titlesplit[titlesplit.length - 1];
-    value.tag = lastElement;
-
-    if (value.type == "docs") {
-      value.component = false;
-    } else {
-    }
-
-  }
-  return stories;
-}
-
-module.exports = async function() {
-    let finalresult = await storybookstories();
-    return [finalresult];
-  };
+  return [stories];
+};
