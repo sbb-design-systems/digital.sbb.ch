@@ -12,14 +12,11 @@
 |Number|Type|Description|Optional|Info|
 |------|---|------------|--------|-------|
 |1|Component|`sbb-dialog-title`|No||
-|1a|Component|`sbb-secondary-button`|Yes|Back-Button|
-|1b|Component|`sbb-secondary-button`|No||
-|1c|Component|`sbb-secondary-button`|Yes|Close-Action|
-|2|Component|`sbb-title`|No||
-|2a|Slot|Beliebiger Inhalt erlaubt|No||
-|3|Component|`sbb-dialog-actions`|Yes||
-|3a|Component|`sbb-secondary-button`|Yes|Auch Block-Links sind erlaubt|
-|3b|Component|`sbb-button`|Yes|Auch Block-Links sind erlaubt|
+|2|Component|`sbb-dialog-close-button`|Yes|Close-Action|
+|3|Slot|Any content allowed|Yes||
+|4|Component|`sbb-dialog-actions`|Yes||
+|4a|Component|`sbb-secondary-button`|Yes|Block-Links are also allowed|
+|4b|Component|`sbb-button`|Yes|Block-Links are also allowed|
 
 
 {.sbb-table}
