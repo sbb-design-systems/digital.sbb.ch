@@ -219,24 +219,11 @@ module.exports = async function(eleventyConfig) {
 
                 storyObject.documentation.container.styles = styles;
                 } else {
-                storyObject.documentation.container.styles = '';
+                    storyObject.documentation.container.styles = '';
                 }
 
                 if (story && Object.keys(story).includes('args')) {
-                storyObject.element = story.args;
-
-
-
-
-            // const rawElement = story.args;
-            /*
-                if (ignoreArgs.length > 0) {
-                    ignoreArgs.forEach((arg) => {
-                    rawElement.removeAttribute(arg);
-                    });
-                }
-            */
-                //storyObject.elementRaw = rawElement;
+                    storyObject.element = story.args;
                 }
                 stories.push(storyObject);
             }
