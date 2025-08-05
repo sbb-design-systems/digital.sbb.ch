@@ -10,24 +10,26 @@ order: 1
 <p class="lead">Notre objectif ici est de réduire l’utilisation de couleurs à un niveau raisonnable. Le rouge est utilisé pour les principaux éléments de navigation dont la fonction est de permettre à l’utilisateur de s’orienter rapidement et facilement sur la page. Les dégradés sont proscrits.</p>
 <sbb-title level="2">Couleurs</sbb-title>
 {% set colorgroups = [] %}
-{% for color in collections.basecolor_fr | sortByOrder %}
-    {% if color.data.group in colorgroups %}
+{% for colors, color in colors.base | sortColorsByOrder -%} 
+    {% if color.group in colorgroups %}
     {% else %}
-      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+      {% set colorgroups = (colorgroups.push(color.group), colorgroups) %}
     {% endif %}
 {% endfor %}
+
 <div class="colors">   
   {%- for colorgroup in colorgroups -%} 
-    <sbb-title class="no-margin-bottom" level="3">{{colorgroup}}</sbb-title>
+    <sbb-title class="no-margin-bottom" level="3">{{translations[page.lang].colors[colorgroup]}} </sbb-title>
     <div class="color-group">
-        {%- for color in collections.basecolor_fr | sortByOrder -%} 
-          {% if colorgroup == color.data.group %}
-            {% include "../../../../_includes/color.njk" %}
-          {% endif %}
-        {%- endfor -%}
+    {%- for colors, color in colors.base | sortColorsByOrder -%} 
+      {% if colorgroup == color.group %}
+              {% include "../../../../_includes/color-new.njk" %}
+            {% endif %}
+    {%- endfor -%}
     </div>
   {%- endfor -%}
 </div>
+
 <sbb-title level="2">Présentation accessibilisée</sbb-title>
  <script type="module" src="/assets/js/ux-components/ux-components.esm.js"></script>
 <color-contrast-checker language="fr"></color-contrast-checker>

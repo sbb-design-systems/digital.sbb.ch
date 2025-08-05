@@ -10,12 +10,10 @@ order: 2
 <p class="lead">
    Dans quelques cas, le rouge CFF ne peut pas être utilisé comme couleur primaire. Par exemple, la couleur rouge ne peut être utilisée dans les applications liées à la sécurité que pour communiquer des erreurs. Dans ces cas, la couleur primaire (Red, Red125, Red150) peut être remplacée par les couleurs suivantes :
 </p>
-<div class="colors">   
-    <div class="color-group">
-        {%- for color in collections.offbrandcolor_de | sortByOrder -%}
-            {% include "../../../../_includes/color.njk" %}
-        {%- endfor -%}
-    </div>
+<div class="color-group">
+  {%- for colors, color in colors.offbrand | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
 </div>
 <p class="lead">
  Veuillez noter que ce kit de couleurs ne peut être utilisé que dans des cas exceptionnels. Une clarification avec le DSRV UX est nécessaire.

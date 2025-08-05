@@ -1,0 +1,15 @@
+---
+layout: page.njk
+tags: level3
+key: additional-colors_en
+title: Additional colors
+parent: colors_en
+order: 2
+---
+
+<p class="lead">Additional colors may be used with the agreement of Communications. Each use of these colors must be presented to Communications and expressly approved. Additional colors may be used only for very specific areas. Anywhere that the CD colour palette is no longer sufficient for UX reasons. For example for info boxes or similar.</p>
+<div class="color-group">
+  {%- for colors, color in colors.additional | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
+</div>

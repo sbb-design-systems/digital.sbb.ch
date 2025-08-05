@@ -101,6 +101,16 @@ module.exports = async function(eleventyConfig) {
         return sorted;
       });
 
+    eleventyConfig.addFilter("sortColorsByOrder", (obj) => {
+        const sorted = {};
+        Object.keys(obj)
+          .sort((a, b) => {
+            return obj[a].order > obj[b].order ? 1 : -1;
+          })
+          .forEach((name) => (sorted[name] = obj[name]));
+        return sorted;
+      });  
+
     // Custom filter to capitalize each word in a string
     eleventyConfig.addFilter("capitalizeWords", function(value) {
     if (typeof value !== 'string') {

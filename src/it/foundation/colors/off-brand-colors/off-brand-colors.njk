@@ -10,12 +10,10 @@ order: 2
 <p class="lead">
   In alcuni casi, il rosso FFS non può essere utilizzato come colore primario. Per esempio, in applicazioni rilevanti per la sicurezza il colore rosso viene utilizzato per comunicare errori. In questi casi, il colore primario (Rosso, Rosso125, Rosso150) può essere sostituito dai seguenti colori:
 </p>
-<div class="colors">   
-    <div class="color-group">
-        {%- for color in collections.offbrandcolor_it | sortByOrder -%} 
-            {% include "../../../../_includes/color.njk" %}
-        {%- endfor -%}
-    </div>
+<div class="color-group">
+  {%- for colors, color in colors.offbrand | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
 </div>
 <p class="lead">
   Si noti che questo set di colori può essere utilizzato solo in casi eccezionali. È necessario prendere contatto per chiarimenti con gli esperti del Servizio UX.

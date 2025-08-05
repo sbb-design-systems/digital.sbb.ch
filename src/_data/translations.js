@@ -46,6 +46,11 @@ module.exports = {
     dataprivacy: "Data privacy",
     notfoundtitle: "No search results were found.",
     notfoundtext: "Try using different or fewer search terms.",
+    colors: {
+      "red": "Red",
+      "white_gray_black": "White, Grey, Black",
+      "blue": "Blue"
+    },
     communityassets: {
       "addasset": "Add community asset",
       "all": "All",
@@ -284,6 +289,11 @@ module.exports = {
     dataprivacy: "Datenschutz",
     notfoundtitle: "Es wurden keine Suchresultate gefunden.",
     notfoundtext: "Probiere es mit anderen oder weniger Suchbegriffen.",
+    colors: {
+      "red": "Rot",
+      "white_gray_black": "Weiss, Grau, Schwarz",
+      "blue": "Blau"
+    },
     communityassets: {
       "addasset": "Community-Asset hinzufügen",
       "all": "Alle",
@@ -522,6 +532,11 @@ module.exports = {
     dataprivacy: "Protection des données",
     notfoundtitle: "Aucun résultat de recherche trouvé.",
     notfoundtext: "Essaie d'utiliser des termes de recherche différents ou moins nombreux.",
+    colors: {
+      "red": "Rouge",
+      "white_gray_black": "Blanc, Gris, Noir",
+      "blue": "Bleu"
+    },
     communityassets: {
       "addasset": "Ajouter un Community-Asset",
       "all": "Tout",
@@ -569,6 +584,11 @@ module.exports = {
     dataprivacy: "Protezione dei dati",
     notfoundtitle: "Non sono stati trovati risultati di ricerca.",
     notfoundtext: "Provate a utilizzare termini di ricerca diversi o meno numerosi.",
+    colors: {
+      "red": "Rosso",
+      "white_gray_black": "Bianco, Grigio, Nero",
+      "blue": "Blu"
+    },
     communityassets: {
       "addasset": "Aggiungi un Community-Asset",
       "all": "Tutti",

@@ -10,24 +10,26 @@ order: 1
 <p class="lead">Puntiamo a una riduzione mirata: i colori devono essere utilizzati solo in modo sobrio. Il rosso viene impiegato per gli elementi di navigazione importanti, che consentono all’utente di orientarsi in modo rapido e chiaro all’interno della pagina. Non sono ammesse le sfumature di colori.</p>
 <sbb-title level="2">Colori</sbb-title>
 {% set colorgroups = [] %}
-{% for color in collections.basecolor_it | sortByOrder %}
-    {% if color.data.group in colorgroups %}
+{% for colors, color in colors.base | sortColorsByOrder -%} 
+    {% if color.group in colorgroups %}
     {% else %}
-      {% set colorgroups = (colorgroups.push(color.data.group), colorgroups) %}
+      {% set colorgroups = (colorgroups.push(color.group), colorgroups) %}
     {% endif %}
 {% endfor %}
+
 <div class="colors">   
   {%- for colorgroup in colorgroups -%} 
-    <sbb-title class="no-margin-bottom" level="3">{{colorgroup}}</sbb-title>
+    <sbb-title class="no-margin-bottom" level="3">{{translations[page.lang].colors[colorgroup]}} </sbb-title>
     <div class="color-group">
-        {%- for color in collections.basecolor_it | sortByOrder -%} 
-          {% if colorgroup == color.data.group %}
-            {% include "../../../../_includes/color.njk" %}
-          {% endif %}
-        {%- endfor -%}
+    {%- for colors, color in colors.base | sortColorsByOrder -%} 
+      {% if colorgroup == color.group %}
+              {% include "../../../../_includes/color-new.njk" %}
+            {% endif %}
+    {%- endfor -%}
     </div>
   {%- endfor -%}
 </div>
+
 <sbb-title level="2">Controllare i contrasti</sbb-title>
  <script type="module" src="/assets/js/ux-components/ux-components.esm.js"></script>
 <color-contrast-checker language="it"></color-contrast-checker>

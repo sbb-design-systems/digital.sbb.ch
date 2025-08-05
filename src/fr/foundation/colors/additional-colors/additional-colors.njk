@@ -1,0 +1,15 @@
+---
+layout: page.njk
+tags: level3
+key: additional-colors_fr
+title: Couleurs supplémentaires
+parent: colors_fr
+order: 2
+---
+
+<p class="lead">L’utilisation de couleurs supplémentaires nécessite l’autorisation de la gestion de la marque. Chaque utilisation de ces couleurs doit être soumise à la gestion de la marque et expressément approuvée. Ces couleurs supplémentaires sont réservées à des usages bien précis, à savoir lorsque la gamme de couleurs correspondant au Corporate Design n’est pas suffisante pour garantir l’expérience utilisateur. Exemple: pour un encadré ou un élément similaire.</p>
+<div class="color-group">
+  {%- for colors, color in colors.additional | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
+</div>

@@ -9,12 +9,10 @@ order: 2
 
 <p class="lead">
 In a few cases, SBB red cannot be used as the primary color. For example, the color red may only be used in safety-related applications to communicate errors. In these cases, the primary color (Red, Red125, Red150) may be replaced by the following colors:</p>
-<div class="colors">   
-    <div class="color-group">
-        {%- for color in collections.offbrandcolor_en | sortByOrder -%} 
-            {% include "../../../../_includes/color.njk" %}
-        {%- endfor -%}
-    </div>
+<div class="color-group">
+  {%- for colors, color in colors.offbrand | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
 </div>
 <p class="lead">
   Please note that this color set may only be used in exceptional cases. It requires clarification with the DSRV UX.

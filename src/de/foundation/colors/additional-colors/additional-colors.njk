@@ -1,0 +1,14 @@
+---
+layout: page.njk
+tags: level3
+key: additional-colors_de
+title: Zusätzliche Farben
+parent: colors_de
+order: 2
+---
+<p class="lead">Zusatzfarben dürfen nur mit Einverständnis von KOM verwendet werden. Jeglicher Einsatz dieser Farben muss KOM vorgelegt und ausdrücklich genehmigt werden. Zusatzfarben dürfen nur für ganz bestimmte Bereiche zum Einsatzt kommen. Überall dort, wo die CD Farbpalette aus UX-Gründen nicht mehr ausreichend ist. Zum Beispiel für Infoboxen oder Ähnliches.</p>
+<div class="color-group">
+  {%- for colors, color in colors.additional | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
+</div>

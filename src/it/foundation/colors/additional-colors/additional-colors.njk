@@ -1,0 +1,15 @@
+---
+layout: page.njk
+tags: level3
+key: additional-colors_it
+title: Colori addizionali
+parent: colors_it
+order: 2
+---
+
+<p class="lead">È consentito usare colori addizionali solo previo accordo con KOM. Non è possibile utilizzare questi colori senza aver prima fatto richiesta a KOM e aver ricevuto la sua espressa autorizzazione. È possibile usare colori addizionali solo per elementi grafici ben precisi, in particolare ogni volta che la gamma di colori CD non è sufficiente per motivi di UX (ad es. per riquadri informativi o simili).</p>
+<div class="color-group">
+  {%- for colors, color in colors.additional | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
+</div>

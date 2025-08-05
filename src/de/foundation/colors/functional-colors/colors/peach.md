@@ -1,9 +1,0 @@
----
-tags: functionalcolors_de
-head: Peach
-group: red
-hex: "#FCBB00"
-rgb: "R: 252 G: 187 B: 0"
-order: 7
-permalink: false
----
