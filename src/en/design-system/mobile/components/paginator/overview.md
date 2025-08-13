@@ -1,11 +1,11 @@
 ---
-tags: pagination-mobile_en
+tags: paginator-mobile_en
 title: Overview
 icon: overview
 order: 1
 permalink: false  
-key: pagination-mobile-overview_en
-parent: pagination-mobile_en
+key: paginator-mobile-overview_en
+parent: paginator-mobile_en
 ---
 
 ## What does the component do? 

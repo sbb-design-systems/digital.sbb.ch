@@ -1,11 +1,11 @@
 ---
-tags: pagination-mobile_de
+tags: paginator-mobile_de
 title: Übersicht
 icon: overview
 order: 1
 permalink: false  
-key: pagination-mobile-overview_de
-parent: pagination-mobile_de
+key: paginator-mobile-overview_de
+parent: paginator-mobile_de
 ---
 
 ## Was macht die Komponente?

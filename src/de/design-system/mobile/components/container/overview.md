@@ -16,5 +16,5 @@ parent: container-mobile_de
 
 ## Regeln
 * Die Content-Box kann an einer beliebigen Stelle verwendet werden. {.lead}
-* Header-Box und Footer-Box liegen fixiert positioniert vor den anderen Inhalten. {.lead}
+* Die Footer-Box liegt fixiert positioniert vor den anderen Inhalten. {.lead}
 * Die Footer-Box schliesst oberhalb an die <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/mobile/components/tabbar/">Tabbar</sbb-link> an. {.lead}

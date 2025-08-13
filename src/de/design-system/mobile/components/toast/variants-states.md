@@ -9,8 +9,11 @@ parent: toast-mobile_de
 ---
 
 ## Varianten
+Die Komponente hat folgende Varianten:
 
-### Standard
+* Aktion: Optional
+
+### Default
 {{ imageWithMode({
   url: '/assets/images/mobile/toast',
   alt: 'Dartellung einer Toast-Meldung',

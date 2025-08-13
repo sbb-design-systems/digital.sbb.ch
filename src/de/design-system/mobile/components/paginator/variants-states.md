@@ -1,11 +1,11 @@
 ---
-tags: pagination-mobile_de
+tags: paginator-mobile_de
 title: Varianten
 icon: variantsstates
 order: 2
 permalink: false  
-key: pagination-mobile-variantsstates_de
-parent: pagination-mobile_de
+key: paginator-mobile-variantsstates_de
+parent: paginator-mobile_de
 ---
 
 ## Varianten
@@ -14,14 +14,14 @@ parent: pagination-mobile_de
 
 ### Default
 {{ imageWithMode({
-  url: '/assets/images/mobile/pagination-default',
+  url: '/assets/images/mobile/paginator-default',
   alt: 'Dartellung einer Paginierung',
   title: 'Paginierung'
 }) }}
 
 ### Floating
 {{ imageWithMode({
-  url: '/assets/images/mobile/pagination-floating',
+  url: '/assets/images/mobile/paginator-floating',
   alt: 'Dartellung einer Paginierung, floating',
   title: 'Paginierung, floating'
 }) }}

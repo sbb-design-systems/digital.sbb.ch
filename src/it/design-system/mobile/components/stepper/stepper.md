@@ -2,12 +2,12 @@
 layout: component.njk
 tags: 
     - mobile_components_it
-key: pagination-mobile_it
-title: Pagination
+key: stepper-mobile_it
+title: Stepper
 parent: mobile_components_it
-image: mobile/overview/pagination.webp
-keywords: pagination
-order: 120
+image: mobile/overview/stepper.webp
+keywords: stepper, process
+order: 176
 availablelanguages: 
     - de
     - en

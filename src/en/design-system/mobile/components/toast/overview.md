@@ -8,15 +8,14 @@ key: toast-mobile-overview_en
 parent: toast-mobile_en
 ---
 
-## What does the component do? 
-*   It displays the status messages of the system. {.lead}
+## What does the component do?
+* Display of status messages of the system. {.lead}
 
-## When should the component be used? 
-*   To directly display messages where no interaction is required from the user. {.lead}
+## When should the component be used?
+* For immediate display of messages. {.lead}
 
-## Rules 
-*   The toast only contains the text, no actions, links etc. {.lead}
-*   The text can be a maximum of two lines. {.lead}
-*   The toast is shown centred on the bottom screen edge. {.lead}
-*   The toast then disappears automatically again. {.lead}
-*   The display duration depends on the length of the text. {.lead}
+## Rules
+* The text must not exceed two lines. {.lead}
+* The toast is centred at the bottom of the screen. {.lead}
+* The toast automatically disappears. {.lead}
+* Display time depends on the length of the text. {.lead}

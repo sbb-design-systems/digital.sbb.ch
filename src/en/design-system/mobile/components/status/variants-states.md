@@ -36,7 +36,7 @@ The component has the following variants: {.lead}
   title: 'Status, without Text'
 }) }}
 
-## Spezifikationen
+## Specification
 {{ specificationLinks({
   figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?node-id=321-7778&t=N7M8b5Y9aIJc4LzY-1'
 }) }}
