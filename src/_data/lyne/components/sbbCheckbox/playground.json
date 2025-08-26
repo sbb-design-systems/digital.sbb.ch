@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-checkbox",
+    "tag":"checkbox",
     "content":"<sbb-checkbox class='demo-item' value='single-checkbox' icon-name='glass-cocktail-small' icon-placement='start' size='s'>Example</sbb-checkbox>",
     "configuration" : [
         {

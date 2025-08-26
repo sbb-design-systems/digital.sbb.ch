@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-header-link",
+    "tag":"header-link",
     "content":"<sbb-header-link class='demo-item' expand-from='zero' icon-name='hamburger-menu-small' href='#'>Menu</sbb-icon></sbb-header-link>",
     "configuration" : [
         {

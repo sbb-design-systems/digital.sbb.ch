@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-menu-link",
-    "patternId":"sbbMenuLink",
+    "tag":"menu-link",
+    "lyneId":"sbbMenuLink",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"menu",
     "order": 660,
     "category": "Navigation",
+    "categories":["Navigation"],
     "keywords":["Context Menu", "Menu", "Link", "Button"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

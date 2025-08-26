@@ -1,5 +1,5 @@
 {
-        "tag":"sbb-secondary-button-static",
+        "tag":"secondary-button-static",
         "content":"<sbb-secondary-button-static class='demo-item' icon-name='glass-cocktail-small' size='m'><span id='value'>Label</span></sbb-secondary-button-static>",
         "configuration" : [
             {

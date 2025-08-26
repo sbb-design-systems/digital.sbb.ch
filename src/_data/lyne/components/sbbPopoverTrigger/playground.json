@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-popover-trigger",
+    "tag":"popover-trigger",
     "content":"<sbb-popover-trigger aria-describedby='tooltip-content' class='demo-item' icon-name='circle-information-small'></sbb-popover-trigger><sbb-popover id='tooltip' trigger='demo-item' hide-close-button><span id='tooltip-content'>Tooltip content.</span></sbb-popover>",
     "configuration" : [
         {

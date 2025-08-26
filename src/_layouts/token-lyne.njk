@@ -5,13 +5,11 @@ layout: base.njk
 {% set tabkey = key%}
 
 {% if availablelanguages.length %}
-  {% include "../_includes/missing-languages.njk" %}
+  {% include "../_includes/fallback-languages.njk" %}
+  {% include "../_includes/fallback-content.njk" %}
   {% set tabkey = key.slice(0, -2)+"de" %}
-{% endif %}
-
-{% if availablelanguages.length %}
 {% else %}
-{% include "../_includes/title.njk" %}
+  {% include "../_includes/title.njk" %}
+  
 {% endif %}
-
 {{ content | safe }}

@@ -1,0 +1,20 @@
+{
+    "tag":"brand",
+    "system":"lean",
+    "list":"basics",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "categories":["Basics", "Brand"],
+    "keywords":["Brand", "Logo", "Identity"],
+    "hasTabs": false,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

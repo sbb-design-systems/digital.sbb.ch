@@ -1,0 +1,10 @@
+{% if pattern.config.hasImplementation == true %}
+    {% set implementation = patterns[pattern.config.lyneId].implementation %}
+    <sbb-tab-label level="2">
+        <sbb-icon name="{{tabs[3].icon}}" slot="icon"></sbb-icon>
+        Implementation
+    </sbb-tab-label>
+    <sbb-tab>
+    {{ implementation | absolutelinks | renderUsingMarkdown | safe }}
+    </sbb-tab>
+{% endif %}

@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-block-link-button",
+    "tag":"block-link-button",
     "content":"<sbb-block-link-button class='demo-item' size='s' icon-placement='start' href='#'' type='button' name='Button name' icon-name='glass-cocktail-small'>I am a link</sbb-block-link-button>",
     "configuration" : [
         {

@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-menu-action",
+    "tag":"menu-action",
     "content":"<div style='background-color: var(--sbb-color-black-default); width: 320px; padding: 12px 0; border-radius: 8px;'><sbb-menu-action class='demo-item' amount='99' icon-name='shopping-cart-small' type='button' value='Value'>Warenkorb</sbb-menu-action><sbb-menu-action icon-name='gears-small' type='button' value='Value'>Einstellungen</sbb-menu-action><sbb-menu-action icon-name='user-small' type='button' value='Value'>Konto</sbb-menu-action></div>",
     "configuration" : [
         {

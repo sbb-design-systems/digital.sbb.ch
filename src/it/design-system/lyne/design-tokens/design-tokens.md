@@ -1,7 +1,8 @@
 ---
-layout: overview-lyne.njk
+layout: overview.njk
 tags: level3
 key: basics-lyne_it
+system: lyne
 title: Design Tokens
 parent: lyne_it
 order: 30

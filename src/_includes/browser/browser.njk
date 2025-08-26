@@ -1,21 +1,47 @@
+{% if system == "mobile" %}
+  {% set sys = mobile %}
+{% elif system == "maps" %}
+  {% set sys = maps %}
+{% elif system == "lyne" %}
+  {% set sys = lyne %}
+  {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}   
+{% elif system == "lean" %}
+  {% set sys = lean %}
+{% endif %}
+
+
+{% set language = page.lang %}
+{% set layout = page.layout %}
+
+{% set patterns = sys.components %}
+{% set pattern = sys.components[component] %}
+{% set componentTranslations = translations[language][system] %}
+{% set tabs = sys.tabs.tabs %}
+{% set categories = sys.categories %}
+{% set storybookStories = sys.stories[0] %}
+
+{% set component = page.component %}
+{% set pattern = patterns[component] %}
+
+
 <div id="componentbrowser" class="component-browser sidebar-browser">
     <div class="component-search">
-        <sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
-            <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
-            <label>{{ translations[page.lang].searchinput }}</label>
-            <input id="search-form-field" class="search" placeholder="{{ translations[page.lang].searchinput }}" value="">
-        </sbb-form-field>
+        {% include "./partial-search-field.njk" %}
+        
+        {% include "../browser/partial-tag-group.njk" %}
     </div>
+
     <ul class="component-list list">
-        <li class="components-title"><sbb-chip-label color="granite" size="xs">Basics</sbb-chip-label></li>
-            {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}
+
+        {% if system == "lyne" %}
             {%- for entry in basicPages %}
-                {% include "./browser-item-component.njk" %}
+                {% include "./browser-item-token-lyne.njk" %}
             {%- endfor -%}
-        <li class="components-title"><sbb-chip-label color="granite" size="xs">Components</sbb-chip-label></li>
-            {% set componentsPages = collections[dscomponents] | include("data.parent", dscomponents) | sortByOrder %}
-            {%- for entry in componentsPages %}
-                {% include "./browser-item-component.njk" %}
-            {%- endfor -%}
+        {% endif %}
+
+        {% for component, entry in patterns %}
+            {% include "./browser-item-component-lyne.njk" %}
+        {% endfor %}
     </ul>
+    {% include "../icons/not-found.njk" %}
 </div>

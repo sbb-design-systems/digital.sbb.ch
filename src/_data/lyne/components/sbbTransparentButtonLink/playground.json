@@ -1,5 +1,5 @@
 {
-        "tag":"sbb-transparent-button-link",
+        "tag":"transparent-button-link",
         "content":"<sbb-transparent-button-link class='demo-item' icon-name='glass-cocktail-small' size='m'><span id='value'>Label</span></sbb-transparent-button-link>",
         "configuration" : [
             {

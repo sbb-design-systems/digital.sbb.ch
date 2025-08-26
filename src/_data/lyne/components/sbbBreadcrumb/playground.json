@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-breadcrumb",
+    "tag":"breadcrumb",
     "content":"<sbb-breadcrumb class='demo-item' icon-name='glass-cocktail-small' href='#'>Breadcrumb Label</sbb-breadcrumb>",
     "configuration" : [
         {

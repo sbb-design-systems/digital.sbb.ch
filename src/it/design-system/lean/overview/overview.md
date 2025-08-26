@@ -4,8 +4,9 @@ tags:
     - level3
     - dshome
 key: overview-lean_it
+system: lean
 title: Introduzione
-alternativetitle: Design System Lean
+alternativetitle: Lean
 parent: lean_it
 order: 1
 basics: true

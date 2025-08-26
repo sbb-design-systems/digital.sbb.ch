@@ -1,0 +1,22 @@
+{
+    "tag":"autocompletion",
+    "system":"lean",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "categories":["Component", ""],
+    "keywords":["autocomplete", "combobox", "autosuggest", "typeahead", "dropdown", "listbox"],
+    "hasTabs": true, 
+    "hasOverview": true,
+    "hasVariants": true,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

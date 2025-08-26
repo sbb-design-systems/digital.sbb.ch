@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-tab-label",
+    "tag":"tab-label",
     "content":"<sbb-tab-label value='label'><sbb-icon class='icon' slot='icon' name='glass-cocktail-small'></sbb-icon>label<span class='amount' slot='amount'>999</span></sbb-tab-label>",
     "configuration" : [
         {

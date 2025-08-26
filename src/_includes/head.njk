@@ -9,12 +9,6 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-{% if (layout == "component-lyne.njk") %}
-    <title>{{lyne.components[component].config.tag.slice(4) | capitalizeWords}} – digital.sbb.ch</title>
-{% else %}
-    <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
-{% endif %}
-
 {% if env.environment == "production" %}
 <script src="https://cdn.cookielaw.org/consent/c87fd437-3de0-439c-b5cf-16054903c772/OtAutoBlock.js"></script>
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" data-domain-script="c87fd437-3de0-439c-b5cf-16054903c772"></script>
@@ -35,7 +29,7 @@
 
 <link rel="modulepreload" href="/assets/js/lyne-bundle.js">
 
-{% if (layout == "community-assets.njk") or (layout == "assets.njk") or (layout == "overview.njk") or (layout == "overview-lyne.njk") or (layout == "component.njk") or (layout == "component-lyne.njk") or (layout == "token-lyne.njk") %}
+{% if (layout == "pattern-library.njk") or (layout == "community-assets.njk") or (layout == "assets.njk") or (layout == "overview.njk") or (layout == "component.njk") or (layout == "token-lyne.njk") %}
 <script src="/assets/js/listjs/list.min.js"></script>
 {% endif %}
 

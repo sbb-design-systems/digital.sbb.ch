@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-alert",
-    "patternId":"sbbAlert",
+    "tag":"alert",
+    "lyneId":"sbbAlert",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"alert",
     "order": 30,
     "category": "Indicator",
+    "categories":["Indicator"],
     "keywords":["Alert", "Alert-Group", "Notification", "Feedback", "Message", "Banner", "Callout"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

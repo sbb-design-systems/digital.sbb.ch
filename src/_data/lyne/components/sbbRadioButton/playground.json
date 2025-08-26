@@ -1,7 +1,7 @@
 
 
 {
-    "tag":"sbb-radio-button",
+    "tag":"radio-button",
     "content":"<sbb-radio-button class='demo-item' value='single-checkbox' icon-name='glass-cocktail-small' icon-placement='start' size='s'>Example</sbb-radio-button>",
     "configuration" : [
         {

@@ -1,5 +1,5 @@
 {
-        "tag":"sbb-accent-button-static",
+        "tag":"accent-button-static",
         "content":"<sbb-accent-button-static class='demo-item' icon-name='glass-cocktail-small' size='m'><span id='value'>Label</span></sbb-accent-button-static>",
         "configuration" : [
             {

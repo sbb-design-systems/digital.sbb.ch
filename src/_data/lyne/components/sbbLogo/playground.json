@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-logo",
+    "tag":"logo",
     "content":"<div style='border: dashed 1px var(--sbb-color-platinum-default); max-width: 300px;'><sbb-logo class='demo-item' protective-room='ideal'></sbb-logo></div>",
     "configuration" : [
         {

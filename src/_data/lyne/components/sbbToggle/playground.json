@@ -1,6 +1,6 @@
 
 {
-    "tag":"sbb-toggle",
+    "tag":"toggle",
     "content":"<sbb-toggle class='demo-item' size='m' value='value-1'><sbb-toggle-option value='value-1'>Bern, Bahnhof</sbb-toggle-option><sbb-toggle-option value='value-2'>Zürich</sbb-toggle-option></sbb-toggle>",
     "configuration" : [
         {

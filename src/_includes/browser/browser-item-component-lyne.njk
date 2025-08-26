@@ -1,25 +1,22 @@
-{% set componentsPages = lyne.components %}
-{% set categories = lyne.categories%}
 
-
-
-{% for category in categories %}
-    <li class="components-title"><sbb-chip-label color="granite" size="xs">{{category}}</sbb-chip-label></li>
-    {% for component, entry in componentsPages | sortLyneComponentsByOrder %}
-        {% set componentData = entry.config %}
-        {% if (category|length) and (category == componentData.category) and (componentData.showInFirstLevel == true) %}
-            {% set getSegementsOfPageUrl = page.url.split('/') %}
-            <li data-keywords="{{ entry.config.category }}, {{ entry.config.keywords }}">
-                <sbb-card size="l" color="white">
-                    <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag.slice(4) %}id="active-card"{% endif %} href="{{page.lang}}/design-system/lyne/components/{{entry.config.tag.slice(4)}}" {% if getSegementsOfPageUrl[5] == entry.config.tag.slice(4) %}active{% endif %}>More Info</sbb-card-link>
-                    <div class="card-content-component">
-                        <sbb-title level="5">{{ entry.config.tag.slice(4) | capitalizeWords}}</sbb-title>
-                        {% if components == true %}
-                            {% include "./browser-item-status.njk" %}
-                        {% endif %}
+    {% if entry.config.showInFirstLevel == true %}
+        {% set getSegementsOfPageUrl = page.url.split('/') %}
+        <li data-keywords="{{ entry.config.category }}, {{ entry.config.keywords }}" data-categories="{{ entry.config.categories }}">
+            <sbb-card size="l" color="white">
+                <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag %}id="active-card"{% endif %} href="{{page.lang}}/design-system/{{entry.config.system}}/{{entry.config.list}}/{{entry.config.tag}}" {% if getSegementsOfPageUrl[5] == entry.config.tag %}active{% endif %}>More Info</sbb-card-link>
+                <div class="card-content-component">
+                    <div class="title-chips">
+                        <sbb-title level="5">{{ entry.config.tag | capitalizeWords}}</sbb-title>
+                        <div class="chips">
+                            {% for chip in entry.config.categories %}
+                                <sbb-chip-label color="milk">{{chip}}</sbb-chip-label>
+                            {% endfor %}
+                        </div>
                     </div>
-                </sbb-card>
-            </li>
-        {% endif %}
-    {% endfor %}
-{% endfor %}
+                    {% if components == true %}
+                        {% include "./browser-item-status.njk" %}
+                    {% endif %}
+                </div>
+            </sbb-card>
+        </li>
+    {% endif %}

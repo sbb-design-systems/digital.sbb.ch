@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-checkbox-group",
+    "tag":"checkbox-group",
     "content":"<sbb-checkbox-group class='demo-item' value='checkbox-1' orientation='vertical' size='s'><sbb-checkbox class='checkbox' value='checkbox-1' icon-name='unicorn-small' icon-placement='start'>Label 1</sbb-checkbox><sbb-checkbox class='checkbox' value='checkbox-2' icon-name='dog-small' icon-placement='start'>Label 2</sbb-checkbox><sbb-checkbox class='checkbox' value='checkbox-3' icon-name='pizza-slice-small' icon-placement='start'>Label 3</sbb-checkbox></sbb-checkbox-group>",
     "configuration" : [
         {

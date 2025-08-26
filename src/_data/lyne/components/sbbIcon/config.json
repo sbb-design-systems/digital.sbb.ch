@@ -1,9 +1,18 @@
 {
-    "tag":"sbb-icon",
-    "patternId":"sbbIcon",
+    "tag":"icon",
+    "lyneId":"sbbIcon",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"icon",
     "order": 540,
     "category": "Visual asset",
+    "categories":["Visual asset"],
     "keywords":["Icon", "Pictogram", "CDN"],
     "hasOverview": true,
     "hasAnatomy": false,

@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-link-static",
-    "patternId":"sbbLinkStatic",
+    "tag":"link-static",
+    "lyneId":"sbbLinkStatic",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"link",
     "order": 610,
     "category": "Action",
+    "categories":["Action"],
     "keywords":["Link", "Hyperlink", "Text"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

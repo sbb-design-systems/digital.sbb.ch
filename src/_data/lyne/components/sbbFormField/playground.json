@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-form-field",
+    "tag":"form-field",
     "content":"<sbb-form-field class='demo-item' id='sbb-form-field' size='m' width='default' error-space='reserve' size='m' width='default'><label>Label</label><input id='sbb-form-field-input' placeholder='Input placeholder'><sbb-form-error class='error' slot='no'>This is a required field.</sbb-form-error><sbb-icon class='prefix' slot='no' name='pie-small'></sbb-icon><sbb-icon class='suffix' slot='no' name='pie-small'></sbb-icon></sbb-form-field>",
     "configuration" : [
         {

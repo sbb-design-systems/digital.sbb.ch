@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-toast",
+    "tag":"toast",
     "content":"<sbb-button onclick='document.querySelector(\".demo-item\").open()'>Open toast</sbb-button><sbb-toast class='demo-item' position='bottom-center' timeout='6000' politeness='polite'>Lorem ipsum dolor <sbb-link class='demo-action' slot='test' sbb-toast-close href='#'>Link action</sbb-link><sbb-icon class='demo-icon' slot='test' name='circle-tick-small'></sbb-icon></sbb-toast>",
     "configuration" : [
         {

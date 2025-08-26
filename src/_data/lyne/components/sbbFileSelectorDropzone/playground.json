@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-file-selector-dropzone",
+    "tag":"file-selector-dropzone",
     "content":" <sbb-file-selector-dropzone class='demo-item' variant='default' title-content='Title' multiple-mode='default' accessibility-label='Select from hard disk'></sbb-file-selector-dropzone>",
     "configuration" : [
         {

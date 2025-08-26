@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-optgroup",
+    "tag":"optgroup",
     "content":"<div style='width: 50%'><sbb-optgroup class='demo-item' label='Option group 1'><sbb-option value='Option 1'>Option 1</sbb-option><sbb-option value='Option 2'>Option 2</sbb-option><sbb-option value='Option 3'>Option 3</sbb-option></sbb-optgroup><sbb-optgroup label='Option group 2'><sbb-option value='Option 1'>Option 1</sbb-option><sbb-option value='Option 2'>Option 2</sbb-option><sbb-option value='Option 3'>Option 3</sbb-option></sbb-optgroup></div>",
     "configuration" : [
         {

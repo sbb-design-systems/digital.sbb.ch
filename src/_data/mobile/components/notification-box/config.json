@@ -1,0 +1,22 @@
+{
+    "tag":"notification-box",
+    "system":"mobile",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "categories":["Component", "Indicator"],
+    "keywords":["notification", "alert", "message", "box"],
+    "hasTabs": true, 
+    "hasOverview": true,
+    "hasVariants": true,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-overlay",
-    "patternId":"sbbOverlay",
+    "tag":"overlay",
+    "lyneId":"sbbOverlay",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"overlay",
     "order": 790,
     "category": "Overlay",
+    "categories":["Overlay"],
     "keywords":["Dialog", "Popup", "Modal", "Window", "Lightbox"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

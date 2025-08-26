@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-dialog-close-button",
-    "patternId":"sbbDialogCloseButton",
+    "tag":"dialog-close-button",
+    "lyneId":"sbbDialogCloseButton",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"dialog",
     "order": 385,
     "category": "Overlay",
+    "categories":["Overlay"],
     "keywords":["Dialog", "Popup", "Modal window", "Lightbox"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

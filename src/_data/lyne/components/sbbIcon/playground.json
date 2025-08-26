@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-tag",
+    "tag":"tag",
     "content":"<sbb-icon style='color: var(--sbb-color-black-default);' class='demo-item' name='glass-cocktail-small'></sbb-icon>",
     "configuration" : [
         {

@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-mini-button-group",
-    "patternId":"sbbMiniButtonGroup",
+    "tag":"mini-button-group",
+    "lyneId":"sbbMiniButtonGroup",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"button",
     "order": 690,
     "category": "Action",
+    "categories":["Action"],
     "keywords":["Mini", "Button", "Button-Group", "Mini-Button-Group", "Toolbar"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

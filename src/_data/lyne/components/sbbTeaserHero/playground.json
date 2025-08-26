@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-teaser-hero",
+    "tag":"teaser-hero",
     "content":"<div style='width:100%;'><sbb-teaser-hero class='demo-item' href='#'>Break out and explore castles and palaces.<span class='link-label' slot='link-content'>Kurzer Link</span><figure slot='image' class='sbb-figure'><sbb-image id='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='Höhenrundweg Gryden Lenk'></sbb-image><sbb-chip-label class='sbb-figure-overlap-start-start chip-label' style='z-index: 1'>Chip label</sbb-chip-label></figure></sbb-teaser-hero></div>",
     "configuration" : [
         {

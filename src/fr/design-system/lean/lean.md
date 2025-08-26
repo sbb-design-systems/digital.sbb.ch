@@ -1,10 +1,10 @@
 ---
 permalink: false
 hideInSitemap: true
+system: lean
 tags: level2
 key: lean_fr
-title: Lean
-alternativetitle: Design System Lean
+title: Lean (Legacy)
 redirect: /fr/design-system/lean/overview/
 parent: designsystem_fr
 order: 60

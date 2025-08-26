@@ -1,0 +1,10 @@
+{% if availablelanguages.length %}
+    {%- for defaultcontent in collections.all | defaultlanguagecontent(page.url) -%}
+        {% include "../_includes/fallback-title.njk" %}
+        {{ defaultcontent.content | safe }}
+    {%- endfor -%}
+{% endif %}
+
+
+
+

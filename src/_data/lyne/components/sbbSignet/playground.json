@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-signet",
+    "tag":"signet",
     "content":"<div style='max-width: 100px;'><sbb-signet class='demo-item' protective-room='ideal'></sbb-signet></div>",
     "configuration" : [
         {

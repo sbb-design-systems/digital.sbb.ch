@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-image",
+    "tag":"image",
     "content":"<div style='width: 66%'><figure class='sbb-figure'><sbb-image class='demo-item sbb-image-16-9' alt='Alt-Text' copyright='' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Billetkontrolle.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image><sbb-chip-label size='xxs' class='chip-label hidden' style='z-index: 1'>Label</sbb-chip-label><figcaption class='demo-figcaption'>Caption</figcaption></figure></div>",
     "configuration" : [
         {

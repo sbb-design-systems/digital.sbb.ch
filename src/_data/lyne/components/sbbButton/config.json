@@ -1,10 +1,20 @@
 {
-    "tag":"sbb-button",
-    "patternId":"sbbButton",
+    "tag":"button",
+    "lyneId":"sbbButton",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
     "patternDirectory":"button",
     "order": 170,
     "category": "Action",
+    "categories":["Component", "Action"],
     "keywords":["Button, Primary"],
+    "hasTabs": true,
     "hasOverview": true,
     "hasAnatomy": true,
     "hasStorybook": true,

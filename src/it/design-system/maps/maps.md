@@ -3,11 +3,10 @@ permalink: false
 hideInSitemap: true
 tags: level2
 key: maps_it
-title: Maps
-alternativetitle: Das SBB Kartenmaterial.
-redirect: /it/design-system/maps/overview/
+title: Maps 
+redirect: /en/design-system/mobile/overview/
 parent: designsystem_it
-order: 5
+order: 45
 availablelanguages: 
     - de
 ---

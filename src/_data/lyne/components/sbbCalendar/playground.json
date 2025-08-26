@@ -1,5 +1,5 @@
 {
-    "tag":"sbb-calendar",
+    "tag":"calendar",
     "content":"<sbb-calendar class='demo-item' orientation='horizontal'></sbb-calendar>",
     "configuration" : [
         {

@@ -1,0 +1,24 @@
+{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
+
+## States 
+The component has the following states: {.lead}
+* Default
+* Placeholder
+* Focused
+* Disabled
+* Mandatory
+* Readonly
+
+## Variants
+### Default
+{{ imageOnGreyBackground({
+  url: '/assets/images/lean/Timefield_default',
+  alt: 'Image of a timefield',
+  title: 'timefield'
+}) }}
+
+## Specifications
+{{ specificationLinks({
+  figma: 'https://www.figma.com/file/nAx0LVMACEr9tefiZRQkxv/Lean?node-id=13%3A8113&t=ZF5MfeXb0Gz2GkUw-1',
+  github: 'https://angular.app.sbb.ch/angular/components/time-input?variant=lean'
+}) }}
