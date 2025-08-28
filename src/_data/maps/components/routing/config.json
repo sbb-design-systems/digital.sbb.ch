@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Components", "Navigation"],
+    "order": 80,
+    "categories":["Navigation"],
     "keywords":["routing", "way", "transfer", "walk"],
     "hasTabs": true, 
     "hasOverview": true,

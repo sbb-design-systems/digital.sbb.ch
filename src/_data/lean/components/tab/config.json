@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 310,
+    "categories":["Collection", "Navigation"],
     "keywords":["tab", "tabs", "tab group", "tabbed interface"],
     "hasTabs": true, 
     "hasOverview": true,

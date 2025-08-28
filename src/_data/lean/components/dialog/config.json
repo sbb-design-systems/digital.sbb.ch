@@ -1,5 +1,5 @@
 {
-    "tag":"daialog",
+    "tag":"dialog",
     "system":"lean",
     "list":"components",
     "language": {
@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order":120,
+    "categories":["Overlay"],
     "keywords":["dialog", "modal", "popup", "lightbox"],
     "hasTabs": true, 
     "hasOverview": true,

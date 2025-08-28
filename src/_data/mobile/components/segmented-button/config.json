@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Navigation"],
+    "order": 200,
+    "categories":["Navigation"],
     "keywords":["segmented", "button", "toggle", "switch", "navigation"],
     "hasTabs": true, 
     "hasOverview": true,

@@ -1,0 +1,5 @@
+{% for component, entry in patterns | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "design-tokens") or (entry.config.list == "basics")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}

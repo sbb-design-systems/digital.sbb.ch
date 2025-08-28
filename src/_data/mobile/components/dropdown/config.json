@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Navigation", "Form"],
+    "order": 80,
+    "categories":["Navigation", "Form"],
     "keywords":["dropdown", "select", "menu", "choice", "option"],
     "hasTabs": true, 
     "hasOverview": true,

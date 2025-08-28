@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 140,
+    "categories":["Form"],
     "keywords":["fieldset", "field", "set", "group"],
     "hasTabs": true, 
     "hasOverview": true,

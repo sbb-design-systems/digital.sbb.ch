@@ -23,10 +23,7 @@ var options = {
 patterncategories.addEventListener('change', function() {
     let selectedFilter = patterncategories.value;
     componentlist.filter(function(item) {
-      const categories = item.values().categories;
-      console.log("Selected Filter: ", selectedFilter);
-      console.log("Categories: ", categories);
-      
+      const categories = item.values().categories;      
       if (selectedFilter.includes("all")) {
         return true;
       } else {
@@ -36,6 +33,17 @@ patterncategories.addEventListener('change', function() {
     }
     );
 });
+
+const uncheckAllTag = () => {
+  document.getElementById('all').checked = false;
+  //alert("done");
+};
+
+const uncheckTags = () => {
+  Array.from(document.querySelectorAll('sbb-tag'))
+    .filter((e) => e.getAttribute('id') !== 'all' && !e.getAttribute('disabled'))
+    .forEach((e) => e.checked = false);
+};
   
 
 resetbutton.addEventListener('click', function() {

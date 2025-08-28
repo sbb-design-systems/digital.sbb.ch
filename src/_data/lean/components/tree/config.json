@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 410,
+    "categories":["Navigation", "Collection"],
     "keywords":["tree", "folder", "folders"],
     "hasTabs": true, 
     "hasOverview": true,

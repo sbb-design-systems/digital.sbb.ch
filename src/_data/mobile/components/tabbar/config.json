@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Navigation"],
+    "order": 240,
+    "categories":["Navigation"],
     "keywords":["tab", "navigation", "menu", "bar", "switch"],
     "hasTabs": true, 
     "hasOverview": true,

@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Components", "Navigation"],
+    "order": 60,
+    "categories":["Content"],
     "keywords":["position", "poi", "point", "marker", "icon"],
     "hasTabs": true, 
     "hasOverview": true,

@@ -8,6 +8,7 @@
         "it": false,
         "en": true
     },
+    "order": 30,
     "categories":["Basics", "Brand"],
     "keywords":["Brand", "Logo", "Identity"],
     "hasTabs": false,

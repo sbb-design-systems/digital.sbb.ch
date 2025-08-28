@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 110,
+    "categories":["Form"],
     "keywords":["calendar", "date", "datepicker", "picker", "time"],
     "hasTabs": true, 
     "hasOverview": true,

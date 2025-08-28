@@ -1,5 +1,5 @@
 {
-    "tag":"us",
+    "tag":"usermenu",
     "system":"lean",
     "list":"components",
     "language": {
@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 430,
+    "categories":["Navigation"],
     "keywords":["usermenu", "user", "menu", "konto", "profil"],
     "hasTabs": true, 
     "hasOverview": true,

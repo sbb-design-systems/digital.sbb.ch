@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Basics", "Navigation"],
+    "order": 40,
+    "categories":["Navigation"],
     "keywords":["level"],
     "hasTabs": true, 
     "hasOverview": true,

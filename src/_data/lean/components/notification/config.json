@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 220,
+    "categories":["Indicator"],
     "keywords":["notification", "alert", "message", "banner", "feedback", "error"],
     "hasTabs": true, 
     "hasOverview": true,

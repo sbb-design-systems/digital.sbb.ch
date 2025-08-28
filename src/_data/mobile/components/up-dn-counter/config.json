@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Form", "Indicator"],
+    "order": 290,
+    "categories":["Form", "Indicator"],
     "keywords":["count", "amount", "up", "down", "increment", "decrement"],
     "hasTabs": true, 
     "hasOverview": true,

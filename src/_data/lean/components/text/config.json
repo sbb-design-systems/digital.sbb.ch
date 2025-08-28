@@ -8,6 +8,7 @@
         "it": false,
         "en": true
     },
+    "order": 340,
     "categories":["Basics"],
     "keywords":["Text", "Typography", "Content"],
     "hasTabs": false,

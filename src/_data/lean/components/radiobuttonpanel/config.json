@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Component", ""],
+    "order": 260,
+    "categories":["Form"],
     "keywords":["radiobutton panel", "radio group", "radio buttons", "options", "selection"],
     "hasTabs": true, 
     "hasOverview": true,

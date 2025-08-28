@@ -5,12 +5,12 @@ tags:
     - dshome
 key: overview-lean_it
 system: lean
+list: all
 title: Introduzione
 alternativetitle: Lean
 parent: lean_it
 order: 1
-basics: true
-components: true
+
 availablelanguages: 
     - de
     - en

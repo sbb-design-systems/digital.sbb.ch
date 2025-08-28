@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Basics", "Navigation"],
+    "order": 50,
+    "categories":["Navigation"],
     "keywords":["gps", "location", "position", "map"],
     "hasTabs": true, 
     "hasOverview": true,

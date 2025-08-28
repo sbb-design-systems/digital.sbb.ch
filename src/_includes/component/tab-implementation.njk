@@ -1,5 +1,5 @@
 {% if pattern.config.hasImplementation == true %}
-    {% set implementation = patterns[pattern.config.lyneId].implementation %}
+    {% set implementation = patterns[pattern.config.tag].implementation %}
     <sbb-tab-label level="2">
         <sbb-icon name="{{tabs[3].icon}}" slot="icon"></sbb-icon>
         Implementation

@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Components", "Navigation"],
+    "order": 90,
+    "categories":["Content"],
     "keywords":["sidebar", "overlay", "card", "dialog"],
     "hasTabs": true, 
     "hasOverview": true,

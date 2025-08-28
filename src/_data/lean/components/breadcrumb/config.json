@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 40,
+    "categories":["Navigation"],
     "keywords":["breadcrumb"],
     "hasTabs": true, 
     "hasOverview": true,

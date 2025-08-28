@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Basics", "Navigation"],
+    "order": 100,
+    "categories":["Navigation"],
     "keywords":["zoom", "in", "out", "scale"],
     "hasTabs": true, 
     "hasOverview": true,

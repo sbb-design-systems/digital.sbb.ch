@@ -5,5 +5,5 @@ pagination:
   data: lyne.components
   size: 1
   alias: component
-permalink: "/it/design-system/lyne/components/{{lyne.components[component].config.tag | slugify}}/"
+permalink: "/it/design-system/lyne/{{lyne.components[component].config.list | slugify}}/{{lyne.components[component].config.tag | slugify}}/"
 ---

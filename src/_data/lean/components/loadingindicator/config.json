@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 200,
+    "categories":["Indicator"],
     "keywords":["loading indicator", "spinner", "loader", "loading", "activity", "animation"],
     "hasTabs": true, 
     "hasOverview": true,

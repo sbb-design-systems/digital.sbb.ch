@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Form"],
+    "order": 190,
+    "categories":["Form"],
     "keywords":["radio", "button", "select", "choice", "option"],
     "hasTabs": true, 
     "hasOverview": true,

@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 360,
+    "categories":["Indicator"],
     "keywords":["text expand", "more", "less", "mehr anzeigen"],
     "hasTabs": true, 
     "hasOverview": true,

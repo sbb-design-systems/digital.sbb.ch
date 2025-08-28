@@ -8,6 +8,7 @@
         "it": false,
         "en": true
     },
+    "order": 180,
     "categories":["Basics"],
     "keywords":["Icon", "Symbol", "Pictogram"],
     "hasTabs": false,

@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Form"],
+    "order": 250,
+    "categories":["Form"],
     "keywords":["text", "input", "field", "textfield", "textbox"],
     "hasTabs": true, 
     "hasOverview": true,

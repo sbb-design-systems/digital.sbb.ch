@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 320,
+    "categories":["Collection"],
     "keywords":["table", "data table"],
     "hasTabs": true, 
     "hasOverview": true,

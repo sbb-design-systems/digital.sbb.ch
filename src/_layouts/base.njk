@@ -7,7 +7,7 @@
     {% include "../_includes/skiplinks.njk" %}
     {% include "../_includes/header/header.njk" %}
 
-    {% if layout == "component.njk" or layout == "token-lyne.njk" %}
+    {% if layout == "component.njk" %}
     <sbb-sidebar-container>
       <sbb-sidebar role="navigation" position="start" color="milk" mode="over" focus-on-open id="sidebar">
         <sbb-sidebar-title>{{ translations[page.lang].findcomponent }}</sbb-sidebar-title>
@@ -21,7 +21,7 @@
           {{ content | safe }}
         </sbb-container>
         {% include "../_includes/footer.njk" %}
-    {% if layout == "component.njk" or layout == "token-lyne.njk" %}
+    {% if layout == "component.njk" %}
       </sbb-sidebar-content>
     </sbb-sidebar-container>
     {% endif %}
@@ -41,7 +41,7 @@
     <script src="/assets/js/mode-toggle.js"></script>
     {% endif %}
 
-    {% if layout == "component.njk" or layout == "token-lyne.njk" %} 
+    {% if layout == "component.njk" %} 
     <script src="/assets/js/sidebar.js"></script>
     <script src="/assets/js/component-browser.js"></script>
     <script src="/assets/js/highlight.min.js"></script>

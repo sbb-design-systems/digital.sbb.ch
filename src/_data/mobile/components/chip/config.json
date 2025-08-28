@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Layout"],
+    "order": 50,
+    "categories":["Form"],
     "keywords":["chip", "chips", "tag", "label", "badge"],
     "hasTabs": true, 
     "hasOverview": true,

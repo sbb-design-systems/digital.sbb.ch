@@ -8,7 +8,8 @@
         "it": false,
         "en": false
     },
-    "categories":["Component", ""],
+    "order": 80,
+    "categories":["Form"],
     "keywords":["checkboxpanel", "checkbox", "checkboxes"],
     "hasTabs": true, 
     "hasOverview": true,

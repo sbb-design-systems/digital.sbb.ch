@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 50,
+    "categories":["Action"],
     "keywords":["button", "icon", "split", "action"],
     "hasTabs": true, 
     "hasOverview": true,

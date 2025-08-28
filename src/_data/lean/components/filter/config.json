@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 160,
+    "categories":["Form"],
     "keywords":["filter", "filters", "search", "refine", "sort"],
     "hasTabs": true, 
     "hasOverview": true,

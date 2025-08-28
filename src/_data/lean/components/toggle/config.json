@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 390,
+    "categories":["Form"],
     "keywords":["toggle", "switch", "toggle button"],
     "hasTabs": true, 
     "hasOverview": true,

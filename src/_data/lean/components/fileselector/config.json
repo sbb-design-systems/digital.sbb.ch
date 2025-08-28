@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 150,
+    "categories":["Form"],
     "keywords":["fileselector", "file input", "file upload", "dropzone"],
     "hasTabs": true, 
     "hasOverview": true,

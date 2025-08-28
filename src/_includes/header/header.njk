@@ -1,8 +1,8 @@
-<sbb-header {% if layout == "component.njk" or layout == "token-lyne.njk" %} scroll-origin="content"{% else %} hide-on-scroll {% endif %}>
+<sbb-header {% if layout == "component.njk" %} scroll-origin="content"{% else %} hide-on-scroll {% endif %}>
   <sbb-header-button role="button" id="nav-trigger" icon-name="hamburger-menu-small" expand-from="small">Menu</sbb-header-button>
-{% if (layout == "component.njk") or (layout == "token-lyne.njk") %}
+{% if layout == "component.njk" %}
   <sbb-header-button role="button" id="toggle-component-browser" icon-name="magnifying-glass-small" expand-from="medium">{{ translations[page.lang].actioncomponentbrowser }}</sbb-header-button>
-  <sbb-header-link href="{{dsurl}}" icon-name="four-squares-small" expand-from="medium">{{ translations[page.lang].overviewds }} {{dsname}}</sbb-header-link>
+  <sbb-header-link href="{{page.lang}}/design-system/{{system}}/overview" icon-name="four-squares-small" expand-from="medium">{{ translations[page.lang].overviewds }} {% if system == "patternlibrary" %}Patterns{% else %}{{system | capitalizeWords}}{% endif %}</sbb-header-link>
 {% else %}
 {% endif %}
   <div class="sbb-header-spacer"></div>

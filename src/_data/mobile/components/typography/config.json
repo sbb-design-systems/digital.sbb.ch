@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Basics", "Visual asset"],
+    "order": 280,
+    "categories":["Basics"],
     "keywords":["Image", "Bild", "Identity"],
     "hasTabs": false,
     "showInFirstLevel": true,

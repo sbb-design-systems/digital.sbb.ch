@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Form"],
+    "order": 210,
+    "categories":["Form"],
     "keywords":["slider", "range", "input", "control", "adjustment"],
     "hasTabs": true, 
     "hasOverview": true,

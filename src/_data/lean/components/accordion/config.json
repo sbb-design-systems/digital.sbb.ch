@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 10,
+    "categories":["Collection"],
     "keywords":["accordion", "collapse", "collapsible", "details", "expand"],
     "hasTabs": true, 
     "hasOverview": true,

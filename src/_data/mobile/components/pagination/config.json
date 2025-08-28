@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", "Collection"],
+    "order": 160,
+    "categories":["Collection"],
     "keywords":["pagination", "page", "navigation", "control", "list"],
     "hasTabs": true, 
     "hasOverview": true,

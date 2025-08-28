@@ -1,5 +1,8 @@
-<sbb-tag-group id="categories" value="" multiple size="s">
+<sbb-tag-group id="categories" value="all" multiple size="s">
+        <sbb-tag id="all" value="all" onchange="uncheckTags()">All</sbb-tag>
     {% for category in categories%}
-        <sbb-tag value="{{category}}">{{category}}</sbb-tag>
+        <sbb-tag value="{{category}}" onchange="uncheckAllTag()">{{category}}</sbb-tag>
     {% endfor %}
 </sbb-tag-group>
+
+

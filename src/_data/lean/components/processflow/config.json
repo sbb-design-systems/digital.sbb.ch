@@ -8,7 +8,8 @@
         "it": false,
         "en": true
     },
-    "categories":["Component", ""],
+    "order": 240,
+    "categories":["Navigation", "Indicator"],
     "keywords":["processflow", "process indicator", "progress tracker", "multi step", "wizard", "stepper", "steps"],
     "hasTabs": true, 
     "hasOverview": true,

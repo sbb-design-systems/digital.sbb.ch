@@ -4,9 +4,10 @@
   {% set sys = maps %}
 {% elif system == "lyne" %}
   {% set sys = lyne %}
-  {% set basicPages = collections[dscomponents] | include("data.parent", dsbasics) | sortByOrder %}   
 {% elif system == "lean" %}
   {% set sys = lean %}
+{% elif system == "patternlibrary" %}
+  {% set sys = patternlibrary %}
 {% endif %}
 
 
@@ -27,21 +28,20 @@
 <div id="componentbrowser" class="component-browser sidebar-browser">
     <div class="component-search">
         {% include "./partial-search-field.njk" %}
-        
         {% include "../browser/partial-tag-group.njk" %}
     </div>
-
     <ul class="component-list list">
-
-        {% if system == "lyne" %}
-            {%- for entry in basicPages %}
-                {% include "./browser-item-token-lyne.njk" %}
-            {%- endfor -%}
-        {% endif %}
-
-        {% for component, entry in patterns %}
-            {% include "./browser-item-component-lyne.njk" %}
-        {% endfor %}
+      {% if (list == "basics")  or (list == "designtokens")   %}
+        {% include "./browser-list-basics.njk" %}
+      {% elif list == "components"   %}
+        {% include "./browser-list-components.njk" %}
+      {% elif list == "patterns"   %}
+        {% include "./browser-list-patterns.njk" %}  
+      {% else %}
+        {% include "./browser-list-basics.njk" %}
+        {% include "./browser-list-components.njk" %}
+        {% include "./browser-list-patterns.njk" %}  
+      {% endif %}
     </ul>
     {% include "../icons/not-found.njk" %}
 </div>
