@@ -11,9 +11,11 @@
     "order": 160,
     "categories":["Form"],
     "keywords":["filter", "filters", "search", "refine", "sort"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

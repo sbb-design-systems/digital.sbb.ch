@@ -1,4 +1,4 @@
-{% if pattern.config.hasVariants == true %}
+{% if pattern.config.tabs.hasVariants == true %}
     {% set variantspath = ["src/_data/", system, "/components/", component, "/variants_", language, ".md"] | join %}
     {% set variants %}{% include variantspath %}{% endset %}
     <sbb-tab-label level="1">

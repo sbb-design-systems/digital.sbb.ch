@@ -11,9 +11,11 @@
     "order": 230,
     "categories":["Form"],
     "keywords":["toggle", "switch", "on", "off", "enable", "disable"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

@@ -12,11 +12,13 @@
     "categories":["Navigation"],
     "keywords":["Context Menu", "Menu", "Link", "Button"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs": ["MenuButton", "MenuLink"],
     "isChildOf": false,

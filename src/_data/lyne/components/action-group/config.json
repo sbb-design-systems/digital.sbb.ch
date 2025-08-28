@@ -12,11 +12,13 @@
     "categories":["Layout"],
     "keywords":["Button group", "Toolbar"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs":["button", "secondary-button", "accent-button", "transparent-button", "block-link"],
     "isChildOf":false,

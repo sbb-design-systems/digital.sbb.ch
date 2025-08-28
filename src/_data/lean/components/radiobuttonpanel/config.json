@@ -11,9 +11,11 @@
     "order": 260,
     "categories":["Form"],
     "keywords":["radiobutton panel", "radio group", "radio buttons", "options", "selection"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

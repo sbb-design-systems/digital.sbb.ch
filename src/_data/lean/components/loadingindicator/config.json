@@ -11,9 +11,11 @@
     "order": 200,
     "categories":["Indicator"],
     "keywords":["loading indicator", "spinner", "loader", "loading", "activity", "animation"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

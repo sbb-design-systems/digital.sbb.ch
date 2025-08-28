@@ -11,9 +11,11 @@
     "order": 60,
     "categories":["Content"],
     "keywords":["position", "poi", "point", "marker", "icon"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

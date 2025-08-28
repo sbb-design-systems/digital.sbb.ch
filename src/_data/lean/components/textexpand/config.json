@@ -11,9 +11,11 @@
     "order": 360,
     "categories":["Indicator"],
     "keywords":["text expand", "more", "less", "mehr anzeigen"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

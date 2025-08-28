@@ -12,11 +12,13 @@
     "categories":["Navigation"],
     "keywords":["Sidebar", "Icon-Sidebar"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": false,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs":["icon-sidebar-button", "icon-sidebar-link", "icon-sidebar-content"],
     "isChildOf": ["icon-sidebar-container"],

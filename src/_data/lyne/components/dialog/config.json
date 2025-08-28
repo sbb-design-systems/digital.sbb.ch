@@ -12,11 +12,13 @@
     "categories":["Overlay"],
     "keywords":["Dialog", "Popup", "Modal window", "Lightbox"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs": ["dialog-actions", "dialog-title", "dialog-close-button"],
     "isChildOf": false,

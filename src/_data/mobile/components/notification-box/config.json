@@ -11,9 +11,11 @@
     "order": 150,
     "categories":["Indicator"],
     "keywords":["notification", "alert", "message", "box"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

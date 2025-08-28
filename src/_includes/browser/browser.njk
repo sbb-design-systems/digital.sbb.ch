@@ -36,8 +36,13 @@
       {% elif list == "components"   %}
         {% include "./browser-list-components.njk" %}
       {% elif list == "patterns"   %}
-        {% include "./browser-list-patterns.njk" %}  
+        {% if system == "patternlibrary"%}
+          {% include "./browser-list-all-patterns.njk" %}  
+        {% else %}
+          {% include "./browser-list-patterns.njk" %}
+        {% endif %}  
       {% else %}
+      
         {% include "./browser-list-basics.njk" %}
         {% include "./browser-list-components.njk" %}
         {% include "./browser-list-patterns.njk" %}  

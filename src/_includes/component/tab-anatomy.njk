@@ -1,4 +1,4 @@
-{% if pattern.config.hasAnatomy == true %}
+{% if pattern.config.tabs.hasAnatomy == true %}
     {% set anatomypath = ["src/_data/", system, "/components/", component, "/anatomy_", language, ".md"] | join %}
     {% set anatomy %}{% include anatomypath %}{% endset %}
     <sbb-tab-label level="1">

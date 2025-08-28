@@ -12,11 +12,13 @@
     "categories":["Layout"],
     "keywords":["Container", "Wrapper", "Stack"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": false,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs":["sticky-bar"],
     "isChildOf":false,

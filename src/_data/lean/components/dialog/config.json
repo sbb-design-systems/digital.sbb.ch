@@ -11,9 +11,11 @@
     "order":120,
     "categories":["Overlay"],
     "keywords":["dialog", "modal", "popup", "lightbox"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

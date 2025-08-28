@@ -1,4 +1,4 @@
-{% if (pattern.config.hasPlayground == true) or (pattern.config.hasStorybook == true) %}  
+{% if (pattern.config.tabs.hasPlayground == true) or (pattern.config.hasStorybook == true) %}  
     {% set playground = patterns[pattern.config.tag].playground %}
     <sbb-tab-label level="2">
         <sbb-icon name="{{tabs[2].icon}}" slot="icon"></sbb-icon>

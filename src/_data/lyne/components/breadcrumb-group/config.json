@@ -12,11 +12,13 @@
     "categories":["Navigation"],
     "keywords":["Breadcrumbs", "Breadcrumb", "Breadcrumb trail"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": false,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs":["breadcrumb"],
     "isChildOf":false,

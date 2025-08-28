@@ -12,11 +12,13 @@
     "categories":["Indicator"],
     "keywords":["Error", "Message", "Feedback" ],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs": ["Image", "Title", "Button", "SecondaryButton"],
     "isChildOf": false,

@@ -12,11 +12,13 @@
     "categories":["Form"],
     "keywords":["Input", "Text field", "Text box", "Label", "Textarea", "Select", "Autocomplete", "Wrapper"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs": ["Input", "Label", "Select", "Textarea", "DatePicker", "Select", "Slider", "TimeInput", "Autocomplete", "AutocompleteGrid", "FormError"],
     "isChildOf": false,

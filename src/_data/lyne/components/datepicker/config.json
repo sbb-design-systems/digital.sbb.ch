@@ -12,11 +12,13 @@
     "categories":["Form"],
     "keywords":["Calendar", "Picker", "Date picker", "Datetime picker", "Picker"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs":["datepicker-next-day", "datepicker-previous-day", "datepicker-toggle"],
     "isChildOf": ["form-field"],

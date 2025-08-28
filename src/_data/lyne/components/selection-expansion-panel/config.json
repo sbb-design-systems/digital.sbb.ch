@@ -12,11 +12,13 @@
     "categories":["Form"],
     "keywords":["Radio", "Check", "Collapse", "Expandable", "Expander"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs": ["CheckboxPanel", "RadioButtonPanel"],
     "isChildOf": false,

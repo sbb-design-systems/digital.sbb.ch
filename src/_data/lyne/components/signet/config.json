@@ -12,11 +12,13 @@
     "categories":["Brand"],
     "keywords":["Brand", "Logo", "Marke", "Signet", "Pleitegeier"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "childs": false,
     "isChildOf": ["logo"],
     "similar":false,

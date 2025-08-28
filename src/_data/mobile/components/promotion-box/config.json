@@ -11,9 +11,11 @@
     "order": 180,
     "categories":["Indicator"],
     "keywords":["promotion", "box", "highlight"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

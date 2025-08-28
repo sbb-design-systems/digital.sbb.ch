@@ -1,4 +1,4 @@
-{% if pattern.config.hasOverview == true %}
+{% if pattern.config.tabs.hasOverview == true %}
     {% set overviewpath = ["src/_data/", system, "/components/", component, "/overview_", language, ".md"] | join %}
     {% set overview %}{% include overviewpath %}{% endset %}
     

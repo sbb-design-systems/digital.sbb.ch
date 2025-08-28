@@ -12,11 +12,13 @@
     "categories":["Action"],
     "keywords":["Mini", "Button", "Button-Group", "Mini-Button-Group", "Toolbar"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": true,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": true,
+        "hasImplementation": true
+    },
     "showInFirstLevel": true,
     "childs": ["mini-button"],
     "isChildOf": false,

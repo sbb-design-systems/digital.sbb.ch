@@ -11,9 +11,11 @@
     "order": 50,
     "categories":["Form"],
     "keywords":["chip", "chips", "tag", "label", "badge"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

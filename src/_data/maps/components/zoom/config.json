@@ -11,9 +11,11 @@
     "order": 100,
     "categories":["Navigation"],
     "keywords":["zoom", "in", "out", "scale"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",

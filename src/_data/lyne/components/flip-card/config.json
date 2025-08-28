@@ -12,11 +12,13 @@
     "categories":["Layout"],
     "keywords":["Collapse", "Collapsible sections", "Collapsible", "Details", "Disclosure", "Expandable", "Expander"],
     "hasTabs": true,
-    "hasOverview": true,
-    "hasAnatomy": true,
-    "hasStorybook": true,
-    "hasPlayground": false,
-    "hasImplementation": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": false,
+        "hasImplementation": true
+    },
     "childs": ["FlipCardDetails", "FlipCardSummary"],
     "isChildOf": false,
     "similar":["accordion"],

@@ -11,9 +11,11 @@
     "order": 410,
     "categories":["Navigation", "Collection"],
     "keywords":["tree", "folder", "folders"],
-    "hasTabs": true, 
-    "hasOverview": true,
-    "hasVariants": true,
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
