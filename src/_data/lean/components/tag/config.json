@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 330,
-    "categories":["Form", "Collection"],
+    "categories":["Form"],
     "keywords":["tag", "badge", "label", "chip"],
     "hasTabs": true,
     "tabs": { 

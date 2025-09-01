@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 20,
-    "categories":["Layout"],
+    "categories":["Container"],
     "keywords":["Button group", "Toolbar"],
     "hasTabs": true,
     "tabs": {

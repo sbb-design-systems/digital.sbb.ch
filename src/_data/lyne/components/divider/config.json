@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 390,
-    "categories":["Layout"],
+    "categories":["Display"],
     "keywords":["Divider", "Horizonal rule", "Vertical rule", "Ruler"],
     "hasTabs": true,
     "tabs": {

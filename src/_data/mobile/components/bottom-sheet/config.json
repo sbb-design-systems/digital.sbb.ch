@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 10,
-    "categories":["Navigation", "Layout"],
+    "categories":["Navigation", "Container"],
     "keywords":["dialog", "modal", "popup", "lightbox"],
     "hasTabs": true,
     "tabs": { 

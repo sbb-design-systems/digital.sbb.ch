@@ -9,7 +9,7 @@
         "en": true
     },
     "order":120,
-    "categories":["Overlay"],
+    "categories":["Container"],
     "keywords":["dialog", "modal", "popup", "lightbox"],
     "hasTabs": true,
     "tabs": { 

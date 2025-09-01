@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 100,
-    "categories":["Basics", "Visual asset"],
+    "categories":["Display"],
     "keywords":["Image", "Bild", "Identity"],
     "hasTabs": false,
     "showInFirstLevel": true,

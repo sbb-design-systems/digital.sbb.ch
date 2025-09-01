@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 635,
-    "categories":["Layout"],
+    "categories":["Container"],
     "keywords":["Map", "Container", "Layout"],
     "hasTabs": true,
     "tabs": {

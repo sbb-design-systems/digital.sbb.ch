@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 60,
-    "categories":["Layout"],
+    "categories":["Container"],
     "keywords":["container", "content", "footer", "header"],
     "hasTabs": true,
     "tabs": { 

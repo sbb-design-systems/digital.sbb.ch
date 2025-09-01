@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 40,
-    "categories":["Indicator"],
+    "categories":["Container"],
     "keywords":["alert", "alert-group", "notification", "feedback", "message", "banner", "callout"],
     "hasTabs": true,
     "tabs": {

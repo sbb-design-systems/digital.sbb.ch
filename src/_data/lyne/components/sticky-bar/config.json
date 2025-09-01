@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 970,
-    "categories":["Layout"],
+    "categories":["Container"],
     "keywords":["Sticky", "Bar", "Footer"],
     "hasTabs": true,
     "tabs": {

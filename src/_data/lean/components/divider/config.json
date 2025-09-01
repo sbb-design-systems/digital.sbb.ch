@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 130,
-    "categories":["Basics"],
+    "categories":["Display"],
     "keywords":["Divider", "Line", "Separation"],
     "hasTabs": false,
     "showInFirstLevel": true,

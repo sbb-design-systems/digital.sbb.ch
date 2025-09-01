@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 90,
-    "categories":["Navigation", "Layout"],
+    "categories":["Navigation"],
     "keywords":["header", "navigation", "top", "bar", "menu"],
     "hasTabs": true,
     "tabs": { 

@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 400,
-    "categories":["Overlay"],
+    "categories":["Container"],
     "keywords":["tooltip", "popover", "toggletip"],
     "hasTabs": true,
     "tabs": { 

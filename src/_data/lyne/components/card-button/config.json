@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 230,
-    "categories":["Layout"],
+    "categories":["Action"],
     "keywords":["Card", "Container", "Tile"],
     "hasTabs": true,
     "tabs": {

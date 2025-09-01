@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 290,
-    "categories":["Indicator", "Visual asset"],
+    "categories":["Indicator"],
     "keywords":["Clock", "Watch", "Time", "Mondaine"],
     "hasTabs": true,
     "tabs": {

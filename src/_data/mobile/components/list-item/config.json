@@ -9,8 +9,8 @@
         "en": true
     },
     "order": 110,
-    "categories":["Collection"],
-    "keywords":["list", "item", "collection"],
+    "categories":["Action"],
+    "keywords":["list", "item"],
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

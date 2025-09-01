@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 430,
-    "categories":["Navigation"],
+    "categories":["Action", "Navigation"],
     "keywords":["usermenu", "user", "menu", "konto", "profil"],
     "hasTabs": true,
     "tabs": { 

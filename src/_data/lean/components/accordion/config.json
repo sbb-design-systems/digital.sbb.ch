@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 10,
-    "categories":["Collection"],
+    "categories":["Container"],
     "keywords":["accordion", "collapse", "collapsible", "details", "expand"],
     "hasTabs": true,
     "tabs": { 

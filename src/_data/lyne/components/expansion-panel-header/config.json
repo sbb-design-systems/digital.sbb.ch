@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 420,
-    "categories":["Layout"],
+    "categories":["Container"],
     "keywords":["Collapse", "Collapsible sections", "Collapsible", "Details", "Disclosure", "Expandable", "Expander"],
     "hasTabs": true,
     "tabs": {

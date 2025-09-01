@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 1120,
-    "categories":["Layout"],
+    "categories":["Display"],
     "keywords":["Title", "Level", "H1", "H2", "H3", "H4", "H5", "H6"],
     "hasTabs": true,
     "tabs": {

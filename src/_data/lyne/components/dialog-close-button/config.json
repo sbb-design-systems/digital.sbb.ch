@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 385,
-    "categories":["Overlay"],
+    "categories":["Action"],
     "keywords":["Dialog", "Popup", "Modal window", "Lightbox"],
     "hasTabs": true,
     "tabs": {

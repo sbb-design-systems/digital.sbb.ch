@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 160,
-    "categories":["Collection"],
+    "categories":["Indicator"],
     "keywords":["pagination", "page", "navigation", "control", "list"],
     "hasTabs": true,
     "tabs": { 

@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 1010,
-    "categories":["Collection"],
+    "categories":["Display"],
     "keywords":["Table", "Data", "Row", "Column"],
     "hasTabs": true,
     "tabs": {

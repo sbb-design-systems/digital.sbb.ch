@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 310,
-    "categories":["Collection", "Navigation"],
+    "categories":["Container", "Navigation"],
     "keywords":["tab", "tabs", "tab group", "tabbed interface"],
     "hasTabs": true,
     "tabs": { 

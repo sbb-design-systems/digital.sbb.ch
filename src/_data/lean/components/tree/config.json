@@ -9,7 +9,7 @@
         "en": true
     },
     "order": 410,
-    "categories":["Navigation", "Collection"],
+    "categories":["Navigation"],
     "keywords":["tree", "folder", "folders"],
     "hasTabs": true,
     "tabs": { 
