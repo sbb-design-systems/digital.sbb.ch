@@ -74,12 +74,13 @@ module.exports = async function(eleventyConfig) {
                 "node_modules"
             ]
             });
-            return (data) => {
+            this.addDependencies(inputPath, result.loadedUrls);
+            return async (data) => {
                 return result.css;
             };
         }
     });
-
+    
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
 
     eleventyConfig.addFilter("sortLyneComponentsByOrder", (obj) => {

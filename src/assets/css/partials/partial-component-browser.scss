@@ -77,6 +77,17 @@ sbb-sidebar {
         }
       }
     }
+
+    &.grid-view {
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: auto; 
+      gap: var(--sbb-spacing-fixed-2x); 
+
+      li {
+        margin-block: 0;
+      }
+    }
 }
 
 .card-content-component {

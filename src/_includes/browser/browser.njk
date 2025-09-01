@@ -30,7 +30,7 @@
         {% include "./partial-search-field.njk" %}
         {% include "./partial-tag-group.njk" %}
     </div>
-    <ul class="component-list list">
+    <ul class="component-list list grid-view">
       {% if (list == "basics")  or (list == "designtokens")   %}
         {% include "./browser-list-basics.njk" %}
       {% elif list == "components"   %}
