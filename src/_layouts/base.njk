@@ -6,7 +6,6 @@
   <body class="sbb-scrollbar">
     {% include "../_includes/skiplinks.njk" %}
     {% include "../_includes/header/header.njk" %}
-
     {% if layout == "component.njk" %}
     <sbb-sidebar-container>
       <sbb-sidebar role="navigation" position="start" color="milk" mode="over" focus-on-open id="sidebar">
@@ -26,11 +25,6 @@
     </sbb-sidebar-container>
     {% endif %}
 
-
-
-
-    
-
     <script type="module" src="/assets/js/lyne-bundle.js"></script>
 
     {% if layout == "overview.njk" or layout == "overview.njk" %}
@@ -38,23 +32,14 @@
     {% endif %}
 
     {% if layout == "component.njk" %} 
-    <script src="/assets/js/mode-toggle.js"></script>
-    {% endif %}
-
-    {% if layout == "component.njk" %} 
+     <script src="/assets/js/mode-toggle.js"></script>
     <script src="/assets/js/sidebar.js"></script>
     <script src="/assets/js/component-browser.js"></script>
     <script src="/assets/js/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
     {% endif %}
 
-    {% if layout == "community-assets.njk" %}
-    <script src="/assets/js/community-assets.js"></script>
-    {% endif %}
 
-    {% if layout == "pattern-library.njk" %}
-    <script src="/assets/js/pattern-library.js"></script>
-    {% endif %}
   </body>
 </html>
 

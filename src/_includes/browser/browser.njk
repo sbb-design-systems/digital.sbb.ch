@@ -12,7 +12,7 @@
 
 
 {% set language = page.lang %}
-{% set layout = page.layout %}
+{#% set layout = page.layout %#}
 
 {% set patterns = sys.components %}
 {% set pattern = sys.components[component] %}
@@ -28,7 +28,7 @@
 <div id="componentbrowser" class="component-browser sidebar-browser">
     <div class="component-search">
         {% include "./partial-search-field.njk" %}
-        {% include "../browser/partial-tag-group.njk" %}
+        {% include "./partial-tag-group.njk" %}
     </div>
     <ul class="component-list list">
       {% if (list == "basics")  or (list == "designtokens")   %}
