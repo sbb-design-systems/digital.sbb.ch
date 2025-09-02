@@ -82,21 +82,26 @@ componentlist.on('filterComplete', function (e) {
 
 
 // list / grid view list
-  const toggle = document.getElementById('viewToggle');
+const toggle = document.getElementById('viewToggle');
   const list = document.getElementById('componentList');
+  const STORAGE_KEY = 'viewMode';
 
   if (toggle && list) {
-  toggle.addEventListener('change', (event) => {
-    const view = event.target.value;
-
-    // vorhandene Klassen entfernen
-    list.classList.remove('list-view', 'grid-view');
-
-    // neue Klasse setzen
-    if (view === 'list') {
-      list.classList.add('list-view');
-    } else if (view === 'grid') {
-      list.classList.add('grid-view');
+    // 1. Zustand beim Laden wiederherstellen
+    const savedView = localStorage.getItem(STORAGE_KEY);
+    if (savedView) {
+      toggle.value = savedView; // Toggle setzen
+      list.classList.remove('list-view', 'grid-view');
+      list.classList.add(savedView + '-view'); // Liste setzen
     }
-  });
-}
+
+    // 2. Neue Auswahl speichern
+    toggle.addEventListener('change', (event) => {
+      const view = event.target.value;
+
+      list.classList.remove('list-view', 'grid-view');
+      list.classList.add(view + '-view');
+
+      localStorage.setItem(STORAGE_KEY, view);
+    });
+  }

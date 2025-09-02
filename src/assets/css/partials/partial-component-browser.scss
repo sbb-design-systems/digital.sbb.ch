@@ -2,10 +2,12 @@
 
 sbb-sidebar {
   inline-size: 400px;
+
 .component-browser {
     .component-search{
     margin-block-start: calc(-1 * var(--sbb-spacing-responsive-xxxs));
-    padding: var(--sbb-spacing-responsive-xxxs) var(--sbb-spacing-responsive-s);
+    padding-block: var(--sbb-spacing-responsive-xxxs);
+    padding-inline: var(--sbb-spacing-responsive-s);
     }
 }
 }
@@ -103,18 +105,20 @@ sbb-sidebar {
 
       > li {
         margin-block: 0;  
-        min-width: 0;  
-        min-height: 0;
+        min-inline-size: 0;  
+        min-block-size: 0;
         box-sizing: border-box;
 
       > sbb-card {
-        height: 100%;
+        block-size: 100%;
         display: flex;
         flex-direction: column;
       }
+
       .component-status {
         display: none;
       }
+
       .overview-image {
         margin-block-start: var(--sbb-spacing-fixed-2x);  
         display: block;

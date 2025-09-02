@@ -4,5 +4,5 @@
     {% set pagetitle = title %}
 {% endif %}   
 
-<sbb-title aria-level="1" level="1" visual-level="1">{{pagetitle}}</sbb-title>
+<sbb-title aria-level="1" level="1" visual-level="1" role="heading">{{pagetitle}}</sbb-title>
 {% if system == "lyne" %}<p  class="subtext">{{lyne.version.branch}}</p>{% else %}{% endif %}
