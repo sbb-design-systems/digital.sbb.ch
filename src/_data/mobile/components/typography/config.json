@@ -11,6 +11,7 @@
     "order": 280,
     "categories":["Basics"],
     "keywords":["Image", "Bild", "Identity"],
+    "image": "/assets/images/mobile/chip-light",
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {

@@ -11,6 +11,7 @@
     "order": 240,
     "categories":["Navigation"],
     "keywords":["tab", "navigation", "menu", "bar", "switch"],
+    "image": "/assets/images/mobile/chip-light",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

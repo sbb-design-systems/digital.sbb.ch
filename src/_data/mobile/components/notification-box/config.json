@@ -11,6 +11,7 @@
     "order": 150,
     "categories":["Indicator"],
     "keywords":["notification", "alert", "message", "box"],
+    "image": "/assets/images/mobile/chip-light",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

@@ -1,6 +1,19 @@
-<sbb-form-field error-space="none" size="l" width="default" borderless floating-label>
+{% if layout == "overview.njk" and system == "mobile" %}<div class="search-header">{% endif %}
+<sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
     <label>{{ translations[page.lang].searchinput }}</label>
     <input id="search-input" class="fuzzy-search" value="" placeholder="{{ translations[page.lang].searchinput }}">
     <sbb-mini-button id="search-reset" slot="suffix" icon-name="cross-small" aria-label="clear input" style="display:none;"></sbb-mini-button>
     <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
 </sbb-form-field>
+
+{% if layout == "overview.njk" and system == "mobile" %}
+  <sbb-toggle size="m" value="list" aria-label="Zwischen Listen- und Kachel-Ansicht wechseln" id="viewToggle">
+    <sbb-toggle-option value="list" icon-name="list-small"></sbb-toggle-option>
+    <sbb-toggle-option value="grid" icon-name="four-squares-small"></sbb-toggle-option>
+  </sbb-toggle>
+{% endif %}
+
+
+{% if layout == "overview.njk" and system == "mobile" %}</div>{% endif %}
+
+

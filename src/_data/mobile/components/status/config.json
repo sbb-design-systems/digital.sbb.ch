@@ -11,6 +11,7 @@
     "order": 220,
     "categories":["Indicator"],
     "keywords":["status", "indicator", "state", "feedback", "alert"],
+    "image": "/assets/images/mobile/chip-light",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

@@ -79,6 +79,24 @@ componentlist.on('filterComplete', function (e) {
   }
 });
 
-  
 
 
+// list / grid view list
+  const toggle = document.getElementById('viewToggle');
+  const list = document.getElementById('componentList');
+
+  if (toggle && list) {
+  toggle.addEventListener('change', (event) => {
+    const view = event.target.value;
+
+    // vorhandene Klassen entfernen
+    list.classList.remove('list-view', 'grid-view');
+
+    // neue Klasse setzen
+    if (view === 'list') {
+      list.classList.add('list-view');
+    } else if (view === 'grid') {
+      list.classList.add('grid-view');
+    }
+  });
+}

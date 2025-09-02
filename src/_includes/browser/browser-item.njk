@@ -13,6 +13,9 @@
                     </div>
                 </div>
                 {% include "./partial-status.njk" %}
+                {% if layout == "overview.njk" and system == "mobile" and entry.config.image.length %}
+                    <img class="overview-image" style="max-width: 100%" src="{{ entry.config.image}}.webp" alt="Darstellung des Chips" title="Chip" sizes="100vw" srcset="{{ entry.config.image}}.webp 1x, {{ entry.config.image}}@2x.webp 2x, {{ entry.config.image}}@3x.webp 3x">
+                {% endif %}
             </div>
         </sbb-card>
     </li>

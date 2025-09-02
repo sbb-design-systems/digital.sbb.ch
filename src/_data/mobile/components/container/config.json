@@ -11,6 +11,7 @@
     "order": 60,
     "categories":["Container"],
     "keywords":["container", "content", "footer", "header"],
+    "image": "/assets/images/mobile/chip-light",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

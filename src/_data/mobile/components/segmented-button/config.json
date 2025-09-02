@@ -11,6 +11,7 @@
     "order": 200,
     "categories":["Navigation"],
     "keywords":["segmented", "button", "toggle", "switch", "navigation"],
+    "image": "/assets/images/mobile/chip-light",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,
