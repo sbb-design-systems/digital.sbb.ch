@@ -9,7 +9,7 @@
         "en": true
     },    
     "order": 810,
-    "categories":["Overlay"],
+    "categories":["Container"],
     "keywords":["Popover", "Overlay", "Modal"],
     "hasTabs": true,
     "tabs": {
