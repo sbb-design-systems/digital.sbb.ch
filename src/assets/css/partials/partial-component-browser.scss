@@ -1,5 +1,8 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
+
+
+
 sbb-sidebar {
   inline-size: 400px;
 
@@ -50,6 +53,7 @@ sbb-sidebar {
     z-index: 99;
     position: sticky;
     inset-block-start: 0;
+    transition: top 0.2s ease;
   }
 }
 
@@ -198,5 +202,16 @@ sbb-sidebar {
 
   p {
     margin-block-end: var(--sbb-spacing-responsive-xxs);
+  }
+}
+
+sbb-header {
+  z-index: 999;
+}
+
+sbb-header[data-visible] ~ .content .component-browser.sidebar-browser .component-search {
+  inset-block-start: 56px;
+   @include sbb.mq($from: medium) {
+    inset-block-start: 96px;
   }
 }
