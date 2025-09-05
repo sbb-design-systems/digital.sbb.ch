@@ -1,0 +1,21 @@
+{
+    "tag":"questions-to-the-user",
+    "system":"patternlibrary",
+    "list":"patterns",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": false
+    },
+    "order": 20,
+    "categories":["AI", "Vertrauen", "User"],
+    "keywords":["Vertrauen", "Fragen an den Nutzer", "questions to the user"],
+    "hasTabs": false,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}
