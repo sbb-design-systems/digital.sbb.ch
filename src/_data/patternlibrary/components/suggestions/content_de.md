@@ -20,15 +20,15 @@
 ### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/suggestions-default',
-  alt: 'Beispiel für Quellen',
-  title: 'Pattern Quellen'
+  alt: 'Beispiel für Vorschläge',
+  title: 'Pattern Vorschläge'
 }) }}
 
 ### Personalisierte Vorschläge
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/suggestions-personalisiert',
-  alt: 'Beispiel für Quellen',
-  title: 'Pattern Quellen'
+  alt: 'Beispiel für Personalisierte Vorschläge',
+  title: 'Pattern Personalisierte Vorschläge'
 }) }}
 
 
