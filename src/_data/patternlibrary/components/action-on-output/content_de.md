@@ -16,9 +16,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/action-on-output',
   alt: 'Beispiel für Folgeaktionen nach AI-Output',

@@ -2,28 +2,56 @@
 layout: page.njk
 tags: level3
 key: how_de
-title: Anleitung
+title: AI-Design-Grundlagen
 parent: patternlibrary_de
 order: 20
 ---
 
-## Asset hinzufügen
+# AI Design Grundlagen
 
-Damit ein Asset hinzugefügt werden kann, sind folgende Schritte nötig: {.lead} 
-* <sbb-link variant="inline" href="https://github.com/signup">Github-Account</sbb-link> erstellen und einloggen. {.lead} 
-* Community-Asset-Formular <sbb-link variant="inline" href="https://github.com/sbb-design-systems/digital.sbb.ch/issues/new/choose">öffnen</sbb-link>. {.lead} 
-* Formular ausfüllen. {.lead} 
-* Hinweis: Der Figma-Link darf nicht mehrfach verwendet werden (bzw. dient als Key). Sollte ein Link mehrfach verwendet werden, so werden Assets überschrieben. {.lead} 
-* Nach dem Ausfüllen müsste nach ca. 10 Minuten die Webseite akualisiert sein, das Ticket wird automatisch geschlossen. {.lead} 
+Artificial Intelligence (AI) bietet die Möglichkeit, mehr Ansprüche von Nutzer:innen zu erfüllen als je zuvor. Die individuellen Bedürfnisse und Kontexte bleiben jedoch vielfältig, weshalb es bei der Gestaltung von Interaktionen mit AI keine One‑Fits‑All‑Lösung gibt. Damit das Potenzial von AI von den Nutzer:innen voll ausgeschöpft werden kann, müssen wir die Interaktion bewusst und nutzerzentriert gestalten.
 
-## Asset ändern
+[Nutzerzentrierter Ansatz](https: )
+[Arten von AI und deren Einsatz](https: )
+[Integration der AI im System](https: )
+[Automatisierungsgrad](https: )
+[Design Patterns](https: )
 
-Um ein Asset zu überschreiben, kann das Formular mit dem gleichen Figma-Link nochmals ausgefüllt werden (mit den entsprechenden Korrekturen). {.lead} 
+## Nutzerzentrierter Ansatz
+Ein nutzerzentrierter Ansatz stellt die Bedürfnisse und Erwartungen der Nutzer:innen in den Mittelpunkt des Designprozesses. Starte mit Nutzerforschung, um zu klären, welche Probleme deine Zielgruppe hat und wie AI diese lösen kann. Erstelle Prototypen, um Interaktionsabläufe sichtbar zu machen, und teste die Designs regelmässig, damit sie den Anforderungen der Nutzer:innen entsprechen.
 
-## Asset löschen
+## Arten von AI und deren Einsatz
+Nicht jede AI‑Variante eignet sich für jede Anwendung. Wichtig ist zu verstehen, wann welcher Ansatz sinnvoll ist. Gängige Kategorien sind unter anderem:
 
-Derzeit ist es nicht möglich selbständig ein Asset zu löschen. Schreib uns welches Asset gelöscht werden soll an <sbb-link variant="inline" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>. {.lead} 
+*  Regelbasierte Systeme: Geeignet für einfache, wiederkehrende Aufgaben, die durch klare Regeln abgedeckt werden
+*  Klassisches Machine Learning: Machine‑Learning‑Modelle eignen sich für Aufgaben wie E‑Mail‑Klassifikation oder Prognosen. 
+*  Deep Learning: Teilbereich des Machine Learning mit neuronalen Netzwerken zur Erkennung von Mustern in grossen Datenmengen. Deep‑Learning‑Modelle eignen sich für komplexere Aufgaben wie Bild‑ und Sprachverarbeitung, Mustererkennung und Generierung von Text oder Bildern. 
 
-## Feedback
+Komplexe Modelle (z. B. Deep Learning) erreichen oft höhere Genauigkeit und verarbeiten unstrukturierte Daten automatisiert. Sie benötigen dafür aber viele Daten, hohe Rechenressourcen und sind schwieriger erklärbar und wartbar. Einfachere Algorithmen sind leichter verständlich, schneller und robuster bei kleinen Datenmengen und geringer Rechenleistung, erreichen bei komplexen Aufgaben aber schneller ihre Grenzen. Entscheidend ist ein guter Match zwischen Nutzerbedürfnis und Modell.
 
-Dir fehlt eine Kategorie? Etwas funktioniert nicht? Gerne helfen <sbb-link variant="inline" href="mailto:ux@sbb.ch">wir</sbb-link> gerne bei Problemen rund um die Community Assets. {.lead} 
+## Integration der AI im System
+**Scope:** Wie viel des Systems wird von AI getragen? Handelt es sich um eine einzelne Komponente, einen Flow, ein Feature, eine Applikation oder eine ganze Plattform?
+**Raum:** Wie wird die AI im Verhältnis zur Funktionalität präsentiert? Nimmt sie das Zentrum ein oder ist sie nur ein kleines UI‑Element? Ist sie sichtbar oder läuft sie im Hintergrund? Wenn sichtbar: permanent oder nur auf Anfrage? 
+**Funktionalität:** Wie interagiert die AI mit bestehenden Features? Kann sie auf andere Informationen zugreifen oder ist sie funktional isoliert? Wird das Modell statisch betrieben oder kontinuierlich mit neuen Daten und Schnittstellen angepasst? 
+
+Eine klare Planung dieser Dimensionen hilft, die Rolle der AI im Gesamtsystem zu definieren und zu optimieren. Ergänzend sind Datensicherheit und die entstehenden Kosten (z. B. Lizenz‑ oder Infrastrukturkosten) zu berücksichtigen.
+
+## Automatisierungsgrad
+Der angemessene Automatisierungsgrad hängt von den Nutzerbedürfnissen und dem Kontext ab. Zu hohe Automatisierung kann dazu führen, dass Fehler unentdeckt bleiben; zu geringe Automation verringert die Effizienz. Wähle den Grad so, dass Nutzen, Risiko und Vertrauen in einem ausgewogenen Verhältnis stehen.
+
+<sbb-table-wrapper>
+
+|                | Kontrolle hoch | Kontrolle mässig | Kontrolle tief |
+|----------------|------------------|----------------|----------------|
+| Risiko hoch                   | **Manuelle Entscheidungsfindung** <br> z.B. AI-gestützte Diagnosesysteme, die von Ärzt:innen überwacht werden müssen| **Teilautomatisierung mit menschlicher Aufsicht**<br>z. B. Betrugserkennung in Finanzprozessen mit manueller Prüfung | **Automatisierte Warnsysteme**<br>z.B. Alarmanlagen, die automatisierte Warnungen senden |
+| Risiko mässig         | **Teilautomatisierung mit Kontrolle** <br>z. B. Kundenservice‑Chatbots mit Übergabemöglichkeit an menschliche Agent:innen | **Automatisierte Prozesse mit sporadischer Überprüfung** <br> z. B. Marketing‑Kampagnen mit regelmässiger Erfolgskontrolle | **Hohe Automatisierung** <br> z.B. Empfehlungsalgorithmen |  
+| Risiko tief                   | **Manuelle Routineaufgaben** <br> z. B. einfache Formular‑Eingaben oder -Prüfungen | **Teilautomatisierung** <br> z.B. wöchentliche Verkaufsberichte, die automatisch generiert werden | **Vollautomatisierte Systeme** <br> z.B. automatisierte Beiträge auf Social-Media-Plattformen |                                              
+
+
+{.sbb-table}
+
+</sbb-table-wrapper>
+
+
+## Design Patterns
+Bei der Gestaltung von AI‑Systemen haben sich bewährte Designlösungen etabliert, die helfen, konsistente und benutzerfreundliche Anwendungen zu schaffen. Sieh dir dazu unsere [Patterns](https: ) an. 
