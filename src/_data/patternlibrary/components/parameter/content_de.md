@@ -12,9 +12,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/parameter',
   alt: 'Beispiel für Paramter',

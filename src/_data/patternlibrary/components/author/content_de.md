@@ -11,9 +11,6 @@
 * Du kannst den Erfasser mittels Wasserzeichen angeben oder durch eine andere visuelle Darstellung. 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/author',
   alt: 'Beispiel für den Autor',

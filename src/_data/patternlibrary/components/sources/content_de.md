@@ -13,9 +13,6 @@
 * Optional kannst du weitere Angaben wie Publikationsdatum oder Seitenzahl angeben.
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/sources',
   alt: 'Beispiel für Quellen',

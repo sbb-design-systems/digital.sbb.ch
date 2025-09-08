@@ -14,9 +14,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/user-feedback',
   alt: 'Beispiel für User-Feedback',

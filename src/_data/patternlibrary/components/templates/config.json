@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "Vertrauen"],
+    "categories":["AI", "Vertrauen", "Input"],
     "keywords":["Vertrauen", "Vorlagen", "templates"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }

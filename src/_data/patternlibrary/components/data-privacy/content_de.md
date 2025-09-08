@@ -11,11 +11,7 @@
 * Eine Entscheidung soll auch später noch geändert werden z.B. in den Einstellungen. 
 * Überlege dir wo du Opt-In und wo Opt-Out als Default setzt.
 
-
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/data-privacy',
   alt: 'Beispiel für Datenschutz',

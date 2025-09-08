@@ -13,9 +13,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/filter',
   alt: 'Beispiel für Filter',

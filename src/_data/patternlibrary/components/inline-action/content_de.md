@@ -14,9 +14,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/inline-action',
   alt: 'Beispiel für Interaktionen innerhalb eines AI-Outputs',

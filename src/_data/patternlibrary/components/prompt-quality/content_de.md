@@ -11,9 +11,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/prompt-quality',
   alt: 'Beispiel für Prompt Qualität',

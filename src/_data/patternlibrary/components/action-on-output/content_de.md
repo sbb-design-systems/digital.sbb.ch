@@ -14,7 +14,6 @@
 * Kann aber je nach Kontext auch spezifischere Aktionen beinhalten.
 
 
-
 ## Beispiel
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/action-on-output',

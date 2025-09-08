@@ -14,10 +14,8 @@
 *  Zeige an, welche Schritte das System macht bis hin zum Output.
 * Und gib den Benutzer:innen die Möglichkeit in den Prozess einzugreifen.
 
-## Beispiel
-*   Default
 
-### Default
+## Beispiel
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/system-steps',
   alt: 'Beispiel für System Schritte',

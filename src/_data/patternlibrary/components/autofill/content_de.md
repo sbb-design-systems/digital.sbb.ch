@@ -14,11 +14,7 @@
 * Achte darauf inwiefern die AI bestehende Einträge überschreiben soll.
 
 
-
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/autofill',
   alt: 'Beispiel für automatisches Ausfüllen',

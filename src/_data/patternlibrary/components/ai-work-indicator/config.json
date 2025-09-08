@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "User"],
-    "keywords":["Vertrauen", "Verlauf", "history"],
+    "categories":["AI", "System", "Input", "Output"],
+    "keywords":["Vertrauen", "System", "Progress"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }

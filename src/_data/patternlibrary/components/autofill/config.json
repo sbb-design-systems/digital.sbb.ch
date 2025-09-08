@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "User"],
+    "categories":["AI", "System", "Input"],
     "keywords":["Vertrauen", "Automatisches Ausfüllen", "autofill", "input", "table"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }

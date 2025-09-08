@@ -12,9 +12,6 @@
 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/primary-reference',
   alt: 'Beispiel für die primäre Referenz',

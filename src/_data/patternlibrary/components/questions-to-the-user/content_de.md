@@ -13,9 +13,6 @@
 *  Oder durch vorgefertigte Antworten, die zur Auswahl gegeben werden. (Wenn möglich zu verwenden, da weniger Aufwand für Nutzer:innen). 
 
 ## Beispiel
-*   Default
-
-### Default
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/questions-to-the-user',
   alt: 'Beispiel für Fragen an den Nutzer',

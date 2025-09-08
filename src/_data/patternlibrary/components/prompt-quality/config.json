@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "User", "Datenschutz"],
-    "keywords":["Vertrauen", "Prompt", "Quality", "Qualität"],
+    "categories":["AI", "User", "Input", "Error-Handling"],
+    "keywords":["Vertrauen", "Prompt", "Quality", "Qualität", "Feedback"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }

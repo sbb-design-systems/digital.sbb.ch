@@ -12,10 +12,8 @@
 * Das Pattern kann zu Überforderung führen, dabei kann “Beispiel-Prompt anzeigen” helfen oder “Start-Beispiel anzeigen” (siehe “Vorschläge”).
 
 
-## Beispiel
-*   Default
 
-### Default
+## Beispiel
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/open-input',
   alt: 'Beispiel für Open-Input',

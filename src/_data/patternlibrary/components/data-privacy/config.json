@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "User", "Datenschutz"],
+    "categories":["AI", "System", "Datenschutz"],
     "keywords":["Vertrauen", "Datenschutz", "Data", "Privacy"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }

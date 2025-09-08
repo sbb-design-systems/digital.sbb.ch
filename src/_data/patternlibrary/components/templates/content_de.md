@@ -15,6 +15,8 @@ diesen auch noch anpassen.
 
 ## Beispiel
 *   Default
+*   Default ausgefüllt
+*   Default mit Formular
 
 ### Default
 {{ principleImage({

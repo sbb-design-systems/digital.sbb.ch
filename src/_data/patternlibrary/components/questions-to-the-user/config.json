@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "Vertrauen", "User"],
+    "categories":["AI", "Vertrauen", "User", "Output", "System"],
     "keywords":["Vertrauen", "Fragen an den Nutzer", "questions to the user"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }

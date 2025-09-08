@@ -11,10 +11,8 @@
 * Kommuniziere für jeden Fall passend z.B. “Wir haben keine entsprechenden Daten ...” oder “Es scheint als ...”
 * Biete einen Weg an, um wieder auf den rechten Pfad zu kommen “... Versuche es mit einer anderen Fragestellung”.
 
-## Beispiel
-*   Default
 
-### Default
+## Beispiel
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/limitation',
   alt: 'Beispiel für die Limitierung',

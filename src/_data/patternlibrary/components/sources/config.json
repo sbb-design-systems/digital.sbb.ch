@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "Vertrauen"],
+    "categories":["AI", "Vertrauen", "Output", "System"],
     "keywords":["Vertrauen", "quellen", "sources"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "ok",
+        "code": "nok",
         "documentation": "ok"
     }
 }
