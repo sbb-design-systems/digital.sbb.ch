@@ -9,13 +9,13 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "System", "System", "Output"],
+    "categories":["AI", "System", "Output"],
     "keywords":["Vertrauen", "System Schritte", "system steps"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {
         "design": "ok",
-        "code": "nok",
+        "code": "ok",
         "documentation": "ok"
     }
 }
