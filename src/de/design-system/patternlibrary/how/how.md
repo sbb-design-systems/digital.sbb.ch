@@ -7,8 +7,6 @@ parent: patternlibrary_de
 order: 20
 ---
 
-# AI Design Grundlagen
-
 Artificial Intelligence (AI) bietet die Möglichkeit, mehr Ansprüche von Nutzer:innen zu erfüllen als je zuvor. Die individuellen Bedürfnisse und Kontexte bleiben jedoch vielfältig, weshalb es bei der Gestaltung von Interaktionen mit AI keine One‑Fits‑All‑Lösung gibt. Damit das Potenzial von AI von den Nutzer:innen voll ausgeschöpft werden kann, müssen wir die Interaktion bewusst und nutzerzentriert gestalten.
 
 [Nutzerzentrierter Ansatz](https: )
@@ -30,11 +28,11 @@ Nicht jede AI‑Variante eignet sich für jede Anwendung. Wichtig ist zu versteh
 Komplexe Modelle (z. B. Deep Learning) erreichen oft höhere Genauigkeit und verarbeiten unstrukturierte Daten automatisiert. Sie benötigen dafür aber viele Daten, hohe Rechenressourcen und sind schwieriger erklärbar und wartbar. Einfachere Algorithmen sind leichter verständlich, schneller und robuster bei kleinen Datenmengen und geringer Rechenleistung, erreichen bei komplexen Aufgaben aber schneller ihre Grenzen. Entscheidend ist ein guter Match zwischen Nutzerbedürfnis und Modell.
 
 ## Integration der AI im System
-**Scope:** Wie viel des Systems wird von AI getragen? Handelt es sich um eine einzelne Komponente, einen Flow, ein Feature, eine Applikation oder eine ganze Plattform?
-**Raum:** Wie wird die AI im Verhältnis zur Funktionalität präsentiert? Nimmt sie das Zentrum ein oder ist sie nur ein kleines UI‑Element? Ist sie sichtbar oder läuft sie im Hintergrund? Wenn sichtbar: permanent oder nur auf Anfrage? 
-**Funktionalität:** Wie interagiert die AI mit bestehenden Features? Kann sie auf andere Informationen zugreifen oder ist sie funktional isoliert? Wird das Modell statisch betrieben oder kontinuierlich mit neuen Daten und Schnittstellen angepasst? 
+1. **Scope:** Wie viel des Systems wird von AI getragen? Handelt es sich um eine einzelne Komponente, einen Flow, ein Feature, eine Applikation oder eine ganze Plattform?
+2. **Raum:** Wie wird die AI im Verhältnis zur Funktionalität präsentiert? Nimmt sie das Zentrum ein oder ist sie nur ein kleines UI‑Element? Ist sie sichtbar oder läuft sie im Hintergrund? Wenn sichtbar: permanent oder nur auf Anfrage? 
+3. **Funktionalität:** Wie interagiert die AI mit bestehenden Features? Kann sie auf andere Informationen zugreifen oder ist sie funktional isoliert? Wird das Modell statisch betrieben oder kontinuierlich mit neuen Daten und Schnittstellen angepasst? 
 
-Eine klare Planung dieser Dimensionen hilft, die Rolle der AI im Gesamtsystem zu definieren und zu optimieren. Ergänzend sind Datensicherheit und die entstehenden Kosten (z. B. Lizenz‑ oder Infrastrukturkosten) zu berücksichtigen.
+Eine klare Planung dieser Dimensionen hilft, die Rolle der AI im Gesamtsystem zu definieren und zu optimieren. Ergänzend sind Datensicherheit und die entstehenden Kosten (z. B. Lizenz‑ oder Infrastrukturkosten) zu berücksichtigen. Zur Nutzung und Kennzeichnung vom Teilbereich Generative AI findest du zudem Vorgaben auf dem [SBB Markenportal](https://brand.sbb.ch/document/6#/digital/artificial-intelligence). 
 
 ## Automatisierungsgrad
 Der angemessene Automatisierungsgrad hängt von den Nutzerbedürfnissen und dem Kontext ab. Zu hohe Automatisierung kann dazu führen, dass Fehler unentdeckt bleiben; zu geringe Automation verringert die Effizienz. Wähle den Grad so, dass Nutzen, Risiko und Vertrauen in einem ausgewogenen Verhältnis stehen.
