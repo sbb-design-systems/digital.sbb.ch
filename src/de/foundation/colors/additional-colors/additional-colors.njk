@@ -12,3 +12,16 @@ order: 2
     {% include "../../../../_includes/color-new.njk" %}
   {%- endfor -%}
 </div>
+
+<!--<sbb-title class="no-margin-bottom" level="3">Farben im Dark Mode </sbb-title>
+
+<div class="color-group">
+  {%- for colors, color in colors.additional | sortColorsByOrder -%} 
+    {% include "../../../../_includes/color-new.njk" %}
+  {%- endfor -%}
+</div>-->
+
+<sbb-toggle class="switcher" size="s" value="light">
+    <sbb-toggle-option class="switch" icon-name="sunshine-small" value="light" checked></sbb-toggle-option>
+    <sbb-toggle-option class="switch" icon-name="moon-small" value="dark"></sbb-toggle-option>
+</sbb-toggle>
