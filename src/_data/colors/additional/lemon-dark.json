@@ -2,5 +2,6 @@
     "order": 110,
     "title":"Lemon",
     "hex":"#FFE547",
-    "rgb": "R:255 G:229 B:71"
+    "rgb": "R:255 G:229 B:71",
+    "mode": "dark"
 }

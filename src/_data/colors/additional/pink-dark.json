@@ -2,5 +2,6 @@
     "order": 60,
     "title":"Pink",
     "hex":"#E45295",
-    "rgb": "R:228 G:82 B:149"
+    "rgb": "R:228 G:82 B:149",
+    "mode": "dark"
 }

@@ -2,5 +2,6 @@
     "order": 90,
     "title":"Orange",
     "hex":"#F27E00",
-    "rgb": "R:0242 G:126 B:0"
+    "rgb": "R:0242 G:126 B:0",
+    "mode": "light"
 }

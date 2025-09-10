@@ -2,5 +2,6 @@
     "order": 40,
     "title":"Night",
     "hex":"#143A85",
-    "rgb": "R:20 G:58 B:133"
+    "rgb": "R:20 G:58 B:133",
+    "mode": "light"
 }
