@@ -5,7 +5,6 @@ Die Komponente hat folgende Varianten: {.lead}
 
 * Content-Box
 * Footer-Box
-* Header-Box
 
 ### Content-Box
 {{ imageWithMode({
@@ -19,13 +18,6 @@ Die Komponente hat folgende Varianten: {.lead}
   url: '/assets/images/mobile/container-footer-box',
   alt: 'Container, Footer-Box',
   title: 'Container, Footer-Box'
-}) }}
-
-### Header-Box
-{{ imageWithMode({
-  url: '/assets/images/mobile/container-header-box',
-  alt: 'Container, Header-Box',
-  title: 'Container, Header-Box'
 }) }}
 
 ## Spezifikationen

@@ -1,5 +1,5 @@
 {
-    "tag":"container",
+    "tag":"header-box",
     "system":"mobile",
     "list":"components",
     "language": {
@@ -8,10 +8,9 @@
         "it": false,
         "en": true
     },
-    "order": 60,
-    "categories":["Container"],
-    "keywords":["container", "content", "footer"],
-    "image": "/assets/images/mobile/overview/container",
+    "order": 90,
+    "categories":["Navigation"],
+    "keywords":["header", "box"],
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

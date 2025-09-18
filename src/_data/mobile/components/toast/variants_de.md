@@ -1,8 +1,11 @@
 {% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
 
 ## Varianten
+Die Komponente hat folgende Varianten:
 
-### Standard
+* Aktion: Optional
+
+### Default
 {{ imageWithMode({
   url: '/assets/images/mobile/toast',
   alt: 'Dartellung einer Toast-Meldung',
