@@ -1,8 +1,0 @@
-<li data-keywords="{{ entry.data.keywords }}">
-    <sbb-card size="l" color="white">
-        <sbb-card-link {% if entry.url == page.url %}id="active-card" active{% endif %} href="{{entry.url}}">{{ entry.data.title }}</sbb-card-link>
-        <div class="card-content-component">
-            <sbb-title level="5">{{ entry.data.title | capitalizeWords }}</sbb-title>
-        </div>
-    </sbb-card>
-</li>

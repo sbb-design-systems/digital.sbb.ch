@@ -1,0 +1,56 @@
+{
+    "tag":"checkbox-group",
+    "content":"<sbb-checkbox-group class='demo-item' value='checkbox-1' orientation='vertical' size='s'><sbb-checkbox class='checkbox' value='checkbox-1' icon-name='unicorn-small' icon-placement='start'>Label 1</sbb-checkbox><sbb-checkbox class='checkbox' value='checkbox-2' icon-name='dog-small' icon-placement='start'>Label 2</sbb-checkbox><sbb-checkbox class='checkbox' value='checkbox-3' icon-name='pizza-slice-small' icon-placement='start'>Label 3</sbb-checkbox></sbb-checkbox-group>",
+    "configuration" : [
+        {
+            "attribute":"orientation",
+            "label":"orientation",
+            "target":"demo-item",
+            "default":"vertical",
+            "mode":"property",
+            "options" : [{
+                "value":"vertical",
+                "label":"vertical"
+            }, 
+            {
+                "value":"horizontal",
+                "label":"horizontal"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"xs",
+                "label":"xs"
+            },
+            {
+                "value":"s",
+                "label":"s"
+            },  
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        },
+        {
+            "attribute":"icon-placement",
+            "label":"icon-placement",
+            "target":"checkbox",
+            "default":"start",
+            "mode":"property",
+            "options" : [{
+                "value":"start",
+                "label":"start"
+            }, 
+            {
+                "value":"end",
+                "label":"end"
+            }]
+        }
+        
+    ]
+}

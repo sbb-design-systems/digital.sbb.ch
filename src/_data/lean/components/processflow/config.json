@@ -1,0 +1,25 @@
+{
+    "tag":"processflow",
+    "system":"lean",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 240,
+    "categories":["Navigation", "Indicator"],
+    "keywords":["processflow", "process indicator", "progress tracker", "multi step", "wizard", "stepper", "steps"],
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

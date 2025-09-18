@@ -1,0 +1,11 @@
+{% if pattern.config.tabs.hasVariants == true %}
+    {% set variantspath = ["src/_data/", system, "/components/", component, "/variants_", language, ".md"] | join %}
+    {% set variants %}{% include variantspath %}{% endset %}
+    <sbb-tab-label level="1">
+        <sbb-icon name="{{tabs[1].icon}}" slot="icon"></sbb-icon>
+        {{tabs[1].label[language]}}
+    </sbb-tab-label>
+    <sbb-tab>
+        {{ variants | renderUsingMarkdown | safe }}
+    </sbb-tab>
+{% endif %}

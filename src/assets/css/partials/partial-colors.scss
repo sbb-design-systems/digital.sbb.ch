@@ -33,19 +33,11 @@
   .preview {
     block-size: var(--sbb-spacing-fixed-24x);
     display: block;
-    inline-size: calc(100% + var(--sbb-spacing-fixed-12x));
-    margin-inline: calc(-1 * var(--sbb-spacing-fixed-6x));
-    margin-block-start: calc(-1 * var(--sbb-spacing-fixed-6x));
+    inline-size: calc(100% + (2 * var(--sbb-spacing-responsive-xxs)));
+    margin-inline: calc(-1 * var(--sbb-spacing-responsive-xxs));
+    margin-block-start: calc(-1 * var(--sbb-spacing-responsive-xxs));
     border-start-start-radius: calc(var(--sbb-spacing-fixed-3x) - var(--sbb-border-width-1x));
     border-start-end-radius: calc(var(--sbb-spacing-fixed-3x) - var(--sbb-border-width-1x));
-
-    @include sbb.mq($from: medium) {
-      inline-size: calc(100% + var((--sbb-spacing-fixed-16x)));
-      margin-inline: calc(-1 * var(--sbb-spacing-fixed-8x));
-      margin-block-start: calc(-1 * var(--sbb-spacing-fixed-4x));
-
-      
-    }
   }
 
   sbb-title {
@@ -95,4 +87,8 @@
   color: var(--sbb-color-white);
   flex: 0.5 1 auto;
   background: var(--sbb-color-red);
+}
+
+.color-switch{
+  margin-block: var(--sbb-spacing-responsive-s);
 }

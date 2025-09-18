@@ -1,0 +1,68 @@
+{
+    "tag":"message",
+    "content":"<sbb-message><sbb-image style='' class='demo-image' slot='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Helpteaser-Background-Landscape.png'></sbb-image><sbb-title level='3' slot='title'>Unfortunately, an error has occurred.</sbb-title><p class='demo-subtitle' slot='subtitle'>Please reload the page or try your search again later.</p><p class='demo-legend' slot='legend'>Error code: 0001</p><sbb-secondary-button class='demo-action' slot='action' icon-name='arrows-circle-small' size='m'></sbb-secondary-button></sbb-message>",
+    "configuration" : [
+        {
+            "attribute":"slot",
+            "label":"image",
+            "target":"demo-image",
+            "default":"image",
+            "mode":"property",
+            "options" : [{
+                "value":"image",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"subtitle",
+            "target":"demo-subtitle",
+            "default":"subtitle",
+            "mode":"property",
+            "options" : [{
+                "value":"subtitle",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"legend",
+            "target":"demo-legend",
+            "default":"legend",
+            "mode":"property",
+            "options" : [{
+                "value":"legend",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"action",
+            "target":"demo-action",
+            "default":"action",
+            "mode":"property",
+            "options" : [{
+                "value":"action",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        }
+    ]
+}
+
+ 

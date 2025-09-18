@@ -1,0 +1,88 @@
+{
+    "tag":"radio-button-panel",
+    "content":"<sbb-radio-button-panel style='width:75%' value='Value' name='name' color='white' size='m' class='demo-item'>Label<span slot='subtext' class='subtext' >Subtext</span><span slot='suffix' class='suffix' style='margin-inline-start: auto;'><span style='display:flex;align-items:center;'><sbb-icon name='diamond-small' style='margin-inline: var(--sbb-spacing-fixed-2x);'></sbb-icon><span class='sbb-text-m sbb-text--bold'>CHF 40.00</span></span></span><sbb-card-badge class='badge' slot='badge'>%</sbb-card-badge></sbb-radio-button-panel>",
+    "configuration" : [
+        {
+            "attribute":"color",
+            "label":"color",
+            "target":"demo-item",
+            "default":"white",
+            "mode":"property",
+            "options" : [{
+                "value":"white",
+                "label":"white"
+            },
+            {
+                "value":"milk",
+                "label":"milk"
+            }]
+        },
+        {
+            "attribute":"borderless",
+            "label":"borderless",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"badge",
+            "label":"badge",
+            "target":"badge",
+            "default":"badge",
+            "mode":"slot",
+            "options" : [
+            {
+                "value":"badge",
+                "label":"true"
+            },
+            {
+                "value":"no",
+                "label":"false"
+            }
+            
+            ]
+        },
+        {
+            "attribute":"suffix",
+            "label":"suffix",
+            "target":"suffix",
+            "default":"suffix",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"suffix",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"subtext",
+            "label":"subtext",
+            "target":"subtext",
+            "default":"subtext",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"subtext",
+                "label":"true"
+            }
+            ]
+        }
+    ]
+}
+
+

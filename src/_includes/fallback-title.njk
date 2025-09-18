@@ -1,0 +1,8 @@
+{% if defaultcontent.data.alternativetitle.length %}
+    {% set pagetitle = defaultcontent.data.alternativetitle %}
+{% else %}
+    {% set pagetitle = defaultcontent.data.title %}
+{% endif %}     
+
+<sbb-title aria-level="1" level="1" visual-level="1">{{pagetitle}}</sbb-title>
+{% if title == "Lyne" %}<p  class="subtext">{{lyne.version.branch}}</p>{% else %}{% endif %}

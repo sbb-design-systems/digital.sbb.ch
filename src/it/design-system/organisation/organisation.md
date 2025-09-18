@@ -6,5 +6,5 @@ key: organisation_it
 title: Organizzazione
 redirect: /it/design-system/organisation/process/
 parent: designsystem_it
-order: 2
+order: 20
 ---

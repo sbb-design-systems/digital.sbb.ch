@@ -4,12 +4,13 @@ tags:
     - level3
     - dshome
 key: overview-lean_fr
+system: lean
+list: all
 title: Aperçu
-alternativetitle: Design System Lean
+alternativetitle: Lean
 parent: lean_fr
 order: 1
-basics: true
-components: true
+
 availablelanguages: 
     - de
     - en

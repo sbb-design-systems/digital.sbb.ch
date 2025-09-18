@@ -1,0 +1,25 @@
+{% for component, entry in patternlibrary.components | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "patterns")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}
+{% for component, entry in lyne.components | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "patterns")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}
+{% for component, entry in mobile.components | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "patterns")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}
+{% for component, entry in lean.components | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "patterns")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}
+{% for component, entry in maps.components | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "patterns")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}

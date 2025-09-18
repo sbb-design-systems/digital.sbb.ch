@@ -7,8 +7,16 @@ parent: colors_de
 order: 2
 ---
 <p class="lead">Zusatzfarben dürfen nur mit Einverständnis von KOM verwendet werden. Jeglicher Einsatz dieser Farben muss KOM vorgelegt und ausdrücklich genehmigt werden. Zusatzfarben dürfen nur für ganz bestimmte Bereiche zum Einsatzt kommen. Überall dort, wo die CD Farbpalette aus UX-Gründen nicht mehr ausreichend ist. Zum Beispiel für Infoboxen oder Ähnliches.</p>
-<div class="color-group">
-  {%- for colors, color in colors.additional | sortColorsByOrder -%} 
-    {% include "../../../../_includes/color-new.njk" %}
+
+<sbb-toggle class="color-switch" size="m" value="light">
+    <sbb-toggle-option class="switch" icon-name="sunshine-small" value="light" checked></sbb-toggle-option>
+    <sbb-toggle-option class="switch" icon-name="moon-small" value="dark"></sbb-toggle-option>
+</sbb-toggle>
+
+<div class="color-group" id="color-group" data-mode="light">
+  {%- for colors, color in colors.additional | sortColorsByOrder -%}
+      {% include "../../../../_includes/color-new.njk" %}
   {%- endfor -%}
 </div>
+
+<script src="/assets/js/color-switch.js"></script>

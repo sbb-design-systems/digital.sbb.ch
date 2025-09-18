@@ -1,0 +1,26 @@
+{
+    "tag":"up-dn-counter",
+    "system":"mobile",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 290,
+    "categories":["Form", "Indicator"],
+    "keywords":["count", "amount", "up", "down", "increment", "decrement"],
+    "image": "/assets/images/mobile/overview/up-dn-counter",
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "tag":"image",
+    "content":"<div style='width: 66%'><figure class='sbb-figure'><sbb-image class='demo-item sbb-image-16-9' alt='Alt-Text' copyright='' focal-point-x='' focal-point-y='' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Billetkontrolle.jpg' loading='lazy' lqip='' performance-mark=''></sbb-image><sbb-chip-label size='xxs' class='chip-label hidden' style='z-index: 1'>Label</sbb-chip-label><figcaption class='demo-figcaption'>Caption</figcaption></figure></div>",
+    "configuration" : [
+        {
+            "attribute":"style",
+            "label":"caption",
+            "target":"demo-figcaption",
+            "default":"display:block;",
+            "mode":"property",
+            "options" : [{
+                "value":"display:block;",
+                "label":"true"
+            },
+            {
+                "value":"display:none;",
+                "label":"false"
+            } 
+            ]
+        },
+        {
+            "attribute":"class",
+            "label":"chip",
+            "target":"chip-label",
+            "default":"chip-label hidden",
+            "mode":"property",
+            "options" : [
+            {
+                "value":"chip-label hidden",
+                "label":"false"
+            },
+            {
+                "value":"sbb-figure-overlap-start-start chip-label",
+                "label":"top-left"
+            },
+            {
+                "value":"sbb-figure-overlap-start-end chip-label",
+                "label":"top-right"
+            },
+            {
+                "value":"sbb-figure-overlap-end-start chip-label",
+                "label":"bottom-left"
+            },
+            {
+                "value":"sbb-figure-overlap-end-end chip-label",
+                "label":"bottom-right"
+            }
+            ]
+        },
+        {
+            "attribute":"class",
+            "label":"aspect-ratio",
+            "target":"demo-item",
+            "default":"free",
+            "mode":"property",
+            "options" : [{
+                "value":"demo-item sbb-image-free",
+                "label":"free"
+            },
+            {
+                "value":"demo-item sbb-image-1-1",
+                "label":"ratio-1-1"
+            },
+            {
+                "value":"demo-item sbb-image-1-2",
+                "label":"ratio-1-2"
+            },
+            {
+                "value":"demo-item sbb-image-2-1",
+                "label":"ratio-2-1"
+            },
+            {
+                "value":"demo-item sbb-image-2-3",
+                "label":"ratio-2-3"
+            },
+            {
+                "value":"demo-item sbb-image-3-2",
+                "label":"ratio-3-2"
+            },
+            {
+                "value":"demo-item sbb-image-3-4",
+                "label":"ratio-3-4"
+            },
+            {
+                "value":"demo-item sbb-image-4-3",
+                "label":"ratio-4-3"
+            },
+            {
+                "value":"demo-item sbb-image-4-5",
+                "label":"ratio-4-5"
+            },
+            {
+                "value":"demo-item sbb-image-5-4",
+                "label":"ratio-5-4"
+            },
+            {
+                "value":"demo-item sbb-image-16-9",
+                "label":"ratio-16-9"
+            },
+            {
+                "value":"demo-item sbb-image-9-16",
+                "label":"ratio-9-16"
+            }
+            ]
+        }
+    ]
+}

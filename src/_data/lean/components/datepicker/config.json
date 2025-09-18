@@ -1,0 +1,25 @@
+{
+    "tag":"datepicker",
+    "system":"lean",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 110,
+    "categories":["Form"],
+    "keywords":["calendar", "date", "datepicker", "picker", "time"],
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "tag":"divider",
+    "system":"lean",
+    "list":"basics",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 130,
+    "categories":["Display"],
+    "keywords":["Divider", "Line", "Separation"],
+    "hasTabs": false,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

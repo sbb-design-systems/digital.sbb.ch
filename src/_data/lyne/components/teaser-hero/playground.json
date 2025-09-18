@@ -1,0 +1,50 @@
+{
+    "tag":"teaser-hero",
+    "content":"<div style='width:100%;'><sbb-teaser-hero class='demo-item' href='#'>Break out and explore castles and palaces.<span class='link-label' slot='link-content'>Kurzer Link</span><figure slot='image' class='sbb-figure'><sbb-image id='image' image-src='https://cdn.img.sbb.ch/content/dam/internet/lyne/Hoehenrundweg-Gryden-Lenk.jpg' alt='Höhenrundweg Gryden Lenk'></sbb-image><sbb-chip-label class='sbb-figure-overlap-start-start chip-label' style='z-index: 1'>Chip label</sbb-chip-label></figure></sbb-teaser-hero></div>",
+    "configuration" : [
+        {
+            "attribute":"link-content",
+            "label":"link-content",
+            "target":"link-label",
+            "default":"Kurzer Link",
+            "mode":"value",
+            "options" : [{
+                "value":"Kurzer Link",
+                "label":"short"
+            },
+            {
+                "value":"Ein viel zu langer Linktext wird umbrochen.",
+                "label":"long"
+            }]
+        },
+        {
+            "attribute":"class",
+            "label":"chip",
+            "target":"chip-label",
+            "default":"sbb-figure-overlap-start-start chip-label",
+            "mode":"property",
+            "options" : [{
+                "value":"sbb-figure-overlap-start-start chip-label",
+                "label":"top-left"
+            },
+            {
+                "value":"sbb-figure-overlap-start-end chip-label",
+                "label":"top-right"
+            },
+            {
+                "value":"sbb-figure-overlap-end-start chip-label",
+                "label":"bottom-left"
+            },
+            {
+                "value":"sbb-figure-overlap-end-end chip-label",
+                "label":"bottom-right"
+            },
+            {
+                "value":"chip-label hidden",
+                "label":"false"
+            }
+            ]
+        }
+    ]
+}
+

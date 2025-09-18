@@ -1,20 +1,8 @@
-
-
-
-{% if defaultcontent.data.key.length %}
-    {% if defaultcontent.data.alternativetitle.length %}
-    <sbb-title level="1">{{defaultcontent.data.alternativetitle}}</sbb-title>
-    <p class="subtext">{% if defaultcontent.data.alternativetitle == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
-    {% else %}
-    <sbb-title level="1">{{defaultcontent.data.title}}</sbb-title>
-    <p class="subtext">{% if defaultcontent.data.title == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
-    {% endif %}
+{% if alternativetitle.length %}
+    {% set pagetitle = alternativetitle %}
 {% else %}
-    {% if alternativetitle.length %}
-    <sbb-title level="1">{{alternativetitle}}</sbb-title>
-    <p class="subtext">{% if alternativetitle == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
-    {% else %}
-    <sbb-title level="1">{{title}}</sbb-title>
-    <p  class="subtext">{% if title == "Lyne" %}{{lyne.version.branch}}{% else %}{% endif %}</p>
-    {% endif %}
-{% endif %}
+    {% set pagetitle = title %}
+{% endif %}   
+
+<sbb-title aria-level="1" level="1" visual-level="1" role="heading">{{pagetitle}}</sbb-title>
+{% if system == "lyne" %}<p  class="subtext">{{lyne.version.branch}}</p>{% else %}{% endif %}

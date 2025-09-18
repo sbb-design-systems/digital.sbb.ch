@@ -34,10 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
                     break;
             }
         });
-
-        console.log("Datamode:", datamode);
-        console.log("Target class:", datatarget);
-        console.log("Property:", dataproperty);
-        console.log("Value:", value);
     }));
 });

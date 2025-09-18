@@ -3,13 +3,14 @@ layout: overview.njk
 tags: 
     - level3
     - dshome
-key: overview-mobile_it
+key: overview-mobile_fr
+system: mobile
+list: all
 title: Introduzione
-alternativetitle: Design System Mobile
+alternativetitle: Mobile
 parent: mobile_it
 order: 1
-basics: true
-components: true
+
 availablelanguages: 
     - de
     - en

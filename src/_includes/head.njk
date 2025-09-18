@@ -9,8 +9,25 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-{% if (layout == "component-lyne.njk") %}
-    <title>{{lyne.components[component].config.tag.slice(4) | capitalizeWords}} – digital.sbb.ch</title>
+
+{% if (layout == "component.njk") %}
+
+{% if system == "mobile" %}
+  {% set sys = mobile %}
+{% elif system == "maps" %}
+  {% set sys = maps %}
+{% elif system == "lyne" %}
+  {% set sys = lyne %}
+{% elif system == "lean" %}
+  {% set sys = lean %}
+{% elif system == "patternlibrary" %}
+  {% set sys = patternlibrary %}
+{% endif %}
+
+{% set patterns = sys.components %}
+{% set pattern = sys.components[component] %}
+
+    <title>{{pattern.config.tag | capitalizeWords}} – digital.sbb.ch</title>
 {% else %}
     <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
 {% endif %}
@@ -35,7 +52,7 @@
 
 <link rel="modulepreload" href="/assets/js/lyne-bundle.js">
 
-{% if (layout == "community-assets.njk") or (layout == "assets.njk") or (layout == "overview.njk") or (layout == "overview-lyne.njk") or (layout == "component.njk") or (layout == "component-lyne.njk") or (layout == "token-lyne.njk") %}
+{% if (layout == "overview.njk") or (layout == "component.njk") %}
 <script src="/assets/js/listjs/list.min.js"></script>
 {% endif %}
 

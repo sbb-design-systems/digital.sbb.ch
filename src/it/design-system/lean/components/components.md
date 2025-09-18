@@ -1,14 +1,9 @@
 ---
-layout: overview.njk
-tags: level3
-key: lean_components_it
-title: Componenti
-alternativetitle: Componenti Lean
-parent: lean_it
-order: 3
-basics: false
-components: true
-availablelanguages: 
-    - de
-    - en
+layout: component.njk
+system: lean
+pagination:
+  data: lean.components
+  size: 1
+  alias: component
+permalink: "/it/design-system/lean/{{lean.components[component].config.list | slugify}}/{{lean.components[component].config.tag | slugify}}/"
 ---

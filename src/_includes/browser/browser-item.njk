@@ -1,0 +1,22 @@
+{% if (entry.config.showInFirstLevel == true)  %}
+    {% set getSegementsOfPageUrl = page.url.split('/') %}
+    <li data-keywords="{{ entry.config.keywords }}" data-categories="{{ entry.config.categories }}">
+        <sbb-card size="l" color="white">
+            <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag %}id="active-card"{% endif %} href="{{page.lang}}/design-system/{{entry.config.system}}/{{entry.config.list}}/{{entry.config.tag}}" {% if getSegementsOfPageUrl[5] == entry.config.tag %}active{% endif %}>More Info</sbb-card-link>
+            <div class="card-content-component">
+                <div class="title-chips">
+                    <sbb-title class="search-title" level="5">{{ entry.config.tag | capitalizeWords}}</sbb-title>
+                    <div class="chips">
+                        {% for chip in entry.config.categories %}
+                            <sbb-chip-label color="milk">{{chip}}</sbb-chip-label>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% include "./partial-status.njk" %}
+                {% if layout == "overview.njk" and system == "mobile" and entry.config.image.length %}
+                    <img class="overview-image" style="max-width: 100%" src="{{ entry.config.image}}.webp" alt="Darstellung des Chips" title="Chip" sizes="100vw" srcset="{{ entry.config.image}}.webp 1x, {{ entry.config.image}}@2x.webp 2x, {{ entry.config.image}}@3x.webp 3x">
+                {% endif %}
+            </div>
+        </sbb-card>
+    </li>
+{% endif %}

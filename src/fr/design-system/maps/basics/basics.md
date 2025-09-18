@@ -1,13 +1,14 @@
 ---
 layout: overview.njk
 tags: level3
-key: basics-maps_fr
+system: maps
+list: basics
 title: Base
 alternativetitle: Base Maps
 parent: maps_fr
-order: 2
-basics: true
-components: false
+order: 30
+
 availablelanguages: 
     - de
 ---
+

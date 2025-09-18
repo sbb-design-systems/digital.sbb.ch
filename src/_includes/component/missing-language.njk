@@ -1,0 +1,5 @@
+<sbb-notification type="warn" readonly>
+    {{ translations[page.lang].missingtranslation }}:
+    {% if pattern.config.language.de == true %}<sbb-link href="de/design-system/{{system}}/{{pattern.config.list}}/{{pattern.config.tag}}">Deutsch</sbb-link>{% endif %}
+    {% if pattern.config.language.en == true %}<sbb-link href="en/design-system/{{system}}/{{pattern.config.list}}/{{pattern.config.tag}}">English</sbb-link>{% endif %}
+</sbb-notification>

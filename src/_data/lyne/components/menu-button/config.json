@@ -1,0 +1,31 @@
+{
+    "tag":"menu-button",
+    "system":"lyne",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },    
+    "order": 650,
+    "categories":["Navigation"],
+    "keywords":["Context Menu", "Menu", "Link", "Button"],
+    "hasTabs": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasPlayground": false,
+        "hasImplementation": true
+    },
+    "showInFirstLevel": true,
+    "childs": false,
+    "isChildOf": ["menu"],
+    "similar":["menu-link"],
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

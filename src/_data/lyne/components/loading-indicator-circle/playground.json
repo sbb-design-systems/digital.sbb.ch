@@ -1,0 +1,27 @@
+{
+    "tag":"loading-indicator",
+    "content":"<sbb-loading-indicator-circle class='demo-item' color='default'></sbb-loading-indicator>",
+    "configuration" : [
+        {
+            "attribute":"color",
+            "label":"color",
+            "target":"demo-item",
+            "default":"default",
+            "mode":"property",
+            "options" : [{
+                "value":"default",
+                "label":"default"
+            }, 
+            {
+                "value":"smoke",
+                "label":"smoke"
+            }, 
+            {
+                "value":"white",
+                "label":"white"
+            }]
+        }
+    ]
+}
+
+ 

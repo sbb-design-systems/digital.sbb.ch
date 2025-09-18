@@ -1,0 +1,87 @@
+{
+    "tag":"select",
+    "content":"<sbb-form-field size='m' class='demo-item-negative'><label>Select</label><sbb-select class='demo-item demo-item-negative' placeholder='Please select value.'><sbb-option value='Option 1'>Option 1</sbb-option><sbb-option value='Option 2'>Option 2</sbb-option><sbb-option value='Option 3'>Option 3</sbb-option><sbb-option value='Option 4'>Option 4</sbb-option><sbb-option value='Option 5'>Option 5</sbb-option></sbb-select></sbb-form-field>",
+    "configuration" : [
+        {
+            "attribute":"multiple",
+            "label":"multipleoption",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item-negative",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            },
+            {
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item-negative",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"disabled",
+            "label":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"readonly",
+            "label":"readonly",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}
+
+ 

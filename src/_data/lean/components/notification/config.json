@@ -1,0 +1,25 @@
+{
+    "tag":"notification",
+    "system":"lean",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 220,
+    "categories":["Indicator"],
+    "keywords":["notification", "alert", "message", "banner", "feedback", "error"],
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

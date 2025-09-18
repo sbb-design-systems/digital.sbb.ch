@@ -3,9 +3,8 @@ permalink: false
 hideInSitemap: true
 tags: level2
 key: mobile_it
-title: Mobile
-alternativetitle: Design System Mobile
-redirect: /it/design-system/mobile/overview/
+title: Mobile 
+redirect: /fr/design-system/monbilenew/overview/
 parent: designsystem_it
-order: 3
+order: 35
 ---

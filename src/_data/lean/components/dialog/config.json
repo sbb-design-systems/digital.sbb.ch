@@ -1,0 +1,25 @@
+{
+    "tag":"dialog",
+    "system":"lean",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order":120,
+    "categories":["Container"],
+    "keywords":["dialog", "modal", "popup", "lightbox"],
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

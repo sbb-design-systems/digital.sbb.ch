@@ -1,0 +1,26 @@
+{
+    "tag":"segmented-button",
+    "system":"mobile",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 200,
+    "categories":["Navigation"],
+    "keywords":["segmented", "button", "toggle", "switch", "navigation"],
+    "image": "/assets/images/mobile/overview/segmented-button",
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

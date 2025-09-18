@@ -1,0 +1,17 @@
+{% if (pattern.config.tabs.hasPlayground == true) or (pattern.config.hasStorybook == true) %}  
+    {% set playground = patterns[pattern.config.tag].playground %}
+    <sbb-tab-label level="2">
+        <sbb-icon name="{{tabs[2].icon}}" slot="icon"></sbb-icon>
+        Demo
+    </sbb-tab-label>
+    <sbb-tab>
+        {% if pattern.config.hasPlayground == true%}
+            {% include "./playground.njk" %}
+            <script src="/assets/js/lyne-playground.js"></script>
+        {% endif %}
+        {% if pattern.config.hasStorybook == true %}
+            {% include "./storybook-story.njk" %}
+            <script src="/assets/js/lyne-examples.js"></script>
+        {% endif %}
+    </sbb-tab>
+{% endif %}

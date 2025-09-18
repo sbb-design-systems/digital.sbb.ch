@@ -1,0 +1,23 @@
+{
+    "tag":"file-selector",
+    "content":" <sbb-file-selector class='demo-item' variant='default' title-content='Title' multiple-mode='default' accessibility-label='Select from hard disk'></sbb-file-selector>",
+    "configuration" : [
+        {
+            "attribute":"disabled",
+            "label":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            },
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}
+
+ 

@@ -1,0 +1,25 @@
+{
+    "tag":"radiobuttonpanel",
+    "system":"lean",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": false
+    },
+    "order": 260,
+    "categories":["Form"],
+    "keywords":["radiobutton panel", "radio group", "radio buttons", "options", "selection"],
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

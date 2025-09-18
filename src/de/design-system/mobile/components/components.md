@@ -1,11 +1,9 @@
 ---
-layout: overview.njk
-tags: level3
-key: mobile_components_de
-title: Komponenten
-parent: mobile_de
-alternativetitle: Komponenten Mobile
-order: 3
-basics: false
-components: true
+layout: component.njk
+system: mobile
+pagination:
+  data: mobile.components
+  size: 1
+  alias: component
+permalink: "/de/design-system/mobile/{{mobile.components[component].config.list | slugify}}/{{mobile.components[component].config.tag | slugify}}/"
 ---

@@ -1,10 +1,11 @@
 //const litPlugin = require('@lit-labs/eleventy-plugin-lit');
-
 const sass = require("sass");
 const path = require("node:path");
 const lodash = require("lodash");
-const markdownIt = require('markdown-it');
-const mdRender = new markdownIt();
+const nunjucks = require("nunjucks");
+const markdownIt = require("markdown-it");
+const md = new markdownIt();
+
 const markdownItAttrs = require('markdown-it-attrs')
 const markdownItOptions = {
   html: true,
@@ -52,20 +53,10 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 
     eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
-        return `
-        {%- from "src/_includes/macros/macros.njk" import imageWithMode -%}\n
-        {%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}\n
-        {%- from "src/_includes/macros/macros.njk" import principleImage -%}\n
-        {%- from "src/_includes/macros/macros.njk" import svgImage -%}\n
-        {%- from "src/_includes/macros/macros.njk" import webpImage -%}\n
-        {%- from "src/_includes/macros/macros.njk" import buttonGroup -%}\n
-        {%- from "src/_includes/macros/macros.njk" import specificationLinks -%}\n
-        {%- from "src/_includes/macros/macros.njk" import imageSpec -%}\n
-        {%- from "src/_includes/macros/macros.njk" import lynePlayground -%}\n
-        {%- from "src/_includes/macros/macros.njk" import lyneExamples -%}\n
-        {%- from "src/_includes/macros/macros.njk" import lyneComponentLinks -%}\n
-        ` + content;
-    });  
+        return `{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}\n` + content;
+    }); 
+
+
 
     eleventyConfig.addTemplateFormats("scss");
     eleventyConfig.addExtension("scss", {
@@ -83,12 +74,13 @@ module.exports = async function(eleventyConfig) {
                 "node_modules"
             ]
             });
-            return (data) => {
+            this.addDependencies(inputPath, result.loadedUrls);
+            return async (data) => {
                 return result.css;
             };
         }
     });
-
+    
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
 
     eleventyConfig.addFilter("sortLyneComponentsByOrder", (obj) => {
@@ -245,6 +237,8 @@ module.exports = async function(eleventyConfig) {
         return markdownLib.render(rawString);
       });  
 
+
+      
 
     return {
         templateFormats: ["njk", "md"],

@@ -1,0 +1,87 @@
+{
+        "tag":"action-group",
+        "content":"<div class='full-width-wrapper'><sbb-action-group class='demo-item' orientation='vertical' button-size='m'><sbb-secondary-button>Action 1</sbb-secondary-button><sbb-secondary-button>Action 2</sbb-secondary-button><sbb-button>Action 3</sbb-button></sbb-action-group></div>",
+        "configuration" : [
+            {
+                "attribute":"button-size",
+                "label":"button-size",
+                "target":"demo-item",
+                "default":"m",
+                "mode":"property",
+                "options" : [{
+                    "value":"s",
+                    "label":"s"
+                },
+                {
+                    "value":"m",
+                    "label":"m"
+                }, 
+                {
+                    "value":"l",
+                    "label":"l"
+                }]
+            },
+            {
+                "attribute":"align-group",
+                "label":"align-group",
+                "target":"demo-item",
+                "default":"start",
+                "mode":"property",
+                "options" : [{
+                    "value":"start",
+                    "label":"left"
+                }, 
+                {
+                    "value":"center",
+                    "label":"center"
+                },
+                {
+                    "value":"end",
+                    "label":"right"
+                },
+                {
+                    "value":"stretch",
+                    "label":"stretch"
+                }]
+            },
+            {
+                "attribute":"horizontal-from",
+                "label":"horizontal-from",
+                "target":"demo-item",
+                "default":"medium",
+                "mode":"property",
+                "options" : [{
+                    "value":"",
+                    "label":"no-horizontal-distribution"
+                },
+                {
+                    "value":"zero",
+                    "label":"zero"
+                },
+                {
+                    "value":"micro",
+                    "label":"micro"
+                }, 
+                {
+                    "value":"small",
+                    "label":"small"
+                }, 
+                {
+                    "value":"medium",
+                    "label":"medium"
+                }, 
+                {
+                    "value":"large",
+                    "label":"large"
+                }, 
+                {
+                    "value":"wide",
+                    "label":"wide"
+                }, 
+                {
+                    "value":"ultra",
+                    "label":"ultra"
+                }]
+            }
+        ]
+}

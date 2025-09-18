@@ -1,0 +1,21 @@
+{
+    "tag":"primary-reference",
+    "system":"patternlibrary",
+    "list":"patterns",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": false
+    },
+    "order": 20,
+    "categories":["AI", "User", "Input"],
+    "keywords":["Vertrauen", "Dateien", "Data", "Referenz", "reference"],
+    "hasTabs": false,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "nok",
+        "documentation": "ok"
+    }
+}

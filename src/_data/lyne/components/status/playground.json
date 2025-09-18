@@ -1,0 +1,63 @@
+{
+    "tag":"status",
+    "content":"<div><p>with Title</p><sbb-status class='demo-item' role='status' type='info'><sbb-title level='3'>Title</sbb-title> An error occurred. <sbb-icon class='demo-icon' slot='test' name='glass-cocktail-small'></sbb-icon></sbb-status> <br><br><p>without Title</p><sbb-status class='demo-item' role='status' type='info'> An error occurred. <sbb-icon class='demo-icon' slot='test' name='glass-cocktail-small'></sbb-icon></sbb-status></div>",
+    "configuration" : [
+        {
+            "attribute":"type",
+            "label":"type",
+            "target":"demo-item",
+            "default":"info",
+            "mode":"property",
+            "options" : [{
+                "value":"info",
+                "label":"info"
+            }, 
+            {
+                "value":"success",
+                "label":"success"
+            }, 
+            {
+                "value":"warning",
+                "label":"warning"
+            }, 
+            {
+                "value":"error",
+                "label":"error"
+            }, 
+            {
+                "value":"pending",
+                "label":"pending"
+            }, 
+            {
+                "value":"incomplete",
+                "label":"incomplete"
+            }, 
+            {
+                "value":"not-started",
+                "label":"not-started"
+            }, 
+            {
+                "value":"in-progress",
+                "label":"in-progress"
+            }
+        ]
+        },
+        {
+            "attribute":"slot",
+            "label":"customicon",
+            "target":"demo-icon",
+            "default":"test",
+            "mode":"property",
+            "options" : [{
+                "value":"test",
+                "label":"false"
+            }, 
+            {
+                "value":"icon",
+                "label":"true"
+            }]
+        }
+    ]
+}
+
+ 

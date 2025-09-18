@@ -1,11 +1,9 @@
 ---
-layout: overview.njk
-tags: level3
-key: maps_components_de
-title: Informationen
-alternativetitle: Informationen Maps
-parent: maps_de
-order: 3
-basics: false
-components: true
+layout: component.njk
+system: maps
+pagination:
+  data: maps.components
+  size: 1
+  alias: component
+permalink: "/de/design-system/maps/{{maps.components[component].config.list | slugify}}/{{maps.components[component].config.tag | slugify}}/"
 ---

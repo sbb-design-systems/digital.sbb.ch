@@ -1,0 +1,15 @@
+<div class="token-table breakpoint-token">
+{% for token in lyne.components.designtokengrid.breakpoint %}
+{% if token.attributes.item == "min" %}    
+    <sbb-title level="3" visual-level="5">{{ token.path[1] }}</sbb-title>     
+    <div class="row">
+        <div class="token-name left">{{ token.name }}</div>
+        <div class="token-value center">{{ token.value }} - 
+{% endif %}   
+{% if token.attributes.item == "max" %}    
+        {{ token.value }}</div>     
+        <div class="token-name right">{{ token.name }}</div>
+    </div>
+{% endif %}     
+{% endfor %}
+</div>

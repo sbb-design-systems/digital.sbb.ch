@@ -1,0 +1,12 @@
+
+<sbb-tag-group id="categories" value="all" multiple size="s">
+    {% if layout == "component.njk" %}
+    {% else %}
+        <sbb-tag id="all" value="all" onchange="uncheckTags()">All</sbb-tag>
+        {% for category in categories%}
+            <sbb-tag value="{{category}}" onchange="uncheckAllTag()">{{category}}</sbb-tag>
+        {% endfor %}
+    {% endif %}
+</sbb-tag-group>
+
+

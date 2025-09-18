@@ -1,0 +1,10 @@
+## What does the component do?
+* Indicates a change within the app. {.lead}
+
+## When should the component be used?
+* When introducing a new function. {.lead}
+* In the event of a major change within the app. {.lead}
+
+## Rules
+* The Promotion-Box can be closed once and no longer appears. {.lead}
+* Description text has a maximum of 3 lines, additional information is displayed in a bottom sheet. {.lead}

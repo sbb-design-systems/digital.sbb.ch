@@ -1,0 +1,21 @@
+{
+    "tag":"templates",
+    "system":"patternlibrary",
+    "list":"patterns",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": false
+    },
+    "order": 20,
+    "categories":["AI", "Vertrauen", "Input"],
+    "keywords":["Vertrauen", "Vorlagen", "templates"],
+    "hasTabs": false,
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "nok",
+        "documentation": "ok"
+    }
+}

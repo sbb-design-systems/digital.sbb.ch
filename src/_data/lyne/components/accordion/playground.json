@@ -1,0 +1,38 @@
+{
+    "tag":"accordion",
+    "content":"<sbb-accordion class='demo-item' title-level='3' style='width:75%;'><sbb-expansion-panel><sbb-expansion-panel-header>Header 1</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 1</sbb-expansion-panel-content></sbb-expansion-panel><sbb-expansion-panel><sbb-expansion-panel-header>Header 2</sbb-expansion-panel-header><sbb-expansion-panel-content>Content 2</sbb-expansion-panel-content></sbb-expansion-panel></sbb-accordion>",
+    "configuration" : [
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"l",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }]
+        },
+        {
+            "attribute":"multi",
+            "label":"multi",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
+}
+
+ 

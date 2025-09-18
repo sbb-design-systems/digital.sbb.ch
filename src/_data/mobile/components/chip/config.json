@@ -1,0 +1,26 @@
+{
+    "tag":"chip",
+    "system":"mobile",
+    "list":"components",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 50,
+    "categories":["Form"],
+    "keywords":["chip", "chips", "tag", "label", "badge"],
+    "image": "/assets/images/mobile/overview/chip",
+    "hasTabs": true,
+    "tabs": { 
+        "hasOverview": true,
+    "hasVariants": true
+    },
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "ok",
+        "documentation": "ok"
+    }
+}

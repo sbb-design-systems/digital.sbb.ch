@@ -1,23 +1,98 @@
 ---
 layout: base.njk
 ---
-{% set tabkey = key %}
-{% if availablelanguages.length %}
-  {% include "../_includes/missing-languages.njk" %}
-  
-  {% set tabkey = key.slice(0, -2)+"de" %}
-  {% set subpagescheck = collections[tabkey] %}
-  {% if subpagescheck|length %}
-    {% include "../_includes/component/tab.njk" %}
-  {% endif %}
-{% else %}
-  {% include "../_includes/title.njk" %}
-  {{ content | safe }}
-  {% set subpagescheck = collections[tabkey] %}
-  {% if subpagescheck|length %}
-    {% include "../_includes/component/tab.njk" %}
-  {% endif %}
+
+{% if system == "mobile" %}
+  {% set sys = mobile %}
+{% elif system == "maps" %}
+  {% set sys = maps %}
+{% elif system == "lyne" %}
+  {% set sys = lyne %}
+{% elif system == "lean" %}
+  {% set sys = lean %}
+{% elif system == "patternlibrary" %}
+  {% set sys = patternlibrary %}
 {% endif %}
 
+{% set patterns = sys.components %}
+{% set pattern = sys.components[component] %}
+
+{# set Languages #}
+{% if (page.lang == "de") and pattern.config.language.de == true %}
+  {% set language = page.lang %}
+{% elif (page.lang == "en") and pattern.config.language.en == true %}
+  {% set language = page.lang %}
+{% else %}
+  {% set language = "de" %}
+  {% include "../_includes/component/missing-language.njk" %}
+{% endif %}
+
+{% set componentTranslations = translations[language][system] %}
+{% set tabs = sys.tabs.tabs %}
+{% set categories = sys.categories %}
+{% set storybookStories = sys.stories[0] %}
 
 
+{% include "../_includes/component/title.njk" %}
+
+
+{% if pattern.config.hasTabs == false %}
+  {% if (pattern.config.system == "lyne") and (pattern.config.list == "design-tokens") %}
+    {% set contentpath = ["src/_data/", system, "/components/", component, "/content_", language, ".njk"] | join %}
+    {% set content %}{% include contentpath %}{% endset %}
+    {{ content | safe }}
+    {% else %}
+    {% set contentpath = ["src/_data/", system, "/components/", component, "/content_", language, ".md"] | join %}
+    {% set content %}{% include contentpath %}{% endset %}
+    {{ content | renderUsingMarkdown | safe }}
+  {% endif %}
+
+
+
+{% else %}
+<sbb-tab-group class="tab-documentation" initial-selected-index="0">
+        {#Overview#}
+        {% include "../_includes/component/tab-overview.njk" %}
+
+        {#Variants#}
+        {% include "../_includes/component/tab-variants.njk" %}
+
+        {#Anatomy#}
+        {% include "../_includes/component/tab-anatomy.njk" %}
+
+        {#Playground#}
+        {% include "../_includes/component/tab-playground.njk" %}
+
+        {#Implementation#}
+        {% include "../_includes/component/tab-implementation.njk" %}
+</sbb-tab-group>
+
+{% endif %}
+
+{% if (page.url == "/de/design-system/components/dialog/") or (page.url == "/en/design-system/components/dialog/") %}
+    <script>
+    const buttons = document.querySelectorAll(".dialogtrigger");
+    function buttonClicked(index) {
+        const dialog = document.getElementById("dialog-"+(index + 1));
+        console.log(dialog.id);
+        dialog.open(event);
+    }
+    buttons.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+    });
+    </script>
+{% endif %}
+
+{% if (page.url == "/de/design-system/components/overlay/") or (page.url == "/en/design-system/components/overlay/") %}
+    <script>
+    const buttons = document.querySelectorAll(".overlaytrigger");
+    function buttonClicked(index) {
+        const overlay = document.getElementById("overlay-"+(index + 1));
+        console.log(overlay.id);
+        overlay.open(event);
+    }
+    buttons.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+    });
+    </script>
+{% endif %}

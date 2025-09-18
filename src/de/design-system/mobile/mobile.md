@@ -3,9 +3,8 @@ permalink: false
 hideInSitemap: true
 tags: level2
 key: mobile_de
-title: Mobile
-alternativetitle: Design System Mobile
+title: Mobile 
 redirect: /de/design-system/mobile/overview/
 parent: designsystem_de
-order: 3
+order: 35
 ---

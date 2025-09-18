@@ -1,9 +1,107 @@
+const patterncategories = document.getElementById("categories");
+const buttons = document.querySelectorAll(".more-details");
+const searchinput = document.getElementById("search-input");
+const resetbutton = document.getElementById("search-reset");
+
 var options = {
     valueNames: [
-    'description',
+    'search-title',
+    'subtitle',
       {
           data: ['keywords']
+      },
+      {
+        data: ['categories']
       }
     ]
   };
   var componentlist = new List('componentbrowser', options);
+  
+
+
+
+patterncategories.addEventListener('change', function() {
+    let selectedFilter = patterncategories.value;
+    componentlist.filter(function(item) {
+      const categories = item.values().categories;      
+      if (selectedFilter.includes("all")) {
+        return true;
+      } else {
+        const categoryArr = (categories || "").split(',').map(c => c.trim());
+        return categoryArr.some(cat => selectedFilter.includes(cat));
+      }
+    }
+    );
+});
+
+const uncheckAllTag = () => {
+  document.getElementById('all').checked = false;
+  //alert("done");
+};
+
+const uncheckTags = () => {
+  Array.from(document.querySelectorAll('sbb-tag'))
+    .filter((e) => e.getAttribute('id') !== 'all' && !e.getAttribute('disabled'))
+    .forEach((e) => e.checked = false);
+};
+  
+
+resetbutton.addEventListener('click', function() {
+  if (searchinput) {
+    searchinput.value = '';
+    searchinput.focus();
+    resetbutton.style.display = "none";
+  }
+  componentlist.search();
+});
+
+
+searchinput.addEventListener("keyup", (event) => {
+  if (searchinput.value.length) {
+    resetbutton.style.display = "block";
+  } else {
+    resetbutton.style.display = "none";
+  }
+});
+
+componentlist.on('searchComplete', function (e) {
+  if (e.matchingItems.length == 0) {
+    document.getElementsByClassName('not-found')[0].style.display = "block";
+  } else {
+    document.getElementsByClassName('not-found')[0].style.display = "none";
+  }
+});
+componentlist.on('filterComplete', function (e) {
+  if (e.matchingItems.length == 0) {
+    document.getElementsByClassName('not-found')[0].style.display = "block";
+  } else {
+    document.getElementsByClassName('not-found')[0].style.display = "none";
+  }
+});
+
+
+
+// list / grid view list
+const toggle = document.getElementById('viewToggle');
+  const list = document.getElementById('componentList');
+  const STORAGE_KEY = 'viewMode';
+
+  if (toggle && list) {
+    // 1. Zustand beim Laden wiederherstellen
+    const savedView = localStorage.getItem(STORAGE_KEY);
+    if (savedView) {
+      toggle.value = savedView; // Toggle setzen
+      list.classList.remove('list-view', 'grid-view');
+      list.classList.add(savedView + '-view'); // Liste setzen
+    }
+
+    // 2. Neue Auswahl speichern
+    toggle.addEventListener('change', (event) => {
+      const view = event.target.value;
+
+      list.classList.remove('list-view', 'grid-view');
+      list.classList.add(view + '-view');
+
+      localStorage.setItem(STORAGE_KEY, view);
+    });
+  }
