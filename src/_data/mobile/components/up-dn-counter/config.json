@@ -11,7 +11,7 @@
     "order": 290,
     "categories":["Form", "Indicator"],
     "keywords":["count", "amount", "up", "down", "increment", "decrement"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/up-dn-counter",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

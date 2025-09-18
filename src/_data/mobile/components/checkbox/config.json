@@ -11,7 +11,7 @@
     "order": 40,
     "categories":["Form"],
     "keywords":["checkbox", "checkboxes", "check"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/checkbox",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

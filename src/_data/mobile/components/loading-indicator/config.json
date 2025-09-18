@@ -11,7 +11,7 @@
     "order": 130,
     "categories":["Indicator"],
     "keywords":["loading", "spinner", "progress", "activity", "wait"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/loading-indicator",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

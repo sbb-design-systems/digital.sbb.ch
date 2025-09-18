@@ -11,7 +11,7 @@
     "order": 160,
     "categories":["Indicator"],
     "keywords":["pagination", "page", "navigation", "control", "list"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/pagination",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

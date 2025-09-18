@@ -11,7 +11,7 @@
     "order": 230,
     "categories":["Form"],
     "keywords":["toggle", "switch", "on", "off", "enable", "disable"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/switch",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

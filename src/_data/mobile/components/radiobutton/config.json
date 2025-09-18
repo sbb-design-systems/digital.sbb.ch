@@ -11,7 +11,7 @@
     "order": 190,
     "categories":["Form"],
     "keywords":["radio", "button", "select", "choice", "option"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/radiobutton",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

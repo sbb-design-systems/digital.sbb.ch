@@ -11,7 +11,7 @@
     "order": 250,
     "categories":["Form"],
     "keywords":["text", "input", "field", "textfield", "textbox"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/text-input",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

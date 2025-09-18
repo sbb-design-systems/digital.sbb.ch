@@ -11,7 +11,7 @@
     "order": 120,
     "categories":["Container"],
     "keywords":["list", "view", "collection", "items", "navigation"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/list-view",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

@@ -11,7 +11,7 @@
     "order": 270,
     "categories":["Indicator"],
     "keywords":["toast", "snackbar", "notification", "message"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/toast",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

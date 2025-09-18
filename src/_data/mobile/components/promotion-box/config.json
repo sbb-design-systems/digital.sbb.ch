@@ -11,7 +11,7 @@
     "order": 180,
     "categories":["Container"],
     "keywords":["promotion", "box", "highlight"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/promotion-box",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

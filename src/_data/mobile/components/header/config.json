@@ -11,7 +11,7 @@
     "order": 90,
     "categories":["Navigation"],
     "keywords":["header", "navigation", "top", "bar", "menu"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/header",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

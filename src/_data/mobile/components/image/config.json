@@ -11,7 +11,7 @@
     "order": 100,
     "categories":["Display"],
     "keywords":["Image", "Bild", "Identity"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/image",
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {

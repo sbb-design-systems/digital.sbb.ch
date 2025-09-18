@@ -11,7 +11,7 @@
     "order": 170,
     "categories":["Form"],
     "keywords":["picker", "select", "choice", "option"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/picker",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

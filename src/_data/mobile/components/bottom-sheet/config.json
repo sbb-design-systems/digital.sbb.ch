@@ -11,7 +11,6 @@
     "order": 10,
     "categories":["Navigation", "Container"],
     "keywords":["dialog", "modal", "popup", "lightbox"],
-    "image": "/assets/images/mobile/chip-light",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

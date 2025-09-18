@@ -11,7 +11,7 @@
     "order": 30,
     "categories":["Action"],
     "keywords":["Button", "Primary"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/button",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

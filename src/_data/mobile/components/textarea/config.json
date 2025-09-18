@@ -11,7 +11,7 @@
     "order": 260,
     "categories":["Form"],
     "keywords":["textarea", "textbox", "text", "input", "field"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/textarea",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

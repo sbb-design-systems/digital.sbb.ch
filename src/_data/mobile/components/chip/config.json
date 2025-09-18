@@ -11,7 +11,7 @@
     "order": 50,
     "categories":["Form"],
     "keywords":["chip", "chips", "tag", "label", "badge"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/chip",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

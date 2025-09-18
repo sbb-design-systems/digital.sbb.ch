@@ -11,7 +11,7 @@
     "order": 70,
     "categories":["Navigation"],
     "keywords":["contextmenu", "context", "menu", "dropdown", "menu", "select"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/contextmenu",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

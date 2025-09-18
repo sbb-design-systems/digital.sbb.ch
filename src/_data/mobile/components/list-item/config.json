@@ -11,7 +11,7 @@
     "order": 110,
     "categories":["Action"],
     "keywords":["list", "item"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/list-item",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

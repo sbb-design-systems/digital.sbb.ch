@@ -11,7 +11,7 @@
     "order": 80,
     "categories":["Navigation", "Form"],
     "keywords":["dropdown", "select", "menu", "choice", "option"],
-    "image": "/assets/images/mobile/chip-light",
+    "image": "/assets/images/mobile/overview/dropdown",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,
