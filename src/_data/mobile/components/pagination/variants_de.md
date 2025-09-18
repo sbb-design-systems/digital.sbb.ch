@@ -6,14 +6,14 @@
 
 ### Default
 {{ imageWithMode({
-  url: '/assets/images/mobile/pagination-default',
+  url: '/assets/images/mobile/paginator-default',
   alt: 'Dartellung einer Paginierung',
   title: 'Paginierung'
 }) }}
 
 ### Floating
 {{ imageWithMode({
-  url: '/assets/images/mobile/pagination-floating',
+  url: '/assets/images/mobile/paginator-floating',
   alt: 'Dartellung einer Paginierung, floating',
   title: 'Paginierung, floating'
 }) }}
