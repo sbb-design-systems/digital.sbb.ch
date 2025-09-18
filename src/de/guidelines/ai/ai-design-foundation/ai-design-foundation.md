@@ -1,10 +1,11 @@
 ---
 layout: page.njk
 tags: level3
-key: how_de
+key: ai_design_grundlagen_de
 title: AI-Design-Grundlagen
-parent: patternlibrary_de
+parent: ai_de
 order: 20
+eleventyExcludeFromCollections: true
 ---
 
 Artificial Intelligence (AI) bietet die Möglichkeit, mehr Ansprüche von Nutzer:innen zu erfüllen als je zuvor. Die individuellen Bedürfnisse und Kontexte bleiben jedoch vielfältig, weshalb es bei der Gestaltung von Interaktionen mit AI keine One‑Fits‑All‑Lösung gibt. Damit das Potenzial von AI von den Nutzer:innen voll ausgeschöpft werden kann, müssen wir die Interaktion bewusst und nutzerzentriert gestalten.
