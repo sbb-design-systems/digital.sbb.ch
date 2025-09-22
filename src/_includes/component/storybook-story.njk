@@ -1,5 +1,5 @@
 {% for storybookStory, story in storybookStories %}
-{% if story.tag == tag and story.component == true %}
+{% if story.tag.slice(4) == pattern.config.tag and story.component == true %}
 <sbb-title level="3" visual-level="5">{{story.name}}</sbb-title>
     <div class="example">
         <iframe id="{{story.id}}" class="iframe-border" src="https://lyne-storybook.app.sbb.ch/iframe.html?args=&id={{story.id}}&viewMode=story" title="{{story.name}}"></iframe>

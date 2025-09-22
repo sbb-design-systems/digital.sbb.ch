@@ -5,11 +5,11 @@
         Demo
     </sbb-tab-label>
     <sbb-tab>
-        {% if pattern.config.hasPlayground == true%}
+        {% if pattern.config.tabs.hasPlayground == true%}
             {% include "./playground.njk" %}
             <script src="/assets/js/lyne-playground.js"></script>
         {% endif %}
-        {% if pattern.config.hasStorybook == true %}
+        {% if pattern.config.tabs.hasStorybook == true %}
             {% include "./storybook-story.njk" %}
             <script src="/assets/js/lyne-examples.js"></script>
         {% endif %}
