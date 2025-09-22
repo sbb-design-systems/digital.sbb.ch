@@ -17,7 +17,7 @@
     "devDependencies": {
         "@11ty/eleventy": "^3.0.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-        "@sbb-esta/lyne-design-tokens": "^1.6.1",
+        "@sbb-esta/lyne-design-tokens": "^1.8.0",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.25.1",
         "gzipper": "^7.2.0",
