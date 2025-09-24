@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}">
+<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}" class="sbb-light-dark">
   <head>
     {% include "../_includes/head.njk" %}
   </head>
@@ -26,13 +26,14 @@
     {% endif %}
 
     <script type="module" src="/assets/js/lyne-bundle.js"></script>
+    <script src="/assets/js/mode-switch.js"></script>
 
     {% if layout == "overview.njk" or layout == "overview.njk" %}
     <script src="/assets/js/component-browser.js"></script>
     {% endif %}
 
     {% if layout == "component.njk" %} 
-     <script src="/assets/js/mode-toggle.js"></script>
+    <script src="/assets/js/mode-toggle.js"></script>
     <script src="/assets/js/sidebar.js"></script>
     <script src="/assets/js/component-browser.js"></script>
     <script src="/assets/js/highlight.min.js"></script>

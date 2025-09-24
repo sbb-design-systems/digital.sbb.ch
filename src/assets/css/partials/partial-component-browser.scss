@@ -29,6 +29,7 @@ sbb-sidebar {
 
   .component-search{
     background-color: var(--sbb-color-milk);
+    background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
     margin-inline: calc(-1 * var(--sbb-spacing-responsive-s));
     margin-block-start: calc(-1 * var(--sbb-spacing-responsive-s));
     inline-size: calc(100% + var(--sbb-spacing-responsive-s) + var(--sbb-spacing-responsive-s));
@@ -59,7 +60,6 @@ sbb-sidebar {
 
 
   .component-list {
-    background: var(--sbb-color-milk);
     box-sizing: border-box;
     inline-size: 100%;
     padding: 0;
@@ -185,6 +185,7 @@ sbb-sidebar {
   display: none;
   text-align: center;
   background-color: var(--sbb-color-white);
+  background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   padding: var(--sbb-spacing-responsive-s);
   border-radius: var(--sbb-border-radius-4x);
 

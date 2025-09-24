@@ -34,6 +34,7 @@
   margin-block-start: var(--sbb-spacing-responsive-xxl);
 
   p {
-    color: var(--sbb-color-metal);
+    color: var(--sbb-color-iron);
+    color: light-dark(var(--sbb-color-4), var(--sbb-color-4));
   }
 }

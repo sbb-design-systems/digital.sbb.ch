@@ -10,6 +10,7 @@
     padding-block: var(--sbb-spacing-fixed-2x);
     padding-inline: 0;
     border-block-end: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
+    border-block-end: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
 
     &:last-child {
       border-block-end: none;
@@ -224,6 +225,7 @@
   inline-size: var(--sbb-spacing-fixed-10x);
   block-size: var(--sbb-spacing-fixed-10x);
   border: solid var(--sbb-border-width-1x) var(--sbb-color-metal);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-5), var(--sbb-border-color-5));
 }
 
 .animation-demo {
@@ -233,14 +235,19 @@
 }
 
 .space-demo {
-  border: solid var(--sbb-border-width-1x) var(--sbb-color-platinum);
-  background-color: var(--sbb-color-milk);
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-smoke);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-5), var(--sbb-border-color-5));
+  background-color: var(--sbb-color-cloud);
+  background-color: light-dark(var(--sbb-background-color-4), var(--sbb-background-color-4));
   border-radius: var(--sbb-border-radius-1x);
+
+  
 }
 
 .grid-item {
   border: solid var(--sbb-border-width-1x) var(--sbb-color-platinum);
   background-color: var(--sbb-color-milk);
+  background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
   border-radius: var(--sbb-border-radius-1x);
   min-block-size: var(--sbb-spacing-fixed-7x);;
 }
@@ -254,92 +261,116 @@
 
 .shadow-3-soft-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-3-soft;
 }
 
 .shadow-3-soft-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-3-soft-negative;
 }
 
 .shadow-3-hard-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-3-hard;
 }
 
 .shadow-3-hard-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-3-hard-negative;
 }
 
 
 .shadow-5-soft-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-5-soft;
 }
 
 .shadow-5-soft-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-5-soft-negative;
 }
 
 .shadow-5-hard-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-5-hard;
 }
 
 .shadow-5-hard-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-5-hard-negative;
 }
 
 
 .shadow-9-soft-positive {
   background: var(--sbb-color-white);
+  background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-9-soft;
 }
 
 .shadow-9-soft-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-9-soft-negative;
 }
 
 .shadow-9-hard-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-9-hard;
 }
 
 .shadow-9-hard-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-9-hard-negative;
 }
 
 
 .shadow-11-soft-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-11-soft;
 }
 
 .shadow-11-soft-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midinight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-11-soft-negative;
 }
 
 .shadow-11-hard-positive {
   background: var(--sbb-color-white);
+  background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   @include sbb.shadow-level-11-hard;
 }
 
 .shadow-11-hard-negative {
-  background: var(--sbb-color-black);
+  background: var(--sbb-color-midnight);
+  background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
+  color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
   @include sbb.shadow-level-11-hard-negative;
 }
 

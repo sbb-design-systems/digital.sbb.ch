@@ -2,7 +2,8 @@
 
 html, body {
   block-size: 100vh;
-  background-color: var(--sbb-color-white);
+
+  // background-color: var(--sbb-color-white);
 }
 
 body {
@@ -27,7 +28,8 @@ body {
 }
 
 ul, ol {
-  color: var(--sbb-color-black);
+  color: var(--sbb-color-midnight);
+  color: light-dark(var(--sbb-color-1), var(--sbb-color-1));
 }
 
 .content {
@@ -83,7 +85,8 @@ h2.with-icon {
     padding-block: 0;
     padding-inline: 0 var(--sbb-spacing-fixed-2x);
     margin-block-start: calc(-1 * var(--sbb-spacing-fixed-1x));
-    stroke: var(--sbb-color-black);
+    stroke: var(--sbb-color-midnight);
+    stroke: light-dark(var(--sbb-color-1), var(--sbb-color-1));
     stroke-width: 1.5;
     @include sbb.mq($from: medium) {
       margin-block-start: calc(var(--sbb-spacing-fixed-1x) / 2);
@@ -102,7 +105,8 @@ h3.with-icon {
     padding-block: 0;
     padding-inline: 0 var(--sbb-spacing-fixed-3x);
     margin-block-start: calc(-1 * var(--sbb-spacing-fixed-1x));
-    stroke: var(--sbb-color-black);
+    stroke: var(--sbb-color-midnight);
+    stroke: light-dark(var(--sbb-color-1), var(--sbb-color-1));
     stroke-width: 1.5;
     @include sbb.mq($from: medium) {
       padding-block: 0;
@@ -114,16 +118,21 @@ h3.with-icon {
 }
 
 .dark {
-  background-color: var(--sbb-color-black);
+  background-color: var(--sbb-color-midnight);
+  background-color: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1-inverted));
 }
 
 code:not([class]) {
   color: var(--sbb-color-violet);
+  color: light-dark(var(--sbb-color-violet-light), var(--sbb-color-violet-dark));
   background-color: var(--sbb-color-milk);
+  background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
   padding-block: calc(var(--sbb-spacing-fixed-1x) / 2);
   padding-inline: var(--sbb-spacing-fixed-2x);
   border-radius: var(--sbb-spacing-fixed-2x);
-  border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud)
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
+
 }
 
 
@@ -157,7 +166,9 @@ code:not([class]) {
   }
 
   &.dark {
-    background-color: var(--sbb-color-black);
+    background-color: var(--sbb-color-midnight);
+
+    // background-color: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1-inverted));
 
     figure:first-child {
       display: none;
@@ -184,6 +195,7 @@ code:not([class]) {
   padding: var(--sbb-spacing-fixed-6x);
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
+  background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
   text-align: center;
 
   > * {
@@ -262,12 +274,20 @@ sbb-table-wrapper + sbb-table-wrapper {
   padding-block: var(--sbb-spacing-fixed-8x);
   padding-inline: var(--sbb-spacing-fixed-8x);
   background-color: var(--sbb-color-white);
+  background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
   min-block-size: var(--sbb-spacing-fixed-24x);
+  
   @include sbb.mq($from: medium) {
     padding: var(--sbb-spacing-fixed-8x);
   }
-  
+
+  &[data-background="default"] {
+    background-color: var(--sbb-color-white);
+    background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
+  }
+
   &[data-background="white"] {
     background-color: var(--sbb-color-white);
   }
@@ -302,6 +322,7 @@ sbb-table-wrapper + sbb-table-wrapper {
   overflow: hidden;
   border-radius: var(--sbb-border-radius-4x);
   background-color: var(--sbb-color-milk);
+  background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
   inline-size: 100%;
   block-size: var(--sbb-spacing-fixed-20x);
 }
@@ -344,7 +365,9 @@ sbb-table-wrapper + sbb-table-wrapper {
 .example {
   border-radius: var(--sbb-border-radius-4x);
   border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
   background-color: var(--sbb-color-milk);
+  background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
 
   iframe, pre, code {
     display: block;
@@ -353,6 +376,7 @@ sbb-table-wrapper + sbb-table-wrapper {
 
   iframe {
     background-color: var(--sbb-color-white);
+    background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
     border-start-start-radius: var(--sbb-border-radius-4x);
     border-start-end-radius: var(--sbb-border-radius-4x);
   }
@@ -372,7 +396,8 @@ sbb-table-wrapper + sbb-table-wrapper {
 }
 
 p.subtext {
-  color: var(--sbb-color-metal);
+  color: var(--sbb-color-smoke);
+  color: light-dark(var(--sbb-color-5), var(--sbb-color-5));
 }
 
 .switcher { 

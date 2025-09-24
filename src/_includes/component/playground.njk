@@ -21,7 +21,8 @@
                 <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
                     <sbb-expansion-panel-header>{{ componentTranslations["background"] }}</sbb-expansion-panel-header>
                     <sbb-expansion-panel-content>
-                        <sbb-radio-button-group value="white" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
+                        <sbb-radio-button-group value="default" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
+                            <sbb-radio-button value="default">Default</sbb-radio-button>
                             <sbb-radio-button value="white">White</sbb-radio-button>
                             <sbb-radio-button value="milk">Milk</sbb-radio-button>
                             <sbb-radio-button value="iron">Iron</sbb-radio-button>

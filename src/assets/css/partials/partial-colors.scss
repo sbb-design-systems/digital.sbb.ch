@@ -59,6 +59,7 @@
   border-radius: var(--sbb-border-radius-4x);
   overflow: hidden;
   border: solid var(--sbb-border-width-1x) var(--sbb-color-cloud);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
   display: flex;
 }
 
@@ -70,10 +71,13 @@
 
 .color-ratio .white {
   flex: 6 1 auto;
+  color: var(--sbb-color-midnight);
+  background: var(--sbb-color-white);
 }
 
 .color-ratio .grey {
   flex: 2.5 1 auto;
+  color: var(--sbb-color-midnight);
   background: var(--sbb-color-cloud);
 }
 

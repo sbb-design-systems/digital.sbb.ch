@@ -15,8 +15,10 @@
     block-size: var(--sbb-spacing-fixed-18x);
     border-radius: var(--sbb-border-radius-2x);
     background: var(--sbb-color-white);
+    background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
     border-style: solid;
     border-color: var(--sbb-color-cloud);
+    border-color: light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
     border-width: var(--sbb-border-width-1x);
     text-align: center;
     display: flex;
@@ -53,16 +55,21 @@
     block-size: calc(var(--sbb-size-icon-ui-small) + var(--sbb-size-icon-ui-large));
     border-radius: var(--sbb-border-radius-2x);
     background: var(--sbb-color-white);
+    background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
     display: flex;
     justify-content: center;
     align-items: center;
 
+    &.light {
+      background: var(--sbb-color-white);
+    }
+
     &.dark {
-      background: var(--sbb-color-black);
+      background: var(--sbb-color-midnight);
     }
 
     &.high-contrast {
-      background: var(--sbb-color-black);
+      background: var(--sbb-color-midnight);
     }
   }
 }

@@ -13,21 +13,30 @@ sbb-footer {
   border-block-start-width: 0;
 }
 
+.mode-switch {
+  margin-block-end: var(--sbb-spacing-fixed-6x);
+}
+
+.impressum {
+  margin-block-start: var(--sbb-spacing-fixed-2x);
+}
+
 .footer-content {
+  color: var(--sbb-color-iron);
+  color: light-dark(var(--sbb-color-5), var(--sbb-color-5));
   padding-inline: 0;
   row-gap: 0;
 
   .sbb-text-s {
-    color: var(--sbb-color-granite);
     margin-block-end: 0;
   }
 
-  .contact {
+  .contact, .impressum {
     grid-column: 1 / 5;
     order: 2;
   }
 
-  .clock {
+  .clock, .mode-switch {
     grid-column: 1 / 1;
     order: 1;
 
@@ -43,12 +52,12 @@ sbb-footer {
   }
 
   @include sbb.mq($from: medium) {
-    .contact {
+    .contact, .impressum {
       order: 1;
       grid-column: 1 / 8;
     }
 
-    .clock {
+    .clock, .mode-switch {
       order: 2;
       grid-column: 8 / 9;
 
@@ -63,11 +72,11 @@ sbb-footer {
     }
   }
   @include sbb.mq($from: wide) {
-    .contact {
+    .contact, .impressum {
       grid-column: 1 / 11;
     }
 
-    .clock {
+    .clock, .mode-switch {
       grid-column: 11 / 13;
     }
 
@@ -76,11 +85,11 @@ sbb-footer {
     }
   }
   @include sbb.mq($from: ultra) {
-    .contact {
+    .contact, .impressum {
       grid-column: 1 / 15;
     }
 
-    .clock {
+    .clock, .mode-switch {
       grid-column: 15 / 17;
     }
 
