@@ -1,6 +1,9 @@
 <sbb-teaser style="--sbb-teaser-align-items: stretch" alignment="below" accessibility-label="{{ teaser.data.title }}: {{ teaser.data.description }}" href="{{ teaser.data.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
   <figure slot="image" class="sbb-figure" style="width: 100%;">
-    <img src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+  <picture>
+    <source srcset="{{ teaser.data.imagedark }}" media="(prefers-color-scheme: dark)">
+    <img style=" display: block;" src="{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+  </picture>
     {% if teaser.data.chip|length %}
       <sbb-chip-label class="sbb-figure-overlap-start-start">{{ teaser.data.chip }}</sbb-chip-label>
     {% endif %}

@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Varianten
 *   ohne Navigation, mit Icon (Chevron) mit Text (Abbrechen) {.lead}
 *   iOS und Android

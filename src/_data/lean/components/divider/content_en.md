@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 
 ## What does the component do?
 * It determines the vertical spaces between components. {.lead}

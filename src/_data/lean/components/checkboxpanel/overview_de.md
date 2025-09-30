@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Was macht die Komponente?
 Bietet dem Benutzer eine Auswahl aus mehreren Optionen an. {.lead}
 

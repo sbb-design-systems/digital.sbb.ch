@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Was macht das Pattern?
 * Bietet Folgeaktionen bei einem Output an.
 

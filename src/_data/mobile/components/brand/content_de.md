@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Was macht die Komponente?
 *   Kennzeichnet den Absender einer Seite. {.lead}
 

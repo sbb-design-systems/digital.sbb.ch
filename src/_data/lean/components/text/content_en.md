@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Style rules
 * Texts should be kept as simple and concise as possible. {.lead}
 * Texts should be written in an active and direct way. {.lead}

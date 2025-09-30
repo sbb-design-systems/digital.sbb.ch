@@ -9,6 +9,7 @@ alternativetitle: Wir leiten die Nutzenden und sprechen ihre Sprache.
 parent: ux-principles_de
 order: 8
 image: selbsterklaerend.webp
+imagedark: selbsterklaerend.webp
 ---
 
 {{ principleImage({

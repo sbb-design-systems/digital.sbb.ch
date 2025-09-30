@@ -47,8 +47,6 @@ order: 10
 {{ specificationLinks({
   figma: 'https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile?m=auto&node-id=33-771&t=rQTLXnChqHrpKLB4-1'
 =======
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Was macht die Komponente?
 *   Kennzeichnet den Absender einer Seite. {.lead}
 

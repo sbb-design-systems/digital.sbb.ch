@@ -9,6 +9,7 @@ alternativetitle: Wir gestalten Arbeit passend zu den Fähigkeiten der Menschen,
 parent: ux-principles_de
 order: 9
 image: passend.webp
+imagedark: passend.webp
 ---
 
 {{ principleImage({

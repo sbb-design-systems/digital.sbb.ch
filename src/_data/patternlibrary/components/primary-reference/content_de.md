@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Was macht das Pattern?
 * Lässt das Anhängen von bestimmten Dateien oder Links zu, um sich darauf zu beziehen.
 

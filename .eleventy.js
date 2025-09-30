@@ -23,6 +23,29 @@ function sortByOrder(values) {
 module.exports = async function(eleventyConfig) {
     const { EleventyI18nPlugin } = await import("@11ty/eleventy");
 
+    const macroNames = [
+        "imageWithMode",
+        "imageOnGreyBackground",
+        "imageSpec",
+        "principleImage",
+        "webpImage",
+        "svgImage",
+        "buttonGroup",
+        "specificationLinks",
+        "lynePlayground",
+        "lyneExamples",
+        "lyneComponentLinks"
+    ];
+
+    eleventyConfig.amendLibrary("njk", (env) => {
+        macroNames.forEach((macroName) => {
+            const macroTemplate = `{% from "macros/macros.njk" import ${macroName} %}{{ ${macroName}(params) }}`;
+            env.addGlobal(macroName, (params = {}) => {
+                return env.renderString(macroTemplate, { params });
+            });
+        });
+    });
+
     eleventyConfig.setQuietMode(true);
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
@@ -114,7 +137,11 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.addFilter("lastOfArray", function(array) {return array.slice(-1);});
     eleventyConfig.addFilter("absolutelinks", (post) => {
-        const content = post.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
+        if (post === undefined || post === null) {
+            return post;
+        }
+        const source = typeof post === "string" ? post : String(post);
+        const content = source.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
         function wrapTablesWithSbbTableWrapper(content) {
             //const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
             const tableRegex = /(\|[^\n]+\|\n)(\|[^\n]+\|\n)*/g;
@@ -253,4 +280,3 @@ module.exports = async function(eleventyConfig) {
         }
     };
 };
-

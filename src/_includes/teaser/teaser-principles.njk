@@ -1,9 +1,15 @@
 {% if teaser.data.image|length %}
  <sbb-teaser alignment="below" aria-label="{{ teaser.data.title }}: {{ teaser.data.alternativetitle }}" href="{{ teaser.url }}" {% if teaser.data.external == true %}target="_blank"{% endif %}>
   <figure slot="image" class="sbb-figure" style="width: 100%;">
-    <img loading="lazy" src="/assets/images/principles/overview/{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+  <picture>
+    <source srcset="/assets/images/principles/overview/{{ teaser.data.imagedark }}" media="(prefers-color-scheme: dark)">
+    <img loading="lazy" style=" display: block;" src="/assets/images/principles/overview/{{ teaser.data.image }}" alt="{{ teaser.data.title }}">
+  </picture>  
   </figure>
   <sbb-title level="2">{{ teaser.data.title }}</sbb-title>
   {{ teaser.data.alternativetitle }}
 </sbb-teaser>
 {% endif %}
+
+
+

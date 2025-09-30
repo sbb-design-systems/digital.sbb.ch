@@ -1,5 +1,4 @@
 
-{%- from "src/_includes/macros/macros.njk" import imageOnGreyBackground -%}
 
 {{ imageOnGreyBackground({
   url: '/assets/images/lyne/anatomy/anatomy_selection_expansion_panel',

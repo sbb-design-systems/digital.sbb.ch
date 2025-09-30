@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Schreibregeln
 * Texte sollen möglichst kurz und knapp gehalten werden. {.lead}
 * Texte sollen in aktiver und direkter Schreibweise formuliert werden. {.lead}

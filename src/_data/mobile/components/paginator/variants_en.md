@@ -9,7 +9,7 @@ key: paginator-mobile-variantsstates_en
 parent: paginator-mobile_en
 ---
 ========
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
+
 >>>>>>>> patterns:src/_data/mobile/components/paginator/variants_en.md
 
 ## Variants

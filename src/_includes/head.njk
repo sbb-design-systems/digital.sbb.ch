@@ -51,17 +51,14 @@
 <link rel="stylesheet" href="/assets/css/styles.css">
 
 <link rel="modulepreload" href="/assets/js/lyne-bundle.js">
-
-{% if (layout == "overview.njk") or (layout == "component.njk") %}
 <script src="/assets/js/listjs/list.min.js"></script>
-{% endif %}
 
 <link rel="apple-touch-icon" href="/assets/images/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
 <link rel="icon" href="/assets/images/favicon/favicon.ico">
 
-{% if availablelanguages.length %}
+{% if (availablelanguages.length) or (cannonical == true ) %}
 <link rel="canonical" href="/de{{ page.url.slice(3, -1) }}/">
 {% endif %}
 

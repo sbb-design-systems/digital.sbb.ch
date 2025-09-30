@@ -9,6 +9,7 @@ alternativetitle: Wir zeigen so wenig wie möglich und so viel wie nötig.
 parent: ux-principles_de
 order: 5
 image: reduziert.webp
+imagedark: reduziert.webp
 ---
 
 {{ principleImage({

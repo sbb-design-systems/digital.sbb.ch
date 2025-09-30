@@ -9,6 +9,7 @@ alternativetitle: Wir bieten ein konsistentes Erlebnis innerhalb und zwischen de
 parent: ux-principles_de
 order: 3
 image: wiedererkennbar.webp
+imagedark: wiedererkennbar.webp
 ---
 
 {{ principleImage({

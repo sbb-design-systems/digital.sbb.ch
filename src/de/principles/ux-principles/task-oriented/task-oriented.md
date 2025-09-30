@@ -9,6 +9,7 @@ alternativetitle: Ausgehend von der Arbeitsaufgabe gestalten wir das Zusammenspi
 parent: ux-principles_de
 order: 8
 image: aufgabenorientiert.webp
+imagedark: aufgabenorientiert.webp
 ---
 
 {{ principleImage({

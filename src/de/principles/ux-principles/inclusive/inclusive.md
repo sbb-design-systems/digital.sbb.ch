@@ -9,6 +9,7 @@ alternativetitle: Unsere Lösungen sind von so vielen Menschen in so vielen Situ
 parent: ux-principles_de
 order: 4
 image: inklusiv.webp
+imagedark: inklusiv.webp
 ---
 
 {{ principleImage({

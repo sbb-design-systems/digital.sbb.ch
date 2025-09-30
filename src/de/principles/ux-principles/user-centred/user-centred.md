@@ -9,6 +9,7 @@ alternativetitle: Wir beziehen reale Nutzende in unsere Produktentwicklungsproze
 parent: ux-principles_de
 order: 2
 image: benuzterzentriert.webp
+imagedark: benuzterzentriert.webp
 ---
 
 {{ principleImage({

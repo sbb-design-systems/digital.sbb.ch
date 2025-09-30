@@ -1,5 +1,3 @@
-{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}
-
 ## Was macht das Pattern?
 * Kommuniziert, was mit den Daten der Nutzer:innen passiert und lässt die Nutzer:innen entscheiden, ob ihre Daten verwendet werden sollen.
 

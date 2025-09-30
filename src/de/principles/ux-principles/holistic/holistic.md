@@ -9,6 +9,7 @@ alternativetitle: Wir beachten immer den Gesamtkontext unserer Lösungen.
 parent: ux-principles_de
 order: 7
 image: ganzheitlich.webp
+imagedark: ganzheitlich.webp
 ---
 
 {{ principleImage({

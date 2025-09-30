@@ -4,6 +4,7 @@ head: Logos, icons and pictograms
 description: Collection of all icons, pictograms and app icons.
 url: /en/foundation/assets/icons/
 image: /assets/images/teaser/icons.webp
+imagedark: /assets/images/teaser/icons-dark.webp
 permalink: false
 order: 4
 ---
