@@ -41,7 +41,8 @@ module.exports = async function(eleventyConfig) {
         macroNames.forEach((macroName) => {
             const macroTemplate = `{% from "macros/macros.njk" import ${macroName} %}{{ ${macroName}(params) }}`;
             env.addGlobal(macroName, (params = {}) => {
-                return env.renderString(macroTemplate, { params });
+                const renderedMacro = env.renderString(macroTemplate, { params });
+                return new nunjucks.runtime.SafeString(renderedMacro);
             });
         });
     });
