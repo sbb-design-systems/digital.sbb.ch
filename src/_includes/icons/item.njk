@@ -1,6 +1,6 @@
 {% if (icon.type == mode) %}
 <sbb-popover-trigger class="icon {{ icon.mode }}" data-category="{{icon.category}}" data-id="{{icon.name}}" data-name="{{icon.name}}" data-size="{{icon.size}}" id="{{ icon.name }}" aria-describedby="{{ icon.name }}-content">
-    <img loading="lazy" src="https://icons.app.sbb.ch/{% if mode == "Pictograms" %}picto{% else %}icons{% endif %}/{{icon.name}}.svg" alt="{{ icon.name }}" />
+    <img loading="lazy" class="icon-png" src="https://icons.app.sbb.ch/{% if mode == "Pictograms" %}picto{% else %}icons{% endif %}/{{icon.name}}.svg" alt="{{ icon.name }}" />
     <div class="only-for-search">
         {{ icon.name }}<br>
         {% if mode == "KOM" %}{{ icon.group }}<br>{% endif %}
