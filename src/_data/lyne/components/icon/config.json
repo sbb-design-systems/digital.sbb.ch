@@ -65,10 +65,10 @@
             "attribute":"style",
             "label":"style",
             "target":"demo-item",
-            "default":"color: var(--sbb-color-black)",
+            "default":"color: light-dark(var(--sbb-color-black), var(--sbb-color-white));",
             "mode":"property",
             "options" : [{
-                "value":"color: var(--sbb-color-black)",
+                "value":"color: light-dark(var(--sbb-color-black), var(--sbb-color-white));",
                 "label":"black"
             }, 
             {
@@ -84,7 +84,7 @@
                 "label":"sky"
             },
             {
-                "value":"color: var(--sbb-color-white)",
+                "value":"color: light-dark(var(--sbb-color-white), var(--sbb-color-black));",
                 "label":"white"
             }]
         }

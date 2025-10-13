@@ -16,7 +16,7 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": false,
+        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
@@ -30,13 +30,13 @@
     },
     "playground" : [
         {
-            "attribute":"amount",
+            "attribute":"sbb-badge",
             "label":"amount",
             "target":"demo-item",
-            "default":"3",
+            "default":"99",
             "mode":"property",
             "options" : [{
-                "value":"3",
+                "value":"99",
                 "label":"true"
             },
             {

@@ -15,7 +15,7 @@
                 {% for size in icon.sizes %}
                 <div class="icon-item">
                     <div class="icon-preview">
-                    <sbb-icon name="{{icon.group}}-{{size}}" alt="{{image.group}}-{{size}}"></sbb-icon>
+                    <img loading="lazy" class="size-{{size}}" src="https://icons.app.sbb.ch/icons/{{icon.group}}-{{size}}.svg" alt="{{image.group}}-{{size}}" />
                     </div>
                     <p class="sbb-text-s">{{size}}</p>
                 </div>

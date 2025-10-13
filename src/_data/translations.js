@@ -259,6 +259,7 @@ module.exports = {
       "top-right": "top, right",
       "bottom-left": "bottom, left",
       "bottom-right": "bottom, right",
+      "systemstandard": "System Setting"
     }
   },
   de: {
@@ -503,6 +504,7 @@ module.exports = {
       "top-right": "oben, rechts",
       "bottom-left": "unten, links",
       "bottom-right": "unten, rechts",
+      "systemstandard": "System-Einstellung"
     }
   },
   fr: {

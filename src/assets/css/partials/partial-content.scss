@@ -437,3 +437,23 @@ p.subtext {
     margin-inline-start: var(--sbb-spacing-fixed-3x);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .hide-on-dark { 
+    display: none 
+  }
+
+  .current-mode::before {
+    content: "Dark \00a0";
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .hide-on-light {
+    display: none
+  }
+
+  .current-mode::before {
+    content: "Light \00a0";
+  }
+}

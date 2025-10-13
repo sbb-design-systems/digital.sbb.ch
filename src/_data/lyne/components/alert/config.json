@@ -28,6 +28,7 @@
         "code": "ok",
         "documentation": "ok"
     },
+    "darkmode": false,
     "playground" : [
             {
                 "attribute":"size",

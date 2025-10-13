@@ -31,3 +31,15 @@
         <sbb-button variant="primary" sbb-dialog-close="">Confirm</sbb-button>
     </sbb-dialog-actions>
 </sbb-dialog>
+
+<script>
+    const buttons = document.querySelectorAll(".dialogtrigger");
+    function buttonClicked(index) {
+        const dialog = document.getElementById("dialog-"+(index + 1));
+        console.log(dialog.id);
+        dialog.open(event);
+    }
+    buttons.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+    });
+</script>

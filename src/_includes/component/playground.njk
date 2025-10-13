@@ -18,43 +18,32 @@
                 </sbb-expansion-panel>
             {% else %}
             {% endfor %}
+                {% if pattern.config.darkmode != false %}
                 <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
                     <sbb-expansion-panel-header>Mode</sbb-expansion-panel-header>
                     <sbb-expansion-panel-content>
                         <sbb-radio-button-group value="background default" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="class">
-                            <sbb-radio-button value="background default">System-Einstellung</sbb-radio-button>
-                            <sbb-radio-button value="background sbb-light">Light</sbb-radio-button>
-                            <sbb-radio-button value="background sbb-dark">Dark</sbb-radio-button>
+                            <sbb-radio-button value="background default"><span class="current-mode"></span> ({{ componentTranslations["systemstandard"] }})</sbb-radio-button>
+                            <sbb-radio-button class="hide-on-light" value="background sbb-light">Light</sbb-radio-button>
+                            <sbb-radio-button class="hide-on-dark" value="background sbb-dark">Dark</sbb-radio-button>
                         </sbb-radio-button-group>
                     </sbb-expansion-panel-content>
                 </sbb-expansion-panel>
+                {% endif %}
+
                 <sbb-expansion-panel color='white' {% if loop.index == 1 %}expanded{% endif %} level='2'>
                     <sbb-expansion-panel-header>{{ componentTranslations["background"] }}</sbb-expansion-panel-header>
                     <sbb-expansion-panel-content>
                         <sbb-radio-button-group value="background-1" aria-label="" orientation="vertical" data-mode="property" data-target="background" data-property="data-background">
                             <sbb-radio-button value="background-1"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> White <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> Midnight</sbb-radio-button>
-                            <sbb-radio-button value="background-2"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> White <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> Charcoal</sbb-radio-button>
                             <sbb-radio-button value="background-3"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> Milk <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> Charcoal</sbb-radio-button>
                             <sbb-radio-button value="background-4"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> Cloud <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> Iron</sbb-radio-button>
                             <sbb-radio-button value="background-1-inverted"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> Midnight <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> White</sbb-radio-button>
-                            <sbb-radio-button value="background-2-inverted"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> Charcoal <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> White</sbb-radio-button>
                             <sbb-radio-button value="background-3-inverted"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> Charcoal <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> Milk</sbb-radio-button>
                             <sbb-radio-button value="background-4-inverted"><span class="mode-icon-light"><sbb-icon name="sunshine-small"></sbb-icon></span> Iron <span class="mode-icon-dark"><sbb-icon name="moon-small"></sbb-icon></span> Cloud</sbb-radio-button>
                         </sbb-radio-button-group>
                     </sbb-expansion-panel-content>
                 </sbb-expansion-panel>
             </sbb-accordion>
-
-
-{# 
-<button id="meinButton">Klick mich!</button>
-
-<script>
-    let darkmodeupdate = SbbDarkModeController.requestUpdate()
-    // Button auswählen und Listener hinzufügen
-    const button = document.getElementById("meinButton");
-    button.addEventListener("click", darkmodeupdate);
-</script>
-#}
         </div>
     </div>

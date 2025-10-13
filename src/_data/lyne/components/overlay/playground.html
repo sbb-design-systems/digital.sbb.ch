@@ -1,4 +1,18 @@
 <sbb-secondary-button class="overlaytrigger" vairant="secondary" type="button">Overlay öffnen</sbb-secondary-button>
 <sbb-overlay class="demo-item" id="overlay-1">
-    <div>Dialog content</div>
+    <div class="demo-content">Dialog content</div>
 </sbb-dialog>
+
+
+
+<script>
+    const actions = document.querySelectorAll(".overlaytrigger");
+    function buttonClicked(index) {
+        const dialog = document.getElementById("overlay-"+(index + 1));
+        console.log(dialog.id);
+        dialog.open(event);
+    }
+    actions.forEach((button, index) => {
+    button.addEventListener("click", () => buttonClicked(index));
+    });
+</script>
