@@ -1,6 +1,10 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
 sbb-container {
+  .demo-content {
+    color: var(--sbb-font-default-color);
+  }
+
   p:not(.demo *) {
     @include sbb.text-m--regular;
   }

@@ -27,5 +27,41 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"alignment",
+            "label":"alignment",
+            "target":"demo-item",
+            "default":"below",
+            "mode":"property",
+            "options" : [{
+                "value":"below",
+                "label":"below"
+            },
+            {
+                "value":"after",
+                "label":"after"
+            },
+            {
+                "value":"after-centered",
+                "label":"after-centered"
+            }]
+        },
+        {
+            "attribute":"chip-content",
+            "label":"chip-content",
+            "target":"demo-item",
+            "default":"",
+            "mode":"removetag",
+            "options" : [{
+                "value":"",
+                "label":"false"
+            },
+            {
+                "value":"Chip",
+                "label":"true"
+            }]
+        }
+    ]
 }

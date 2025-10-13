@@ -26,5 +26,27 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"protective-room",
+            "label":"protective-room",
+            "default":"ideal",
+            "target":"demo-item",
+            "mode":"property",
+            "options" : [{
+                "value":"ideal",
+                "label":"ideal"
+            },
+            {
+                "value":"minimal",
+                "label":"minimal"
+            },
+            {
+                "value":"none",
+                "label":"no-protective-room"
+            }]
+        }
+        
+    ]
 }

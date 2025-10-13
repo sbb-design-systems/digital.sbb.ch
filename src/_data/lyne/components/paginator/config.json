@@ -27,5 +27,24 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"hide-close-button",
+            "label":"hide-close-button",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"boolean",
+            "options" : [
+                {
+                    "value":"true",
+                    "label":"false"
+                },
+                {
+                "value":"false",
+                "label":"true"
+                } 
+            ]
+        }
+    ]
 }

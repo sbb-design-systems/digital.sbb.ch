@@ -27,5 +27,53 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"amount",
+            "label":"amount",
+            "target":"demo-item",
+            "default":"3",
+            "mode":"property",
+            "options" : [{
+                "value":"3",
+                "label":"true"
+            },
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"icon-name",
+            "label":"icon-name",
+            "target":"demo-item",
+            "default":"shopping-cart-small",
+            "mode":"property",
+            "options" : [{
+                "value":"shopping-cart-small",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"disabled",
+            "label":"disabled",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"true",
+                "label":"true"
+            }, 
+            {
+                "value":"false",
+                "label":"false"
+            }]
+        }
+        
+    ]
 }

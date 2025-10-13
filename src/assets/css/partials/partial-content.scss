@@ -283,30 +283,50 @@ sbb-table-wrapper + sbb-table-wrapper {
     padding: var(--sbb-spacing-fixed-8x);
   }
 
-  &[data-background="default"] {
+  &[data-background="background-1"] {
     background-color: var(--sbb-color-white);
     background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
   }
 
-  &[data-background="white"] {
+  &[data-background="background-2"] {
     background-color: var(--sbb-color-white);
+    background-color: light-dark(var(--sbb-background-color-2), var(--sbb-background-color-2));
   }
 
-  &[data-background="milk"] {
+  &[data-background="background-3"] {
     background-color: var(--sbb-color-milk);
+    background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
   }
 
-  &[data-background="charcoal"] {
+  &[data-background="background-4"] {
+    background-color: var(--sbb-color-cloud);
+    background-color: light-dark(var(--sbb-background-color-4), var(--sbb-background-color-4));
+  }
+
+  &[data-background="background-1-inverted"] {
+    background-color: var(--sbb-color-midnight);
+    background-color: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1-inverted));
+  }
+
+  &[data-background="background-2-inverted"] {
     background-color: var(--sbb-color-charcoal);
+    background-color: light-dark(var(--sbb-background-color-2-inverted), var(--sbb-background-color-2-inverted));
   }
 
-  &[data-background="iron"] {
+  &[data-background="background-3-inverted"] {
+    background-color: var(--sbb-color-charcoal);
+    background-color: light-dark(var(--sbb-background-color-3-inverted), var(--sbb-background-color-3-inverted));
+  }
+
+  &[data-background="background-4-inverted"] {
     background-color: var(--sbb-color-iron);
+    background-color: light-dark(var(--sbb-background-color-4-inverted), var(--sbb-background-color-4-inverted));
   }
 
-  &[data-background="black"] {
-    background-color: var(--sbb-color-black);
-  }
+
+
+
+
 
   sbb-clock {
     inline-size: 50%;
@@ -402,4 +422,18 @@ p.subtext {
 
 .switcher { 
   margin-block-end: var(--sbb-spacing-fixed-4x);
+}
+
+.mode-icon-light, .mode-icon-dark {
+  sbb-icon {
+    vertical-align: middle;
+    margin-block-end: var(--sbb-spacing-fixed-1x);
+    margin-inline-end: var(--sbb-spacing-fixed-1x);
+  }
+}
+
+.mode-icon-dark {
+  sbb-icon {
+    margin-inline-start: var(--sbb-spacing-fixed-3x);
+  }
 }

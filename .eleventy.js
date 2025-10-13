@@ -51,7 +51,7 @@ module.exports = async function(eleventyConfig) {
 
     // Can be activated by running "SSR=1 npm start" on Unix systems
     if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
-            /*
+           /* 
             eleventyConfig.setQuietMode(false);
             console.log(`Activated SSR plugin`);
             eleventyConfig.addPlugin(litPlugin, {
@@ -60,10 +60,11 @@ module.exports = async function(eleventyConfig) {
                     './node_modules/@sbb-esta/lyne-elements/index.js',
                     './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
                 ],
-            });*/
+            });
+            */
         } 
     else { 
-        //console.log(`SSR plugin not active`);
+       // console.log(`SSR plugin not active`);
     }
 
 

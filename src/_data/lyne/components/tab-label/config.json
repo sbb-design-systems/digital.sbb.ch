@@ -27,5 +27,41 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"icon",
+            "label":"icon",
+            "target":"icon",
+            "default":"icon",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"icon",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"amount",
+            "label":"amount",
+            "target":"amount",
+            "default":"amount",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"amount",
+                "label":"true"
+            }
+            ]
+        }
+       
+        
+    ]
 }

@@ -27,5 +27,42 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"protective-room",
+            "label":"protective-room",
+            "target":"demo-item",
+            "default":"ideal",
+            "mode":"property",
+            "options" : [{
+                "value":"ideal",
+                "label":"ideal"
+            },
+            {
+                "value":"minimal",
+                "label":"minimal"
+            },
+            {
+                "value":"none",
+                "label":"no-protective-room"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+        
+    ]
 }

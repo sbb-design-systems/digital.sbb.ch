@@ -26,5 +26,136 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"prefix",
+            "label":"prefix",
+            "target":"prefix",
+            "default":"no",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"prefix",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"suffix",
+            "label":"suffix",
+            "target":"suffix",
+            "default":"no",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"suffix",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"borderless",
+            "label":"borderless",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            },
+            {
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }]
+        },
+        {
+            "attribute":"width",
+            "label":"width",
+            "target":"demo-item",
+            "default":"default",
+            "mode":"property",
+            "options" : [{
+                "value":"default",
+                "label":"default"
+            }, 
+            {
+                "value":"collapse",
+                "label":"collapse"
+            }]
+        },
+        {
+            "attribute":"optional",
+            "label":"optional",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"boolean",
+            "options" : [{
+                "value":"true",
+                "label":"true"
+            }, 
+            {
+                "value":"false",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"error",
+            "label":"error",
+            "target":"error",
+            "default":"no",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"error",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"error-space",
+            "label":"error-space",
+            "target":"demo-item",
+            "default":"none",
+            "mode":"property",
+            "options" : [{
+                "value":"none",
+                "label":"none"
+            }, 
+            {
+                "value":"reserve",
+                "label":"reserve"
+            }]
+        }
+
+        
+    ]
 }

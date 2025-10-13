@@ -27,5 +27,53 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"l",
+                "label":"l"
+            }, 
+            {
+                "value":"xl",
+                "label":"xl"
+            }, 
+            {
+                "value":"xxl",
+                "label":"xxl"
+            }, 
+            {
+                "value":"xxxl",
+                "label":"xxxl"
+            }]
+        },
+        {
+            "attribute":"color",
+            "label":"color",
+            "target":"demo-item",
+            "default":"default",
+            "mode":"property",
+            "options" : [{
+                "value":"default",
+                "label":"default"
+            }, 
+            {
+                "value":"smoke",
+                "label":"smoke"
+            }, 
+            {
+                "value":"white",
+                "label":"white"
+            }]
+        }
+    ]
 }

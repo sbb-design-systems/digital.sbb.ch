@@ -27,5 +27,56 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [{
+            "attribute":"title-content",
+            "label":"title-content",
+            "target":"demo-item",
+            "default":"Title",
+            "mode":"property",
+            "options" : [{
+                "value":"Title",
+                "label":"true"
+            },
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"xs",
+                "label":"xs"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+        
+    ]
 }

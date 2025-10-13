@@ -27,5 +27,50 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"link-content",
+            "label":"link-content",
+            "target":"link-label",
+            "default":"Kurzer Link",
+            "mode":"value",
+            "options" : [{
+                "value":"Kurzer Link",
+                "label":"short"
+            },
+            {
+                "value":"Ein viel zu langer Linktext wird umbrochen.",
+                "label":"long"
+            }]
+        },
+        {
+            "attribute":"class",
+            "label":"chip",
+            "target":"chip-label",
+            "default":"sbb-figure-overlap-start-start chip-label",
+            "mode":"property",
+            "options" : [{
+                "value":"sbb-figure-overlap-start-start chip-label",
+                "label":"top-left"
+            },
+            {
+                "value":"sbb-figure-overlap-start-end chip-label",
+                "label":"top-right"
+            },
+            {
+                "value":"sbb-figure-overlap-end-start chip-label",
+                "label":"bottom-left"
+            },
+            {
+                "value":"sbb-figure-overlap-end-end chip-label",
+                "label":"bottom-right"
+            },
+            {
+                "value":"chip-label hidden",
+                "label":"false"
+            }
+            ]
+        }
+    ]
 }

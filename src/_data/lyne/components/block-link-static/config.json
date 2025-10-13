@@ -27,5 +27,72 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+     "playground" : [
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"xs",
+                "label":"xs"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        },
+        {
+            "attribute":"icon-name",
+            "label":"icon-name",
+            "target":"demo-item",
+            "default":"glass-cocktail-small",
+            "mode":"property",
+            "options" : [{
+                "value":"glass-cocktail-small",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"icon-placement",
+            "label":"icon-placement",
+            "target":"demo-item",
+            "default":"start",
+            "mode":"property",
+            "options" : [{
+                "value":"start",
+                "label":"start"
+            }, 
+            {
+                "value":"end",
+                "label":"end"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+        
+    ]
 }

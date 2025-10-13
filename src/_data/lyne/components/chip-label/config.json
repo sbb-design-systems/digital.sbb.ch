@@ -27,5 +27,49 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+            {
+                "attribute":"color",
+                "label":"color",
+                "target":"demo-item",
+                "default":"charcoal",
+                "mode":"property",
+                "options" : [{
+                    "value":"charcoal",
+                    "label":"charcoal"
+                }, 
+                {
+                    "value":"milk",
+                    "label":"milk"
+                },
+                {
+                    "value":"granite",
+                    "label":"granite"
+                },
+                {
+                    "value":"white",
+                    "label":"white"
+                }]
+            },
+            {
+                "attribute":"size",
+                "label":"size",
+                "target":"demo-item",
+                "default":"xs",
+                "mode":"property",
+                "options" : [{
+                    "value":"xxs",
+                    "label":"xxs"
+                }, 
+                {
+                    "value":"xs",
+                    "label":"xs"
+                },
+                {
+                    "value":"s",
+                    "label":"s"
+                }]
+            }
+        ]
 }

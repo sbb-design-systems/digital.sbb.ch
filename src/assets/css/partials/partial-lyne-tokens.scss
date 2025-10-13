@@ -254,7 +254,7 @@
 
 .token-grid {
   display: grid;
-  grid-column-gap: var(--sbb-spacing-fixed-2x);
+  column-gap: var(--sbb-spacing-fixed-2x);
   inline-size: 100%;
 }
 
@@ -377,7 +377,7 @@
 .shadow-box {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: var(--sbb-spacing-fixed-12x) var(--sbb-spacing-fixed-12x);
+  gap: var(--sbb-spacing-fixed-12x) var(--sbb-spacing-fixed-12x);
   margin-block: var(--sbb-spacing-fixed-12x);
   margin-inline: 0;
 

@@ -27,5 +27,42 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"orientation",
+            "label":"orientation",
+            "target":"demo-item",
+            "default":"vertical",
+            "mode":"property",
+            "options" : [{
+                "value":"vertical",
+                "label":"vertical"
+            }, 
+            {
+                "value":"horizontal",
+                "label":"horizontal"
+            }]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"s",
+            "mode":"property",
+            "options" : [{
+                "value":"xs",
+                "label":"xs"
+            },
+            {
+                "value":"s",
+                "label":"s"
+            }, 
+            {
+                "value":"m",
+                "label":"m"
+            }]
+        }
+        
+    ]
 }

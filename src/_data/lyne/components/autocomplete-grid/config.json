@@ -27,5 +27,53 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"preserve-icon-space",
+            "label":"preserve-icon-space",
+            "target":"demo-item",
+            "default":"true",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            },
+            {
+                "value":"true",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"form-field",
+            "default":"m",
+            "mode":"property",
+            "options" : [{
+                "value":"m",
+                "label":"m"
+            }, 
+            {
+                "value":"s",
+                "label":"s"
+            }]
+        },
+        {
+            "attribute":"negative",
+            "label":"negative",
+            "target":"form-field",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        }
+    ]
 }

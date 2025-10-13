@@ -27,5 +27,87 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"color",
+            "label":"color",
+            "target":"demo-item",
+            "default":"white",
+            "mode":"property",
+            "options" : [{
+                "value":"white",
+                "label":"white"
+            },
+            {
+                "value":"milk",
+                "label":"milk"
+            }]
+        },
+        {
+            "attribute":"borderless",
+            "label":"borderless",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            }, 
+            {
+                "value":"true",
+                "label":"true"
+            }]
+        },
+        {
+            "attribute":"badge",
+            "label":"badge",
+            "target":"badge",
+            "default":"badge",
+            "mode":"slot",
+            "options" : [
+            {
+                "value":"badge",
+                "label":"true"
+            },
+            {
+                "value":"no",
+                "label":"false"
+            }
+            
+            ]
+        },
+        {
+            "attribute":"suffix",
+            "label":"suffix",
+            "target":"suffix",
+            "default":"suffix",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"suffix",
+                "label":"true"
+            }
+            ]
+        },
+        {
+            "attribute":"subtext",
+            "label":"subtext",
+            "target":"subtext",
+            "default":"subtext",
+            "mode":"slot",
+            "options" : [{
+                "value":"no",
+                "label":"false"
+            },
+            {
+                "value":"subtext",
+                "label":"true"
+            }
+            ]
+        }
+    ]
 }

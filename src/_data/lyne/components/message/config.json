@@ -31,5 +31,67 @@
             "public": true,
             "business": false
         }
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"slot",
+            "label":"image",
+            "target":"demo-image",
+            "default":"image",
+            "mode":"property",
+            "options" : [{
+                "value":"image",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"subtitle",
+            "target":"demo-subtitle",
+            "default":"subtitle",
+            "mode":"property",
+            "options" : [{
+                "value":"subtitle",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"legend",
+            "target":"demo-legend",
+            "default":"legend",
+            "mode":"property",
+            "options" : [{
+                "value":"legend",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        },
+        {
+            "attribute":"slot",
+            "label":"action",
+            "target":"demo-action",
+            "default":"action",
+            "mode":"property",
+            "options" : [{
+                "value":"action",
+                "label":"true"
+            }, 
+            {
+                "value":"",
+                "label":"false"
+            }]
+        }
+    ]
 }

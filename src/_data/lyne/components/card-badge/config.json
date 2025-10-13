@@ -27,5 +27,23 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"color",
+            "label":"color",
+            "target":"demo-item",
+            "default":"charcoal",
+            "mode":"property",
+            "options" : [
+            {
+                "value":"charcoal",
+                "label":"charcoal"
+            },
+            {
+                "value":"white",
+                "label":"white"
+            }]
+        }
+    ]
 }

@@ -16,7 +16,7 @@
         "hasOverview": true,
         "hasAnatomy": false,
         "hasStorybook": true,
-        "hasPlayground": false,
+        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
@@ -27,5 +27,41 @@
         "design": "ok",
         "code": "ok",
         "documentation": "ok"
-    }
+    },
+    "playground" : [
+        {
+            "attribute":"size",
+            "label":"size",
+            "target":"demo-item",
+            "default":"m",
+            "mode":"property",
+            "options" : [
+                {
+                    "value":"m",
+                    "label":"m"
+                },
+                {
+                "value":"s",
+                "label":"s"
+                } 
+            ]
+        },
+        {
+            "attribute":"pager-position",
+            "label":"pager-position",
+            "target":"demo-item",
+            "default":"start",
+            "mode":"property",
+            "options" : [
+                {
+                    "value":"start",
+                    "label":"start"
+                },
+                {
+                "value":"end",
+                "label":"end"
+                } 
+            ]
+        }
+    ]
 }
