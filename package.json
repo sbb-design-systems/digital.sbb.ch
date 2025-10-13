@@ -7,7 +7,7 @@
     "scripts": {
         "bundle:lyne": "esbuild .lyne-bundle.js --format=esm --bundle --minify --outfile=dist/assets/js/lyne-bundle.js",
         "copy:components": "cpx './node_modules/list.js/dist/*' 'dist/assets/js/listjs/' --f && cpx './node_modules/ux-components/dist/ux-components/*.*' 'dist/assets/js/ux-components/'  --u",
-        "html-minify": "html-minifier-terser --input-dir dist --output-dir dist --file-ext html --remove-comments --collapse-whitespace --conservative-collapse --minify-js false --minify-css true",
+        "html-minify": "html-minifier --input-dir dist --output-dir dist --file-ext html --remove-comments --collapse-whitespace --conservative-collapse --minify-js false --minify-css true",
         "prestart": "npm run copy:components && npm run bundle:lyne",
         "start": "npx stylelint 'src/assets/css/*.scss' && npx stylelint 'src/assets/css/**/*.scss' && eleventy --serve",
         "build": "npx stylelint 'src/assets/css/*.scss' && npx stylelint 'src/assets/css/**/*.scss' && npm run copy:components && npm run bundle:lyne && BUILD_MODE=production eleventy && npm run html-minify && gzipper compress ./dist"
@@ -33,7 +33,7 @@
         "@sbb-esta/lyne-elements-experimental": "3.11.0",
         "@webcomponents/template-shadowroot": "^0.2.1",
         "cpx2": "^8.0.0",
-        "html-minifier-terser": "^7.2.0",
+        "html-minifier": "^4.0.0",
         "list.js": "^2.3.1",
         "lodash": "^4.17.21",
         "markdown-it-attrs": "^4.3.1",
