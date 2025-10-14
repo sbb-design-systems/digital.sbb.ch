@@ -20,7 +20,7 @@
         "@sbb-esta/lyne-design-tokens": "^1.8.0",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.25.10",
-        "gzipper": "^7.2.0",
+        "gzipper": "^8.2.1",
         "stylelint": "^16.24.0",
         "stylelint-config-prettier-scss": "^1.0.0",
         "stylelint-config-standard": "^39.0.0",
