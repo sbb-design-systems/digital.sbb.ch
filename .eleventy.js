@@ -1,6 +1,4 @@
 //const litPlugin = require('@lit-labs/eleventy-plugin-lit');
-const sass = require("sass");
-const path = require("node:path");
 const lodash = require("lodash");
 const nunjucks = require("nunjucks");
 const markdownIt = require("markdown-it");
@@ -80,31 +78,8 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
         return `{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}\n` + content;
     }); 
-
-
-
-    eleventyConfig.addTemplateFormats("scss");
-    eleventyConfig.addExtension("scss", {
-        outputFileExtension: "css", 
-        compile: function (inputContent, inputPath) {
-            let parsed = path.parse(inputPath);
-            if (parsed.name.startsWith("partial-")) {
-                return;
-            }
-            let result = sass.compileString(inputContent, {
-            loadPaths: [
-                parsed.dir || ".",
-                this.config.dir.includes,
-                "./",
-                "node_modules"
-            ]
-            });
-            this.addDependencies(inputPath, result.loadedUrls);
-            return async (data) => {
-                return result.css;
-            };
-        }
-    });
+    eleventyConfig.addWatchTarget("src/assets/css/**/*.scss");
+    eleventyConfig.addWatchTarget("dist/assets/css/**/*.css");
     
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
 
