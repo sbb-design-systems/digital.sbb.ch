@@ -17,14 +17,14 @@
 
 ### History collapsed
 {{ principleImage({
-  url: '/assets/images/patternlibrary/components/history1',
+  url: '/assets/images/patternlibrary/components/history-collapsed',
   alt: 'Beispiel für Verlauf geschlossen',
   title: 'Pattern Verlauf geschlossen'
 }) }}
 
 ### History open
 {{ principleImage({
-  url: '/assets/images/patternlibrary/components/history2',
+  url: '/assets/images/patternlibrary/components/history-open',
   alt: 'Beispiel für Verlauf geöffnet',
   title: 'Pattern Verlauf geöffnet'
 }) }}

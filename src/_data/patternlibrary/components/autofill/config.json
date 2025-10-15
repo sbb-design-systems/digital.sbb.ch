@@ -9,8 +9,8 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "System", "Input"],
-    "keywords":["Vertrauen", "Automatisches Ausfüllen", "autofill", "input", "table"],
+    "categories":["AI", "Output"],
+    "keywords":["Vertrauen", "Automatisches Ausfüllen", "autofill", "output", "table"],
     "hasTabs": false,
     "showInFirstLevel": true,
     "status": {

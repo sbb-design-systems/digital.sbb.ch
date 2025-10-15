@@ -3,7 +3,6 @@
 
 ## Wann soll das Pattern eingesetzt werden?
 * Wenn du planst, die Daten deiner Nutzer:innen zu verwenden.
-* 
 
 ## Empfehlung
 * Eine Entscheidung soll auch später noch geändert werden z.B. in den Einstellungen. 

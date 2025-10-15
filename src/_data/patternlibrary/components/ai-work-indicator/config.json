@@ -9,7 +9,7 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "System", "Input", "Output"],
+    "categories":["AI", "Output"],
     "keywords":["Vertrauen", "System", "Progress"],
     "hasTabs": false,
     "showInFirstLevel": true,

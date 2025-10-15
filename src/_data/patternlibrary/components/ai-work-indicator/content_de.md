@@ -14,34 +14,18 @@
 
 ## Beispiel
 *   System schreibt
-*   Absatz neu generieren lassen
 *   Laden innerhalb einer Tabelle
 
 ### System schreibt
 {{ principleImage({
-  url: '/assets/images/patternlibrary/components/ai-work-indicator1',
+  url: '/assets/images/patternlibrary/components/ai-work-indicator-form',
   alt: 'Beispiel für ein arbeitendes System',
   title: 'Pattern System schreibt'
 }) }}
 
-### Absatz neu generieren lassen
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/ai-work-indicator2',
-  alt: 'Beispiel für einen Absatz neu generieren lassen',
-  title: 'Pattern Absatz neu generieren'
-}) }}
-
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/ai-work-indicator2-1',
-  alt: 'Beispiel für einen Absatz neu generiert',
-  title: 'Pattern Absatz neu generiert'
-}) }}
-
-
-
 ### Laden innerhalb einer Tabelle
 {{ principleImage({
-  url: '/assets/images/patternlibrary/components/ai-work-indicator3',
+  url: '/assets/images/patternlibrary/components/ai-work-indicator-table',
   alt: 'Beispiel für das Laden innerhalb einer Tabelle',
   title: 'Pattern Laden innerhalb einer Tabelle'
 }) }}
