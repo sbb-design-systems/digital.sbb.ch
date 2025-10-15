@@ -1,4 +1,3 @@
-
 ## What does the component do?
 It is part of the navigation component.
 
