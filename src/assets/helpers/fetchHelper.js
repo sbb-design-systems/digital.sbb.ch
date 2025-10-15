@@ -11,7 +11,7 @@ const generateUrl = (specificPath) => {
 const fetchData = async (specificPath) => {
   const url = generateUrl(specificPath);
   return EleventyFetch(url, {
-    duration: "1s",
+    duration: "1h",
     type: "text"
   });
 };

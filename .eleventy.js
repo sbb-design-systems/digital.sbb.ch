@@ -109,24 +109,34 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
 
     eleventyConfig.addFilter("sortLyneComponentsByOrder", (obj) => {
-        const sorted = {};
-        Object.keys(obj)
-          .sort((a, b) => {
-            return obj[a].config.order > obj[b].config.order ? 1 : -1;
-          })
-          .forEach((name) => (sorted[name] = obj[name]));
-        return sorted;
-      });
+        if (!obj || typeof obj !== "object") {
+            return obj;
+        }
+
+        const entries = Object.entries(obj);
+        entries.sort(([, a], [, b]) => {
+            const orderA = a?.config?.order ?? Number.POSITIVE_INFINITY;
+            const orderB = b?.config?.order ?? Number.POSITIVE_INFINITY;
+            return orderA - orderB;
+        });
+
+        return Object.fromEntries(entries);
+    });
 
     eleventyConfig.addFilter("sortColorsByOrder", (obj) => {
-        const sorted = {};
-        Object.keys(obj)
-          .sort((a, b) => {
-            return obj[a].order > obj[b].order ? 1 : -1;
-          })
-          .forEach((name) => (sorted[name] = obj[name]));
-        return sorted;
-      });  
+        if (!obj || typeof obj !== "object") {
+            return obj;
+        }
+
+        const entries = Object.entries(obj);
+        entries.sort(([, a], [, b]) => {
+            const orderA = a?.order ?? Number.POSITIVE_INFINITY;
+            const orderB = b?.order ?? Number.POSITIVE_INFINITY;
+            return orderA - orderB;
+        });
+
+        return Object.fromEntries(entries);
+    });  
 
     // Custom filter to capitalize each word in a string
     eleventyConfig.addFilter("capitalizeWords", function(value) {

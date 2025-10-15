@@ -15,7 +15,7 @@
     "author": "Manuel Cilurzo",
     "license": "ISC",
     "devDependencies": {
-        "@11ty/eleventy": "^3.1.2",
+        "@11ty/eleventy": "^4.0.0-alpha.4",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
         "@sbb-esta/lyne-design-tokens": "^1.8.0",
         "eleventy-plugin-compress": "^1.0.5",
