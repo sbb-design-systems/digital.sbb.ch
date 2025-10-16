@@ -9,7 +9,7 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "User"],
+    "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Interaktionen", "Interactions", "Output"],
     "hasTabs": false,
     "showInFirstLevel": true,

@@ -8,22 +8,12 @@
 ## Empfehlung
 * Verwende eine Form, die gut verstanden wird: Dies kann mittels Prozentzahl, einer Progressbar oder verbal (“Wahrscheinlich”, “ungewiss”) sein.
 
-## Beispiel
-*   Default
-*   Default mit Sicherheitsanzeige
 
-### Default
+## Beispiel
 {{ principleImage({
   url: '/assets/images/patternlibrary/components/reliability',
   alt: 'Beispiel für die Abbildung von Zuverlässigkeit',
   title: 'Pattern Zuverlässigkeit'
-}) }}
-
-### Default mit Sicherheitsanzeige
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/reliability2',
-  alt: 'Beispiel für die Abbildung von Zuverlässigkeit mit Sicherheitsanzeige',
-  title: 'Pattern Zuverlässigkeit Sicherheitsanzeige'
 }) }}
 
 

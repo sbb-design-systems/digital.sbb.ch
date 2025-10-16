@@ -6,7 +6,7 @@
 * Wenn ein Bild-Ratio oder Bildgrösse definiert werden soll.
 
 ## Empfehlung
-* * Nahe verwandt mit Filter. Prüfen, welches sinnvoller ist.
+* Nahe verwandt mit Filter. Prüfen, welches sinnvoller ist.
 
 
 ## Beispiel

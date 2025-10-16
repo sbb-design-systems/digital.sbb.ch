@@ -9,7 +9,7 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "Vertrauen", "User", "Output", "System"],
+    "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Fragen an den Nutzer", "questions to the user"],
     "hasTabs": false,
     "showInFirstLevel": true,

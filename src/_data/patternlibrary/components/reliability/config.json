@@ -9,7 +9,7 @@
         "en": false
     },
     "order": 20,
-    "categories":["AI", "Vertrauen", "System", "Output"],
+    "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Zuverlässigkeit", "reliability"],
     "hasTabs": false,
     "showInFirstLevel": true,
