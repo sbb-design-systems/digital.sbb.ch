@@ -183,7 +183,7 @@ module.exports = {
       "radio": "Radiobutton",
       "radiocheck": "Selection-Type",
       "readonly": "Read only",
-      "red": "Rot",
+      "red": "Red",
       "orange": "Orange",
       "custom": "Custom",
       "reserve": "Yes",

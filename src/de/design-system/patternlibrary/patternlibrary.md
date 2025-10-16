@@ -5,5 +5,5 @@ key: patternlibrary_de
 title: Patterns
 parent: designsystem_de
 order: 80
-eleventyExcludeFromCollections: false
+eleventyExcludeFromCollections: true
 ---
