@@ -10,8 +10,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/parameter',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_parameter_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_parameter_dark',
   alt: 'Beispiel für Paramter',
   title: 'Pattern parameter'
 }) }}

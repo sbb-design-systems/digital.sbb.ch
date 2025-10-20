@@ -13,8 +13,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/action-on-output',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_action_on_output_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_action_on_output_dark',
   alt: 'Beispiel für Folgeaktionen nach AI-Output',
   title: 'Pattern action-on-output'
 }) }}

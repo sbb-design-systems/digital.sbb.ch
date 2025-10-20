@@ -3,7 +3,7 @@
 
 ## Wann soll das Pattern eingesetzt werden?
 * Dass die AI etwas macht, soll immer angezeigt werden (v.a. wenn es länger geht).
-* In “risikoreicheren” Kontexten, wenn es z.B. um Gesetze, Tarife, Finanzen geht.
+* In «risikoreicheren» Kontexten, wenn es z.B. um Gesetze, Tarife, Finanzen geht.
 * Wenn die AI eine komplexere Aufgabe erledigen soll. 
 
 
@@ -14,8 +14,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/system-steps',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_system_steps_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_system_steps_dark',
   alt: 'Beispiel für System Schritte',
   title: 'Pattern System Schritte'
 }) }}

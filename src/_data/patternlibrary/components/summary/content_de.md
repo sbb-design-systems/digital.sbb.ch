@@ -7,7 +7,7 @@
 
 
 ## Empfehlung
-*  Benenne die Zusammenfassung entsprechend auch als “Zusammenfassung”.
+*  Benenne die Zusammenfassung entsprechend auch als «Zusammenfassung».
 *  Verwende diese Pattern nicht, wenn der Output kurz ist.
 
 
@@ -16,15 +16,17 @@
 *   Zusammenfassung auf Verlangen
 
 ### Default
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/summary1',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_summary_default_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_summary_default_dark',
   alt: 'Beispiel für Zusammenfassung',
   title: 'Pattern Zusammenfassung'
 }) }}
 
 ### Zusammenfassung auf Verlangen
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/summary2',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_summary_summarized_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_summary_summarized_dark',
   alt: 'Beispiel für Zusammenfassung auf Verlangen',
   title: 'Pattern Zusammenfassung auf Verlangen'
 }) }}

@@ -2,17 +2,18 @@
 * Kommuniziert, wenn die AI keine Antwort geben kann.  
 
 ## Wann soll das Pattern eingesetzt werden?
-* Wenn keine passenden Daten vorhanden sind, sodass es keinen Output gibt
+* Wenn keine passenden Daten vorhanden sind, sodass es keinen Output gibt.
 
 
 ## Empfehlung
-* Kommuniziere für jeden Fall passend z.B. “Wir haben keine entsprechenden Daten ...” oder “Es scheint als ...”
-* Biete einen Weg an, um wieder auf den rechten Pfad zu kommen “... Versuche es mit einer anderen Fragestellung”.
+* Kommuniziere für jeden Fall passend z.B. «Wir haben keine entsprechenden Daten ...» oder «Es scheint als ...»
+* Biete einen Weg an, um wieder auf den rechten Pfad zu kommen «... Versuche es mit einer anderen Fragestellung».
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/limitation',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_limitation_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_limitation_dark',
   alt: 'Beispiel für die Limitierung',
   title: 'Pattern Limitierung'
 }) }}

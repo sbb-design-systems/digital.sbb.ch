@@ -11,8 +11,9 @@
 *  Oder durch vorgefertigte Antworten, die zur Auswahl gegeben werden. (Wenn möglich zu verwenden, da weniger Aufwand für Nutzer:innen). 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/questions-to-the-user',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_questions_to_user_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_questions_to_user_dark',
   alt: 'Beispiel für Fragen an den Nutzer',
   title: 'Pattern Fragen an den Nutzer'
 }) }}

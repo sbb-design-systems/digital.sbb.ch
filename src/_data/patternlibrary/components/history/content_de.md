@@ -16,15 +16,17 @@
 *   History open
 
 ### History collapsed
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/history-collapsed',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_history_closed_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_history_closed_dark',
   alt: 'Beispiel für Verlauf geschlossen',
   title: 'Pattern Verlauf geschlossen'
 }) }}
 
 ### History open
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/history-open',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_history_open_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_history_open_dark',
   alt: 'Beispiel für Verlauf geöffnet',
   title: 'Pattern Verlauf geöffnet'
 }) }}

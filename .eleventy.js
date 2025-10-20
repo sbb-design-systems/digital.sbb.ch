@@ -2,15 +2,15 @@
 const lodash = require("lodash");
 const nunjucks = require("nunjucks");
 const markdownIt = require("markdown-it");
-const md = new markdownIt();
-
+const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require('markdown-it-attrs')
+const md = new markdownIt();
 const markdownItOptions = {
   html: true,
   breaks: true,
   linkify: false
 }
-const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).disable('code');
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs).use(markdownItAnchor).disable('code');
 
 function sortByOrder(values) {
     let vals = [...values];     // this *seems* to prevent collection mutation...

@@ -11,8 +11,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/filter',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_filter_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_filter_dark',
   alt: 'Beispiel für Filter',
   title: 'Pattern filter'
 }) }}

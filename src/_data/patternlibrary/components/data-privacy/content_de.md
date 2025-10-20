@@ -9,8 +9,9 @@
 * Überlege dir wo du Opt-In und wo Opt-Out als Default setzt.
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/data-privacy',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_data_privacy_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_data_privacy_dark',
   alt: 'Beispiel für Datenschutz',
   title: 'Pattern data-privacy'
 }) }}

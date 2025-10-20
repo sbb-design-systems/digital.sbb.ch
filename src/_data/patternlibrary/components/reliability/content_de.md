@@ -2,16 +2,17 @@
 * Gibt an, wie sicher sich das System bei seiner Antwort ist.  
 
 ## Wann soll das Pattern eingesetzt werden?
-* In “risikoreicheren” Kontexten, wenn es z.B. um Gesetze, Tarife, Finanzen geht.
+* In «risikoreicheren» Kontexten, wenn es z.B. um Gesetze, Tarife, Finanzen geht.
 * Wenn basierend auf dem Output eine Entscheidung getroffen werden soll. 
 
 ## Empfehlung
-* Verwende eine Form, die gut verstanden wird: Dies kann mittels Prozentzahl, einer Progressbar oder verbal (“Wahrscheinlich”, “ungewiss”) sein.
+* Verwende eine Form, die gut verstanden wird: Dies kann mittels Prozentzahl, einer Progressbar oder verbal («Wahrscheinlich», «ungewiss») sein.
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/reliability',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_reliability_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_reliability_dark',
   alt: 'Beispiel für die Abbildung von Zuverlässigkeit',
   title: 'Pattern Zuverlässigkeit'
 }) }}

@@ -16,15 +16,17 @@
 *   Personalisierte Vorschläge
 
 ### Default
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/suggestions-default',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_suggestions_default_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_suggestions_default_dark',
   alt: 'Beispiel für Vorschläge',
   title: 'Pattern Vorschläge'
 }) }}
 
 ### Personalisierte Vorschläge
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/suggestions-personalisiert',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_suggestions_personalized_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_suggestions_personalized_dark',
   alt: 'Beispiel für Personalisierte Vorschläge',
   title: 'Pattern Personalisierte Vorschläge'
 }) }}

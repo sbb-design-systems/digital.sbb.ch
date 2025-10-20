@@ -9,8 +9,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/prompt-quality',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_prompt_quality_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_prompt_quality_dark',
   alt: 'Beispiel für Prompt Qualität',
   title: 'Pattern prompt-quality'
 }) }}

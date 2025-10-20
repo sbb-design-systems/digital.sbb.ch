@@ -9,7 +9,7 @@
 
 ## Empfehlung
 *  Den Fortschritt des Systems kann man auf verschiedene Arten anzeigen, z.B. vereinfacht mit einer Progressbar oder einem Loading-Indicator.
-*  Das Pattern kann kombiniert werden mit einem mit einer “Stop”-Aktion. 
+*  Das Pattern kann kombiniert werden mit einem mit einer «Stop»-Aktion. 
 
 
 ## Beispiel
@@ -17,15 +17,17 @@
 *   Laden innerhalb einer Tabelle
 
 ### System schreibt
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/ai-work-indicator-form',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_work_indicator_default_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_work_indicator_default_dark',
   alt: 'Beispiel für ein arbeitendes System',
   title: 'Pattern System schreibt'
 }) }}
 
 ### Laden innerhalb einer Tabelle
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/ai-work-indicator-table',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_work_indicator_table_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_work_indicator_table_dark',
   alt: 'Beispiel für das Laden innerhalb einer Tabelle',
   title: 'Pattern Laden innerhalb einer Tabelle'
 }) }}

@@ -9,8 +9,9 @@
 * Du kannst den Erfasser mittels Wasserzeichen angeben oder durch eine andere visuelle Darstellung. 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/author',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_author_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_author_dark',
   alt: 'Beispiel für den Autor',
   title: 'Pattern Autor'
 }) }}

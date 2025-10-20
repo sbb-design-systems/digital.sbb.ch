@@ -12,8 +12,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/inline-action',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_inline_action_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_inline_action_dark',
   alt: 'Beispiel für Interaktionen innerhalb eines AI-Outputs',
   title: 'Pattern inline-action'
 }) }}

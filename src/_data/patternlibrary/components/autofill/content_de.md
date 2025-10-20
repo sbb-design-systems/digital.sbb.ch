@@ -13,8 +13,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/autofill',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_autofill_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_autofill_dark',
   alt: 'Beispiel für automatisches Ausfüllen',
   title: 'Pattern autofill'
 }) }}

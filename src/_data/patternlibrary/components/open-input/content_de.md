@@ -5,15 +5,15 @@
 * Wenn viele verschiedene Anfragen gemacht werden sollen, also viel Flexibilität erwartet wird.
 
 
-
 ## Empfehlung
-* Das Pattern kann zu Überforderung führen, dabei kann “Beispiel-Prompt anzeigen” helfen oder “Start-Beispiel anzeigen” (siehe “Vorschläge”).
+* Das Pattern kann zu Überforderung führen, dabei kann «Beispiel-Prompt anzeigen» helfen oder «Start-Beispiel anzeigen» (siehe «Vorschläge»).
 
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/open-input',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_open_input_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_open_input_dark',
   alt: 'Beispiel für Open-Input',
   title: 'Pattern Open-Input'
 }) }}

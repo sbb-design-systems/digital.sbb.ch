@@ -17,22 +17,25 @@ diesen auch noch anpassen.
 *   Default mit Formular
 
 ### Default
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/templates1',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_templates_default_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_templates_default_dark',
   alt: 'Beispiel für Template',
   title: 'Pattern Template'
 }) }}
 
 ### Default ausgefüllt
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/templates1-filled',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_templates_default_filled_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_templates_default_filled_dark',
   alt: 'Beispiel für Template ausgefüllt',
   title: 'Pattern Template ausgefüllt'
 }) }}
 
 ### Default mit Formular
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/templates2',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_templates_form_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_templates_form_dark',
   alt: 'Beispiel für Template mit Formular',
   title: 'Pattern Template Formular'
 }) }}

@@ -12,8 +12,9 @@
 
 
 ## Beispiel
-{{ principleImage({
-  url: '/assets/images/patternlibrary/components/user-feedback',
+{{ imageOnGreyBackground({
+  url: '/assets/images/patternlibrary/components/pattern_user_feedback_light',
+  urldark: '/assets/images/patternlibrary/components/pattern_user_feedback_dark',
   alt: 'Beispiel für User-Feedback',
   title: 'Pattern User-Feedback'
 }) }}
