@@ -2,57 +2,50 @@
 layout: page.njk
 tags: level3
 key: ai_design_grundlagen_de
-title: AI Design Guide
+title: "AI Design: Grundlagen"
 parent: guides_de
 order: 20
 eleventyExcludeFromCollections: false
 ---
 
-Artificial Intelligence (AI) bietet die Möglichkeit, mehr Ansprüche von Nutzer:innen zu erfüllen als je zuvor. Die individuellen Bedürfnisse und Kontexte bleiben jedoch vielfältig, weshalb es bei der Gestaltung von Interaktionen mit AI keine One‑Fits‑All‑Lösung gibt. Damit das Potenzial von AI von den Nutzer:innen voll ausgeschöpft werden kann, müssen wir die Interaktion bewusst und nutzerzentriert gestalten.
+Artificial Intelligence (AI) bietet die Möglichkeit, mehr Anforderungen von Nutzer:innen zu erfüllen als je zuvor. Die individuellen Bedürfnisse und Kontexte bleiben jedoch vielfältig, weshalb es bei der Gestaltung von Interaktionen mit AI keine “One‑fits‑all‑Lösung” gibt. Damit das Potenzial von AI von den Nutzer:innen voll ausgeschöpft werden kann, müssen wir die Interaktion bewusst und nutzerzentriert gestalten. Dabei gelten auch hier unsere [Gestaltungsprinzipien](/de/principles/ux-principles/overview/).
 <br>
 
 <sbb-link-list-anchor>
-  <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#nutzerzentrierter-ansatz">Nutzerzentrierter Ansatz</sbb-block-link>
-  <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#arten-von-ai-und-deren-einsatz">Arten von AI und deren Einsatz</sbb-block-link>
   <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#integration-der-ai-im-system">Integration der AI im System</sbb-block-link>
-  <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#automatisierungsgrad">Automatisierungsgrad</sbb-block-link>
+  <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#herausforderungen-für-nutzende">Herausforderungen für Nutzende</sbb-block-link>
+  <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#augmentation-vs.-automation">Augmentation vs. Automation</sbb-block-link>
   <sbb-block-link href="/de/guidelines/guides/ai-design-guide/#design-patterns">Design Patterns</sbb-block-link>
 </sbb-link-list-anchor>
 
-## Nutzerzentrierter Ansatz
-Ein nutzerzentrierter Ansatz stellt die Bedürfnisse und Erwartungen der Nutzer:innen in den Mittelpunkt des Designprozesses. Starte mit Nutzerforschung, um zu klären, welche Probleme deine Zielgruppe hat und wie AI diese lösen kann. Erstelle Prototypen, um Interaktionsabläufe sichtbar zu machen, und teste die Designs regelmässig, damit sie den Anforderungen der Nutzer:innen entsprechen.
-
-## Arten von AI und deren Einsatz
-Nicht jede AI‑Variante eignet sich für jede Anwendung. Wichtig ist zu verstehen, wann welcher Ansatz sinnvoll ist. Gängige Kategorien sind unter anderem:
-
-*  Regelbasierte Systeme: Geeignet für einfache, wiederkehrende Aufgaben, die durch klare Regeln abgedeckt werden.
-*  Klassisches Machine Learning: Machine‑Learning‑Modelle eignen sich für Aufgaben wie E‑Mail‑Klassifikation oder Prognosen. 
-*  Deep Learning: Teilbereich des Machine Learning mit neuronalen Netzwerken zur Erkennung von Mustern in grossen Datenmengen. Deep‑Learning‑Modelle eignen sich für komplexere Aufgaben wie Bild‑ und Sprachverarbeitung, Mustererkennung und Generierung von Text oder Bildern. 
-
-Komplexe Modelle (z. B. Deep Learning) erreichen oft höhere Genauigkeit und verarbeiten unstrukturierte Daten automatisiert. Sie benötigen dafür aber viele Daten, hohe Rechenressourcen und sind schwieriger erklärbar und wartbar. Einfachere Algorithmen sind leichter verständlich, schneller und robuster bei kleinen Datenmengen und geringer Rechenleistung, erreichen bei komplexen Aufgaben aber schneller ihre Grenzen. Entscheidend ist ein guter Match zwischen Nutzerbedürfnis und Modell.
-
 ## Integration der AI im System
+Wenn wir den Kund:innen oder Mitarbeitenden eine AI zur Verfügung stellen wollen, müssen wir uns Gedanken über die Rolle der AI im System machen. Dabei helfen folgende Dimensionen:
+
 1. **Scope:** Wie viel des Systems wird von AI getragen? Handelt es sich um eine einzelne Komponente, einen Flow, ein Feature, eine Applikation oder eine ganze Plattform?
-2. **Raum:** Wie wird die AI im Verhältnis zur Funktionalität präsentiert? Nimmt sie das Zentrum ein oder ist sie nur ein kleines UI‑Element? Ist sie sichtbar oder läuft sie im Hintergrund? Wenn sichtbar: permanent oder nur auf Anfrage? 
-3. **Funktionalität:** Wie interagiert die AI mit bestehenden Features? Kann sie auf andere Informationen zugreifen oder ist sie funktional isoliert? Wird das Modell statisch betrieben oder kontinuierlich mit neuen Daten und Schnittstellen angepasst? 
 
-Eine klare Planung dieser Dimensionen hilft, die Rolle der AI im Gesamtsystem zu definieren und zu optimieren. Ergänzend sind Datensicherheit und die entstehenden Kosten (z. B. Lizenz‑ oder Infrastrukturkosten) zu berücksichtigen. Zur Nutzung und Kennzeichnung vom Teilbereich Generative AI findest du zudem Vorgaben auf dem [SBB Markenportal](https://brand.sbb.ch/document/6#/digital/artificial-intelligence). 
+2. **Raum:** Wie wird die AI im Verhältnis zur Funktionalität präsentiert? Nimmt sie das Zentrum ein oder ist sie nur ein kleines UI‑Element? Ist sie sichtbar oder läuft sie im Hintergrund? Wenn sichtbar: permanent oder nur auf Anfrage?
+3. **Funktionalität:** Wie interagiert die AI mit bestehenden Funktionen? Kann sie auf andere Informationen zugreifen oder ist sie funktional isoliert? Wird das Modell statisch betrieben oder kontinuierlich mit neuen Daten und Schnittstellen angepasst? 
 
-## Automatisierungsgrad
-Der angemessene Automatisierungsgrad hängt von den Nutzerbedürfnissen und dem Kontext ab. Zu hohe Automatisierung kann dazu führen, dass Fehler unentdeckt bleiben; zu geringe Automation verringert die Effizienz. Wähle den Grad so, dass Nutzen, Risiko und Vertrauen in einem ausgewogenen Verhältnis stehen.
+Eine klare Planung dieser Dimensionen hilft, die User Experience für Kund:innen oder Mitarbeitende bestmöglich zu gestalten. <br>
 
-<sbb-table-wrapper>
-
-| Risiko         | Kontrolle hoch | Kontrolle mässig | Kontrolle tief |
-|----------------|------------------|----------------|----------------|
-| hoch           | **Manuelle Entscheidungsfindung** <br> z.B. AI-gestützte Diagnosesysteme, die von Ärzt:innen überwacht werden müssen| **Teilautomatisierung mit menschlicher Aufsicht**<br>z. B. Betrugserkennung in Finanzprozessen mit manueller Prüfung | **Automatisierte Warnsysteme**<br>z.B. Alarmanlagen, die automatisierte Warnungen senden |
-| mässig         | **Teilautomatisierung mit Kontrolle** <br>z. B. Kundenservice‑Chatbots mit Übergabemöglichkeit an menschliche Agent:innen | **Automatisierte Prozesse mit sporadischer Überprüfung** <br> z. B. Marketing‑Kampagnen mit regelmässiger Erfolgskontrolle | **Hohe Automatisierung** <br> z.B. Empfehlungsalgorithmen |  
-| tief           | **Manuelle Routineaufgaben** <br> z. B. einfache Formular‑Eingaben oder -Prüfungen | **Teilautomatisierung** <br> z.B. wöchentliche Verkaufsberichte, die automatisch generiert werden | **Vollautomatisierte Systeme** <br> z.B. automatisierte Beiträge auf Social-Media-Plattformen |                                              
+Bei der Gestaltung sind neben den UX-Themen natürlich auch weitere Aspekte zentral, wie z.B. das Markenerlebnis und der Datenschutz und die Datensicherheit. Letztere werden durch interne Vorgaben und externe Gesetze geregelt. Zur Nutzung und Kennzeichnung des Teilbereichs Generative AI findest du zudem Vorgaben auf dem [SBB Markenportal](https://brand.sbb.ch/document/6#/digital/artificial-intelligence). 
 
 
-{.sbb-table}
+## Herausforderungen für Nutzende
+Es gibt unterschiedliche Arten von AI-Systemen (z. B. Large Language Models (LLMs), Machine Learning, Reinforcement Learning, ...). Sie eignen sich für unterschiedliche, komplexe Anwendungszwecke, wie z. B. die Musterkennung und das Generieren von Text, Bild und Sprache oder das Vorhersagen von Ereignissen. Während die AI-Systeme viele Möglichkeiten bieten, bringen sie aber auch Herausforderungen für die Nutzenden mit sich: 
+* Transparenz und Erklärbarkeit: Die Funktionsweise ist für Nutzende nicht einfach nachvollziehbar und es wird deshalb gerne von einer Black Box gesprochen. Die Gestaltung der Erklärbarkeit, d.h. warum ein System welchen Vorschlag macht, ist zentral für eine erfolgreiche Nutzung.
+* Probabilistische und Selbstlernende AI-Systeme:  AI-Systeme antworten basierend auf Wahrscheinlichkeiten. AI Systeme nutzen Feedback durch Nutzung, um sich selbst zu optimieren. Das führt dazu, dass sie nicht immer die gleiche Antwort geben und sich über die Zeit ändern.
+* Fehler, z. B. Halluzinationen: Die Ergebnisse sind nicht immer korrekt und müssen geprüft werden. 
 
-</sbb-table-wrapper>
+Zentral für uns ist also, wie wir die Interaktion zwischen Mensch und AI-System so gestalten, dass die Kund:innen oder Mitarbeitenden ihre Ziele erreichen und auch ein angemessenes Vertrauen in die Ergebnisse der AI haben.
+
+
+## Augmentation vs. Automation 
+AI kann gerade bei monotonen Routineaufgaben Mehrwert bringen, indem sie die Arbeit der Menschen übernimmt und autonom ausführt (Automation) und somit die Effizienz steigert. Da aber auch die AI Fehler (siehe oben) macht, ist es wichtig bei komplexen, unsicheren oder verantwortungsintensiven Kontexten die Entscheidung einem Menschen zu überlassen. In diesen Fällen kann die AI den Menschen unterstützen (Augmentation) mittels Empfehlungen und Vorschlägen. Diese sollen für den Menschen verständlich und nachvollziehbar sein und von ihm beeinflusst oder übersteuert werden können. Grundsätzlich gilt: Je höher Risiko und Unsicherheit, desto eher Augmentation; bei niedrigem Risiko und gut definierten Aufgaben eher Automation.
+
+Tatsächlich sind viele reale Systeme Hybride: Mensch-in-the-loop (MITL) für kritische Entscheidungen, Mensch-on-the-loop (MOTL) für Überwachung, Human-in-command für strategische Kontrolle. 
+
+In der Praxis lohnt sich häufig ein iterativer Ansatz: Mit Augmentation starten, und dann langsam, selektiv automatisieren, wenn Vertrauen und Performance stimmen.
 
 
 ## Design Patterns
