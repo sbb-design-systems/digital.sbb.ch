@@ -36,8 +36,8 @@
     },
     "dependencies": {
         "@11ty/eleventy-fetch": "^5.1.0",
-        "@sbb-esta/lyne-elements": "3.11.0",
-        "@sbb-esta/lyne-elements-experimental": "3.11.0",
+        "@sbb-esta/lyne-elements": "3.12.0",
+        "@sbb-esta/lyne-elements-experimental": "3.12.0",
         "@webcomponents/template-shadowroot": "^0.2.1",
         "cpx2": "^8.0.0",
         "html-minifier-terser": "^7.2.0",
