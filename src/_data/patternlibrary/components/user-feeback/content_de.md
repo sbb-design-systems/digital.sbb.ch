@@ -1,4 +1,4 @@
-### Was macht das Pattern?
+## Was macht das Pattern?
 * Gibt die Möglichkeit, dass Nutzer:innen explizites Feedback zu einem Output geben.
 
 ## Wann soll das Pattern eingesetzt werden?
