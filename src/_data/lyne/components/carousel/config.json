@@ -30,82 +30,20 @@
     },
      "playground" : [
         {
-            "attribute":"color",
-            "label":"color",
+            "attribute":"shadow",
+            "label":"shadow",
             "target":"demo-item",
-            "default":"milk",
-            "mode":"property",
+            "default":"true",
+            "mode":"boolean",
             "options" : [
                 {
-                    "value":"milk",
-                    "label":"milk"
-                },
-                {
-                    "value":"white",
-                    "label":"white"
-                }
-            ]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"xs",
-                "label":"xs"
-            }, 
-            {
-                "value":"s",
-                "label":"s"
-            }, 
-            {
-                "value":"m",
-                "label":"m"
-            },
-            {
-                "value":"l",
-                "label":"l"
-            },
-            {
-                "value":"xl",
-                "label":"xl"
-            },
-            {
-                "value":"xxl",
-                "label":"xxl"
-            }]
-        },
-        {
-            "attribute":"active",
-            "label":"active",
-            "target":"demo-link",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
                 "value":"true",
                 "label":"true"
-            }]
-        },
-        {
-            "attribute":"badge",
-            "label":"badge",
-            "target":"badge",
-            "default":"badge",
-            "mode":"slot",
-            "options" : [{
-                "value":"test",
-                "label":"false"
             },
             {
-                "value":"badge",
-                "label":"true"
-            }
+                "value":"false",
+                "label":"false"
+            } 
             ]
         }
         
