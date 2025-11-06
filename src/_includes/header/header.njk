@@ -1,5 +1,5 @@
 <sbb-header {% if layout == "component.njk" %} scroll-origin="content"{% else %} hide-on-scroll {% endif %}>
-  <sbb-header-button role="button" id="nav-trigger" icon-name="hamburger-menu-small" expand-from="small">Menu</sbb-header-button>
+  <sbb-header-button role="button" id="nav-trigger" icon-name="hamburger-menu-small" expand-from="small">{{ translations[page.lang].menu }}</sbb-header-button>
 {% if layout == "component.njk" %}
   <sbb-header-button role="button" id="toggle-component-browser" icon-name="magnifying-glass-small" expand-from="medium">{{ translations[page.lang].actioncomponentbrowser }}</sbb-header-button>
   <sbb-header-link href="{{page.lang}}/design-system/{{system}}/overview" icon-name="four-squares-small" expand-from="medium">{{ translations[page.lang].overviewds }} {% if system == "patternlibrary" %}Patterns{% else %}{{system | capitalizeWords}}{% endif %}</sbb-header-link>

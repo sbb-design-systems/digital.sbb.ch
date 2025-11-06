@@ -1,12 +1,13 @@
 
 ## Was macht die Komponente?
-Eine Card ist ein flexibles Container-Element, das verschiedene Arten von Inhalten und Aktionen in einem einheitlichen Block zusammenfasst.
+Ein Carousel ist ein interaktives Element zur Anzeige mehrerer Inhalte innerhalb eines begrenzten Bereichs. Es zeigt jeweils einen oder mehrere Inhalte an und ermöglicht das horizontale Durchblättern per Navigationselemente oder Gesten.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um zusammengehörige Informationen kompakt darzustellen.
-* Um visuelle Hierarchien und Struktur in eine Seite zu bringen.
-* Um Inhalte wie Texte und Aktionen zusammen darzustellen.
+* Wenn mehrere ähnliche Inhalte gezeigt werden sollen, aber nicht alle gleichzeitig Platz haben.
+* Wenn der Fokus auf einer visuellen oder inhaltlichen Abfolge liegt (z. B. Highlights, Kampagnen, Produkte).
+* Wenn der verfügbare Platz begrenzt ist und Inhalte platzsparend präsentiert werden sollen.
 
 ## Regeln
-* Die Inhalte innerhalb einer Card sollen logisch zusammenhängen und gut strukturiert sein. Der Inhalt sollte so knapp wie möglich formuliert werden.
-* Hat eine Card mehrere Interaktive Elemente, so liegen die Klick-Targets auf den eingesetzten interaktiven Elementen. Hat die Card nur ein interaktives Element, so dient die ganze Card als Klick-Target.
+* Es sollten nicht mehr als 7 Slides verwendet werden. 
+* Jeder Slide soll einen klaren Fokus haben.
+* Carousels sollen nicht automatisch wechseln – nur manuelle Steuerung durch den Benutzer. 

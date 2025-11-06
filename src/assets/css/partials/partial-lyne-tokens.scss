@@ -50,7 +50,7 @@
       display: none;
     }
 
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       .center {
         justify-content: center;
       }
@@ -81,7 +81,7 @@
 
 .duration-token {
   .row {
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 4fr 1fr 4fr;
     }
   }
@@ -89,7 +89,7 @@
 
 .easing-token {
   .row {
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 4fr 5fr;
     }
   }
@@ -127,7 +127,7 @@
 
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
   }
@@ -136,7 +136,7 @@
 .spacing-fixed-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -145,7 +145,7 @@
 .breakpoint-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -154,7 +154,7 @@
 .scalye-typo-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -163,7 +163,7 @@
 .face-typo-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 2fr 3fr auto;
     }
   }
@@ -172,7 +172,7 @@
 .letter-spacing-typo-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -181,7 +181,7 @@
 .line-height-typo-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
@@ -190,7 +190,7 @@
 .remaining-typo-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 1fr 2fr;
     }
   }
@@ -214,7 +214,7 @@
 .base-grid-columns-token, .base-grid-gutter-token, .base-grid-offset-token {
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       grid-template-columns: 5fr 1fr 2fr;
     }
   }
@@ -262,7 +262,7 @@
 .shadow-3-soft-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-3-soft;
+  box-shadow: var(--sbb-box-shadow-level-3-soft);
 }
 
 .shadow-3-soft-negative {
@@ -270,13 +270,13 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-3-soft-negative;
+  box-shadow: var(--sbb-box-shadow-level-3-soft-negative);
 }
 
 .shadow-3-hard-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-3-hard;
+  box-shadow: var(--sbb-box-shadow-level-3-hard);
 }
 
 .shadow-3-hard-negative {
@@ -284,14 +284,14 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-3-hard-negative;
+  box-shadow: var(--sbb-box-shadow-level-3-hard-negative);
 }
 
 
 .shadow-5-soft-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-5-soft;
+  box-shadow: var(--sbb-box-shadow-level-5-soft);
 }
 
 .shadow-5-soft-negative {
@@ -299,13 +299,13 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-5-soft-negative;
+  box-shadow: var(--sbb-box-shadow-level-5-soft-negative);
 }
 
 .shadow-5-hard-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-5-hard;
+  box-shadow: var(--sbb-box-shadow-level-5-hard);
 }
 
 .shadow-5-hard-negative {
@@ -313,14 +313,14 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-5-hard-negative;
+  box-shadow: var(--sbb-box-shadow-level-5-hard-negative);
 }
 
 
 .shadow-9-soft-positive {
   background: var(--sbb-color-white);
   background-color: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-9-soft;
+  box-shadow: var(--sbb-box-shadow-level-9-soft);
 }
 
 .shadow-9-soft-negative {
@@ -328,13 +328,13 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-9-soft-negative;
+  box-shadow: var(--sbb-box-shadow-level-9-soft-negative);
 }
 
 .shadow-9-hard-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-9-hard;
+  box-shadow: var(--sbb-box-shadow-level-9-hard);
 }
 
 .shadow-9-hard-negative {
@@ -342,14 +342,14 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-9-hard-negative;
+  box-shadow: var(--sbb-box-shadow-level-9-hard-negative);
 }
 
 
 .shadow-11-soft-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-11-soft;
+  box-shadow: var(--sbb-box-shadow-level-11-soft);
 }
 
 .shadow-11-soft-negative {
@@ -357,13 +357,13 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-11-soft-negative;
+  box-shadow: var(--sbb-box-shadow-level-11-soft-negative);
 }
 
 .shadow-11-hard-positive {
   background: var(--sbb-color-white);
   background: light-dark(var(--sbb-background-color-1), var(--sbb-background-color-1));
-  @include sbb.shadow-level-11-hard;
+  box-shadow: var(--sbb-box-shadow-level-11-hard);
 }
 
 .shadow-11-hard-negative {
@@ -371,7 +371,7 @@
   background: light-dark(var(--sbb-background-color-1-inverted), var(--sbb-background-color-1));
   color: var(--sbb-color-white);
   color: light-dark(var(--sbb-color-1-inverted), var(--sbb-color-1-inverted));
-  @include sbb.shadow-level-11-hard-negative;
+  box-shadow: var(--sbb-box-shadow-level-11-hard-negative);
 }
 
 .shadow-box {
@@ -381,7 +381,7 @@
   margin-block: var(--sbb-spacing-fixed-12x);
   margin-inline: 0;
 
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: repeat(2, 1fr);
   }
 

@@ -11,7 +11,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -19,7 +19,7 @@
     gap: var(--sbb-layout-base-grid-gutter-responsive-large);
   }
   
-  @include sbb.mq($from: wide) {
+  @include sbb.mq($from: ultra) {
     grid-template-columns: repeat(4, 1fr);
   }
 

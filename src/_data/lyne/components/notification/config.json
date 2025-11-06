@@ -50,6 +50,10 @@
             {
                 "value":"error",
                 "label":"error"
+            }, 
+            {
+                "value":"note",
+                "label":"note"
             }]
         },
         {

@@ -14,7 +14,7 @@
     inline-size: 100%;
     max-inline-size: calc(var(--sbb-layout-base-page-max-width) + 2 * var(--sbb-layout-base-offset-responsive));
     padding-block: var(--sbb-spacing-responsive-s);
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       padding-block: var(--sbb-spacing-responsive-m);
     }
 
@@ -53,7 +53,7 @@
         display: grid !important;
         gap: var(--sbb-spacing-fixed-8x) !important;
         grid-template-columns: 1fr !important;
-        @include sbb.mq($from: medium) {
+        @include sbb.mq($from: large) {
           grid-template-columns: 1fr auto !important;
         }
 
@@ -93,7 +93,7 @@
           transform: none;
           padding: 0;
           inset-inline: 0;
-          @include sbb.mq($from: medium) {
+          @include sbb.mq($from: large) {
             margin-block-start: 55px;
           }
 
@@ -168,7 +168,7 @@
 
   #onetrust-pc-sdk {
     padding-block-end: 96px !important;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       border-radius: 24px !important;
     }
 
@@ -614,7 +614,7 @@
     }
 
     .ot-pc-footer {
-      @include sbb.shadow-level-5-hard;
+      box-shadow: var(--sbb-box-shadow-level-5-hard);
 
       .ot-btn-container {
         padding-block: 7px !important;

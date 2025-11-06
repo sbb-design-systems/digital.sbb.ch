@@ -1,5 +1,5 @@
 {
-    "tag":"carousel",
+    "tag":"carousel-item",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -14,14 +14,14 @@
     "hasTabs": true,
     "tabs": {
         "hasOverview": true,
-        "hasAnatomy": true,
+        "hasAnatomy": false,
         "hasStorybook": true,
-        "hasPlayground": true,
+        "hasPlayground": false,
         "hasImplementation": true
     },
-    "showInFirstLevel": true,
-    "childs":["carousel-list"],
-    "isChildOf":false,
+    "showInFirstLevel": false,
+    "childs":false,
+    "isChildOf":["carousel-list"],
     "similar":false,
     "status": {
         "design": "ok",

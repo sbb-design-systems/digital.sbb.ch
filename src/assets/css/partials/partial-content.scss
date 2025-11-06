@@ -86,7 +86,7 @@ h2.with-icon {
     stroke: var(--sbb-color-midnight);
     stroke: light-dark(var(--sbb-color-1), var(--sbb-color-1));
     stroke-width: 1.5;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       margin-block-start: calc(var(--sbb-spacing-fixed-1x) / 2);
       padding-block: 0;
       padding-inline: 0 var(--sbb-spacing-fixed-3x);
@@ -106,7 +106,7 @@ h3.with-icon {
     stroke: var(--sbb-color-midnight);
     stroke: light-dark(var(--sbb-color-1), var(--sbb-color-1));
     stroke-width: 1.5;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       padding-block: 0;
       padding-inline: 0 var(--sbb-spacing-fixed-3x);
       margin-block-start: calc(-1 * var(--sbb-spacing-fixed-1x));
@@ -224,14 +224,14 @@ sbb-table-wrapper + sbb-table-wrapper {
     display: grid;
     gap: var(--sbb-spacing-responsive-m);
     grid-template-columns: 1fr;
-    @include sbb.mq($from: medium) {
+    @include sbb.mq($from: large) {
       gap: var(--sbb-layout-base-grid-gutter-responsive-medium);
       grid-template-columns: auto auto auto;
     }
     @include sbb.mq($from: large) {
       gap: var(--sbb-layout-base-grid-gutter-responsive-large);
     }
-    @include sbb.mq($from: wide) {
+    @include sbb.mq($from: ultra) {
       gap: var(--sbb-layout-base-grid-gutter-responsive-wide);
     }
     @include sbb.mq($from: ultra) {
@@ -246,7 +246,7 @@ sbb-table-wrapper + sbb-table-wrapper {
   grid-template-rows: auto;
   gap: var(--sbb-spacing-fixed-2x) var(--sbb-spacing-fixed-2x);
 
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
   }
@@ -259,7 +259,7 @@ sbb-table-wrapper + sbb-table-wrapper {
   grid-template-rows: auto;
   gap: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-8x);
 
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: 2fr 1fr;
   }
 
@@ -281,7 +281,7 @@ sbb-table-wrapper + sbb-table-wrapper {
   border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-4-inverted), var(--sbb-border-color-4-inverted));
   min-block-size: var(--sbb-spacing-fixed-24x);
   
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     padding: var(--sbb-spacing-fixed-8x);
   }
 

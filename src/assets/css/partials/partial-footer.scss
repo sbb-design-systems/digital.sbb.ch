@@ -51,7 +51,7 @@ sbb-footer {
     order: 3;
   }
 
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     .contact, .impressum {
       order: 1;
       grid-column: 1 / 8;
@@ -71,7 +71,7 @@ sbb-footer {
       grid-column: 1 / 9;
     }
   }
-  @include sbb.mq($from: wide) {
+  @include sbb.mq($from: ultra) {
     .contact, .impressum {
       grid-column: 1 / 11;
     }

@@ -23,10 +23,10 @@
 }
 
 .teasers.home {
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @include sbb.mq($from: wide) {
+  @include sbb.mq($from: ultra) {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -36,19 +36,19 @@
   @include sbb.mq($from: small) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @include sbb.mq($from: wide) {
+  @include sbb.mq($from: ultra) {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
 .teasers.principles {
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     grid-template-columns: repeat(2, 1fr);
   }
-  @include sbb.mq($from: wide) {
+  @include sbb.mq($from: ultra) {
     grid-template-columns: repeat(3, 1fr);
   }
 }

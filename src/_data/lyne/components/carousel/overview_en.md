@@ -1,12 +1,13 @@
 
 ## What does the component do?
-A card is a flexible container element that combines different types of content and actions in a single block.
+A carousel is an interactive element for displaying multiple pieces of content within a limited area. It displays one or more pieces of content at a time and allows horizontal scrolling using navigation elements or gestures.
 
 ## When should the component be used?
-* To present related information in a compact way.
-* To bring visual hierarchies and structure to a page.
-* To display content such as text and actions together.
+* When several similar pieces of content are to be displayed, but there is not enough space for all of them at once.
+* When the focus is on a visual or content sequence (e.g., highlights, campaigns, products).
+* When space is limited and content needs to be presented in a space-saving manner.
 
 ## Rules
-* The content within a card should be logically related and well structured. The content should be formulated as precisely as possible.
-* If a card has several interactive elements, the click targets should be placed on the interactive elements used. If the card has only one interactive element, the entire card can be used as a click target.
+* No more than 7 slides should be used.
+* Each slide should have a clear focus.
+* Carousels should not change automatically—only manual control by the user. 

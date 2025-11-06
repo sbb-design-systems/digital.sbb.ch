@@ -9,13 +9,13 @@
     grid-column: 1 / 5;
   }
 
-  @include sbb.mq($from: medium) {
+  @include sbb.mq($from: large) {
     .intro-wrapper {
       grid-column: 1 / 9;
     }
 
   }
-  @include sbb.mq($from: wide) {
+  @include sbb.mq($from: ultra) {
     .intro-wrapper {
       grid-column: 1 / 9;
     }
