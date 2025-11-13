@@ -4,7 +4,7 @@
     "list":"patterns",
     "language": {
         "de": true,
-        "fr": false,
+        "fr": true,
         "it": false,
         "en": true
     },
