@@ -67,17 +67,17 @@
             #onetrust-policy-title {
               font-family: var(--sbb-typo-type-face-sbb-bold) !important;
               font-weight: normal !important;
-              line-height: var(--sbb-typo-line-height-body-text) !important;
-              font-size: var(--sbb-font-size-text-l) !important;
+              line-height: var(--sbb-typo-line-height-text) !important;
+              font-size: var(--sbb-text-font-size-l) !important;
               color: var(--sbb-color-black) !important;
             }
 
             #onetrust-policy-text {
               font-family: var(--sbb-typo-type-face-sbb-roman) !important;
               font-weight: normal !important;
-              line-height: var(--sbb-typo-line-height-body-text) !important;
-              letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
-              font-size: var(--sbb-font-size-text-s) !important;
+              line-height: var(--sbb-typo-line-height-text) !important;
+              letter-spacing: var(--sbb-typo-letter-spacing-text) !important;
+              font-size: var(--sbb-text-font-size-s) !important;
               color: var(--sbb-color-black) !important;
 
               a {
@@ -284,8 +284,8 @@
       #ot-pc-title, #ot-category-title {
         font-family: var(--sbb-typo-type-face-sbb-bold) !important;
         font-weight: normal !important;
-        line-height: var(--sbb-typo-line-height-body-text) !important;
-        font-size: var(--sbb-font-size-text-l) !important;
+        line-height: var(--sbb-typo-line-height-text) !important;
+        font-size: var(--sbb-text-font-size-l) !important;
         color: var(--sbb-color-black) !important;
       }
 
@@ -296,9 +296,9 @@
       #ot-pc-desc {
         font-family: var(--sbb-typo-type-face-sbb-roman) !important;
         font-weight: normal !important;
-        line-height: var(--sbb-typo-line-height-body-text) !important;
-        letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
-        font-size: var(--sbb-font-size-text-s) !important;
+        line-height: var(--sbb-typo-line-height-text) !important;
+        letter-spacing: var(--sbb-typo-letter-spacing-text) !important;
+        font-size: var(--sbb-text-font-size-s) !important;
         color: var(--sbb-color-black) !important;
 
         a {
@@ -426,8 +426,8 @@
           .ot-cat-header {
             font-family: var(--sbb-typo-type-face-sbb-bold) !important;
             font-weight: normal !important;
-            line-height: var(--sbb-typo-line-height-body-text) !important;
-            font-size: var(--sbb-font-size-text-m) !important;
+            line-height: var(--sbb-typo-line-height-text) !important;
+            font-size: var(--sbb-text-font-size-m) !important;
             color: var(--sbb-color-black) !important;
             margin-block-end: 0 !important;
 
@@ -458,8 +458,8 @@
             transform: none;
             font-family: var(--sbb-typo-type-face-sbb-bold) !important;
             font-weight: normal !important;
-            line-height: var(--sbb-typo-line-height-body-text) !important;
-            font-size: var(--sbb-font-size-text-m) !important;
+            line-height: var(--sbb-typo-line-height-text) !important;
+            font-size: var(--sbb-text-font-size-m) !important;
             color: var(--sbb-color-red) !important;
           }
         }
@@ -478,9 +478,9 @@
           .ot-category-desc {
             font-family: var(--sbb-typo-type-face-sbb-roman) !important;
             font-weight: normal !important;
-            line-height: var(--sbb-typo-line-height-body-text) !important;
-            letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
-            font-size: var(--sbb-font-size-text-s) !important;
+            line-height: var(--sbb-typo-line-height-text) !important;
+            letter-spacing: var(--sbb-typo-letter-spacing-text) !important;
+            font-size: var(--sbb-text-font-size-s) !important;
             color: var(--sbb-color-black) !important;
           }
 
@@ -528,9 +528,9 @@
         a {
           font-family: var(--sbb-typo-type-face-sbb-roman) !important;
           font-weight: normal !important;
-          line-height: var(--sbb-typo-line-height-body-text) !important;
-          letter-spacing: var(--sbb-typo-letter-spacing-body-text) !important;
-          font-size: var(--sbb-font-size-text-s) !important;
+          line-height: var(--sbb-typo-line-height-text) !important;
+          letter-spacing: var(--sbb-typo-letter-spacing-text) !important;
+          font-size: var(--sbb-text-font-size-s) !important;
           color: var(--sbb-color-black) !important;
           text-decoration: underline !important;
           display: inline !important;

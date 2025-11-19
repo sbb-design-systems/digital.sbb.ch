@@ -22,7 +22,7 @@
     "devDependencies": {
         "@11ty/eleventy": "^4.0.0-alpha.4",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-        "@sbb-esta/lyne-design-tokens": "^1.8.0",
+        "@sbb-esta/lyne-design-tokens": "^2.0.0-next.4",
         "chokidar-cli": "^3.0.0",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.25.10",

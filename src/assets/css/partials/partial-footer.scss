@@ -23,12 +23,16 @@ sbb-footer {
 
 .footer-content {
   color: var(--sbb-color-granite);
-  color: light-dark(var(--sbb-color-black-alpha-80), var(--sbb-color-white-alpha-80));
+  color: light-dark(var(--sbb-color-granite), var(--sbb-color-white));
   padding-inline: 0;
   row-gap: 0;
 
   .sbb-text-s {
     margin-block-end: 0;
+
+    .sbb-link a { 
+      text-decoration-line: var(--sbb-link-hover-text-decoration, underline) !important;
+    }
   }
 
   .contact, .impressum {
