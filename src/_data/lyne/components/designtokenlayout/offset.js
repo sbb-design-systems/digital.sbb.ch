@@ -2,7 +2,7 @@ const { designTokensByCategory, designTokensByPath, designTokensByType, sortByKe
 const { tokens } = require('@sbb-esta/lyne-design-tokens/dist/js/sbb-tokens-raw.json');
 
 const layoutTokens = designTokensByPath(tokens, 'layout');
-const baseOffsetResponsive = layoutTokens.filter((token) => token.attributes.group === 'base-offset-responsive');
+const baseOffsetResponsive = layoutTokens.filter((token) => token.attributes.item === 'offset');
 
 module.exports = async function() {
     return baseOffsetResponsive;

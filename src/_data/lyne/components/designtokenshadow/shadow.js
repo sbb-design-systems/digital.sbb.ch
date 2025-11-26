@@ -2,7 +2,7 @@ const { designTokensByCategory, designTokensByPath, designTokensByType, sortByKe
 const { tokens } = require('@sbb-esta/lyne-design-tokens/dist/js/sbb-tokens-raw.json');
 
 const shadowTokens = designTokensByPath(tokens, 'shadow');
-const _groupedTokens = groupedTokens(shadowTokens, 'group');
+const _groupedTokens = groupedTokens(shadowTokens, 'subitem');
 const namedTokenGroups = getNamedGroupedTokens(_groupedTokens);
 
 module.exports = async function() {

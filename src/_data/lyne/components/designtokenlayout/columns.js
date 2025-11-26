@@ -2,8 +2,9 @@ const { designTokensByCategory, designTokensByPath, designTokensByType, sortByKe
 const { tokens } = require('@sbb-esta/lyne-design-tokens/dist/js/sbb-tokens-raw.json');
 
 const layoutTokens = designTokensByPath(tokens, 'layout');
-const baseGridColumns = layoutTokens.filter((token) => token.attributes.group === 'base-grid-columns');
+const baseGridColumns = layoutTokens.filter((token) => token.attributes.subitem === 'columns');
 
 module.exports = async function() {
     return baseGridColumns;
 };
+

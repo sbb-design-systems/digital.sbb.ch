@@ -29,7 +29,7 @@
         {% for token in lyne.components.designtokenspacing.responsive %}
             {% if token.attributes.item == size %}
             <div class="breakpoint">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
                 </div>  
                 <p class="sbb-text-xs"><span class="hide-from-medium">{{token.attributes.subitem}}: </span>{{ token.value }}</p>
             </div>  
@@ -50,7 +50,7 @@
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
             <div class="token-demo">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
                 </div>
             </div>
         </div>

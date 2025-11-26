@@ -1,4 +1,6 @@
 <sbb-title level="2">Base Grid Columns</sbb-title>
+
+
 <div class="token-table base-grid-columns-token">
 {% for token in lyne.components.designtokenlayout.columns %}
     <div class="row">
@@ -23,7 +25,7 @@
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
             <div class="token-demo">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
                 </div>
             </div>
         </div>
@@ -37,7 +39,7 @@
             <div class="token-name"><p>{{ token.name }}</p></div>
             <div class="token-value"><p>{{ token.value }}</p></div>
             <div class="token-demo">
-                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}px; height: {{ token.value }}px;">       
+                <div class="space-demo {{token.attributes.subitem}}" style="width: {{ token.value }}; height: {{ token.value }};">       
                 </div>
             </div>
         </div>

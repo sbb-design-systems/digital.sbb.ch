@@ -1,6 +1,6 @@
-const fetchData = require('../../../../assets/helpers/fetchHelper');  
+const fetchDataExperimental = require('../../../../assets/helpers/fetchHelperExperimental');  
 
 module.exports = async function() {
-  const result = await fetchData("autocomplete-grid/autocomplete-grid-button");
+  const result = await fetchDataExperimental("autocomplete-grid/autocomplete-grid-button");
   return result;
 };

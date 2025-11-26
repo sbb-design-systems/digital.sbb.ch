@@ -128,7 +128,7 @@
   .row {
     gap: var(--sbb-spacing-fixed-4x) 0;
     @include sbb.mq($from: large) {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
 }
@@ -245,9 +245,10 @@
 }
 
 .grid-item {
-  border: solid var(--sbb-border-width-1x) var(--sbb-color-platinum);
-  background-color: var(--sbb-color-milk);
-  background-color: light-dark(var(--sbb-background-color-3), var(--sbb-background-color-3));
+  border: solid var(--sbb-border-width-1x) var(--sbb-color-smoke);
+  border: solid var(--sbb-border-width-1x) light-dark(var(--sbb-border-color-5), var(--sbb-border-color-5));
+  background-color: var(--sbb-color-cloud);
+  background-color: light-dark(var(--sbb-background-color-4), var(--sbb-background-color-4));
   border-radius: var(--sbb-border-radius-1x);
   min-block-size: var(--sbb-spacing-fixed-7x);;
 }

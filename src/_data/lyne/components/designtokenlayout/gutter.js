@@ -2,7 +2,7 @@ const { designTokensByCategory, designTokensByPath, designTokensByType, sortByKe
 const { tokens } = require('@sbb-esta/lyne-design-tokens/dist/js/sbb-tokens-raw.json');
 
 const layoutTokens = designTokensByPath(tokens, 'layout');
-const baseGridGutterResponsive = layoutTokens.filter((token) => token.attributes.group === 'base-grid-gutter-responsive');
+const baseGridGutterResponsive = layoutTokens.filter((token) => token.attributes.subitem === 'gutter');
 
 module.exports = async function() {
     return baseGridGutterResponsive;

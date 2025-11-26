@@ -1,12 +1,10 @@
-{{lyne.components.designtokenborder | dump}}
-
 <sbb-title level="2">Strichstärke</sbb-title>
 <div class="token-table border-width-token">
 {% for token in lyne.components.designtokenborder.width %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="border-demo" style="border-width: {{token.original.value}}px; "></div></div>
+        <div class="token-demo"><div class="border-demo" style="border-width: {{token.original.value}}; "></div></div>
     </div>
 {% endfor %}
 </div>
@@ -16,7 +14,7 @@
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="border-demo" style="border-radius: {{token.original.value}}px; "></div></div>
+        <div class="token-demo"><div class="border-demo" style="border-radius: {{token.original.value}}; "></div></div>
     </div>
 {% endfor %}
 </div>
