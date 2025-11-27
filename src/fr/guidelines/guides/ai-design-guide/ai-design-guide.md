@@ -8,7 +8,7 @@ order: 20
 eleventyExcludeFromCollections: false
 ---
 
-L'intelligence artificielle (IA) permet de répondre plus que jamais aux exigences des utilisatrices et utilisateurs. Les besoins et contextes individuels restent toutefois variés, raison pour laquelle il n’existe pas de «solution universelle» pour concevoir les interactions avec l’IA. Pour que les utilisatrices et utilisateurs puissent exploiter pleinement le potentiel de l’IA, nous devons concevoir l’interaction de manière consciente et centrée sur la personne. Nos [Principes de conception](/fr/principles/ux-principles/overview) s'appliquent ici aussi.
+L'intelligence artificielle (IA) permet de répondre plus que jamais aux exigences des utilisatrices et utilisateurs. Les besoins et contextes individuels restent toutefois variés, raison pour laquelle il n’existe pas de «solution universelle» pour concevoir les interactions avec l’IA. Pour que les utilisatrices et utilisateurs puissent exploiter pleinement le potentiel de l’IA, nous devons concevoir l’interaction de manière consciente et centrée sur la personne. Nos [principes de conception](/fr/principles/ux-principles/overview) s'appliquent ici aussi.
 <br>
 
 <sbb-link-list-anchor>
@@ -50,4 +50,4 @@ En pratique, une approche itérative est souvent utile: commencer par l'augmenta
 
 
 ## Design patterns
-Dans le cadre de la conception de systèmes d’IA, des solutions de conception éprouvées se sont établies et contribuent à créer des applications cohérentes et conviviales. Pour en savoir plus, consultez nos [Patterns](/fr/design-system/patternlibrary/overview/). 
+Dans le cadre de la conception de systèmes d’IA, des solutions de conception éprouvées se sont établies et contribuent à créer des applications cohérentes et conviviales. Pour en savoir plus, consultez nos [patterns](/fr/design-system/patternlibrary/overview/). 
