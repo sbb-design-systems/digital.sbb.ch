@@ -5,7 +5,7 @@
     "language": {
         "de": true,
         "fr": true,
-        "it": false,
+        "it": true,
         "en": true
     },
     "order": 20,
