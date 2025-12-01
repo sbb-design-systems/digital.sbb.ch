@@ -9,7 +9,7 @@
     <sbb-tab>
         {{ overview | renderUsingMarkdown | safe }}
         {% if (pattern.config.childs|length) or (pattern.config.isChildOf|length) or (pattern.config.similar|length) %}
-            <sbb-card size="xxl" color="milk" class="relative-components">
+            <sbb-card color="milk" class="sbb-card-spacing-s relative-components">
                 <div class="relative-components-lists">
                     {% if pattern.config.similar|length %}
                         <sbb-link-list title-content="Similar">
