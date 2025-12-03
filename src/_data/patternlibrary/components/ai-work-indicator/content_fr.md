@@ -20,16 +20,16 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_work_indicator_default_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_work_indicator_default_dark_fr',
-  alt: 'Exemple d'un système fonctionnel',
-  title: 'Pattern Le système est en cours d'écriture
+  alt: "Exemple d'un système fonctionnel",
+  title: "Pattern Le système est en cours d'écriture"
 }) }}
 
 ### Indicateur de chargement dans un tableau
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_work_indicator_table_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_work_indicator_table_dark_fr',
-  alt: 'Exemple d'indicateur de chargement dans un tableau',
-  title: 'Pattern d'indicateur de chargement dans un tableau'
+  alt: "Exemple d'indicateur de chargement dans un tableau",
+  title: "Pattern d'indicateur de chargement dans un tableau"
 }) }}
 
 ## Specifications

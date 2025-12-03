@@ -14,8 +14,8 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_inline_action_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_inline_action_dark_fr',
-  alt: 'Exemple d'interactions au sein d'une sortie IA',
-  title: 'Pattern interactions au sein d'une sortie'
+  alt: "Exemple d'interactions au sein d'une sortie IA",
+  title: "Pattern interactions au sein d'une sortie"
 }) }}
 
 ## Specifications

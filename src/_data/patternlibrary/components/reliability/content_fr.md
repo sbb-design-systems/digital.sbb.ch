@@ -14,7 +14,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_reliability_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_reliability_dark_fr',
-  alt: 'exemple de mapping de fiabilité',
+  alt: "exemple de mapping de fiabilité",
   title: 'Pattern fiabilité'
 }) }}
 

@@ -15,7 +15,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_action_on_output_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_action_on_output_dark_fr',
-  alt: 'Exemple d'actions à suivre après la sortie IA',
+  alt: "Exemple d'actions à suivre après la sortie IA",
   title: 'Pattern action-on-output'
 }) }}
 

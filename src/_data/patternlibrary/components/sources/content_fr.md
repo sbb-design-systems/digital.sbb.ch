@@ -15,7 +15,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_sources_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_sources_dark_fr',
-  alt: 'Exemple pour sources',
+  alt: "Exemple pour sources",
   title: 'Pattern sources'
 }) }}
 
