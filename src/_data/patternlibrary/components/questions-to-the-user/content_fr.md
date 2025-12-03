@@ -14,8 +14,8 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_questions_to_user_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_questions_to_user_dark_fr',
-  alt: 'Exemple pour questions à l'utilisateur',
-  title: 'Pattern questions à l'utilisateur'
+  alt: "Exemple pour questions à l'utilisateur",
+  title: "Pattern questions à l'utilisateur"
 }) }}
 
 

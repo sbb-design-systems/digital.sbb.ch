@@ -22,7 +22,7 @@
     "devDependencies": {
         "@11ty/eleventy": "^4.0.0-alpha.4",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-        "@sbb-esta/lyne-design-tokens": "^2.0.0-next.4",
+        "@sbb-esta/lyne-design-tokens": "^2.0.0",
         "chokidar-cli": "^3.0.0",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.25.10",
@@ -36,8 +36,8 @@
     },
     "dependencies": {
         "@11ty/eleventy-fetch": "^5.1.0",
-        "@sbb-esta/lyne-elements": "4.0.0-next.3",
-        "@sbb-esta/lyne-elements-experimental": "4.0.0-next.3",
+        "@sbb-esta/lyne-elements": "4.0.1",
+        "@sbb-esta/lyne-elements-experimental": "4.0.1",
         "@webcomponents/template-shadowroot": "^0.2.1",
         "cpx2": "^8.0.0",
         "html-minifier-terser": "^7.2.0",
