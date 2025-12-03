@@ -12,7 +12,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_author_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_author_dark_fr',
-  alt: 'exemple pour l'auteur',
+  alt: "exemple pour l'auteur",
   title: 'Pattern auteur'
 }) }}
 

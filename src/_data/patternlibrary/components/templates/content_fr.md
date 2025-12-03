@@ -29,7 +29,7 @@ toujours l'adapter.
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_templates_default_filled_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_templates_default_filled_dark_fr',
-  alt: 'Exemple pour un modèle rempli,
+  alt: "Exemple pour un modèle rempli",
   title: 'Pattern modèle rempli'
 }) }}
 

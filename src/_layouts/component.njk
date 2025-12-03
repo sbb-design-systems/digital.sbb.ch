@@ -22,6 +22,10 @@ layout: base.njk
   {% set language = page.lang %}
 {% elif (page.lang == "en") and pattern.config.language.en == true %}
   {% set language = page.lang %}
+{% elif (page.lang == "fr") and pattern.config.language.fr == true %}
+  {% set language = page.lang %}
+{% elif (page.lang == "it") and pattern.config.language.it == true %}
+  {% set language = page.lang %}
 {% else %}
   {% set language = "de" %}
   {% include "../_includes/component/missing-language.njk" %}

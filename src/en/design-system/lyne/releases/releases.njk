@@ -21,7 +21,7 @@ order: 20
 
 
 {% for release in lyne.releases %}
-<sbb-card size="xxl" color="transparent-bordered" class="release-card">
+<sbb-card color="transparent-bordered" class="sbb-card-spacing-s release-card">
   <div>{{ release.body | renderUsingMarkdown | safe }}</div>
   <br>
   <sbb-secondary-button-link href="{{release.zipball_url}}" target="_blank" download>
