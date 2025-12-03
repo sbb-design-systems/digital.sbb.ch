@@ -10,7 +10,7 @@
 * Ou par le biais de réponses prédéfinies parmi lesquelles choisir. (À utiliser si possible, car cela demande moins d'effort aux utilisateurs).
 
 
-## Example
+## Exemple
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_questions_to_user_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_questions_to_user_dark_fr',

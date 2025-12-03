@@ -14,7 +14,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/fr/pattern_open_input_light_fr',
   urldark: '/assets/images/patternlibrary/components/fr/pattern_open_input_dark_fr',
-  alt: 'Example for Open-Input',
+  alt: 'Exemple pour Open-Input',
   title: 'Pattern Open-Input'
 }) }}
 

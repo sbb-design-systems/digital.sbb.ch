@@ -15,7 +15,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/en/pattern_parameter_light_en',
   urldark: '/assets/images/patternlibrary/components/en/pattern_parameter_dark_en',
-  alt: 'Example for paramter',
+  alt: 'Example for parameter',
   title: 'Pattern parameter'
 }) }}
 
