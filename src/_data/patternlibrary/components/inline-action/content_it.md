@@ -17,7 +17,7 @@
   title: 'Pattern interazioni all'interno di un output'
 }) }}
 
-## Specifications
+## Specifiche
 {{ specificationLinks({
   figma: 'https://www.figma.com/design/ASKJJ0RgQNp0TAhXBpLmXd/AI-Patterns-Documentation?node-id=2225-16687'
 }) }}

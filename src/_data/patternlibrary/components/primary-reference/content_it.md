@@ -16,7 +16,7 @@
   title: 'Pattern riferimento principale'
 }) }}
 
-## Specifichi
+## Specifiche
 {{ specificationLinks({
   figma: 'https://www.figma.com/design/ASKJJ0RgQNp0TAhXBpLmXd/AI-Patterns-Documentation?node-id=2235-16712'
 }) }}

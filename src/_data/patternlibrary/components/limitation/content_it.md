@@ -23,7 +23,7 @@
 
 
 
-## Specifications
+## Specifiche
 {{ specificationLinks({
   figma: 'https://www.figma.com/design/ASKJJ0RgQNp0TAhXBpLmXd/AI-Patterns-Documentation?node-id=2202-21263'
 }) }}
