@@ -14,6 +14,6 @@ jobs:
     steps:
       - uses: actions/delete-package-versions@v4
         with:
-          package-name: 'digital.sbb.ch/showcase'
+          package-name: 'digital.sbb.ch/docs'
           package-type: 'container'
           delete-only-untagged-versions: 'true'

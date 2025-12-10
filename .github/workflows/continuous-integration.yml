@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           cache: 'npm'
           node-version-file: '.nvmrc'
@@ -55,7 +55,7 @@ jobs:
       IMAGE_REPO: ghcr.io/${{ github.repository }}/docs
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: showcase
           path: dist/
