@@ -1,16 +1,3 @@
-<<<<<<<< HEAD:src/en/design-system/mobile/components/paginator/overview.md
----
-tags: paginator-mobile_en
-title: Overview
-icon: overview
-order: 1
-permalink: false  
-key: paginator-mobile-overview_en
-parent: paginator-mobile_en
----
-
-========
->>>>>>>> patterns:src/_data/mobile/components/paginator/overview_en.md
 ## What does the component do? 
 *   It shows that several elements or pages are available through which the user can navigate. {.lead}
 

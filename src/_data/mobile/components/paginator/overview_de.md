@@ -1,16 +1,3 @@
-<<<<<<<< HEAD:src/de/design-system/mobile/components/paginator/overview.md
----
-tags: paginator-mobile_de
-title: Übersicht
-icon: overview
-order: 1
-permalink: false  
-key: paginator-mobile-overview_de
-parent: paginator-mobile_de
----
-
-========
->>>>>>>> patterns:src/_data/mobile/components/paginator/overview_de.md
 ## Was macht die Komponente?
 *   Zeigt an, dass mehrere Elemente oder Seiten vorhanden sind, durch welche der Benutzer navigieren kann. {.lead}
 

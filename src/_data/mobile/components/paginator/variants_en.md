@@ -1,17 +1,3 @@
-<<<<<<<< HEAD:src/en/design-system/mobile/components/paginator/variants-states.md
----
-tags: paginator-mobile_en
-title: Variants
-icon: variantsstates
-order: 2
-permalink: false  
-key: paginator-mobile-variantsstates_en
-parent: paginator-mobile_en
----
-========
-
->>>>>>>> patterns:src/_data/mobile/components/paginator/variants_en.md
-
 ## Variants
 *   Default
 *   Floating
