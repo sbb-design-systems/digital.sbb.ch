@@ -43,3 +43,7 @@ sbb-container {
 a:not(.demo *) {
   @include sbb.link;
 }
+
+.violin {
+  text-decoration: none !important;
+}
