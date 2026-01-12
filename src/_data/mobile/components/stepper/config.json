@@ -8,9 +8,10 @@
         "it": false,
         "en": true
     },
-    "order": 90,
+    "order": 225,
     "categories":["Navigation"],
     "keywords":["stepper", "process"],
+    "image": "/assets/images/mobile/overview/stepper",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

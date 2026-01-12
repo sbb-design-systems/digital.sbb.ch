@@ -11,6 +11,7 @@
     "order": 10,
     "categories":["Navigation", "Container"],
     "keywords":["dialog", "modal", "popup", "lightbox"],
+    "image": "/assets/images/mobile/overview/bottom-sheet",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,

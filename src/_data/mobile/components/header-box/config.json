@@ -11,6 +11,7 @@
     "order": 90,
     "categories":["Navigation"],
     "keywords":["header", "box"],
+    "image": "/assets/images/mobile/overview/header-box",
     "hasTabs": true,
     "tabs": { 
         "hasOverview": true,
