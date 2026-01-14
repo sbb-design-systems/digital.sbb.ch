@@ -37,10 +37,11 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.amendLibrary("njk", (env) => {
         macroNames.forEach((macroName) => {
-            const macroTemplate = `{% from "macros/macros.njk" import ${macroName} %}{{ ${macroName}(params) }}`;
+            const macroTemplate = `{% from "macros/macros.njk" import ${macroName} %}{{ ${macroName}(params) | safe }}`;
             env.addGlobal(macroName, (params = {}) => {
                 const renderedMacro = env.renderString(macroTemplate, { params });
-                return new nunjucks.runtime.SafeString(renderedMacro);
+                const safeFilter = env.getFilter("safe");
+                return safeFilter ? safeFilter(renderedMacro) : new nunjucks.runtime.SafeString(renderedMacro);
             });
         });
     });

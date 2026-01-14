@@ -30,6 +30,10 @@ ul, ol {
   color: light-dark(var(--sbb-color-1), var(--sbb-color-1));
 }
 
+figure picture p {
+  margin: 0;
+}
+
 .content {
   padding-block-end: var(--sbb-spacing-responsive-xl);
 
