@@ -10,11 +10,18 @@ order: 2
 <p class="lead">
   In wenigen Fällen lässt sich das SBB-Rot nicht als Primärfarbe verwenden. Beispielsweise darf die Farbe Rot in sicherheitsrelevanten Anwendungen auschliesslich zur Kommunikation von Fehlern genutzt werden. In diesen Fällen darf die Primärfarbe (Red, Red125, Red150) durch die folgenden Farben ersetzt werden:
 </p>
-<div class="color-group">
+
+<sbb-toggle class="color-switch" size="m" value="light">
+    <sbb-toggle-option class="switch" icon-name="sunshine-small" value="light" checked></sbb-toggle-option>
+    <sbb-toggle-option class="switch" icon-name="moon-small" value="dark"></sbb-toggle-option>
+</sbb-toggle>
+
+<div class="color-group" id="color-group" data-mode="light">
   {%- for colors, color in colors.offbrand | sortColorsByOrder -%} 
     {% include "../../../../_includes/color-new.njk" %}
   {%- endfor -%}
 </div>
+
 
 <p class="lead">
   Bitte beachte, dass dieses Farbset nur in Ausnahmefällen verwendet werden darf. Es bedarf einer Abklärung mit dem DSRV UX.
@@ -29,3 +36,5 @@ order: 2
 <p class="lead">
   In der Angular Library können die Farben wie folgt getauscht werden: <sbb-link variant="inline" target="_blank" href="https://angular.app.sbb.ch/angular/introduction/typography">Zur Anleitung</sbb-link>.
 </p>
+
+<script src="/assets/js/color-switch.js"></script>
