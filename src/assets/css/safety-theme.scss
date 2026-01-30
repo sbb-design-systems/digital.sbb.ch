@@ -1,0 +1,21 @@
+@use '@sbb-esta/lyne-elements/safety-theme.css';
+
+iframe {
+    border: none;
+    border-radius: 16px;
+    margin-block: 0 16px;
+    margin-inline: 0;
+}
+
+.demo-wrapper {
+    padding: 48px;
+    display: flex;
+    flex-flow: column nowrap;
+    place-content: center flex-start;
+    align-items: center;
+    gap: 36px;
+
+    sbb-logo {
+        block-size: 44px;
+    }
+}

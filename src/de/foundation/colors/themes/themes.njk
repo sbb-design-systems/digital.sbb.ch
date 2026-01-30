@@ -1,0 +1,67 @@
+---
+layout: page.njk
+tags: level3
+key: themes_de
+title: Themes
+parent: colors_de
+theme: standard
+order: 4
+eleventyExcludeFromCollections: true
+---
+
+<p class="lead">
+  Es stehen drei Themes zur Verfügung, die jeweils für unterschiedliche Anwendungszwecke vorgesehen sind:
+</p>
+
+<sbb-title level="2" visual-level="2">Standard-Theme</sbb-title>
+<p class="lead">
+  Das Standard-Theme wird für Kunden- und Mitarbeitendenanwendungen eingesetzt.
+</p>
+
+<sbb-title level="2" visual-level="2">Off-Brand-Theme</sbb-title>
+<p class="lead">
+  Das Off-Brand-Theme wird für Anwendungen verwendet, die im Auftrag der Branche entwickelt werden.
+  SBB-Anwendungen, die ebenfalls von der Branche genutzt, jedoch durch die SBB finanziert werden,
+  verwenden weiterhin das Standard-Theme.
+</p>
+
+<sbb-title level="2" visual-level="2">Safety-Theme</sbb-title>
+<p class="lead">
+  In sicherheitsrelevanten Arbeitskontexten darf die Farbe Rot ausschliesslich für Fehlermeldungen verwendet werden.
+  Das Safety-Theme basiert auf dem Off-Brand-Theme und erlaubt den Einsatz von Rot nur in Error-Fällen.
+</p>
+
+<br>
+
+<sbb-radio-button-group name="theme-chooser" value="standard-theme" aria-label="Theme Chooser" orientation="vertical" horizontal-from="small" size="m">
+  <sbb-radio-button value="standard-theme">Standard</sbb-radio-button>
+  <sbb-radio-button value="off-brand-theme">Off-Brand</sbb-radio-button>
+  <sbb-radio-button value="safety-theme">Safety</sbb-radio-button>
+</sbb-radio-button-group><br>
+
+<iframe src="/de/foundation/colors/themes/standard-theme/index.html" height="400" width="100%" title="Theme-Beispiel"  class="theme standard-theme"></iframe>
+<iframe src="/de/foundation/colors/themes/off-brand-theme/index.html" height="400" width="100%" title="Theme-Beispiel"  class="theme off-brand-theme"></iframe>
+<iframe src="/de/foundation/colors/themes/safety-theme/index.html" height="400" width="100%" title="Theme-Beispiel"  class="theme safety-theme"></iframe>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const group = document.querySelector('sbb-radio-button-group[name="theme-chooser"]');
+    const iframes = document.querySelectorAll('iframe.theme');
+
+    function updateIframes(selectedValue) {
+      iframes.forEach((iframe) => {
+        iframe.style.display = iframe.classList.contains(selectedValue)
+          ? 'block'
+          : 'none';
+      });
+    }
+
+    // Initialer Zustand
+    updateIframes(group.value);
+
+    // Reaktion auf Wechsel
+    group.addEventListener('change', () => {
+      updateIframes(group.value);
+    });
+  });
+</script>
