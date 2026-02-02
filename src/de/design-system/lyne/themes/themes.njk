@@ -2,30 +2,36 @@
 layout: page.njk
 tags: level3
 key: themes_de
-title: Themes
-parent: colors_de
+title: Presets & Themes
+parent: lyne_de
 theme: standard
-order: 4
+order: 25
 eleventyExcludeFromCollections: true
 ---
 
+<sbb-title level="2" visual-level="2">Presets für Kund:innen- und Mitarbeiter:innen-Apps</sbb-title>
+<p class="lead">
+  In der Vorgängerversion des Design Systems wurden zwei Themes (jeweils mit eigener CSS-Datei) eingesetzt, um zwei Nutzungsszenarien zu bedienen: Kund:innen sowie Mitarbeitende. Für jede Komponente gab es zwei Grössen: Standard und Lean. In Lyne wurde diese strikte Trennung aufgehoben. Konzeptionell wird nicht mehr zwischen Kunden- und Mitarbeiterapplikationen unterschieden. Komponenten sind in der Regel in mehr als zwei Grössen verfügbar und lassen sich so optimal in unterschiedlichen Nutzungsszenarien einsetzen. Damit der Aufwand auf Entwicklerseite nicht steigt, bietet Lyne zwei Presets (Voreinstellungen) an: Default und Lean. Diese Presets legen die Grössen der Komponenten fest, sofern nicht explizit eine spezifische Grösse gewählt wird. Mehr Informationen <sbb-link variant="inline" target="_blank" href="https://lyne-storybook.app.sbb.ch/?path=/docs/introduction-getting-started--docs#lean-variant">hier</sbb-link>. 
+</p>
+
+<sbb-title level="2" visual-level="2">Themes</sbb-title>
 <p class="lead">
   Es stehen drei Themes zur Verfügung, die jeweils für unterschiedliche Anwendungszwecke vorgesehen sind:
 </p>
 
-<sbb-title level="2" visual-level="2">Standard-Theme</sbb-title>
+<sbb-title level="3" visual-level="3">Standard-Theme</sbb-title>
 <p class="lead">
   Das Standard-Theme wird für Kunden- und Mitarbeitendenanwendungen eingesetzt.
 </p>
 
-<sbb-title level="2" visual-level="2">Off-Brand-Theme</sbb-title>
+<sbb-title level="3" visual-level="3">Off-Brand-Theme</sbb-title>
 <p class="lead">
   Das Off-Brand-Theme wird für Anwendungen verwendet, die im Auftrag der Branche entwickelt werden.
   SBB-Anwendungen, die ebenfalls von der Branche genutzt, jedoch durch die SBB finanziert werden,
   verwenden weiterhin das Standard-Theme.
 </p>
 
-<sbb-title level="2" visual-level="2">Safety-Theme</sbb-title>
+<sbb-title level="3" visual-level="3">Safety-Theme</sbb-title>
 <p class="lead">
   In sicherheitsrelevanten Arbeitskontexten darf die Farbe Rot ausschliesslich für Fehlermeldungen verwendet werden.
   Das Safety-Theme basiert auf dem Off-Brand-Theme und erlaubt den Einsatz von Rot nur in Error-Fällen.
@@ -65,3 +71,9 @@ eleventyExcludeFromCollections: true
     });
   });
 </script>
+
+
+<sbb-title level="3" visual-level="3">Anwendung der Themes in Figma</sbb-title>
+<p class="lead">
+  Die Themes können im Variable-Mode entweder auf Page-, Frame- oder Component-Ebene unter "Theme" ausgewählt werden.
+</p>
