@@ -32,7 +32,7 @@ Ein Design System kann und soll wachsen, es gibt aber gewisse Rahmenbedingungen.
 
 ## Kann ich das Design System auch für interne Anwendungen brauchen?​ {.lead}
 
-Das Design System kann auch für interne Anwendungen gebraucht werden. Primär gibt es hierfür das Design System «Web Lean». {.lead}
+Das Design System kann auch für interne Anwendungen gebraucht werden. Bei Lyne sind dafür platzsparende Varianten der Komponenten vorgesehen. {.lead}
 
 
 ## Du hast noch weitere Fragen? {.lead}

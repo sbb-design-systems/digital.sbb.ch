@@ -7,4 +7,5 @@ title: Lean (Legacy)
 redirect: /en/design-system/lean/overview/
 parent: designsystem_en
 order: 60
+eleventyExcludeFromCollections: true
 ---

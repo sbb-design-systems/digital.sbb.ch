@@ -8,6 +8,7 @@ title: Lean (Legacy)
 redirect: /it/design-system/lean/overview/
 parent: designsystem_it
 order: 60
+eleventyExcludeFromCollections: true
 availablelanguages: 
     - de
     - en

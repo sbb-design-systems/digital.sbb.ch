@@ -32,7 +32,7 @@ A design system can and should grow, but there are certain constraints. See <sbb
 
 ## Can I also use the design system for internal applications? {.lead}
 
-The design system can also be used for internal applications. Primarily there is the design system "Web Lean". {.lead}
+The design system can also be used for internal applications. Lyne provides space-saving versions of the components for this purpose. {.lead}
 
 
 ## You have more questions? {.lead}

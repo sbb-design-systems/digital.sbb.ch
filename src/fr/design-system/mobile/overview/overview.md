@@ -4,7 +4,7 @@ tags:
     - level3
     - dshome
 key: overview-mobile_fr
-system: lean
+system: mobile
 list: all
 title: Aperçu
 alternativetitle: Mobile

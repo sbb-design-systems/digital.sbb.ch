@@ -15,8 +15,6 @@ We are happy to help, but before you contact us please check if the question has
 
 Questions in the repositories:
 - <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/sbb-design-systems/lyne-components/issues?q=is%3Aissue+label%3A%22type%3A+question+❓%22+">Questions on the Lyne Board</sbb-link>
-- <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/sbb-design-systems/sbb-angular/issues?q=is%3Aissue+label%3Aquestion+">Questions on theLean Board</sbb-link>
-- <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/sbb-design-systems/sbb-angular/issues?q=is%3Aissue+label%3Aquestion+">Questions on the Web (Legacy) Board</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui/issues?q=is%3Aissue+label%3Aquestion">Questions on the iOS Board</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues?q=is%3Aissue+label%3Aquestion">Questions on the Flutter Board</sbb-link>
 
@@ -25,8 +23,6 @@ Higher-level, generic and UX questions to: <sbb-link variant="inline" type="butt
 
 Technical questions or questions about components/patterns can be posted via Github on the respective board:  {.lead}
 - <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/sbb-design-systems/lyne-components/issues/new?assignees=octocat&labels=type%3A+question+❓&template=question.yml&title=%5BQuestion%5D%3A+">Submit a question to the Lyne Board</sbb-link>
-- <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/sbb-design-systems/sbb-angular/issues/new?assignees=octocat&labels=type%3A+question&template=question.yml&title=%5BQuestion%5D%3A+">Submit a question to the Lean Board</sbb-link>
-- <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/sbb-design-systems/sbb-angular/issues/new?assignees=octocat&labels=type%3A+question&template=question.yml&title=%5BQuestion%5D%3A+">Submit a question to the Web (Legacy) Board</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Submit a question to the iOS  Board</sbb-link>
 - <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Submit a question to the Flutter  Board</sbb-link>
 
