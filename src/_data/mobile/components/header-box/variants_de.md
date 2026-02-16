@@ -6,6 +6,7 @@ Die Komponente hat folgende Varianten:
 * Button: Optional
 * Loading: Optional
 * Flap: Optional
+* Animated: Optional
 
 
 ### Header-Box

@@ -11,4 +11,4 @@
 *   The text is always single-line. {.lead}
 *   Only one primary button can be used per page/dialogue. {.lead}
 *   Several secondary buttons are permitted per page/dialogue. {.lead}
-*   Secondary and frameless buttons can only be used if a primary button already exists. {.lead}
+*   Secondary buttons can only be used if a primary button already exists. {.lead}
