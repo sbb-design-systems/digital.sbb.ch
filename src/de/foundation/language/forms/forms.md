@@ -20,17 +20,12 @@ Input Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierun
 
 #### Beispiele
 
-<sbb-form-field error-space="none" size="m" width="default">
-    <label>Ort</label>
-    <input class="" placeholder="Stadt, Bahnhof, ..." value="">
-
-</sbb-form-field>
-
-<sbb-form-field error-space="none" size="m" width="default">
-    <label>Kundennummer</label>
-    <input class="" placeholder="123-456-789-1" value="">
-    <sbb-icon slot="suffix" name="circle-information-small"></sbb-icon>
-</sbb-form-field>
+{{ imageOnGreyBackground({
+  url: '/assets/images/ux-writing/forms_light',
+  urldark: '/assets/images/ux-writing/forms_dark',
+  alt: 'Beispiel für Formularfelder',
+  title: 'Forms'
+}) }}
 
 </br>
 
@@ -55,18 +50,12 @@ Placeholders geben Hinweise zur Eingabe und helfen, Erwartungen zu setzen.
 
 #### Beispiele
 
-<sbb-form-field error-space="none" size="m" width="default">
-    <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
-    <input class="" placeholder="Suchbegriff eingeben" value="">
-    
-</sbb-form-field>
-
-<sbb-form-field error-space="none" size="m" width="default">
-    <label>System</label>
-    <select class="" placeholder="Bitte wählen">
-        <option value="0"></option>
-    </select>
-</sbb-form-field>
+{{ imageOnGreyBackground({
+  url: '/assets/images/ux-writing/forms2_light',
+  urldark: '/assets/images/ux-writing/forms2_dark',
+  alt: 'Beispiele für Formularfelder',
+  title: 'Forms'
+}) }}
 
 </br>
 

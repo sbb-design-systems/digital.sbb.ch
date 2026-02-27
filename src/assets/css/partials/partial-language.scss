@@ -1,0 +1,21 @@
+.iconandlabel{
+    display: flex;
+    align-items: center;
+    gap: var(--sbb-spacing-fixed-2x);
+}
+
+.dosndonts{
+    display: flex;
+    flex-direction: space-between;
+    gap: var(--sbb-spacing-fixed-2x);
+}
+
+.dos{
+    padding: var(--sbb-spacing-fixed-4x);
+    inline-size: 50%;
+}
+
+.donts{
+    padding: var(--sbb-spacing-fixed-4x);
+    inline-size: 50%;
+}

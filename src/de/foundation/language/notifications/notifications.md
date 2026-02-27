@@ -59,7 +59,7 @@ Ziel ist es, Klarheit zu schaffen, Unsicherheiten zu nehmen und den Nutzer:innen
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Vielen Dank für deine Anfrage. </br> Wir haben deine Nachricht erhalten und melden uns innerhalb von 3 Werktagen bei dir. </br> Die Antwort erhältst du per E-Mail.</div>
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Eintrag löschen? </br> Möchtest du diesen EIntrag endgültig löschen? </br> Dieser Vorgang kann nicht rückgängig gemacht werden.</div>
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Deine Änderungen konnten nicht gespeichert werden. Bitte versuche es erneut. </div>
-        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Liste gelöscht.<sbb-link>Liste wiederherstellen</sbb.link>(als Toast ohne Confirmation)</div>
+        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Liste gelöscht.<sbb-link>Liste wiederherstellen</sbb-link> (als Toast ohne Confirmation)</div>
     </div>
     <div class="donts">
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Gültiges Format eingeben</div>
