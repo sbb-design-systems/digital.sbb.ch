@@ -10,7 +10,7 @@ order: 4
 Formulare und Eingaben nutzen Labels, Hinweise und Platzhalter, um Nutzer:innen zu zeigen, wie Felder korrekt ausgefüllt werden. 
 Ihr Ziel ist es, Erwartungen klar zu machen, Fehler zu vermeiden und die Eingabe so einfach und sicher wie möglich zu gestalten.
 
-## Input Labels
+## Labels.
 
 Input Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierung und reduzieren Unsicherheit.
 
@@ -39,7 +39,7 @@ Input Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierun
     </div>    
 </div>
 
-## Placeholder
+## Platzhalter.
 
 Placeholders geben Hinweise zur Eingabe und helfen, Erwartungen zu setzen.
 

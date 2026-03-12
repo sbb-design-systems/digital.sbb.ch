@@ -42,7 +42,7 @@ Allgemeine Empfehlungen:
 
 Für diese Elemente gibt es zusätzliche Empfehlungen:
 
-- <sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Button- und Linkliste</sbb-link>
+- <sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Button- und Linktexte</sbb-link>
 - <sbb-link href="/{{page.lang}}/foundation/language/notifications">Benachrichtigungen</sbb-link>
 - <sbb-link href="/{{page.lang}}/foundation/language/forms">Formulare und Eingaben</sbb-link>
 - <sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Fortschrittsanzeige</sbb-link>
@@ -51,4 +51,4 @@ Für diese Elemente gibt es zusätzliche Empfehlungen:
 ## Weitere Hilfsmittel
 Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Entscheidung, welchen Begriff du wann verwendest.
 
-<sbb-secondary-button icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/digital-wordlist"> Digitale Wörterliste</sbb-secondary-button>
+<sbb-secondary-button-link icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/wordlist"> Digitale Wörterliste</sbb-secondary-button-link>

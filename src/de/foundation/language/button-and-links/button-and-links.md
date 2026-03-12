@@ -66,9 +66,12 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
 
 <div class="dosndonts">
     <div class="dos">
-        <div class="iconandlabel"><sbb-icon name="circle-tick-small">
-            </sbb-icon>Unsere Konditionen sind beschrieben.
-            <sbb-link>Konditionen lesen</sbb-link>
+        <div class="iconandlabel">
+            <sbb-icon name="circle-tick-small"></sbb-icon>
+            <div class="dosndontstext">
+                Unsere Konditionen sind beschrieben.
+                <sbb-link>Konditionen lesen</sbb-link>
+            </div>
         </div>
         </br>
          <div class="iconandlabel">
@@ -78,12 +81,14 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
     </div>
     <div class="donts">
        <div class="iconandlabel">
-            <sbb-icon name="circle-cross-small"></sbb-icon>Unsere Konditionen sind
-            <sbb-link>hier</sbb-link> beschrieben
+            <sbb-icon name="circle-cross-small"></sbb-icon>
+            Unsere Konditionen sind <sbb-link>hier</sbb-link> beschrieben
         </div>
          <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>
-            <sbb-link>Klicke hier</sbb-link> um mehr über unsere Dienstleistungen und Preise zu erfahren
+            <div class="dosndontstext">
+            <sbb-link>Klicke hier</sbb-link>um mehr über unsere Dienstleistungen und Preise zu erfahren
+            </div>
         </div>
         <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>
@@ -105,4 +110,4 @@ Für diese Elemente gibt es zusätzliche Empfehlungen:
 ### Weitere Hilfsmittel
 Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Entscheidung, welchen Begriff du wann verwendest.
 
-<sbb-secondary-button icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/digital-wordlist"> Digitale Wörterliste</sbb-secondary-button>
+<sbb-secondary-button-link icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/wordlist">Digitale Wörterliste</sbb-secondary-button-link>

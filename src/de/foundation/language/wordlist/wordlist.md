@@ -13,24 +13,26 @@ Manche Begriffe sind kontextabhängige Synonyme die ähnlich verwendet werden ab
 
 Andere Begriffe sind Synonyme, die inhaltlich praktisch austauschbar sind – z. B. «Absenden» und «Senden». In diesen Fällen geben wir einen empfohlenen Begriff vor, um über verschiedene Applikationen hinweg Konsistenz zu erreichen.
 
-<br>
+</br>
 
 <sbb-notification readonly>
   <sbb-title level="3">Hinweis zur Verwendung</sbb-title>
   Die Digitale Wörterliste soll dich unterstützten, welche Begriffe in welchem Kontext bevorzugt verwendet werden können. Es sind keine verbindlichen Regeln. Je nach Kontext kann bewusst von der Empfehlung abgewichen werden.
 </sbb-notification>
 
-## Begriffsübersicht
+</br>
 
-<sbb-container class="--sbb-page-spacing-padding" color="milk" corner-radius="16px;">
-    <sbb-form-field style="width: 100%;">
-        <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
-        <input type="text" id="search" placeholder="Suchbegriff eingeben" autocomplete="off" />
-    </sbb-form-field>
-    </br>
-    Die Begriffe sind alphabetisch sortiert.
+<sbb-container color="milk" expanded="" class="wordlist">
+    <sbb-title level="3">Begriffsübersicht</sbb-title>
+    <div class="wordlist-search">
+        <sbb-form-field style="width: 100%;">
+            <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
+            <input type="text" id="search" placeholder="Suchbegriff eingeben" autocomplete="off" />
+        </sbb-form-field>
+        <p class="sbb-text-s">Die Begriffe sind alphabetisch sortiert.</p>
+    </div>
     <!--<span id="result-count"></span>-->    
-    <sbb-table-wrapper style="height: 75vh">
+    <sbb-table-wrapper class="wordlist-table">
         <table class="sbb-table">
             <thead>
                 <tr>
