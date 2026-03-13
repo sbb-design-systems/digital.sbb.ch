@@ -7,10 +7,10 @@ parent: language_de
 order: 2
 ---
 
-Button- und Linktexte sind kurze, handlungsorientierte Beschriftungen.
+Button- und Linktexte sind kurze, handlungsorientierte Beschriftungen. </br>
 Ihr Ziel ist es, Nutzer:innen mit möglichst wenigen Worten zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.{.lead}
 
-## Buttons
+## Buttons.
 
 Buttons sind Handlungs-Trigger, keine Erklärflächen. Sie machen auf einen Blick klar, welche Aktion beim Klick ausgeführt wird.
 
@@ -24,14 +24,12 @@ Buttons sind Handlungs-Trigger, keine Erklärflächen. Sie machen auf einen Blic
 
 #### Beispiele:
 
-</br>
-
-<sbb-action-group orientation="horizontal" size="s">
-    <sbb-button size="s">Speichern</sbb-button>
-    <sbb-secondary-button size="s">Zur Übersicht</sbb-secondary-button>
-</sbb-action-group>
-
-</br>
+{{ imageOnGreyBackground({
+  url: '/assets/images/ux-writing/action_group_horizontal_light',
+  urldark: '/assets/images/ux-writing/action_group_horizontal_dark',
+  alt: 'Beispiel für action-goup',
+  title: 'microcopy action-group-horizontal'
+}) }}
 
 <div class="dosndonts">
     <div class="dos">
@@ -52,15 +50,15 @@ Buttons sind Handlungs-Trigger, keine Erklärflächen. Sie machen auf einen Blic
     </div>    
 </div>
 
-## Links
+## Links.
 
 Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar machen, wohin der Link führt oder was Nutzer:innen dort erwarten können. 
 
-### Empfehlungen
+### Empfehlungen:
 
 * **Sprechende Links.** Nutze klare Formulierungen, so dass ein Link auch ohne umgebenden Text verständlich ist.
 
-#### Beispiele
+#### Beispiele:
 
 <sbb-link>Dienstleistungen und Preise anzeigen</sbb-link>
 
@@ -87,7 +85,7 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
          <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>
             <div class="dosndontstext">
-            <sbb-link>Klicke hier</sbb-link>um mehr über unsere Dienstleistungen und Preise zu erfahren
+            <sbb-link variant="inline">Klicke hier</sbb-link> um mehr über unsere Dienstleistungen und Preise zu erfahren
             </div>
         </div>
         <div class="iconandlabel">
@@ -98,16 +96,3 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
 </div>
 
 
-## Weitere Empfehlungen
-
-Für diese Elemente gibt es zusätzliche Empfehlungen:
-
-- <sbb-link href="/{{page.lang}}/foundation/language/about">UX-Writing und Microcopy </sbb-link>
-- <sbb-link href="/{{page.lang}}/foundation/language/notifications">Benachrichtigungen</sbb-link>
-- <sbb-link href="/{{page.lang}}/foundation/language/forms">Formulare und Eingaben</sbb-link>
-- <sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Fortschrittsanzeige</sbb-link>
-
-### Weitere Hilfsmittel
-Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Entscheidung, welchen Begriff du wann verwendest.
-
-<sbb-secondary-button-link icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/wordlist">Digitale Wörterliste</sbb-secondary-button-link>

@@ -7,7 +7,7 @@ parent: language_de
 order: 4
 ---
 
-Formulare und Eingaben nutzen Labels, Hinweise und Platzhalter, um Nutzer:innen zu zeigen, wie Felder korrekt ausgefüllt werden. 
+Formulare und Eingaben nutzen Labels, Hinweise und Platzhalter, um Nutzer:innen zu zeigen, wie Felder korrekt ausgefüllt werden. </br>
 Ihr Ziel ist es, Erwartungen klar zu machen, Fehler zu vermeiden und die Eingabe so einfach und sicher wie möglich zu gestalten.
 
 ## Labels.
@@ -26,8 +26,6 @@ Input Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierun
   alt: 'Beispiel für Formularfelder',
   title: 'Forms'
 }) }}
-
-</br>
 
 <div class="dosndonts">
     <div class="dos">
@@ -56,8 +54,6 @@ Placeholders geben Hinweise zur Eingabe und helfen, Erwartungen zu setzen.
   alt: 'Beispiele für Formularfelder',
   title: 'Forms'
 }) }}
-
-</br>
 
 <div class="dosndonts">
     <div class="dos">

@@ -30,8 +30,8 @@ Andere Begriffe sind Synonyme, die inhaltlich praktisch austauschbar sind – z.
             <input type="text" id="search" placeholder="Suchbegriff eingeben" autocomplete="off" />
         </sbb-form-field>
         <p class="sbb-text-s">Die Begriffe sind alphabetisch sortiert.</p>
-    </div>
-    <!--<span id="result-count"></span>-->    
+        <span id="result-count"></span>
+    </div>  
     <sbb-table-wrapper class="wordlist-table">
         <table class="sbb-table">
             <thead>

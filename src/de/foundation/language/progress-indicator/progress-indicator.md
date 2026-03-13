@@ -28,6 +28,8 @@ Ziel ist es, Nutzer:innen klar zu führen, Erwartungen zu setzen und den Ablauf 
   title: 'Progress Indicator'
 }) }}
 
+#### Labels:
+
 <div class="dosndonts">
     <div class="dos">
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Ort</div>
@@ -38,3 +40,17 @@ Ziel ist es, Nutzer:innen klar zu führen, Erwartungen zu setzen und den Ablauf 
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Bilder hochladen</div>
     </div>    
 </div>
+
+
+#### Inhalt:
+
+<div class="dosndonts">
+    <div class="dos">
+        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Du kannst die Angaben später ergänzen oder ändern.</div>
+    </div>
+    <div class="donts">
+        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>XX</div>
+        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>XX</div>
+    </div>    
+</div>
+

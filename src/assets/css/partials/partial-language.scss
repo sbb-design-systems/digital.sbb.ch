@@ -11,11 +11,6 @@
     gap: var(--sbb-spacing-fixed-4x);
 }
 
-.dosndontstext{
-    display: flex;
-    flex-direction: column;
-}
-
 .dos{
     padding: var(--sbb-spacing-fixed-4x);
     inline-size: 50%;
@@ -27,6 +22,7 @@
 }
 
 .wordlist{
+    overflow: clip;
     border-radius: var(--sbb-border-radius-4x);
 }
 
@@ -36,13 +32,8 @@
     gap: var(--sbb-spacing-fixed-1x);
     padding-block: var(--sbb-spacing-fixed-4x);
     padding-block-end: var(--sbb-spacing-fixed-2x);
-    border-start-start-radius: var(--sbb-border-radius-4x);
-    border-start-end-radius: var(--sbb-border-radius-4x);
 }
 
 .wordlist-table{
     padding-block-end: var(--sbb-spacing-responsive-xxs);
-    border-start-start-radius: var(--sbb-border-radius-4x);
-    border-start-end-radius: var(--sbb-border-radius-4x);
 }
-
