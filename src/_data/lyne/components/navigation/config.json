@@ -1,5 +1,6 @@
 {
     "tag":"navigation",
+    "storybookId": "Navigation",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["navigation-marker", "navigation-section"],
+    "childs":[],
     "isChildOf": false,
     "similar":false,
     "status": {

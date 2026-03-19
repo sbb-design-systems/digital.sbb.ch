@@ -1,6 +1,6 @@
 const fetchData = require('../../../../assets/helpers/fetchHelper');  
 
 module.exports = async function() {
-  const result = await fetchData("tabs/tab-group");
+  const result = await fetchData("tabs");
   return result;
 };

@@ -1,5 +1,6 @@
 {
     "tag":"sidebar",
+    "storybookId": "Sidebar",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,8 +21,8 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["sidebar-title", "sidebar-content", "sidebar-close-button"],
-    "isChildOf": ["sidebar-container"],
+    "childs":[],
+    "isChildOf": [],
     "similar":["icon-sidebar"],
     "status": {
         "design": "ok",

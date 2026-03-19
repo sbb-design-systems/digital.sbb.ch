@@ -1,6 +1,6 @@
 const fetchData = require('../../../../assets/helpers/fetchHelper');  
 
 module.exports = async function() {
-  const result = await fetchData("navigation/navigation");
+  const result = await fetchData("navigation");
   return result;
 };

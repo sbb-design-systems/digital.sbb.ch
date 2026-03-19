@@ -1,5 +1,6 @@
 {
     "tag":"radio-button",
+    "storybookId": "Radio Button",
     "system":"lyne",
     "list":"components",
     "language": {

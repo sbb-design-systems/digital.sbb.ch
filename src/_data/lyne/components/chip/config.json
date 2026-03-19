@@ -1,5 +1,6 @@
 {
     "tag":"chip",
+    "storybookId": "Chip",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -21,7 +22,7 @@
     },
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": ["chip-group"],
+    "isChildOf": [],
     "similar":false,
     "status": {
         "design": "ok",

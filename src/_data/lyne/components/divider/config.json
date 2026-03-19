@@ -1,5 +1,6 @@
 {
     "tag":"divider",
+    "storybookId": "Divider",
     "system":"lyne",
     "list":"components",
     "language": {

@@ -1,5 +1,6 @@
 {
     "tag":"toggle-check",
+    "storybookId": "Toggle Check",
     "system":"lyne",
     "list":"components",
     "language": {

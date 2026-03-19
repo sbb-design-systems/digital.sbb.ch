@@ -1,5 +1,6 @@
 {
     "tag":"container",
+    "storybookId": "Container",
     "system":"lyne",
     "list":"components",
     "language": {

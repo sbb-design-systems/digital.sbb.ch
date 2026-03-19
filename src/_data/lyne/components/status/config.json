@@ -1,5 +1,6 @@
 {
     "tag":"status",
+    "storybookId": "Status",
     "system":"lyne",
     "list":"components",
     "language": {

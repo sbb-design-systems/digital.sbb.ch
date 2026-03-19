@@ -1,5 +1,6 @@
 {
     "tag":"form-field",
+    "storybookId": "Form Field",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["Input", "Label", "Select", "Textarea", "DatePicker", "Select", "Slider", "TimeInput", "Autocomplete", "AutocompleteGrid", "FormError"],
+    "childs": ["select", "datepicker", "time-input", "autocomplete", "autocomplete-grid"],
     "isChildOf": false,
     "similar":false,
     "status": {

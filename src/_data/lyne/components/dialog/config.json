@@ -1,5 +1,6 @@
 {
     "tag":"dialog",
+    "storybookId": "Dialog",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["dialog-actions", "dialog-title", "dialog-close-button"],
+    "childs": [],
     "isChildOf": false,
     "similar":["overlay"],
     "status": {

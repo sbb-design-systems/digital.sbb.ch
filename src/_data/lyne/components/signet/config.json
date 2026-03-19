@@ -1,5 +1,6 @@
 {
     "tag":"signet",
+    "storybookId": "Signet",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -19,6 +20,7 @@
         "hasPlayground": true,
         "hasImplementation": true
     },
+    "showInFirstLevel": true,
     "childs": false,
     "isChildOf": ["logo"],
     "similar":false,

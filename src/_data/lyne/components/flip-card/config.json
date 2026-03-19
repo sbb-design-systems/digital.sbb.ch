@@ -1,5 +1,6 @@
 {
     "tag":"flip-card",
+    "storybookId": "Flip Card",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -19,12 +20,13 @@
         "hasPlayground": false,
         "hasImplementation": true
     },
-    "childs": ["FlipCardDetails", "FlipCardSummary"],
+    "showInFirstLevel": true,
+    "childs": [],
     "isChildOf": false,
     "similar":["accordion"],
     "status": {
         "design": "ok",
         "code": "ok",
-        "documentation": "in progress"
+        "documentation": "ok"
     }
 }

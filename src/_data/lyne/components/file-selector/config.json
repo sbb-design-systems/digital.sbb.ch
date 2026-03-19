@@ -1,5 +1,6 @@
 {
     "tag":"file-selector",
+    "storybookId": "File Selector",
     "system":"lyne",
     "list":"components",
     "language": {

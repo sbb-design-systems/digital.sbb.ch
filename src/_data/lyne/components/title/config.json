@@ -1,5 +1,6 @@
 {
     "tag":"title",
+    "storybookId": "Title",
     "system":"lyne",
     "list":"components",
     "language": {

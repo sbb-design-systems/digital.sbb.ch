@@ -1,5 +1,6 @@
 {
     "tag":"paginator",
+    "storybookId": "Paginator",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -22,7 +23,7 @@
     "showInFirstLevel": true,
     "childs": false,
     "isChildOf": false,
-    "similar":["compact-paginator"],
+    "similar":[],
     "status": {
         "design": "ok",
         "code": "ok",

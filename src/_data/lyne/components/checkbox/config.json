@@ -1,5 +1,6 @@
 {
     "tag":"checkbox",
+    "storybookId": "Checkbox",
     "system":"lyne",
     "list":"components",
     "language": {

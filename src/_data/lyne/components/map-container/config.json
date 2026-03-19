@@ -1,5 +1,6 @@
 {
     "tag":"map-container",
+    "storybookId": "Map Container",
     "system":"lyne",
     "list":"components",
     "language": {

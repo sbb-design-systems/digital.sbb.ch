@@ -1,5 +1,6 @@
 {
     "tag":"alert",
+    "storybookId": "Alert",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -21,7 +22,7 @@
     },
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf":["alert-group"],
+    "isChildOf":[],
     "similar":["notification"],
     "status": {
         "design": "ok",

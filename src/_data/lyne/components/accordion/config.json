@@ -1,5 +1,6 @@
 {
     "tag":"accordion",
+    "storybookId": "Accordion",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["expansion-panel", "expansion-panel-header", "expansion-panel-content"],
+    "childs":["expansion-panel"],
     "isChildOf":false,
     "similar":["flip-card"],
     "status": {

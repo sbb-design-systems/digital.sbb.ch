@@ -1,5 +1,6 @@
 {
     "tag":"clock",
+    "storybookId": "Clock",
     "system":"lyne",
     "list":"components",
     "language": {

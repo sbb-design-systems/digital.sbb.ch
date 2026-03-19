@@ -1,6 +1,6 @@
 const fetchData = require('../../../../assets/helpers/fetchHelper');  
 
 module.exports = async function() {
-  const result = await fetchData("table/table-wrapper");
+  const result = await fetchData("table");
   return result;
 };

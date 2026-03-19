@@ -1,5 +1,6 @@
 {
     "tag":"select",
+    "storybookId": "Select",
     "system":"lyne",
     "list":"components",
     "language": {

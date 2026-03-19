@@ -1,5 +1,6 @@
 {
     "tag":"menu",
+    "storybookId": "Menu",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["MenuButton", "MenuLink"],
+    "childs": [],
     "isChildOf": false,
     "similar":false,
     "status": {

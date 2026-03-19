@@ -1,5 +1,6 @@
 {
     "tag":"link-list",
+    "storybookId": "Link List",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["block-link"],
+    "childs": ["link"],
     "isChildOf": false,
     "similar":["link-list-anchor"],
     "status": {

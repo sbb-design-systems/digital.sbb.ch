@@ -1,6 +1,6 @@
 const fetchData = require('../../../../assets/helpers/fetchHelper');  
 
 module.exports = async function() {
-  const result = await fetchData("checkbox/checkbox");
+  const result = await fetchData("checkbox");
   return result;
 };

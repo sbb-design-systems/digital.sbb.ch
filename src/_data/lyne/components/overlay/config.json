@@ -1,5 +1,6 @@
 {
     "tag":"overlay",
+    "storybookId": "Overlay",
     "system":"lyne",
     "list":"components",
     "language": {

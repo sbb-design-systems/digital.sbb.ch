@@ -1,5 +1,6 @@
 {
     "tag":"toast",
+    "storybookId": "Toast",
     "system":"lyne",
     "list":"components",
     "language": {

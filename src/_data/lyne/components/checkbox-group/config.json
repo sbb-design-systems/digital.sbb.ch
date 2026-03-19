@@ -1,5 +1,6 @@
 {
     "tag":"checkbox-group",
+    "storybookId": "Checkbox Group",
     "system":"lyne",
     "list":"components",
     "language": {

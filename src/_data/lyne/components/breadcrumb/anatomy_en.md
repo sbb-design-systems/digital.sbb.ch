@@ -6,6 +6,7 @@
   title: 'Anatomy of the component'
 }) }}
 
+
 <sbb-table-wrapper>
 
 |Number|Type|Description|Optional|Info|

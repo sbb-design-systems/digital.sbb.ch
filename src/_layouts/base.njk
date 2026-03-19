@@ -16,9 +16,17 @@
       <sbb-sidebar-content role="main">
     {% endif %}
         {% include "../_includes/navigation/navigation.njk" %}
-        <sbb-container id="content" class="content">
+        {% if layout == "landingpage.njk" %}
+        <sbb-lead-container>
+          <sbb-image slot="image" image-src="{{image}}"></sbb-image>
+          {% include "../_includes/title.njk" %}
           {{ content | safe }}
-        </sbb-container>
+        </sbb-lead-container>
+        {% else %}
+          <sbb-container id="content" class="content">
+          {{ content | safe }}
+          </sbb-container>
+        {% endif %}  
         {% include "../_includes/footer.njk" %}
     {% if layout == "component.njk" %}
       </sbb-sidebar-content>

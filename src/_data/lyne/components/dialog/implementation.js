@@ -1,6 +1,6 @@
 const fetchData = require('../../../../assets/helpers/fetchHelper');  
 
 module.exports = async function() {
-  const result = await fetchData("dialog/dialog");
+  const result = await fetchData("dialog");
   return result;
 };

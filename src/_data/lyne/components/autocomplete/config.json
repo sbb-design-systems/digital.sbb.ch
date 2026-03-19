@@ -1,5 +1,6 @@
 {
     "tag":"autocomplete",
+    "storybookId": "Autocomplete",
     "system":"lyne",
     "list":"components",
     "language": {

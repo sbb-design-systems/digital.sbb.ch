@@ -1,5 +1,6 @@
 {
     "tag":"footer",
+    "storybookId": "Footer",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["LinkList", "Button", "SecondaryButton", "BlockLink", "Clock"],
+    "childs": ["link-list", "button", "secondary-button", "block-link", "clock"],
     "isChildOf": false,
     "similar":false,
     "status": {

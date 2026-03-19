@@ -1,5 +1,6 @@
 {
     "tag":"expansion-panel",
+    "storybookId": "Expansion Panel",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["expansion-panel-content", "expansion-panel-header"],
+    "childs": [],
     "isChildOf":["accordion"],
     "similar":false,
     "status": {

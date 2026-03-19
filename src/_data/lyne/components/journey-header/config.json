@@ -1,5 +1,6 @@
 {
     "tag":"journey-header",
+    "storybookId": "Journey Header",
     "system":"lyne",
     "list":"components",
     "language": {

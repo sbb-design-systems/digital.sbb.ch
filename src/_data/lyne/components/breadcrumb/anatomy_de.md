@@ -6,6 +6,7 @@
   title: 'Anatomie der Komponente'
 }) }}
 
+
 <sbb-table-wrapper>
 
 |Nummer|Typ|Beschreibung|Optional|Hinweis|

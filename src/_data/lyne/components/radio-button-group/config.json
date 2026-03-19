@@ -1,5 +1,6 @@
 {
     "tag":"radio-button-group",
+    "storybookId": "Radio Button Group",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["RadioButton", "RadioButtonPanel", "SelectionExpansionPanel"],
+    "childs": ["radio-button", "radio-button-panel", "selection-expansion-panel"],
     "isChildOf": false,
     "similar":false,
     "status": {

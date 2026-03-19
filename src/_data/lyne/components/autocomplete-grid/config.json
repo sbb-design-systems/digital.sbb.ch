@@ -1,5 +1,6 @@
 {
     "tag":"autocomplete-grid",
+    "storybookId": "Autocomplete Grid",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["autocomplete-grid-button", "autocomplete-grid-cell", "autocomplete-grid-optgroup", "autocomplete-grid-option", "autocomplete-grid-row", "option", "optgroup"],
+    "childs":[ "option", "optgroup"],
     "isChildOf":["form-field"],
     "similar":["autocomplete-grid","select"],
     "status": {

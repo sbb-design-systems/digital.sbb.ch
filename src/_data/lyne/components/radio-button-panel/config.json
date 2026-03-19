@@ -1,5 +1,6 @@
 {
     "tag":"radio-button-panel",
+    "storybookId": "Radio Button Panel",
     "system":"lyne",
     "list":"components",
     "language": {

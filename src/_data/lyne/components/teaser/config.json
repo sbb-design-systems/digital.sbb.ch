@@ -1,5 +1,6 @@
 {
     "tag":"teaser",
+    "storybookId": "Teaser",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -22,7 +23,7 @@
     "showInFirstLevel": true,
     "childs":["image"],
     "isChildOf": false,
-    "similar":["teaser-hero", "teaser-product", "teaser-product-static"],
+    "similar":["teaser-hero", "teaser-product"],
     "status": {
         "design": "ok",
         "code": "ok",

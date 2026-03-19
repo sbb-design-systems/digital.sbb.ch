@@ -1,5 +1,6 @@
 {
     "tag":"sticky-bar",
+    "storybookId": "Container",
     "system":"lyne",
     "list":"components",
     "language": {

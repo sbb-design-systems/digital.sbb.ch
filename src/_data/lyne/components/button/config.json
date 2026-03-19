@@ -1,5 +1,6 @@
 {
     "tag":"button",
+    "storybookId": "Button",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -22,7 +23,7 @@
     "showInFirstLevel": true,
     "childs":false,
     "isChildOf": ["action-group"],
-    "similar":["button-link", "button-static", "secondary-button", "secondary-button-link", "secondary-button-static", "accent-button", "accent-button-link", "accent-button-static", "transparent-button", "transparent-button-link", "transparent-button-static"],
+    "similar":["link"],
     "status": {
         "design": "ok",
         "code": "ok",

@@ -1,5 +1,6 @@
 {
     "tag":"popover",
+    "storybookId": "Popover",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -21,8 +22,8 @@
     },
     "showInFirstLevel": true,
     "childs": false,
-    "isChildOf": ["popover-trigger"],
-    "similar":false,
+    "isChildOf": [],
+    "similar":["tooltip"],
     "status": {
         "design": "ok",
         "code": "ok",

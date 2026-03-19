@@ -1,5 +1,6 @@
 {
     "tag":"checkbox-panel",
+    "storybookId": "Checkbox Panel",
     "system":"lyne",
     "list":"components",
     "language": {

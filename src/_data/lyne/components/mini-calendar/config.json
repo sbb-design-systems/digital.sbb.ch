@@ -1,5 +1,6 @@
 {
     "tag":"mini-calendar",
+    "storybookId": "Mini Calendar",
     "system":"lyne",
     "list":"components",
     "language": {
@@ -20,7 +21,7 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["mini-calendar-month"],
+    "childs":[],
     "isChildOf":false,
     "similar":["datepicker", "calendar"],
     "status": {

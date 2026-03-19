@@ -1,5 +1,6 @@
 {
     "tag":"slider",
+    "storybookId": "Slider",
     "system":"lyne",
     "list":"components",
     "language": {
