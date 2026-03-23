@@ -7,28 +7,27 @@ parent: language_de
 order: 1
 ---
 
-UX‑Writing ist ein zentraler Bestandteil der User Experience. Texte in digitalen Produkten haben direkten Einfluss darauf, wie Nutzende Aufgaben verstehen, Entscheidungen treffen und sich während der Bedienung fühlen. Gutes UX‑Writing ist kurz, verständlich, handlungsorientiert und unterstützt die Nutzer:innen dabei, ihre Ziele schnell und zuverlässig zu erreichen.
+UX Writing ist ein zentraler Bestandteil der User Experience. Texte in digitalen Produkten haben direkten Einfluss darauf, wie Nutzer:innen Aufgaben verstehen, Entscheidungen treffen und sich während der Bedienung fühlen. Gutes UX Writing ist kurz, verständlich, handlungsorientiert und unterstützt die Nutzer:innen dabei, ihre Ziele schnell und zuverlässig zu erreichen.
 
-## Tonalität der Sprachen.
-Ein zentraler Aspekt von UX-Writing ist die Tonalität und verwendete Sprache. Diese sollen auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
+## Tonalität der Sprache.
+Ein zentraler Aspekt von UX-Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
 
 
 ## Microcopy
-In digitalen Anwendungen sind bereits kleinste Text-Teile und Formulierungen entscheidend für das Nutzungserlebnis. Microcopy bezieht sich auf diese kleinen (und oft übersehenen) Textelemente. 
+In digitalen Anwendungen sind bereits kleinste Textteile und Formulierungen entscheidend für das Nutzungserlebnis. «Microcopy» bezeichnet diese kleinen (und oft übersehenen) Textelemente. 
 
-Das Ziel ist, mit möglichst wenigen Worten die Nutzer:innen optimal zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.
+Ziel dieser Microcopy ist es, mit möglichst wenigen Wörtern die Nutzer:innen optimal zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.  
 
-Allgemeine Empfehlungen:
+### Allgemeine Empfehlungen:
 
-1. **Sei klar.** Das Wichtigste ist, dass die Nutzer:innen verstehen, was passiert, was zu tun ist oder was passieren wird.
+</br>
 
-2. **Sei so kurz wie möglich, so lang wie nötig.** Der Platz ist begrenzt und mit mehr Wörtern steigt auch die kognitive Belastung. Denke auch frühzeitig an Übersetzungen ins Französische oder Italienisch, den diese brauchen meistens mehr Platz als Deutsch oder Englisch.
-
-3. **Sei hilfreich.** Biete Sicherheit und versuche die Sorgen der Nutzer:innen vorherzusagen und abzuholen. Vermeide Ironie und Floskeln, sie sind wenig hilfreich.
-
-4. **Sei konsistent.** Bleibe konsistent in der Verwendung deiner Wörter und Terminologien. Vermeide es, Sprachen zu mischen. 
-
-5. **Sei kontext-bewusst.** Achte dich, welcher Kontext vorhanden ist. Gib Kontext mit, wenn dieser nicht bereits sichtbar ist, z.B. in einem Dialog-Modal.
+1. **Sei klar.** Das Wichtigste ist, dass Nutzer:innen verstehen, was zu tun ist, was passiert oder was passieren wird.
+2. **Sei so kurz wie möglich, so lang wie nötig.** Der Platz ist begrenzt und mit mehr Wörtern steigt auch die kognitive Belastung. Denke frühzeitig an Übersetzungen ins Französische oder Italienische, den diese brauchen meistens mehr Platz als Deutsch oder Englisch.
+3. **Sei hilfreich.** Biete Sicherheit und versuche, die Bedürfnisse der Nutzer:innen vorherzusagen und abzuholen. Vermeide Ironie und Floskeln, sie können kontraproduktiv sein.
+4. **Sei konsistent.** Bleibe konsistent in der Verwendung deiner Wörter und Terminologie. Vermeide es, Sprachen zu mischen. 
+5. **Sei kontextbewusst.** Achte auf den Kontext. Gib Kontext mit, wenn dieser nicht vorhanden ist.
+6. **Sei barrierefrei.** Denke an die korrekte Beschriftung von Aria Labels und Link-Alt-Texten, damit sie zum Beispiel von Screenreadern vorgelesen werden können. 
 
 </br></br>
 
@@ -37,7 +36,7 @@ Allgemeine Empfehlungen:
     Verwende interne Begriffe und Abkürzungen nur, wenn diese in der Zielgruppe bekannt sind. Dabei kann auch das <sbb-link href="/{{page.lang}}/foundation/language/wordlist">SBB Wörterbuch</sbb-link> helfen. Wenn du nicht sicher bist, ob die Begriffe oder Abkürzungen verstanden werden, teste sie mit deiner Zielgruppe.
 </sbb-notification>
 
-</br></br>
+</br>
 
 ## Microcopy im Detail
 

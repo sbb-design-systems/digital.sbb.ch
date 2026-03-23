@@ -7,12 +7,13 @@ parent: language_de
 order: 4
 ---
 
-Formulare und Eingaben nutzen Labels, Hinweise und Platzhalter, um Nutzer:innen zu zeigen, wie Felder korrekt ausgefüllt werden. </br>
-Ihr Ziel ist es, Erwartungen klar zu machen, Fehler zu vermeiden und die Eingabe so einfach und sicher wie möglich zu gestalten.
+Formulare und Eingaben nutzen Labels, Hinweise und Platzhalter, um Nutzer:innen zu zeigen, wie Felder korrekt ausgefüllt werden. 
+
+Ihr Ziel ist es, Erwartungen klarzumachen, Fehler zu vermeiden und die Eingabe so einfach und sicher wie möglich zu gestalten.
 
 ## Labels.
 
-Input Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierung und reduzieren Unsicherheit.
+Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierung und reduzieren Unsicherheit.
 
 ### Empfehlungen: 
 * **Sei klar.** Verwende präzise Labels, die den Zweck des Feldes eindeutig beschreiben.
@@ -39,12 +40,12 @@ Input Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierun
 
 ## Platzhalter.
 
-Placeholders geben Hinweise zur Eingabe und helfen, Erwartungen zu setzen.
+Placeholders geben Hinweise und helfen bei der Eingabe.
 
 ### Empfehlungen:
 
-* **Zeig Beispiele.** Nutze Placeholder, um das gewünschte Format oder Beispielwerte zu zeigen und Eingabefehler zu vermeiden.
-* **Kein Ersatz.** Placeholders ersetzen kein Label, sie dienen nur als ergänzender Hinweis.
+* **Zeig Beispiele.** Nutze Platzhalter, um das gewünschte Format oder Beispielwerte zu zeigen und Eingabefehler zu vermeiden.
+* **Kein Ersatz.** Platzhalter ersetzen kein Label, sie dienen nur als ergänzender Hinweis.
 
 #### Beispiele
 

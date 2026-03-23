@@ -7,27 +7,28 @@ parent: language_de
 order: 2
 ---
 
-Button- und Linktexte sind kurze, handlungsorientierte Beschriftungen. </br>
-Ihr Ziel ist es, Nutzer:innen mit möglichst wenigen Worten zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.{.lead}
+Button- und Linktexte sind kurze, handlungsorientierte Beschriftungen.
+
+Ihr Ziel ist es, Nutzer:innen mit möglichst wenigen Wörtern zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.
 
 ## Buttons.
 
-Buttons sind Handlungs-Trigger, keine Erklärflächen. Sie machen auf einen Blick klar, welche Aktion beim Klick ausgeführt wird.
+Buttons sind Handlungs-Trigger, keine Erklärungsflächen. Sie machen auf einen Blick klar, welche Aktion beim Klick ausgeführt wird.
 
 ### Empfehlungen: 
 
-* **Sei klar.** Verwende ein Verb oder eine eindeutige Navigationsangabe (z. B. „Zu Einstellungen“), damit die Aktion sofort verständlich ist.
+* **Sei klar.** Verwende eine Handlungsanweisung oder -aufforderung (Jetzt kaufen, weiter, senden) oder eine eindeutige Orientierungshilfe (z.B. «Zu Einstellungen») damit die Aktion sofort verständlich ist. 
 
-* **Verwende 1–3 Wörter.** Buttons werden gescannt, nicht gelesen. Kurze Labels helfen, Aktionen schnell zu erkennen und zwischen mehreren Buttons leichter zu unterscheiden.
+* **Verwende 1–3 Wörter.** Buttons werden gescannt, nicht gelesen. Kurze Labels helfen, Aktionen schnell zu erkennen und leichter zwischen mehreren Buttons zu unterscheiden.
 
-* **Erkläre nicht im Button.** Wenn Zusatzinformationen für das Verständnis nötig sind, platziere sie ober-/unterhalb des Buttons oder in einem Tooltip. 
+* **Erkläre nicht im Button.** Wenn Zusatzinformationen für das Verständnis nötig sind, platziere sie ober-/unterhalb des Buttons oder in einem Tooltipp.
 
 #### Beispiele:
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/action_group_horizontal_light',
-  urldark: '/assets/images/ux-writing/action_group_horizontal_dark',
-  alt: 'Beispiel für action-goup',
+  url: 'assets/images/ux-writing/action_group_horizontal_light',
+  urldark: 'assets/images/ux-writing/action_group_horizontal_dark',
+  alt: 'Beispiel für action-group',
   title: 'microcopy action-group-horizontal'
 }) }}
 
@@ -39,6 +40,7 @@ Buttons sind Handlungs-Trigger, keine Erklärflächen. Sie machen auf einen Blic
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Geldwechsel erfassen</div>
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Meldung anzeigen</div>
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Synchronisieren</div>
+        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Details</div>
     </div>
     <div class="donts">
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Ja</div>
@@ -52,11 +54,11 @@ Buttons sind Handlungs-Trigger, keine Erklärflächen. Sie machen auf einen Blic
 
 ## Links.
 
-Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar machen, wohin der Link führt oder was Nutzer:innen dort erwarten können. 
+Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar machen, wohin der Link führt oder was Nutzer:innen dort erwarten können.
 
 ### Empfehlungen:
 
-* **Sprechende Links.** Nutze klare Formulierungen, so dass ein Link auch ohne umgebenden Text verständlich ist.
+* **Sprechende Links.** Nutze klare Formulierungen, sodass ein Link auch ohne umgebenden Text verständlich ist.
 
 #### Beispiele:
 
@@ -66,16 +68,25 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
     <div class="dos">
         <div class="iconandlabel">
             <sbb-icon name="circle-tick-small"></sbb-icon>
-            <div class="dosndontstext">
-                Unsere Konditionen sind beschrieben.
-                <sbb-link>Konditionen lesen</sbb-link>
-            </div>
+            <sbb-link>Zu den Konditionen lesen</sbb-link>
         </div>
         </br>
          <div class="iconandlabel">
             <sbb-icon name="circle-tick-small"></sbb-icon>
             <sbb-link>Dienstleistung und Preise anzeigen</sbb-link>
         </div>
+         <div class="iconandlabel">
+            <sbb-icon name="circle-tick-small"></sbb-icon>
+            <sbb-link>Mehr zu den Leistungen</sbb-link>
+        </div>
+         <div class="iconandlabel">
+            <sbb-icon name="circle-tick-small"></sbb-icon>
+            <sbb-link>Weitere Informationen</sbb-link>
+        </div>
+         <div class="iconandlabel">
+            <sbb-icon name="circle-tick-small"></sbb-icon>
+            <sbb-link>Mehr anzeigen</sbb-link>
+        </div>        
     </div>
     <div class="donts">
        <div class="iconandlabel">

@@ -7,18 +7,18 @@ parent: language_de
 order: 3
 ---
 
-Benachrichtigungen umfassen kurze Hinweise und Rückmeldungen im Interface. Sie informieren über Zustände, Erfolge, Fehler oder Warnungen, zum Beispiel in Form von <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/notification">Notifications</sbb-link> oder <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/dialog">Dialogen</sbb-link>.
+Benachrichtigungen umfassen kurze Hinweise und Rückmeldungen. Sie informieren über Zustände, Erfolge, Fehler oder Warnungen, zum Beispiel in Form von <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/notification">Notifikationen</sbb-link> oder <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/dialog">Dialogen</sbb-link>.
 
-Ziel ist es, Klarheit zu schaffen, Unsicherheiten zu nehmen und den Nutzer:innen aufzuzeigen, was passiert ist und was als Nächstes zu tun ist.
+Ziel ist es, Klarheit zu schaffen, den Nutzer:innen Unsicherheiten zu nehmen und ihnen aufzuzeigen, was passiert ist und was als Nächstes zu tun ist.
 
 ### Empfehlungen: 
-* **Mache auf kritische Aktionen aufmerksam.** Nutze Confirmation-Dialoge bei schwerwiegenden oder nicht rückgängig zu machenden Aktionen.
-* **Erkläre was danach passiert.** Nach Aktionen wie dem Absenden eines Formulars klar machen, wann eine Rückmeldung erfolgt und über welchen Kanal.
-* **Mach Fehler lösbar.** Fehlermeldungen sollten aufzeigen, wie das Problem behoben werden kann. 
-* **Setze Punkte bewusst.** Fehlermeldungen bei Inputfeldern ohne Schlusspunkt, ausser bei vollständigen Sätzen. 
-* **Ermögliche, Aktionen rückgängig zu machen.** Biete die Möglichkeit, kritische Änderungen oder gelöschte Inhalte zurückzunehmen, etwa über eine “Rückgängig”-Option in Toasts. 
+* **Mache auf kritische Aktionen aufmerksam.** Nutze bei schwerwiegenden oder nicht rückgängig zu machenden Aktionen Bestätigungsdialoge (Möchten Sie das wirklich löschen?).
+* **Erkläre was danach passiert.** Mache nach Aktionen wie dem Absenden eines Formulars klar, wann und über welchen Kanal eine Rückmeldung erfolgt.
+* **Mache Fehler lösbar.** Fehlermeldungen sollten aufzeigen, wie das Problem behoben werden kann.
+* **Setze Punkte bewusst.** Setze bei Fehlermeldungen zu Inputfeldern keinen Schlusspunkt, ausser bei vollständigen Sätzen.
+* **Ermögliche, Aktionen rückgängig zu machen.** Biete die Möglichkeit, kritische Änderungen oder gelöschte Inhalte zurückzunehmen, etwa über eine «Rückgängig»-Option in Toasts.
 
-### Notification
+#### Notification
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/notification_light',
@@ -40,7 +40,7 @@ Ziel ist es, Klarheit zu schaffen, Unsicherheiten zu nehmen und den Nutzer:innen
 </div>
 
 
-### Toasts
+#### Toasts
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/toast_light',
@@ -66,7 +66,7 @@ Ziel ist es, Klarheit zu schaffen, Unsicherheiten zu nehmen und den Nutzer:innen
 </div>
 
 
-### Dialog
+#### Dialog
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/dialog_light',
@@ -85,7 +85,7 @@ Ziel ist es, Klarheit zu schaffen, Unsicherheiten zu nehmen und den Nutzer:innen
 </div>
 
 
-### Error (Form Field)
+#### Error (Form Field)
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/time_input_light',
