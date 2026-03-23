@@ -17,3 +17,5 @@ Basically, everything that must be newly created or revised in the digital arena
 Contact person for <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">technical questions</sbb-link>.
 Please use the corresponding <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">forms</sbb-link> on Github.
 
+## For questions about digital.sbb.ch
+If you have any questions about digital.sbb.ch, please contact <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>.

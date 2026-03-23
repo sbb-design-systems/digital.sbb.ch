@@ -15,3 +15,6 @@ De manière générale, toute modification ou création d’un élément lié à
 
 ## Pour toute question technique:
 Interlocuteur pour les <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">questions techniques</sbb-link>. Veuillez utiliser les <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">formulaires</sbb-link> correspondants sur Github.
+
+## Pour toute question concernant digital.sbb.ch
+Pour toute question concernant digital.sbb.ch, adresse-toi à <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>.

@@ -16,3 +16,5 @@ Grundsätzlich muss alles was im digitalen Bereich neu gestaltet oder überarbei
 ## Für technische Fragen
 Ansprechpartner für <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">technische Fragen</sbb-link>. Bitte die entsprechenden <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">Formulare</sbb-link> auf Github verwenden.
 
+## Für Fragen zu digital.sbb.ch
+Bei Fragen zu digital.sbb.ch kannst du dich an <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> wenden.

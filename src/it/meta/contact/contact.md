@@ -16,3 +16,5 @@ In linea di principio, tutto ciò che viene creato o rivisto in ambito digitale 
 ## Per domande tecniche
 Persona di contatto per le <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contacts/">domande tecniche</sbb-link>. Utilizzate i <sbb-link variant="inline" type="button" href="{{page.lang}}/design-system/organisation/contributing/">moduli</sbb-link>corrispondenti su Github
 
+## Per domande su digital.sbb.ch
+Se hai domande su digital.sbb.ch/it, non esitare a rivolgerti a <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>.
