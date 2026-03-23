@@ -35,7 +35,7 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 - Halfpage-Ad (300 x 600) </li>
 - Maxi Skyscraper (245 x 600)</li>
 
-*Utilisation of the window in expanded view
+\*Utilisation of the window in expanded view
 
 </sbb-tab>
 <sbb-tab-label>Version 2</sbb-tab-label>
@@ -57,4 +57,4 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 
 ## Contact
 Contact for templates, questions about corporate design and format customisation: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Brand Portal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
-Questions about accessibility: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
+Questions about accessibility: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Contact page Accessibility</sbb-link>

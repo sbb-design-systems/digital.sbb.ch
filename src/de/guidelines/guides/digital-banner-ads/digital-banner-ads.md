@@ -35,7 +35,7 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 - Halfpage-Ad (300 x 600) </li>
 - Maxi Skyscraper (245 x 600)</li>
 
-*Anwendung des Fensters in der ausgeklappten (expanded) Ansicht
+\*Anwendung des Fensters in der ausgeklappten (expanded) Ansicht
 
 </sbb-tab>
 <sbb-tab-label>Version 2</sbb-tab-label>
@@ -57,8 +57,4 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 
 ## Kontakt 
 Kontakt für Vorlagen, Fragen zum Corporate Design und Formatanpassungen: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
-Fragen zu Barrierefreiheit: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
-
-
-
-
+Fragen zu Barrierefreiheit: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Kontaktseite Barrierefreiheit</sbb-link>

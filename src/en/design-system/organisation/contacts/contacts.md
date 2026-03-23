@@ -6,12 +6,13 @@ title: Contact
 parent: organisation_en
 order: 3
 ---
+
 <sbb-table-wrapper>
 
-| Variant              | PO                | UX                                          | DEV                                                                              |
-|----------------------|-------------------|---------------------------------------------|----------------------------------------------------------------------------------|
-| Lyne                 | Lukas&nbsp;Spirig | Manuel&nbsp;Cilurzo                         | Lukas Spirig, Jeremias Peier, Fincons                                            | 
-| Mobile               | Hoang&nbsp;Tran   | Mike&nbsp;Morgenthaler,<br>Beat Vollenwyder | Hoang Tran, Georgios Antoniadis, Jeanne Fleury, Cyrill Meyer, Dominik Schmucki   | 
+| Variant              | PO                  | UX                                          | DEV                                                                |
+|----------------------|---------------------|---------------------------------------------|--------------------------------------------------------------------|
+| Lyne                 | Lukas&nbsp;Spirig   | Manuel&nbsp;Cilurzo                         | Lukas Spirig, Jeremias Peier, Fincons                              | 
+| Mobile               | Nicolas&nbsp;Vidoni | Mike&nbsp;Morgenthaler,<br>Beat Vollenwyder | Georgios Antoniadis, Jeanne Fleury, Cyrill Meyer, Dominik Schmucki | 
 
 
 {.sbb-table}

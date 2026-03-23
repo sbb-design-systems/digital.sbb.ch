@@ -9,7 +9,7 @@ order: 2
 
 Alle Icons müssen im <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">SBB Icon-Style</sbb-link>  umgesetzt werden. Neu erstellte Icons müssen von der SBB Markenführung oder von UX abgenommen werden. {.lead}
 
-<sbb-button-link target="_blank" href="https://www.figma.com/file/0x2cZBSTG2t5crlyW2wfvE/adaptive-icons-template?t=4dWSW7jntdJDNUvr-1">
+<sbb-button-link target="_blank" href="https://www.figma.com/design/dlRCvj5i9TrTGxqd0DkKgM/adaptive-icons-template?node-id=4079-3327&t=49kdU7IzkHymY4zU-1">
 <sbb-icon slot="icon" name="figma-small"></sbb-icon>
 Figma-Vorlage für App-Icons
 </sbb-button-link> 
