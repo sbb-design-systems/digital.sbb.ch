@@ -9,11 +9,11 @@ order: 2
 
 
 ## Checklist
-– <sbb-link variant="inline" type="button" href="#variant">Which version fits my project?</sbb-link>
-– <sbb-link variant="inline" type="button" href="#figma-space">Access to SBB's Figma Space</sbb-link>
-– <sbb-link variant="inline" type="button" href="#install-libraries">Installing the required libraries</sbb-link>
-– <sbb-link variant="inline" type="button" href="#enter-community">Join the MS Team Community</sbb-link>
-– <sbb-link variant="inline" type="button" href="#use-components">Browse, understand, use components</sbb-link>
+– <sbb-link variant="inline" type="button" href="{{ page.url }}#variant">Which version fits my project?</sbb-link>
+– <sbb-link variant="inline" type="button" href="{{ page.url }}#figma-space">Access to SBB's Figma Space</sbb-link>
+– <sbb-link variant="inline" type="button" href="{{ page.url }}#install-libraries">Installing the required libraries</sbb-link>
+– <sbb-link variant="inline" type="button" href="{{ page.url }}#enter-community">Join the MS Team Community</sbb-link>
+– <sbb-link variant="inline" type="button" href="{{ page.url }}#use-components">Browse, understand, use components</sbb-link>
 
 <a id="variant"></a>
 

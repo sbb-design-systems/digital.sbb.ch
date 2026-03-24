@@ -5,7 +5,7 @@ permalink: false
 order: 1
 ---
 
-Sehr cool! Wir freuen uns auf deinen Beitrag. Als erstes gilt es zu klären ob die zu konzipierende Komponente in das Design System aufgenommen werden kann. <sbb-link variant="inline" href="/{{page.lang}}/design-system/organisation/contributing/">Hier</sbb-link> kannst du nachlesen, wie entschieden wird, ob eine Komponente aufgenommen werden kann oder nicht.
+Sehr cool! Wir freuen uns auf deinen Beitrag. Als erstes gilt es zu klären ob die zu konzipierende Komponente in das Design System aufgenommen werden kann. <sbb-link variant="inline" href="/{{page.lang}}/design-system/organisation/contributing/">Erfahre mehr dazu, wie du mitwirken kannst</sbb-link>.
 
 In Kurzform hier:
 * Deine Komponente muss den Design-Prinzipien entsprechen und sich visuell in das System einfügen

@@ -11,5 +11,4 @@ If you are capable of creating an icon yourself, nothing stands in your way. An 
 * No rounded lines
 * Reduced and clear. Show only the most necessary information
 
-If you want to learn more about SBB Icons, you can sign up for an icon instruction. <sbb-link variant="inline" href="https://confluence.sbb.ch/display/DSRVUX/Interesse+an+SBB+Icon+Schulung">Go to registration</sbb-link>.
 If you don't have any knowledge regarding icon design, the UX service (<sbb-link variant="inline" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>) will be happy to assist you.
