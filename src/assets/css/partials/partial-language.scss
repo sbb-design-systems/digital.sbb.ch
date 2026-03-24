@@ -37,3 +37,8 @@
 .wordlist-table{
     padding-block-end: var(--sbb-spacing-responsive-xxs);
 }
+
+@media (width <= 768px) {
+	.dosndonts { flex-direction: column; }
+    .dos, .donts { inline-size: 100%; }
+}

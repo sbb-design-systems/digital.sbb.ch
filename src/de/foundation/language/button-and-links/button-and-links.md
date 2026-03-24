@@ -62,15 +62,19 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
 
 #### Beispiele:
 
-<sbb-link>Dienstleistungen und Preise anzeigen</sbb-link>
+{{ imageOnGreyBackground({
+  url: 'assets/images/ux-writing/link_light',
+  urldark: 'assets/images/ux-writing/link_dark',
+  alt: 'Beispiel für einen Link',
+  title: 'microcopy link'
+}) }}
 
 <div class="dosndonts">
     <div class="dos">
         <div class="iconandlabel">
             <sbb-icon name="circle-tick-small"></sbb-icon>
-            <sbb-link>Zu den Konditionen lesen</sbb-link>
+            <sbb-link>Zu den Konditionen</sbb-link>
         </div>
-        </br>
          <div class="iconandlabel">
             <sbb-icon name="circle-tick-small"></sbb-icon>
             <sbb-link>Dienstleistung und Preise anzeigen</sbb-link>
@@ -91,7 +95,7 @@ Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar m
     <div class="donts">
        <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>
-            Unsere Konditionen sind <sbb-link>hier</sbb-link> beschrieben
+            <div>Unsere Konditionen sind <sbb-link variant="inline">hier</sbb-link> beschrieben</div>
         </div>
          <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>
