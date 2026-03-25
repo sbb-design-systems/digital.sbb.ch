@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+
+{% if availablelanguages.length %}
+  {% include "../_includes/fallback-languages.njk" %}
+  {% include "../_includes/fallback-content.njk" %}
+{% else %}
+
+    {{ content | safe }}
+
+{% endif %}
+
+
