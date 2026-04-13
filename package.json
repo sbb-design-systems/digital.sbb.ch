@@ -10,8 +10,8 @@
         "html-minify": "html-minifier-terser --input-dir dist --output-dir dist --file-ext html --remove-comments --collapse-whitespace --conservative-collapse --minify-js false --minify-css true",
         "lint:scss": "stylelint 'src/assets/css/**/*.scss' --cache",
         "scss:build": "sass --no-source-map --load-path=src/assets/css --load-path=src/_includes --load-path=. --load-path=node_modules src/assets/css/styles.scss:dist/assets/css/styles.css src/assets/css/standard-theme.scss:dist/assets/css/standard-theme.css src/assets/css/off-brand-theme.scss:dist/assets/css/off-brand-theme.css src/assets/css/safety-theme.scss:dist/assets/css/safety-theme.css",
-        "scss:watch": "SASS_POLL_INTERVAL=500 sass --watch --no-source-map --poll --load-path=src/assets/css --load-path=src/_includes --load-path=. --load-path=node_modules src/assets/css/styles.scss:dist/assets/css/styles.css src/assets/css/lyne.scss:dist/assets/css/lyne.css",
-        "lint:scss:watch": "chokidar 'src/assets/css/**/*.scss' -c \"npm run lint:scss\"",
+        "scss:watch": "SASS_POLL_INTERVAL=500 sass --watch --no-source-map --poll --load-path=src/assets/css --load-path=src/_includes --load-path=. --load-path=node_modules src/assets/css/styles.scss:dist/assets/css/styles.css",
+        "lint:scss:watch": "node watch-scss.mjs",
         "serve": "eleventy --serve",
         "prestart": "npm run copy:components && npm run bundle:lyne",
         "start": "npm-run-all lint:scss scss:build --parallel lint:scss:watch scss:watch serve",
@@ -20,10 +20,9 @@
     "author": "Manuel Cilurzo",
     "license": "ISC",
     "devDependencies": {
-        "@11ty/eleventy": "^v4.0.0-alpha.6",
+        "@11ty/eleventy": "^v4.0.0-alpha.7",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
         "@sbb-esta/lyne-design-tokens": "^2.0.0",
-        "chokidar-cli": "^3.0.0",
         "eleventy-plugin-compress": "^1.0.5",
         "esbuild": "^0.25.10",
         "gzipper": "^8.2.1",
@@ -39,6 +38,7 @@
         "@sbb-esta/lyne-elements": "4.10.0",
         "@sbb-esta/lyne-elements-experimental": "4.10.0",
         "@webcomponents/template-shadowroot": "^0.2.1",
+        "chokidar": "^5.0.0",
         "cpx2": "^8.0.0",
         "html-minifier-terser": "^7.2.0",
         "list.js": "^2.3.1",
@@ -48,5 +48,10 @@
         "nunjucks": "^3.2.4",
         "sass": "^1.93.2",
         "ux-components": "https://github.com/mcilurzo/ux-components/tarball/main"
+    },
+    "overrides": {
+    "nunjucks": {
+      "chokidar": "^5.0.0"
     }
+  }
 }
