@@ -1,0 +1,44 @@
+.iconandlabel{
+    display: flex;
+    align-items: flex-start;
+    gap: var(--sbb-spacing-fixed-2x);
+    block-size: auto;
+}
+
+.dosndonts{
+    display: flex;
+    flex-direction: row;
+    gap: var(--sbb-spacing-fixed-4x);
+}
+
+.dos{
+    padding: var(--sbb-spacing-fixed-4x);
+    inline-size: 50%;
+}
+
+.donts{
+    padding: var(--sbb-spacing-fixed-4x);
+    inline-size: 50%;
+}
+
+.wordlist{
+    overflow: clip;
+    border-radius: var(--sbb-border-radius-4x);
+}
+
+.wordlist-search{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sbb-spacing-fixed-1x);
+    padding-block: var(--sbb-spacing-fixed-4x);
+    padding-block-end: var(--sbb-spacing-fixed-2x);
+}
+
+.wordlist-table{
+    padding-block-end: var(--sbb-spacing-responsive-xxs);
+}
+
+@media (width <= 768px) {
+	.dosndonts { flex-direction: column; }
+    .dos, .donts { inline-size: 100%; }
+}
