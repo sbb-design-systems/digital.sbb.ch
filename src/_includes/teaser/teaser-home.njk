@@ -2,7 +2,7 @@
   <figure slot="image" class="sbb-figure" style="width: 100%;">
   <picture>
     <source srcset="{{ teaser.data.imagedark }}" media="(prefers-color-scheme: dark)">
-    <img style=" display: block;" src="{{ teaser.data.image }}" alt="{{ teaser.data.head }}">
+    <img style=" display: block;" src="{{ teaser.data.image }}" alt="">
   </picture>
     {% if teaser.data.chip|length %}
       <sbb-chip-label class="sbb-figure-overlap-start-start">{{ teaser.data.chip }}</sbb-chip-label>
