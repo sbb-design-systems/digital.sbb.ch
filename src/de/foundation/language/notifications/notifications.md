@@ -11,7 +11,8 @@ Benachrichtigungen umfassen kurze Hinweise und Rückmeldungen. Sie informieren �
 
 Ziel ist es, Klarheit zu schaffen, den Nutzer:innen Unsicherheiten zu nehmen und ihnen aufzuzeigen, was passiert ist und was als Nächstes zu tun ist.
 
-### Empfehlungen: 
+Empfehlungen: 
+
 * **Mache auf kritische Aktionen aufmerksam.** Nutze bei schwerwiegenden oder nicht rückgängig zu machenden Aktionen Bestätigungsdialoge (Möchten Sie das wirklich löschen?).
 * **Erkläre was danach passiert.** Mache nach Aktionen wie dem Absenden eines Formulars klar, wann und über welchen Kanal eine Rückmeldung erfolgt.
 * **Mache Fehler lösbar.** Fehlermeldungen sollten aufzeigen, wie das Problem behoben werden kann.
@@ -104,7 +105,7 @@ Ziel ist es, Klarheit zu schaffen, den Nutzer:innen Unsicherheiten zu nehmen und
     </div>
 </div>
 
-### Message
+#### Message
 
 <div class="dosndonts">
     <div class="dos">

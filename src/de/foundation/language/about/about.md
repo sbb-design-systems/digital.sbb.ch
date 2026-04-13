@@ -13,14 +13,14 @@ UX Writing ist ein zentraler Bestandteil der User Experience. Texte in digitalen
 Ein zentraler Aspekt von UX-Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
 
 
-## Microcopy
+## Microcopy.
 In digitalen Anwendungen sind bereits kleinste Textteile und Formulierungen entscheidend für das Nutzungserlebnis. «Microcopy» bezeichnet diese kleinen (und oft übersehenen) Textelemente. 
 
 Ziel dieser Microcopy ist es, mit möglichst wenigen Wörtern die Nutzer:innen optimal zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.  
 
-### Allgemeine Empfehlungen:
+Allgemeine Empfehlungen:
 
-</br>
+
 
 1. **Sei klar.** Das Wichtigste ist, dass Nutzer:innen verstehen, was zu tun ist, was passiert oder was passieren wird.
 2. **Sei so kurz wie möglich, so lang wie nötig.** Der Platz ist begrenzt und mit mehr Wörtern steigt auch die kognitive Belastung. Denke frühzeitig an Übersetzungen ins Französische oder Italienische, den diese brauchen meistens mehr Platz als Deutsch oder Englisch.
@@ -29,7 +29,7 @@ Ziel dieser Microcopy ist es, mit möglichst wenigen Wörtern die Nutzer:innen o
 5. **Sei kontextbewusst.** Achte auf den Kontext. Gib Kontext mit, wenn dieser nicht vorhanden ist.
 6. **Sei barrierefrei.** Denke an die korrekte Beschriftung von Aria Labels und Link-Alt-Texten, damit sie zum Beispiel von Screenreadern vorgelesen werden können. 
 
-</br></br>
+</br>
 
 <sbb-notification type="info" readonly="">
     <sbb-title level="3">Interne Begriffe und Abkürzungen</sbb-title>
@@ -38,14 +38,14 @@ Ziel dieser Microcopy ist es, mit möglichst wenigen Wörtern die Nutzer:innen o
 
 </br>
 
-## Microcopy im Detail
+## Microcopy im Detail.
 
 Für diese Elemente gibt es zusätzliche Empfehlungen:
 
-- <sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Button- und Linktexte</sbb-link>
-- <sbb-link href="/{{page.lang}}/foundation/language/notifications">Benachrichtigungen</sbb-link>
-- <sbb-link href="/{{page.lang}}/foundation/language/forms">Formulare und Eingaben</sbb-link>
-- <sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Fortschrittsanzeige</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Button- und Linktexte</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/notifications">Benachrichtigungen</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/forms">Formulare und Eingaben</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Fortschrittsanzeige</sbb-link>
 
 
 ## Digitale Wörterliste
@@ -56,7 +56,7 @@ Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Ent
 
 ## Weitere Hilfsmittel
 
-- <sbb-link href="/">SBB Wörterbuch</sbb-link>
-- <sbb-link href="/">Dienstleistungen Sprachdienst</sbb-link>
-- <sbb-link href="/">Markenportal</sbb-link>
-- <sbb-link href="/">Bausteine SBB Sprache</sbb-link>
+<sbb-link href="/">SBB Wörterbuch</sbb-link>
+<sbb-link href="/">Dienstleistungen Sprachdienst</sbb-link>
+<sbb-link href="/">Markenportal</sbb-link>
+<sbb-link href="/">Bausteine SBB Sprache</sbb-link>

@@ -11,14 +11,14 @@ Fortschrittsanzeigen machen sichtbar, wo sich Nutzer:innen in einem mehrstufigen
 
 Ziel ist es, Nutzer:innen klar zu führen, Erwartungen zu setzen und den Ablauf transparent zu machen, damit sie sicher durch den Prozess navigieren können.
 
-### Empfehlungen: 
+Empfehlungen: 
 * **Schritte als Nomen benennen.**  Nutze Nomen für die Schrittbezeichnungen statt handlungsorientierter Formulierungen. Beispiel: «Abo» anstatt «Abo wählen».
 
 * **Abschluss klar kennzeichnen.**   Mache in der Beschriftung der Aktion im letzten Schritt deutlich, dass der Prozess beendet wird.
 
 * **Änderungen möglich.** Weise darauf hin, wenn Eingaben oder Einstellungen später noch geändert werden können.
 
-#### Beispiele
+Beispiele
 
 
 {{ imageOnGreyBackground({

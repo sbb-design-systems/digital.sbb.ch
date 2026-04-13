@@ -15,7 +15,7 @@ Ihr Ziel ist es, Nutzer:innen mit möglichst wenigen Wörtern zu führen, Unsich
 
 Buttons sind Handlungs-Trigger, keine Erklärungsflächen. Sie machen auf einen Blick klar, welche Aktion beim Klick ausgeführt wird.
 
-### Empfehlungen: 
+Empfehlungen: 
 
 * **Sei klar.** Verwende eine Handlungsanweisung oder -aufforderung (Jetzt kaufen, weiter, senden) oder eine eindeutige Orientierungshilfe (z.B. «Zu Einstellungen») damit die Aktion sofort verständlich ist. 
 
@@ -23,7 +23,7 @@ Buttons sind Handlungs-Trigger, keine Erklärungsflächen. Sie machen auf einen 
 
 * **Erkläre nicht im Button.** Wenn Zusatzinformationen für das Verständnis nötig sind, platziere sie ober-/unterhalb des Buttons oder in einem Tooltipp.
 
-#### Beispiele:
+Beispiele:
 
 {{ imageOnGreyBackground({
   url: 'assets/images/ux-writing/action_group_horizontal_light',
@@ -56,11 +56,11 @@ Buttons sind Handlungs-Trigger, keine Erklärungsflächen. Sie machen auf einen 
 
 Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar machen, wohin der Link führt oder was Nutzer:innen dort erwarten können.
 
-### Empfehlungen:
+Empfehlungen:
 
 * **Sprechende Links.** Nutze klare Formulierungen, sodass ein Link auch ohne umgebenden Text verständlich ist.
 
-#### Beispiele:
+Beispiele:
 
 {{ imageOnGreyBackground({
   url: 'assets/images/ux-writing/link_light',

@@ -15,11 +15,12 @@ Ihr Ziel ist es, Erwartungen klarzumachen, Fehler zu vermeiden und die Eingabe s
 
 Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierung und reduzieren Unsicherheit.
 
-### Empfehlungen: 
+Empfehlungen: 
+
 * **Sei klar.** Verwende präzise Labels, die den Zweck des Feldes eindeutig beschreiben.
 * **Erkläre bei Bedarf.** Wenn zusätzliche Informationen für das Verständnis nötig sind, platziere diese in einem Info-Popover. 
 
-#### Beispiele
+Beispiele
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/forms_light',
@@ -42,12 +43,12 @@ Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierung und 
 
 Placeholders geben Hinweise und helfen bei der Eingabe.
 
-### Empfehlungen:
+Empfehlungen:
 
 * **Zeig Beispiele.** Nutze Platzhalter, um das gewünschte Format oder Beispielwerte zu zeigen und Eingabefehler zu vermeiden.
 * **Kein Ersatz.** Platzhalter ersetzen kein Label, sie dienen nur als ergänzender Hinweis.
 
-#### Beispiele
+Beispiele
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/forms2_light',
