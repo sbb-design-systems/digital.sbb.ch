@@ -59,4 +59,4 @@ Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Ent
 <sbb-link href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link>
 <sbb-link href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst</sbb-link>
 <sbb-link href="https://brand.sbb.ch/document/4#">Markenportal</sbb-link>
-<sbb-link href="/">Bausteine SBB Sprache</sbb-link>
+<sbb-link href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache</sbb-link>
