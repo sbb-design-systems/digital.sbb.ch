@@ -36,8 +36,9 @@ module.exports = async () => {
       if (icon.tags.includes("Attributes")) icon.category = "Attributes";
       if (icon.tags.includes("HIM-CUS")) icon.category = "HIM-CUS";
       if (icon.tags.includes("Product-Brands")) icon.category = "Product-Brands";
+      if (icon.tags.includes("Logos")) icon.category = "Logos";
       removeTags(icon.tags, [
-        "timetable-icons", "-", "Attributes", "HIM-CUS", "Product-Brands"
+        "timetable-icons", "-", "Attributes", "HIM-CUS", "Product-Brands", "Logos"
       ]);
       ["dark", "light", "high-contrast"].forEach(mode => {
         const idx = icon.tags.indexOf(mode);

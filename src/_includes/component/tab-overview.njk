@@ -2,7 +2,7 @@
     {% set overviewpath = ["src/_data/", system, "/components/", component, "/overview_", language, ".md"] | join %}
     {% set overview %}{% include overviewpath %}{% endset %}
     
-    <sbb-tab-label level="1">
+    <sbb-tab-label level="1" role="tab">
     <sbb-icon name="{{tabs[0].icon}}" slot="icon"></sbb-icon>
     {{tabs[0].label[language]}}
     </sbb-tab-label>

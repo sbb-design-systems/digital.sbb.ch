@@ -3,8 +3,7 @@
 <sbb-navigation-section trigger="{{ level1.data.key }}" title-content="{{level1.data.alternativetitle}}">
     {% set level2Pages = collections.level2 | include("data.parent", level1.data.key) | sortByOrder  %}
     {%- for level2 in level2Pages %}
-    <sbb-navigation-list  {% if level2.data.hideInNavigation != true %}label="{{level2.data.title}}"{% endif %}>
-        
+    <sbb-navigation-list  {% if level2.data.hideInNavigation != true %}label="{{level2.data.title}}"{% endif %} aria-label="{{level2.data.title}}">
         {% set level3Pages = collections.level3 | include("data.parent", level2.data.key) | sortByOrder  %}
         {%- for level3 in level3Pages %}
             <sbb-navigation-link href="{% if level3.data.external == true %}{{ level3.data.redirect}}{% else%}{{ level3.url}}{% endif %}" {% if level3.data.external == true %}target="_blank"{% endif %} {% if level3.url == page.url %}class="sbb-active" aria-current="page"{% endif %}>{{ level3.data.title }}</sbb-navigation-link>

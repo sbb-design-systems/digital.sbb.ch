@@ -47,6 +47,9 @@ module.exports = {
     dataprivacy: "Data privacy",
     notfoundtitle: "No search results were found.",
     notfoundtext: "Try using different or fewer search terms.",
+    tonavigation: "Got to navigation",
+    tocontent: "Go to navigation",
+    tocontact: "Contact",
     colors: {
       "red": "Red",
       "white_gray_black": "White, Grey, Black",
@@ -302,6 +305,9 @@ module.exports = {
     dataprivacy: "Datenschutz",
     notfoundtitle: "Es wurden keine Suchresultate gefunden.",
     notfoundtext: "Probiere es mit anderen oder weniger Suchbegriffen.",
+    tonavigation: "Zur Navigation",
+    tocontent: "Zum Inhalt",
+    tocontact: "Kontakt",
     colors: {
       "red": "Rot",
       "white_gray_black": "Weiss, Grau, Schwarz",
@@ -557,6 +563,9 @@ module.exports = {
     dataprivacy: "Protection des données",
     notfoundtitle: "Aucun résultat de recherche trouvé.",
     notfoundtext: "Essaie d'utiliser des termes de recherche différents ou moins nombreux.",
+    tonavigation: "Vers la navigation",
+    tocontent: "Vers le contenu",
+    tocontact: "Contact",
     colors: {
       "red": "Rouge",
       "white_gray_black": "Blanc, Gris, Noir",
@@ -610,6 +619,9 @@ module.exports = {
     dataprivacy: "Protezione dei dati",
     notfoundtitle: "Non sono stati trovati risultati di ricerca.",
     notfoundtext: "Provate a utilizzare termini di ricerca diversi o meno numerosi.",
+    tonavigation: "Vai alla navigazione",
+    tocontent: "Vai al contenuto",
+    tocontact: "Contatti",
     colors: {
       "red": "Rosso",
       "white_gray_black": "Bianco, Grigio, Nero",

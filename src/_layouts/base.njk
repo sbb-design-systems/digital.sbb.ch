@@ -13,17 +13,13 @@
         <sbb-sidebar-close-button></sbb-sidebar-close-button>
         {% include "../_includes/browser/browser.njk" %}
       </sbb-sidebar>
-      <sbb-sidebar-content role="main">
+      <sbb-sidebar-content>
     {% endif %}
         {% include "../_includes/navigation/navigation.njk" %}
         {% if layout == "landingpage.njk" %}
-        <sbb-lead-container>
-          <sbb-image slot="image" image-src="{{image}}"></sbb-image>
-          {% include "../_includes/title.njk" %}
           {{ content | safe }}
-        </sbb-lead-container>
         {% else %}
-          <sbb-container id="content" class="content">
+          <sbb-container id="content" class="content" role="main">
           {{ content | safe }}
           </sbb-container>
         {% endif %}  

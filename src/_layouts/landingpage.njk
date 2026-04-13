@@ -6,9 +6,9 @@ layout: base.njk
   {% include "../_includes/fallback-languages.njk" %}
   {% include "../_includes/fallback-content.njk" %}
 {% else %}
-
+<div role="main">
     {{ content | safe }}
-
+</div>
 {% endif %}
 
 

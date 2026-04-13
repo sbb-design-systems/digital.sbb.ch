@@ -141,3 +141,14 @@
   }
 }
   */
+
+div[data-category="Logos"] {
+  block-size: auto !important;
+  inline-size: auto !important;
+  padding: 10px; 
+
+  img {
+    block-size: 20px;
+  }
+
+}
