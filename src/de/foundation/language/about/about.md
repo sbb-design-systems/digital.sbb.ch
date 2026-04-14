@@ -33,7 +33,7 @@ Allgemeine Empfehlungen:
 
 <sbb-notification type="info" readonly="">
     <sbb-title level="3">Interne Begriffe und Abkürzungen</sbb-title>
-    Verwende interne Begriffe und Abkürzungen nur, wenn diese in der Zielgruppe bekannt sind. Dabei kann auch das <sbb-link href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link> helfen. Wenn du nicht sicher bist, ob die Begriffe oder Abkürzungen verstanden werden, teste sie mit deiner Zielgruppe.
+    Verwende interne Begriffe und Abkürzungen nur, wenn diese in der Zielgruppe bekannt sind. Dabei kann auch das <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link> helfen. Wenn du nicht sicher bist, ob die Begriffe oder Abkürzungen verstanden werden, teste sie mit deiner Zielgruppe.
 </sbb-notification>
 
 </br>
@@ -56,7 +56,7 @@ Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Ent
 
 ## Weitere Hilfsmittel
 
-<sbb-link href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link>
-<sbb-link href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst</sbb-link>
-<sbb-link href="https://brand.sbb.ch/document/4#">Markenportal</sbb-link>
-<sbb-link href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache</sbb-link>
+<sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link>
+<sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst</sbb-link>
+<sbb-link target="_blank" href="https://brand.sbb.ch/document/4#">Markenportal</sbb-link>
+<sbb-link target="_blank" href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache</sbb-link>
