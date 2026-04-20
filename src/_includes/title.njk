@@ -4,7 +4,7 @@
     {% set pagetitle = title %}
 {% endif %}   
 
-<sbb-title aria-level="1" level="1" visual-level="1" role="heading" {% if layout == "landingpage.njk" %} class="sbb-lead-container-spacing"{% else %}{% endif %}>{{pagetitle}}</sbb-title>
+<sbb-title level="1" visual-level="1"{% if layout == "landingpage.njk" %} class="sbb-lead-container-spacing"{% else %}{% endif %}> {{pagetitle}}</sbb-title>
 {% if system == "lyne" %}<p  class="subtext">{{lyne.version.branch}}</p>{% else %}{% endif %}
 
 
