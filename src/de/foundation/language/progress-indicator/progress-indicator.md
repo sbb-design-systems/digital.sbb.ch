@@ -18,7 +18,7 @@ Empfehlungen:
 
 * **Änderungen möglich.** Weise darauf hin, wenn Eingaben oder Einstellungen später noch geändert werden können.
 
-Beispiele
+Beispiele:
 
 
 {{ imageOnGreyBackground({
@@ -48,9 +48,9 @@ Beispiele
     <div class="dos">
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Du kannst die Angaben später ergänzen oder ändern.</div>
     </div>
-    <div class="donts">
+    <!--<div class="donts">
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>XX</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>XX</div>
-    </div>    
+    </div>-->
 </div>
 

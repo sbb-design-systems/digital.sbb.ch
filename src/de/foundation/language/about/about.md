@@ -9,11 +9,11 @@ order: 1
 
 UX Writing ist ein zentraler Bestandteil der User Experience. Texte in digitalen Produkten haben direkten Einfluss darauf, wie Nutzer:innen Aufgaben verstehen, Entscheidungen treffen und sich während der Bedienung fühlen. Gutes UX Writing ist kurz, verständlich, handlungsorientiert und unterstützt die Nutzer:innen dabei, ihre Ziele schnell und zuverlässig zu erreichen.
 
-## Tonalität der Sprache.
-Ein zentraler Aspekt von UX-Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
+## Tonalität der Sprache
+Ein zentraler Aspekt von UX-Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
 
 
-## Microcopy.
+## Microcopy
 In digitalen Anwendungen sind bereits kleinste Textteile und Formulierungen entscheidend für das Nutzungserlebnis. «Microcopy» bezeichnet diese kleinen (und oft übersehenen) Textelemente. 
 
 Ziel dieser Microcopy ist es, mit möglichst wenigen Wörtern die Nutzer:innen optimal zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.  
@@ -38,7 +38,7 @@ Allgemeine Empfehlungen:
 
 </br>
 
-## Microcopy im Detail.
+## Microcopy im Detail
 
 Für diese Elemente gibt es zusätzliche Empfehlungen:
 
@@ -49,7 +49,7 @@ Für diese Elemente gibt es zusätzliche Empfehlungen:
 
 
 ## Digitale Wörterliste
-Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Entscheidung, welchen Begriff du wann verwendest.
+Viele Wörter sagen das Gleiche. Die digitale Wörterliste liefert dir die gebräuchlisten Begriffe.
 
 <sbb-secondary-button-link icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/wordlist"> Digitale Wörterliste</sbb-secondary-button-link>
 
@@ -58,5 +58,5 @@ Viele Wörter sagen das gleiche. Die Digitale Wörterliste hilft dir bei der Ent
 
 <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst</sbb-link>
-<sbb-link target="_blank" href="https://brand.sbb.ch/document/4#">Markenportal</sbb-link>
+<sbb-link target="_blank" href="https://brand.sbb.ch/hub">Markenportal</sbb-link>
 <sbb-link target="_blank" href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache</sbb-link>

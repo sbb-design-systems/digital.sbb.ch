@@ -11,7 +11,7 @@ Button- und Linktexte sind kurze, handlungsorientierte Beschriftungen.
 
 Ihr Ziel ist es, Nutzer:innen mit möglichst wenigen Wörtern zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.
 
-## Buttons.
+## Buttons
 
 Buttons sind Handlungs-Trigger, keine Erklärungsflächen. Sie machen auf einen Blick klar, welche Aktion beim Klick ausgeführt wird.
 
@@ -52,7 +52,7 @@ Beispiele:
     </div>    
 </div>
 
-## Links.
+## Links
 
 Links führen zu weiteren Inhalten oder Kontexten. Ihre Beschriftung muss klar machen, wohin der Link führt oder was Nutzer:innen dort erwarten können.
 

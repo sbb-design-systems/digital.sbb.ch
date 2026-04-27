@@ -40,8 +40,11 @@ Empfehlungen:
     </div>    
 </div>
 
+<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/notification/">Zur Komponente</sbb-secondary-button-link>
 
-#### Toasts
+<br>
+
+#### Toast
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/toast_light',
@@ -66,6 +69,10 @@ Empfehlungen:
     </div>    
 </div>
 
+<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/toast/">Zur Komponente</sbb-secondary-button-link>
+
+<br>
+
 
 #### Dialog
 
@@ -85,8 +92,12 @@ Empfehlungen:
     </div>    
 </div>
 
+<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/dialog/">Zur Komponente</sbb-secondary-button-link>
 
-#### Error (Form Field)
+<br>
+
+
+#### Error (Form-Field)
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/time_input_light',
@@ -105,12 +116,24 @@ Empfehlungen:
     </div>
 </div>
 
+<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/form-field/">Zur Komponente</sbb-secondary-button-link>
+
+<br>
+
 #### Message
+
+{{ imageOnGreyBackground({
+  url: '/assets/images/ux-writing/message_with_image_light',
+  urldark: '/assets/images/ux-writing/message_with_image_dark',
+  alt: 'Beispiel für eine Message mit Bild',
+  title: 'message with image'
+}) }}
 
 <div class="dosndonts">
     <div class="dos">
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Die gesuchte Seite existiert nicht (mehr) oder wurde verschoben.</div>
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Zugriff verweigert. Du hast keine Berechtigung diese Seite zu öffnen. </br> Melde dich bei beispiel@sbb.ch</div>
+        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Leider ist ein Fehler aufgetreten.</div>
     </div>
     <div class="donts">
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Access denied</div>
@@ -118,4 +141,8 @@ Empfehlungen:
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Ups! Da ist was schiefgelaufen.</div>
     </div>
 </div>
+
+<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/message/">Zur Komponente</sbb-secondary-button-link>
+
+<br>
 
