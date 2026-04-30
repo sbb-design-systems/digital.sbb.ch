@@ -2,7 +2,7 @@
 layout: page.njk
 tags: level3
 key: about_ux_writing_de
-title: Über UX-Writing
+title: Über UX Writing
 parent: language_de
 order: 1
 ---
@@ -10,7 +10,7 @@ order: 1
 UX Writing ist ein zentraler Bestandteil der User Experience. Texte in digitalen Produkten haben direkten Einfluss darauf, wie Nutzer:innen Aufgaben verstehen, Entscheidungen treffen und sich während der Bedienung fühlen. Gutes UX Writing ist kurz, verständlich, handlungsorientiert und unterstützt die Nutzer:innen dabei, ihre Ziele schnell und zuverlässig zu erreichen.
 
 ## Tonalität der Sprache
-Ein zentraler Aspekt von UX-Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
+Ein zentraler Aspekt von UX Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub">Markenportal</sbb-link>. Dort findest du auch die <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
 
 
 ## Microcopy
