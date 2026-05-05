@@ -60,4 +60,4 @@ De nombreux mots disent la même chose. La liste de mots numériques te fournit 
 <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">Le glossaire CFF</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/document/6/fr#/langue/prestations">Les services du service linguistique</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/document/2/fr#/notre-marque/la-marque-cff">la marque CFF</sbb-link>
-<sbb-link target="_blank" href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache (mit SBB Login zugänglich)</sbb-link>
+<sbb-link target="_blank" href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache (en allemand, accessible avec le login CFF)</sbb-link>

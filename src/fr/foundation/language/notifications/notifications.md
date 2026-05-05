@@ -22,9 +22,9 @@ Recommandations:
 #### Notification
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/notification_light',
-  urldark: '/assets/images/ux-writing/notification_dark',
-  alt: 'Beispiel für eine Benachrichtigung innerhalb einer Notification',
+  url: '/assets/images/ux-writing/fr/notification_light',
+  urldark: '/assets/images/ux-writing/fr/notification_dark',
+  alt: 'Exemple pour une error dans une notification',
   title: 'Notification Notification'
 }) }}
 
@@ -48,9 +48,9 @@ Recommandations:
 #### Toast
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/toast_light',
-  urldark: '/assets/images/ux-writing/toast_dark',
-  alt: 'Beispiel für eine Benachrichtigung mittels Toast',
+  url: '/assets/images/ux-writing/fr/toast_light',
+  urldark: '/assets/images/ux-writing/fr/toast_dark',
+  alt: 'Exemple pour une notification au moyen de Toast',
   title: 'Notification Toast'
 }) }}
 
@@ -78,9 +78,9 @@ Recommandations:
 #### Dialog
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/dialog_light',
-  urldark: '/assets/images/ux-writing/dialog_dark',
-  alt: 'Beispiel für eine Benachrichtigung innerhalb eines Dialog-Fensters',
+  url: '/assets/images/ux-writing/fr/dialog_light',
+  urldark: '/assets/images/ux-writing/fr/dialog_dark',
+  alt: 'Exemple pour une notification dans une dialogue',
   title: 'Notification Dialog'
 }) }}
 
@@ -102,9 +102,9 @@ Recommandations:
 #### Error (Form-Field)
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/time_input_light',
-  urldark: '/assets/images/ux-writing/time_input_dark',
-  alt: 'Beispiel für eine Benachrichtigung innerhalb eines Formularfeldes',
+  url: '/assets/images/ux-writing/fr/time_input_light',
+  urldark: '/assets/images/ux-writing/fr/time_input_dark',
+  alt: 'Exemple pour une notification dans une formulaire',
   title: 'Notification input field'
 }) }}
 
@@ -125,9 +125,9 @@ Recommandations:
 #### Message
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/message_with_image_light',
-  urldark: '/assets/images/ux-writing/message_with_image_dark',
-  alt: 'Beispiel für eine Message mit Bild',
+  url: '/assets/images/ux-writing/fr/message_with_image_light',
+  urldark: '/assets/images/ux-writing/fr/message_with_image_dark',
+  alt: 'Exemple pour une message avec une image',
   title: 'message with image'
 }) }}
 
