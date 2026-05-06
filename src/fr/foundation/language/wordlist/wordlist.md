@@ -20,7 +20,7 @@ D'autres termes sont des synonymes pratiquement interchangeables sur le fond, pa
 
 </br>
 
-<sbb-container color="milk" expanded="" class="wordlist_fr">
+<sbb-container color="milk" expanded="" class="wordlist-fr">
     <sbb-title level="3">Aperçu des termes</sbb-title>
     <div class="wordlist-search">
         <sbb-form-field style="width: 100%;">
