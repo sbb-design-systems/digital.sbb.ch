@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         locale = "fr";
         entryPlural = "Entrées";
         entrySingular = "Entrée";
+        noResults = "Aucune entrée trouvée.";
     }
     
     const searchInput = document.getElementById("search");
