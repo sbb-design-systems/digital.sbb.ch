@@ -21,6 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
         entrySingular = "Entrée";
         noResults = "Aucune entrée trouvée.";
     }
+
+    if (pageLanguage.startsWith("en") && typeof wordlist_en !== "undefined") {
+        activeWordlist = wordlist_en;
+        locale = "en";
+        entryPlural = "Entries";
+        entrySingular = "Entry";
+        noResults = "No Results Found.";
+    }
     
     const searchInput = document.getElementById("search");
     const tbody = document.getElementById("table-body");

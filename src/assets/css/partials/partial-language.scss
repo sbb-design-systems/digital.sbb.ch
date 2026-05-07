@@ -21,12 +21,7 @@
     inline-size: 50%;
 }
 
-.wordlist{
-    overflow: clip;
-    border-radius: var(--sbb-border-radius-4x);
-}
-
-.wordlist-fr{
+.wordlist, .wordlist-fr, .wordlist-en{
     overflow: clip;
     border-radius: var(--sbb-border-radius-4x);
 }

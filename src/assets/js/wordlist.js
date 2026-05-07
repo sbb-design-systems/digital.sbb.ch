@@ -30,7 +30,6 @@ const wordlist = [
     {Begriff:"Verwerfen", Alternative:"Abbrechen, Schliessen", Hinweis:"Änderungen mit Entwurfscharakter gehen verloren. Idealerweise «Entwurf verwerfen» oder «Änderungen verwerfen»."},
     {Begriff:"Weiter", Alternative:"Nächster Schritt", Hinweis:"Bezeichnung der Aktion in einem  mehrstufigen Prozess."},
     {Begriff:"Zurück", Alternative:"Vorheriger Schritt, zurückkehren", Hinweis:"Bezeichnung der Aktion in einem mehrstufigen Prozess."},
-
 ]
 
 const wordlist_fr = [
@@ -65,4 +64,38 @@ const wordlist_fr = [
     {Begriff:"Ignorer", Alternative:"Fermer, Annuler", Hinweis:"Les modifications de type brouillon sont perdues. Idéalement «Ignorer le brouillon» ou «Ignorer les modifications»."},
     {Begriff:"Suivant", Alternative:"Étape suivante", Hinweis:"Désignation de l'action dans un processus en plusieurs étapes."},
     {Begriff:"Retour", Alternative:"Étape précédente, Retourner", Hinweis:"Désignation de l'action dans un processus en plusieurs étapes."},
+]
+
+const wordlist_en = [
+    {Begriff:"Cancel", Alternative:"Discard", Hinweis:"Cancels an ongoing process. Changes will not be saved." },
+    {Begriff:"Log out", Alternative:"-", Hinweis:"-"},
+    {Begriff:"Complete", Alternative:"-", Hinweis:"When a process / task is completed. Context-specific alternatives: reserve, buy, etc." },
+    {Begriff:"Sign in", Alternative:"Log in", Hinweis:"-"},
+    {Begriff:"Edit", Alternative:"Modify, Adapt, Update", Hinweis:"Generally for modifications."},
+    {Begriff:"End", Alternative:"Close", Hinweis:"When a process/task should be completed." },
+    {Begriff:"Deactivate", Alternative:"Pause, Interrupt", Hinweis:"When an element is temporarily set to inactive, but can be reactivated and data is retained, e.g. «Deactivate user account»."},
+    {Begriff:"Details", Alternative:"-", Hinweis:"-"},
+    {Begriff:"E-Mail", Alternative:"E-Mail adress", Hinweis:"Use the short form for labels, otherwise the full version (e.g. in help texts)."},
+    {Begriff:"Remove", Alternative:"Delete", Hinweis:"When something is removed from a list, collection or assignment without fully deleting the object, e.g. remove a person from a team."},
+    {Begriff:"Create", Alternative:"Add", Hinweis:"When a completely new object or new data record is created, e.g. new account, new document."},
+    {Begriff:"Export", Alternative:"Download", Hinweis:"When data formats can be selected and filtered, e.g. for further processing as an Excel export."},
+    {Begriff:"Date of birth", Alternative:"Birthday", Hinweis:"When the year of birth should also be specified, use «Date of birth»."},
+    {Begriff:"Download", Alternative:"Export", Hinweis:"When a copy of the file can be saved locally without changes."},
+    {Begriff:"Add", Alternative:"Create", Hinweis:"When a new element is added to an existing list or table."},
+    {Begriff:"Buy", Alternative:"-", Hinweis:"-"},
+    {Begriff:"Account", Alternative:"Profile", Hinweis:"Account in an administrative context, e.g. payment / access information."},
+    {Begriff:"Delete", Alternative:"Remove", Hinweis:"When data or objects are permanently removed and should not be restored."},
+    {Begriff:"Mutate", Alternative:"Modify, Edit, Adapt", Hinweis:"Technical term for modifying master data."},
+    {Begriff:"Required field", Alternative:"-", Hinweis:"-"},
+    {Begriff:"Profile", Alternative:"Account", Hinweis:"For the display / visibility of a person in an application, e.g. name, photo."},
+    {Begriff:"Close", Alternative:"-", Hinweis:"When a window / view is to be closed. Does not imply any change to the content."},
+    {Begriff:"Send", Alternative:"-", Hinweis:"When something is transmitted. The focus is on the transfer."},
+    {Begriff:"Save", Alternative:"Back up", Hinweis:"-"},
+    {Begriff:"Lock", Alternative:"Deactivate, Block", Hinweis:"For a strict measure, often related to security, e.g. lock account."},
+    {Begriff:"Street and number", Alternative:"Street, house number", Hinweis:"When the address is entered in two separate fields: «Street» and «House number»."},
+    {Begriff:"Mobile, Landline, Phone", Alternative:"Mobile phone", Hinweis:"In body text, either «phone number» or «mobile number» is used."},
+    {Begriff:"Apply", Alternative:"-", Hinweis:"-"},
+    {Begriff:"Discard", Alternative:"Close, Cancel", Hinweis:"Draft changes will be lost. Ideally «Discard draft» or «Discard changes»."},
+    {Begriff:"Next", Alternative:"Next step", Hinweis:"Label for the action in a multi-step process."},
+    {Begriff:"Back", Alternative:"Previous step, go back", Hinweis:"Label for the action in a multi-step process."},
 ]

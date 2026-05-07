@@ -9,4 +9,5 @@ order: 3
 availablelanguages: 
     - de
     - fr
+    - en
 ---
