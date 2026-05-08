@@ -1,0 +1,41 @@
+{
+  "title": "Roadmap 2026 – 2028",
+  "timeline": {
+    "start": "2026-01",
+    "end": "2029-03"
+  },
+  "lanes": [
+    {
+      "id": "lyne-elements",
+      "title": "Lyne Elements",
+      "items": [
+        { "title": "Extended Calendar",                           "start": "2026-01", "end": "2026-03", "row": 1  },
+        { "title": "Autocomplete Grid",                           "start": "2026-04", "end": "2026-06", "row": 2   },
+        { "title": "CSS Optimization",                            "start": "2026-04", "end": "2026-09", "row": 1   },
+        { "title": "Refactoring Time-Table Components",           "start": "2026-10", "end": "2027-03", "row": 1   },
+        { "title": "Kleinere / Mittlere Feature-Wünsche aus DSO", "start": "2026-01", "end": "2029-03", "row": 3   }
+      ]
+    },
+    {
+      "id": "lyne-angular",
+      "title": "Lyne Angular",
+      "items": [
+        { "title": "Blueprint-Integration",            "start": "2026-01", "end": "2026-03", "row": 1 },
+        { "title": "Schematics",                       "start": "2026-04", "end": "2026-06", "row": 1 },
+        { "title": "Bedürfnisklärung Migrationshilfe", "start": "2026-09", "end": "2026-11", "row": 1 },
+        { "title": "Migrationshilfe",                  "start": "2026-12", "end": "2027-05", "row": 1, "type": "planned" },
+        { "title": "Documentation Showcase",           "start": "2026-01", "end": "2026-03", "row": 2 },
+        { "title": "Migration Guide",                  "start": "2026-09", "end": "2026-12", "row": 2 }
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Betrieb & Support",
+      "items": [
+        { "title": "SACL (Legacy Angular Library)",    "start": "2026-01", "end": "2028-12", "row": 1  },
+        { "title": "Lyne Elements",                             "start": "2026-01", "end": "2029-03", "row": 2  },
+        { "title": "Lyne Angular",                             "start": "2026-01", "end": "2029-03", "row": 3  }
+      ]
+    }
+  ]
+}

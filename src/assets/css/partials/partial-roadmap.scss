@@ -1,0 +1,95 @@
+
+.roadmap { 
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-inline-size: 1024px;
+}
+
+.roadmap__title {
+  margin-block-start: 0;
+}
+
+.roadmap__axis {
+  display: grid;
+  grid-template-columns: repeat(var(--roadmap-cols), 1fr);
+}
+
+.roadmap__axis--years {
+  padding-block: var(--sbb-spacing-fixed-1x);
+  padding-inline: 0;
+  border-block-end: 1px solid var(--sbb-border-color-5);
+}
+
+.roadmap__year {
+  padding-block: var(--sbb-spacing-fixed-1x);
+  padding-inline: 0;
+}
+
+.roadmap__axis--quarters {
+  padding-block: var(--sbb-spacing-fixed-1x) var(--sbb-spacing-fixed-3x);
+  padding-inline: 0;
+}
+
+.roadmap__quarter {
+  text-align: center;
+  border-inline-start: 1px solid var(--sbb-border-color-5);
+}
+
+.roadmap__axis--quarters > .roadmap__quarter:first-child {
+  border-inline-start: 0;
+}
+
+.roadmap__lane {
+  margin-block: var(--sbb-spacing-responsive-m) 0; 
+  position: relative;
+
+  sbb-title {
+    margin-block-start: 0;
+  }
+}
+
+.roadmap__items {
+  list-style: none;
+  margin: 0;
+  padding-block: 0 var(--sbb-spacing-fixed-2x);
+  padding-inline: 0;
+  display: grid;
+  grid-template-columns: repeat(var(--roadmap-cols), 1fr);
+  grid-template-rows: repeat(var(--roadmap-rows), 3rem);
+  gap: var(--sbb-spacing-fixed-1x);
+  min-block-size: 3rem;
+}
+
+.roadmap__item {
+  background: var(--sbb-background-color-1-inverted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sbb-spacing-fixed-3x);
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-inline-size: 0;
+
+  sbb-title {
+    margin: 0;
+  }
+}
+
+.roadmap__item-title {
+  color: var(--sbb-color-1-inverted);
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &.negative {
+    color: var(--sbb-color-1);
+  }
+}
+
+.roadmap__item--planned {
+  background: transparent;
+  color: var(--sbb-color-1);
+  border: 2px dashed var(--sbb-border-color-5)
+}

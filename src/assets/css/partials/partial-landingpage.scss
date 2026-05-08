@@ -1,5 +1,20 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
+.role-chooser {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sbb-spacing-fixed-2x);
+    align-items: left;
+    margin-block-end: var(--sbb-spacing-responsive-m);
+
+    @include sbb.mq($from: small) {
+        flex-direction: row;
+        align-items: center;
+        gap: var(--sbb-spacing-fixed-4x);
+    }
+
+}
+
 .lp-container {
     margin-block: var(--sbb-spacing-responsive-l);
     padding-block: var(--sbb-spacing-responsive-l);
@@ -14,6 +29,10 @@
 
     sbb-title {
          margin-block-start: 0;
+    }
+
+    sbb-title[visual-level="2"] {
+         margin-block-end: var(--sbb-spacing-responsive-s);
     }
 }
 
@@ -100,7 +119,7 @@
     }
   }
 
-  .roadmap {
+  .roadmap-teaser {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
@@ -121,3 +140,64 @@
 
 
   }
+
+    .contributing {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
+
+    @include sbb.mq($from: small) {
+        gap: var(--sbb-layout-base-grid-gutter-responsive-small);
+        
+    }
+
+    @include sbb.mq($from: large) {
+        gap: var(--sbb-layout-base-grid-gutter-responsive-large);
+    }
+    
+    @include sbb.mq($from: ultra) {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--sbb-layout-base-grid-gutter-responsive-ultra);
+    }
+
+
+  }
+
+
+    .consulting {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--sbb-layout-base-grid-gutter-responsive-zero);
+
+    @include sbb.mq($from: small) {
+        gap: var(--sbb-layout-base-grid-gutter-responsive-small);
+        
+    }
+
+    @include sbb.mq($from: large) {
+         grid-template-columns: repeat(2, 1fr);
+        gap: var(--sbb-layout-base-grid-gutter-responsive-large);
+    }
+    
+    @include sbb.mq($from: ultra) {
+        gap: var(--sbb-layout-base-grid-gutter-responsive-ultra);
+    }
+
+
+  }
+
+
+
+
+.content-spanner {
+  block-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start; /* default, sorgt für gleiche Höhen */
+
+  .card-content {
+    flex: 1;
+  }
+
+}
+

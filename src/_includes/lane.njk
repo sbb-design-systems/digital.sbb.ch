@@ -1,0 +1,17 @@
+{% macro lane(lane, columnCount) %}
+  <section class="roadmap__lane" aria-labelledby="lane-{{ lane.id }}">
+    <sbb-title level="3" visual-level="5" id="lane-{{ lane.id }}">{{ lane.title }}</sbb-title>
+
+    <ul class="roadmap__items"
+        style="--roadmap-cols: {{ columnCount }}; --roadmap-rows: {{ lane.maxRow }};"
+        role="list">
+      {% for item in lane.items %}
+        <li class="roadmap__item {% if item.type %}roadmap__item--{{ item.type }}{% endif %}"
+            style="grid-column: {{ item.gridColumn }}; grid-row: {{ item.row }};"
+            aria-label="{{ item.title }}, {{ item.rangeLabel }}">
+          <p id="lane-{{ lane.id }}" class="roadmap__item-title sbb-text-xxs sbb-text--bold {% if item.type %}negative{% endif %}">{{ item.title }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endmacro %}
