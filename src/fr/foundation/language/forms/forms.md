@@ -67,7 +67,6 @@ Exemples:
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Recherche</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Que cherches-tu?</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Numéro</div>
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>aucun espace réservé</div>
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>trop de termes, ce qui finit par ne plus aider</div>
+        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>E-mail, nom, prénom, numéro de client, adresse, numéro de téléphone…</div>
     </div>    
 </div>

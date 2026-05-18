@@ -7,19 +7,19 @@ parent: language_en
 order: 2
 ---
 
-Button and link texts are short, action-oriented labels.
+Button and link texts are short, action-oriented labels. 
 
 Their goal is to guide users with as few words as possible, reduce uncertainty and facilitate decision-making.
 
 ## Buttons
 
-Buttons are action triggers, not explanation surfaces. They make it clear at a glance which action will be performed when clicked.
+Buttons are action triggers, not spaces for explanations. They let users instantly know what will happen when clicked.
 
 Recommendations:
 
-* **Be clear.** Use an action instruction or prompt (Buy now, continue, send) or a clear navigational cue (e.g. “Go to settings”) so that the action is immediately understandable.
+* **Be clear.** Use an instruction or request to act (Buy now, Continue, Send) or a clear navigational cue (e.g. “Go to settings”) so that the action is immediately understandable.
 
-* **Use 1–3 words.** Buttons are scanned, not read. Short labels help to quickly identify actions and more easily distinguish between multiple buttons.
+* **Use 1–4 words.** Buttons are scanned, not read. Short labels help to quickly identify actions and distinguish between multiple buttons.
 
 * **Do not explain in the button.** If additional information is needed for understanding, place it above or below the button or in a tooltip. 
 
@@ -54,7 +54,7 @@ Examples:
 
 ## Links
 
-Links lead to additional content or contexts. Their label must make clear where the link leads or what users can expect to find there.
+Links lead to additional content or contexts. The label must give a clear indication of where the link leads to or what users can expect there.
 
 Recommendations:
 
@@ -108,5 +108,13 @@ Examples:
         </div>
     </div>    
 </div>
+
+</br>
+
+<sbb-notification type="info" readonly="">
+    <sbb-title level="3">Title Case vs. Sentence case</sbb-title>
+    We use sentence case as studies have proven it is better in terms of readability. </br>
+    The only exception to this are product names which are in uppercase, for example: Buy a Half Fare Travelcard. 
+</sbb-notification>
 
 

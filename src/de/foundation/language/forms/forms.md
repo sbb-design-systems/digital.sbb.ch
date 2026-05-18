@@ -67,7 +67,6 @@ Beispiele:
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Suche</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Was suchst du?</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Nummer</div>
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>gar kein Placeholder</div>
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>zu viele Begriffe, so dass es auch wieder nicht hilft</div>
+        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>E-Mail, Name, Vorname, Kundennummer, Adresse, Telefonnummer ...</div>
     </div>    
 </div>

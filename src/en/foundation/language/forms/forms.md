@@ -67,7 +67,6 @@ Examples:
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Search</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>What are you looking for?</div>
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Number</div>
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>no placeholder</div>
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>too many terms, so it becomes unhelpful again</div>
+        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>E-Mail, Last Name, First Name, Customer Number, Address, Phone Number ...</div>
     </div>    
 </div>

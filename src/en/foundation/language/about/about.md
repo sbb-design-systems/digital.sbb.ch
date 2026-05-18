@@ -9,7 +9,7 @@ order: 1
 
 UX writing is a core part of the user experience. Text in digital products directly influences how users understand tasks, make decisions and feel while using a product. Good UX writing is concise, clear, action-oriented and helps users reach their goals quickly and reliably.
 
-## Tone of Voice
+## Tone of voice
 A key aspect of UX writing is the tone of voice. It should be tailored to the target audience and reflect the SBB brand. For more on how we write at SBB, visit the <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/hub">brand portal</sbb-link>. There you will also find <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">services offered by the language team</sbb-link>, such as translation and proofreading.
 
 
@@ -36,7 +36,7 @@ General Recommendations:
 
 </br>
 
-## Microcopy in Detail
+## Microcopy in detail
 
 There are additional recommendations for these elements:
 
