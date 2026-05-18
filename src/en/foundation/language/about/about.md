@@ -55,6 +55,6 @@ Many words mean the same thing. The digital word list provides you with the most
 ## Additional resources
 
 <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB glossary</sbb-link>
-<sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">services offered by the language team</sbb-link>
+<sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">services offered by the language team(only available with SBB Login)</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/hub">brand portal</sbb-link>
 <sbb-link target="_blank" href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache (in german, only available with SBB Login)</sbb-link>

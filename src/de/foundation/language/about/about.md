@@ -57,6 +57,6 @@ Viele Wörter sagen das Gleiche. Die digitale Wörterliste liefert dir die gebr�
 ## Weitere Hilfsmittel
 
 <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link>
-<sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst</sbb-link>
+<sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst (mit SBB Login zugänglich)</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/hub">Markenportal</sbb-link>
 <sbb-link target="_blank" href="https://confluence.sbb.ch/spaces/SOC/pages/1949962036/4.+Bausteine+SBB+Sprache">Bausteine SBB Sprache (mit SBB Login zugänglich)</sbb-link>

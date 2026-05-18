@@ -118,7 +118,7 @@ Recommandations:
     </div>
 </div>
 
-<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/form-field/">Zur Komponente</sbb-secondary-button-link>
+<sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/form-field/">Au composant</sbb-secondary-button-link>
 
 <br>
 
@@ -136,7 +136,7 @@ Recommandations:
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>a page que vous recherchez n’existe pas (ou plus) ou a été déplacée.</div>
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Accès refusé. Tu n’as pas l’autorisation d’ouvrir cette page.
  </br> Contacte-nous à l’adresse exemple@sbb.ch.</div>
-        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Une erreur est survenue..</div>
+        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Une erreur est survenue.</div>
     </div>
     <div class="donts">
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Accès refusé</div>
