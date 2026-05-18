@@ -26,7 +26,7 @@ Grundsätzlich gilt die Richtlinie auch für Dritt-Software. Mit welchem Mass di
 
 ## Wie kann ich die Richtlinien einhalten?​
 
-Auf dieser Plattform sind die <sbb-link variant="inline" target="_blank" type="button" href="/{{page.lang}}/principles/ux-principles/overview/">Gestaltungsprinzipien</sbb-link> und die Vorgaben zu <sbb-link variant="inline" target="_blank" type="button" href="/{{page.lang}}/accessibility/introduction/about-accessibility/">Barrierefreiheit</sbb-link>, Brand Elemente und <sbb-link variant="inline" target="_blank" type="button" href="/{{page.lang}}/design-system/getting-started/intro/">Design Systeme</sbb-link> zu finden. Mit der Nutzung der dort zur Verfügung gestellten Hilfsmittel bei der Entwicklung von Lösungen wir die Einhaltung der Anforderungen sichergestellt. Dies vereinfacht auch eure Arbeit.​ {.lead}
+Auf dieser Plattform sind die <sbb-link  target="_blank" type="button" href="/{{page.lang}}/principles/ux-principles/overview/">Gestaltungsprinzipien</sbb-link> und die Vorgaben zu <sbb-link  target="_blank" type="button" href="/{{page.lang}}/accessibility/introduction/about-accessibility/">Barrierefreiheit</sbb-link>, Brand Elemente und <sbb-link  target="_blank" type="button" href="/{{page.lang}}/design-system/getting-started/intro/">Design Systeme</sbb-link> zu finden. Mit der Nutzung der dort zur Verfügung gestellten Hilfsmittel bei der Entwicklung von Lösungen wir die Einhaltung der Anforderungen sichergestellt. Dies vereinfacht auch eure Arbeit.​ {.lead}
 
 
 ## Wie wird überprüft ob die Richtlinien eingehalten werden?​

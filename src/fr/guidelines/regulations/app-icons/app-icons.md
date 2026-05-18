@@ -7,7 +7,7 @@ parent: regulations_fr
 order: 3
 ---
 
-Toutes les icônes doivent respecter le <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">style des icônes CFF</sbb-link> Les nouvelles icônes doivent être validées par l’unité Gestion de la marque CFF ou par UX. {.lead}
+Toutes les icônes doivent respecter le <sbb-link  href="/{{page.lang}}/foundation/assets/icons/">style des icônes CFF</sbb-link> Les nouvelles icônes doivent être validées par l’unité Gestion de la marque CFF ou par UX. {.lead}
 
 <sbb-button-link target="_blank" href="https://www.figma.com/file/0x2cZBSTG2t5crlyW2wfvE/adaptive-icons-template?t=4dWSW7jntdJDNUvr-1">
 <sbb-icon slot="icon" name="figma-small"></sbb-icon>

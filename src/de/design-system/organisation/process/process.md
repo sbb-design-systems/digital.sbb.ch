@@ -15,8 +15,8 @@ Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritä
 
 | Ausprägung             | Board                                                                                                                                                           |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lyne                   | <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/orgs/sbb-design-systems/projects/4">Zum Board</sbb-link>        |
-| Mobile                 | <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">Zum Board</sbb-link>|
+| Lyne                   | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/sbb-design-systems/projects/4">Zum Board</sbb-link>        |
+| Mobile                 | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">Zum Board</sbb-link>|
 
 
 {.sbb-table}

@@ -12,7 +12,7 @@ Der hier beschrieben Prozess definiert wie ein digitales Produkt durch die Richt
 Dabei werden neue und bestehende Produkte unterschiedlich behandelt: {.lead}
 
 ## Neuentwicklungen
-Neuentwicklungen, welche von unseren Kunden bedient werden, müssen vom <sbb-link variant="inline" href="https://sbb.sharepoint.com/sites/sbb-digital-board">Digital Board</sbb-link> genehmigt werden.
+Neuentwicklungen, welche von unseren Kunden bedient werden, müssen vom <sbb-link  href="https://sbb.sharepoint.com/sites/sbb-digital-board">Digital Board</sbb-link> genehmigt werden.
 Alle anderen Neuentwicklungen müssen von der SBB Markenführung und dem Digital Service User Experience genehmigt werden. {.lead}
 
 ## Weiterentwicklungen
@@ -22,4 +22,4 @@ Weiterentwicklung bei denen Veränderungen und Anpassungen ausserhalb des zur Ve
 Verbesserungen, Anpassungen und Erweiterungen der Designsysteme müssen über die POs der entsprechenden Libraries abgewickelt werden. {.lead}
 
 ## Fragen
-Bei Fragen und Unklarheit helfen <sbb-link variant="inline" href="mailto:ux@sbb.ch">wir</sbb-link> gerne. {.lead} 
+Bei Fragen und Unklarheit helfen <sbb-link  href="mailto:ux@sbb.ch">wir</sbb-link> gerne. {.lead} 

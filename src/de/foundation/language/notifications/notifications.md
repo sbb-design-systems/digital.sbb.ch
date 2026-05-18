@@ -7,7 +7,7 @@ parent: language_de
 order: 3
 ---
 
-Benachrichtigungen umfassen kurze Hinweise und Rückmeldungen. Sie informieren über Zustände, Erfolge, Fehler oder Warnungen, zum Beispiel in Form von <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/notification">Notifikationen</sbb-link> oder <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/dialog">Dialogen</sbb-link>.
+Benachrichtigungen umfassen kurze Hinweise und Rückmeldungen. Sie informieren über Zustände, Erfolge, Fehler oder Warnungen, zum Beispiel in Form von <sbb-link  href="/{{page.lang}}/design-system/lyne/components/notification">Notifikationen</sbb-link> oder <sbb-link  href="/{{page.lang}}/design-system/lyne/components/dialog">Dialogen</sbb-link>.
 
 Ziel ist es, Klarheit zu schaffen, den Nutzer:innen Unsicherheiten zu nehmen und ihnen aufzuzeigen, was passiert ist und was als Nächstes zu tun ist.
 

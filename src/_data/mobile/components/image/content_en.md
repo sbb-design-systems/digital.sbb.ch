@@ -5,7 +5,7 @@
 *   Images may be used to support text communication (visual communication). {.lead}
 
 ## Rules
-*   The production of images and illustrations is governed by the provisions of KOM. See brand portal: <sbb-link variant="inline" type="button" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/foto.html">Photos</sbb-link> and <sbb-link variant="inline" type="button" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/illustrationen.html">Illustrations</sbb-link>. {.lead}
+*   The production of images and illustrations is governed by the provisions of KOM. See brand portal: <sbb-link  type="button" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/foto.html">Photos</sbb-link> and <sbb-link  type="button" href="https://company.sbb.ch/de/ueber-die-sbb/profil/sbb-markenportal/kommunikation/illustrationen.html">Illustrations</sbb-link>. {.lead}
 *   Images should generally be used sparingly. {.lead}
 
 ## Variants and States

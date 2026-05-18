@@ -10,7 +10,7 @@ order: 1
 Le UX writing est un élément central de l'expérience utilisateur. Les textes dans les produits numériques influencent directement la façon dont les utilisateurs et utilisatrices comprennent les tâches, prennent des décisions et se sentent lors de l'utilisation. Un bon UX writing est court, compréhensible, orienté vers l'action et aide les utilisateurs à atteindre leurs objectifs rapidement et de manière fiable.
 
 ## Tonalité du langage
-Un aspect central du UX writing est la tonalité du langage. Celle-ci doit être adaptée au groupe cible et correspondre à <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/2/fr#/notre-marque/la-marque-cff">la marque CFF</sbb-link>. Pour en savoir plus sur la façon dont nous écrivons aux CFF, consultez le portail de la marque. Vous y trouverez également <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6/fr#/langue/prestations">les services du service linguistique</sbb-link>, comme la traduction et la relecture.
+Un aspect central du UX writing est la tonalité du langage. Celle-ci doit être adaptée au groupe cible et correspondre à <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/2/fr#/notre-marque/la-marque-cff">la marque CFF</sbb-link>. Pour en savoir plus sur la façon dont nous écrivons aux CFF, consultez le portail de la marque. Vous y trouverez également <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/6/fr#/langue/prestations">les services du service linguistique</sbb-link>, comme la traduction et la relecture.
 
 
 ## Microcopy

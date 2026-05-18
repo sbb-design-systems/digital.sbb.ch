@@ -2,7 +2,7 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async () => {
   const result = await EleventyFetch(
-    "https://lyne-storybook.app.sbb.ch/index.json",
+    "https://lyne-elements.app.sbb.ch/index.json",
     { duration: "1s", type: "json" }
   );
 

@@ -11,4 +11,4 @@ Sofern du fähig bist ein Icons selbst zu erstellen, so steht dir nichts im Weg.
 * Keine abgerundeten Linien
 * Reduziert und klar. Zeige nur die nötigsten Informationen
 
-Solltest du keine Kenntnisse bezüglich Icon-Design haben, so hilft Dir der UX-Service (<sbb-link variant="inline" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>) gerne weiter.
+Solltest du keine Kenntnisse bezüglich Icon-Design haben, so hilft Dir der UX-Service (<sbb-link  href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>) gerne weiter.

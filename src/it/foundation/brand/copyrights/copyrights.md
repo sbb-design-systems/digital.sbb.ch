@@ -24,4 +24,4 @@ order: 4
 - Non è consentito l’utilizzo per tematiche a scopo politico o religioso.
 - Non è consentito l’utilizzo per tematiche che vanno contro il decoro e la decenza e che violino diritti protetti della personalità o altre prescrizioni di legge.  
 
-Altri scopi d’utilizzazione devono necessariamente essere approvati dalla Gestione della marca FFS: <sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>.
+Altri scopi d’utilizzazione devono necessariamente essere approvati dalla Gestione della marca FFS: <sbb-link  type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>.

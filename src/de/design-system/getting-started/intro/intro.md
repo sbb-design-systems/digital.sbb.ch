@@ -27,7 +27,7 @@ Mit dem Design System bieten wir einen Komponenten-Baukasten, der viele aber nic
 
 ## Wie kann ich etwas in das Design System einbringen?​ {.lead}
 
-Ein Design System kann und soll wachsen, es gibt aber gewisse Rahmenbedingungen. Unter <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/organisation/contributing/">Contribution</sbb-link> findest du weitere Informationen dazu. {.lead}
+Ein Design System kann und soll wachsen, es gibt aber gewisse Rahmenbedingungen. Unter <sbb-link  type="button" href="/{{page.lang}}/design-system/organisation/contributing/">Contribution</sbb-link> findest du weitere Informationen dazu. {.lead}
 
 
 ## Kann ich das Design System auch für interne Anwendungen brauchen?​ {.lead}
@@ -37,5 +37,5 @@ Das Design System kann auch für interne Anwendungen gebraucht werden. Bei Lyne 
 
 ## Du hast noch weitere Fragen? {.lead}
 
-Versuchs mal mit unserer <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/getting-started/faq/">FAQ-Seite</sbb-link>.
-Wenn du dort nicht fündig wirst, kannst du dich gerne mit uns in <sbb-link variant="inline" type="button" href="mailto:ux@sbb.ch">Kontakt</sbb-link> setzen. {.lead}
+Versuchs mal mit unserer <sbb-link  type="button" href="/{{page.lang}}/design-system/getting-started/faq/">FAQ-Seite</sbb-link>.
+Wenn du dort nicht fündig wirst, kannst du dich gerne mit uns in <sbb-link  type="button" href="mailto:ux@sbb.ch">Kontakt</sbb-link> setzen. {.lead}

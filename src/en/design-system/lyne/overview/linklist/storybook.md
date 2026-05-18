@@ -1,7 +1,7 @@
 ---
 tags: techlinkslyne_en
 label: Storybook 
-url: https://lyne-storybook.app.sbb.ch/
+url: https://lyne-elements.app.sbb.ch/
 external: true
 permalink: false
 order: 50

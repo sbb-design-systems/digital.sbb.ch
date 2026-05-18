@@ -7,7 +7,7 @@ parent: language_fr
 order: 3
 ---
 
-Les notifications comprennent de courtes indications et des feed-back. Elles donnent des informations sur les états, les réussites, les erreurs ou les avertissements, par exemple sous forme de <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/notification">notifications</sbb-link> ou de <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/dialog">dialogue</sbb-link>.
+Les notifications comprennent de courtes indications et des feed-back. Elles donnent des informations sur les états, les réussites, les erreurs ou les avertissements, par exemple sous forme de <sbb-link  href="/{{page.lang}}/design-system/lyne/components/notification">notifications</sbb-link> ou de <sbb-link  href="/{{page.lang}}/design-system/lyne/components/dialog">dialogue</sbb-link>.
 
 L’objectif est d’y voir plus clair, d’éliminer les incertitudes des utilisateurs et de leur montrer ce qui s’est passé et ce qu’il faut faire ensuite.
 

@@ -39,7 +39,7 @@ Le composant présente les caractéristiques ci-après.
 }) }}
 
 ## Contact
-<sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
+<sbb-link  type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
 
 ## Télécharger
 Les spécifications de l'horloge numérique sont disponibles sur GitHub.

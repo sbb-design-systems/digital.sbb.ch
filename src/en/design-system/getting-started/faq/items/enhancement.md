@@ -5,4 +5,4 @@ permalink: false
 order: 1
 ---
 
-Please fill out the form for a feature enhancement on Github. <sbb-link variant="inline" href="/{{page.lang}}/design-system/organisation/contributing/" target="_blank">Go to the overview of the Github links</sbb-link>.
+Please fill out the form for a feature enhancement on Github. <sbb-link  href="/{{page.lang}}/design-system/organisation/contributing/" target="_blank">Go to the overview of the Github links</sbb-link>.

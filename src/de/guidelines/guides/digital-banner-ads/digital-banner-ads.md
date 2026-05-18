@@ -22,7 +22,7 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 <sbb-tab>
 
 ### Beispiele
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Beispiel 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Beispiel 1</sbb-link>
 
 ### Formate
 - Wideboard (994 x 250)</li>
@@ -42,8 +42,8 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 <sbb-tab>
 
 ### Beispiele
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Beispiel 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Beispiel 2</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Beispiel 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Beispiel 2</sbb-link>
 
 ### Formate
 - Wide Skyscraper (160 x 600) </li>
@@ -56,5 +56,5 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 </sbb-tab-group>
 
 ## Kontakt 
-Kontakt für Vorlagen, Fragen zum Corporate Design und Formatanpassungen: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
-Fragen zu Barrierefreiheit: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Kontaktseite Barrierefreiheit</sbb-link>
+Kontakt für Vorlagen, Fragen zum Corporate Design und Formatanpassungen: <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Markenportal</sbb-link>, <sbb-link  type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
+Fragen zu Barrierefreiheit: <sbb-link  type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Kontaktseite Barrierefreiheit</sbb-link>

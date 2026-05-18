@@ -7,7 +7,7 @@ parent: language_en
 order: 3
 ---
 
-Notifications include short hints and feedback messages. They inform about states, successes, errors or warnings, for example in the form of <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/notification">notifications</sbb-link> or <sbb-link variant="inline" href="/{{page.lang}}/design-system/lyne/components/dialog">dialogs</sbb-link>.
+Notifications include short hints and feedback messages. They inform about states, successes, errors or warnings, for example in the form of <sbb-link  href="/{{page.lang}}/design-system/lyne/components/notification">notifications</sbb-link> or <sbb-link  href="/{{page.lang}}/design-system/lyne/components/dialog">dialogs</sbb-link>.
 
 The goal is to create clarity, remove uncertainty for users and show them what has happened and what to do next.
 

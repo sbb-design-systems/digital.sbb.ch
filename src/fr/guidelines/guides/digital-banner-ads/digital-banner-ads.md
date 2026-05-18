@@ -22,7 +22,7 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 <sbb-tab>
 
 ### Exemples
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Exemple 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Exemple 1</sbb-link>
 
 ### Formats
 - Wideboard (994 x 250)</li>
@@ -42,8 +42,8 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 <sbb-tab>
 
 ### Exemples
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Exemple 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Exemple 2</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Exemple 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Exemple 2</sbb-link>
 
 
 ### Formats
@@ -57,5 +57,5 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 </sbb-tab-group>
 
 ## Contact
-Contact pour les modèles et pour toutes les questions concernant l'identité visuelle et les adaptations de format: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/fr">Portail de la marque CFF</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>   
-Pour toutes les questions concernant l’accessibilité: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">lien</sbb-link>
+Contact pour les modèles et pour toutes les questions concernant l'identité visuelle et les adaptations de format: <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/hub/2/fr">Portail de la marque CFF</sbb-link>, <sbb-link  type="button" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>   
+Pour toutes les questions concernant l’accessibilité: <sbb-link  type="button" href="/{{page.lang}}/accessibility/introduction/contact/">lien</sbb-link>

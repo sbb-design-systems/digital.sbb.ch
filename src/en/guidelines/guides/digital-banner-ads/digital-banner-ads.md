@@ -22,7 +22,7 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 <sbb-tab>
 
 ### Example
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Example 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Example 1</sbb-link>
 
 ### Formats
 - Wideboard (994 x 250)</li>
@@ -42,8 +42,8 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 <sbb-tab>
 
 ### Examples
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Example 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Example 2</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Example 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Example 2</sbb-link>
 
 ### Formats
 - Wide Skyscraper (160 x 600) </li>
@@ -56,5 +56,5 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 </sbb-tab-group>
 
 ## Contact
-Contact for templates, questions about corporate design and format customisation: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Brand Portal</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
-Questions about accessibility: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Contact page Accessibility</sbb-link>
+Contact for templates, questions about corporate design and format customisation: <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/hub/2">SBB Brand Portal</sbb-link>, <sbb-link  type="button" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>   
+Questions about accessibility: <sbb-link  type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Contact page Accessibility</sbb-link>

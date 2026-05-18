@@ -4,7 +4,7 @@
 * The present tense should be used. {.lead}
 * Terms in different scenarios should always be attributed the same meaning. {.lead}
 
-Further details on the style guide can be found in the <sbb-link variant="inline" type="button" href="https://brand.sbb.ch/document/6/de#/sprache/so-schreiben-wir-1">rules on language and style</sbb-link>. {.lead}
+Further details on the style guide can be found in the <sbb-link  type="button" href="https://brand.sbb.ch/document/6/de#/sprache/so-schreiben-wir-1">rules on language and style</sbb-link>. {.lead}
 
 
 ## Formatting

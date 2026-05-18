@@ -9,15 +9,15 @@
 *   None
 
 ## Variants
-*   <sbb-link variant="inline" type="button" href="#xlarge-light">xlarge, light</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#large-light">large, light</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#large-bold">large, bold</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#medium-light">medium, light</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#medium-bold">medium, bold</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#small-light">small, light</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#small-bold">small, bold</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#xsmall-light">xsmall, light</sbb-link>
-*   <sbb-link variant="inline" type="button" href="#xsmall-bold">xsmall, bold</sbb-link>
+*   <sbb-link  type="button" href="#xlarge-light">xlarge, light</sbb-link>
+*   <sbb-link  type="button" href="#large-light">large, light</sbb-link>
+*   <sbb-link  type="button" href="#large-bold">large, bold</sbb-link>
+*   <sbb-link  type="button" href="#medium-light">medium, light</sbb-link>
+*   <sbb-link  type="button" href="#medium-bold">medium, bold</sbb-link>
+*   <sbb-link  type="button" href="#small-light">small, light</sbb-link>
+*   <sbb-link  type="button" href="#small-bold">small, bold</sbb-link>
+*   <sbb-link  type="button" href="#xsmall-light">xsmall, light</sbb-link>
+*   <sbb-link  type="button" href="#xsmall-bold">xsmall, bold</sbb-link>
 
 ### <a name="xlarge-light"></a>xlarge, light
 {{ imageWithMode({

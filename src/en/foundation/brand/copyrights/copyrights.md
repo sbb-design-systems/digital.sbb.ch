@@ -24,4 +24,4 @@ order: 4
 - No use for political or religious topics. {.lead}
 - No use for topics which violate public morals and decency, protected personal rights or other legal regulations. {.lead}  
 
-All other uses are subject to approval from SBB Brand Management: <sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>. {.lead}
+All other uses are subject to approval from SBB Brand Management: <sbb-link  type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>. {.lead}

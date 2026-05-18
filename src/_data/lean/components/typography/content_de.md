@@ -1,5 +1,5 @@
 ## Schrift
-Als Schriftart wird die Hausschrift «SBB Web» als Web-Font verwendet und in den Schnitten Thin, Light, Roman und Bold eingesetzt. «SBB Web» kann <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/4/de#/markenelemente/typographie-1">hier</sbb-link> heruntergeladen werden. {.lead}
+Als Schriftart wird die Hausschrift «SBB Web» als Web-Font verwendet und in den Schnitten Thin, Light, Roman und Bold eingesetzt. «SBB Web» kann <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/4/de#/markenelemente/typographie-1">hier</sbb-link> heruntergeladen werden. {.lead}
 
 Für gewisse Anwendungsbereiche ist der Einsatz einer Monospaced Schrift sinnvoll. Bei erstem Bedarf wird die entsprechende Schrift ausgewählt. Aktuell stehen folgende zur Auswahl: {.lead}
 * Courier
@@ -9,7 +9,7 @@ Für gewisse Anwendungsbereiche ist der Einsatz einer Monospaced Schrift sinnvol
 * DejaVu Sans Mono
 
 ## Stile
-Die hier definierten Schriftstile bilden die Basis von Webapplikationen und deren Komponenten. Werden andere eingesetzt ist auf eine klare Hierarchie zu achten ebenso wie auf ausreichenden Kontrast und entsprechenden Zeilen- / Absatzabstand. Für die Schriftfarben gelten die <sbb-link variant="inline" type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB-Farben</sbb-link>. {.lead}
+Die hier definierten Schriftstile bilden die Basis von Webapplikationen und deren Komponenten. Werden andere eingesetzt ist auf eine klare Hierarchie zu achten ebenso wie auf ausreichenden Kontrast und entsprechenden Zeilen- / Absatzabstand. Für die Schriftfarben gelten die <sbb-link  type="button" href="/{{page.lang}}/foundation/colors/base-colors/">SBB-Farben</sbb-link>. {.lead}
 
 ### Überschrift H1
 {{ imageOnGreyBackground({
@@ -18,7 +18,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'H1'
 }) }}
 
-* Vor dem H1 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Big» eingesetzt, danach (unterhalb) ein Divider der Variante «Medium». {.lead}
+* Vor dem H1 (oberhalb) wird ein <sbb-link  type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Big» eingesetzt, danach (unterhalb) ein Divider der Variante «Medium». {.lead}
 
 ###  Überschrift H2
 {{ imageOnGreyBackground({
@@ -27,7 +27,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'H2'
 }) }}
 
-* Vor dem H2 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Medium» eingesetzt, danach (unterhalb) ein Divider der Variante «Small». {.lead}
+* Vor dem H2 (oberhalb) wird ein <sbb-link  type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Medium» eingesetzt, danach (unterhalb) ein Divider der Variante «Small». {.lead}
 
 ###  Überschrift H3
 {{ imageOnGreyBackground({
@@ -36,7 +36,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'H3'
 }) }}
 
-* Vor dem H3 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin». {.lead}
+* Vor dem H3 (oberhalb) wird ein <sbb-link  type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin». {.lead}
 
 ###  Überschrift H4
 {{ imageOnGreyBackground({
@@ -45,7 +45,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'H4'
 }) }}
 
-* Vor dem H4 (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin». {.lead}
+* Vor dem H4 (oberhalb) wird ein <sbb-link  type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Small» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin». {.lead}
 
 ###  Fliesstext (Copy)
 {{ imageOnGreyBackground({
@@ -54,7 +54,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
   title: 'Fliesstext'
 }) }}
 
-* Vor dem Fliesstext (oberhalb) wird ein <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Thin» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin». {.lead}
+* Vor dem Fliesstext (oberhalb) wird ein <sbb-link  type="button" href="/{{page.lang}}/design-system/lean/basics/divider/">Divider</sbb-link> der Variante «Thin» eingesetzt, danach (unterhalb) ein Divider der Variante «Thin». {.lead}
 
 ###  Link
 {{ imageOnGreyBackground({
@@ -64,7 +64,7 @@ Die hier definierten Schriftstile bilden die Basis von Webapplikationen und dere
 }) }}
 
 * Gilt als Standardlink innerhalb von texten. {.lead}
-* Zusätzliche Ausführungen von Links sind unter <sbb-link variant="inline" type="button" href="/{{page.lang}}/design-system/lean/components/link/">Link</sbb-link> zu finden. {.lead}
+* Zusätzliche Ausführungen von Links sind unter <sbb-link  type="button" href="/{{page.lang}}/design-system/lean/components/link/">Link</sbb-link> zu finden. {.lead}
 
 
 ###  Tabellenheader

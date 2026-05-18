@@ -5,7 +5,7 @@ permalink: false
 order: 1
 ---
 
-Very cool! We are looking forward to your contribution. The first thing to determine is whether the component in question can be included in the design system. <sbb-link variant="inline" href="/{{page.lang}}/design-system/organisation/contributing/">Learn more about how you can contribute</sbb-link>.
+Very cool! We are looking forward to your contribution. The first thing to determine is whether the component in question can be included in the design system. <sbb-link  href="/{{page.lang}}/design-system/organisation/contributing/">Learn more about how you can contribute</sbb-link>.
 
 In short form here:
 * Your component must comply with the design principles and visually fit into the system.

@@ -4,7 +4,7 @@
 * Es soll in Gegenwartsform geschrieben werden. {.lead}
 * Begriffen in verschiedenen Anwendungsfällen muss immer die gleiche Bedeutung zugewiesen werden. {.lead}
 
-Weitere Details zu den Schreibregeln sind in den <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/document/6/de#/sprache/so-schreiben-wir-1">Sprach- und Schreibregeln</sbb-link> ersichtlich. {.lead}
+Weitere Details zu den Schreibregeln sind in den <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/6/de#/sprache/so-schreiben-wir-1">Sprach- und Schreibregeln</sbb-link> ersichtlich. {.lead}
 
 ## Formatierung
 ### Zahlen

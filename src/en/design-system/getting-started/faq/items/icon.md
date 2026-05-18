@@ -11,4 +11,4 @@ If you are capable of creating an icon yourself, nothing stands in your way. An 
 * No rounded lines
 * Reduced and clear. Show only the most necessary information
 
-If you don't have any knowledge regarding icon design, the UX service (<sbb-link variant="inline" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>) will be happy to assist you.
+If you don't have any knowledge regarding icon design, the UX service (<sbb-link  href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link>) will be happy to assist you.

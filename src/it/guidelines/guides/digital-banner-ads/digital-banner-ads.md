@@ -22,7 +22,7 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 <sbb-tab>
 
 ### Esempi
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Esempio 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_994x250_mAE.mp4">Esempio 1</sbb-link>
 
 ### Formati
 - Wideboard (994 x 250)</li>
@@ -42,8 +42,8 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 <sbb-tab>
 
 ### Beispiele
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Esempio 1</sbb-link>
-<sbb-link variant="inline" type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Esempio 2</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_160x600_mAE.mp4">Esempio 1</sbb-link>
+<sbb-link  type="button" target="_blank" href="assets/downloads/202502_SBB_300x250_mAE.mp4">Esempio 2</sbb-link>
 
 ### Formati
 - Wide Skyscraper (160 x 600) </li>
@@ -56,8 +56,8 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 </sbb-tab-group>
 
 ## Contatto
-Contattare per modelli, domande sul Corporate Design e sulla personalizzazione del formato: <sbb-link variant="inline" type="button" target="_blank" href="https://brand.sbb.ch/hub/2/it">Portale della marca FFS</sbb-link>, <sbb-link variant="inline" type="button" href="mailto:marca@ffs.ch">marca@ffs.ch</sbb-link>   
-Domande sull’accessibilità: <sbb-link variant="inline" type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
+Contattare per modelli, domande sul Corporate Design e sulla personalizzazione del formato: <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/hub/2/it">Portale della marca FFS</sbb-link>, <sbb-link  type="button" href="mailto:marca@ffs.ch">marca@ffs.ch</sbb-link>   
+Domande sull’accessibilità: <sbb-link  type="button" href="/{{page.lang}}/accessibility/introduction/contact/">Link</sbb-link>
 
 
 

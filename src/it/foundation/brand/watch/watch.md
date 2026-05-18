@@ -39,7 +39,7 @@ I componenti presentano le seguenti caratteristiche: {.lead}
 }) }}
 
 ## Contatto
-<sbb-link variant="inline" type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
+<sbb-link  type="button" target="_blank" href="mailto:marke@sbb.ch">marke@sbb.ch</sbb-link>
 
 ## Download
 L'orologio digitale è disponibile su GitHub.

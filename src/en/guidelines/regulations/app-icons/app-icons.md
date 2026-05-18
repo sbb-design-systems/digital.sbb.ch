@@ -7,7 +7,7 @@ parent: regulations_en
 order: 3
 ---
 
-All icons must be converted into <sbb-link variant="inline" href="/{{page.lang}}/foundation/assets/icons/">SBB icon style</sbb-link>. Newly compiled icons must be approved by SBB Brand Management or by UX {.lead}
+All icons must be converted into <sbb-link  href="/{{page.lang}}/foundation/assets/icons/">SBB icon style</sbb-link>. Newly compiled icons must be approved by SBB Brand Management or by UX {.lead}
 
 <sbb-button-link target="_blank" href="https://www.figma.com/design/dlRCvj5i9TrTGxqd0DkKgM/adaptive-icons-template?node-id=4079-3327&t=49kdU7IzkHymY4zU-1">
 <sbb-icon slot="icon" name="figma-small"></sbb-icon>

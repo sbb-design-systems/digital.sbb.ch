@@ -24,4 +24,4 @@ order: 4
 - Aucune utilisation pour des thématiques politiques ou religieuses.
 - Aucune utilisation pour des thématiques contrevenant aux mœurs et à la bienséance, aux droits de la personnalité protégés ou à toute autre prescription légale.  
 
-Toute utilisation à d’autres fins requiert impérativement l’autorisation expresse préalable de Gestion de la marque CFF: <sbb-link variant="inline" type="button" target="_blank" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>.
+Toute utilisation à d’autres fins requiert impérativement l’autorisation expresse préalable de Gestion de la marque CFF: <sbb-link  type="button" target="_blank" href="mailto:marque@cff.ch">marque@cff.ch</sbb-link>.

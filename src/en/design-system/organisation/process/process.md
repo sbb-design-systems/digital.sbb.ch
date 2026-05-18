@@ -15,8 +15,8 @@ The various manifestations work in teams using the Kanban mode. The priorities o
 
 | Manifestation          | Board                                                                                                                                                           |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Lyne                   | <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/orgs/sbb-design-systems/projects/4">To the board</sbb-link>        |
-| Mobile                 | <sbb-link variant="inline" type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">To the board</sbb-link>|
+| Lyne                   | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/sbb-design-systems/projects/4">To the board</sbb-link>        |
+| Mobile                 | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">To the board</sbb-link>|
 
 
 {.sbb-table}
