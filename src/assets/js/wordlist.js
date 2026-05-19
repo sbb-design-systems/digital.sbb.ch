@@ -89,7 +89,7 @@ const wordlist_en = [
     {Begriff:"Close", Alternative:"-", Hinweis:"When a window / view is to be closed. Does not imply any change to the content."},
     {Begriff:"Send", Alternative:"-", Hinweis:"When something is transmitted. The focus is on the transfer."},
     {Begriff:"Save", Alternative:"Back up", Hinweis:"-"},
-    {Begriff:"Lock", Alternative:"Deactivate, Block", Hinweis:"For a strict measure, often related to security, e.g. lock account."},
+    {Begriff:"Block", Alternative:"Deactivate, Lock", Hinweis:"For a strict measure, often related to security, e.g. Block account. </br> Use “Block” when someone else is restricted, for example for admin. "},
     {Begriff:"Street and number", Alternative:"Street, house number", Hinweis:"When the address is entered in two separate fields: «Street» and «House number»."},
     {Begriff:"Mobile, Landline, Phone", Alternative:"Mobile phone", Hinweis:"In body text, either «phone number» or «mobile number» is used."},
     {Begriff:"Apply", Alternative:"-", Hinweis:"-"},

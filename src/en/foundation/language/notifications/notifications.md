@@ -85,7 +85,7 @@ Recommendations:
 
 <div class="dosndonts">
     <div class="dos">
-        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Delete entry? </br>Do you want to permanently delete this entry?</br> DThis action cannot be undone.</div>
+        <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Delete entry? </br>Do you want to permanently delete this entry?</br> This action cannot be undone.</div>
     </div>
     <div class="donts">
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Are you sure you want to do this? </br> OK and Cancel (as actions)</div>
