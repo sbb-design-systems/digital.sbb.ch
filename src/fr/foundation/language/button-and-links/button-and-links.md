@@ -20,7 +20,7 @@ Recommandations:
 
 * **Sois clair·e.** Utilise une instruction ou une invitation à l'action (Acheter maintenant, continuer, envoyer) ou une aide à l'orientation claire (p. ex. «Accéder aux paramètres») pour que l'action soit immédiatement compréhensible.
 
-* **Utilise 1 à 3 mots.** Les boutons sont scannés, pas lus. Les libellés courts aident à reconnaître rapidement les actions et de différencier plus facilement.
+* **Utilise 1 à 5 mots.** Les boutons sont scannés, pas lus. Les libellés courts aident à reconnaître rapidement les actions et de différencier plus facilement.
 
 * **N'explique pas dans le bouton.** Si des informations supplémentaires sont nécessaires à la compréhension, place-les au-dessus ou en dessous du bouton ou dans une infobulle.
 

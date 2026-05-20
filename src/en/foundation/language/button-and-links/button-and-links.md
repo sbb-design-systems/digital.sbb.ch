@@ -2,7 +2,7 @@
 layout: page.njk
 tags: level3
 key: button_and_links_en
-title: Button and Link Texts
+title: Button and link texts
 parent: language_en
 order: 2
 ---
@@ -112,7 +112,7 @@ Examples:
 </br>
 
 <sbb-notification type="info" readonly="">
-    <sbb-title level="3">Title Case vs. Sentence case</sbb-title>
+    <sbb-title level="3">Title case vs. Sentence case</sbb-title>
     We use sentence case as studies have proven it is better in terms of readability. </br>
     The only exception to this are product names which are in uppercase, for example: Buy a Half Fare Travelcard. 
 </sbb-notification>

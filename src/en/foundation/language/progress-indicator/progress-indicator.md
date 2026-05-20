@@ -2,7 +2,7 @@
 layout: page.njk
 tags: level3
 key: progress_indicator_en
-title: Progress Indicator
+title: Progress indicators
 parent: language_en
 order: 5
 ---

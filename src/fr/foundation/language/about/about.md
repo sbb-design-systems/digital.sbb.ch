@@ -46,7 +46,7 @@ Il existe des recommandations supplémentaires pour ces éléments:
 <sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Les textes de boutons et de liens</sbb-link>
 <sbb-link href="/{{page.lang}}/foundation/language/notifications">Les notifications</sbb-link>
 <sbb-link href="/{{page.lang}}/foundation/language/forms">Les formulaires et champs de saisie</sbb-link>
-<sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">L’indicateur de progression</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Indicateur de progression</sbb-link>
 
 
 ## Liste de mots numérique

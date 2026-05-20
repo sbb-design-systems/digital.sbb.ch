@@ -40,10 +40,10 @@ General Recommendations:
 
 There are additional recommendations for these elements:
 
-<sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Button and Link Texts</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/button-and-links">Button and link texts</sbb-link>
 <sbb-link href="/{{page.lang}}/foundation/language/notifications">Notifications</sbb-link>
 <sbb-link href="/{{page.lang}}/foundation/language/forms">Forms and Inputs</sbb-link>
-<sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Progress Indicator</sbb-link>
+<sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Progress indicators</sbb-link>
 
 
 ## Digital word list
