@@ -12,7 +12,7 @@ order: 3
 | Ausprägung           | PO                  | UX                                          | DEV                                                                |
 |----------------------|---------------------|---------------------------------------------|--------------------------------------------------------------------|
 | Lyne                 | Lukas&nbsp;Spirig   | Manuel&nbsp;Cilurzo                         | Lukas Spirig, Jeremias Peier, Fincons                              | 
-| Mobile               | Nicolas&nbsp;Vidoni | Mike&nbsp;Morgenthaler,<br>Beat Vollenwyder | Georgios Antoniadis, Jeanne Fleury, Cyrill Meyer, Dominik Schmucki |
+| Mobile               | Nicolas&nbsp;Vidoni | Mike&nbsp;Morgenthaler,<br>Beat Vollenwyder | <sbb-link  href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/graphs/contributors">Flutter</sbb-link>, <sbb-link  href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui/graphs/contributors">iOS</sbb-link> |
 
 
 {.sbb-table}
