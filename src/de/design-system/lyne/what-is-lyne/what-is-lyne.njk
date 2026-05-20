@@ -22,66 +22,50 @@ eleventyExcludeFromCollections: true
     <sbb-tag value="content-1" checked>
       Product-Owner
     </sbb-tag>
-    <sbb-tag value="content-2" disabled>
+    <sbb-tag id="tooltip-trigger-dev" value="content-2" disabled>
       Entwickler:innen
     </sbb-tag>
-    <sbb-tag value="content-3" disabled>
+    <sbb-tag id="tooltip-trigger-ux" value="content-3" disabled>
       UX-Architekt:innen
     </sbb-tag>
 </sbb-tag-group>
+<sbb-tooltip trigger="tooltip-trigger-dev">Folgt später</sbb-tooltip>
+<sbb-tooltip trigger="tooltip-trigger-ux">Folgt später</sbb-tooltip>
 </div>
 
   <p class="sbb-text-xl sbb-lead-container-lead-text">
-    Das Design System für Webanwendungen bei der SBB. Es stellt fertige, getestete und barrierefreie UI-Bausteine bereit,
-    mit denen Teams schneller hochwertige Anwendungen entwickeln können. <br><br>Die wichtigsten Vorteile auf einen Blick.
+    Lyne ist das Design System für Webanwendungen bei der SBB. Es stellt fertige, getestete und barrierefreie UI-Bausteine bereit,
+    mit denen Teams schneller hochwertige Anwendungen entwickeln können.
   </p>
-  <div class="lp-vorteile">
-    <sbb-card color="transparent-bordered" class="sbb-card-spacing-l">
-      <sbb-icon name="app-icon-medium"></sbb-icon>
-      <sbb-title level="2" visual-level="4">Konsistente User Experience über alle Produkte hinweg.</sbb-title>
-    </sbb-card>
-    <sbb-card color="transparent-bordered" class="sbb-card-spacing-l">
-      <sbb-icon name="piggy-bank-medium"></sbb-icon>
-      <sbb-title level="2" visual-level="4">Geringere Design- und Entwicklungs&shy;aufwände.</sbb-title>
-    </sbb-card>
-    <sbb-card color="transparent-bordered" class="sbb-card-spacing-l">
-      <sbb-icon name="colour-palette-brush-medium"></sbb-icon>
-      <sbb-title level="2" visual-level="4">Einhaltung der Corporate-Design-Vorgaben.</sbb-title>
-    </sbb-card>
-    <sbb-card color="transparent-bordered" class="sbb-card-spacing-l">
-      <sbb-icon name="user-group-medium"></sbb-icon>
-      <sbb-title level="2" visual-level="4">Bessere Barriere&shy;freiheit und Produktqualität.</sbb-title>
-    </sbb-card>
-  </div>
 </sbb-lead-container>
 
-<sbb-container background-expanded color="milk" class="lp-container">
+<sbb-container background-expanded color="milk" class="lp-container no-margin-top">
   <sbb-title level="2" visual-level="2">Was bringt Lyne meinem Produkt?</sbb-title>
   <div class="sbb-grid-only lp-flipcards">
     <sbb-flip-card class="lp-flip-card-1">
       <sbb-flip-card-summary image-alignment="after">
         <sbb-title level="4">Schnellere Produktentwicklung.</sbb-title>
-        <sbb-image slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
+        <sbb-image style="display:none" slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Schnellere Produktentwicklung.</sbb-title>
-        Vorgefertigte, dokumentierte Komponenten und klare Gestaltungsrichtlinien beschleunigen die Entwicklung neuer Produkte erheblich. Teams müssen wiederkehrende Elemente wie Buttons, Formulare oder Navigationen nicht jedes Mal neu konzipieren und können sich auf das konzentrieren, was ihr Produkt wirklich auszeichnet.
+        Vorgefertigte, dokumentierte Komponenten und klare Gestaltungsrichtlinien beschleunigen die Entwicklung neuer Produkte erheblich. Teams müssen wiederkehrende Elemente wie Buttons, Formulare oder Navigationen nicht jedes Mal neu konzipieren und können sich auf das konzentrieren, was ihr Produkt wirklich auszeichnet. Über Themes passt sich das UI an den Anwendungszweck an – ob kompakt für datenreiche Oberflächen oder mit neutraler Farbgebung für Branchen-Applikationen.
       </sbb-flip-card-details>
     </sbb-flip-card>
     <sbb-flip-card class="lp-flip-card-2">
       <sbb-flip-card-summary image-alignment="below">
         <sbb-title level="4">Höhere Produktqualität.</sbb-title>
-        <sbb-image slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
+        <sbb-image style="display:none" slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Höhere Produktqualität.</sbb-title>
-        Sorgfältig getestete und gepflegte Komponenten gewährleisten ein durchgängig hohes Qualitätsniveau über alle Anwendungen hinweg. Barrierefreiheit ist dabei von Anfang an integriert – so stellen wir sicher, dass unsere digitalen Angebote den WCAG-Standards entsprechen und für alle Nutzenden zugänglich sind.
+        Sorgfältig getestete und gepflegte Komponenten gewährleisten ein durchgängig hohes Qualitätsniveau über alle Anwendungen hinweg. Barrierefreiheit ist dabei von Anfang an integriert – so stellen wir sicher, dass unsere digitalen Angebote den WCAG-Standards entsprechen und für alle Nutzenden zugänglich sind. Und mit dem mitgelieferten Dark Mode wirken Anwendungen in jeder Umgebung angenehm und durchdacht.
       </sbb-flip-card-details>
     </sbb-flip-card>
     <sbb-flip-card class="lp-flip-card-3">
       <sbb-flip-card-summary image-alignment="below">
         <sbb-title level="4">Zukunftssichere Technologie.</sbb-title>
-        <sbb-image slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
+        <sbb-image style="display:none" slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Zukunftssichere Technologie.</sbb-title>
@@ -90,12 +74,12 @@ eleventyExcludeFromCollections: true
     </sbb-flip-card>
     <sbb-flip-card class="lp-flip-card-4">
       <sbb-flip-card-summary image-alignment="below">
-        <sbb-title level="4">Konsistente Marke.</sbb-title>
-        <sbb-image slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
+        <sbb-title level="4">Konsistente User Experience & Marke.</sbb-title>
+        <sbb-image style="display:none" slot="image" alt="Zugbegleiterin bei der Billettkontrolle" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Billetkontrolle.jpg"></sbb-image>
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Konsistente Marke.</sbb-title>
-        Einheitliche Gestaltung, Sprache und Interaktionsmuster über alle digitalen Touchpoints hinweg schaffen ein wiedererkennbares Erlebnis. Kundinnen und Kunden finden sich in jeder SBB-Anwendung sofort zurecht – das stärkt Vertrauen und festigt die Marke nachhaltig.
+        Einheitliche Gestaltung, Sprache und Interaktionsmuster über alle digitalen Touchpoints hinweg schaffen ein wiedererkennbares & einheitliches Erlebnis. Kundinnen, Kunden und Mitarbeitende finden sich in jeder SBB-Anwendung sofort zurecht – das stärkt Vertrauen und festigt die Marke nachhaltig.
       </sbb-flip-card-details>
     </sbb-flip-card>
   </div>
@@ -103,39 +87,54 @@ eleventyExcludeFromCollections: true
 
 
 <sbb-container background-expanded color="white" class="lp-container">
-  <sbb-title level="2" visual-level="2">Wann spart Lyne Kosten?</sbb-title>
+  <sbb-title level="2" visual-level="2">Was kostet Lyne und was bringt es?</sbb-title>
   <sbb-table-wrapper>
     <table class="sbb-table">
       <tbody>
         <tr>
-          <td></td>
+          <td>Use Cases</td>
           <td><strong>Wirtschaftlicher Effekt</strong></td>
           <td><strong>Qualitativer Effekt</strong></td>
         </tr>
         <tr>
           <td><strong>Neues internes Produkt für unsere Mitarbeitenden</strong></td>
-          <td>Kosteneinsparung durch fertige Komponenten.</td>
-          <td>Qualitativ hochwertiges UI: barrierefrei, responsiv, mit Light- und Darkmode.</td>
+          <td><ul><li>Sofort: Spart kosten durch fertige Komponenten.</li></ul></td>
+          <td><ul><li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li></ul></td>
         </tr>
         <tr>
           <td><strong>Neues Produkt für unsere Kundinnen und Kunden</strong></td>
-          <td>Kosteneinsparung durch fertige Komponenten, insbesondere dann, wenn die Anwendung barrierefrei sein muss.</td>
-          <td>Qualitativ hochwertiges UI: barrierefrei, responsiv, mit Light- und Darkmode.</td>
+          <td><ul><li>Sofort: Spart Kosten durch fertige Komponenten</li>
+              <li>Sofort: Weniger Aufwand für das Sicherstellen von Barrierefreiheit</li></ul>
+          </td>
+          <td><ul><li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode</li></ul></td>
         </tr>
         <tr>
           <td><strong>Neues Produkt für die Branche</strong></td>
-          <td>Kosteneinsparung durch fertige Komponenten.</td>
-          <td>Das UI lässt sich mit wenigen Handgriffen in ein neutrales Branchen-Kleid umziehen – und ebenso wieder zurück in ein SBB-Kleid.</td>
+          <td><ul><li>Sofort: Spart Kosten durch fertige Komponenten</li>
+              <li>Sofort: Kein Aufwand für Branding-Anpassungen</li></ul>
+          </td>
+          <td><ul><li>Flexibel wechseln zwischen SBB- und Branchenkleid</li>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode</li></ul>
+          </td>
         </tr>
         <tr>
           <td><strong>1:1-Migration eines bestehenden Produkts</strong></td>
-          <td>Kurzfristig neutral oder leicht negativ. Langfristig Kosteneinsparungen und geringerer Betriebsaufwand bei UI-Komponenten.</td>
-          <td>Das Produkt profitiert von laufenden Qualitätsverbesserungen und neuen Komponenten.</td>
+          <td><ul><li>Kurzfristig: Mehrkosten möglich für die Migration.</li> 
+              <li>Langfristig: Kosteineinsparung und weniger Betriebsaufwand</li></ul>
+          </td>
+          <td><ul><li>Laufende Qualitätsverbesserungen und neue Komponenten</li>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode</li></ul>
+          </td>
         </tr>
         <tr>
           <td><strong>Migration von Altsystem kombiniert mit Redesign</strong></td>
-          <td>Kurzfristig und allenfalls mittelfristig negativ. Langfristig Kosteneinsparungen und geringerer Betriebsaufwand bei UI-Komponenten.</td>
-          <td>Das Produkt profitiert von laufenden Qualitätsverbesserungen und neuen Komponenten. Durch das Redesign verbessert sich zusätzlich die User Experience.</td>
+          <td><ul><li>Kurz- bis Mittelfristig: Mehrkosten</li>
+              <li>Langfristig: Kosteneinsparung und weniger Betriebsaufwand</li></ul>
+          </td>
+          <td><ul><li>Laufende Qualitätsverbesserungen und neue Komponenten</li>
+              <li>Verbesserte User Experience durch Redesign</li>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode</li></ul>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -164,7 +163,6 @@ eleventyExcludeFromCollections: true
           <sbb-expansion-panel-header>Wie lange läuft die alte Angular Library noch?</sbb-expansion-panel-header>
           <sbb-expansion-panel-content>Die alte <sbb-link href="https://angular.app.sbb.ch" target="_blank">Angular Library</sbb-link> wird noch bis zum 31. Dezember 2028 gewartet. Danach bleibt die Library zwar verfügbar, die Wartung wird aber eingestellt. Sofern dein Produkt oder deine Plattform einen längeren Lifecycle hat, ist eine Migration empfohlen.</sbb-expansion-panel-content>
         </sbb-expansion-panel>
-      </sbb-accordion>
       <sbb-expansion-panel color="white">
           <sbb-expansion-panel-header>Kann ich die alte Angular Library mit Lyne gleichzeitg nutzen?</sbb-expansion-panel-header>
           <sbb-expansion-panel-content>Nein. Die Libraries sind nicht kompatibel und stören sich gegenseitig.</sbb-expansion-panel-content>
@@ -178,7 +176,7 @@ eleventyExcludeFromCollections: true
 <sbb-container background-expanded color="white" class="lp-container">
   <div class="sbb-grid-only">
     <div class="inset">
-      <sbb-title level="2" visual-level="2">Wie verbessert Lyne die Produktqualität?</sbb-title>
+      <sbb-title level="2" visual-level="2">4 Gründe für Lyne.</sbb-title>
       <ol class="sbb-step-list sbb-text-m">
         <li><strong>Barrierefreiheit</strong>
           <p class="subtext">Alle Komponenten erfüllen die aktuellen Barrierefreiheits-Standards nach WCAG 2.2.</p>
@@ -204,9 +202,12 @@ eleventyExcludeFromCollections: true
 
   <div class="roadmap-teaser">
     <sbb-card color="white" class="sbb-card-spacing-l">
-      <sbb-icon name="coins-medium"></sbb-icon>
-      <sbb-title level="2" visual-level="4">Finanzierung.</sbb-title>
-      <p class="subtext">Die Finanzierung des Design Systems ist langfristig gesichert.</p>
+      <sbb-icon name="street-location-pin-medium"></sbb-icon>
+      <sbb-title level="2" visual-level="4">Roadmap.</sbb-title>
+      <sbb-block-link-button id="overlay-trigger">Übersicht</sbb-block-link-button>
+      <sbb-block-link href="https://github.com/sbb-design-systems/lyne-components/milestones" target="_blank">Milestones</sbb-block-link>
+      <sbb-block-link href="https://github.com/sbb-design-systems/lyne-components/releases" target="_blank">Releases</sbb-block-link>
+      <sbb-block-link href="https://github.com/sbb-design-systems/lyne-components" target="_blank">GitHub</sbb-block-link>
     </sbb-card>
     <sbb-card color="white" class="sbb-card-spacing-l">
       <sbb-icon name="display-binary-code-medium"></sbb-icon>
@@ -214,12 +215,9 @@ eleventyExcludeFromCollections: true
       <p class="subtext">Lyne basiert auf modernen Webstandards und ist damit langfristig nutzbar.</p>
     </sbb-card>
     <sbb-card color="white" class="sbb-card-spacing-l">
-      <sbb-icon name="street-location-pin-medium"></sbb-icon>
-      <sbb-title level="2" visual-level="4">Roadmap.</sbb-title>
-      <sbb-block-link-button id="overlay-trigger">Übersicht</sbb-block-link-button>
-      <sbb-block-link href="https://github.com/sbb-design-systems/lyne-components/milestones" target="_blank">Milestones</sbb-block-link>
-      <sbb-block-link href="https://github.com/sbb-design-systems/lyne-components/releases" target="_blank">Releases</sbb-block-link>
-      <sbb-block-link href="https://github.com/sbb-design-systems/lyne-components" target="_blank">GitHub</sbb-block-link>
+      <sbb-icon name="coins-medium"></sbb-icon>
+      <sbb-title level="2" visual-level="4">Finanzierung.</sbb-title>
+      <p class="subtext">Die Finanzierung des Design Systems ist langfristig gesichert.</p>
     </sbb-card>
   </div>
 </sbb-container>
@@ -234,9 +232,9 @@ eleventyExcludeFromCollections: true
         <div class="card-content">
           <sbb-icon name="four-diamonds-medium"></sbb-icon>
           <sbb-title level="2" visual-level="4">Neue Anforderungen einbringen.</sbb-title>
-          <p class="subtext">Dein Team braucht eine neue Komponente? Ob diese ins Design System passt, erfährst du hier:</p>
+          <p class="subtext">Dein Team braucht eine neue Komponente? Finde heraus, ob diese zu Lyne passt.</p>
         </div>
-        <sbb-secondary-button-static size="m">Passt es zu Lyne?</sbb-secondary-button-static>
+        <sbb-secondary-button-static size="m">Kriterien prüfen</sbb-secondary-button-static>
       </div>
     </sbb-card>
     <sbb-card color="milk" class="sbb-card-spacing-l">
@@ -247,7 +245,7 @@ eleventyExcludeFromCollections: true
           <sbb-title level="2" visual-level="4">Lyne ist Open Source.</sbb-title>
           <p class="subtext">Teams können Verbesserungen vorschlagen, Bugs melden und Code beitragen.</p>
         </div>
-        <sbb-secondary-button-static size="m">Etwas beitragen</sbb-secondary-button-static>
+        <sbb-secondary-button-static size="m">Auf Github beitragen</sbb-secondary-button-static>
       </div>
     </sbb-card>
     <sbb-card color="milk" class="sbb-card-spacing-l">
@@ -287,7 +285,7 @@ eleventyExcludeFromCollections: true
           <sbb-title level="3" visual-level="4">Beratung zur Entwicklung.</sbb-title>
           <p class="subtext">Fragen rund um die Entwicklung können in unserem Teams-Kanal gestellt werden.</p>
         </div>
-        <sbb-secondary-button-static size="m">Frage im Teams-Kanal stellen</sbb-secondary-button-static>
+        <sbb-secondary-button-static size="m">Teams-Kanal beitreten</sbb-secondary-button-static>
       </div>
     </sbb-card>
   </div>
@@ -331,7 +329,7 @@ eleventyExcludeFromCollections: true
       {% endfor %}
     </div>
 
-  <sbb-screen-reader-only>
+  <div class="sbb-screen-reader-only">
     <summary>Roadmap als Liste</summary>
     {% for l in lyne.roadmap.lanes %}
       <h3>{{ l.title }}</h3>
@@ -348,6 +346,6 @@ eleventyExcludeFromCollections: true
         <p><em>Laufend</em></p>
       {% endif %}
     {% endfor %}
-  </sbb-screen-reader-only>
+  </div>
 
 </sbb-overlay>

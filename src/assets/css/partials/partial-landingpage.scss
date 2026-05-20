@@ -19,6 +19,10 @@
     margin-block: var(--sbb-spacing-responsive-l);
     padding-block: var(--sbb-spacing-responsive-l);
 
+    &.no-margin-top {
+        margin-block-start: 0;
+    }
+
     .subtext {
         color: var(--sbb-color-4);
     }
