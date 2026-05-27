@@ -9,10 +9,13 @@
       "id": "lyne-elements",
       "title": "Lyne Elements",
       "items": [
-        { "title": "Extended Calendar",                           "start": "2026-01", "end": "2026-03", "row": 1  },
-        { "title": "Autocomplete Grid",                           "start": "2026-04", "end": "2026-06", "row": 2   },
-        { "title": "CSS Optimization",                            "start": "2026-04", "end": "2026-09", "row": 1   },
-        { "title": "Refactoring Time-Table Components",           "start": "2026-10", "end": "2027-03", "row": 1   },
+        { "title": "Pearl-Chain",                           "start": "2026-07", "end": "2026-09", "row": 1   },
+        { "title": "AI-Agent Evaluation",                    "start": "2026-07", "end": "2026-09", "row": 2   },
+        { "title": "CSS Optimization",                            "start": "2026-01", "end": "2026-06", "row": 2, "type": "done"  },
+        { "title": "Enhanced Calendar",                            "start": "2026-01", "end": "2026-03", "row": 1, "type": "done"   },
+        { "title": "Refactoring Time-Table Components",           "start": "2026-10", "end": "2027-06", "row": 2   },
+        { "title": "Layout Überarbeitung",           "start": "2026-10", "end": "2027-03", "row": 1   },
+
         { "title": "Kleinere / Mittlere Feature-Wünsche aus DSO", "start": "2026-01", "end": "2029-03", "row": 3   }
       ]
     },
@@ -20,12 +23,11 @@
       "id": "lyne-angular",
       "title": "Lyne Angular",
       "items": [
-        { "title": "Blueprint-Integration",            "start": "2026-01", "end": "2026-03", "row": 1 },
+        { "title": "Blueprint-Integration",            "start": "2026-01", "end": "2026-03", "row": 1, "type": "done"   },
+        { "title": "Showcase",            "start": "2026-01", "end": "2026-03", "row": 2, "type": "done"   },
+
         { "title": "Schematics",                       "start": "2026-04", "end": "2026-06", "row": 1 },
-        { "title": "Bedürfnisklärung Migrationshilfe", "start": "2026-09", "end": "2026-11", "row": 1 },
-        { "title": "Migrationshilfe",                  "start": "2026-12", "end": "2027-05", "row": 1, "type": "planned" },
-        { "title": "Documentation Showcase",           "start": "2026-01", "end": "2026-03", "row": 2 },
-        { "title": "Migration Guide",                  "start": "2026-09", "end": "2026-12", "row": 2 }
+        { "title": "Migrationshilfe",                  "start": "2026-08", "end": "2027-03", "row": 1 }
       ]
     },
     {
