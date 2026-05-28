@@ -84,25 +84,71 @@
 }
 
 .lp-flipcards {
-  .lp-flip-card-1 {
-    grid-column: 1 / 10;
-    grid-row: 1;
-  }
 
-  .lp-flip-card-2 {
-    grid-column: 10 / 17;
-     grid-row: 1;
-  }
+    .lp-flip-card-1 {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
 
-  .lp-flip-card-3 {
-    grid-column: 1 / 7;
-     grid-row: 2;
-  }
+    .lp-flip-card-2 {
+        grid-column: 1 / 5;
+        grid-row: 2;
+    }
 
-  .lp-flip-card-4 {
-    grid-column: 7 / 17;
-     grid-row: 2;
-  }
+    .lp-flip-card-3 {
+        grid-column: 1 / 5;
+        grid-row: 3;
+    }
+
+    .lp-flip-card-4 {
+        grid-column: 1 / 5;
+        grid-row: 4;
+    }
+    @include sbb.mq($from: small) {
+
+     .lp-flip-card-1 {
+        grid-column: 1 / 9;
+        grid-row: 1;
+    }
+
+    .lp-flip-card-2 {
+        grid-column: 1 / 9;
+        grid-row: 2;
+    }
+
+    .lp-flip-card-3 {
+        grid-column: 1 / 9;
+        grid-row: 3;
+    }
+
+    .lp-flip-card-4 {
+        grid-column: 1 / 9;
+        grid-row: 4;
+    }
+    }
+
+    @include sbb.mq($from: large) {
+
+        .lp-flip-card-1 {
+            grid-column: 1 / 10;
+            grid-row: 1;
+        }
+
+        .lp-flip-card-2 {
+            grid-column: 10 / 17;
+            grid-row: 1;
+        }
+
+        .lp-flip-card-3 {
+            grid-column: 1 / 7;
+            grid-row: 2;
+        }
+
+        .lp-flip-card-4 {
+            grid-column: 7 / 17;
+            grid-row: 2;
+        }
+    }
 
 
 }
