@@ -84,7 +84,6 @@
 }
 
 .lp-flipcards {
-
     .lp-flip-card-1 {
         grid-column: 1 / 5;
         grid-row: 1;
@@ -105,7 +104,6 @@
         grid-row: 4;
     }
     @include sbb.mq($from: small) {
-
      .lp-flip-card-1 {
         grid-column: 1 / 9;
         grid-row: 1;
@@ -128,7 +126,6 @@
     }
 
     @include sbb.mq($from: large) {
-
         .lp-flip-card-1 {
             grid-column: 1 / 10;
             grid-row: 1;
