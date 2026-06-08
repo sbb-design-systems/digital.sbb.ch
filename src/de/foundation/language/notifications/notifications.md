@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: notifications_de
 title: Benachrichtigungen
+alternativetitle: Benachrichtigungen.
 parent: language_de
 order: 3
 ---

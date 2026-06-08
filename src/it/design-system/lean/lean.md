@@ -5,6 +5,7 @@ system: lean
 tags: level2
 key: lean_it
 title: Lean (Legacy)
+alternativetitle: Lean (Legacy).
 redirect: /it/design-system/lean/overview/
 parent: designsystem_it
 order: 60

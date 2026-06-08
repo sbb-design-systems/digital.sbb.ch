@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: forms_fr
 title: Les formulaires et champs de saisie
+alternativetitle: Les formulaires et champs de saisie.
 parent: language_fr
 order: 4
 ---

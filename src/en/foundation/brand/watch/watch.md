@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: watch_en
 title: Digital clock 
+alternativetitle: Digital clock.
 parent: brand_en
 order: 3
 ---

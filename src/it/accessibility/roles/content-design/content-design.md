@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: content-design_it
 title: Content Design
+alternativetitle: Content Design.
 parent: roles_it
 order: 6
 ---

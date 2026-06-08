@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: product-owner_it
 title: Product Owner
+alternativetitle: Product Owner.
 parent: roles_it
 order: 1
 ---

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: interaction-design_it
 title: Interaction Design
+alternativetitle: Interaction Design.
 parent: roles_it
 order: 3
 ---

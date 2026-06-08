@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: copyrights_de
 title: Nutzungsrechte
+alternativetitle: Nutzungsrechte.
 parent: brand_de
 order: 4
 ---

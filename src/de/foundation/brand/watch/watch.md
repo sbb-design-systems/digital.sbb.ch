@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: watch_de
 title: Digitale Uhr
+alternativetitle: Digitale Uhr.
 parent: brand_de
 order: 3
 ---

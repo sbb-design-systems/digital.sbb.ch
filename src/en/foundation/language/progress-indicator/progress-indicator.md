@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: progress_indicator_en
 title: Progress indicators
+alternativetitle: Progress indicators.
 parent: language_en
 order: 5
 ---

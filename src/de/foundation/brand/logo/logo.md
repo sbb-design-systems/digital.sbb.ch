@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: logo_de
 title: Logo
+alternativetitle: Logo.
 parent: brand_de
 order: 2
 ---

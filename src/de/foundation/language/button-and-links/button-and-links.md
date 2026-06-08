@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: button_and_links_de
 title: Button- und Linktexte
+alternativetitle: Button- und Linktexte.
 parent: language_de
 order: 2
 ---

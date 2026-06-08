@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: visual-design_it
 title: Visual Design
+alternativetitle: Visual Design.
 parent: roles_it
 order: 4
 ---

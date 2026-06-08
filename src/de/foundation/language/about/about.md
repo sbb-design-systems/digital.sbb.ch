@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: about_ux_writing_de
 title: Über UX Writing
+alternativetitle: Über UX Writing.
 parent: language_de
 order: 1
 ---

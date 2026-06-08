@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: wordlist_en
 title: Digital word list
+alternativetitle: Digital word list.
 parent: language_en
 order: 6
 ---

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: forms_en
 title: Forms and inputs
+alternativetitle: Forms and inputs.
 parent: language_en
 order: 2
 ---

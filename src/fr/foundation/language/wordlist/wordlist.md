@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: wordlist_fr
 title: Liste de mots numériques
+alternativetitle: Liste de mots numériques.
 parent: language_fr
 order: 6
 ---

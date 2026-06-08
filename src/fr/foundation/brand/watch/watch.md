@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: watch_fr
 title: Horloge numérique
+alternativetitle: Horloge numérique.
 parent: brand_fr
 order: 3
 ---
