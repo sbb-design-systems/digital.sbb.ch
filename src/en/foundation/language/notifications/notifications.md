@@ -20,7 +20,7 @@ Recommendations:
 * **Use punctuation deliberately.** For error messages on input fields, do not use a full stop unless it is a complete sentence.
 * **Allow actions to be undone.** Offer the option to undo critical changes or deleted content, for example via an “Undo” option in toasts.
 
-#### Notification
+#### Notification.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/en/notification_light',
@@ -45,7 +45,7 @@ Recommendations:
 
 <br>
 
-#### Toast
+#### Toast.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/en/toast_light',
@@ -75,7 +75,7 @@ Recommendations:
 <br>
 
 
-#### Dialog
+#### Dialog.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/en/dialog_light',
@@ -98,7 +98,7 @@ Recommendations:
 <br>
 
 
-#### Error (Form-Field)
+#### Error (Form-Field).
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/en/time_input_light',
@@ -121,7 +121,7 @@ Recommendations:
 
 <br>
 
-#### Message
+#### Message.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/en/message_with_image_light',

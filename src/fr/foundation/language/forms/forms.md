@@ -12,7 +12,7 @@ Les formulaires et les champs de saisie utilisent des libellés, des indications
 
 Leur objectif est de clarifier les attentes, d'éviter les erreurs et de rendre la saisie aussi simple et sûre que possible.
 
-## Les libellés
+## Les libellés.
 
 Les libellés (labels) indiquent clairement ce qui doit être saisi. Elles donnent une orientation et réduisent les doutes.
 
@@ -40,7 +40,7 @@ Exemples:
     </div>    
 </div>
 
-## Espaces réservés
+## Espaces réservés.
 
 Les espaces réservés (placeholders) donnent des indications et aident à la saisie.
 

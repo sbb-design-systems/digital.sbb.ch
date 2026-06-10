@@ -12,7 +12,7 @@ Forms and inputs use labels, hints and placeholders to show users how to fill in
 
 Their goal is to clarify expectations, prevent errors and make data entry as simple and reliable as possible.
 
-## Labels
+## Labels.
 
 Labels clearly name what should be entered. They provide orientation and reduce uncertainty.
 
@@ -40,7 +40,7 @@ Examples:
     </div>    
 </div>
 
-## Placeholders
+## Placeholders.
 
 Placeholders provide hints and assist with data entry.
 

@@ -15,14 +15,14 @@ Manche Begriffe suggerieren ein ähnliches Ergebnis, erzeugen aber eine andere E
 Andere Begriffe sind Synonyme, die inhaltlich praktisch austauschbar sind, zum Beispiel «Absenden» und «Senden». In diesen Fällen geben wir einen empfohlenen Begriff vor, um über verschiedene Applikationen hinweg Konsistenz zu erreichen.
 
 <sbb-notification readonly>
-  <sbb-title level="3">Hinweis zur Verwendung</sbb-title>
+  <sbb-title level="3">Hinweis zur Verwendung.</sbb-title>
   Die digitale Wörterliste soll dich unterstützen, welche Begriffe in welchem Kontext bevorzugt werden. Es sind keine verbindlichen Regeln. Je nach Kontext kann bewusst von der Empfehlung abgewichen werden.
 </sbb-notification>
 
 </br>
 
 <sbb-container color="milk" expanded="" class="wordlist">
-    <sbb-title level="3">Begriffsübersicht</sbb-title>
+    <sbb-title level="3">Begriffsübersicht.</sbb-title>
     <div class="wordlist-search">
         <sbb-form-field style="width: 100%;">
             <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>

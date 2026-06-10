@@ -13,7 +13,7 @@ Les textes de boutons et de liens sont des libellés courts et pratiques.
 
 Leur objectif est de guider les utilisatrices et utilisateurs avec le moins de mots possible, de réduire les incertitudes et de faciliter la prise de décision.
 
-## Les boutons
+## Les boutons.
 
 Les boutons sont des déclencheurs d’actions et ne sont pas des surfaces explicatives. Ils permettent de visualiser en un coup d’œil l’action qui sera effectuée au clic.
 
@@ -54,7 +54,7 @@ Exemples:
     </div>    
 </div>
 
-## Les liens
+## Les liens.
 
 Les liens mènent à d'autres contenus ou contextes. Leur libellé doit indiquer clairement où mène le lien ou ce que les utilisateurs peuvent y trouver.
 

@@ -20,7 +20,7 @@ Recommandations:
 * **Utilise la ponctuation de manière consciente.** Pour les messages d'erreur relatifs aux champs de saisie, n'utilise pas de point final, sauf s'il s'agit d'une phrase complète.
 * **Permets d'annuler les actions.** Offre la possibilité d'annuler les modifications critiques ou les contenus supprimés, par exemple via une option «Annuler» dans les toasts.
 
-#### Notification
+#### Notification.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/fr/notification_light',
@@ -46,7 +46,7 @@ Recommandations:
 
 <br>
 
-#### Toast
+#### Toast.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/fr/toast_light',
@@ -76,7 +76,7 @@ Recommandations:
 <br>
 
 
-#### Dialog
+#### Dialog.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/fr/dialog_light',
@@ -100,7 +100,7 @@ Recommandations:
 <br>
 
 
-#### Error (Form-Field)
+#### Error (Form-Field).
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/fr/time_input_light',
@@ -123,7 +123,7 @@ Recommandations:
 
 <br>
 
-#### Message
+#### Message.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/fr/message_with_image_light',

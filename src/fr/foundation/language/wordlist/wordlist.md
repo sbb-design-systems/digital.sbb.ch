@@ -15,14 +15,14 @@ Certains termes suggèrent un résultat similaire mais génèrent une attente di
 D'autres termes sont des synonymes interchangeables, par exemple «Soumettre» et «Envoyer». Dans ces cas, nous définissons un terme recommandé afin d'assurer la cohérence entre les différentes applications.
 
 <sbb-notification readonly>
-  <sbb-title level="3">Remarque sur l'utilisation</sbb-title>
+  <sbb-title level="3">Remarque sur l'utilisation.</sbb-title>
   La liste de mots numérique est destinée à t'aider à choisir les termes à privilégier selon le contexte. Ce ne sont pas des règles contraignantes. En fonction du contexte, il est possible de déroger délibérément aux recommandations.
 </sbb-notification>
 
 </br>
 
 <sbb-container color="milk" expanded="" class="wordlist-fr">
-    <sbb-title level="3">Liste des termes</sbb-title>
+    <sbb-title level="3">Liste des termes.</sbb-title>
     <div class="wordlist-search">
         <sbb-form-field style="width: 100%;">
             <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>

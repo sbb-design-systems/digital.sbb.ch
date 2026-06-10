@@ -10,11 +10,11 @@ order: 1
 
 UX Writing ist ein zentraler Bestandteil der User Experience. Texte in digitalen Produkten haben direkten Einfluss darauf, wie Nutzer:innen Aufgaben verstehen, Entscheidungen treffen und sich während der Bedienung fühlen. Gutes UX Writing ist kurz, verständlich, handlungsorientiert und unterstützt die Nutzer:innen dabei, ihre Ziele schnell und zuverlässig zu erreichen.
 
-## Tonalität der Sprache
+## Tonalität der Sprache.
 Ein zentraler Aspekt von UX Writing ist die Tonalität der verwendeten Sprache. Diese soll auf die Zielgruppe angepasst sein und der Marke SBB entsprechen. Mehr dazu, wie wir bei der SBB schreiben, findest du auf dem <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/hub">Markenportal</sbb-link>. Dort findest du auch die <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen vom Sprachdienst</sbb-link>, wie zum Beispiel Übersetzen und Korrekturlesen.
 
 
-## Microcopy
+## Microcopy.
 In digitalen Anwendungen sind bereits kleinste Textteile und Formulierungen entscheidend für das Nutzungserlebnis. «Microcopy» bezeichnet diese kleinen (und oft übersehenen) Textelemente. 
 
 Ziel dieser Microcopy ist es, mit möglichst wenigen Wörtern die Nutzer:innen optimal zu führen, Unsicherheiten zu reduzieren und Entscheidungen zu erleichtern.  
@@ -33,13 +33,13 @@ Allgemeine Empfehlungen:
 </br>
 
 <sbb-notification type="info" readonly="">
-    <sbb-title level="3">Interne Begriffe und Abkürzungen</sbb-title>
+    <sbb-title level="3">Interne Begriffe und Abkürzungen.</sbb-title>
     Verwende interne Begriffe und Abkürzungen nur, wenn diese in der Zielgruppe bekannt sind. Dabei kann auch das <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link> helfen. Wenn du nicht sicher bist, ob die Begriffe oder Abkürzungen verstanden werden, teste sie mit deiner Zielgruppe.
 </sbb-notification>
 
 </br>
 
-## Microcopy im Detail
+## Microcopy im Detail.
 
 Für diese Elemente gibt es zusätzliche Empfehlungen:
 
@@ -49,13 +49,13 @@ Für diese Elemente gibt es zusätzliche Empfehlungen:
 <sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Fortschrittsanzeige</sbb-link>
 
 
-## Digitale Wörterliste
+## Digitale Wörterliste.
 Viele Wörter sagen das Gleiche. Die digitale Wörterliste liefert dir die gebräuchlisten Begriffe.
 
 <sbb-secondary-button-link icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/wordlist"> Digitale Wörterliste</sbb-secondary-button-link>
 
 
-## Weitere Hilfsmittel
+## Weitere Hilfsmittel.
 
 <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">SBB Wörterbuch</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/document/6#/sprache/dienstleistungen">Dienstleistungen Sprachdienst (mit SBB Login zugänglich)</sbb-link>

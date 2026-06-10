@@ -12,7 +12,7 @@ Button and link texts are short, action-oriented labels.
 
 Their goal is to guide users with as few words as possible, reduce uncertainty and facilitate decision-making.
 
-## Buttons
+## Buttons.
 
 Buttons are action triggers, not spaces for explanations. They let users instantly know what will happen when clicked.
 
@@ -53,7 +53,7 @@ Examples:
     </div>    
 </div>
 
-## Links
+## Links.
 
 Links lead to additional content or contexts. The label must give a clear indication of where the link leads to or what users can expect there.
 
@@ -113,7 +113,7 @@ Examples:
 </br>
 
 <sbb-notification type="info" readonly="">
-    <sbb-title level="3">Title case vs. Sentence case</sbb-title>
+    <sbb-title level="3">Title case vs. Sentence case.</sbb-title>
     We use sentence case as studies have proven it is better in terms of readability. </br>
     The only exception to this are product names which are in uppercase, for example: Buy a Half Fare Travelcard. 
 </sbb-notification>

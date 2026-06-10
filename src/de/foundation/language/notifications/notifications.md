@@ -20,7 +20,7 @@ Empfehlungen:
 * **Setze Punkte bewusst.** Setze bei Fehlermeldungen zu Inputfeldern keinen Schlusspunkt, ausser bei vollständigen Sätzen.
 * **Ermögliche, Aktionen rückgängig zu machen.** Biete die Möglichkeit, kritische Änderungen oder gelöschte Inhalte zurückzunehmen, etwa über eine «Rückgängig»-Option in Toasts.
 
-#### Notification
+#### Notification.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/notification_light',
@@ -45,7 +45,7 @@ Empfehlungen:
 
 <br>
 
-#### Toast
+#### Toast.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/toast_light',
@@ -75,7 +75,7 @@ Empfehlungen:
 <br>
 
 
-#### Dialog
+#### Dialog.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/dialog_light',
@@ -98,7 +98,7 @@ Empfehlungen:
 <br>
 
 
-#### Error (Form-Field)
+#### Error (Form-Field).
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/time_input_light',
@@ -121,7 +121,7 @@ Empfehlungen:
 
 <br>
 
-#### Message
+#### Message.
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/message_with_image_light',

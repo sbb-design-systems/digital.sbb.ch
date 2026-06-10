@@ -10,11 +10,11 @@ order: 1
 
 Le UX writing est un élément central de l'expérience utilisateur. Les textes dans les produits numériques influencent directement la façon dont les utilisateurs et utilisatrices comprennent les tâches, prennent des décisions et se sentent lors de l'utilisation. Un bon UX writing est court, compréhensible, orienté vers l'action et aide les utilisateurs à atteindre leurs objectifs rapidement et de manière fiable.
 
-## Tonalité du langage
+## Tonalité du langage.
 Un aspect central du UX writing est la tonalité du langage. Celle-ci doit être adaptée au groupe cible et correspondre à <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/2/fr#/notre-marque/la-marque-cff">la marque CFF</sbb-link>. Pour en savoir plus sur la façon dont nous écrivons aux CFF, consultez le portail de la marque. Vous y trouverez également <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/6/fr#/langue/prestations">les services du service linguistique</sbb-link>, comme la traduction et la relecture.
 
 
-## Microcopy
+## Microcopy.
 Dans les applications numériques, même les plus petits éléments de texte et formulations sont déterminants pour l'expérience utilisateur. Le terme «microcopy» désigne ces petits éléments textuels (souvent négligés). 
 
 L'objectif de cette microcopy est de guider les utilisateurs de manière optimale avec le moins de mots possible, de réduire les incertitudes et de faciliter les décisions.
@@ -34,13 +34,13 @@ Recommandations générales:
 </br>
 
 <sbb-notification type="info" readonly="">
-    <sbb-title level="3">Termes internes et abréviations</sbb-title>
+    <sbb-title level="3">Termes internes et abréviations.</sbb-title>
     N'utilise les termes internes et les abréviations que s'ils sont connus du groupe cible. <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">Le glossaire CFF </sbb-link> peut également être utile. Si tu n'es pas sûr·e que les termes ou abréviations seront compris, teste-les avec ton groupe cible.
 </sbb-notification>
 
 </br>
 
-## La microcopy en détail
+## La microcopy en détail.
 
 Il existe des recommandations supplémentaires pour ces éléments:
 
@@ -50,13 +50,13 @@ Il existe des recommandations supplémentaires pour ces éléments:
 <sbb-link href="/{{page.lang}}/foundation/language/progress-indicator">Indicateur de progression</sbb-link>
 
 
-## Liste de mots numérique
+## Liste de mots numérique.
 De nombreux mots disent la même chose. La liste de mots numériques te fournit les termes les plus courants.
 
 <sbb-secondary-button-link icon-name="clipboard-list-small" href="/{{page.lang}}/foundation/language/wordlist">La liste de mots numériques</sbb-secondary-button-link>
 
 
-## Autres ressources
+## Autres ressources.
 
 <sbb-link target="_blank" href="https://glossar.sbb.ch/UI7/index.xsl#Terminology">Le glossaire CFF</sbb-link>
 <sbb-link target="_blank" href="https://brand.sbb.ch/document/6/fr#/langue/prestations">Les services du service linguistique (accessible avec le login CFF)</sbb-link>

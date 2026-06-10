@@ -12,7 +12,7 @@ Formulare und Eingaben nutzen Labels, Hinweise und Platzhalter, um Nutzer:innen 
 
 Ihr Ziel ist es, Erwartungen klarzumachen, Fehler zu vermeiden und die Eingabe so einfach und sicher wie möglich zu gestalten.
 
-## Labels
+## Labels.
 
 Labels benennen klar, was eingegeben werden soll. Sie schaffen Orientierung und reduzieren Unsicherheit.
 
@@ -40,7 +40,7 @@ Beispiele:
     </div>    
 </div>
 
-## Platzhalter
+## Platzhalter.
 
 Placeholders geben Hinweise und helfen bei der Eingabe.
 
