@@ -7,6 +7,6 @@ Ein Container gruppiert zusammengehörige Inhalte, definiert Abstände zum vorhe
 * Um konsistente Abstände und Layouts innerhalb einer Seite oder Anwendung zu gewährleisten.
 * Wenn ein Sticky-Footer benötigt wird, der am unteren Rand des Containers bleibt.
 
-## Regeln
+## Regeln.
 * Jeglicher Inhalt (abgesehen von Header und Footer) ist in einem Container zu platzieren. Somit muss mindestens ein Container je Seite eingesetzt werden.
 * Die Abstände der Container können angepasst werden, sofern dies erforlderlich ist.

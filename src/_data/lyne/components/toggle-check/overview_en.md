@@ -7,6 +7,6 @@ A toggle-check allows users to switch between two states (usually "on" and "off"
 * When users need to change a setting that has an immediate effect.
 * To present binary options clearly and intuitively.
 
-## Rules
+## Rules.
 * Avoid placing too many check toggles on a page to ensure clarity and maintain usability.
 * Carefully consider which of the two components (checkbox and toggle-check) is more suitable.

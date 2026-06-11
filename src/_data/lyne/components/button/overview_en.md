@@ -7,6 +7,6 @@ A button is an interactive element that triggers an action when it is clicked.
 * To enable the user to submit forms.
 * To enable interactions for example opening dialogues or navigating to another page.
 
-## Rules
+## Rules.
 * A button should be clearly labelled and describe a specific action.
 * Avoid using multiple primary buttons on a page; secondary buttons or links should be used instead.

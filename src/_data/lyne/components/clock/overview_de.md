@@ -11,7 +11,7 @@ Die SBB Uhr gibt die Systemzeit des Ausgabegerätes in analoger Form aus. Es ist
 - Die Komponente kommt überall dort zum Einsatz, wo die genaue Zeit kommuniziert werden soll. In den meisten Fällen sind dies Ausgabegeräte mit Echtzeitinformationen zum öffentlichen Verkehr. {.lead}  
 - Die Uhr kann auch als Stilelement verwendet werden, der Kundennutzen muss jedoch in allen Fällen gewährleistet sein. {.lead}   
 
-## Regeln
+## Regeln.
 - Die Mindestgrösse der Uhr darf 75px x 75px nicht unterschreiten. {.lead}  
 - Je nach Einsatzort ist die Mindestgrösse der Betrachtungsdistanz anzupassen. Als Faustregel gilt, Betrachtungsdistanz / 60 = Uhrgrösse (z.B. 3000mm / 60 = 50mm Uhrgrösse). {.lead}  
 - Pro Seite / Ansicht soll nur eine Uhr eingesetzt werden. {.lead}  

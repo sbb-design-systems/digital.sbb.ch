@@ -21,7 +21,7 @@ Wir schätzen euren Beitrag ausserordentlich und sind überzeugt, dass ihr entsc
 | Mobile (Android/Flutter) | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">Zum Board</sbb-link>  | <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=bug%2Ctriage&template=bug-report-mobile.yml&title=%5BBug%5D%3A+">Bug Report</sbb-link>, <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=type%3A+contributing-request&template=contributing-request-mobile.yml&title=%5BContributing+request%5D%3A+">Request for contributing</sbb-link>, <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=type%3A+feature-request&template=feature-request-or-enhancement-mobile.yml&title=%5BFeature+request%5D%3A+">Feature request or enhancement</sbb-link>, <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Question</sbb-link>   |
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

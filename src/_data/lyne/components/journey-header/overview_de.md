@@ -5,5 +5,5 @@ Sie definiert die Darstellung einer Reise oder Verbindung und besteht aus einer 
 ## Wann soll die Komponente eingesetzt werden?
 * Im Fahrplan-Kontext, z.B. Als Titel einer Reiseroute.
 
-## Regeln
+## Regeln.
 * Achte darauf, dass das semantische Level korrekt gesetzt wird, damit die SEO gewährleistet ist.

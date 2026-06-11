@@ -1,6 +1,6 @@
 ---
 tags: teaserhome_en
-head: Maps
+head: Maps.
 description: Design system for displaying maps and routing on all digital channels.
 url: /en/design-system/maps/overview/
 image: /assets/images/teaser/maps.webp

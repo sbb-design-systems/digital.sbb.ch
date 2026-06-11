@@ -7,6 +7,6 @@ A link is an interactive text element that navigates users to another page or re
 * To provide links to related information or documents.
 * To provide navigation within the website or application.
 
-## Rules
+## Rules.
 * Use descriptive and meaningful link texts to help users understand the target content.
 * Links should open in a new tab if they lead to external resources.

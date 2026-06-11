@@ -7,7 +7,7 @@ Ein Kalender ist eine Komponente, die es Nutzenden ermöglicht, Datumsinformatio
 * Um die Auswahl von Datumsbereichen für Buchungen oder Planungen zu ermöglichen.
 * Um wiederkehrende Ereignisse und deren Muster darzustellen.
 
-## Regeln
+## Regeln.
 * Es können einzelne Monate oder ganze Jahre dargestellt werden.
 * Wird der Kalender im Date-Picker eingesetzt, kann nur ein Datum gewählt werden.
 * Wird der Kalender Standalone eingesetzt, so können mehrere Daten gewählt werden.

@@ -19,7 +19,7 @@ The various manifestations work in teams using the Kanban mode. The priorities o
 | Mobile                 | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">To the board</sbb-link>|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

@@ -7,7 +7,7 @@ A calendar is a component that allows users to display and select date informati
 * To enable the selection of date ranges for bookings or planning.
 * To display recurring events and their patterns.
 
-## Rules
+## Rules.
 * Individual months or entire years can be displayed.
 * If the calendar is used in the date picker, only one date can be selected.
 * If the calendar is used standalone, several dates can be selected.

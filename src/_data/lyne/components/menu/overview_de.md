@@ -7,7 +7,7 @@ Ein Menü zeigt kontextabhängige Aktionen oder Optionen für ein definiertes El
 * Wenn eine kompakte und kontextbezogene Navigation erforderlich ist.
 * Um die Benutzerfreundlichkeit zu erhöhen, indem zusätzliche Optionen direkt am Ort der Aktion bereitgestellt werden.
 
-## Regeln
+## Regeln.
 * Die Menüoptionen sollen klar beschriftet und leicht verständlich sein.
 * Achte darauf, dass die Menüoptionen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sind.
 * Vermeide zu viele Optionen in einem Kontext-Menü, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.

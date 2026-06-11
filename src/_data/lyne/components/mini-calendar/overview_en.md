@@ -6,6 +6,6 @@ A mini calendar is a component that displays date information as compactly and s
 * To give users the opportunity to consume a lot of date information.
 * To display recurring events and their patterns.
 
-## Rules
+## Rules.
 * Several months or entire years can be displayed.
 * The component is not accessible and should only be used in contexts (e.g., internal applications) where accessibility is not required.

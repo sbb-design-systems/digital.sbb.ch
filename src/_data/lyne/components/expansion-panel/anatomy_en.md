@@ -19,6 +19,6 @@
 |3a|Slot|Beliebiger Inhalt erlaubt|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

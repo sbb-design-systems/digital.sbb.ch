@@ -7,7 +7,7 @@ A link list is a collection of links that are grouped together and presented in 
 * To display important navigation points or resource collections in a structured way.
 * To provide users with quick access to frequently used links or content.
 
-## Rules
+## Rules.
 * Use descriptive and meaningful link texts to make the target content understandable.
 * Make sure that the links in the list are logically grouped and thematically organised.
 * Use consistent styles and behaviours for links within the link list.

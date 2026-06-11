@@ -7,7 +7,7 @@ A toast is a short-term notification that appears at the edge of the screen to i
 * To display temporary information or notifications that do not require user interaction.
 * To quickly communicate errors or warnings.
 
-## Rules
+## Rules.
 * Toasts should be clear and concise to get the message across quickly.
 * Toasts should appear in a consistent position on the screen within a web page or application.
 * Toasts should disappear automatically after a reasonable time or be able to be closed manually.

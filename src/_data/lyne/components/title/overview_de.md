@@ -7,7 +7,7 @@ Eine Title-Komponente dient dazu, Überschriften und Titel in verschiedenen Grö
 * Um die Struktur und Hierarchie von Inhalten klar und verständlich darzustellen.
 * Um die Aufmerksamkeit der Nutzenden auf wichtige Informationen oder Themen zu lenken.
 
-## Regeln
+## Regeln.
 * Verwende die Title-Komponente in verschiedenen Hierarchiestufen (z.B. H1, H2, H3), um eine klare Struktur und Lesbarkeit zu gewährleisten.
 * Achte darauf, dass Titel semantisch korrekt eingesetzt werden, um die Barrierefreiheit und Suchmaschinenoptimierung (SEO) zu verbessern.
 * Vermeide zu viele Titel auf einer Seite, um die Übersichtlichkeit zu gewährleisten.

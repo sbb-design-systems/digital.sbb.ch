@@ -1,6 +1,6 @@
 ---
 tags: teaserhome_en
-head: Lyne
+head: Lyne.
 description: Design system for SBB websites, customer and employee applications.
 url: /en/design-system/lyne/overview/
 image: /assets/images/teaser/lyne.webp

@@ -6,42 +6,43 @@ sbb-container {
   }
 
   p:not(.demo *) {
-    @include sbb.text-m--regular;
+    @include  sbb.text-m;
   }
 
   ul:not(.demo *), ul:not(.tree *), ol:not(.demo *), ol:not(.tree *) {
-    @include sbb.text-m--regular;
+    @include  sbb.text-m;
     @include sbb.list;
   }
 
   h1:not(.demo *) {
-    @include sbb.title-2;
+    @include sbb.heading-2;
   }
 
   h2:not(.demo *) {
-    @include sbb.title-3;
+    @include sbb.heading-3;
   }
 
   h3:not(.demo *) {
-    @include sbb.title-4;
+    @include sbb.heading-4;
   }
 
   h4:not(.demo *) {
-    @include sbb.title-5;
+    @include sbb.heading-5;
   }
 
   h5:not(.demo *) {
-    @include sbb.title-6;
+    @include sbb.heading-6;
   }
 
   h6:not(.demo *) {
-    @include sbb.title-6;
+    @include sbb.heading-6;
   }
 
 }
 
 a:not(.demo *) {
-  @include sbb.link;
+  @include sbb.link-element-rules;
+
 }
 
 .violin {

@@ -7,6 +7,6 @@ Eine Card ist ein flexibles Container-Element, das verschiedene Arten von Inhalt
 * Um visuelle Hierarchien und Struktur in eine Seite zu bringen.
 * Um Inhalte wie Texte und Aktionen zusammen darzustellen.
 
-## Regeln
+## Regeln.
 * Die Inhalte innerhalb einer Card sollen logisch zusammenhängen und gut strukturiert sein. Der Inhalt sollte so knapp wie möglich formuliert werden.
 * Hat eine Card mehrere Interaktive Elemente, so liegen die Klick-Targets auf den eingesetzten interaktiven Elementen. Hat die Card nur ein interaktives Element, so dient die ganze Card als Klick-Target.

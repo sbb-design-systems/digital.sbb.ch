@@ -18,6 +18,6 @@
 |4|Component|`sbb-card-badge`|Yes||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

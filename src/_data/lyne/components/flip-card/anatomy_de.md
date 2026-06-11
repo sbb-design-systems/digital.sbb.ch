@@ -20,6 +20,6 @@
 |2c|Komponente|`sbb-secondary-button`|Nein|Close-Action|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

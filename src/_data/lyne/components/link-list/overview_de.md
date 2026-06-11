@@ -7,7 +7,7 @@ Eine Link-Liste ist eine Sammlung von Links, die zusammengefasst und strukturier
 * Um wichtige Navigationspunkte oder Ressourcensammlungen strukturiert anzuzeigen.
 * Um Nutzenden schnellen Zugang zu häufig verwendeten Links oder Inhalten zu bieten.
 
-## Regeln
+## Regeln.
 * Verwende beschreibende und aussagekräftige Link-Texte, um den Zielinhalt verständlich zu machen.
 * Achte darauf, dass die Links in der Liste logisch gruppiert und thematisch geordnet sind.
 * Verwende konsistente Stile und Verhaltensweisen für Links innerhalb der Link-Liste.

@@ -15,6 +15,6 @@
 |1b|Text|Label|Ja||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

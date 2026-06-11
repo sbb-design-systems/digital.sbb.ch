@@ -6,5 +6,5 @@ A status indicates the current state or status of an object, process or system b
 * To make the current state of a process, system or object clear.
 * To inform users about the status of tasks or system states.
 
-## Rules
+## Rules.
 * Please ensure that the status displays are used consistently across the website or application.

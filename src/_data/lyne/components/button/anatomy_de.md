@@ -14,6 +14,6 @@
 |2|Text|Label|Ja|Ein Icon oder ein Label ist zu setzen.|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

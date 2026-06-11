@@ -17,6 +17,31 @@ function sortByOrder(values) {
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
 }
 
+function appendDotToHeadings(content) {
+    const lines = content.split("\n");
+    let inCodeBlock = false;
+
+    return lines.map((line) => {
+        if (/^\s*(```|~~~)/.test(line)) {
+            inCodeBlock = !inCodeBlock;
+            return line;
+        }
+        if (inCodeBlock) {
+            return line;
+        }
+
+        return line.replace(/^(\s{0,3}#{1,6}\s+)(.+?)(\s*\{[^}]*\})?\s*$/, (match, prefix, text, attrs) => {
+            // optionale schliessende Hashes ("## Titel ##") entfernen
+            let title = text.replace(/\s+#+\s*$/, "").trimEnd();
+            // schliessende Markdown-Zeichen ignorieren, damit "**Fertig!**" erkannt wird
+            const visibleEnd = title.replace(/[*_`~]+$/, "");
+            if (/[.!?]$/.test(visibleEnd)) {
+                return match; // Punkt, Frage- oder Ausrufezeichen schon da
+            }
+            return prefix + title + "." + (attrs || "");
+        });
+    }).join("\n");
+}
 
 module.exports = async function(eleventyConfig) {
     const { EleventyI18nPlugin } = await import("@11ty/eleventy");
@@ -134,10 +159,10 @@ module.exports = async function(eleventyConfig) {
         function wrapTablesWithSbbTableWrapper(content) {
             //const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
             const tableRegex = /(\|[^\n]+\|\n)(\|[^\n]+\|\n)*/g;
-            return content.replace(tableRegex, (match) => `<sbb-table-wrapper>\n\n${match}\n\n{.sbb-table}\n\n</sbb-table-wrapper>\n\n`);
+            return content.replace(tableRegex, (match) => `<sbb-table-wrapper>\n\n${match}\n\n{.sbb-table .sbb-table--striped}\n\n</sbb-table-wrapper>\n\n`);
         }
         const updatedContent = wrapTablesWithSbbTableWrapper(content);
-        return updatedContent;});
+        return appendDotToHeadings(updatedContent);});
 
     eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => {
         currPage = currPage.slice(3);

@@ -7,7 +7,7 @@ Der Footer ist der untere Abschnitt einer Webseite, der wichtige Informationen u
 * Um Kontaktinformationen, rechtliche Hinweise, Links anzuzeigen.
 * Um die Benutzerfreundlichkeit zu erhöhen, indem wichtige Links und Informationen leicht zugänglich gemacht werden.
 
-## Regeln
+## Regeln.
 
 * Der Inhalt des Footers soll relevante und wichtige Informationen enthalten, wie z.B. Impressum, Datenschutzrichtlinien, Kontaktinformationen und Links
 * Achte darauf, dass der Footer nicht überladen ist und die wichtigsten Informationen leicht zu finden sind

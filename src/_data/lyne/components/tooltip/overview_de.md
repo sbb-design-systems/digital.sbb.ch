@@ -7,7 +7,7 @@ Die Tooltip-Komponente wird verwendet, wenn zusätzliche Hinweise, Erklärungen 
 * Die Erklärung von Icons, Abkürzungen oder Fachbegriffen
 * Ergänzende Informationen zu Bedienelementen
 
-## Regeln
+## Regeln.
 * Die Informationen im Tooltip sollen kurz, präzise und verständlich sein.
 * Keine interaktiven Elemente (wie Buttons oder Links) innerhalb eines Tooltips verwenden – Nur Text ist erlaubt. 
 * Der Tooltip-Text darf keine wesentlichen Inhalte oder Pflichtinformationen enthalten.

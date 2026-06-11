@@ -9,7 +9,7 @@ Ein Icon ist ein grafisches Symbol, das verwendet wird, um Funktionen, Inhalte o
 * Um wichtige Informationen oder Statusmeldungen schnell erkennbar zu machen.
 * Um die Navigation zu unterstützen und die Auffindbarkeit von Inhalten zu verbessern.
 
-## Regeln
+## Regeln.
 * Icons gibt es in 3 Grössen (24 x 24, 36 x 36 und 48 x 48 Pixel). Andere Grössen sind nicht erlaubt.
 * Die Icon werden in einer Strichstärke von 1 Pixel abgebildet. Ausnahmen sind einzig im Header erlaubt.
 * Achte darauf, dass die Grösse der Icons zur umgebenden Schrift und anderen Elementen passt.

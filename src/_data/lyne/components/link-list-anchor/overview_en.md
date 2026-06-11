@@ -6,6 +6,6 @@ The component provides a collection of links that lead to content on the current
 * To display an overview of the content of the current page.
 * To offer users quick access to content.
 
-## Rules
+## Rules.
 * Use descriptive and meaningful link texts to make the target content understandable.
 * Make sure that the links in the list are in chronological order.

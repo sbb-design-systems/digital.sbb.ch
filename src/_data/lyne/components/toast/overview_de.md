@@ -7,7 +7,7 @@ Ein Toast ist eine kurzfristige Benachrichtigung, die am Rand des Bildschirms er
 * Um temporäre Informationen oder Hinweise anzuzeigen, die keine Benutzerinteraktion erfordern.
 * Um Fehler oder Warnungen schnell mitzuteilen.
 
-## Regeln
+## Regeln.
 * Toasts sollen klar und prägnant formuliert sein, um die Nachricht schnell zu übermitteln.
 * Toasts sollen innerhlab einer Webseite oder Applikation an einer konsistenten Position auf dem Bildschirm erscheinen.
 * Toasts sollen nach einer angemessenen Zeit automatisch verschwinden oder manuell geschlossen werden können.

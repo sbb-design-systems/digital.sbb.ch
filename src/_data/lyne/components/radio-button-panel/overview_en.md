@@ -9,7 +9,7 @@ The Radio-Button-Panel has the same function as the Radio-Button. In addition to
 * If further content (such as icons, texts, card badges) is required or the options of the normal checkbox are not enough to optimally describe the selection.
 * If content of your choice is to be displayed below the Checkbox-Panel. For technical implementation, see "Selection-Expansion-Panel".
 
-## Rules
+## Rules.
 * Radio-Button-Panels should be used in groups (radio-button-group) to provide a clear choice.
 * Each option within a radio-button-group should be clearly labelled and easy to understand.
 * Avoid placing too many options in a radio button group to ensure clarity and to make selection easier.

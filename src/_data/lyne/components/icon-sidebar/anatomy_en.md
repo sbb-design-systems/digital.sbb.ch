@@ -20,6 +20,6 @@
 |6|Property|Backdrop|Yes|Only visible in overlay mode|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

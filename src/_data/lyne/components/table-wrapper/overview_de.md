@@ -6,6 +6,6 @@ Der Table-Wrapper ist ein Wrapper für eine Tabelle. Sein Ziel ist es, die nativ
 * Beim Einsatz einer nativen HTML-Tabelle.
 * Wenn eine gestylte Tabelle benötigt wird.
 
-## Regeln
+## Regeln.
 * Bei jedem Einsatz einer nativen HTML-Tabelle. Insbesondere wenn zusätzliche Funktionen wie Scrolling benötigt werden.
  

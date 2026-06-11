@@ -6,5 +6,5 @@ The Table-Wrapper is a wrapper for a table. Its aim is to extend the native tabl
 * When using a native HTML table.
 * If a styled table is required.
 
-## Rules
+## Rules.
 * Whenever a native HTML table is used. Especially if additional functions such as scrolling are required.

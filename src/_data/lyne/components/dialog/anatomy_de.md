@@ -18,6 +18,6 @@
 |4b|Komponente|`sbb-button`|Ja|Auch Block-Links sind erlaubt|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

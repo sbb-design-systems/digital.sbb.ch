@@ -7,7 +7,7 @@ Eine Checkbox ist ein Auswahlfeld, das es Nutzenden ermöglicht, eine oder mehre
 * Um eine Ja/Nein- oder Ein/Aus-Auswahl anzubieten.
 * Um Zustimmungen oder Bedingungen zu bestätigen (z.B. Newsletter-Anmeldung).
 
-## Regeln
+## Regeln.
 * Jede Checkbox soll klar beschriftet sein und die Option eindeutig benennen.
 * Gruppen von Checkboxes sollen logisch zusammengefasst werden.
 * Vermeide zu viele Optionen in einer Gruppe, um die Übersichtlichkeit zu bewahren (max. 5-7 Optionen).

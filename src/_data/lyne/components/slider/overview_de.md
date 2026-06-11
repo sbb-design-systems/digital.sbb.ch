@@ -7,7 +7,7 @@ Ein Slider ermöglicht es Nutzenden, einen Wert oder eine Auswahl innerhalb eine
 * Wenn eine präzise oder schnelle Anpassung eines Wertes erforderlich ist.
 * Um Platz auf der Benutzeroberfläche zu sparen, indem ein interaktives Steuerelement verwendet wird.
 
-## Regeln
+## Regeln.
 * Verwende Beschriftungen und Icons, um den Wertebereich des Sliders deutlich zu machen.
 * Der Slider soll nur für einfache Wertebereiche (von/bis, schnell/langsam, schwer/leicht) verwendet werden.
 * Der Slider soll nicht als Fortschrittsanzeige eines Prozesses oder Vorgangs eingesetzt werden.

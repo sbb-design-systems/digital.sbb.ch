@@ -6,6 +6,6 @@ Die Komponente bietet eine Sammlung von Links, die zu Inhalten der aktuellen Sei
 * Um eine Übersicht der Inhalte der aktuellen Seite darzustellen.
 * Um Nutzenden schnellen Zugang zu Inhalten anzubieten.
 
-## Regeln
+## Regeln.
 * Verwende beschreibende und aussagekräftige Link-Texte, um den Zielinhalt verständlich zu machen.
 * Achte darauf, dass die Links in der Liste chronologisch geordnet sind.

@@ -7,6 +7,6 @@ Ein Select ermöglicht es Nutzenden, eine Auswahl aus einer Liste mit mehreren O
 * Um Platz auf der Benutzeroberfläche zu sparen, indem die Optionen in einem Dropdown-Menü verborgen werden.
 * Wenn die Anzahl der Auswahlmöglichkeiten zu gross für Radio-Buttons oder Checkboxen ist.
 
-## Regeln
+## Regeln.
 * Die Optionen im Select-Menü sollen eindeutig beschriftet und leicht verständlich sein.
 * Verwende eine sinnvolle Standardauswahl, falls dies für den Anwendungsfall relevant ist.

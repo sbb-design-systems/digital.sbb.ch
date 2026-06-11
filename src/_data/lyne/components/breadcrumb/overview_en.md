@@ -7,7 +7,7 @@ A breadcrumb-group is a navigation help that shows users where they are within t
 * To enable easy navigation between the levels of the website.
 * To improve usability on pages with deep hierarchies.
 
-## Rules
+## Rules.
 * A breadcrumb group should always start from the home page and display the complete path to the current page
 * The individual levels in the breadcrumb group should be labelled clearly and understandably
 * A breadcrumb-group should not display more than 5-7 levels in order to maintain clarity

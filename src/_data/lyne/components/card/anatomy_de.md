@@ -14,6 +14,6 @@
 |2|Komponente|`sbb-card-badge`|Ja||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

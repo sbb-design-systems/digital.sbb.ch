@@ -7,7 +7,7 @@ Ein Date-Picker ist eine Eingabekomponente, die es den Nutzenden ermöglicht, ei
 * Um die Genauigkeit und Konsistenz der Datumseingabe zu gewährleisten.
 * Um eine benutzerfreundliche Alternative zur manuellen Datumseingabe anzubieten.
 
-## Regeln
+## Regeln.
 * Der Date-Picker soll nach Möglichkeit ein Standardwert anzeigen, z.B. das heutige Datum.
 * Der Date-Picker kann mit oder ohne Vor- und Zurück-Buttons dargestellt werden.
 * Der Date-Picker soll lokalisiert dargestellt werden und das Datumsformat der Nutzenden berücksichtigen.

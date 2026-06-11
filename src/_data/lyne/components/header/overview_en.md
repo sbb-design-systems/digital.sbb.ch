@@ -7,7 +7,7 @@ The header is the top section of a website or application that contains importan
 * To make main navigation elements, logo, search functions and important links visible and easily accessible.
 * To improve usability and orientation on the website.
 
-## Rules
+## Rules.
 * Navigation elements should be logically grouped and labelled for easy navigation. They always have an icon (to the left of the label).
 * If a hamburger menu is placed, it is always displayed first and to the left.
 * The header should contain a search function if the website offers a lot of content.

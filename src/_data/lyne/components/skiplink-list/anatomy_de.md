@@ -13,6 +13,6 @@
 |1|Komponente|`sbb-block-link`|Nein|Es sind mehrere Links in der Liste erlaubt. </br>Nur der jeweils fokussierte Link wird dargestellt.|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

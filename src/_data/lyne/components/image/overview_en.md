@@ -8,7 +8,7 @@ An image is a visual representation that is used to illustrate content, provide 
 * To improve the visual appearance of the website or application.
 * To generate user emotions or create a certain mood.
 
-## Rules
+## Rules.
 * Images should be used in high quality and appropriate resolution to ensure a clear and professional appearance.
 * Use descriptive alt text for images to ensure accessibility and make sure the information is accessible to screen readers.
 * Ensure that images are responsive and display well on different devices and screen sizes.

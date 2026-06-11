@@ -7,7 +7,7 @@ Ein Tag ist ein kleines Beschriftungselement, das zur Kategorisierung und als al
 * Um Nutzenden die Möglichkeit zu geben, Inhalte nach definierten Eigenschaften zu durchsuchen.
 * Um die Benutzeroberfläche übersichtlicher zu gestalten.
 
-## Regeln
+## Regeln.
 * Tags sollen kurz und eindeutig beschriftet sein.
 * Verwende eine logische und intuitive Reihenfolge der Tags, um die Benutzerfreundlichkeit zu maximieren.
 * Vermeide zu viele Tags auf einmal, um die Übersichtlichkeit zu gewährleisten.

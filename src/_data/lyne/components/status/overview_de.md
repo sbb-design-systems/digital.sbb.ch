@@ -6,5 +6,5 @@ Ein Status zeigt den aktuellen Zustand oder Status eines Objekts, Prozesses oder
 * Um den aktuellen Zustand eines Prozesses, Systems oder Objekts deutlich zu machen.
 * Um Nutzende über den Status von Aufgaben oder Systemzuständen zu informieren.
 
-## Regeln
+## Regeln.
 * Stelle sicher, dass die Status-Anzeigen über die Webseite oder Applikation konsistent eingesetzt werden.

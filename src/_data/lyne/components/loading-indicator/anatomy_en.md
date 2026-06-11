@@ -12,6 +12,6 @@
 |------|---|------------|--------|-------|
 |1|Animation||No|Verfügbar in "Red", "Smoke" und "White". Geeignet für Overlay-Einsatz|
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

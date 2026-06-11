@@ -14,6 +14,6 @@
 |2|Component|`sbb-secondary-button`|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

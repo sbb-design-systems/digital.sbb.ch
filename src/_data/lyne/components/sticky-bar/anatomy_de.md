@@ -15,6 +15,6 @@
 |2a|Slot|z.B. für Action-Group|Nein||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

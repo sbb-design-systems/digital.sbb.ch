@@ -15,6 +15,6 @@
 |1|Text|Ziel|Nein|Kann via Property gesetzt werden: `destination="Station"`|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

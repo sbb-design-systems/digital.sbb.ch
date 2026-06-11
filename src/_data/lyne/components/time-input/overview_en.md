@@ -7,5 +7,5 @@ A time input enables users to enter a time in a specified format.
 * When accurate time entry is required, e.g. for alarms or reminders.
 * To ensure that times are entered in the correct format.
 
-## Rules
+## Rules.
 * Validation of the entry is intended to ensure that only valid times are accepted.

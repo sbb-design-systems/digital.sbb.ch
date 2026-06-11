@@ -12,6 +12,6 @@
 |------|---|------------|--------|-------|
 |1|Slot|Nur Text ist erlaubt|Nein||
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

@@ -1,6 +1,6 @@
 ---
 tags: teaserhome_fr
-head: Lyne
+head: Lyne.
 description: Design System pour les sites web des CFF, les applications clients et employées.
 url: /de/design-system/lyne/overview/
 image: /assets/images/teaser/lyne.webp

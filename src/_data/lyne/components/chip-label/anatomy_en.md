@@ -13,6 +13,6 @@
 |1|Text|Label|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

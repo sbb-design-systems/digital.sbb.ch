@@ -15,7 +15,7 @@
 |3|Slot|Erlaubt sind alle Button- und Link-Varianten|Yes||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

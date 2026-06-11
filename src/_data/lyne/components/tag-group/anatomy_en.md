@@ -14,6 +14,6 @@
 |1b|Component|`sbb-tag`|No|Default Zustand|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

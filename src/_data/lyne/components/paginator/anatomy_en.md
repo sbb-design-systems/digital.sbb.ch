@@ -17,6 +17,6 @@
 |4|Component|`sbb-select`|Yes||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

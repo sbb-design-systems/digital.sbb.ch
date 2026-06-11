@@ -15,6 +15,6 @@
 |1|Component|`sbb-icon`|Yes|Suffix|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

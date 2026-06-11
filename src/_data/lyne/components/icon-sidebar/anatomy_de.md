@@ -19,6 +19,6 @@
 |5|Inhalt||Nein||
 |6|Eigenschaft|Backdrop|Ja|Nur im Overlay-Mode sichtbar|
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

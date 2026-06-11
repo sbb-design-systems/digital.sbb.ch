@@ -19,6 +19,6 @@
 |2|Component|`sbb-datepicker`|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

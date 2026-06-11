@@ -31,18 +31,26 @@
     },
     "playground" : [
         {
-            "attribute":"wide",
-            "label":"wide",
+            "attribute":"amount",
+            "label":"amount",
             "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
+            "default":"1",
+            "mode":"property",
             "options" : [{
-                "value":"false",
-                "label":"false"
+                "value":"1",
+                "label":"1"
             }, 
             {
-                "value":"true",
-                "label":"true"
+                "value":"2",
+                "label":"2"
+            }, 
+            {
+                "value":"3",
+                "label":"3"
+            }, 
+            {
+                "value":"4",
+                "label":"4"
             }]
         },
         {
@@ -58,6 +66,35 @@
             {
                 "value":"vertical",
                 "label":"vertical"
+            }]
+        },
+        {
+            "attribute":"fixed-month",
+            "label":"fixed-month",
+            "target":"demo-item",
+            "default":"",
+            "mode":"property",
+            "options" : [{
+                "value":"",
+                "label":"false"
+            },
+            {
+                "value":"2023-08",
+                "label":"true"
+            }]
+        }, {
+            "attribute":"multiple",
+            "label":"multi-select",
+            "target":"demo-item",
+            "default":"false",
+            "mode":"boolean",
+            "options" : [{
+                "value":"false",
+                "label":"false"
+            },
+            {
+                "value":"true",
+                "label":"true"
             }]
         }
     ]

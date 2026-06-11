@@ -7,7 +7,7 @@ The tooltip component is used when additional notes, explanations, or assistance
 * Explaining icons, abbreviations, or technical terms
 * Providing additional information about controls
 
-## Rules
+## Rules.
 * The information in the tooltip should be short, precise, and understandable.
 * Do not use interactive elements (such as buttons or links) within a tooltip — only text is allowed.
 * The tooltip text must not contain essential content or mandatory information.

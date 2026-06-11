@@ -7,7 +7,7 @@ A menu shows context-dependent actions or options for a defined element. It can 
 * When compact and contextualised navigation is required.
 * To increase usability by providing additional options directly at the point of action.
 
-## Rules
+## Rules.
 * Menu options should be clearly labelled and easy to understand.
 * Make sure that the menu options are logically grouped and arranged in a useful order.
 * Avoid too many options in a context menu to ensure clarity and not overwhelm users.

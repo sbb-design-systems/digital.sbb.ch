@@ -7,7 +7,7 @@ Ein Dialog ist ein Overlay, das den Hauptinhalt der Seite überlagert und eine f
 * Um Nutzende zu einer Handlung aufzufordern, bevor er mit dem Hauptinhalt der Seite fortfährt.
 * Um komplexe Formulare oder Inhalte anzuzeigen, die nicht in die Hauptseite integriert werden sollen.
 
-## Regeln
+## Regeln.
 * Ein Dialog soll so weit wie möglich reduziert sein und sich auf eine einzige Aufgabe/Information oder ein einziges Formular konzentrieren.
 * Der Dialog soll leicht zu schliessen sein, entweder durch eine Schliessen-Schaltfläche oder durch Klicken ausserhalb des Dialogs.
 * Wenn kein Actions im Dialog-Footer definiert werden, müssen Nutzende den Dialog immer schliessen können.

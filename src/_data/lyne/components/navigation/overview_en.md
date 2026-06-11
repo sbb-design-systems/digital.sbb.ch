@@ -6,6 +6,6 @@ The navigation component displays a list of navigation links that help users to 
 * To provide users with a clear and accessible way to navigate through the website or application.
 * When compact navigation is required.
 
-## Rules
+## Rules.
 * The navigation should be hidden behind a hamburger icon and placed as the first element in the header.
 * The navigation links should be logically grouped and arranged in a sensible order.

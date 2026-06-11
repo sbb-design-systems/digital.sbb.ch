@@ -14,6 +14,6 @@
 |2|Komponente|`sbb-icon`|Nein|Kann überschrieben werden|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

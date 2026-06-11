@@ -8,7 +8,7 @@ Ein Bild (Image) ist eine visuelle Darstellung, die verwendet wird, um Inhalte z
 * Um das visuelle Erscheinungsbild der Webseite oder Anwendung zu verbessern.
 * Um Benutzeremotionen zu wecken oder eine bestimmte Stimmung zu erzeugen.
 
-## Regeln
+## Regeln.
 * Bilder sollen in hoher Qualität und angemessener Auflösung verwendet werden, um ein klares und professionelles Erscheinungsbild zu gewährleisten.
 * Verwende beschreibende Alt-Texte für Bilder, um die Barrierefreiheit zu gewährleisten und sicherzustellen, dass die Informationen auch für Screenreader zugänglich sind.
 * Achte darauf, dass Bilder responsive sind und auf verschiedenen Geräten und Bildschirmgrössen gut dargestellt werden.

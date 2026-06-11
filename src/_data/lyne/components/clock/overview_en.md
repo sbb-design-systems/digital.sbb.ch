@@ -11,7 +11,7 @@ The SBB clock gives the system time of the display unit in analogue form. The sy
 - The component is used wherever the exact time needs to be communicated. In most cases, this relates to display units with real-time information on public transport. {.lead}  
 - The clock can also be used as a stylistic element, but the customer benefit must be guaranteed in all cases. {.lead}  
 
-## Rules
+## Rules.
 - The minimum size of the clock must not be less than 75px x 75px. {.lead}
 - Depending on the location it is used in, the minimum size must be adjusted to the viewing distance. As a rule of thumb, viewing distance / 60 = clock size (e.g. 3000mm / 60 = 50mm clock size). {.lead}   
 - Only one clock should be used per page / view. {.lead}   

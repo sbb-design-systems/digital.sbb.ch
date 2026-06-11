@@ -7,6 +7,6 @@ Ein Link ist ein interaktives Textelement, das Nutzenden zu einer anderen Seite 
 * Um Verweise auf verwandte Informationen oder Dokumente bereitzustellen.
 * Um die Navigation innerhalb der Webseite oder Anwendung zu erleichtern.
 
-## Regeln
+## Regeln.
 * Verwende beschreibende und aussagekräftige Link-Texte, um den Nutzenden den Zielinhalt verständlich zu machen.
 * Links sollen in einem neuen Tab geöffnet werden, wenn sie zu externen Ressourcen führen.

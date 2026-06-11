@@ -60,6 +60,10 @@
                 "default":"xs",
                 "mode":"property",
                 "options" : [{
+                    "value":"xxxs",
+                    "label":"xxxs"
+                }, 
+                {
                     "value":"xxs",
                     "label":"xxs"
                 }, 

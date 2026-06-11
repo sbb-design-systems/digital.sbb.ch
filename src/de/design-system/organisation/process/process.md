@@ -19,7 +19,7 @@ Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritä
 | Mobile                 | <sbb-link  type="button" target="_blank" href="https://github.com/orgs/SchweizerischeBundesbahnen/projects/5">Zum Board</sbb-link>|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

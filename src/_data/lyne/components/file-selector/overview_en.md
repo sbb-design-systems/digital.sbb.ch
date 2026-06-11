@@ -7,6 +7,6 @@ A file selector is a component that allows users to select and upload files from
 * To complete forms that require file attachments.
 * To collect files for storage, processing or sharing.
 
-## Rules
+## Rules.
 * Users should be able to remove files.
 * The progress of the file upload can be displayed to users, especially for larger files.

@@ -16,7 +16,7 @@
 |3|Slot|Beliebiger Inhalt|Ja|Üblicherweise wird eine `sbb-link-list` verwendet.|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

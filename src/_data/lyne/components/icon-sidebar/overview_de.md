@@ -6,5 +6,5 @@ Die Icon-Sidebar ist eine vertikale Navigationsleiste, die zur Strukturierung vo
 * Wenn eine Anwendung eine permanente oder leicht zugängliche Navigation benötigt.
 * Wenn Benutzer:innen schnell zwischen mehreren Hauptbereichen wechseln müssen.
 
-## Regeln
+## Regeln.
 * Die Icon-Sidebar kann mit der Sidebar kombiniert werden. In diesem Fall soll entweder die Icon-Sidebar oder Sidebar die Farbvariante «Milk» verwenden, damit sich die zwei Komponenten visuell differenzieren lassen.

@@ -7,7 +7,7 @@ A date picker is an input component that allows users to select a date from a ca
 * To ensure accuracy and consistency of date entry.
 * To provide a user-friendly alternative to manual date entry.
 
-## Rules
+## Rules.
 * If possible, the date picker should display a default value, e.g. today's date.
 * The date picker can be displayed with or without back and forward buttons.
 * The date picker should be localised and respect the user's date format.

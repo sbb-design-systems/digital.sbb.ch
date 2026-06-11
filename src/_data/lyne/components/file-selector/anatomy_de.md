@@ -17,6 +17,6 @@
 |5|Komponente|`sbb-form-error`|Nein||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

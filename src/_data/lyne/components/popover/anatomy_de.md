@@ -15,6 +15,6 @@
 |3|Komponente|`sbb-popover-trigger` oder beliebiger Inhalt|Nein|Wenn kein Icon oder anderer Inhalt angegeben wird, wird das Info-Icon angezeigt.|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

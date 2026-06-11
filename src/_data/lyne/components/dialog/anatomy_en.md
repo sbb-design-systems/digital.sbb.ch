@@ -18,6 +18,6 @@
 |4b|Component|`sbb-button`|Yes|Block-Links are also allowed|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

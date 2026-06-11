@@ -5,6 +5,6 @@ Sie wird um ein Checkbox-Panel oder einem Radio-Button-Panel gewrappt und bietet
 ## Wann soll die Komponente eingesetzt werden?
 * Wenn bei einem Checkbox-Panel oder einem Radio-Button-Panel zusätzlich Inhalt (z.B. für Sub-Optionen, Informationen) angezeigt werden soll.
 
-### Regeln
+### Regeln.
 * Die zusätzlichen Inhalte (pro Panel) können immer angezeit werden oder nur beim gewählten Zustand.
 * Selection-Expansion-Panel sollen nur innerhalb Checkbox-Groups und Radio-Button-Groups eingesetzt werden.

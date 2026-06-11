@@ -15,7 +15,7 @@ order: 3
 | Mobile               | Nicolas&nbsp;Vidoni | Mike&nbsp;Morgenthaler,<br>Beat Vollenwyder | <sbb-link  href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/graphs/contributors">Flutter</sbb-link>, <sbb-link  href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui/graphs/contributors">iOS</sbb-link> |
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

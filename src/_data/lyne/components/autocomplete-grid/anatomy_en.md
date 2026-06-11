@@ -26,6 +26,6 @@
 |6|Component|`sbb-autocomplete-grid-button`|Yes||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

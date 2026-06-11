@@ -7,5 +7,5 @@ A toggle enables users to switch between two states, e.g. "Off" and "On".
 * When users need to change a setting that has an immediate effect.
 * To present binary options clearly and intuitively.
 
-### Rules
+### Rules.
 * Avoid placing too many toggles on a page to ensure clarity and maintain usability.

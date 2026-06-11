@@ -14,6 +14,6 @@
 |2|Button|Close-Action|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

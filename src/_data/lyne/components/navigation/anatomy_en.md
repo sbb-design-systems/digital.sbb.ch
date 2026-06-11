@@ -20,6 +20,6 @@
 |5|Component|`sbb-transparent-button`|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

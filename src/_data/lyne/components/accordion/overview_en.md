@@ -6,6 +6,6 @@ Hides content behind a title. The corresponding content can be shown or hidden b
 * To avoid long scrolling.
 * To ensure/provide clarity.
 
-## Rules
+## Rules.
 * An accordion should consist of at least two entries.
 * Nested accordions are not permitted.

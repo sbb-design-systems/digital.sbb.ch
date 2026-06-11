@@ -11,7 +11,7 @@ Das Checkbox-Panel erfüllt die gleiche Aufgabe wie die Checkbox. Zusätzlich zu
 * Wenn frei wählbarer Inhalt unterhalb des Checkbox-Panels angezeigt werden soll. Technische Implemenation siehe "Selection-Expansion-Panel".
 
 
-## Regeln
+## Regeln.
 * Jedes Checkbox-Panel soll klar beschriftet sein und die Option eindeutig benennen.
 * Gruppen von Checkboxes sollen logisch zusammengefasst werden.
 * Vermeide zu viele Optionen in einer Gruppe, um die Übersichtlichkeit zu bewahren (max. 5-7 Optionen).

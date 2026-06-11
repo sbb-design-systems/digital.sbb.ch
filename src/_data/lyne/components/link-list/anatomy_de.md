@@ -14,6 +14,6 @@
 |1|Komponente|`sbb-block-link`|Nein||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

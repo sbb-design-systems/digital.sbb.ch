@@ -15,6 +15,6 @@
 |2|Component|`sbb-tab`|No||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

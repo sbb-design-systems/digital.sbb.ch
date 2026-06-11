@@ -20,6 +20,6 @@
 |6b|Component|`sbb-icon-sidebar-button` or `sbb-icon-sidebar-link`|No|Current state|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

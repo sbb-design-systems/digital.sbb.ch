@@ -14,6 +14,6 @@
 |2|Text|Caption|Ja||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

@@ -5,5 +5,5 @@ It defines the representation of a journey or connection and consists of a start
 ## When should the component be used?
 * In the timetable context, e.g. as the title of a trip.
 
-## Rules
+## Rules.
 * Make sure that the semantic level is set correctly so that SEO is guaranteed.

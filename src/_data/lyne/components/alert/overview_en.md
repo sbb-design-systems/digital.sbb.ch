@@ -5,7 +5,7 @@ An alert component is a visual element that communicates important information o
 * To inform users about critical errors, warnings or important information.
 * To bring urgent attention to critical messages.
 
-## Rules
+## Rules.
 * An alert should contain a clear and precise message
 * Alerts and notifications should not be combined.
 * Alerts should not be used for error messages in forms.

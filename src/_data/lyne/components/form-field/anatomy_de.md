@@ -18,6 +18,6 @@
 |5|Komponente|`sbb-form-error`|Nein|Datei auswählen|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

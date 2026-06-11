@@ -7,7 +7,7 @@ Eine Tab-Group ermöglicht es Nutzenden, zwischen verschiedenen Inhalten oder An
 * Um eine einfache und intuitive Navigation zwischen verschiedenen Inhalten oder Ansichten zu ermöglichen.
 * Um Platz auf der Benutzeroberfläche zu sparen, indem nur ein Teil des Inhalts gleichzeitig angezeigt wird.
 
-## Regeln
+## Regeln.
 * Tabs sollen klar beschriftet und leicht verständlich sein.
 * Die Reihenfolge und Beschriftung der Tabs sollen logisch und intuitiv sein.
 * Vermeide zu viele Tabs auf einmal, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.

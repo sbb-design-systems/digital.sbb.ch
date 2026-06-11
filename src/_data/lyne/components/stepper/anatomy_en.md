@@ -16,6 +16,6 @@
 |2|Component|`sbb-step`|No|Displays the content of the step|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

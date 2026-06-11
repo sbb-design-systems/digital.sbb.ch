@@ -10,7 +10,7 @@ The Checkbox-Panel has the same function as the Checkbox. In addition to the nor
 * If further content (such as icons, texts, card badges) is required or the options of the normal checkbox are not enough to optimally describe the selection.
 * If content of your choice is to be displayed below the Checkbox-Panel. For technical implementation, see "Selection-Expansion-Panel".
 
-## Rules
+## Rules.
 * Each checkbox should be clearly labelled and name the option unambiguously.
 * Groups of checkboxes should be logically organised.
 * Avoid too many options in a group in order to maintain clarity (max. 5-7 options).

@@ -23,6 +23,6 @@
 |3b|Komponente|`sbb-icon`|Ja|Zeigt angewählte Option an.|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

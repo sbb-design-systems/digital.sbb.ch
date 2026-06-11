@@ -7,6 +7,6 @@ Die Chip-Komponente ist ein kompaktes UI-Element, das zur Darstellung von ausgew
 * Wenn die ausgewählten Werte im Eingabefeld visuell dargestellt werden sollen.
 * Wenn eine einfache Möglichkeit zur Entfernung einzelner Einträge erforderlich ist.
 
-## Regeln
+## Regeln.
 * Jeder Chip sollte einen klar lesbaren Labeltext enthalten, möglichst kurz und prägnant.
 * Bei der Beschriftung ist darauf zu achten, dass sie gut voneinander unterscheidbar sind.

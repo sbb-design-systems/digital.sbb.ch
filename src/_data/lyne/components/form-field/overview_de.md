@@ -6,5 +6,5 @@ Das Form-Field ist ein Wrapper, der die einheitliche Darstellung und Funktion vo
 * Bei jeder Verwendung eines Input, Selects oder Textareas.
 * Um eine konsistente Gestaltung und Ausrichtung von Formular-Input-Komponenten zu gewährleisten.
 
-## Regeln
+## Regeln.
 * Der Einsatz von Formular-Elementen ohne Form-Field ist nicht empfohlen. Sollte es aus Gründen doch nötig sein, so ist die Darstellung einzuhalten und muss von der Webseite oder Applikation gewährleistet sein.

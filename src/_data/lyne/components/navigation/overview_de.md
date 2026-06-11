@@ -6,6 +6,6 @@ Die Navigations-Komponente zeigt eine Liste von Navigationslinks an, die Nutzend
 * Um Nutzenden eine klare und zugängliche Möglichkeit zur Navigation durch die Webseite oder Applikation zu bieten.
 * Wenn eine kompakte Navigation erforderlich ist.
 
-## Regeln
+## Regeln.
 * Die Navigation soll hinter einem Hamburger-Icon versteckt sein und wird jeweils im Header als erstes Element platziert.
 * Die Navigationslinks sollen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sein.

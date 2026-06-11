@@ -7,5 +7,5 @@ Ein Time-Input ermöglicht es Nutzenden, eine Uhrzeit in einem festgelegten Form
 * Wenn eine genaue Zeiteingabe erforderlich ist, z.B. für Alarme oder Erinnerungen.
 * Um sicherzustellen, dass Uhrzeiten im korrekten Format erfasst werden.
 
-## Regeln
+## Regeln.
 * Eine Validierung der Eingabe soll sicherstellen, dass nur gültige Uhrzeiten akzeptiert werden.

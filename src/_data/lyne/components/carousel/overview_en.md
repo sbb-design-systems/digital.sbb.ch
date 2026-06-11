@@ -7,7 +7,7 @@ A carousel is an interactive element for displaying multiple pieces of content w
 * When the focus is on a visual or content sequence (e.g., highlights, campaigns, products).
 * When space is limited and content needs to be presented in a space-saving manner.
 
-## Rules
+## Rules.
 * No more than 7 slides should be used.
 * Each slide should have a clear focus.
 * Carousels should not change automatically—only manual control by the user. 

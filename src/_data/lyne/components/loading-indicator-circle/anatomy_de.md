@@ -13,6 +13,6 @@
 |2|Animation||Nein|Verfügbar in "Red", "Smoke" und "White". Geeignet für Inline-Einsatz|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

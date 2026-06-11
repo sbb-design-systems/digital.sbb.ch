@@ -7,7 +7,7 @@ The footer is the bottom section of a website that contains important informatio
 * To display contact information, legal notices, links.
 * To increase usability by making important links and information easily accessible.
 
-## Rules
+## Rules.
 
 * The content of the footer should contain relevant and important information, such as imprint, privacy policy, contact information and links.
 * Make sure that the footer is not crowded and that the most important information is easy to find

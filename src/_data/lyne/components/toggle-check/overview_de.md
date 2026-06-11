@@ -7,6 +7,6 @@ Ein Check-Toggle ermöglicht es Nutzenden, zwischen zwei Zuständen zu wechseln 
 * Wenn Nutzende eine Einstellung ändern sollen, die sofortige Auswirkungen hat.
 * Um binäre Optionen klar und intuitiv darzustellen.
 
-## Regeln
+## Regeln.
 * Vermeide es, zu viele Check-Toggles auf einer Seite zu platzieren, um die Übersichtlichkeit zu gewährleisten und die Benutzerfreundlichkeit zu erhalten.
 * Es ist sorgfältig abzuwägen welcher der beiden Komponenten (Checkbox und Check-Toggle) besser geeignet ist.

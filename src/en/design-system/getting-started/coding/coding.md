@@ -17,6 +17,6 @@ The guides on how to use the libraries are on the following platforms: {.lead}
 | Mobile                 | <sbb-link  target="_blank" type="button" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter ">Github Flutter</sbb-link> <sbb-link  target="_blank" type="button" href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui">Github SwiftUI</sbb-link>                                                                                                              |
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

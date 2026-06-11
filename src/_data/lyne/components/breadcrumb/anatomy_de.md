@@ -16,6 +16,6 @@
 |2|Komponente|`sbb-icon`|-|Dient zur Trennung zweier Breadcrumbs|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

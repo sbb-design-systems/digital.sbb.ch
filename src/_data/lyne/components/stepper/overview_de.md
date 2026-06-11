@@ -7,6 +7,6 @@ Mit der Stepper-Komponente kann durch einen mehrstufigen Prozess geführt werden
 * Wenn bestimmte Schritte in einer festgelegten Reihenfolge durchlaufen werden müssen.
 * Wenn eine klare Strukturierung und Führung durch einen Prozess erforderlich ist.
 
-## Regeln
+## Regeln.
 * Die Labels der einzelnen Schritte sollen so kurz und aussagekräftig wie möglich sein.
 * Falls die Anzahl der Schritte zu gross wird, soll die vertikale Darstellung genutzt werden.

@@ -1,6 +1,6 @@
 ---
 tags: teaserhome_it
-head: Lyne
+head: Lyne.
 description: Design System per siti web FFS, applicazioni per clienti e personale.
 url: /it/design-system/lyne/overview/
 image: /assets/images/teaser/lyne.webp

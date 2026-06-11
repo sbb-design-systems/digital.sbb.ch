@@ -6,5 +6,5 @@ The Paginator component enables navigation through large amounts of content by d
 * When a large number of entries or content needs to be managed efficiently.
 * When an alternative to infinite scrolling is required.
 
-## Rules
+## Rules.
 * If the number of pages is small, an alternative solution such as ‘Load more’ can be considered instead of a paginator.

@@ -16,6 +16,6 @@
 |3b|Komponente|`sbb-link-button`|Ja||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

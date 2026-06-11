@@ -6,7 +6,7 @@ A teaser is a preview that is intended to arouse users' curiosity and encourage 
 * To highlight and promote content, articles, products or services.
 * To make users aware of further information or interesting content.
 
-## Rules
+## Rules.
 * Use a catchy and inviting headline and a short, interesting description.
 * Do not use too many different teaser types and sizes on one page.
 * Several teasers can be structured with one title.

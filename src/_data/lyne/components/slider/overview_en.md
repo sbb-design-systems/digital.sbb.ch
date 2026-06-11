@@ -7,7 +7,7 @@ A slider allows users to adjust a value or selection within a specified range by
 * When a precise or quick adjustment of a value is required.
 * To save space on the user interface by using an interactive control.
 
-## Rules
+## Rules.
 * Use labels and icons to make the value range of the slider clear.
 * The slider should only be used for simple value ranges (from/to, fast/slow, heavy/light).
 * The slider should not be used to indicate the progress of a process or operation.

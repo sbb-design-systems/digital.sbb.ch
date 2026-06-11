@@ -7,5 +7,5 @@ A message is a notification that informs users about information, successes, err
 * In contrast to the Alert or Notification component, it generates less attention.
 * It is well suited for messages in empty lists, for example.
 
-## Rules
+## Rules.
 * The message must be integrated into the layout and should not be positioned like the alert or notification component.

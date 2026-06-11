@@ -7,6 +7,6 @@ Ein Button ist ein interaktives Element, das eine Aktion auslöst, wenn er angek
 * Um das Absenden von Formularen zu ermöglichen.
 * Um Interaktionen, wie das Öffnen von Dialogen oder das Navigieren zu einer anderen Seite, zu ermöglichen.
 
-## Regeln
+## Regeln.
 * Ein Button soll klar beschriftet sein und eine eindeutige Aktion beschreiben.
 * Vermeide es, mehrere primäre Buttons auf einer Seite zu verwenden; stattdessen sollten sekundäre Buttons oder Links genutzt werden.

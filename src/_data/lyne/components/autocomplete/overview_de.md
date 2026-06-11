@@ -7,7 +7,7 @@ Die Komponente bietet den Nutzenden während der Eingabe Vorschläge an, basiere
 * Um die Genauigkeit und Konsistenz der eingegebenen Daten zu erhöhen.
 * Um die Zeit zu reduzieren, welche die Nutzenden für das Ausfüllen von Formularen benötigen.
 
-## Regeln
+## Regeln.
 * Die Komponente soll nicht bei kleinen Datensätzen (z.b. nur 10 Einträge/Optionen) verwendet werden.
 * Die Autocomplete-Liste soll nicht zu viele Vorschläge auf einmal anzeigen, um die Übersichtlichkeit zu bewahren (max. 10 Vorschläge).
 * Die Nutzenden sollen die Möglichkeit haben, die Autocomplete-Funktion zu ignorieren und eigene Eingaben zu machen.

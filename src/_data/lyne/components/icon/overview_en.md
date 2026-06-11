@@ -9,7 +9,7 @@ An icon is a graphic symbol that is used to visually represent functions, conten
 * To make important information or status messages quickly recognisable.
 * To support navigation and improve the findability of content.
 
-## Rules
+## Rules.
 * Icons are available in 3 sizes (24 x 24, 36 x 36 and 48 x 48 pixels). Other sizes are not permitted.
 * The icons are displayed in a line width of 1 pixel. Exceptions are only permitted in the header.
 * Make sure that the size of the icons matches the surrounding font and other elements.

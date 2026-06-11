@@ -30,7 +30,7 @@ order: 2
 | ... interne Web-Applikation sowie eine native Mobile-App entwickelt.     | <sbb-link  type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link> & <sbb-link  type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
 

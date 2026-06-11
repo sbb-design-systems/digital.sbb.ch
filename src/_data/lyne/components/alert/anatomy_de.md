@@ -18,6 +18,6 @@
 |6|Komponente|`sbb-transparent-button`|-|Erscheint bei `readonly="false"`|
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

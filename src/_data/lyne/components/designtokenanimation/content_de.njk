@@ -1,19 +1,23 @@
-<sbb-title level="2">Duration</sbb-title>
+<sbb-title level="2">Duration.</sbb-title>
 <div class="token-table duration-token">
-{% for token in lyne.components.designtokenanimation.duration %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="animation-demo" style="width: calc((100/500)*{{token.original.value}}%); "></div></div>
-    </div>
+{% for token in lyne.components.designtokenanimation.easing %}
+    {% if token.type == "time" %}
+        <div class="row">
+            <div class="token-name"><p>{{ token.name }}</p></div>
+            <div class="token-value"><p>{{ token.value }}</p></div>
+            <div class="token-demo"><div class="animation-demo" style="width: calc((100/500)*{{token.original.value}}%); "></div></div>
+        </div>
+    {% endif %}
 {% endfor %}
 </div>
-<sbb-title level="2">Easing</sbb-title>
+<sbb-title level="2">Easing.</sbb-title>
 <div class="token-table easing-token">
 {% for token in lyne.components.designtokenanimation.easing %}
+    {% if token.type == "cubicBezier" %}
     <div class="row">
         <div class="token-name"><p>{{ token.name }}</p></div>
         <div class="token-value"><p>{{ token.value }}</p></div>
     </div>
+    {% endif %}
 {% endfor %}
 </div>

@@ -6,6 +6,6 @@ Versteckt Inhalt hinter einem Titel. Mit einem Klick auf den Titel kann der dazu
 * Um langes Scrollen zu vermeiden.
 * Um Übersichtlichkeit zu gewährleisten/herzustellen.
 
-## Regeln
+## Regeln.
 * Ein Accordion soll aus min. zwei Einträgen bestehen.
 * Ineinander verschachtelte Akkordeons sind nicht erlaubt.

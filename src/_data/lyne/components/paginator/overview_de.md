@@ -6,5 +6,5 @@ Die Paginator-Komponente ermöglicht die Navigation durch grosse Mengen von Inha
 * Wenn eine große Anzahl von Einträgen oder Inhalten effizient verwaltet werden muss.
 * Wenn eine Alternative zu unendlichem Scrollen benötigt wird.
 
-## Regeln
+## Regeln.
 * Bei geringer Anzahl von Seiten kann eine alternative Lösung wie "Mehr laden" anstelle eines Paginators in Betracht gezogen werden.

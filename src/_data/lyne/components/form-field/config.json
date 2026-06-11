@@ -112,21 +112,6 @@
             }]
         },
         {
-            "attribute":"optional",
-            "label":"optional",
-            "target":"demo-item",
-            "default":"true",
-            "mode":"boolean",
-            "options" : [{
-                "value":"true",
-                "label":"true"
-            }, 
-            {
-                "value":"false",
-                "label":"false"
-            }]
-        },
-        {
             "attribute":"error",
             "label":"error",
             "target":"error",

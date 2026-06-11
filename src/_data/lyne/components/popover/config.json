@@ -31,21 +31,19 @@
     },
     "playground" : [
         {
-            "attribute":"hide-close-button",
+            "attribute":"class",
             "label":"hide-close-button",
-            "target":"demo-item",
-            "default":"true",
-            "mode":"boolean",
-            "options" : [
-                {
-                    "value":"true",
-                    "label":"false"
-                },
-                {
-                "value":"false",
+            "target":"close-button",
+            "default":"close-button visible",
+            "mode":"property",
+            "options" : [{
+                "value":"close-button visible",
                 "label":"true"
-                } 
-            ]
+            },
+            {
+                "value":"close-button hidden",
+                "label":"false"
+            }]
         }
     ]
 }

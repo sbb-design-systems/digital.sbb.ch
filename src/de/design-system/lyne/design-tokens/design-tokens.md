@@ -5,6 +5,7 @@ system: lyne
 list: designtokens
 key: basics-lyne_de
 title: Design Tokens
+alternativetitle: Design Tokens.
 parent: lyne_de
 order: 30
 ---

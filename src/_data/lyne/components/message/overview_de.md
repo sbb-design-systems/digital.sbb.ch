@@ -7,5 +7,5 @@ Eine Message ist eine Benachrichtigung, die Nutzende über Informationen, Erfolg
 * Im Gegensatz zur Alert- oder Notification-Komponente erzeugt es weniger Aufmerksamkeit.
 * Es eignet sich beispielsweise gut für Meldungen in leeren Listen.
 
-## Regeln
+## Regeln.
 * Die Message ist in das Layout zu integrieren und soll nicht wie die Alert- oder Notification-Komponente platziert werden.

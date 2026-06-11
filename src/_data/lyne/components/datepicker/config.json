@@ -34,7 +34,7 @@
             "attribute":"wide",
             "label":"wide",
             "target":"demo-item",
-            "default":"true",
+            "default":"false",
             "mode":"boolean",
             "options" : [{
                 "value":"false",

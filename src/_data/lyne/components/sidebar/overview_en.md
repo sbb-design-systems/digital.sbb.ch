@@ -7,5 +7,5 @@ The sidebar is a vertical navigation bar that is used to structure content withi
 * When users need to switch quickly between several main areas.
 * When additional functions or filters should be available alongside the main content.
 
-## Rules
+## Rules.
 * The sidebar can be combined with the icon sidebar. In this case, either the icon sidebar or sidebar should use the ‘milk’ colour variant so that the two components can be visually differentiated.

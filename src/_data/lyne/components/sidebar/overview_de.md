@@ -7,5 +7,5 @@ Die Sidebar ist eine vertikale Navigationsleiste, die zur Strukturierung von Inh
 * Wenn Benutzer:innen schnell zwischen mehreren Hauptbereichen wechseln müssen.
 * Wenn zusätzliche Funktionen oder Filter neben dem Hauptinhalt verfügbar sein sollen.
 
-## Regeln
+## Regeln.
 * Die Sidebar kann mit der Icon-Sidebar kombiniert werden. In diesem Fall soll entweder die Icon-Sidebar oder Sidebar die Farbvariante «Milk» verwenden, damit sich die zwei Komponenten visuell differenzieren lassen.

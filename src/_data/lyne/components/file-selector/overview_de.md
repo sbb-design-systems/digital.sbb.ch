@@ -8,6 +8,6 @@ Ein File-Selector ist eine Komponente, die es Nutzenden ermöglicht, Dateien von
 * Um Formulare zu vervollständigen, die Dateianhänge erfordern.
 * Um Dateien für die Speicherung, Verarbeitung oder Weitergabe zu sammeln.
 
-## Regeln
+## Regeln.
 * Nutzende sollen Dateien entfernen können.
 * Der Fortschritt des Datei-Uploads kann Nutzenden angezeigt werden, insbesondere bei grösseren Dateien.

@@ -19,6 +19,6 @@
 |6a|Komponente|`sbb-icon-sidebar-button` oder `sbb-icon-sidebar-link`|Nein|Hover State mit Tooltip|
 |6b|Komponente|`sbb-icon-sidebar-button` oder `sbb-icon-sidebar-link`|Nein|Current State|
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>

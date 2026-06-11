@@ -16,6 +16,6 @@
 |4|Slot|Footnote|Ja||
 
 
-{.sbb-table}
+{.sbb-table .sbb-table--striped}
 
 </sbb-table-wrapper>
