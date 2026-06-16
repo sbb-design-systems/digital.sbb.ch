@@ -5,7 +5,7 @@ key: was_ist_lyne_de
 title: Was ist Lyne?
 alternativetitle: Was ist Lyne?
 parent: lyne_de
-image: /assets/images/lyne/was-ist-lyne-new.jpeg
+image: /assets/images/lyne/lyne-header.jpg
 order: 15
 eleventyExcludeFromCollections: false
 ---
@@ -14,24 +14,24 @@ eleventyExcludeFromCollections: false
   <sbb-image slot="image" image-src="{{image}}"></sbb-image>
   {% include "src/_includes/title.njk" %}
 
-<div class="role-chooser">  
-<span class="sbb-text-xs sbb-text--bold">
+  <div class="role-chooser">
+    <span class="sbb-text-xs sbb-text--bold">
     Ich bin 
   </span>
-  <sbb-tag-group class="" size="m">
-    <sbb-tag value="content-1" checked>
+    <sbb-tag-group class="" size="m">
+      <sbb-tag value="content-1" checked>
       Product-Owner
     </sbb-tag>
-    <sbb-tag id="tooltip-trigger-dev" value="content-2" disabled>
+      <sbb-tag id="tooltip-trigger-dev" value="content-2" disabled>
       Entwickler:innen
     </sbb-tag>
-    <sbb-tag id="tooltip-trigger-ux" value="content-3" disabled>
+      <sbb-tag id="tooltip-trigger-ux" value="content-3" disabled>
       UX-Architekt:innen
     </sbb-tag>
-</sbb-tag-group>
-<sbb-tooltip trigger="tooltip-trigger-dev">Folgt später</sbb-tooltip>
-<sbb-tooltip trigger="tooltip-trigger-ux">Folgt später</sbb-tooltip>
-</div>
+    </sbb-tag-group>
+    <sbb-tooltip trigger="tooltip-trigger-dev">Folgt später</sbb-tooltip>
+    <sbb-tooltip trigger="tooltip-trigger-ux">Folgt später</sbb-tooltip>
+  </div>
 
   <p class="sbb-text-xl sbb-lead-container-lead-text">
     Lyne ist das Design System für Webanwendungen bei der SBB. Es stellt fertige, getestete und barrierefreie UI-Bausteine bereit,
@@ -45,7 +45,7 @@ eleventyExcludeFromCollections: false
     <sbb-flip-card class="lp-flip-card-1">
       <sbb-flip-card-summary image-alignment="after">
         <sbb-title level="4">Schnellere Produktentwicklung.</sbb-title>
-         <img slot="image" src="/assets/images/lyne/illustrations/schnellere_produktentwicklung_de.webp" alt="alt-Text">
+        <img slot="image" src="/assets/images/lyne/illustrations/schnellere_produktentwicklung_de.webp" alt="alt-Text">
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Schnellere Produktentwicklung.</sbb-title>
@@ -55,8 +55,8 @@ eleventyExcludeFromCollections: false
     <sbb-flip-card class="lp-flip-card-2">
       <sbb-flip-card-summary image-alignment="below">
         <sbb-title level="4">Höhere Produktqualität.</sbb-title>
-         <img slot="image" src="/assets/images/lyne/illustrations/hoehere_proeduktqualitaet_de.webp" alt="alt-Text">
-        </sbb-flip-card-summary>
+        <img slot="image" src="/assets/images/lyne/illustrations/hoehere_proeduktqualitaet_de.webp" alt="alt-Text">
+      </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Höhere Produktqualität.</sbb-title>
         Sorgfältig getestete und gepflegte Komponenten gewährleisten ein durchgängig hohes Qualitätsniveau über alle Anwendungen hinweg. Barrierefreiheit ist dabei von Anfang an integriert – so stellen wir sicher, dass unsere digitalen Angebote den WCAG-Standards entsprechen und für alle Nutzenden zugänglich sind. Und mit dem mitgelieferten Dark Mode wirken Anwendungen in jeder Umgebung angenehm und durchdacht.
@@ -65,7 +65,7 @@ eleventyExcludeFromCollections: false
     <sbb-flip-card class="lp-flip-card-3">
       <sbb-flip-card-summary image-alignment="below">
         <sbb-title level="4">Zukunftssichere Technologie.</sbb-title>
-         <img slot="image" src="/assets/images/lyne/illustrations/zukunftssichere_technologie.webp" alt="alt-Text">
+        <img slot="image" src="/assets/images/lyne/illustrations/zukunftssichere_technologie.webp" alt="alt-Text">
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Zukunftssichere Technologie.</sbb-title>
@@ -75,7 +75,7 @@ eleventyExcludeFromCollections: false
     <sbb-flip-card class="lp-flip-card-4">
       <sbb-flip-card-summary image-alignment="below">
         <sbb-title level="4">Konsistente User Experience & Marke.</sbb-title>
-         <img slot="image" src="/assets/images/lyne/illustrations/konsistente_ux_und_marke.webp" alt="alt-Text">
+        <img slot="image" src="/assets/images/lyne/illustrations/konsistente_ux_und_marke.webp" alt="alt-Text">
       </sbb-flip-card-summary>
       <sbb-flip-card-details>
         <sbb-title level="4" negative>Konsistente Marke.</sbb-title>
@@ -85,55 +85,103 @@ eleventyExcludeFromCollections: false
   </div>
 </sbb-container>
 
-
 <sbb-container background-expanded color="white" class="lp-container">
   <sbb-title level="2" visual-level="2">Was bringt Lyne aus wirtschaftlicher und qualitativer Sicht?</sbb-title>
   <sbb-table-wrapper>
     <table class="sbb-table sbb-table--stripe">
       <tbody>
         <tr>
-          <td><strong>Use Cases.</strong></td>
-          <td><strong>Wirtschaftlicher Effekt.</strong></td>
-          <td><strong>Qualitativer Effekt.</strong></td>
-        </tr>
-        <tr>
-          <td><strong>Neues internes Produkt für unsere Mitarbeitenden.</strong></td>
-          <td><ul><li>Sofort: Spart kosten durch fertige Komponenten.</li></ul></td>
-          <td><ul><li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li></ul></td>
-        </tr>
-        <tr>
-          <td><strong>Neues Produkt für unsere Kundinnen und Kunden.</strong></td>
-          <td><ul><li>Sofort: Spart Kosten durch fertige Komponenten.</li>
-              <li>Sofort: Weniger Aufwand für das Sicherstellen von Barrierefreiheit.</li></ul>
+          <td>
+            <strong>Use Cases.</strong>
           </td>
-          <td><ul><li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li></ul></td>
-        </tr>
-        <tr>
-          <td><strong>Neues Produkt für die Branche.</strong></td>
-          <td><ul><li>Sofort: Spart Kosten durch fertige Komponenten.</li>
-              <li>Sofort: Kein Aufwand für Branding-Anpassungen.</li></ul>
+          <td>
+            <strong>Wirtschaftlicher Effekt.</strong>
           </td>
-          <td><ul><li>Flexibel wechseln zwischen SBB- und Branchenkleid.</li>
-              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li></ul>
+          <td>
+            <strong>Qualitativer Effekt.</strong>
           </td>
         </tr>
         <tr>
-          <td><strong>1:1-Migration eines bestehenden Produkts.</strong></td>
-          <td><ul><li>Kurzfristig: Mehrkosten möglich für die Migration.</li> 
-              <li>Langfristig: Kosteineinsparung und weniger Betriebsaufwand.</li></ul>
+          <td>
+            <strong>Neues internes Produkt für unsere Mitarbeitenden.</strong>
           </td>
-          <td><ul><li>Laufende Qualitätsverbesserungen und neue Komponenten.</li>
-              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li></ul>
+          <td>
+            <ul>
+              <li>Sofort: Spart kosten durch fertige Komponenten.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li>
+            </ul>
           </td>
         </tr>
         <tr>
-          <td><strong>Migration von Altsystem kombiniert mit Redesign.</strong></td>
-          <td><ul><li>Kurz- bis Mittelfristig: Mehrkosten.</li>
-              <li>Langfristig: Kosteneinsparung und weniger Betriebsaufwand.</li></ul>
+          <td>
+            <strong>Neues Produkt für unsere Kundinnen und Kunden.</strong>
           </td>
-          <td><ul><li>Laufende Qualitätsverbesserungen und neue Komponenten.</li>
+          <td>
+            <ul>
+              <li>Sofort: Spart Kosten durch fertige Komponenten.</li>
+              <li>Sofort: Weniger Aufwand für das Sicherstellen von Barrierefreiheit.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Neues Produkt für die Branche.</strong>
+          </td>
+          <td>
+            <ul>
+              <li>Sofort: Spart Kosten durch fertige Komponenten.</li>
+              <li>Sofort: Kein Aufwand für Branding-Anpassungen.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Flexibel wechseln zwischen SBB- und Branchenkleid.</li>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>1:1-Migration eines bestehenden Produkts.</strong>
+          </td>
+          <td>
+            <ul>
+              <li>Kurzfristig: Mehrkosten möglich für die Migration.</li>
+              <li>Langfristig: Kosteineinsparung und weniger Betriebsaufwand.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Laufende Qualitätsverbesserungen und neue Komponenten.</li>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <strong>Migration von Altsystem kombiniert mit Redesign.</strong>
+          </td>
+          <td>
+            <ul>
+              <li>Kurz- bis Mittelfristig: Mehrkosten.</li>
+              <li>Langfristig: Kosteneinsparung und weniger Betriebsaufwand.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Laufende Qualitätsverbesserungen und neue Komponenten.</li>
               <li>Verbesserte User Experience durch Redesign.</li>
-              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li></ul>
+              <li>Hochwertiges UI: barrierefrei, responsiv, Light- & Darkmode.</li>
+            </ul>
           </td>
         </tr>
       </tbody>
@@ -163,7 +211,7 @@ eleventyExcludeFromCollections: false
           <sbb-expansion-panel-header>Wie lange läuft die alte Angular Library noch?</sbb-expansion-panel-header>
           <sbb-expansion-panel-content>Die alte <sbb-link href="https://angular.app.sbb.ch" target="_blank">Angular Library</sbb-link> wird noch bis zum 31. Dezember 2028 gewartet. Danach bleibt die Library zwar verfügbar, die Wartung wird aber eingestellt. Sofern dein Produkt oder deine Plattform einen längeren Lifecycle hat, ist eine Migration empfohlen.</sbb-expansion-panel-content>
         </sbb-expansion-panel>
-      <sbb-expansion-panel color="white">
+        <sbb-expansion-panel color="white">
           <sbb-expansion-panel-header>Kann ich die alte Angular Library mit Lyne gleichzeitg nutzen?</sbb-expansion-panel-header>
           <sbb-expansion-panel-content>Nein. Die Libraries sind nicht kompatibel und stören sich gegenseitig.</sbb-expansion-panel-content>
         </sbb-expansion-panel>
@@ -178,27 +226,30 @@ eleventyExcludeFromCollections: false
     <div class="inset">
       <sbb-title level="2" visual-level="2">5 Gründe für Lyne.</sbb-title>
       <ol class="sbb-step-list sbb-text-m">
-        <li><strong>Konsistenz.</strong>
+        <li>
+          <strong>Konsistenz.</strong>
           <p class="subtext">Interaktionen, Look-and-Feel, Design und Patterns sehen überall gleich aus. Das verringert den Lernaufwand für Kundinnen, Kunden und Mitarbeitende.</p>
         </li>
-        <li><strong>Effiziente Zusammenarbeit.</strong>
+        <li>
+          <strong>Effiziente Zusammenarbeit.</strong>
           <p class="subtext">Gemeinsame Standards beschleunigen die Entwicklung und erleichtern das Zusammenspiel von UX, PO, Business und Entwicklung. Wiederkehrende Design- und Umsetzungsfragen sind bereits gelöst und Teams sind von Anfang an besser abgestimmt.</p>
         </li>
-        <li><strong>Barrierefreiheit.</strong>
+        <li>
+          <strong>Barrierefreiheit.</strong>
           <p class="subtext">Alle Komponenten erfüllen die aktuellen Barrierefreiheits-Standards nach WCAG 2.2.</p>
         </li>
-        <li><strong>Flexible Komponenten.</strong>
+        <li>
+          <strong>Flexible Komponenten.</strong>
           <p class="subtext">Komponenten sind in mehreren Grössen verfügbar und lassen sich an unterschiedliche Nutzungsszenarien anpassen. Das erlaubt auch komplexe User Interfaces für Experten-Anwendungen.</p>
         </li>
-        <li><strong>Technologieunabhängigkeit.</strong>
+        <li>
+          <strong>Technologieunabhängigkeit.</strong>
           <p class="subtext">Lyne lässt sich mit Angular, React und anderen Frontend-Stacks – oder ganz ohne Framework – nutzen.</p>
         </li>
       </ol>
     </div>
   </div>
 </sbb-container>
-
-
 
 <sbb-container background-expanded color="milk" class="lp-container">
   <sbb-title level="2" visual-level="2">Wie entwickelt sich Lyne weiter?</sbb-title>
@@ -265,7 +316,6 @@ eleventyExcludeFromCollections: false
   </div>
 </sbb-container>
 
-
 <sbb-container background-expanded color="milk" class="lp-container">
   <sbb-title level="2" visual-level="2">Beratung und Unterstützung.</sbb-title>
   <div class="consulting">
@@ -294,43 +344,40 @@ eleventyExcludeFromCollections: false
   </div>
 </sbb-container>
 
-
-
 <sbb-overlay expanded trigger="overlay-trigger">
 
-{% from "lane.njk" import lane %}
+  {% from "lane.njk" import lane %}
 
+  <sbb-title level="2" visual-level="3" class="roadmap__title">{{ lyne.roadmap.title }}</sbb-title>
 
-    <sbb-title level="2" visual-level="3" class="roadmap__title">{{ lyne.roadmap.title }}</sbb-title>
-
-    <div class="roadmap">
-      {# --- Achse: Jahres-Band --- #}
-      <div class="roadmap__axis roadmap__axis--years"
+  <div class="roadmap">
+    {# --- Achse: Jahres-Band --- #}
+    <div class="roadmap__axis roadmap__axis--years"
            style="--roadmap-cols: {{ lyne.roadmap.columnCount }};"
            aria-hidden="true">
-        {% for band in lyne.roadmap.yearBands %}
-          <div class="roadmap__year sbb-text-xxs sbb-text--bold" style="grid-column: {{ band.gridColumn }};">
-            {{ band.year }}
-          </div>
-        {% endfor %}
-      </div>
-
-      {# --- Achse: Quartals-Ticks --- #}
-      <div class="roadmap__axis roadmap__axis--quarters"
-           style="--roadmap-cols: {{ lyne.roadmap.columnCount }};"
-           aria-hidden="true">
-        {% for tick in lyne.roadmap.quarterTicks %}
-          <div class="roadmap__quarter sbb-text-xxs" style="grid-column: {{ tick.gridColumn }};">
-            {{ tick.label }}
-          </div>
-        {% endfor %}
-      </div>
-
-      {# --- Swimlanes --- #}
-      {% for l in lyne.roadmap.lanes %}
-        {{ lane(l, lyne.roadmap.columnCount) }}
+      {% for band in lyne.roadmap.yearBands %}
+        <div class="roadmap__year sbb-text-xxs sbb-text--bold" style="grid-column: {{ band.gridColumn }};">
+          {{ band.year }}
+        </div>
       {% endfor %}
     </div>
+
+    {# --- Achse: Quartals-Ticks --- #}
+    <div class="roadmap__axis roadmap__axis--quarters"
+           style="--roadmap-cols: {{ lyne.roadmap.columnCount }};"
+           aria-hidden="true">
+      {% for tick in lyne.roadmap.quarterTicks %}
+        <div class="roadmap__quarter sbb-text-xxs" style="grid-column: {{ tick.gridColumn }};">
+          {{ tick.label }}
+        </div>
+      {% endfor %}
+    </div>
+
+    {# --- Swimlanes --- #}
+    {% for l in lyne.roadmap.lanes %}
+      {{ lane(l, lyne.roadmap.columnCount) }}
+    {% endfor %}
+  </div>
 
   <div class="sbb-screen-reader-only">
     <summary>Roadmap als Liste</summary>
@@ -341,12 +388,15 @@ eleventyExcludeFromCollections: false
           {% for item in l.items %}
             <li>
               <strong>{{ item.title }}</strong> –
-              {{ item.rangeLabel }}{% if item.type == 'planned' %} (geplant){% endif %}
+              {{ item.rangeLabel }}
+              {% if item.type == 'planned' %} (geplant){% endif %}
             </li>
           {% endfor %}
         </ul>
       {% else %}
-        <p><em>Laufend</em></p>
+        <p>
+          <em>Laufend</em>
+        </p>
       {% endif %}
     {% endfor %}
   </div>
