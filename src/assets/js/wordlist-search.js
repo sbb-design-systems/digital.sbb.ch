@@ -29,6 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
         entrySingular = "Entry";
         noResults = "No Results Found.";
     }
+
+    if (pageLanguage.startsWith("it") && typeof wordlist_it !== "undefined") {
+        activeWordlist = wordlist_it;
+        locale = "it";
+        entryPlural = "Entrate";
+        entrySingular = "Entrata";
+        noResults = "Nessuna voce trovata.";
+    }
     
     const searchInput = document.getElementById("search");
     const tbody = document.getElementById("table-body");
