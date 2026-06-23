@@ -25,7 +25,7 @@ Exemples:
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/fr/forms_light',
-  urldark: '/assets/images/ux-writing/forms_dark',
+  urldark: '/assets/images/ux-writing/fr/forms_dark',
   alt: 'Exemple pour une formulaire',
   title: 'Forms'
 }) }}

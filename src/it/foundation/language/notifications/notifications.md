@@ -11,8 +11,8 @@ availablelanguages:
     - de
     - fr
     - en
+    
 ---
-
 
 Le notifiche comprendono brevi avvisi e feedback. Informano su stati, successi, errori o avvertimenti, ad esempio sotto forma di <sbb-link  href="/{{page.lang}}/design-system/lyne/components/notification">notifiche</sbb-link> o <sbb-link  href="/{{page.lang}}/design-system/lyne/components/dialog">dialoghi</sbb-link>.
 
@@ -29,9 +29,9 @@ Raccomandazioni:
 #### Notifiche.
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/notification_light',
-  urldark: '/assets/images/ux-writing/fr/notification_dark',
-  alt: 'Exemple pour une error dans une notification',
+  url: '/assets/images/ux-writing/it/notification_light',
+  urldark: '/assets/images/ux-writing/it/notification_dark',
+  alt: 'Esempio per un errore in una notifica',
   title: 'Notification Notification'
 }) }}
 
@@ -55,9 +55,9 @@ Raccomandazioni:
 #### Toast.
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/toast_light',
-  urldark: '/assets/images/ux-writing/fr/toast_dark',
-  alt: 'Exemple pour une notification au moyen de Toast',
+  url: '/assets/images/ux-writing/it/toast_light',
+  urldark: '/assets/images/ux-writing/it/toast_dark',
+  alt: 'Esempio per una notifica tramite Toast',
   title: 'Notification Toast'
 }) }}
 
@@ -85,9 +85,9 @@ Raccomandazioni:
 #### Dialog.
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/dialog_light',
-  urldark: '/assets/images/ux-writing/fr/dialog_dark',
-  alt: 'Exemple pour une notification dans une dialogue',
+  url: '/assets/images/ux-writing/it/dialog_light',
+  urldark: '/assets/images/ux-writing/it/dialog_dark',
+  alt: 'Esempio per una notifica in un dialogo',
   title: 'Notification Dialog'
 }) }}
 
@@ -96,7 +96,7 @@ Raccomandazioni:
         <div class="iconandlabel"><sbb-icon name="circle-tick-small"></sbb-icon>Eliminare la voce? </br> Vuoi eliminare definitivamente questa voce? </br> Questa operazione non può essere annullata.</div>
     </div>
     <div class="donts">
-        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>ESei sicuro di voler davvero fare questo? </br> Ok e Annulla (come azioni).</div>
+        <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>Sei sicuro di voler davvero fare questo? </br> Ok e Annulla (come azioni).</div>
     </div>    
 </div>
 
@@ -108,9 +108,9 @@ Raccomandazioni:
 #### Error (Form-Field).
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/time_input_light',
-  urldark: '/assets/images/ux-writing/fr/time_input_dark',
-  alt: 'Exemple pour une notification dans une formulaire',
+  url: '/assets/images/ux-writing/it/time_input_light',
+  urldark: '/assets/images/ux-writing/it/time_input_dark',
+  alt: 'Esempio per una notifica in un modulo',
   title: 'Notification input field'
 }) }}
 
@@ -131,8 +131,8 @@ Raccomandazioni:
 #### Message.
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/message_with_image_light',
-  urldark: '/assets/images/ux-writing/fr/message_with_image_dark',
+  url: '/assets/images/ux-writing/it/message_with_image_light',
+  urldark: '/assets/images/ux-writing/it/message_with_image_dark',
   alt: 'Exemple pour une message avec une image',
   title: 'message with image'
 }) }}

@@ -11,6 +11,7 @@ availablelanguages:
     - de
     - fr
     - en
+    
 ---
 
 I moduli e i campi di input utilizzano etichette, suggerimenti e segnaposto per mostrare agli utenti come compilare correttamente i campi.  
@@ -29,9 +30,9 @@ Raccomandazioni:
 Esempi:
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/forms_light',
-  urldark: '/assets/images/ux-writing/forms_dark',
-  alt: 'Exemple pour une formulaire',
+  url: '/assets/images/ux-writing/it/forms_light',
+  urldark: '/assets/images/ux-writing/it/forms_dark',
+  alt: 'Esempi per moduli e campi di input',
   title: 'Forms'
 }) }}
 
@@ -57,9 +58,9 @@ Raccomandazioni:
 Exemples:
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/forms2_light',
-  urldark: '/assets/images/ux-writing/fr/forms2_dark',
-  alt: 'Beispiele für Formularfelder',
+  url: '/assets/images/ux-writing/it/forms2_light',
+  urldark: '/assets/images/ux-writing/it/forms2_dark',
+  alt: 'Altro esempi per moduli e campi di input',
   title: 'Forms'
 }) }}
 

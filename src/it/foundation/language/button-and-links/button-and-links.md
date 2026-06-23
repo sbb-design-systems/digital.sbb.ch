@@ -13,8 +13,6 @@ availablelanguages:
     - en
 ---
 
-
-
 I testi per pulsanti e link sono etichette brevi e orientate all'azione.
 
 Il loro obiettivo è guidare gli utenti con il minor numero di parole possibile, ridurre le incertezze e facilitare le decisioni.
@@ -34,9 +32,9 @@ Raccomandazioni:
 Esempi:
 
 {{ imageOnGreyBackground({
-  url: 'assets/images/ux-writing/fr/action_group_horizontal_light',
-  urldark: 'assets/images/ux-writing/fr/action_group_horizontal_dark',
-  alt: 'Exemple pour action-group',
+  url: 'assets/images/ux-writing/it/action_group_horizontal_light',
+  urldark: 'assets/images/ux-writing/it/action_group_horizontal_dark',
+  alt: 'Esempio per pulsanti',
   title: 'microcopy action-group-horizontal'
 }) }}
 
@@ -71,9 +69,9 @@ Raccomandazioni:
 Esempi:
 
 {{ imageOnGreyBackground({
-  url: 'assets/images/ux-writing/fr/link_light',
-  urldark: 'assets/images/ux-writing/fr/link_dark',
-  alt: 'Beispiel für einen Link',
+  url: 'assets/images/ux-writing/it/link_light',
+  urldark: 'assets/images/ux-writing/it/link_dark',
+  alt: 'Esempio per link',
   title: 'microcopy link'
 }) }}
 

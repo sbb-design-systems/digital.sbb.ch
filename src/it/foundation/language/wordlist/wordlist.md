@@ -11,8 +11,8 @@ availablelanguages:
     - de
     - fr
     - en
----
 
+---
 
 Molte parole sono simili o significano la stessa cosa nella vita quotidiana, ma non sempre si adattano ugualmente bene a ogni contesto. Il glossario digitale aiuta a decidere quale parola sia più adatta a seconda della situazione.
 
@@ -28,7 +28,7 @@ Altri termini sono sinonimi praticamente intercambiabili nel contenuto, ad esemp
 </br>
 
 <sbb-container color="milk" expanded="" class="wordlist-it">
-    <sbb-title level="3">Panoramica dei termini</sbb-title>
+    <sbb-title level="3">Panoramica dei termini.</sbb-title>
     <div class="wordlist-search">
         <sbb-form-field style="width: 100%;">
             <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>

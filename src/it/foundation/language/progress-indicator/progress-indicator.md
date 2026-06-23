@@ -11,6 +11,7 @@ availablelanguages:
     - de
     - fr
     - en
+
 ---
 
 Gli indicatori di avanzamento mostrano agli utenti in quale fase di un processo a più livelli si trovano. 
@@ -29,9 +30,9 @@ Esempi:
 
 
 {{ imageOnGreyBackground({
-  url: '/assets/images/ux-writing/fr/stepper_light',
-  urldark: '/assets/images/ux-writing/fr/stepper_dark',
-  alt: 'Exemple pour indicateur de progression',
+  url: '/assets/images/ux-writing/it/stepper_light',
+  urldark: '/assets/images/ux-writing/it/stepper_dark',
+  alt: 'Esempio per indicatore di avanzamento',
   title: 'Progress Indicator'
 }) }}
 
