@@ -6,12 +6,6 @@ title: Glossario digitale
 alternativetitle: Glossario digitale.
 parent: language_it
 order: 6
-
-availablelanguages: 
-    - de
-    - fr
-    - en
-
 ---
 
 Molte parole sono simili o significano la stessa cosa nella vita quotidiana, ma non sempre si adattano ugualmente bene a ogni contesto. Il glossario digitale aiuta a decidere quale parola sia più adatta a seconda della situazione.

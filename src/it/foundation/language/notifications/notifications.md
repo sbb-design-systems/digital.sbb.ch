@@ -6,12 +6,6 @@ title: Notifiche
 alternativetitle: Notifiche.
 parent: language_it
 order: 3
-
-availablelanguages: 
-    - de
-    - fr
-    - en
-    
 ---
 
 Le notifiche comprendono brevi avvisi e feedback. Informano su stati, successi, errori o avvertimenti, ad esempio sotto forma di <sbb-link  href="/{{page.lang}}/design-system/lyne/components/notification">notifiche</sbb-link> o <sbb-link  href="/{{page.lang}}/design-system/lyne/components/dialog">dialoghi</sbb-link>.

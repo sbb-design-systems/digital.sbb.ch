@@ -6,12 +6,6 @@ title: Indicatore di avanzamento
 alternativetitle: Indicatore di avanzamento.
 parent: language_it
 order: 5
-
-availablelanguages: 
-    - de
-    - fr
-    - en
-
 ---
 
 Gli indicatori di avanzamento mostrano agli utenti in quale fase di un processo a più livelli si trovano. 

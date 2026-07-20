@@ -6,11 +6,6 @@ title: Testi per pulsanti e link
 alternativetitle: Testi per pulsanti e link.
 parent: language_it
 order: 2
-
-availablelanguages: 
-    - de
-    - fr
-    - en
 ---
 
 I testi per pulsanti e link sono etichette brevi e orientate all'azione.

@@ -6,12 +6,6 @@ title: Moduli e campi di input
 alternativetitle: Moduli e campi di input.
 parent: language_it
 order: 2
-
-availablelanguages: 
-    - de
-    - fr
-    - en
-    
 ---
 
 I moduli e i campi di input utilizzano etichette, suggerimenti e segnaposto per mostrare agli utenti come compilare correttamente i campi.  

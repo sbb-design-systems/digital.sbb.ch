@@ -7,11 +7,6 @@ alternativetitle: Informazioni sull'UX Writing.
 parent: language_it
 order: 1
 
-availablelanguages: 
-    - de
-    - fr
-    - en
-
 ---
 
 L'UX Writing è una componente centrale dell'esperienza utente. I testi nei prodotti digitali influenzano direttamente il modo in cui gli utenti comprendono le attività, prendono decisioni e si sentono durante l'utilizzo. Un buon UX Writing è conciso, comprensibile, orientato all'azione e aiuta gli utenti a raggiungere i propri obiettivi in modo rapido e affidabile.
@@ -29,7 +24,7 @@ L'obiettivo di questa microcopy è guidare gli utenti nel modo ottimale con il m
 Raccomandazioni generali:
 
 1. **Sii chiaro.** La cosa più importante è che gli utenti capiscano cosa fare, cosa sta succedendo o cosa succederà.
-2. **Sii il più breve possibile, il più lungo necessario.** Lo spazio è limitato e più parole aumentano il carico cognitivo. Pensa in anticipo alle traduzioni in francese o italiano, poiché di solito richiedono più spazio rispetto al tedesco o all'inglese.
+2. **Sii il più breve possibile e solo tanto lungo quanto necessario.** Pensa fin dall’inizio alle traduzioni in francese o in italiano, poiché di solito richiedono più spazio rispetto al tedesco o all’inglese.
 3. **Sii utile.** Offri sicurezza e cerca di anticipare e soddisfare le esigenze degli utenti. Evita l'ironia e le frasi fatte, possono essere controproducenti.
 4. **Sii coerente.** Mantieni la coerenza nell'uso delle parole e della terminologia. Evita di mescolare le lingue.
 5. **Sii consapevole del contesto.** Presta attenzione al contesto. Fornisci il contesto quando non è presente.
