@@ -5,7 +5,7 @@ key: forms_it
 title: Moduli e campi di input
 alternativetitle: Moduli e campi di input.
 parent: language_it
-order: 2
+order: 4
 ---
 
 I moduli e i campi di input utilizzano etichette, suggerimenti e segnaposto per mostrare agli utenti come compilare correttamente i campi.  
@@ -49,7 +49,7 @@ Raccomandazioni:
 * **Mostra esempi.** Utilizza i segnaposto per mostrare il formato desiderato o valori di esempio e per evitare errori di inserimento.
 * **Non sono un sostituto.** I segnaposto non sostituiscono un'etichetta, servono solo come indicazione complementare.
 
-Exemples:
+Esempi:
 
 {{ imageOnGreyBackground({
   url: '/assets/images/ux-writing/it/forms2_light',

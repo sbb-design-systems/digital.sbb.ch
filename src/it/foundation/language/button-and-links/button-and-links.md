@@ -20,7 +20,7 @@ Raccomandazioni:
 
 * **Sii chiaro.** Utilizza un'istruzione o un invito all'azione (Acquista ora, avanti, invia) oppure un'indicazione orientativa inequivocabile (ad es. «Vai alle impostazioni»), in modo che l'azione sia immediatamente comprensibile.
 
-* **Usa da 1 a 3 parole.** I pulsanti vengono scorsi, non letti. Le etichette brevi aiutano a riconoscere rapidamente le azioni e a distinguere più facilmente tra più pulsanti.
+* **Usa da 1 a 4 parole.** I pulsanti vengono scorsi, non letti. Le etichette brevi aiutano a riconoscere rapidamente le azioni e a distinguere più facilmente tra più pulsanti.
 
 * **Non spiegare nel pulsante.** Se sono necessarie informazioni aggiuntive per la comprensione, posizionale sopra/sotto il pulsante o in un tooltip.
 
@@ -96,7 +96,7 @@ Esempi:
     <div class="donts">
        <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>
-            <div>Le nostre condizioni sono descritte <sbb-link variant="inline">qui</sbb-link></div>.
+            <div>Le nostre condizioni sono descritte <sbb-link variant="inline">qui</sbb-link>.</div>
         </div>
          <div class="iconandlabel">
             <sbb-icon name="circle-cross-small"></sbb-icon>

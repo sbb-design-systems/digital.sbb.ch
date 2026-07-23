@@ -103,7 +103,7 @@ const wordlist_it = [
     {Begriff:"Disconnetti", Alternative:"-", Hinweis:"-"},
     {Begriff:"Completa", Alternative:"-", Hinweis:"Quando un'operazione / un'attività viene completata. Alternative contestuali: prenotare, acquistare, ecc." },
     {Begriff:"Accedi", Alternative:"Effettua il login", Hinweis:"-"},
-    {Begriff:"Modifica", Alternative:"ÄCambia, Adatta, Edita, Muta", Hinweis:"In generale per adattamenti."},
+    {Begriff:"Modifica", Alternative:"Cambia, Adatta, Edita, Muta", Hinweis:"In generale per adattamenti."},
     {Begriff:"Termina", Alternative:"Chiudi", Hinweis:"Quando un'operazione/processo deve essere concluso."},
     {Begriff:"Disattiva", Alternative:"Sospendi, interrompi", Hinweis:"Quando un elemento viene temporaneamente disattivato, ma può essere riattivato e i dati vengono conservati, ad es. «Disattiva account utente»."},
     {Begriff:"Dettagli", Alternative:"-", Hinweis:"-"},
