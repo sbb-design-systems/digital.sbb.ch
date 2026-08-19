@@ -5,11 +5,9 @@
 * For actions that are often needed.
 * For actions that are useful and that users may not be able to find themselves. 
 
-
 ## Recommendation
 * The pattern is recommended for common actions such as copying or regenerating. 
 * May include more specific actions depending on the context.
-
 
 ## Example
 {{ imageOnGreyBackground({

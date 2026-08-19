@@ -13,7 +13,7 @@
   url: '/assets/images/patternlibrary/components/it/pattern_parameter_light_it',
   urldark: '/assets/images/patternlibrary/components/it/pattern_parameter_dark_it',
   alt: 'Esempio per parametri',
-  title: 'Pattern parametri''
+  title: 'Pattern parametri'
 }) }}
 
 ## Specifiche

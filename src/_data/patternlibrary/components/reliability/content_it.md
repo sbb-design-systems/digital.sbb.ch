@@ -13,7 +13,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/it/pattern_reliability_light_it',
   urldark: '/assets/images/patternlibrary/components/it/pattern_reliability_dark_it',
-  alt: 'Esempio di mappatura dell'affidabilità',
+  alt: "Esempio di mappatura dell'affidabilità",
   title: 'Pattern affidabilità'
 }) }}
 

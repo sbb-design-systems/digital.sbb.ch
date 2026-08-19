@@ -5,12 +5,9 @@
 * Für Aktionen, die häufig gebraucht werden.
 * Für Aktionen, die hilfreich sind und auf die die Nutzer:in vielleicht nicht selber kommt. 
 
-
-
 ## Empfehlung
 * Das Pattern empfiehlt sich für gängige Aktionen wie Kopieren oder neu Generieren. 
 * Kann aber je nach Kontext auch spezifischere Aktionen beinhalten.
-
 
 ## Beispiel
 {{ imageOnGreyBackground({

@@ -13,8 +13,8 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/it/pattern_questions_to_user_light_it',
   urldark: '/assets/images/patternlibrary/components/it/pattern_questions_to_user_dark_it',
-  alt: 'Esempio per domande all'utente',
-  title: 'Pattern domande all'utente'
+  alt: "Esempio per domande all'utente",
+  title: "Pattern domande all'utente"
 }) }}
 
 

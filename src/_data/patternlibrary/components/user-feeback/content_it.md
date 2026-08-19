@@ -15,8 +15,8 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/it/pattern_user_feedback_light_it',
   urldark: '/assets/images/patternlibrary/components/it/pattern_user_feedback_dark_it',
-  alt: 'Esempio di feedback dell'utente',
-  title: 'Pattern feedback dell'utente'
+  alt: "Esempio di feedback dell'utente",
+  title: "Pattern feedback dell'utente"
 }) }}
 
 ## Specifiche

@@ -5,8 +5,6 @@
 * Pour des actions qui sont souvent nécessaires.
 * Pour des actions qui sont utiles et que les utilisateurs pourraient ne pas trouver eux-mêmes.
 
-
-
 ## Recommandation
 * Le modèle est recommandé pour des actions courantes telles que copier ou régénérer. 
 * Peut inclure des actions plus spécifiques selon le contexte.

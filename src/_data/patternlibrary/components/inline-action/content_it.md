@@ -13,8 +13,8 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/it/pattern_inline_action_light_it',
   urldark: '/assets/images/patternlibrary/components/it/pattern_inline_action_dark_it',
-  alt: 'Esempio di interazioni all'interno di un output IA',
-  title: 'Pattern interazioni all'interno di un output'
+  alt: "Esempio di interazioni all'interno di un output IA",
+  title: "Pattern interazioni all'interno di un output"
 }) }}
 
 ## Specifiche

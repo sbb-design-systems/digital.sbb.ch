@@ -13,7 +13,7 @@
 {{ imageOnGreyBackground({
   url: '/assets/images/patternlibrary/components/it/pattern_action_on_output_light_it',
   urldark: '/assets/images/patternlibrary/components/it/pattern_action_on_output_dark_it',
-  alt: 'Esempio di azioni da intraprendere dopo l'uscita dall'IA',
+  alt: "Esempio di azioni da intraprendere dopo l'uscita dall'IA",
   title: 'Pattern action-on-output'
 }) }}
 
