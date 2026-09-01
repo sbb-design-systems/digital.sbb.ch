@@ -1,6 +1,5 @@
 //const litPlugin = require('@lit-labs/eleventy-plugin-lit');
 const lodash = require("lodash");
-const nunjucks = require("nunjucks");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require('markdown-it-attrs')
@@ -45,6 +44,9 @@ function appendDotToHeadings(content) {
 
 module.exports = async function(eleventyConfig) {
     const { EleventyI18nPlugin } = await import("@11ty/eleventy");
+    // Eleventy v4 uses its async fork of Nunjucks. Use that same runtime here so
+    // rendered macros remain marked as safe after their Promise resolves.
+    const { default: nunjucks } = await import("@11ty/nunjucks");
 
     const macroNames = [
         "imageWithMode",
@@ -64,9 +66,9 @@ module.exports = async function(eleventyConfig) {
         macroNames.forEach((macroName) => {
             const macroTemplate = `{% from "macros/macros.njk" import ${macroName} %}{{ ${macroName}(params) | safe }}`;
             env.addGlobal(macroName, (params = {}) => {
-                const renderedMacro = env.renderString(macroTemplate, { params });
-                const safeFilter = env.getFilter("safe");
-                return safeFilter ? safeFilter(renderedMacro) : new nunjucks.runtime.SafeString(renderedMacro);
+                return env
+                    .renderString(macroTemplate, { params })
+                    .then((renderedMacro) => new nunjucks.runtime.SafeString(renderedMacro));
             });
         });
     });
