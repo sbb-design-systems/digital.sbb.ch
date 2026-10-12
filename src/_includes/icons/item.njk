@@ -1,17 +1,17 @@
 {% if (icon.type == mode) %}
-<div class="icon {{ icon.mode }}" data-category="{{icon.category}}" data-id="{{icon.name}}" data-name="{{icon.name}}" data-size="{{icon.size}}" id="{{ icon.name }}" aria-describedby="{{ icon.name }}-content">
-    <img loading="lazy" class="icon-png" src="https://icons.app.sbb.ch/{% if mode == "Pictograms" %}picto{% else %}icons{% endif %}/{{icon.name}}.svg" alt="{{ icon.name }}" />
-    <div class="only-for-search">
-        {{ icon.name }}<br>
-        {% if mode == "KOM" %}{{ icon.group }}<br>{% endif %}
-        {{ icon.category }}<br>
-        {% if mode == "Pictograms" %}{{ icon.subcategory }}<br>{% endif %}
-        {{ icon.tags }}<br>
-        {% if mode == "KOM" %}
-            {% for size in icon.sizes %}
-                {{size.size}}
-            {% endfor %}
-        {% endif %}
-    </div>
-</div>
+{% set iconpx = {"extra-small": 16, "small": 24, "medium": 36, "large": 48} %}
+{% if mode == "KOM" %}{% set iconsize = "small" if "small" in icon.sizes else icon.sizes[0] %}{% set iconsrc = "https://icons.app.sbb.ch/icons/" + icon.group + "-" + iconsize + ".svg" %}
+{% elif mode == "Pictograms" %}{% set iconsrc = "https://icons.app.sbb.ch/picto/" + icon.name + ".svg" %}
+{% else %}{% set iconsrc = "https://icons.app.sbb.ch/icons/" + icon.name + ".svg" %}{% endif %}
+<button type="button" class="icon {{ icon.mode }}" data-category="{{icon.category}}" data-id="{{icon.name}}" data-name="{{icon.name}}" data-size="{% if mode == "KOM" %}{{ icon.sizes | join(" ") }}{% else %}{{ icon.size }}{% endif %}"{% if mode != "Pictograms" %} data-tags="{{ icon.tags | join(", ") }}"{% endif %}{% if mode == "KOM" %} data-group="{{ icon.group }}"{% endif %} id="icon-{{ icon.name }}" aria-label="{{ icon.name }}">
+    <img loading="lazy" class="icon-png" src="{{ iconsrc }}"{% if mode == "KOM" %} width="{{ iconpx[iconsize] }}" height="{{ iconpx[iconsize] }}"{% endif %} alt="" />
+    <span class="only-for-search">
+        {{ icon.name }}
+        {% if mode == "KOM" %}{{ icon.group }}{% endif %}
+        {{ icon.category }}
+        {% if mode == "Pictograms" %}{{ icon.subcategory }}{% endif %}
+        {{ icon.tags }}
+        {% if mode == "KOM" %}{{ icon.sizes | join(" ") }}{% endif %}
+    </span>
+</button>
 {% endif %}

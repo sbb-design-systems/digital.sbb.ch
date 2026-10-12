@@ -50,19 +50,37 @@ module.exports = async () => {
     }
   });
 
-  // Gruppiere KOM-Icons nach group und sammle die sizes
-  const groupMap = {};
+  // Fasse KOM-Icons pro group zu einem Eintrag zusammen (statt einem pro Grösse)
+  const sizeOrder = ["extra-small", "small", "medium", "large"];
+  const groups = new Map();
+  const grouped = [];
   icons.forEach(icon => {
-    if (icon.type === "KOM") {
-      if (!groupMap[icon.group]) groupMap[icon.group] = [];
-      groupMap[icon.group].push(icon.size);
+    if (icon.type !== "KOM") {
+      grouped.push(icon);
+      return;
     }
+    let entry = groups.get(icon.group);
+    if (!entry) {
+      entry = {
+        name: icon.group,
+        type: "KOM",
+        group: icon.group,
+        category: icon.category,
+        tags: [],
+        sizes: []
+      };
+      groups.set(icon.group, entry);
+      grouped.push(entry);
+    }
+    if (!entry.sizes.includes(icon.size)) entry.sizes.push(icon.size);
+    icon.tags.forEach(tag => {
+      if (tag === icon.category || tag === icon.group) return;
+      if (!entry.tags.includes(tag)) entry.tags.push(tag);
+    });
   });
-  icons.forEach(icon => {
-    if (icon.type === "KOM") {
-      icon.sizes = groupMap[icon.group] || [];
-    }
+  groups.forEach(entry => {
+    entry.sizes.sort((a, b) => sizeOrder.indexOf(a) - sizeOrder.indexOf(b));
   });
 
-  return [icons];
+  return [grouped];
 };

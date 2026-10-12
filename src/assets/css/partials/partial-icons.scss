@@ -3,6 +3,11 @@
     margin-block-start: 0;
   }
 
+  .icon-content-meta {
+    // überschreibt die globale Regel «sbb-container p», die sonst Textgrösse m erzwingt
+    --sbb-text-font-size: var(--sbb-text-font-size-xs);
+  }
+
   .icon-items {
     display: grid;
     grid-template-columns: repeat(4, var(--sbb-spacing-fixed-18x));
@@ -48,37 +53,69 @@
       inline-size: 48px;
       block-size: 48px;
     }
-
-    .sbb-text-s {
-      margin: 0;
-    }
   }
 
   .icon-item {
-    .sbb-text-s {
-      margin: 0;
+    display: block;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover .icon-preview {
+      border-color: var(--sbb-color-iron);
+    }
+
+    &:focus-visible {
+      outline: var(--sbb-focus-outline-width) var(--sbb-focus-outline-style, solid) var(--sbb-focus-outline-color);
+      outline-offset: var(--sbb-focus-outline-offset);
+      border-radius: var(--sbb-border-radius-2x);
+    }
+
+    .sbb-text-xxs {
+      display: block;
+      margin-block-start: var(--sbb-spacing-fixed-1x);
     }
   }
 }
 
 .icons {
-  display: flex;
-  flex-wrap: wrap;
+  // Spalten füllen die volle Breite: Kacheln wachsen minimal, Abstand bleibt fix
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(var(--sbb-size-icon-ui-small) + var(--sbb-size-icon-ui-large)), 1fr));
   gap: var(--sbb-spacing-fixed-2x);
 
   sbb-title {
-    flex-basis: 100%;
+    grid-column: 1 / -1;
   }
 
   .icon {
-    inline-size: calc(var(--sbb-size-icon-ui-small) + var(--sbb-size-icon-ui-large));
-    block-size: calc(var(--sbb-size-icon-ui-small) + var(--sbb-size-icon-ui-large));
+    aspect-ratio: 1;
     border-radius: var(--sbb-border-radius-2x);
     background: var(--sbb-color-white);
     background: light-dark(var(--sbb-color-white), var(--sbb-color-white));
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+
+    &:focus-visible {
+      outline: var(--sbb-focus-outline-width) var(--sbb-focus-outline-style, solid) var(--sbb-focus-outline-color);
+      outline-offset: var(--sbb-focus-outline-offset);
+    }
+
+    // Icons nie skalieren: Masse kommen aus width/height (16/24/36/48px)
+    img {
+      flex: none;
+      max-inline-size: none;
+    }
 
     &.light {
       background: var(--sbb-color-white);
@@ -142,13 +179,14 @@
 }
   */
 
-div[data-category="Logos"] {
-  block-size: auto !important;
-  inline-size: auto !important;
-  padding: 10px; 
+.icon[data-category="Logos"] {
+  grid-column: span 3;
+  aspect-ratio: auto;
+  padding: 10px;
 
   img {
     block-size: 20px;
+    max-inline-size: 100%;
+    object-fit: contain;
   }
-
 }

@@ -20,73 +20,66 @@ var iconlist = new List('icons', options);
 
 const categories = document.getElementById("categories");
 const sizes = document.getElementById("sizes");
+const notFound = document.getElementsByClassName('not-found')[0];
 
+// Kategorie-Titel haben data-size="title", Icons eine Liste ihrer Grössen ("small medium large")
+function isTitle(item) {
+  return item.values().size === "title";
+}
+
+function hasSize(item, size) {
+  return item.values().size.split(" ").indexOf(size) >= 0;
+}
+
+function selectedSize() {
+  return sizes.value || "small";
+}
+
+function selectedCategory() {
+  return categories.value || "all";
+}
+
+// Icons dürfen nur in diesen 4 Grössen abgebildet werden
+const sizePx = { "extra-small": 16, "small": 24, "medium": 36, "large": 48 };
+
+// Eine Kachel pro Icon: beim Grössenwechsel werden nur Bildquelle und Masse ausgetauscht
+function updateImages() {
+  const size = selectedSize();
+  iconlist.items.forEach(function(item) {
+    if (isTitle(item) || !hasSize(item, size)) return;
+    const img = item.elm.querySelector("img");
+    img.src = "https://icons.app.sbb.ch/icons/" + item.elm.dataset.group + "-" + size + ".svg";
+    img.width = img.height = sizePx[size];
+  });
+}
+
+function applyFilters() {
+  const size = selectedSize();
+  const category = selectedCategory();
+
+  // Titel nur zeigen, wenn die Kategorie Icons in der gewählten Grösse enthält
+  const categoriesWithIcons = new Set();
+  iconlist.items.forEach(function(item) {
+    if (!isTitle(item) && hasSize(item, size)) categoriesWithIcons.add(item.values().category);
+  });
+
+  iconlist.filter(function(item) {
+    if (category !== "all" && item.values().category !== category) return false;
+    if (isTitle(item)) return categoriesWithIcons.has(item.values().category);
+    return hasSize(item, size);
+  });
+}
 
 sizes.addEventListener('change', function() {
-  let selectedFilter = sizes.value;
-  let otherFilter = categories.value;
-
-
-  iconlist.filter(function(item) {
-
-      //console.log(item.values());
- //     alert("selected"+selectedFilter);
- //     alert("other"+otherFilter)
-
-      //if ((selectedFilter == "all" && otherFilter == "all") || (selectedFilter == "all" && otherFilter == undefined)) {
-      if (selectedFilter == "all" && otherFilter == "all") {
-        //alert("case 1");
-          return true;
-      }
-      if (selectedFilter == "all" && item.values().category === otherFilter) {
-        //alert("case 2");
-        return item;
-      }
-      if (item.values().size.indexOf(selectedFilter) >= 0 && item.values().category === otherFilter) {
-        //alert("case 3");
-          return item;
-      }
-      if ((item.values().size.indexOf(selectedFilter) >= 0 && otherFilter == "all") || (item.values().size.indexOf(selectedFilter) >= 0 && otherFilter == undefined)) {
-        //alert("case 4");
-        return item;
-      }
-  }
-  );
-  
+  updateImages();
+  applyFilters();
 });
 
-categories.addEventListener('change', function() {
-  let selectedFilter = categories.value;
-  let otherFilter = sizes.value;
-
-  iconlist.filter(function(item) {
-
-    //console.log(item.values());
-
-      if (selectedFilter == "all" && otherFilter == "all") {
-        //alert("case 5");
-          return true;
-      }
-      if (selectedFilter == "all" && item.values().size.indexOf(otherFilter) >= 0 ) {
-        //alert("case 6");
-        return item;
-      }
-      if (item.values().category === selectedFilter && item.values().size.indexOf(otherFilter) >= 0) {
-        //alert("case 7");
-          return item;
-      }
-      if (item.values().category === selectedFilter && otherFilter == "all") {
-        //alert("case 8");
-        return item;
-      }
-  }
-  );
-
-});
+categories.addEventListener('change', applyFilters);
 
 
 const searchinput = document.getElementById("search-input");
-const resetbutton = document.getElementById("search-reset");  
+const resetbutton = document.getElementById("search-reset");
 resetbutton.addEventListener('click', function() {
   if (searchinput) {
     searchinput.value = '';
@@ -102,25 +95,12 @@ searchinput.addEventListener("keyup", (event) => {
     resetbutton.style.display = "none";
   }
 });
-iconlist.on('searchComplete', function (e) {
-  if (e.matchingItems.length == 0) {
-    document.getElementsByClassName('not-found')[0].style.display = "block";
-  } else {
-    document.getElementsByClassName('not-found')[0].style.display = "none";
-  }
-});
-iconlist.on('filterComplete', function (e) {
-  if (searchinput.value.length) {
-    if (e.matchingItems.length == 0) {
-      document.getElementsByClassName('not-found')[0].style.display = "block";
-    } else {
-      document.getElementsByClassName('not-found')[0].style.display = "none";
-    }
-  } else {
-    if (e.matchingItems.length == 1) {
-      document.getElementsByClassName('not-found')[0].style.display = "block";
-    } else {
-      document.getElementsByClassName('not-found')[0].style.display = "none";
-    }
-  }
-});
+
+function updateNotFound() {
+  const count = iconlist.matchingItems.filter(function(item) { return !isTitle(item); }).length;
+  notFound.style.display = count ? "none" : "block";
+}
+iconlist.on('searchComplete', updateNotFound);
+iconlist.on('filterComplete', updateNotFound);
+
+applyFilters();
