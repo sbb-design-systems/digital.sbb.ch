@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de" class="sbb-lean">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Example Login – Template</title>
+    <link rel="stylesheet" href="/assets/css/standard-theme.css">
+    <style>
+      body { margin: 0; background: var(--sbb-color-milk); font-family: var(--sbb-typo-font-family); }
+      .page { display: grid; gap: var(--sbb-spacing-responsive-m); padding: var(--sbb-spacing-responsive-m) var(--sbb-layout-base-offset-responsive); }
+      .layout { display: grid; gap: var(--sbb-spacing-responsive-s); grid-template-columns: 1fr; }
+      @media (min-width: 64rem) { .layout { grid-template-columns: 1fr 1fr; align-items: start; } }
+      form { display: grid; gap: var(--sbb-spacing-fixed-4x); }
+      .bp::after { content: "zero"; }
+      @media (min-width: 37.5rem) { .bp::after { content: "small"; } }
+      @media (min-width: 64rem) { .bp::after { content: "large"; } }
+      @media (min-width: 90rem) { .bp::after { content: "ultra"; } }
+    </style>
+  </head>
+  <body>
+    <sbb-header expanded>
+      <sbb-header-button icon-name="hamburger-menu-small" expand-from="small">Menu</sbb-header-button>
+      <div class="sbb-header-spacer"></div>
+      <a aria-label="Homepage" href="#" class="sbb-header-logo"><sbb-logo protective-room="none"></sbb-logo></a>
+    </sbb-header>
+    <main class="page">
+      <sbb-title level="1">Anmelden</sbb-title>
+      <p>Aktueller Breakpoint: <strong class="bp"></strong></p>
+      <div class="layout">
+        <sbb-card color="white">
+          <form>
+            <sbb-form-field width="collapse">
+              <label>E-Mail</label>
+              <input type="email" autocomplete="off">
+            </sbb-form-field>
+            <sbb-form-field width="collapse">
+              <label>Passwort</label>
+              <input type="password" autocomplete="off">
+            </sbb-form-field>
+            <sbb-checkbox>Angemeldet bleiben</sbb-checkbox>
+            <sbb-button type="button">Anmelden</sbb-button>
+          </form>
+        </sbb-card>
+        <sbb-card color="milk">
+          <sbb-title level="2" visual-level="4">Noch kein Konto?</sbb-title>
+          <p>Platzhalter-Inhalt, um das responsive Verhalten des Templates zu zeigen.</p>
+          <sbb-secondary-button type="button">Registrieren</sbb-secondary-button>
+        </sbb-card>
+      </div>
+    </main>
+    <script type="module" src="/assets/js/lyne-bundle.js"></script>
+  </body>
+</html>

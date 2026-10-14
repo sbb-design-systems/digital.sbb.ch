@@ -2,7 +2,7 @@
     {# Design #}
     {% if entry.config.status.design == "ok" %}
         <sbb-status type="success">Figma</sbb-status>
-    {% elseif entry.config.status.code == "in progress" %}
+    {% elseif entry.config.status.design == "in progress" %}
         <sbb-status type="in-progress">Figma</sbb-status>
     {% else %}
         <sbb-status type="error">Figma</sbb-status>

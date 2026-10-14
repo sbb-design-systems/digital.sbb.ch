@@ -1,0 +1,68 @@
+---
+layout: base.njk
+---
+
+{% set pattern = lyne.templates[template] %}
+{% set t = translations[page.lang].templatebrowser %}
+
+<div id="content" class="content" role="main">
+<sbb-container>
+  {# set Languages #}
+  {% if pattern.config.language[page.lang] == true %}
+    {% set language = page.lang %}
+  {% else %}
+    {% set language = "de" %}
+    {% include "../_includes/component/missing-language.njk" %}
+  {% endif %}
+
+  {% include "../_includes/component/title.njk" %}
+
+  <div class="template-meta">
+    <div class="template-attributes">
+      {% if pattern.config.theme %}
+        <sbb-chip-label color="milk">{{ t.theme }}: {{ pattern.config.theme }}</sbb-chip-label>
+      {% endif %}
+      {% if pattern.config.preset %}
+        <sbb-chip-label color="milk">{{ t.preset }}: {{ pattern.config.preset }}</sbb-chip-label>
+      {% endif %}
+    </div>
+
+    <div class="template-actions">
+      {% if pattern.config.figmaUrl %}
+        <sbb-secondary-button-link size="m" href="{{ pattern.config.figmaUrl }}" target="_blank" accessibility-label="{{ t.figma }}. {{ translations[page.lang].newwindow }}">{{ t.figma }}</sbb-secondary-button-link>
+      {% else %}
+        <sbb-secondary-button size="m" disabled>{{ t.figma }}</sbb-secondary-button>
+      {% endif %}
+      {% if pattern.config.previewUrl %}
+        <sbb-secondary-button-link size="m" icon-name="link-external-small" href="{{ pattern.config.previewUrl }}" target="_blank" accessibility-label="{{ t.newtab }}. {{ translations[page.lang].newwindow }}">{{ t.newtab }}</sbb-secondary-button-link>
+      {% endif %}
+    </div>
+  </div>
+
+  {% set contentpath = ["src/_data/lyne/templates/", template, "/content_", language, ".md"] | join %}
+  {% set content %}{% include contentpath %}{% endset %}
+  <div class="template-description">
+    {{ content | renderUsingMarkdown | safe }}
+  </div>
+
+  {% if pattern.config.previewUrl %}
+    <div class="template-browser-toolbar">
+      <sbb-tag-group id="template-viewport" value="ultra" size="s" aria-label="{{ t.viewport }}">
+        <sbb-tag value="zero">Zero</sbb-tag>
+        <sbb-tag value="small">Small</sbb-tag>
+        <sbb-tag value="large">Large</sbb-tag>
+        <sbb-tag value="ultra">Ultra</sbb-tag>
+      </sbb-tag-group>
+      <span class="template-browser-size" aria-live="polite"></span>
+    </div>
+  {% else %}
+    <sbb-notification type="info" readonly>{{ t.nopreview }}</sbb-notification>
+  {% endif %}
+</sbb-container>
+
+{% if pattern.config.previewUrl %}
+<section class="template-browser-stage" data-viewport="ultra" aria-label="{{ t.preview }}">
+  <iframe src="{{ pattern.config.previewUrl }}" title="{{ t.preview }}: {{ pattern.config.tag | capitalizeWords }}" loading="lazy"></iframe>
+</section>
+{% endif %}
+</div>

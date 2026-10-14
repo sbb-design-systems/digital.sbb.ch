@@ -55,6 +55,16 @@ module.exports = {
     tonavigation: "Got to navigation",
     tocontent: "Go to navigation",
     tocontact: "Contact",
+    templatebrowser: {
+      "theme": "Theme",
+      "preset": "Preset",
+      "figma": "Open in Figma",
+      "newtab": "Open in new tab",
+      "viewport": "Viewport width",
+      "viewporthint": "The width can be adjusted at the largest breakpoint (ultra) only.",
+      "nopreview": "The preview of this template is not yet available.",
+      "preview": "Template preview"
+    },
     colors: {
       "red": "Red",
       "white_gray_black": "White, Grey, Black",
@@ -328,6 +338,16 @@ module.exports = {
     tonavigation: "Zur Navigation",
     tocontent: "Zum Inhalt",
     tocontact: "Kontakt",
+    templatebrowser: {
+      "theme": "Theme",
+      "preset": "Preset",
+      "figma": "In Figma öffnen",
+      "newtab": "In neuem Tab öffnen",
+      "viewport": "Viewport-Breite",
+      "viewporthint": "Die Breite lässt sich nur im grössten Breakpoint (ultra) anpassen.",
+      "nopreview": "Die Vorschau dieses Templates ist noch nicht verfügbar.",
+      "preview": "Template-Vorschau"
+    },
     colors: {
       "red": "Rot",
       "white_gray_black": "Weiss, Grau, Schwarz",
@@ -601,6 +621,16 @@ module.exports = {
     tonavigation: "Vers la navigation",
     tocontent: "Vers le contenu",
     tocontact: "Contact",
+    templatebrowser: {
+      "theme": "Thème",
+      "preset": "Preset",
+      "figma": "Ouvrir dans Figma",
+      "newtab": "Ouvrir dans un nouvel onglet",
+      "viewport": "Largeur du viewport",
+      "viewporthint": "La largeur ne peut être ajustée qu’au plus grand breakpoint (ultra).",
+      "nopreview": "L’aperçu de ce template n’est pas encore disponible.",
+      "preview": "Aperçu du template"
+    },
     colors: {
       "red": "Rouge",
       "white_gray_black": "Blanc, Gris, Noir",
@@ -662,6 +692,16 @@ module.exports = {
     tonavigation: "Vai alla navigazione",
     tocontent: "Vai al contenuto",
     tocontact: "Contatti",
+    templatebrowser: {
+      "theme": "Tema",
+      "preset": "Preset",
+      "figma": "Apri in Figma",
+      "newtab": "Apri in una nuova scheda",
+      "viewport": "Larghezza del viewport",
+      "viewporthint": "La larghezza è regolabile solo nel breakpoint più grande (ultra).",
+      "nopreview": "L’anteprima di questo template non è ancora disponibile.",
+      "preview": "Anteprima del template"
+    },
     colors: {
       "red": "Rosso",
       "white_gray_black": "Bianco, Grigio, Nero",

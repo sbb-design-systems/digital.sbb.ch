@@ -28,6 +28,8 @@
 {% set pattern = sys.components[component] %}
 
     <title>{{pattern.config.tag | capitalizeWords}} – digital.sbb.ch</title>
+{% elif (layout == "template.njk") %}
+    <title>{{lyne.templates[template].config.tag | capitalizeWords}} – digital.sbb.ch</title>
 {% else %}
     <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
 {% endif %}

@@ -101,6 +101,7 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/fonts");
     eleventyConfig.addPassthroughCopy("src/assets/downloads");
     eleventyConfig.addPassthroughCopy("src/assets/studies");
+    eleventyConfig.addPassthroughCopy("src/assets/templates");
     eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     eleventyConfig.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 

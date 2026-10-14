@@ -1,0 +1,5 @@
+{% for component, entry in sys.templates | sortLyneComponentsByOrder %}
+    {% if (entry.config.list == "templates")  %}
+        {% include "./browser-item.njk" %}
+    {% endif %}
+{% endfor %}

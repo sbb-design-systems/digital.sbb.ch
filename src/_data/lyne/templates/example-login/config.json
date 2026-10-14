@@ -1,0 +1,24 @@
+{
+    "tag": "example-login",
+    "system": "lyne",
+    "list": "templates",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 10,
+    "categories": ["Template"],
+    "keywords": ["login", "form", "example"],
+    "theme": "Standard",
+    "preset": "Lean",
+    "figmaUrl": "",
+    "previewUrl": "/assets/templates/example-login/index.html",
+    "showInFirstLevel": true,
+    "status": {
+        "design": "in progress",
+        "code": "in progress",
+        "documentation": "in progress"
+    }
+}

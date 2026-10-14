@@ -1,0 +1,66 @@
+@use '@sbb-esta/lyne-elements' as sbb;
+
+.template-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sbb-spacing-responsive-xs);
+  margin-block-end: var(--sbb-spacing-responsive-s);
+}
+
+.template-attributes,
+.template-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sbb-spacing-fixed-2x);
+}
+
+.template-description {
+  margin-block-end: var(--sbb-spacing-responsive-s);
+}
+
+.template-browser-toolbar {
+  display: none;
+  align-items: center;
+  gap: var(--sbb-spacing-fixed-4x);
+  margin-block-end: var(--sbb-spacing-fixed-4x);
+
+  @include sbb.mq($from: ultra) {
+    display: flex;
+  }
+}
+
+.template-browser-size {
+  color: var(--sbb-color-granite);
+  font-variant-numeric: tabular-nums;
+}
+
+// Volle Seitenbreite, ausserhalb des sbb-container.
+.template-browser-stage {
+  display: flex;
+  overflow-x: auto;
+  padding: var(--sbb-spacing-fixed-6x);
+  background-color: var(--sbb-color-midnight);
+
+  iframe {
+    display: block;
+    flex-shrink: 0;
+    margin-inline: auto;
+    inline-size: 100%;
+    block-size: 80vh;
+    border: 0;
+    background-color: var(--sbb-color-white);
+    transition: inline-size var(--sbb-animation-duration-2x) var(--sbb-animation-easing);
+  }
+
+  // Breitenwahl nur im grössten Breakpoint. Die Breiten liegen jeweils innerhalb des Breakpoints;
+  // ultra füllt die Seite, mindestens aber 90rem (sonst horizontal scrollbar).
+  @include sbb.mq($from: ultra) {
+    &[data-viewport='zero'] iframe { inline-size: 375px; }
+    &[data-viewport='small'] iframe { inline-size: 768px; }
+    &[data-viewport='large'] iframe { inline-size: 1280px; }
+    &[data-viewport='ultra'] iframe { min-inline-size: 90rem; }
+  }
+}
