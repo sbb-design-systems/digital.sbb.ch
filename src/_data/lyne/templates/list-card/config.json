@@ -1,0 +1,24 @@
+{
+    "tag": "list-card",
+    "system": "lyne",
+    "list": "templates",
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 20,
+    "categories": ["Template"],
+    "keywords": ["list", "card", "template"],
+    "theme": "Standard",
+    "preset": "Lean",
+    "figmaUrl": "https://www.figma.com/design/mWknI2rC5DJmOgRO61WKai/Lyne-Components?node-id=30878-491497&t=lP7xXvPH5Bkeg5DL-11",
+    "previewUrl": "/assets/templates/list/cards.html",
+    "showInFirstLevel": true,
+    "status": {
+        "design": "ok",
+        "code": "in progress",
+        "documentation": "ok"
+    }
+}

@@ -1,31 +1,36 @@
 @use '@sbb-esta/lyne-elements' as sbb;
 
-.template-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sbb-spacing-responsive-xs);
-  margin-block-end: var(--sbb-spacing-responsive-s);
-}
-
 .template-attributes,
 .template-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: var(--sbb-spacing-fixed-2x);
+  margin-block-end: var(--sbb-spacing-responsive-s);
 }
 
-.template-description {
-  margin-block-end: var(--sbb-spacing-responsive-s);
+// Tag-Group links, Buttons rechts. Unterhalb von ultra ist die Tag-Group ausgeblendet,
+// die Buttons rutschen dann nach links.
+.template-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--sbb-spacing-fixed-4x);
+  margin-block: var(--sbb-spacing-responsive-s);
+}
+
+.template-actions {
+  margin-block-end: 0;
+
+  @include sbb.mq($from: ultra) {
+    margin-inline-start: auto;
+  }
 }
 
 .template-browser-toolbar {
   display: none;
   align-items: center;
   gap: var(--sbb-spacing-fixed-4x);
-  margin-block-end: var(--sbb-spacing-fixed-4x);
 
   @include sbb.mq($from: ultra) {
     display: flex;

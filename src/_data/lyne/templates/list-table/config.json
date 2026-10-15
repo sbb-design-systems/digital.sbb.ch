@@ -1,5 +1,5 @@
 {
-    "tag": "example-login",
+    "tag": "list-table",
     "system": "lyne",
     "list": "templates",
     "language": {
@@ -10,15 +10,15 @@
     },
     "order": 10,
     "categories": ["Template"],
-    "keywords": ["login", "form", "example"],
+    "keywords": ["list", "table", "template"],
     "theme": "Standard",
     "preset": "Lean",
-    "figmaUrl": "",
-    "previewUrl": "/assets/templates/example-login/index.html",
+    "figmaUrl": "https://www.figma.com/design/mWknI2rC5DJmOgRO61WKai/Lyne-Components?node-id=30878-491497&t=lP7xXvPH5Bkeg5DL-11",
+    "previewUrl": "/assets/templates/list/table.html",
     "showInFirstLevel": true,
     "status": {
-        "design": "in progress",
+        "design": "ok",
         "code": "in progress",
-        "documentation": "in progress"
+        "documentation": "ok"
     }
 }

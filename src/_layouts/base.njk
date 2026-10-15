@@ -4,12 +4,14 @@
     {% include "../_includes/head.njk" %}
   </head>
   <body>
+    {# Name des Design Systems für Header-Buttons und Sidebar-Titel #}
+    {% if system == "patternlibrary" %}{% set dsName = "Patterns" %}{% else %}{% set dsName = system | capitalizeWords %}{% endif %}
     {% include "../_includes/skiplinks.njk" %}
     {% include "../_includes/header/header.njk" %}
-    {% if layout == "component.njk" %}
+    {% if layout == "component.njk" or layout == "template.njk" %}
     <sbb-sidebar-container>
       <sbb-sidebar role="navigation" position="start" color="milk" mode="over" focus-on-open id="sidebar">
-        <sbb-sidebar-title>{{ translations[page.lang].findcomponent }}</sbb-sidebar-title>
+        <sbb-sidebar-title>{{ translations[page.lang].findcomponent | replace("{name}", dsName) }}</sbb-sidebar-title>
         <sbb-sidebar-close-button></sbb-sidebar-close-button>
         {% include "../_includes/browser/browser.njk" %}
       </sbb-sidebar>
@@ -24,7 +26,7 @@
           </sbb-container>
         {% endif %}  
         {% include "../_includes/footer.njk" %}
-    {% if layout == "component.njk" %}
+    {% if layout == "component.njk" or layout == "template.njk" %}
       </sbb-sidebar-content>
     </sbb-sidebar-container>
     {% endif %}
@@ -37,6 +39,8 @@
 
     {% if layout == "template.njk" %}
     <script src="/assets/js/template-browser.js"></script>
+    <script src="/assets/js/sidebar.js"></script>
+    <script src="/assets/js/component-browser.js"></script>
     {% endif %}
 
     {% if layout == "component.njk" %}

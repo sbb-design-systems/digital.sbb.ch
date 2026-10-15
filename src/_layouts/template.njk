@@ -17,26 +17,13 @@ layout: base.njk
 
   {% include "../_includes/component/title.njk" %}
 
-  <div class="template-meta">
-    <div class="template-attributes">
-      {% if pattern.config.theme %}
-        <sbb-chip-label color="milk">{{ t.theme }}: {{ pattern.config.theme }}</sbb-chip-label>
-      {% endif %}
-      {% if pattern.config.preset %}
-        <sbb-chip-label color="milk">{{ t.preset }}: {{ pattern.config.preset }}</sbb-chip-label>
-      {% endif %}
-    </div>
-
-    <div class="template-actions">
-      {% if pattern.config.figmaUrl %}
-        <sbb-secondary-button-link size="m" href="{{ pattern.config.figmaUrl }}" target="_blank" accessibility-label="{{ t.figma }}. {{ translations[page.lang].newwindow }}">{{ t.figma }}</sbb-secondary-button-link>
-      {% else %}
-        <sbb-secondary-button size="m" disabled>{{ t.figma }}</sbb-secondary-button>
-      {% endif %}
-      {% if pattern.config.previewUrl %}
-        <sbb-secondary-button-link size="m" icon-name="link-external-small" href="{{ pattern.config.previewUrl }}" target="_blank" accessibility-label="{{ t.newtab }}. {{ translations[page.lang].newwindow }}">{{ t.newtab }}</sbb-secondary-button-link>
-      {% endif %}
-    </div>
+  <div class="template-attributes">
+    {% if pattern.config.theme %}
+      <sbb-chip-label size="xs" color="milk">{{ t.theme }}: {{ pattern.config.theme }}</sbb-chip-label>
+    {% endif %}
+    {% if pattern.config.preset %}
+      <sbb-chip-label size="xs" color="milk">{{ t.preset }}: {{ pattern.config.preset }}</sbb-chip-label>
+    {% endif %}
   </div>
 
   {% set contentpath = ["src/_data/lyne/templates/", template, "/content_", language, ".md"] | join %}
@@ -45,17 +32,31 @@ layout: base.njk
     {{ content | renderUsingMarkdown | safe }}
   </div>
 
-  {% if pattern.config.previewUrl %}
-    <div class="template-browser-toolbar">
-      <sbb-tag-group id="template-viewport" value="ultra" size="s" aria-label="{{ t.viewport }}">
-        <sbb-tag value="zero">Zero</sbb-tag>
-        <sbb-tag value="small">Small</sbb-tag>
-        <sbb-tag value="large">Large</sbb-tag>
-        <sbb-tag value="ultra">Ultra</sbb-tag>
-      </sbb-tag-group>
-      <span class="template-browser-size" aria-live="polite"></span>
+  <div class="template-bar">
+    {% if pattern.config.previewUrl %}
+      <div class="template-browser-toolbar">
+        <sbb-tag-group id="template-viewport" value="ultra" size="m" aria-label="{{ t.viewport }}">
+          <sbb-tag value="zero">Zero</sbb-tag>
+          <sbb-tag value="small">Small</sbb-tag>
+          <sbb-tag value="large">Large</sbb-tag>
+          <sbb-tag value="ultra">Ultra</sbb-tag>
+        </sbb-tag-group>
+        <span class="template-browser-size" aria-live="polite"></span>
+      </div>
+    {% endif %}
+    <div class="template-actions">
+      {% if pattern.config.figmaUrl %}
+        <sbb-secondary-button-link size="m" icon-name="figma-small" href="{{ pattern.config.figmaUrl }}" target="_blank" accessibility-label="{{ t.figma }}. {{ translations[page.lang].newwindow }}">{{ t.figma }}</sbb-secondary-button-link>
+      {% else %}
+        <sbb-secondary-button size="m" icon-name="figma-small" disabled>{{ t.figma }}</sbb-secondary-button>
+      {% endif %}
+      {% if pattern.config.previewUrl %}
+        <sbb-secondary-button-link size="m" icon-name="link-external-small" href="{{ pattern.config.previewUrl }}" target="_blank" accessibility-label="{{ t.newtab }}. {{ translations[page.lang].newwindow }}">{{ t.newtab }}</sbb-secondary-button-link>
+      {% endif %}
     </div>
-  {% else %}
+  </div>
+
+  {% if not pattern.config.previewUrl %}
     <sbb-notification type="info" readonly>{{ t.nopreview }}</sbb-notification>
   {% endif %}
 </sbb-container>
