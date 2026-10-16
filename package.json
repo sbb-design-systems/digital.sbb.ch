@@ -35,8 +35,9 @@
     },
     "dependencies": {
         "@11ty/eleventy-fetch": "^5.1.0",
-        "@sbb-esta/lyne-elements": "^5.10.0",
-        "@sbb-esta/lyne-elements-experimental": "^5.10.0",
+        "@lit-labs/eleventy-plugin-lit": "^1.0.6",
+        "@sbb-esta/lyne-elements": "^5.11.0",
+        "@sbb-esta/lyne-elements-experimental": "^5.11.0",
         "@webcomponents/template-shadowroot": "^0.2.1",
         "chokidar": "^5.0.0",
         "cpx2": "^8.0.0",

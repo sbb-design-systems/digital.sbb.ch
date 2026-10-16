@@ -18,7 +18,7 @@ Grundsätzlich und wo immer möglich wird das vollständige rote Panel (Version 
 Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessibility Guideline) müssen bei der Erstellung der Werbemittel eingehalten werden. {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-label>Version 1</sbb-tab-label>
+<sbb-tab-label slot="tab-bar">Version 1</sbb-tab-label>
 <sbb-tab>
 
 ### Beispiele
@@ -38,7 +38,7 @@ Die Empfehlungen für barrierefreie Webinhalte 2.0 der WCAG (Web Content Accessi
 \*Anwendung des Fensters in der ausgeklappten (expanded) Ansicht
 
 </sbb-tab>
-<sbb-tab-label>Version 2</sbb-tab-label>
+<sbb-tab-label slot="tab-bar">Version 2</sbb-tab-label>
 <sbb-tab>
 
 ### Beispiele

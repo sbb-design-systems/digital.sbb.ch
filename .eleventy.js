@@ -1,4 +1,4 @@
-//const litPlugin = require('@lit-labs/eleventy-plugin-lit');
+const litPlugin = require('@lit-labs/eleventy-plugin-lit');
 const lodash = require("lodash");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -75,9 +75,9 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.setQuietMode(true);
 
-    // Can be activated by running "SSR=1 npm start" on Unix systems
-    if (process.env.BUILD_MODE === 'production' || process.env.SSR) {
-           /* 
+    // Enable SSR only for production builds.
+    if (process.env.BUILD_MODE === 'production') {
+           
             eleventyConfig.setQuietMode(false);
             console.log(`Activated SSR plugin`);
             eleventyConfig.addPlugin(litPlugin, {
@@ -87,7 +87,7 @@ module.exports = async function(eleventyConfig) {
                     './node_modules/@sbb-esta/lyne-elements-experimental/index.js',
                 ],
             });
-            */
+            
         } 
     else { 
        // console.log(`SSR plugin not active`);
