@@ -31,26 +31,26 @@
     </sbb-sidebar-container>
     {% endif %}
     <script type="module" src="{{ '/assets/js/lyne-bundle.js' | assetHash }}"></script>
-    {#%<script src="{{ '/assets/js/mode-switch.js' | assetHash }}"></script>%#}
+    {#%<script src="{{ '/assets/js/mode-switch.js' | assetHash }}" defer></script>%#}
 
     {% if layout == "overview.njk" or layout == "overview.njk" %}
-    <script src="{{ '/assets/js/component-browser.js' | assetHash }}"></script>
+    <script src="{{ '/assets/js/component-browser.js' | assetHash }}" defer></script>
     {% endif %}
 
     {% if layout == "template.njk" %}
-    <script src="{{ '/assets/js/template-browser.js' | assetHash }}"></script>
-    <script src="{{ '/assets/js/sidebar.js' | assetHash }}"></script>
-    <script src="{{ '/assets/js/component-browser.js' | assetHash }}"></script>
+    <script src="{{ '/assets/js/template-browser.js' | assetHash }}" defer></script>
+    <script src="{{ '/assets/js/sidebar.js' | assetHash }}" defer></script>
+    <script src="{{ '/assets/js/component-browser.js' | assetHash }}" defer></script>
     {% endif %}
 
     {% if layout == "component.njk" %}
-    <script src="{{ '/assets/js/mode-toggle.js' | assetHash }}"></script>
-    <script src="{{ '/assets/js/sidebar.js' | assetHash }}"></script>
-    <script src="{{ '/assets/js/component-browser.js' | assetHash }}"></script>
+    <script src="{{ '/assets/js/mode-toggle.js' | assetHash }}" defer></script>
+    <script src="{{ '/assets/js/sidebar.js' | assetHash }}" defer></script>
+    <script src="{{ '/assets/js/component-browser.js' | assetHash }}" defer></script>
     {# highlight.js nur laden, wenn die Seite Codeblöcke oder Storybook-Beispiele (HTML-Snippets) enthält #}
     {% if ('<pre' in content) or ('iframe-border' in content) %}
-    <script src="{{ '/assets/js/highlight.min.js' | assetHash }}"></script>
-    <script>hljs.highlightAll();</script>
+    <script src="{{ '/assets/js/highlight.min.js' | assetHash }}" defer></script>
+    <script>document.addEventListener("DOMContentLoaded", () => hljs.highlightAll());</script>
     {% endif %}
     {% endif %}
   </body>

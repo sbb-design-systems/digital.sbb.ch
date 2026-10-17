@@ -2,6 +2,7 @@ const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const parse5 = require("parse5");
+const agentPages = require("./agent-markdown");
 const litPlugin = require('@lit-labs/eleventy-plugin-lit');
 const lodash = require("lodash");
 const markdownIt = require("markdown-it");
@@ -210,6 +211,60 @@ function hreflangLinks(url, allPages) {
     return links.join("\n");
 }
 
+// Markdown-Ausgabe für Agents (index.md pro Komponente, llms.txt): Quelltexte ohne Nunjucks-Makros
+// und ohne Darstellungs-Markup, Bilder und Links als absolute URLs.
+function agentMarkdown(source) {
+    if (typeof source !== "string") return "";
+    const absolute = (url) => (url.startsWith("/") ? SITE_URL + url : url);
+    return source
+        // Bild-Makros ({{ imageOnGreyBackground({ url: '...', alt: '...' }) }} usw.) → Markdown-Bild
+        .replace(/\{\{\s*(\w+)\(\{([\s\S]*?)\}\)\s*\}\}/g, (match, macro, params) => {
+            const url = params.match(/url:\s*['"]([^'"]+)['"]/)?.[1];
+            const alt = params.match(/alt:\s*['"]([^'"]*)['"]/)?.[1] ?? "";
+            if (!url) return "";
+            const extension = macro === "svgImage" ? ".svg" : macro === "imageWithMode" ? "-light.webp" : ".webp";
+            return `![${alt}](${absolute(url)}${extension})`;
+        })
+        .replace(/\{%[\s\S]*?%\}/g, "")
+        .replace(/<\/?sbb-table-wrapper>/g, "")
+        .replace(/^\{[.#][^}\n]*\}\s*$/gm, "")
+        .replace(/<!--[\s\S]*?-->/g, "")
+        // Relative Storybook-Links aus den Lyne-Readmes (/docs/…, /story/…)
+        .replace(/\]\(\/(docs|story)\//g, "](https://lyne-elements.app.sbb.ch/?path=/$1/")
+        .replace(/\]\((\/[^)\s]*)\)/g, (match, url) => `](${absolute(url)})`)
+        .replace(/\n{3,}/g, "\n\n")
+        .trim();
+}
+
+// Verschiebt alle Markdown-Überschriften ausserhalb von Code-Blöcken um eine Ebene nach unten
+function demoteHeadings(markdown) {
+    if (typeof markdown !== "string") return markdown;
+    let inCodeBlock = false;
+    return markdown.split("\n").map((line) => {
+        if (/^\s*(```|~~~)/.test(line)) inCodeBlock = !inCodeBlock;
+        return !inCodeBlock && /^#{1,5}\s/.test(line) ? "#" + line : line;
+    }).join("\n");
+}
+
+// Erster Satz nach der ersten Überschrift einer Übersicht (Kurzbeschreibung für llms.txt)
+function agentSummary(markdown) {
+    if (typeof markdown !== "string") return "";
+    const lines = markdown.split("\n").map((line) => line.trim());
+    const start = lines.findIndex((line) => line.startsWith("#"));
+    return lines.slice(start + 1).find((line) => line && !line.startsWith("#") && !line.startsWith("!")) ?? "";
+}
+
+function readSourceFile(relativePath) {
+    const file = path.join("src", relativePath);
+    return fs.existsSync(file) ? fs.readFileSync(file, "utf8") : "";
+}
+
+function storybookDocsUrl(storybookId, stories) {
+    const entries = Object.values(Array.isArray(stories) ? stories[0] ?? {} : stories ?? {});
+    const docs = entries.find((entry) => entry.type === "docs" && entry.tag === storybookId && entry.title?.startsWith("elements"));
+    return docs ? `https://lyne-elements.app.sbb.ch/?path=/docs/${docs.id}` : "";
+}
+
 function sortByOrder(values) {
     let vals = [...values];     // this *seems* to prevent collection mutation...
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
@@ -314,6 +369,50 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("assetHash", assetHash);
     eleventyConfig.addFilter("imageAttrs", imageAttrs);
     eleventyConfig.addFilter("hreflangLinks", hreflangLinks);
+    eleventyConfig.addFilter("agentMarkdown", agentMarkdown);
+    eleventyConfig.addFilter("readSourceFile", readSourceFile);
+    eleventyConfig.addFilter("demoteHeadings", demoteHeadings);
+    eleventyConfig.addFilter("agentSummary", agentSummary);
+
+    // Inhaltsseiten mit Markdown-Version (agent-markdown.js): eigenständig, keine Weiterleitung
+    // Theme-Demoseiten (theme.njk) haben keinen Hauptinhalt und erhalten keine Markdown-Version
+    const isAgentPage = (item) =>
+        agentPages.isAgentPageUrl(item?.url) && !item.data?.redirect && item.data?.layout !== "theme.njk" && isSelfCanonical(item);
+    eleventyConfig.addFilter("isAgentPage", (url) => agentPageUrls.has(url));
+    // Einträge für einen llms.txt-Abschnitt: { url, title, description }
+    eleventyConfig.addFilter("agentPagesInSection", (allPages, lang, section, lyneData) =>
+        (allPages ?? [])
+            .filter((item) => typeof item.url === "string" && item.url.startsWith(`/${lang}${section}`) && isAgentPage(item))
+            .sort((a, b) => a.url.localeCompare(b.url))
+            .map((item) => {
+                const data = item.data ?? {};
+                // Komponentenseiten aller Design Systeme (lyne, mobile, lean, …) und Lyne-Templates
+                const system = data[data.system] ?? lyneData;
+                const tag = system?.components?.[data.component]?.config?.tag ?? lyneData?.templates?.[data.template]?.config?.tag;
+                const title = data.title || (tag ? tag.replace(/\b\w/g, (c) => c.toUpperCase()) : item.url);
+                const description = (data.alternativetitle ?? "").replace(/ Lyne\.$/, "");
+                const redundant = !description || description === title || description === `${title}.`;
+                return { url: item.url, title, description: redundant ? "" : description };
+            })
+    );
+    // Einzige Quelle für die Seiten mit Markdown-Version; versteckte Seiten
+    // (eleventyExcludeFromCollections) sind in getAll() nicht enthalten
+    const agentPageUrls = new Set();
+    eleventyConfig.addCollection("agentPages", (collectionApi) => {
+        const items = collectionApi.getAll().filter(isAgentPage);
+        agentPageUrls.clear();
+        items.forEach((item) => agentPageUrls.add(item.url));
+        return items;
+    });
+    eleventyConfig.on("eleventy.after", ({ results, dir }) => {
+        const written = agentPages.writeAgentPages((results ?? []).filter((result) => agentPageUrls.has(result.url)), dir?.output ?? "dist");
+        if (written) console.log(`[agent-markdown] ${written} Markdown-Seiten geschrieben`);
+    });
+
+    eleventyConfig.addTransform("trim-text-output", function (content) {
+        return /\.(md|txt)$/.test(this.page.outputPath || "") ? content.trim() + "\n" : content;
+    });
+    eleventyConfig.addFilter("storybookDocsUrl", storybookDocsUrl);
 
     eleventyConfig.addFilter("sortLyneComponentsByOrder", (obj) => {
         if (!obj || typeof obj !== "object") {

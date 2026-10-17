@@ -48,5 +48,5 @@ The digital word list is intended to help you decide which terms are preferred i
 
 
 
-<script src="../../../../assets/js/wordlist.js"></script>
-<script src="../../../../assets/js/wordlist-search.js"></script>
+<script src="../../../../assets/js/wordlist.js" defer></script>
+<script src="../../../../assets/js/wordlist-search.js" defer></script>

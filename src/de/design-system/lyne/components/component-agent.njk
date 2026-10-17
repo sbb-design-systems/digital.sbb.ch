@@ -1,0 +1,15 @@
+---js
+{
+  // Markdown-Version jeder Lyne-Komponente für Agents (verlinkt aus llms.txt und per rel="alternate")
+  eleventyExcludeFromCollections: true,
+  lang: "de",
+  pagination: {
+    data: "lyne.components",
+    size: 1,
+    alias: "component",
+    before: (keys, data) => keys.filter((key) => data.lyne.components[key]?.config?.list === "components" && data.lyne.components[key]?.config?.language?.["de"] === true)
+  },
+  permalink: (data) => `/de/design-system/lyne/${data.lyne.components[data.component].config.list}/${data.lyne.components[data.component].config.tag}/index.md`
+}
+---
+{% include "component/agent-markdown.njk" %}

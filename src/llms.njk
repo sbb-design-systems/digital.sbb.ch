@@ -1,0 +1,64 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+{%- set site = "https://digital.sbb.ch" -%}
+{%- set components = lyne.components | sortLyneComponentsByOrder -%}
+# digital.sbb.ch – SBB Design Systems
+
+> Official guidelines of SBB (Swiss Federal Railways) for digital products: UX principles, foundations, accessibility and the design systems for websites and apps. The web design system is called Lyne and is implemented as web components (`@sbb-esta/lyne-elements`) with an Angular wrapper (`@sbb-esta/lyne-angular`).
+
+The documentation is spread across several platforms. Use digital.sbb.ch for when and why to use a component (usage rules, anatomy), and the Storybook instances for the full API and live examples. Current Lyne version: {{ lyne.version.branch }}.
+
+- [digital.sbb.ch]({{ site }}/en/): Design guidelines and usage rules (German, French, Italian, English; English and German are the most complete for Lyne)
+- [Lyne Elements Storybook](https://lyne-elements.app.sbb.ch/): Web component API, live examples, code snippets; story index at https://lyne-elements.app.sbb.ch/index.json
+- [Lyne Angular Storybook](https://lyne-angular.app.sbb.ch/): Angular wrapper components
+- [lyne-components on GitHub](https://github.com/sbb-design-systems/lyne-components): Source code, readme per component, issues
+- [lyne-angular on GitHub](https://github.com/sbb-design-systems/lyne-angular): Source code of the Angular wrapper
+- [digital.sbb.ch on GitHub](https://github.com/sbb-design-systems/digital.sbb.ch): Source of this website
+
+Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, anatomy, code examples and the API documentation of the web components.
+
+## Lyne components (English)
+{% for key, pattern in components %}{% if pattern.config.language.en and pattern.config.list == "components" %}
+- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/en/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_en.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}
+{%- endif %}{% endfor %}
+
+## Lyne-Komponenten (Deutsch)
+{% for key, pattern in components %}{% if pattern.config.language.de and pattern.config.list == "components" %}
+- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/de/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_de.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}
+{%- endif %}{% endfor %}
+
+{%- set sections = [
+  ["/principles/", "Principles", "Prinzipien"],
+  ["/foundation/", "Foundation", "Grundlagen"],
+  ["/accessibility/", "Accessibility", "Barrierefreiheit"],
+  ["/design-system/getting-started/", "Getting started", "Einstieg"],
+  ["/design-system/lyne/overview/", "Lyne overview", "Lyne Übersicht"],
+  ["/design-system/lyne/what-is-lyne/", "What is Lyne", "Was ist Lyne"],
+  ["/design-system/lyne/design-tokens/", "Lyne design tokens", "Lyne Design Tokens"],
+  ["/design-system/lyne/templates/", "Lyne templates", "Lyne Templates"],
+  ["/design-system/lyne/themes/", "Lyne themes", "Lyne Themes"],
+  ["/design-system/lyne/releases/", "Lyne releases", "Lyne Releases"],
+  ["/design-system/mobile/", "Mobile design system (apps)", "Mobile Design System (Apps)"],
+  ["/design-system/maps/", "Maps design system", "Maps Design System"],
+  ["/design-system/patternlibrary/", "Pattern library", "Pattern Library"],
+  ["/design-system/organisation/", "Organisation", "Organisation"],
+  ["/guidelines/", "Guidelines", "Guidelines"]
+] %}
+{%- for lang in ["en", "de"] %}
+{%- for section in sections %}
+{%- set entries = collections.agentPages | agentPagesInSection(lang, section[0], lyne) %}
+{%- if entries | length %}
+
+## {{ section[1] if lang == "en" else section[2] }} ({{ "English" if lang == "en" else "Deutsch" }})
+{% for entry in entries %}
+- [{{ entry.title }}]({{ site }}{{ entry.url }}index.md){% if entry.description %}: {{ entry.description }}{% endif %}
+{%- endfor %}
+{%- endif %}
+{%- endfor %}
+{%- endfor %}
+
+## Optional
+
+- [Sitemap]({{ site }}/sitemap.xml): All pages of digital.sbb.ch

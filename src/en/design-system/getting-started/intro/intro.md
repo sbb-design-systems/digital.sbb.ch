@@ -27,7 +27,7 @@ With the Design System, we offer a component construction kit that covers many b
 
 ## How can I add something to the design system? {.lead}
 
-A design system can and should grow, but there are certain constraints. See <sbb-link  type="button" href="/{{page.lang}}/design-system/organization/contributing/">Contribution</sbb-link> for more information on this. {.lead}
+A design system can and should grow, but there are certain constraints. See <sbb-link  type="button" href="/{{page.lang}}/design-system/organisation/contributing/">Contribution</sbb-link> for more information on this. {.lead}
 
 
 ## Can I also use the design system for internal applications? {.lead}

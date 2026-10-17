@@ -48,5 +48,5 @@ Andere Begriffe sind Synonyme, die inhaltlich praktisch austauschbar sind, zum B
 
 
 
-<script src="../../../../assets/js/wordlist.js"></script>
-<script src="../../../../assets/js/wordlist-search.js"></script>
+<script src="../../../../assets/js/wordlist.js" defer></script>
+<script src="../../../../assets/js/wordlist-search.js" defer></script>

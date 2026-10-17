@@ -49,6 +49,8 @@
         "nunjucks": "^3.2.4",
         "parse5": "^7.3.0",
         "sass": "^1.93.2",
+        "turndown": "^7.2.4",
+        "turndown-plugin-gfm": "^1.0.2",
         "ux-components": "https://github.com/mcilurzo/ux-components/tarball/main"
     },
     "overrides": {

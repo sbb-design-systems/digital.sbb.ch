@@ -1,0 +1,73 @@
+{#- Markdown-Version einer Lyne-Komponentenseite für Agents (…/index.md). Erwartet: component, lang -#}
+{%- set pattern = lyne.components[component] -%}
+{%- set config = pattern.config -%}
+{%- set base = "https://digital.sbb.ch/" + lang + "/design-system/lyne/" + (config.list | slugify) + "/" -%}
+{%- set t = {
+  "de": { "intro": "Komponente des SBB Design Systems Lyne", "package": "Paket", "categories": "Kategorien", "status": "Status", "links": "Links", "page": "Seite auf digital.sbb.ch", "related": "Verwandte Komponenten", "similar": "Ähnlich", "childs": "Enthält", "parents": "Wird verwendet in", "overview": "Übersicht", "anatomy": "Anatomie", "implementation": "Implementation (Web Components, Englisch)", "content": "Inhalt" },
+  "en": { "intro": "Component of the SBB design system Lyne", "package": "Package", "categories": "Categories", "status": "Status", "links": "Links", "page": "Page on digital.sbb.ch", "related": "Related components", "similar": "Similar", "childs": "Contains", "parents": "Used in", "overview": "Overview", "anatomy": "Anatomy", "implementation": "Implementation (web components)", "content": "Content" }
+}[lang] -%}
+{%- set dataPath = "_data/lyne/components/" + component + "/" -%}
+{%- set storybook = config.storybookId | storybookDocsUrl(lyne.stories) -%}
+
+# {{ config.tag | capitalizeWords }}
+
+{{ t.intro }}.
+
+- {{ t.package }}: `@sbb-esta/lyne-elements` (Angular: `@sbb-esta/lyne-angular`)
+{%- if config.categories | length %}
+- {{ t.categories }}: {{ config.categories | join(", ") }}
+{%- endif %}
+{%- if config.status %}
+- {{ t.status }}: Design {{ config.status.design }}, Code {{ config.status.code }}, Doku {{ config.status.documentation }}
+{%- endif %}
+
+## {{ t.links }}
+
+- {{ t.page }}: {{ base }}{{ config.tag | slugify }}/
+{%- if storybook %}
+- Storybook: {{ storybook }}
+{%- endif %}
+- GitHub: https://github.com/sbb-design-systems/lyne-components
+
+{%- set relations = [["similar", config.similar], ["childs", config.childs], ["parents", config.isChildOf]] %}
+{%- set hasRelations = (config.similar | length) or (config.childs | length) or (config.isChildOf | length) %}
+{%- if hasRelations %}
+
+## {{ t.related }}
+{% for relation in relations %}
+{%- if relation[1] | length %}
+- {{ t[relation[0]] }}: {% for tag in relation[1] %}{% if lyne.components[tag] %}[{{ tag | capitalizeWords }}]({{ base }}{{ tag | slugify }}/index.md){% else %}{{ tag | capitalizeWords }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+{%- endif %}
+{%- endfor %}
+{%- endif %}
+
+{%- set overview = (dataPath + "overview_" + lang + ".md") | readSourceFile | agentMarkdown %}
+{%- if overview %}
+
+## {{ t.overview }}
+
+{{ overview | demoteHeadings | safe }}
+{%- endif %}
+
+{%- set content = (dataPath + "content_" + lang + ".njk") | readSourceFile | agentMarkdown %}
+{%- if content %}
+
+## {{ t.content }}
+
+{{ content | demoteHeadings | safe }}
+{%- endif %}
+
+{%- set anatomy = (dataPath + "anatomy_" + lang + ".md") | readSourceFile | agentMarkdown %}
+{%- if anatomy %}
+
+## {{ t.anatomy }}
+
+{{ anatomy | demoteHeadings | safe }}
+{%- endif %}
+
+{%- if pattern.implementation %}
+
+## {{ t.implementation }}
+
+{{ pattern.implementation | agentMarkdown | demoteHeadings | safe }}
+{%- endif %}

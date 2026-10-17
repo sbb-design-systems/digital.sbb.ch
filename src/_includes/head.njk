@@ -70,3 +70,10 @@
 {% endif %}
 
 {{ page.url | hreflangLinks(collections.all) | safe }}
+
+{# Markdown-Version für Agents (src/*/design-system/lyne/components/component-agent.njk) #}
+{% if (layout == "component.njk") and (system == "lyne") and (pattern.config.list == "components") and pattern.config.language[page.lang] %}
+<link rel="alternate" type="text/markdown" href="https://digital.sbb.ch/{{ page.lang }}/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md">
+{% elif page.url | isAgentPage %}
+<link rel="alternate" type="text/markdown" href="https://digital.sbb.ch{{ page.url }}index.md">
+{% endif %}

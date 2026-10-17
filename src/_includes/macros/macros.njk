@@ -98,7 +98,7 @@
 {% else %}
 Kaputt
 {% endif %}
-<script src="{{ '/assets/js/lyne-playground.js' | assetHash }}"></script>
+<script src="{{ '/assets/js/lyne-playground.js' | assetHash }}" defer></script>
 {% endmacro %}
 
 
@@ -122,7 +122,7 @@ Kaputt
     {% endif %}
     {% endfor %}
     <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">{{ params.translations["copyhtml"] }}</sbb-toast>
-    <script src="{{ '/assets/js/lyne-examples.js' | assetHash }}"></script>
+    <script src="{{ '/assets/js/lyne-examples.js' | assetHash }}" defer></script>
 {% endmacro %}
 
 
