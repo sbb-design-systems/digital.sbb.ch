@@ -104,3 +104,20 @@ sbb-footer {
     }
   }
 }
+
+// Das OneTrust-SBB-Theme stylt den Button "Cookies anzeigen" (#ot-sdk-btn) als grünen Button.
+// Zurücksetzen, damit er wie die übrigen sbb-block-link im Footer aussieht.
+// Typ + ID + Klasse schlägt die OneTrust-Selektoren (#ot-sdk-btn.ot-sdk-show-settings[:hover|:active]).
+sbb-block-link-button#ot-sdk-btn.ot-sdk-show-settings {
+  &,
+  &:is(:hover, :active, :focus) {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    white-space: inherit;
+    transition: none;
+  }
+}

@@ -27,10 +27,10 @@
   {% include "./list-popovers.njk" %}
 </div>
 
-<script src="/assets/js/icons-popover.js"></script>
-<script src="/assets/js/listjs/list.min.js"></script>
+<script src="{{ '/assets/js/icons-popover.js' | assetHash }}"></script>
+<script src="{{ '/assets/js/listjs/list.min.js' | assetHash }}"></script>
 {% if mode == "KOM" %}
-<script src="/assets/js/icons-kom.js"></script>
+<script src="{{ '/assets/js/icons-kom.js' | assetHash }}"></script>
 {% else %}
-<script src="/assets/js/icons-pictograms.js"></script>
+<script src="{{ '/assets/js/icons-pictograms.js' | assetHash }}"></script>
 {% endif %}

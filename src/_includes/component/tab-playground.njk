@@ -8,11 +8,11 @@
     <sbb-tab>
         {% if pattern.config.tabs.hasPlayground == true%}
             {% include "./playground.njk" %}
-            <script src="/assets/js/lyne-playground.js"></script>
+            <script src="{{ '/assets/js/lyne-playground.js' | assetHash }}"></script>
         {% endif %}
         {% if pattern.config.tabs.hasStorybook == true %}
             {% include "./storybook-story.njk" %}
-            <script src="/assets/js/lyne-examples.js"></script>
+            <script src="{{ '/assets/js/lyne-examples.js' | assetHash }}"></script>
         {% endif %}
     </sbb-tab>
 {% endif %}

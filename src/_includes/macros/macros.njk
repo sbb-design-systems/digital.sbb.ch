@@ -1,23 +1,23 @@
-{% macro imageWithMode(params) %}<div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x"></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x"></figure></div>{% include "../component/mode-switch.njk" %}{% endmacro %}
+{% macro imageWithMode(params) %}<div class="boxed-image light"><figure class="responsiveimage"><img src="{{ params.url }}-light.webp" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + "-light.webp") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async" sizes="100vw" srcset="{{ params.url }}-light.webp 1x, {{ params.url }}-light@2x.webp 2x, {{ params.url }}-light@3x.webp 3x"></figure><figure class="responsiveimage"><img src="{{ params.url }}-dark.webp" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + "-dark.webp") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async" sizes="100vw" srcset="{{ params.url }}-dark.webp 1x, {{ params.url }}-dark@2x.webp 2x, {{ params.url }}-dark@3x.webp 3x"></figure></div>{% include "../component/mode-switch.njk" %}{% endmacro %}
 
 {% macro imageOnGreyBackground(params) %}
 <div class="boxed-image">
     <figure class="responsiveimage">
         <picture>
         {% if params.urldark %}<source srcset="{{ params.urldark }}.webp 1x, {{ params.urldark }}@2x.webp 2x, {{ params.urldark }}@3x.webp 3x" media="(prefers-color-scheme: dark)">{% endif %}
-        <img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x">
+        <img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + ".webp") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x">
         </picture>
     </figure>
 </div>
 {% endmacro %}
 
-{% macro imageSpec(params) %}<div class="boxed-image specification"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure></div>{% endmacro %}
+{% macro imageSpec(params) %}<div class="boxed-image specification"><figure class="responsiveimage"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + ".webp") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure></div>{% endmacro %}
 
-{% macro principleImage(params) %}<figure class="principle-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure>{% endmacro %}
+{% macro principleImage(params) %}<figure class="principle-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + ".webp") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure>{% endmacro %}
 
-{% macro webpImage(params) %}<figure class="default-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure>{% endmacro %}
+{% macro webpImage(params) %}<figure class="default-image"><img src="{{ params.url }}.webp" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + ".webp") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async" sizes="100vw" srcset="{{ params.url }}.webp 1x, {{ params.url }}@2x.webp 2x, {{ params.url }}@3x.webp 3x"></figure>{% endmacro %}
 
-{% macro svgImage(params) %}<figure class="svg-image"><img src="{{ params.url }}.svg" alt="{{ params.alt }}" title="{{ params.title }}"></figure>{% endmacro %}
+{% macro svgImage(params) %}<figure class="svg-image"><img src="{{ params.url }}.svg" alt="{{ params.alt }}" title="{{ params.title }}" {{ (params.url + ".svg") | imageAttrs | safe }} loading="{{ "eager" if params.eager else "lazy" }}" decoding="async"></figure>{% endmacro %}
 
 {% macro buttonGroup(params) %}
     {% if params.type == "link" %}
@@ -98,7 +98,7 @@
 {% else %}
 Kaputt
 {% endif %}
-<script src="/assets/js/lyne-playground.js"></script>
+<script src="{{ '/assets/js/lyne-playground.js' | assetHash }}"></script>
 {% endmacro %}
 
 
@@ -110,7 +110,7 @@ Kaputt
     {% if stor.tag == tag and stor.component == true %}
     <sbb-title level="3" visual-level="5">{{stor.name}}</sbb-title>
     <div class="example">
-            <iframe id="{{stor.id}}" class="iframe-border" src="https://lyne-elements.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" title="{{stor.name}}"></iframe>
+            <iframe id="{{stor.id}}" class="iframe-border" loading="lazy" src="https://lyne-elements.app.sbb.ch/iframe.html?args=&id={{stor.id}}&viewMode=story" title="{{stor.name}}"></iframe>
             <div class="example-footer">
                 <sbb-action-group orientation="vertical" button-size="m" horizontal-from="small" class="lyne-demo-example-button">
                     <sbb-secondary-button-link size="m" icon-name="book-small" href="https://lyne-elements.app.sbb.ch/?path=/story/{{stor.id}}" target="_blank">{{ params.translations["storybooklink"] }}</sbb-secondary-button-link>
@@ -122,7 +122,7 @@ Kaputt
     {% endif %}
     {% endfor %}
     <sbb-toast id="clipboard-toast" position="bottom-center" timeout="3000" politeness="polite" icon-name="circle-tick-small">{{ params.translations["copyhtml"] }}</sbb-toast>
-    <script src="/assets/js/lyne-examples.js"></script>
+    <script src="{{ '/assets/js/lyne-examples.js' | assetHash }}"></script>
 {% endmacro %}
 
 

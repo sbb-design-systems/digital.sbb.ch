@@ -76,6 +76,7 @@ strong, b {
 
   img {
     max-inline-size: 100%;
+    block-size: auto;
   }
 }
 
@@ -153,6 +154,7 @@ code:not([class]) {
 
   img {
     max-inline-size: 100%;
+    block-size: auto;
   }
 }
 
@@ -165,6 +167,7 @@ code:not([class]) {
 
   img {
     max-inline-size: 100%;
+    block-size: auto;
   }
 
   &.dark {
@@ -462,4 +465,8 @@ p.subtext {
   .current-mode::before {
     content: "Light \00a0";
   }
+}
+
+.svg-image img {
+  block-size: auto;
 }
