@@ -23,26 +23,38 @@
     if (tile.dataset.group) {
       tile.dataset.size.split(" ").forEach(function (size) {
         const name = tile.dataset.group + "-" + size;
-        const item = document.createElement("button");
-        item.type = "button";
-        item.className = "icon-item";
-        item.dataset.copy = name;
-        item.setAttribute("aria-label", name);
-        const preview = document.createElement("span");
-        preview.className = "icon-preview";
-        const img = document.createElement("img");
-        img.className = "icon-png size-" + size;
-        img.src = "https://icons.app.sbb.ch/icons/" + name + ".svg";
-        img.alt = name;
-        img.width = img.height = sizePx[size];
-        const label = document.createElement("span");
-        label.className = "sbb-text-xxs";
-        label.textContent = size;
-        preview.append(img);
-        item.append(preview, label);
-        items.append(item);
+        items.append(createItem(name, "https://icons.app.sbb.ch/icons/" + name + ".svg", size));
       });
+    } else {
+      // Icons ohne Grössenvarianten (Piktogramme, FPL): eine Kachel mit dem Icon selbst,
+      // damit der Name auch hier im Popover kopiert werden kann.
+      const src = tile.querySelector("img").src;
+      items.append(createItem(src.split("/").pop().replace(/\.svg$/, ""), src, tile.dataset.size));
     }
+  }
+
+  function createItem(name, src, size) {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "icon-item";
+    item.dataset.copy = name;
+    item.setAttribute("aria-label", name);
+    const preview = document.createElement("span");
+    preview.className = "icon-preview";
+    const img = document.createElement("img");
+    img.className = size ? "icon-png size-" + size : "icon-png";
+    img.src = src;
+    img.alt = name;
+    if (sizePx[size]) img.width = img.height = sizePx[size];
+    preview.append(img);
+    item.append(preview);
+    if (size) {
+      const label = document.createElement("span");
+      label.className = "sbb-text-xxs";
+      label.textContent = size;
+      item.append(label);
+    }
+    return item;
   }
 
   function attach(tile) {
@@ -72,14 +84,8 @@
     });
   }
 
-  // Klick / Enter / Leertaste kopiert den Icon-Namen der angezeigten Variante.
-  list.addEventListener("click", function (e) {
-    const tile = e.target.closest(".icon");
-    if (!tile) return;
-    copy(tile.querySelector("img").src.split("/").pop().replace(/\.svg$/, ""));
-  });
-
-  // Vorschaubilder im Popover kopieren den Namen ihrer Grösse.
+  // Kopiert wird nur im Popover: Ein Klick auf die Kachel öffnet auf Mobile das Popover.
+  // Die Vorschaubilder im Popover kopieren den Namen ihrer Variante.
   items.addEventListener("click", function (e) {
     const item = e.target.closest(".icon-item");
     if (item) copy(item.dataset.copy);

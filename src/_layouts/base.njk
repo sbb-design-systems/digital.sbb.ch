@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}">
+<html lang="{{ translations[page.lang].shortcode }}" dir="{{ translations[page.lang].dir }}" class="sbb-scrollbar-thick">
   <head>
     {% include "../_includes/head.njk" %}
   </head>
@@ -15,7 +15,7 @@
         <sbb-sidebar-close-button></sbb-sidebar-close-button>
         {% include "../_includes/browser/browser.njk" %}
       </sbb-sidebar>
-      <sbb-sidebar-content>
+      <sbb-sidebar-content class="sbb-scrollbar-thick">
     {% endif %}
         {% include "../_includes/navigation/navigation.njk" %}
         {% if layout == "landingpage.njk" or layout == "template.njk" %}

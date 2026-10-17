@@ -7,10 +7,18 @@ sbb-sidebar {
   inline-size: 400px;
 
 .component-browser {
+    // Suchfeld bis an die Sidebar-Ränder ziehen. Die Abstände kommen von der Sidebar
+    // (rechts ist der Platz für die Scrollbar abgezogen); --sbb-spacing-responsive-s
+    // ist breiter und würde eine horizontale Scrollbar erzeugen.
     .component-search{
+    --component-search-inset-start: var(--sbb-sidebar-padding);
+    --component-search-inset-end: calc(var(--sbb-sidebar-padding) - var(--sbb-sidebar-scrollbar-placeholder-width));
+
     margin-block-start: calc(-1 * var(--sbb-spacing-responsive-xxxs));
+    margin-inline: calc(-1 * var(--component-search-inset-start)) calc(-1 * var(--component-search-inset-end));
+    inline-size: auto;
     padding-block: var(--sbb-spacing-responsive-xxxs);
-    padding-inline: var(--sbb-spacing-responsive-s);
+    padding-inline: var(--component-search-inset-start) var(--component-search-inset-end);
     }
 }
 }

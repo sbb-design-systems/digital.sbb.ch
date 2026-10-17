@@ -86,6 +86,32 @@ function imageAttrs(url) {
         : "";
 }
 
+// Lyne blendet nicht aktive Tabs mit display: none aus und wählt den aktiven Tab erst per JavaScript.
+// Bis das Bundle geladen ist, wären alle Tab-Inhalte leer und der Footer springt danach nach unten
+// (CLS). Deshalb erhält in jeder Tab-Gruppe der erste <sbb-tab> das SSR-Attribut state--active.
+// Lyne übernimmt state--* beim Start als internen Zustand und entfernt das Attribut, Tab-Wechsel
+// funktionieren danach wie gewohnt. (Ein active am <sbb-tab-label> bricht das Lit-SSR ab.)
+function activateFirstTab(html) {
+    const groupRegex = /<sbb-tab-group\b([^>]*)>/g;
+    const insertAttribute = (source, from, tagRegex, attribute) => {
+        tagRegex.lastIndex = from;
+        const match = tagRegex.exec(source);
+        if (!match || new RegExp(`\\s${attribute}(\\s|=|>)`).test(match[0])) return source;
+        const insertAt = match.index + match[0].length - 1;
+        return source.slice(0, insertAt) + ` ${attribute}` + source.slice(insertAt);
+    };
+
+    let result = html;
+    let match;
+    while ((match = groupRegex.exec(result))) {
+        const initialIndex = match[1].match(/initial-selected-index="(\d+)"/)?.[1];
+        if (initialIndex && initialIndex !== "0") continue;
+        const from = match.index + match[0].length;
+        result = insertAttribute(result, from, /<sbb-tab(?=[\s>])[^>]*>/g, "state--active");
+    }
+    return result;
+}
+
 function sortByOrder(values) {
     let vals = [...values];     // this *seems* to prevent collection mutation...
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
@@ -250,6 +276,10 @@ module.exports = async function(eleventyConfig) {
         return pageArr;});
 
     eleventyConfig.addPlugin(EleventyI18nPlugin, {defaultLanguage: "de",});
+
+    eleventyConfig.addTransform("activate-first-tab", function (content) {
+        return (this.page.outputPath || "").endsWith(".html") ? activateFirstTab(content) : content;
+    });
 
     eleventyConfig.addFilter("include", (arr, path, value) => {
     value = lodash.deburr(value).toLowerCase();
