@@ -47,6 +47,7 @@
         "markdown-it-anchor": "^9.2.0",
         "markdown-it-attrs": "^4.3.1",
         "nunjucks": "^3.2.4",
+        "parse5": "^7.3.0",
         "sass": "^1.93.2",
         "ux-components": "https://github.com/mcilurzo/ux-components/tarball/main"
     },

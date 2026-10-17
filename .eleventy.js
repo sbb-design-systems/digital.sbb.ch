@@ -1,6 +1,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const parse5 = require("parse5");
 const litPlugin = require('@lit-labs/eleventy-plugin-lit');
 const lodash = require("lodash");
 const markdownIt = require("markdown-it");
@@ -110,6 +111,67 @@ function activateFirstTab(html) {
         result = insertAttribute(result, from, /<sbb-tab(?=[\s>])[^>]*>/g, "state--active");
     }
     return result;
+}
+
+// Lyne blendet Text- und Icon-Bereiche aus, solange die Zustände slotted, slotted-<name> und
+// has-icon-name fehlen (z. B. Header-Buttons, Tab-Labels, Kartenlinks, Teaser-Bilder). Diese setzt
+// Lyne erst per JavaScript, im SSR-Markup fehlen sie. Der Transform leitet sie wie Lyne aus dem
+// Light DOM ab und setzt sie als state--*-Attribute, die Lyne beim Start übernimmt.
+// Nur Elemente mit Declarative Shadow DOM (also SSR-gerendert) werden angepasst, und nur Slots,
+// die im Shadow DOM tatsächlich existieren.
+function addLyneSlotStates(html) {
+    const insertions = [];
+    const attr = (node, name) => node.attrs?.find((a) => a.name === name)?.value;
+    const isTemplate = (node) => node.nodeName === "template";
+
+    const collectSlots = (node, slots) => {
+        for (const child of node.childNodes ?? []) {
+            // Shadow DOM verschachtelter Komponenten gehört nicht zum Host
+            if (isTemplate(child) && attr(child, "shadowrootmode")) continue;
+            if (child.nodeName === "slot") slots.add(attr(child, "name") ?? "");
+            collectSlots(isTemplate(child) ? child.content : child, slots);
+        }
+        return slots;
+    };
+
+    const visit = (node) => {
+        for (const child of node.childNodes ?? []) visit(isTemplate(child) ? child.content : child);
+        if (!node.nodeName?.startsWith("sbb-") || !node.sourceCodeLocation?.startTag) return;
+
+        const shadowRoot = node.childNodes.find((child) => isTemplate(child) && attr(child, "shadowrootmode"));
+        if (!shadowRoot) return;
+        const slots = collectSlots(shadowRoot.content, new Set());
+
+        const states = new Set();
+        if (attr(node, "icon-name")) states.add("has-icon-name");
+        for (const child of node.childNodes) {
+            if (child === shadowRoot || child.nodeName === "#comment") continue;
+            if (child.nodeName === "#text") {
+                if (child.value.trim() && slots.has("")) states.add("slotted");
+                continue;
+            }
+            const slotName = attr(child, "slot");
+            if (slotName === undefined && slots.has("")) states.add("slotted");
+            else if (slotName && slots.has(slotName)) states.add(`slotted-${slotName}`);
+        }
+
+        const existing = new Set(node.attrs.map((a) => a.name));
+        const newAttrs = [...states].map((state) => `state--${state}`).filter((name) => !existing.has(name));
+        if (newAttrs.length) {
+            insertions.push({ offset: node.sourceCodeLocation.startTag.endOffset - 1, text: " " + newAttrs.join(" ") });
+        }
+    };
+
+    visit(parse5.parse(html, { sourceCodeLocationInfo: true }));
+    insertions.sort((a, b) => a.offset - b.offset);
+    const parts = [];
+    let position = 0;
+    for (const { offset, text } of insertions) {
+        parts.push(html.slice(position, offset), text);
+        position = offset;
+    }
+    parts.push(html.slice(position));
+    return parts.join("");
 }
 
 function sortByOrder(values) {
@@ -279,6 +341,14 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.addTransform("activate-first-tab", function (content) {
         return (this.page.outputPath || "").endsWith(".html") ? activateFirstTab(content) : content;
+    });
+
+    // Als Plugin registriert, damit der Transform nach dem Lit-SSR-Plugin läuft (Plugins werden in
+    // Reihenfolge ausgeführt, direkte addTransform-Aufrufe dagegen vor den Plugin-Transforms).
+    eleventyConfig.addPlugin((pluginConfig) => {
+        pluginConfig.addTransform("lyne-slot-states", function (content) {
+            return (this.page.outputPath || "").endsWith(".html") ? addLyneSlotStates(content) : content;
+        });
     });
 
     eleventyConfig.addFilter("include", (arr, path, value) => {
