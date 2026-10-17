@@ -61,9 +61,12 @@
 <link rel="icon" href="/assets/images/favicon/favicon.ico">
 
 {% if (availablelanguages.length) or (cannonical == true ) %}
-<link rel="canonical" href="/de{{ page.url.slice(3, -1) }}/">
+<link rel="canonical" href="https://digital.sbb.ch/de{{ page.url.slice(3, -1) }}/">
 {% endif %}
 
+{# Root (/) und /de/ zeigen denselben Inhalt; bevorzugte URL ist /de/ (ein Canonical auf die Domain-Wurzel beanstandet Lighthouse) #}
 {% if cannonicalhome == true %}
-<link rel="canonical" href="https://digital.sbb.ch/">
+<link rel="canonical" href="https://digital.sbb.ch/de/">
 {% endif %}
+
+{{ page.url | hreflangLinks(collections.all) | safe }}

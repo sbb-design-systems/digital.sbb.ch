@@ -9,7 +9,8 @@
             {%- endfor -%}
         </div>
         <div class="clock">
-            <sbb-clock initial-time="now" aria-label="{{ translations[page.lang].time }}"></sbb-clock>
+            {# Dekorativ: sbb-clock hat keine Rolle, ein aria-label wäre dort unzulässig #}
+            <sbb-clock initial-time="now" aria-hidden="true"></sbb-clock>
         </div>
         <sbb-divider class="footer-divider"></sbb-divider>
     </div>

@@ -174,6 +174,42 @@ function addLyneSlotStates(html) {
     return parts.join("");
 }
 
+// hreflang-Verweise zwischen den Sprachversionen einer Seite. Nur eigenständige Seiten zählen:
+// Platzhalter ohne Übersetzung (availablelanguages) oder mit Canonical auf /de/ (cannonical: true)
+// verweisen selbst auf Deutsch und dürfen weder Quelle noch Ziel sein.
+const SITE_URL = "https://digital.sbb.ch";
+const LANGUAGES = ["de", "fr", "it", "en"];
+let hreflangIndex = { source: null, pages: null };
+
+function isSelfCanonical(item) {
+    if (item.url.startsWith("/de/")) return true;
+    return !item.data.availablelanguages?.length && item.data.cannonical !== true;
+}
+
+function hreflangLinks(url, allPages) {
+    const lang = typeof url === "string" ? url.split("/")[1] : null;
+    if (!LANGUAGES.includes(lang) || !Array.isArray(allPages)) return "";
+
+    if (hreflangIndex.source !== allPages) {
+        hreflangIndex = { source: allPages, pages: new Map(allPages.filter((item) => item.url).map((item) => [item.url, item])) };
+    }
+    const current = hreflangIndex.pages.get(url);
+    if (!current || !isSelfCanonical(current)) return "";
+
+    const rest = url.slice(lang.length + 1);
+    const alternates = LANGUAGES.filter((l) => {
+        const item = hreflangIndex.pages.get(`/${l}${rest}`);
+        return item && isSelfCanonical(item);
+    });
+    if (alternates.length < 2) return "";
+
+    const links = alternates.map((l) => `<link rel="alternate" hreflang="${l}" href="${SITE_URL}/${l}${rest}">`);
+    // Startseite: x-default ist die Root, die per Spracherkennung weiterleitet; sonst Deutsch.
+    const xDefault = rest === "/" ? `${SITE_URL}/` : alternates.includes("de") ? `${SITE_URL}/de${rest}` : null;
+    if (xDefault) links.push(`<link rel="alternate" hreflang="x-default" href="${xDefault}">`);
+    return links.join("\n");
+}
+
 function sortByOrder(values) {
     let vals = [...values];     // this *seems* to prevent collection mutation...
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
@@ -277,6 +313,7 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("sortByOrder", sortByOrder);
     eleventyConfig.addFilter("assetHash", assetHash);
     eleventyConfig.addFilter("imageAttrs", imageAttrs);
+    eleventyConfig.addFilter("hreflangLinks", hreflangLinks);
 
     eleventyConfig.addFilter("sortLyneComponentsByOrder", (obj) => {
         if (!obj || typeof obj !== "object") {
