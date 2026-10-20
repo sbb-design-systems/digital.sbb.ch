@@ -1,6 +1,6 @@
 
 ## Was macht die Komponente?
-Die Paginator-Komponente ermöglicht die Navigation durch grosse Mengen von Inhalten, indem sie die Inhalte in mehrere Seiten unterteilt. Er zeigt Benutzer:innen an, auf welcher Seite man sich befindet und bietet Steuerungselemente zum Wechseln zwischen den Seiten.
+Die Paginator-Komponente ermöglicht die Navigation durch grosse Mengen von Inhalten, indem sie die Inhalte in mehrere Seiten unterteilt. Sie zeigt Nutzenden an, auf welcher Seite sie sich befinden, und bietet Steuerungselemente zum Wechseln zwischen den Seiten.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Wenn eine große Anzahl von Einträgen oder Inhalten effizient verwaltet werden muss.

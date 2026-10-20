@@ -232,7 +232,7 @@ function agentMarkdown(source) {
         .replace(/^\{[.#][^}\n]*\}\s*$/gm, "")
         .replace(/<!--[\s\S]*?-->/g, "")
         // Relative Storybook-Links aus den Lyne-Readmes (/docs/…, /story/…)
-        .replace(/\]\(\/(docs|story)\//g, "](https://lyne-elements.app.sbb.ch/?path=/$1/")
+        .replace(/\]\(\/?(docs|story)\//g, "](https://lyne-elements.app.sbb.ch/?path=/$1/")
         .replace(/\]\((\/[^)\s]*)\)/g, (match, url) => `](${absolute(url)})`)
         .replace(/\n{3,}/g, "\n\n")
         .trim();
@@ -249,6 +249,22 @@ function demoteHeadings(markdown) {
 }
 
 // Erster Satz nach der ersten Überschrift einer Übersicht (Kurzbeschreibung für llms.txt)
+// Kurzbeschreibung einer Inhaltsseite für llms.txt: erster Absatz mit Fliesstext, ohne Front Matter,
+// Überschriften, Template-Code, HTML, Listen und Tabellen; höchstens rund 240 Zeichen.
+function pageSummary(source) {
+    if (typeof source !== "string") return "";
+    const body = source.replace(/^---\n[\s\S]*?\n---\n/, "");
+    // HTML-Tags entfernen (Text in Links bleibt), Zeilen mit Template-Code auslassen
+    const text = body
+        .split("\n")
+        .filter((line) => !/^\s*([#{<!|>*\-]|\d+\.|```)/.test(line) && !/\{\{|\{%/.test(line))
+        .map((line) => line.replace(/<[^>]+>/g, "").replace(/\{[.#][^}]*\}/g, "").replace(/\s+/g, " ").trim())
+        .find((line) => line.length > 40);
+    if (!text) return "";
+    // Ganzer Absatz, bei Bedarf an einer Wortgrenze gekürzt (Satzgrenzen sind wegen Adressen wie sbb.ch unzuverlässig)
+    return text.length <= 240 ? text : `${text.slice(0, 240).replace(/\s+\S*$/, "")} …`;
+}
+
 function agentSummary(markdown) {
     if (typeof markdown !== "string") return "";
     const lines = markdown.split("\n").map((line) => line.trim());
@@ -426,11 +442,13 @@ function lyneComponentIndex(lyneData) {
                     page: Object.fromEntries(languages.map((lang) => [lang, page(lang)])),
                     markdown: Object.fromEntries(languages.map((lang) => [lang, `${page(lang)}index.md`])),
                     storybook: group.storybook?.docsUrl ?? null,
+                    angular: group.angularUrl ? `${group.angularUrl}/overview` : null,
                     readme: group.githubUrl,
                 },
             };
         });
-    return JSON.stringify({ lyneVersion: catalog.version, generated: new Date().toISOString(), components }, null, 2);
+    // resources: API (custom-elements.json), Design Tokens und Icon-Katalog für gültige Attribut- und Icon-Namen
+    return JSON.stringify({ lyneVersion: catalog.version, generated: new Date().toISOString(), resources: catalog.resources ?? {}, bundle: `${SITE_URL}/lyne-components-full.md`, components }, null, 2);
 }
 
 // Kurzhinweise zum Status für llms.txt, z. B. "experimental, guidelines in progress"
@@ -451,6 +469,17 @@ function overviewSection(markdown, part) {
     const match = text.match(RULES_HEADING);
     if (!match) return part === "intro" ? text : "";
     return part === "intro" ? text.slice(0, match.index) : text.slice(match.index);
+}
+
+// Lyne-README aufteilen: "usage" bis vor die automatisch erzeugte API-Dokumentation (Tab Implementation),
+// "api" ab dort, ohne die Überschrift "API Documentation" (Tab API).
+const README_API_MARKER = "<!-- Auto Generated Below -->";
+function readmeSection(markdown, part) {
+    const text = String(markdown ?? "");
+    const index = text.indexOf(README_API_MARKER);
+    if (index === -1) return part === "usage" ? text : "";
+    if (part === "usage") return text.slice(0, index);
+    return text.slice(index + README_API_MARKER.length).replace(/^\s*#{1,6}\s*API Documentation\s*\n/i, "");
 }
 
 function readSourceFile(relativePath) {
@@ -533,6 +562,10 @@ module.exports = async function(eleventyConfig) {
     // Beim Build (npm run build) bleibt es bei der Regel aus der config.
     eleventyConfig.addGlobalData("showHiddenComponents", () =>
         process.env.ELEVENTY_RUN_MODE === "serve" && process.env.BUILD_MODE !== "production");
+    // Der Lyne-Abdeckungsbericht ist ein lokales Werkzeug und wird nur auf dem Dev-Server erzeugt
+    if (process.env.ELEVENTY_RUN_MODE !== "serve" || process.env.BUILD_MODE === "production") {
+        eleventyConfig.ignores.add("src/de/design-system/lyne/abdeckung.njk");
+    }
 
     // Enable SSR only for production builds.
     if (process.env.BUILD_MODE === 'production') {
@@ -577,6 +610,7 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("agentMarkdown", agentMarkdown);
     eleventyConfig.addFilter("readSourceFile", readSourceFile);
     eleventyConfig.addFilter("overviewSection", overviewSection);
+    eleventyConfig.addFilter("readmeSection", readmeSection);
     eleventyConfig.addFilter("demoteHeadings", demoteHeadings);
     eleventyConfig.addFilter("agentSummary", agentSummary);
     eleventyConfig.addFilter("lyneDocumentationStatus", lyneDocumentationStatus);
@@ -590,6 +624,36 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("fileExists", (file) => typeof file === "string" && fs.existsSync(file));
     eleventyConfig.addFilter("lyneCoverage", lyneCoverage);
     eleventyConfig.addFilter("lyneComponentIndex", lyneComponentIndex);
+    // Kategorie-Filter einer Übersichtsseite: nur Kategorien, die in der angezeigten Liste vorkommen
+    // (list wie in browser.njk: designtokens/basics, components, templates, patterns; leer = alle Listen)
+    eleventyConfig.addFilter("listCategories", (categories, systemData, list) => {
+        const lists = {
+            designtokens: ["design-tokens", "basics"],
+            basics: ["design-tokens", "basics"],
+            components: ["components"],
+            templates: ["templates"],
+            patterns: ["patterns"],
+        }[list];
+        const entries = [...Object.values(systemData?.components ?? {}), ...Object.values(systemData?.templates ?? {})]
+            .map((entry) => entry?.config)
+            .filter((config) => config && config.showInFirstLevel !== false && (!lists || lists.includes(config.list)));
+        const used = new Set(entries.flatMap((config) => config.categories ?? []));
+        return (categories ?? []).filter((category) => used.has(category));
+    });
+    // UI-Icons als schlanke Liste für Agents (/icons-ui.json): icon-name = Name + "-" + Grösse
+    eleventyConfig.addFilter("uiIconCatalog", (iconData) => {
+        const list = (Array.isArray(iconData) ? iconData[0] : iconData) ?? [];
+        const icons = list
+            .filter((icon) => icon.type === "KOM")
+            .map((icon) => ({ name: icon.name, sizes: icon.sizes, category: icon.category, keywords: icon.tags }))
+            .sort((a, b) => a.name.localeCompare(b.name));
+        return JSON.stringify({
+            source: "https://icons.app.sbb.ch/icons/index.json",
+            usage: "Use only these names for icon-name attributes. The value is the name plus a size, e.g. \"arrow-right-small\". Lyne components use the small size.",
+            count: icons.length,
+            icons,
+        });
+    });
     eleventyConfig.addFilter("lyneStatusLabels", lyneStatusLabels);
 
     // Inhaltsseiten mit Markdown-Version (agent-markdown.js): eigenständig, keine Weiterleitung
@@ -608,9 +672,18 @@ module.exports = async function(eleventyConfig) {
                 const system = data[data.system] ?? lyneData;
                 const tag = system?.components?.[data.component]?.config?.tag ?? lyneData?.templates?.[data.template]?.config?.tag;
                 const title = data.title || (tag ? tag.replace(/\b\w/g, (c) => c.toUpperCase()) : item.url);
-                const description = (data.alternativetitle ?? "").replace(/ Lyne\.$/, "");
-                const redundant = !description || description === title || description === `${title}.`;
-                return { url: item.url, title, description: redundant ? "" : description };
+                const alternative = (data.alternativetitle ?? "").replace(/ Lyne\.$/, "");
+                const redundant = !alternative || alternative === title || alternative === `${title}.`;
+                // Fehlt eine eigene Beschreibung: Komponenten aus ihrer Übersicht, übrige Seiten aus dem ersten Absatz
+                let description = redundant ? "" : alternative;
+                if (!description && data.component && typeof data.system === "string") {
+                    // Übersicht (Komponenten mit Tabs) oder Inhalt (z. B. Patterns ohne Tabs)
+                    const dataPath = `_data/${data.system}/components/${data.component}/`;
+                    const source = readSourceFile(`${dataPath}overview_${lang}.md`) || readSourceFile(`${dataPath}content_${lang}.md`);
+                    description = agentSummary(source).replace(/^[*-]\s+/, "").replace(/\{[.#][^}]*\}/g, "").trim();
+                }
+                if (!description && item.inputPath) description = pageSummary(readSourceFile(path.relative("src", item.inputPath)));
+                return { url: item.url, title, description };
             })
     );
     // Einzige Quelle für die Seiten mit Markdown-Version; versteckte Seiten
@@ -682,7 +755,8 @@ module.exports = async function(eleventyConfig) {
             return post;
         }
         const source = typeof post === "string" ? post : String(post);
-        const content = source.replaceAll("](/docs/", "](https://lyne-storybook.app.sbb.ch/?path=/docs/").replaceAll("](/story/", "](https://lyne-storybook.app.sbb.ch/?path=/story/");
+        // Relative Storybook-Links aus den Lyne-READMEs ("/docs/…", "docs/…", "/story/…") auf die aktuelle Storybook
+        const content = source.replace(/\]\(\/?(docs|story)\//g, "](https://lyne-elements.app.sbb.ch/?path=/$1/");
         function wrapTablesWithSbbTableWrapper(content) {
             //const tableRegex = /((?:\|[^|\n]*\|.*\n)+)/g;
             const tableRegex = /(\|[^\n]+\|\n)(\|[^\n]+\|\n)*/g;

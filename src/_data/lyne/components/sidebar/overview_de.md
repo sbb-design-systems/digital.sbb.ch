@@ -4,7 +4,7 @@ Die Sidebar ist eine vertikale Navigationsleiste, die zur Strukturierung von Inh
 
 ## Wann soll die Komponente eingesetzt werden?
 * Wenn eine Anwendung eine permanente oder leicht zugängliche Navigation benötigt.
-* Wenn Benutzer:innen schnell zwischen mehreren Hauptbereichen wechseln müssen.
+* Wenn Nutzende schnell zwischen mehreren Hauptbereichen wechseln müssen.
 * Wenn zusätzliche Funktionen oder Filter neben dem Hauptinhalt verfügbar sein sollen.
 
 ## Regeln.

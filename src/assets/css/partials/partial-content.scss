@@ -538,6 +538,11 @@ p.subtext {
   }
 }
 
+// Links zur Angular-Doku am Ende des Implementation-Tabs (Lyne)
+.lyne-angular-links {
+  margin-block-end: var(--sbb-spacing-responsive-s);
+}
+
 // Ähnliche Komponenten am Ende des Übersichts-Tabs (Lyne)
 .similar-components {
   margin-block-end: var(--sbb-spacing-responsive-s);

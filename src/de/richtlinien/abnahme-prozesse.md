@@ -5,6 +5,7 @@ title: Abnahme-Prozesse
 parent: de
 order: 10
 eleventyExcludeFromCollections: true
+noindex: true
 ---
 
 Der hier beschrieben Prozess definiert wie ein digitales Produkt durch die Richtlinie «Corporate Identity und Corporate Design (verlinken)» durch die SBB Markenführung und dem Digital Service User Experience abgenommen wird. {.lead}

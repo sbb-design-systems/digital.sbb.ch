@@ -8,7 +8,7 @@ parent: brand_en
 order: 2
 ---
 
-Basically, the logo-motif guidelines from the <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/4">are applicable</sbb-link>. {.lead}
+In principle, the logo and signet guidelines from the <sbb-link  type="button" target="_blank" href="https://brand.sbb.ch/document/4">SBB brand portal</sbb-link> apply. {.lead}
 
 ### Closely managed umbrella branding strategy
 ‘If it’s SBB on the inside, it says SBB on the outside’: SBB provides orientation and builds trust through its closely managed umbrella branding strategy. Every market share of the SBB company is consistently marked with the SBB umbrella branding or the extended umbrella brand Cargo. Own logos and free brands are not permitted. {.lead}

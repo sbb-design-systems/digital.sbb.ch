@@ -6,6 +6,7 @@ title: CI/CD Richtlinien
 parent: regulations_de
 order: 1
 eleventyExcludeFromCollections: true
+noindex: true
 ---
 
 

@@ -1,0 +1,13 @@
+{#- Lyne: automatisch erzeugte API-Dokumentation aus dem README (Properties, Methoden, Events, Slots, CSS-Variablen) #}
+{% if system == "lyne" %}
+    {% set api = lyne.readmes[component] | readmeSection("api") %}
+    {% if api | trim %}
+        <sbb-tab-label level="2" role="tab" slot="tab-bar">
+            <sbb-icon name="{{tabs[4].icon}}" slot="icon"></sbb-icon>
+            {{ tabs[4].label[language] }}
+        </sbb-tab-label>
+        <sbb-tab>
+        {{ api | absolutelinks | renderUsingMarkdown | safe }}
+        </sbb-tab>
+    {% endif %}
+{% endif %}

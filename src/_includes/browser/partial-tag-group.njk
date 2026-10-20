@@ -1,12 +1,10 @@
-
+{#- Kategorie-Filter nur mit Kategorien der angezeigten Liste; bei höchstens einer Kategorie (z. B. Design Tokens, Templates) entfällt er -#}
+{% set listCategories = categories | listCategories(sys, list) %}
+{% if (layout != "component.njk") and (layout != "template.njk") and (listCategories | length) > 1 %}
 <sbb-tag-group id="categories" value="all" multiple size="s">
-    {% if layout == "component.njk" or layout == "template.njk" %}
-    {% else %}
-        <sbb-tag id="all" value="all" onchange="uncheckTags()">All</sbb-tag>
-        {% for category in categories%}
-            <sbb-tag value="{{category}}" onchange="uncheckAllTag()">{{category}}</sbb-tag>
-        {% endfor %}
-    {% endif %}
+    <sbb-tag id="all" value="all" onchange="uncheckTags()">All</sbb-tag>
+    {% for category in listCategories %}
+        <sbb-tag value="{{category}}" onchange="uncheckAllTag()">{{category}}</sbb-tag>
+    {% endfor %}
 </sbb-tag-group>
-
-
+{% endif %}

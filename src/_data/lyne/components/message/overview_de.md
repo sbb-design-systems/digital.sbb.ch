@@ -1,6 +1,6 @@
 
 ## Was macht die Komponente?
-Eine Message ist eine Benachrichtigung, die Nutzende über Informationen, Erfolge, Fehler oder andere Ereignisse in der Anwendung informiert. Im Unterschied zur Notification hat Sie keinen Status und keine Möglichkeit sich selbst auszublenden. Sie ist ins Layout integriert und eignet sich für inbesondere für Hinweise innherhalb von Listen. 
+Eine Message ist eine Benachrichtigung, die Nutzende über Informationen, Erfolge, Fehler oder andere Ereignisse in der Anwendung informiert. Im Unterschied zur Notification hat sie keinen Status und keine Möglichkeit sich selbst auszublenden. Sie ist ins Layout integriert und eignet sich insbesondere für Hinweise innerhalb von Listen. 
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um Nutzende über Aktionen zu informieren, z.B. Erfolgs- oder Fehlermeldungen.

@@ -8,18 +8,25 @@ eleventyExcludeFromCollections: true
 
 > Official guidelines of SBB (Swiss Federal Railways) for digital products: UX principles, foundations, accessibility and the design systems for websites and apps. The web design system is called Lyne and is implemented as web components (`@sbb-esta/lyne-elements`) with an Angular wrapper (`@sbb-esta/lyne-angular`).
 
-The documentation is spread across several platforms. Use digital.sbb.ch for when and why to use a component (usage rules, anatomy), and the Storybook instances for the full API and live examples. Current Lyne version: {{ lyne.version.branch }}.
+The documentation is spread across several platforms. Use digital.sbb.ch for when and why to use a component (usage rules, elements) and for the web component API, Storybook for live examples and the Angular documentation for Angular usage. Current Lyne version: {{ lyne.version.branch }}.
 
 - [digital.sbb.ch]({{ site }}/en/): Design guidelines and usage rules (German, French, Italian, English; English and German are the most complete for Lyne)
 - [Lyne Elements Storybook](https://lyne-elements.app.sbb.ch/): Web component API, live examples, code snippets; story index at https://lyne-elements.app.sbb.ch/index.json
-- [Lyne Angular Storybook](https://lyne-angular.app.sbb.ch/): Angular wrapper components
+- [Lyne Angular documentation](https://lyne-angular.app.sbb.ch/): Angular wrapper components (`@sbb-esta/lyne-angular`, `@sbb-esta/lyne-angular-experimental`) with Angular API and examples; every component page and the JSON index link to the matching Angular page
 - [lyne-components on GitHub](https://github.com/sbb-design-systems/lyne-components): Source code, readme per component, issues
 - [lyne-angular on GitHub](https://github.com/sbb-design-systems/lyne-angular): Source code of the Angular wrapper
 - [digital.sbb.ch on GitHub](https://github.com/sbb-design-systems/digital.sbb.ch): Source of this website
 
-Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, anatomy, code examples and the API documentation of the web components.
+Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, the elements of the component, code examples, the API documentation of the web components and a link to the Angular documentation.
 
 A machine-readable index of all released Lyne components (elements, status such as experimental or Figma availability, and all links) is available at [{{ site }}/lyne-components.json]({{ site }}/lyne-components.json).
+
+{% set resources = lyne.catalog.resources %}## Machine-readable resources
+
+- [All Lyne components in one file]({{ site }}/lyne-components-full.md): The Markdown versions of all released components (English) without the API tables, to load the whole context with one request
+- [UI icon names]({{ site }}/icons-ui.json): All valid values for `icon-name` (name plus size, e.g. `arrow-right-small`). Use only names from this list; do not invent icon names. Full catalog with all icon types: {{ resources.icons }}
+- [custom-elements.json]({{ resources.customElements }}): Complete API of all web components (attributes, properties, events, slots, CSS properties); experimental components: {{ resources.customElementsExperimental }}
+- [Design tokens]({{ resources.designTokens }}): Colors, spacing, typography and more as JSON; as CSS custom properties: {{ resources.designTokensCss }}
 
 ## Lyne components (English)
 {% for key, pattern in components %}{% if pattern.config.language.en and pattern.config.list == "components" and pattern.config.released != false %}

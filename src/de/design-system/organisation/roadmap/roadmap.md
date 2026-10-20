@@ -6,6 +6,7 @@ title: Roadmap
 parent: organisation_de
 order: 4
 eleventyExcludeFromCollections: true
+noindex: true
 ---
 
 Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritäten der Arbeiten sind in den entsprechenden Boards einsehbar. {.lead}

@@ -1,0 +1,87 @@
+---
+layout: page.njk
+tags: level3
+key: themes_en
+title: Presets & Themes
+parent: lyne_en
+theme: standard
+order: 25
+---
+
+<sbb-title level="2" visual-level="2">Presets for customer and employee applications</sbb-title>
+<p class="lead">
+Lyne is optimised for customer and employee applications alike. Most components are available in several sizes and can be used flexibly in different usage scenarios.
+
+To ensure a good developer experience, two presets are available: Default and Lean. They define the default sizes of the components if no explicit size is set. The «Lean» preset enables a particularly compact user interface.
+
+With this approach, we move away from the previous SBB Angular logic, in which customer and employee applications were strictly separated via CSS.
+
+Learn more in the
+<sbb-link  target="_blank" href="https://lyne-elements.app.sbb.ch/?path=/docs/introduction-getting-started--docs#lean-variant">Lyne Storybook</sbb-link>.</p>
+
+
+
+
+<sbb-title level="2" visual-level="2">Themes</sbb-title>
+<p class="lead">
+  Three themes are available, each intended for a different purpose:
+</p>
+
+<sbb-title level="3" visual-level="3">Standard theme</sbb-title>
+<p class="lead">
+  The standard theme is used for customer and employee applications.
+</p>
+
+<sbb-title level="3" visual-level="3">Off-brand theme</sbb-title>
+<p class="lead">
+  The off-brand theme is used for applications developed on behalf of the industry.
+  SBB applications that are also used by the industry but are funded by SBB
+  continue to use the standard theme.
+</p>
+
+<sbb-title level="3" visual-level="3">Safety theme</sbb-title>
+<p class="lead">
+  In safety-related work contexts, the colour red may only be used for error messages.
+  The safety theme is based on the off-brand theme and allows red only for errors.
+</p>
+
+<br>
+
+<sbb-radio-button-group name="theme-chooser" value="standard-theme" aria-label="Theme Chooser" orientation="vertical" horizontal-from="small" size="m">
+  <sbb-radio-button value="standard-theme">Standard</sbb-radio-button>
+  <sbb-radio-button value="off-brand-theme">Off-Brand</sbb-radio-button>
+  <sbb-radio-button value="safety-theme">Safety</sbb-radio-button>
+</sbb-radio-button-group><br>
+
+<iframe src="/en/design-system/lyne/themes/standard-theme/index.html" height="400" width="100%" title="Theme example"  class="theme standard-theme"></iframe>
+<iframe src="/en/design-system/lyne/themes/off-brand-theme/index.html" height="400" width="100%" title="Theme example"  class="theme off-brand-theme"></iframe>
+<iframe src="/en/design-system/lyne/themes/safety-theme/index.html" height="400" width="100%" title="Theme example"  class="theme safety-theme"></iframe>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const group = document.querySelector('sbb-radio-button-group[name="theme-chooser"]');
+    const iframes = document.querySelectorAll('iframe.theme');
+
+    function updateIframes(selectedValue) {
+      iframes.forEach((iframe) => {
+        iframe.style.display = iframe.classList.contains(selectedValue)
+          ? 'block'
+          : 'none';
+      });
+    }
+
+    // Initial state
+    updateIframes(group.value);
+
+    // React to changes
+    group.addEventListener('change', () => {
+      updateIframes(group.value);
+    });
+  });
+</script>
+
+
+<sbb-title level="3" visual-level="3">Using the themes in Figma</sbb-title>
+<p class="lead">
+  The themes can be selected under «Theme» in the variable mode at page, frame or component level.
+</p>

@@ -2,7 +2,7 @@
 layout: page.njk
 tags: level3
 key: about-this-guide_en
-title: Über diesen Guide
+title: About this guide
 alternativetitle: About this guide
 parent: introduction_en
 order: 2

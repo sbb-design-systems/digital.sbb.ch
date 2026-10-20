@@ -10,6 +10,8 @@ const STORYBOOK_URL = "https://lyne-elements.app.sbb.ch";
 // Dauerhaft abgelehnte Komponentengruppen (Ordnername → Begründung): werden nicht angelegt und nicht dokumentiert
 const EXCLUDED_FILE = path.join(__dirname, "src/_data/lyne/excluded.json");
 const GITHUB_REPO = "sbb-design-systems/lyne-components";
+// Angular-Doku (lyne-angular): gleiche Ordnernamen, experimentelle Komponenten unter "angular-experimental"
+const ANGULAR_URL = "https://lyne-angular.app.sbb.ch";
 
 const PACKAGES = [
     { name: "lyne-elements", storybookPrefix: "elements", sourcePath: "src/elements", experimental: false },
@@ -21,6 +23,19 @@ const slug = (title) => title.toLowerCase().replace(/^sbb-/, "").trim().replace(
 
 function readExcluded() {
     return fs.existsSync(EXCLUDED_FILE) ? JSON.parse(fs.readFileSync(EXCLUDED_FILE, "utf8")) : {};
+}
+
+// Maschinenlesbare Quellen für Agents, passend zu den installierten Versionen (CDN jsDelivr)
+function agentResources() {
+    const version = (name) => JSON.parse(fs.readFileSync(path.join(packageDir(name), "package.json"), "utf8")).version;
+    const cdn = (name, file) => `https://cdn.jsdelivr.net/npm/@sbb-esta/${name}@${version(name)}/${file}`;
+    return {
+        customElements: cdn("lyne-elements", "custom-elements.json"),
+        customElementsExperimental: cdn("lyne-elements-experimental", "custom-elements.json"),
+        designTokens: cdn("lyne-design-tokens", "dist/js/sbb-tokens.json"),
+        designTokensCss: cdn("lyne-design-tokens", "dist/css/sbb-variables.css"),
+        icons: "https://icons.app.sbb.ch/icons/index.json",
+    };
 }
 
 function installedVersion() {
@@ -49,6 +64,7 @@ function buildCatalog(storybookEntries = {}, partOf = {}) {
                     elements: [],
                     readmeUrl: `https://raw.githubusercontent.com/${GITHUB_REPO}/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
                     githubUrl: `https://github.com/${GITHUB_REPO}/blob/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
+                    angularUrl: `${ANGULAR_URL}/${pkg.experimental ? "angular-experimental" : "angular"}/components/${folder}`,
                     storybook: null,
                     storybookPrefix: pkg.storybookPrefix,
                 };
@@ -89,7 +105,7 @@ function buildCatalog(storybookEntries = {}, partOf = {}) {
         .sort((a, b) => a.folder.localeCompare(b.folder));
     for (const { folder } of excluded) delete groups[folder];
 
-    return { version, tag, storybookUrl: STORYBOOK_URL, groups, excluded, storybookWithoutGroup: [...storybookWithoutGroup].sort() };
+    return { version, tag, storybookUrl: STORYBOOK_URL, resources: agentResources(), groups, excluded, storybookWithoutGroup: [...storybookWithoutGroup].sort() };
 }
 
 module.exports = { buildCatalog, installedVersion, STORYBOOK_URL };

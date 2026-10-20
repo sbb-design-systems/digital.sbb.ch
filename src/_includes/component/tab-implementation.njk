@@ -1,10 +1,24 @@
 {% if ((system == "lyne") and lyne.readmes[component]) or ((system != "lyne") and (pattern.config.tabs.hasImplementation == true)) %}
-    {% set implementation = lyne.readmes[component] if system == "lyne" else patterns[pattern.config.tag].implementation %}
+    {# Lyne: README ohne die API-Dokumentation, die im Tab "API" steht (tab-api.njk) #}
+    {% set implementation = (lyne.readmes[component] | readmeSection("usage")) if system == "lyne" else patterns[pattern.config.tag].implementation %}
+    {% set angularUrl = lyne.catalog.groups[component].angularUrl if (system == "lyne" and lyne.catalog.groups[component]) else null %}
     <sbb-tab-label level="2" role="tab" slot="tab-bar">
         <sbb-icon name="{{tabs[3].icon}}" slot="icon"></sbb-icon>
         Implementation
     </sbb-tab-label>
     <sbb-tab>
     {{ implementation | absolutelinks | renderUsingMarkdown | safe }}
+    {# Lyne: Hinweis auf die Angular-Doku am Schluss; Icons wie die Tabs Übersicht, API und Beispiele #}
+    {% if angularUrl %}
+        {% set at = translations[page.lang].lyneangular %}
+        {% set angularPackage = "@sbb-esta/lyne-angular-experimental" if ("/angular-experimental/" in angularUrl) else "@sbb-esta/lyne-angular" %}
+        <h2>Angular.</h2>
+        <p>{{ at.intro | replace("{package}", "<code>" + angularPackage + "</code>") | safe }}</p>
+        <sbb-link-list class="lyne-angular-links">
+            <sbb-block-link href="{{ angularUrl }}/overview" target="_blank" icon-name="circle-information-small">{{ at.overview }}</sbb-block-link>
+            <sbb-block-link href="{{ angularUrl }}/api" target="_blank" icon-name="display-binary-code-small">{{ at.api }}</sbb-block-link>
+            <sbb-block-link href="{{ angularUrl }}/examples" target="_blank" icon-name="eye-small">{{ at.examples }}</sbb-block-link>
+        </sbb-link-list>
+    {% endif %}
     </sbb-tab>
 {% endif %}

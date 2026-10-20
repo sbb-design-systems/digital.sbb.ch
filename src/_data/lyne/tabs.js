@@ -39,6 +39,16 @@ module.exports = {
             fr: "Implementation",
             it: "Implementation",
         },
+      },
+      {
+        id: 5,
+        icon: "display-binary-code-small",
+        label: {
+            de: "API",
+            en: "API",
+            fr: "API",
+            it: "API",
+        },
       }
     ]
   }

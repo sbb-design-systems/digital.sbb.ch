@@ -7,5 +7,5 @@ pagination:
   size: 1
   alias: component
   addAllPagesToCollections: true
-permalink: "/it/design-system/mobile/components/{{mobile.components[component].config.tag | slugify}}/"
+permalink: "/it/design-system/mobile/{{mobile.components[component].config.list | slugify}}/{{mobile.components[component].config.tag | slugify}}/"
 ---

@@ -1,0 +1,20 @@
+---
+permalink: /lyne-components-full.md
+eleventyExcludeFromCollections: true
+---
+{#- Alle freigegebenen Lyne-Komponenten (Englisch) in einer Datei, damit ein Agent den ganzen Kontext mit einem Abruf lädt.
+    Pro Komponente derselbe Inhalt wie ihre Markdown-Version (component/agent-markdown.njk). -#}
+# Lyne components (English, all in one file)
+
+Generated from https://digital.sbb.ch for Lyne {{ lyne.version.branch }}. Each section is the Markdown version of one component page, without the API tables. The complete API of all web components is in {{ lyne.catalog.resources.customElements }}; the API of a single component is in its Markdown version (linked in https://digital.sbb.ch/lyne-components.json). Valid icon names: https://digital.sbb.ch/icons-ui.json
+{% for key, pattern in lyne.components | sortLyneComponentsByOrder %}
+{%- if pattern.config.list == "components" and pattern.config.released != false and pattern.config.language.en %}
+{%- set component = key %}
+{%- set lang = "en" %}
+{%- set omitApi = true %}
+
+---
+
+{% include "component/agent-markdown.njk" %}
+{%- endif %}
+{%- endfor %}

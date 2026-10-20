@@ -6,7 +6,7 @@ permalink: /de/design-system/lyne/abdeckung/
 eleventyExcludeFromCollections: true
 noindex: true
 ---
-{#- Interner Abdeckungsbericht: lyne-components ↔ digital.sbb.ch. Nicht verlinkt, nicht in Sitemap/llms.txt, noindex. -#}
+{#- Interner Abdeckungsbericht: lyne-components ↔ digital.sbb.ch. Nur auf dem lokalen Dev-Server (im Build ignoriert, siehe .eleventy.js), nicht verlinkt, noindex. -#}
 {%- set coverage = lyne | lyneCoverage -%}
 {%- macro yesNo(value) -%}{% if value %}✓{% else %}<strong>✗</strong>{% endif %}{%- endmacro -%}
 {%- set structureLabels = { "single": "Einzeln", "composite": "Mit Bestandteilen", "grouped": "Mit Gruppierung", "collection": "Sammlung" } -%}

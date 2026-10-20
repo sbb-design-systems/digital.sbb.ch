@@ -1,6 +1,6 @@
 
 ## Was macht die Komponente?
-Ein Tag ist ein kleines Beschriftungselement, das zur Kategorisierung und als als Filter dient.
+Ein Tag ist ein kleines Beschriftungselement, das zur Kategorisierung und als Filter dient.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um Inhalte nach bestimmten Kriterien zu filtern und zu kategorisieren.

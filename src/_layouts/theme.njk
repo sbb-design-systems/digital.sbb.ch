@@ -38,9 +38,9 @@
     <div class="demo-wrapper {{ theme }}">
         <sbb-logo protective-room="none"></sbb-logo>
         <sbb-button>Primary-Button</sbb-button>
-        <sbb-secondary-button>Primary-Button</sbb-secondary-button>
+        <sbb-secondary-button>Secondary-Button</sbb-secondary-button>
         <sbb-error>
-            Das ist ein Error und färbt sich nie um.
+            {{ "This is an error and never changes colour." if page.lang == "en" else "Das ist ein Error und färbt sich nie um." }}
         </sbb-error>
     </div>
     <script type="module" src="{{ '/assets/js/lyne-bundle.js' | assetHash }}"></script>

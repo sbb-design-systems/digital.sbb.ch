@@ -1,0 +1,7 @@
+---
+permalink: /icons-ui.json
+eleventyExcludeFromCollections: true
+---
+{#- Schlanker Katalog der UI-Icons für Agents: gültige Werte für icon-name (Name + Grösse, z. B. "arrow-right-small").
+    Quelle: icons.app.sbb.ch (src/_data/icons.js), dort mit allen Varianten und Metadaten. -#}
+{{ icons | uiIconCatalog | safe }}
