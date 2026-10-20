@@ -34,7 +34,9 @@ function agentResources() {
         customElementsExperimental: cdn("lyne-elements-experimental", "custom-elements.json"),
         designTokens: cdn("lyne-design-tokens", "dist/js/sbb-tokens.json"),
         designTokensCss: cdn("lyne-design-tokens", "dist/css/sbb-variables.css"),
+        // icons: massgebender Katalog (CDN), iconsUi: kompakter Auszug der UI-Icons von digital.sbb.ch (täglich neu gebaut)
         icons: "https://icons.app.sbb.ch/icons/index.json",
+        iconsUi: "https://digital.sbb.ch/icons-ui.json",
     };
 }
 

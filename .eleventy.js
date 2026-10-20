@@ -662,8 +662,12 @@ module.exports = async function(eleventyConfig) {
             .filter((icon) => icon.type === "KOM")
             .map((icon) => ({ name: icon.name, sizes: icon.sizes, category: icon.category, keywords: icon.tags }))
             .sort((a, b) => a.name.localeCompare(b.name));
+        // Abgeleitete Ansicht des CDN-Katalogs; das CDN ist massgebend (Lyne lädt die Icons zur Laufzeit von dort)
         return JSON.stringify({
             source: "https://icons.app.sbb.ch/icons/index.json",
+            sourceVersion: (Array.isArray(iconData) ? iconData[1]?.version : null) ?? null,
+            generated: new Date().toISOString(),
+            authority: "Derived snapshot of the source, rebuilt daily. The source is authoritative: Lyne loads icons from it at runtime. If a name is missing here, check the source (UI icons have the tag \"ui-icons\" and one entry per size).",
             usage: "Use only these names for icon-name attributes. The value is the name plus a size, e.g. \"arrow-right-small\". Lyne components use the small size.",
             count: icons.length,
             icons,

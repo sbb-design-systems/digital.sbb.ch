@@ -28,7 +28,7 @@ A machine-readable index of all released Lyne components (elements, status such 
 - Theme and tokens: load one theme stylesheet from the package, e.g. `import '@sbb-esta/lyne-elements/standard-theme.css';` (`standard-theme.css` for customer and employee applications, `off-brand-theme.css` for industry, `safety-theme.css` for safety contexts; `lean-*` variants exist for lean applications; see {{ site }}/en/design-system/lyne/themes/index.md). Style with design tokens (CSS custom properties `--sbb-*`, list: {{ site }}/en/design-system/lyne/design-tokens/index.md) instead of hard-coded colors, spacing or font sizes.
 - Component details: read `…/<component>/index.md` for usage, elements and examples; the full attribute, slot and event tables are in `…/<component>/api.md`.
 - Common mistakes:
-  - Invented `icon-name` values. Use only names from [icons-ui.json]({{ site }}/icons-ui.json) (name plus size, e.g. `arrow-right-small`).
+  - Invented `icon-name` values. Use only names from [icons-ui.json]({{ site }}/icons-ui.json) (name plus size, e.g. `arrow-right-small`); if a name is missing there, check the authoritative catalog {{ resources.icons }}.
   - Elements that were never imported (see above) or tags that do not exist; check the component list below or lyne-components.json.
   - Wrong slots: parts such as list items, tabs or form-field inputs only work inside their parent element and often need a named slot or a specific child element; compare with the elements section and examples of the component.
   - Plain HTML attributes where Lyne expects a boolean or enum attribute (e.g. `negative`, `size="l"`); check the API table before using a value.
@@ -43,7 +43,8 @@ A machine-readable index of all released Lyne components (elements, status such 
 ## Machine-readable resources
 
 - [All Lyne components in one file]({{ site }}/lyne-components-full.md) (alias: [llms-full.txt]({{ site }}/llms-full.txt)): The Markdown versions of all released components (English) without the API tables, to load the whole context with one request
-- [UI icon names]({{ site }}/icons-ui.json): All valid values for `icon-name` (name plus size, e.g. `arrow-right-small`). Use only names from this list; do not invent icon names. Full catalog with all icon types: {{ resources.icons }}
+- [UI icon names]({{ site }}/icons-ui.json): All valid values for `icon-name` (name plus size, e.g. `arrow-right-small`), one entry per icon with sizes, category and keywords. Use only names from this list; do not invent icon names. It is a compact snapshot of the icon catalog, rebuilt daily; `sourceVersion` and `generated` show its state.
+- [Icon catalog (authoritative)]({{ resources.icons }}): Source of all icons that Lyne loads at runtime, including timetable icons; large (about 1.2 MB, one entry per size, category and size encoded in `tags`). Use it only if a name is missing in icons-ui.json.
 - [custom-elements.json]({{ resources.customElements }}): Complete API of all web components (attributes, properties, events, slots, CSS properties); experimental components: {{ resources.customElementsExperimental }}
 - [Design tokens]({{ resources.designTokens }}): Colors, spacing, typography and more as JSON; as CSS custom properties: {{ resources.designTokensCss }}
 
@@ -81,7 +82,7 @@ A machine-readable index of all released Lyne components (elements, status such 
 
 ## {{ section[2] if lang == "de" else section[1] }} ({{ { en: "English", de: "Deutsch", fr: "Français", it: "Italiano" }[lang] }})
 {% for entry in entries %}
-- [{{ entry.title }}]({{ site }}{{ entry.url }}index.md){% if entry.description and lang in ["en", "de"] %}: {{ entry.description }}{% endif %}
+- [{{ entry.title | safe }}]({{ site }}{{ entry.url }}index.md){% if entry.description and lang in ["en", "de"] %}: {{ entry.description | safe }}{% endif %}
 {%- endfor %}
 {%- endif %}
 {%- endfor %}

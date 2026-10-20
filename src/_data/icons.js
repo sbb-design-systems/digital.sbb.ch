@@ -82,5 +82,6 @@ module.exports = async () => {
     entry.sizes.sort((a, b) => sizeOrder.indexOf(a) - sizeOrder.indexOf(b));
   });
 
-  return [grouped];
+  // [0]: Icons für die Seiten, [1]: Metadaten des CDN-Katalogs (für icons-ui.json)
+  return [grouped, { version: result.version }];
 };

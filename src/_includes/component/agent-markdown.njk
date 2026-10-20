@@ -40,7 +40,7 @@
 
 {#- Elemente als verschachtelte Liste: Hauptelemente, Varianten, Gruppierung, Bestandteile #}
 {%- macro elementItem(node, parentTag, indent) %}
-{{ indent }}- `{{ node.tag }}`{% if node.variants | length %} ({{ t.alsoAs }} {% for variant in node.variants %}`{{ variant }}`{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}{% if parentTag %}, {{ t.partHint }} `{{ parentTag }}`{% endif %}{% if node.groupedBy %}, {{ t.groupedBy }} `{{ node.groupedBy }}`{% endif %}{% if node.summary %}: {{ node.summary }}{% endif %}
+{{ indent }}- `{{ node.tag }}`{% if node.variants | length %} ({{ t.alsoAs }} {% for variant in node.variants %}`{{ variant }}`{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}{% if parentTag %}, {{ t.partHint }} `{{ parentTag }}`{% endif %}{% if node.groupedBy %}, {{ t.groupedBy }} `{{ node.groupedBy }}`{% endif %}{% if node.summary %}: {{ node.summary | safe }}{% endif %}
 {%- for part in node.parts %}{{ elementItem(part, node.tag, indent + "  ") }}{% endfor %}
 {%- endmacro %}
 {%- if group %}
