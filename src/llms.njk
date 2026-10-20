@@ -17,13 +17,32 @@ The documentation is spread across several platforms. Use digital.sbb.ch for whe
 - [lyne-angular on GitHub](https://github.com/sbb-design-systems/lyne-angular): Source code of the Angular wrapper
 - [digital.sbb.ch on GitHub](https://github.com/sbb-design-systems/digital.sbb.ch): Source of this website
 
-Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, the elements of the component, code examples, the API documentation of the web components and a link to the Angular documentation.
+Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, the elements of the component, code examples and links (Storybook, Angular); the full API tables of the web components are in `…/api.md` next to it.
 
 A machine-readable index of all released Lyne components (elements, status such as experimental or Figma availability, and all links) is available at [{{ site }}/lyne-components.json]({{ site }}/lyne-components.json).
 
-{% set resources = lyne.catalog.resources %}## Machine-readable resources
+{% set resources = lyne.catalog.resources %}## Quick start for AI
 
-- [All Lyne components in one file]({{ site }}/lyne-components-full.md): The Markdown versions of all released components (English) without the API tables, to load the whole context with one request
+- Install: `npm install @sbb-esta/lyne-elements` (Angular: `@sbb-esta/lyne-angular`). Components are web components with the prefix `sbb-`.
+- Register elements by importing the component module once, e.g. `import '@sbb-esta/lyne-elements/button.js';` for `<sbb-button>` (one import per component group; the module path equals the component name). An element that is not imported stays an unknown, unstyled HTML element.
+- Theme and tokens: load one theme stylesheet from the package, e.g. `import '@sbb-esta/lyne-elements/standard-theme.css';` (`standard-theme.css` for customer and employee applications, `off-brand-theme.css` for industry, `safety-theme.css` for safety contexts; `lean-*` variants exist for lean applications; see {{ site }}/en/design-system/lyne/themes/index.md). Style with design tokens (CSS custom properties `--sbb-*`, list: {{ site }}/en/design-system/lyne/design-tokens/index.md) instead of hard-coded colors, spacing or font sizes.
+- Component details: read `…/<component>/index.md` for usage, elements and examples; the full attribute, slot and event tables are in `…/<component>/api.md`.
+- Common mistakes:
+  - Invented `icon-name` values. Use only names from [icons-ui.json]({{ site }}/icons-ui.json) (name plus size, e.g. `arrow-right-small`).
+  - Elements that were never imported (see above) or tags that do not exist; check the component list below or lyne-components.json.
+  - Wrong slots: parts such as list items, tabs or form-field inputs only work inside their parent element and often need a named slot or a specific child element; compare with the elements section and examples of the component.
+  - Plain HTML attributes where Lyne expects a boolean or enum attribute (e.g. `negative`, `size="l"`); check the API table before using a value.
+  - Own colors or fonts: use the theme and tokens.
+
+## Availability of the Markdown versions
+
+- Pages exist as `index.md` next to the HTML page (`https://digital.sbb.ch/<lang>/…/index.md`) in German and English only (French and Italian pages have no Markdown version; the content is the same, use the English or German page). Pages that only redirect (e.g. `/en/foundation/`, `/en/foundation/colors/`) have no Markdown version; use the sub pages listed below (e.g. `/en/foundation/colors/base-colors/index.md`).
+- Servers answer `Accept: text/markdown` on a page URL (ending with `/`) with the Markdown version if one exists (`Vary: Accept`).
+- {{ site }}/llms-full.txt is an alias of {{ site }}/lyne-components-full.md.
+
+## Machine-readable resources
+
+- [All Lyne components in one file]({{ site }}/lyne-components-full.md) (alias: [llms-full.txt]({{ site }}/llms-full.txt)): The Markdown versions of all released components (English) without the API tables, to load the whole context with one request
 - [UI icon names]({{ site }}/icons-ui.json): All valid values for `icon-name` (name plus size, e.g. `arrow-right-small`). Use only names from this list; do not invent icon names. Full catalog with all icon types: {{ resources.icons }}
 - [custom-elements.json]({{ resources.customElements }}): Complete API of all web components (attributes, properties, events, slots, CSS properties); experimental components: {{ resources.customElementsExperimental }}
 - [Design tokens]({{ resources.designTokens }}): Colors, spacing, typography and more as JSON; as CSS custom properties: {{ resources.designTokensCss }}
@@ -60,9 +79,9 @@ A machine-readable index of all released Lyne components (elements, status such 
 {%- set entries = collections.agentPages | agentPagesInSection(lang, section[0], lyne) %}
 {%- if entries | length %}
 
-## {{ section[1] if lang == "en" else section[2] }} ({{ "English" if lang == "en" else "Deutsch" }})
+## {{ section[2] if lang == "de" else section[1] }} ({{ { en: "English", de: "Deutsch", fr: "Français", it: "Italiano" }[lang] }})
 {% for entry in entries %}
-- [{{ entry.title }}]({{ site }}{{ entry.url }}index.md){% if entry.description %}: {{ entry.description }}{% endif %}
+- [{{ entry.title }}]({{ site }}{{ entry.url }}index.md){% if entry.description and lang in ["en", "de"] %}: {{ entry.description }}{% endif %}
 {%- endfor %}
 {%- endif %}
 {%- endfor %}

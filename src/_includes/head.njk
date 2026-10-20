@@ -1,7 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="{{ "noindex,nofollow" if (lyneDraft or noindex) else "index,follow" }}">
-<meta name="description" content="{{translations[page.lang].description}}">
+{% set pageDesc = { description: description, component: component, system: system, alternativetitle: alternativetitle, title: title } | pageDescription(page.lang, page.inputPath) %}
+<meta name="description" content="{{ pageDesc or translations[page.lang].description }}">
 <meta name="keywords" content="{{keywords}}">
 <meta name="author" content="Lorena Weder, Beat Vollenwyder, Lucie Girardier, Franco Ehrat, Mike Morgenthaler, Manuel Cilurzo">
 <meta name="publisher" content="SBB Informatik AG">
@@ -32,6 +33,11 @@
     <title>{{lyne.templates[template].config.tag | capitalizeWords}} – digital.sbb.ch</title>
 {% else %}
     <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
+{% endif %}
+
+{% set jsonLdTitle = (pattern.config.tag | capitalizeWords) if (layout == "component.njk") else ((lyne.templates[template].config.tag | capitalizeWords) if (layout == "template.njk") else title) %}
+{% if jsonLdTitle and not (lyneDraft or noindex) %}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "TechArticle", "headline": jsonLdTitle, "description": pageDesc or translations[page.lang].description, "inLanguage": page.lang, "url": "https://digital.sbb.ch" + page.url, "isPartOf": { "@type": "WebSite", "name": "digital.sbb.ch", "url": "https://digital.sbb.ch/" }, "publisher": { "@type": "Organization", "name": "SBB Informatik AG" } } | dump | replace("<", "\\u003c") | safe }}</script>
 {% endif %}
 
 {% if env.environment == "production" %}

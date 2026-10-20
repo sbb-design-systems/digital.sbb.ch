@@ -1,0 +1,15 @@
+---js
+{
+  // API-Tabellen jeder Lyne-Komponente für Agents (api.md, verlinkt aus index.md)
+  eleventyExcludeFromCollections: true,
+  lang: "en",
+  pagination: {
+    data: "lyne.components",
+    size: 1,
+    alias: "component",
+    before: (keys, data) => keys.filter((key) => data.lyne.components[key]?.config?.list === "components" && data.lyne.components[key]?.config?.released !== false && data.lyne.components[key]?.config?.language?.["en"] === true && String(data.lyne.readmes?.[key] ?? "").includes("<!-- Auto Generated Below -->"))
+  },
+  permalink: (data) => `/en/design-system/lyne/${data.lyne.components[data.component].config.list}/${data.lyne.components[data.component].config.tag}/api.md`
+}
+---
+{% include "component/agent-api-markdown.njk" %}

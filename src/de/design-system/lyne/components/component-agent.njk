@@ -12,4 +12,5 @@
   permalink: (data) => `/de/design-system/lyne/${data.lyne.components[data.component].config.list}/${data.lyne.components[data.component].config.tag}/index.md`
 }
 ---
+{% set omitApi = true %}
 {% include "component/agent-markdown.njk" %}
