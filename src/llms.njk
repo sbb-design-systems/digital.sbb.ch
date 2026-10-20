@@ -36,7 +36,7 @@ A machine-readable index of all released Lyne components (elements, status such 
 
 ## Availability of the Markdown versions
 
-- Pages exist as `index.md` next to the HTML page (`https://digital.sbb.ch/<lang>/…/index.md`) in German, French, Italian and English where the HTML page exists. Lyne component pages (`index.md` and `api.md`) exist in German and English only. Pages that only redirect (e.g. `/en/foundation/`, `/en/foundation/colors/`) have no Markdown version; use the sub pages listed below (e.g. `/en/foundation/colors/base-colors/index.md`).
+- Pages exist as `index.md` next to the HTML page (`https://digital.sbb.ch/<lang>/…/index.md`) in German and English only (French and Italian pages have no Markdown version; the content is the same, use the English or German page). Pages that only redirect (e.g. `/en/foundation/`, `/en/foundation/colors/`) have no Markdown version; use the sub pages listed below (e.g. `/en/foundation/colors/base-colors/index.md`).
 - Servers answer `Accept: text/markdown` on a page URL (ending with `/`) with the Markdown version if one exists (`Vary: Accept`).
 - {{ site }}/llms-full.txt is an alias of {{ site }}/lyne-components-full.md.
 
@@ -74,7 +74,7 @@ A machine-readable index of all released Lyne components (elements, status such 
   ["/design-system/organisation/", "Organisation", "Organisation"],
   ["/guidelines/", "Guidelines", "Guidelines"]
 ] %}
-{%- for lang in ["en", "de", "fr", "it"] %}
+{%- for lang in ["en", "de"] %}
 {%- for section in sections %}
 {%- set entries = collections.agentPages | agentPagesInSection(lang, section[0], lyne) %}
 {%- if entries | length %}

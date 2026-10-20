@@ -8,7 +8,7 @@ const TurndownService = require("turndown");
 const { gfm } = require("turndown-plugin-gfm");
 
 const SITE_URL = "https://digital.sbb.ch";
-const AGENT_LANGUAGES = ["de", "en", "fr", "it"];
+const AGENT_LANGUAGES = ["de", "en"];
 const AGENT_SECTIONS = [
     "/principles/",
     "/foundation/",
