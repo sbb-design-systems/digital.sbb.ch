@@ -183,6 +183,8 @@ const LANGUAGES = ["de", "fr", "it", "en"];
 let hreflangIndex = { source: null, pages: null };
 
 function isSelfCanonical(item) {
+    // Nicht freigegebene Lyne-Komponenten (noindex) sind weder Quelle noch Ziel
+    if (item.data?.lyneDraft) return false;
     if (item.url.startsWith("/de/")) return true;
     return !item.data.availablelanguages?.length && item.data.cannonical !== true;
 }
@@ -252,6 +254,203 @@ function agentSummary(markdown) {
     const lines = markdown.split("\n").map((line) => line.trim());
     const start = lines.findIndex((line) => line.startsWith("#"));
     return lines.slice(start + 1).find((line) => line && !line.startsWith("#") && !line.startsWith("!")) ?? "";
+}
+
+// Doku-Status einer Lyne-Komponente: "complete", "in progress" oder "missing", abgeleitet aus den
+// redaktionellen Dateien (Übersicht in de und en). "in progress" kann in der config
+// manuell gesetzt werden (status.documentation).
+// Wird auf jeder Seite für jede Komponente der Liste aufgerufen: Ergebnis pro Build puffern
+const documentationStatusCache = new Map();
+function lyneDocumentationStatus(key, config) {
+    const cacheKey = `${key}:${JSON.stringify(config?.tabs ?? null)}:${config?.status?.documentation}:${!!config?.internal}:${config?.hasTabs}`;
+    if (!documentationStatusCache.has(cacheKey)) documentationStatusCache.set(cacheKey, computeDocumentationStatus(key, config));
+    return documentationStatusCache.get(cacheKey);
+}
+
+function computeDocumentationStatus(key, config) {
+    if (!config) return "missing";
+    // Interne Hilfselemente brauchen keine Gestaltungsrichtlinien
+    if (config.internal) return "not required";
+    if (config.status?.documentation === "in progress") return "in progress";
+    const dir = path.join("src/_data/lyne/components", key);
+    const has = (file) => fs.existsSync(path.join(dir, file));
+    const required = config.hasTabs === false
+        ? [["content_de.md", "content_de.njk"], ["content_en.md", "content_en.njk"]]
+        // Die Anatomie-Tabellen sind entfallen: Aufbau zeigt der Elemente-Baum, Regeln stehen in der Übersicht
+        : config.tabs?.hasOverview === false ? [] : [["overview_de.md"], ["overview_en.md"]];
+    const present = required.filter((alternatives) => alternatives.some(has)).length;
+    return present === required.length ? "complete" : present === 0 ? "missing" : "in progress";
+}
+
+// Figma-Status: nur wenn in der config ein gültiger Figma-Link hinterlegt ist ("figmaUrl")
+const figmaUrl = (config) => (/^https:\/\/(www\.)?figma\.com\//.test(config?.figmaUrl ?? "") ? config.figmaUrl : null);
+
+// Ähnliche Lyne-Komponenten (Karte im Übersichtstab, Markdown-Version): manuell gepflegt ("similar"),
+// gilt automatisch in beide Richtungen. Verlinkt werden nur freigegebene Komponenten.
+let relationsCache = { source: null, relations: null };
+function computeLyneRelations(lyneData) {
+    const configs = lyneData?.components ?? {};
+    const keys = Object.keys(configs).filter((key) => configs[key]?.config?.list === "components");
+    const isLinkable = (key) => keys.includes(key) && configs[key].config.released !== false;
+    const list = (value) => (Array.isArray(value) ? value : []);
+    const label = (key) => (configs[key]?.config?.tag ?? key).replace(/\b\w/g, (c) => c.toUpperCase());
+
+    const relations = {};
+    for (const key of keys) {
+        const similar = new Set(list(configs[key].config.similar));
+        for (const other of keys) if (list(configs[other].config.similar).includes(key)) similar.add(other);
+        relations[key] = {
+            similar: [...similar]
+                .filter((target) => target !== key && isLinkable(target))
+                .map((target) => ({ key: target, label: label(target) }))
+                .sort((a, b) => a.label.localeCompare(b.label)),
+        };
+    }
+    return relations;
+}
+
+function lyneRelations(key, lyneData) {
+    if (relationsCache.source !== lyneData) relationsCache = { source: lyneData, relations: computeLyneRelations(lyneData) };
+    return relationsCache.relations[key] ?? { similar: [] };
+}
+
+// Beziehungen für die Karte im Übersichtstab: Lyne nur "Ähnlich", andere Design Systeme aus der config
+// (similar, childs, isChildOf). Einträge ohne eigene Seite erscheinen ohne Link (linked: false).
+function componentRelations(key, system, systemData, lyneData) {
+    if (system === "lyne") {
+        const relations = lyneRelations(key, lyneData);
+        const linked = (items) => items.map((item) => ({ ...item, linked: true }));
+        return { similar: linked(relations.similar), contains: [], usedIn: [] };
+    }
+    const components = systemData?.components ?? {};
+    const config = components[key]?.config ?? {};
+    const items = (values) =>
+        (Array.isArray(values) ? values : []).map((value) => {
+            const tag = components[value]?.config?.tag;
+            return { key: tag ?? value, label: (tag ?? value).replace(/\b\w/g, (c) => c.toUpperCase()), linked: !!tag };
+        });
+    return { similar: items(config.similar), contains: items(config.childs), usedIn: items(config.isChildOf) };
+}
+
+// Abgleich lyne-components ↔ digital.sbb.ch für den Abdeckungsbericht (/de/design-system/lyne/abdeckung/)
+function lyneCoverage(lyneData) {
+    const catalog = lyneData?.catalog ?? { groups: {} };
+    const configs = lyneData?.components ?? {};
+    const has = (key, file) => fs.existsSync(path.join("src/_data/lyne/components", key, file));
+    const rows = Object.values(catalog.groups).map((group) => {
+        const key = group.folder;
+        const config = configs[key]?.config;
+        const internal = !!config?.internal;
+        const overviewRequired = !internal && config?.tabs?.hasOverview !== false;
+        return {
+            key,
+            name: key.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
+            experimental: group.experimental,
+            elements: group.elements.map((e) => e.tag),
+            structure: group.structure,
+            structureCorrected: !!config?.partOf,
+            hasPage: !!config,
+            released: !!config && config.released !== false,
+            internal: !!config?.internal,
+            inNavigation: !!config?.showInFirstLevel,
+            figmaUrl: figmaUrl(config),
+            documentation: lyneDocumentationStatus(key, config),
+            overview: overviewRequired ? { de: has(key, "overview_de.md"), en: has(key, "overview_en.md") } : null,
+            // Vorschau im Übersichts-Tab: Markup aus playground.html
+            playground: has(key, "playground.html"),
+            categories: config?.categories?.length > 0,
+            pageUrl: config ? `/de/design-system/lyne/components/${key}/` : null,
+            storybookUrl: group.storybook?.docsUrl ?? null,
+            githubUrl: group.githubUrl,
+        };
+    });
+    const order = (row) => (!row.hasPage ? 0 : !row.released ? 1 : row.documentation !== "complete" ? 2 : 3);
+    rows.sort((a, b) => order(a) - order(b) || a.key.localeCompare(b.key));
+    // Manuelle Beziehungen auf unbekannte Komponenten (Tippfehler, umbenannte Komponenten)
+    const relationIssues = Object.entries(configs)
+        .filter(([, entry]) => entry?.config?.list === "components")
+        .flatMap(([key, entry]) =>
+            ["similar"].flatMap((field) =>
+                (Array.isArray(entry.config[field]) ? entry.config[field] : [])
+                    .filter((target) => target === key || !configs[target])
+                    .map((target) => `${key}: ${field} → ${target}`)
+            )
+        );
+    const orphans = Object.entries(configs)
+        .filter(([key, entry]) => entry?.config?.list === "components" && !catalog.groups[key])
+        .map(([key]) => key);
+    const count = (predicate) => rows.filter(predicate).length;
+    return {
+        version: catalog.tag,
+        rows,
+        orphans,
+        relationIssues,
+        storybookWithoutGroup: catalog.storybookWithoutGroup ?? [],
+        excluded: catalog.excluded ?? [],
+        summary: {
+            total: rows.length,
+            experimental: count((r) => r.experimental),
+            withoutPage: count((r) => !r.hasPage),
+            drafts: count((r) => r.hasPage && !r.released),
+            released: count((r) => r.released),
+            documentationComplete: count((r) => r.released && r.documentation === "complete"),
+            withoutFigma: count((r) => r.released && !r.figmaUrl && !r.internal),
+            withoutPlayground: count((r) => r.released && !r.playground && !r.internal),
+        },
+    };
+}
+
+// Öffentlicher Komponentenindex für Agents (/lyne-components.json): nur freigegebene Komponenten
+function lyneComponentIndex(lyneData) {
+    const catalog = lyneData?.catalog ?? { groups: {} };
+    const configs = lyneData?.components ?? {};
+    const components = Object.values(catalog.groups)
+        .filter((group) => configs[group.folder]?.config && configs[group.folder].config.released !== false)
+        .map((group) => {
+            const config = configs[group.folder].config;
+            const languages = ["de", "en"].filter((lang) => config.language?.[lang]);
+            const page = (lang) => `${SITE_URL}/${lang}/design-system/lyne/components/${group.folder}/`;
+            return {
+                name: group.folder,
+                package: group.package,
+                // single | composite | grouped | collection, Rollen pro Element: main, variant, part, group
+                structure: group.structure,
+                elements: group.elements,
+                experimental: group.experimental,
+                internal: !!config.internal,
+                figma: figmaUrl(config),
+                documentation: lyneDocumentationStatus(group.folder, config),
+                context: config.status?.context ?? null,
+                categories: config.categories ?? [],
+                urls: {
+                    page: Object.fromEntries(languages.map((lang) => [lang, page(lang)])),
+                    markdown: Object.fromEntries(languages.map((lang) => [lang, `${page(lang)}index.md`])),
+                    storybook: group.storybook?.docsUrl ?? null,
+                    readme: group.githubUrl,
+                },
+            };
+        });
+    return JSON.stringify({ lyneVersion: catalog.version, generated: new Date().toISOString(), components }, null, 2);
+}
+
+// Kurzhinweise zum Status für llms.txt, z. B. "experimental, guidelines in progress"
+function lyneStatusLabels(key, config, lyneData) {
+    const labels = [];
+    if (lyneData?.catalog?.groups?.[key]?.experimental) labels.push("experimental");
+    if (config?.internal) labels.push("internal helper");
+    const documentation = lyneDocumentationStatus(key, config);
+    if (documentation !== "complete" && documentation !== "not required") labels.push(documentation === "missing" ? "no design guidelines yet" : "guidelines in progress");
+    return labels.join(", ");
+}
+
+// Übersicht einer Lyne-Komponente aufteilen: "intro" bis vor die Überschrift "## Regeln." (Übersichts-Tab),
+// "rules" ab dieser Überschrift (Anwendungs-Tab). Ohne Regeln-Abschnitt ist "rules" leer.
+const RULES_HEADING = /^##\s+(Regeln|Rules|Règles|Regole)\b/m;
+function overviewSection(markdown, part) {
+    const text = String(markdown ?? "");
+    const match = text.match(RULES_HEADING);
+    if (!match) return part === "intro" ? text : "";
+    return part === "intro" ? text.slice(0, match.index) : text.slice(match.index);
 }
 
 function readSourceFile(relativePath) {
@@ -329,6 +528,12 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.setQuietMode(true);
 
+    // Nur auf dem lokalen Dev-Server (eleventy --serve, npm start): ausgeblendete Komponenten
+    // ("showInFirstLevel": false, Entwürfe) erscheinen trotzdem in Übersicht und Sidebar.
+    // Beim Build (npm run build) bleibt es bei der Regel aus der config.
+    eleventyConfig.addGlobalData("showHiddenComponents", () =>
+        process.env.ELEVENTY_RUN_MODE === "serve" && process.env.BUILD_MODE !== "production");
+
     // Enable SSR only for production builds.
     if (process.env.BUILD_MODE === 'production') {
            
@@ -371,8 +576,21 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("hreflangLinks", hreflangLinks);
     eleventyConfig.addFilter("agentMarkdown", agentMarkdown);
     eleventyConfig.addFilter("readSourceFile", readSourceFile);
+    eleventyConfig.addFilter("overviewSection", overviewSection);
     eleventyConfig.addFilter("demoteHeadings", demoteHeadings);
     eleventyConfig.addFilter("agentSummary", agentSummary);
+    eleventyConfig.addFilter("lyneDocumentationStatus", lyneDocumentationStatus);
+    eleventyConfig.addFilter("lyneRelations", lyneRelations);
+    // Text mit `Code` (z. B. Lyne-Beschreibungen) als HTML: maskieren, Backticks zu <code>
+    eleventyConfig.addFilter("inlineCode", (text) =>
+        String(text ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/`([^`]+)`/g, "<code>$1</code>")
+    );
+    eleventyConfig.addFilter("componentRelations", componentRelations);
+    eleventyConfig.addFilter("figmaUrl", figmaUrl);
+    eleventyConfig.addFilter("fileExists", (file) => typeof file === "string" && fs.existsSync(file));
+    eleventyConfig.addFilter("lyneCoverage", lyneCoverage);
+    eleventyConfig.addFilter("lyneComponentIndex", lyneComponentIndex);
+    eleventyConfig.addFilter("lyneStatusLabels", lyneStatusLabels);
 
     // Inhaltsseiten mit Markdown-Version (agent-markdown.js): eigenständig, keine Weiterleitung
     // Theme-Demoseiten (theme.njk) haben keinen Hauptinhalt und erhalten keine Markdown-Version
@@ -403,6 +621,11 @@ module.exports = async function(eleventyConfig) {
         agentPageUrls.clear();
         items.forEach((item) => agentPageUrls.add(item.url));
         return items;
+    });
+    // Im Watch-Modus können sich Inhaltsdateien zwischen zwei Builds ändern
+    eleventyConfig.on("eleventy.before", () => {
+        documentationStatusCache.clear();
+        relationsCache = { source: null, relations: null };
     });
     eleventyConfig.on("eleventy.after", ({ results, dir }) => {
         const written = agentPages.writeAgentPages((results ?? []).filter((result) => agentPageUrls.has(result.url)), dir?.output ?? "dist");

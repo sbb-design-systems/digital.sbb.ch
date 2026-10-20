@@ -1,5 +1,5 @@
 
-# What does the component do?
+## What does the component do?
 It is part of the autocomplete or select component.
 
 ## When should the component be used?

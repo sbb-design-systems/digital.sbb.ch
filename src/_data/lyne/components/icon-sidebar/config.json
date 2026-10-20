@@ -1,8 +1,9 @@
 {
     "tag":"icon-sidebar",
-    "storybookId": "Icon Sidebar",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,16 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": false,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":[],
-    "isChildOf": [],
-    "similar":["sidebar"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    }
+    "similar": ["sidebar"]
 }

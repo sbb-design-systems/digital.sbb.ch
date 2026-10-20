@@ -1,6 +1,6 @@
 
 ## What does the component do?
-The sidebar is a vertical navigation bar that is used to structure content within an application. It enables quick and intuitive navigation between different areas or functions of the application. The sidebar can contain menu items and offers space for additional interactive elements such as search fields or filters.
+The sidebar is a vertical navigation bar that is used to structure content within an application. It enables quick and intuitive navigation between different areas or functions of the application. The sidebar can contain menu items and offers space for additional interactive elements such as search fields or filters. In overlay mode, the content behind it is covered by a backdrop.
 
 ## When should the component be used?
 * When an application requires permanent or easily accessible navigation.

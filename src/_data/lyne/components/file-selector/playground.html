@@ -1,1 +1,10 @@
-<div class="demo-content"><sbb-file-selector class="demo-item" variant="default" title-content="Title" multiple-mode="default" accessibility-label="Select from hard disk"></sbb-file-selector></div>
+{#- Umschalter zwischen Dropzone und Variante ohne Dropzone: data-preview-toggle / data-preview-variant (tab-overview.njk) #}
+<div style="display: flex; flex-direction: column; gap: 24px; inline-size: 100%;">
+    <div data-preview-variant="off">
+        <sbb-file-selector-dropzone title-content="Dateien hierher ziehen" accessibility-label="Dateien auswählen"></sbb-file-selector-dropzone>
+    </div>
+    <div data-preview-variant="on" hidden>
+        <sbb-file-selector accessibility-label="Dateien auswählen"></sbb-file-selector>
+    </div>
+    <sbb-checkbox data-preview-toggle size="s">{{ translations[page.lang].lynepreview.withoutDropzone }}</sbb-checkbox>
+</div>

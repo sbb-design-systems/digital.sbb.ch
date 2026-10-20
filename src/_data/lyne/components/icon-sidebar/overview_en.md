@@ -1,6 +1,6 @@
 
 ## What does the component do?
-The icon sidebar is a vertical navigation bar that is used to structure content within an application. It enables quick and intuitive navigation between different areas or functions of the application. The icon sidebar can contain links or buttons.
+The icon sidebar is a vertical navigation bar that is used to structure content within an application. It enables quick and intuitive navigation between different areas or functions of the application. The icon sidebar can contain links or buttons. In overlay mode, the content behind it is covered by a backdrop.
 
 ## When should the component be used?
 * When an application requires permanent or easily accessible navigation.
@@ -8,3 +8,4 @@ The icon sidebar is a vertical navigation bar that is used to structure content 
 
 ## Rules.
 * The icon sidebar can be combined with the sidebar. In this case, either the icon sidebar or sidebar should use the ‘milk’ colour variant so that the two components can be visually differentiated.
+* Icon-only links and buttons show a tooltip with their label on hover.

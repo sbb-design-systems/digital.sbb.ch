@@ -1,8 +1,9 @@
 {
     "tag":"journey-header",
-    "storybookId": "Journey Header",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,80 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"visual-level",
-            "label":"visual-level",
-            "target":"demo-item",
-            "default":"4",
-            "mode":"property",
-            "options" : [{
-                "value":"1",
-                "label":"1"
-            }, 
-            {
-                "value":"2",
-                "label":"2"
-            }, 
-            {
-                "value":"3",
-                "label":"3"
-            }, 
-            {
-                "value":"4",
-                "label":"4"
-            }, 
-            {
-                "value":"5",
-                "label":"5"
-            }, 
-            {
-                "value":"6",
-                "label":"6"
-            }]
-        },
-        {
-            "attribute":"negative",
-            "label":"negative",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"round-trip",
-            "label":"round-trip",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-        
-    ]
+    "similar": false
 }

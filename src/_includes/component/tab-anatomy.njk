@@ -1,11 +1,43 @@
-{% if pattern.config.tabs.hasAnatomy == true %}
-    {% set anatomypath = ["src/_data/", system, "/components/", component, "/anatomy_", language, ".md"] | join %}
-    {% set anatomy %}{% include anatomypath %}{% endset %}
+{% set anatomypath = ["src/_data/", system, "/components/", component, "/anatomy_", language, ".md"] | join %}
+{% set hasAnatomyContent = (pattern.config.tabs.hasAnatomy == true) and (anatomypath | fileExists) %}
+{# Lyne: Tab "Anwendung" mit den Regeln aus der Übersicht, den Elementen der Komponente (lyne-elements.njk,
+   nur bei mehreren Elementen), der bisherigen Anatomie (vorerst) und dem Figma-Link am Ende.
+   Der Tab erscheint, sobald einer dieser Inhalte vorhanden ist. #}
+{% set anatomyFigmaUrl = (pattern.config | figmaUrl) if system == "lyne" else null %}
+{% set elementGroup = lyne.catalog.groups[component] if system == "lyne" %}
+{% set showLyneElements = elementGroup and elementGroup.structure != "single" %}
+{% set rules = "" %}
+{% if system == "lyne" %}
+    {% set overviewpath = ["src/_data/lyne/components/", component, "/overview_", language, ".md"] | join %}
+    {% if (pattern.config.tabs.hasOverview == true) and (overviewpath | fileExists) %}
+        {% set overviewForRules %}{% include overviewpath %}{% endset %}
+        {% set rules = overviewForRules | overviewSection("rules") %}
+    {% endif %}
+{% endif %}
+{% if hasAnatomyContent or anatomyFigmaUrl or showLyneElements or rules %}
+    {% if hasAnatomyContent %}
+        {% set anatomy %}{% include anatomypath %}{% endset %}
+    {% endif %}
     <sbb-tab-label level="1" role="tab" slot="tab-bar">
     <sbb-icon name="{{tabs[1].icon}}" slot="icon"></sbb-icon>
     {{tabs[1].label[language]}}
     </sbb-tab-label>
     <sbb-tab>
-        {{ anatomy | renderUsingMarkdown | safe }}
+        {% if rules %}
+            {{ rules | renderUsingMarkdown | safe }}
+        {% endif %}
+        {% if showLyneElements %}
+            {% include "./lyne-elements.njk" %}
+        {% endif %}
+        {% if hasAnatomyContent %}
+            {% if system == "lyne" %}<h2>{{ translations[page.lang].lyneelements.anatomy }}.</h2>{% endif %}
+            {{ anatomy | renderUsingMarkdown | safe }}
+        {% endif %}
+        {% if anatomyFigmaUrl %}
+            {% set figmaLabel = translations[page.lang].templatebrowser.figma %}
+            <div class="anatomy-figma-link">
+                <sbb-secondary-button-link size="m" icon-name="figma-small" href="{{ anatomyFigmaUrl }}" target="_blank" accessibility-label="{{ figmaLabel }}. {{ translations[page.lang].newwindow }}">{{ figmaLabel }}</sbb-secondary-button-link>
+            </div>
+        {% endif %}
     </sbb-tab>
 {% endif %}

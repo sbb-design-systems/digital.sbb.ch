@@ -11,3 +11,4 @@ Eine Action-Group ist eine Gruppe von Elementen wie Buttons und Links, die zusam
 * Die Anordnung der Elemente innerhalb der Action-Group soll sich harmonisch in das Gesamtdesign der Seite einfügen.
 * Die Reihenfolge der Elementen soll logisch und benutzerfreundlich sein. Aktionen die den Prozess fortführen werden eher rechts dargestellt, Aktionen wie "Zurück" oder "Abbrechen" werden eher links dargestellt.
 * Es soll nur ein Primary-Button eingesetzt werden.
+* Erlaubt sind alle Button- und Link-Varianten.

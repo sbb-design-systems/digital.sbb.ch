@@ -1,54 +1,72 @@
-{% if pattern.config.tabs.hasOverview == true %}
-    {% set overviewpath = ["src/_data/", system, "/components/", component, "/overview_", language, ".md"] | join %}
-    {% set overview %}{% include overviewpath %}{% endset %}
-    
+{% set overviewpath = ["src/_data/", system, "/components/", component, "/overview_", language, ".md"] | join %}
+{# Übersicht, wenn die Datei existiert, es verwandte Komponenten oder (Lyne) eine Vorschau gibt.
+   Lyne: Vorschau aus playground.html, danach die Übersicht bis vor "Regeln" – die Regeln stehen im Anwendungs-Tab. #}
+{% set hasOverviewContent = (pattern.config.tabs.hasOverview == true) and (overviewpath | fileExists) %}
+{% set relations = component | componentRelations(system, sys, lyne) %}
+{% set hasRelations = (relations.similar | length) or (relations.contains | length) or (relations.usedIn | length) %}
+{% set previewpath = ["src/_data/lyne/components/", component, "/playground.html"] | join %}
+{% set hasPreview = (system == "lyne") and (previewpath | fileExists) %}
+{% if hasOverviewContent or hasRelations or hasPreview %}
+    {% if hasOverviewContent %}
+        {% set overview %}{% include overviewpath %}{% endset %}
+        {% if system == "lyne" %}{% set overview = overview | overviewSection("intro") %}{% endif %}
+    {% endif %}
+
     <sbb-tab-label level="1" role="tab" slot="tab-bar">
     <sbb-icon name="{{tabs[0].icon}}" slot="icon"></sbb-icon>
     {{tabs[0].label[language]}}
     </sbb-tab-label>
     <sbb-tab>
-        {{ overview | renderUsingMarkdown | safe }}
-        {% if (pattern.config.childs|length) or (pattern.config.isChildOf|length) or (pattern.config.similar|length) %}
+        {% if hasPreview %}
+            {# .demo schützt das Markup vor den Inhaltsstilen (partial-typography.scss) #}
+            <h2>{{ translations[page.lang].lyneelements.preview }}.</h2>
+            <div class="demo wide lyne-preview">
+                <div class="background default">
+                    {% include "../../_data/lyne/components/" + component + "/playground.html" %}
+                </div>
+            </div>
+            {# Umschalter in der Vorschau: Checkbox mit data-preview-toggle blendet die Varianten data-preview-variant="on|off" um #}
+            <script>
+            (() => {
+                document.querySelectorAll(".lyne-preview [data-preview-toggle]").forEach((toggle) => {
+                    toggle.addEventListener("change", () => {
+                        toggle.closest(".lyne-preview").querySelectorAll("[data-preview-variant]").forEach((variant) => {
+                            variant.hidden = (variant.dataset.previewVariant === "on") !== toggle.checked;
+                        });
+                    });
+                });
+            })();
+            </script>
+        {% endif %}
+        {% if hasOverviewContent %}
+            {{ overview | renderUsingMarkdown | safe }}
+        {% endif %}
+        {# Verwandte Komponenten: für Lyne nur "Ähnlich", sonst aus der config #}
+        {% set relationTitles = translations[page.lang].relations %}
+        {% if hasRelations and system == "lyne" %}
+            {# Lyne: nur "Ähnlich", als Abschnitt im Stil der übrigen Überschriften #}
+            <h2>{{ relationTitles.similarOne if (relations.similar | length) == 1 else relationTitles.similarMany }}.</h2>
+            <sbb-link-list class="similar-components">
+                {% for item in relations.similar %}
+                    <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{item.key}}/">{{ item.label }}</sbb-block-link>
+                {% endfor %}
+            </sbb-link-list>
+        {% elif hasRelations %}
             <sbb-card color="milk" class="sbb-card-spacing-s relative-components">
                 <div class="relative-components-lists">
-                    {% if pattern.config.similar|length %}
-                        <sbb-link-list title-content="Similar">
-                            {% for child in pattern.config.similar %}
-                                    {% set childData = patterns[child].config %}
-                                    {% if childData|length %}
-                                        <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{childData.tag}}/">{{childData.tag | capitalizeWords}}</sbb-block-link>
-                                    {% else %}
-                                        <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
-                                    {% endif %}
-                            {% endfor %}
-                        </sbb-link-list>
-                    {% endif %}
-
-                    {% if pattern.config.childs|length %}
-                        <sbb-link-list title-content="Childs">
-                            {% for child in pattern.config.childs %}
-                                {% set childData = patterns[child].config %}
-                                {% if childData|length %}
-                                    <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{childData.tag}}/">{{childData.tag | capitalizeWords}}</sbb-block-link>
+                    {% for relation in [["similar", relations.similar], ["contains", relations.contains], ["usedIn", relations.usedIn]] %}
+                        {% if relation[1] | length %}
+                        <sbb-link-list title-content="{{ relationTitles[relation[0]] }}">
+                            {% for item in relation[1] %}
+                                {% if item.linked %}
+                                    <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{item.key}}/">{{ item.label }}</sbb-block-link>
                                 {% else %}
-                                    <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
+                                    <sbb-block-link-static icon-name="chevron-small-left-right-small">{{ item.label }}</sbb-block-link-static>
                                 {% endif %}
                             {% endfor %}
                         </sbb-link-list>
-                    {% endif %}
-                    
-                    {% if pattern.config.isChildOf|length %}
-                        <sbb-link-list title-content="Child of">
-                            {% for child in pattern.config.isChildOf %}
-                                    {% set childData = patterns[child].config %}
-                                    {% if childData|length %}
-                                        <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{childData.tag}}/">{{childData.tag | capitalizeWords}}</sbb-block-link>
-                                    {% else %}
-                                        <sbb-block-link-static icon-name="chevron-small-left-right-small">{{child | capitalizeWords}}</sbb-block-link-static>
-                                    {% endif %}
-                            {% endfor %}
-                        </sbb-link-list>
-                    {% endif %}
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </sbb-card>
         {% endif %}

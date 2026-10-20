@@ -1,6 +1,6 @@
 
 ## Was macht die Komponente?
-Die Sidebar ist eine vertikale Navigationsleiste, die zur Strukturierung von Inhalten innerhalb einer Anwendung dient. Sie ermöglicht eine schnelle und intuitive Navigation zwischen verschiedenen Bereichen oder Funktionen der Anwendung. Die Sidebar kann Menüpunkte enthalten und bietet Platz für zusätzliche interaktive Elemente wie Suchfelder oder Filter.
+Die Sidebar ist eine vertikale Navigationsleiste, die zur Strukturierung von Inhalten innerhalb einer Anwendung dient. Sie ermöglicht eine schnelle und intuitive Navigation zwischen verschiedenen Bereichen oder Funktionen der Anwendung. Die Sidebar kann Menüpunkte enthalten und bietet Platz für zusätzliche interaktive Elemente wie Suchfelder oder Filter. Im Overlay-Modus wird der Inhalt dahinter mit einem Backdrop abgedeckt.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Wenn eine Anwendung eine permanente oder leicht zugängliche Navigation benötigt.

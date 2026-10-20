@@ -1,8 +1,9 @@
 {
     "tag":"mini-calendar",
-    "storybookId": "Mini Calendar",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,33 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": false,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":[],
-    "isChildOf":false,
-    "similar":["datepicker", "calendar"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"orientation",
-            "label":"orientation",
-            "target":"demo-item",
-            "default":"horizontal",
-            "mode":"property",
-            "options" : [{
-                "value":"horizontal",
-                "label":"horizontal"
-            },
-            {
-                "value":"vertical",
-                "label":"vertical"
-            }]
-        }
-    ]
+    "similar": ["datepicker", "calendar"]
 }

@@ -1,8 +1,9 @@
 {
     "tag":"file-selector",
-    "storybookId": "File Selector",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,33 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":["file-selector-dropzone"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"disabled",
-            "label":"disabled",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            },
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-    ]
+    "similar": false
 }

@@ -1,0 +1,102 @@
+---
+layout: page.njk
+title: Lyne-Abdeckung
+system: lyne
+permalink: /de/design-system/lyne/abdeckung/
+eleventyExcludeFromCollections: true
+noindex: true
+---
+{#- Interner Abdeckungsbericht: lyne-components ↔ digital.sbb.ch. Nicht verlinkt, nicht in Sitemap/llms.txt, noindex. -#}
+{%- set coverage = lyne | lyneCoverage -%}
+{%- macro yesNo(value) -%}{% if value %}✓{% else %}<strong>✗</strong>{% endif %}{%- endmacro -%}
+{%- set structureLabels = { "single": "Einzeln", "composite": "Mit Bestandteilen", "grouped": "Mit Gruppierung", "collection": "Sammlung" } -%}
+{%- macro languages(value) -%}{% if not value %}–{% elif value.de and value.en %}✓{% elif value.de %}nur de{% elif value.en %}nur en{% else %}<strong>fehlt</strong>{% endif %}{%- endmacro -%}
+
+<p class="lead">Abgleich der Komponenten aus lyne-components ({{ coverage.version }}) mit den Seiten auf digital.sbb.ch. Diese Seite ist nicht verlinkt und wird nicht indexiert.</p>
+
+<p>Neue Lyne-Komponenten werden beim Start des Dev-Servers (<code>npm start</code>) automatisch angelegt: nicht freigegeben und nicht in der Navigation. Freigeben mit <code>"released": true</code> und <code>"showInFirstLevel": true</code>, Figma-Link in <code>"figmaUrl"</code>, falsch erkannte Bestandteile in <code>"partOf"</code> (z. B. <code>{"sbb-header-environment": "sbb-header"}</code>) – jeweils in <code>src/_data/lyne/components/&lt;name&gt;/config.json</code>.</p>
+
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped">
+  <caption>Übersicht</caption>
+  <tbody>
+    <tr><th scope="row">Komponentengruppen in Lyne</th><td>{{ coverage.summary.total }} (davon {{ coverage.summary.experimental }} experimentell)</td></tr>
+    <tr><th scope="row">Freigegeben</th><td>{{ coverage.summary.released }}</td></tr>
+    <tr><th scope="row">Entwurf (automatisch angelegt, nicht freigegeben)</th><td>{{ coverage.summary.drafts }}</td></tr>
+    <tr><th scope="row">Ausgeschlossen (<code>excluded.json</code>)</th><td>{{ coverage.excluded | length }}</td></tr>
+    <tr><th scope="row">Noch ohne Seite (Dev-Server starten)</th><td>{{ coverage.summary.withoutPage }}</td></tr>
+    <tr><th scope="row">Freigegeben mit vollständiger Doku</th><td>{{ coverage.summary.documentationComplete }} von {{ coverage.summary.released }}</td></tr>
+    <tr><th scope="row">Freigegeben ohne Figma-Link</th><td>{{ coverage.summary.withoutFigma }}</td></tr>
+    <tr><th scope="row">Freigegeben ohne Vorschau (playground.html)</th><td>{{ coverage.summary.withoutPlayground }}</td></tr>
+  </tbody>
+</table>
+</sbb-table-wrapper>
+
+<h2>Komponenten</h2>
+<p>Sortiert nach Handlungsbedarf: ohne Seite, Entwurf, unvollständige Doku, vollständig.</p>
+
+{# Eigener Scrollbereich, damit der Tabellenkopf beim Scrollen stehen bleibt #}
+<div class="coverage-table-wrapper" tabindex="0" role="region" aria-label="Komponenten">
+<table class="sbb-table sbb-table--striped coverage-table">
+  <thead>
+    <tr>
+      <th scope="col">Komponente</th>
+      <th scope="col">Stand</th>
+      <th scope="col">Fall</th>
+      <th scope="col">Navigation</th>
+      <th scope="col">Figma-Link</th>
+      <th scope="col">Doku</th>
+      <th scope="col">Übersicht</th>
+      <th scope="col">Vorschau</th>
+      <th scope="col">Kategorie</th>
+      <th scope="col">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+  {%- for row in coverage.rows %}
+    <tr>
+      <th scope="row">
+        {% if row.pageUrl %}<a href="{{ row.pageUrl }}">{{ row.name }}</a>{% else %}{{ row.name }}{% endif %}
+        {% if row.experimental %}<br><sbb-chip-label color="charcoal">Experimental</sbb-chip-label>{% endif %}
+        <br><small>{{ row.elements | join(", ") }}</small>
+      </th>
+      <td>{% if not row.hasPage %}<strong>keine Seite</strong>{% elif not row.released %}Entwurf{% elif row.internal %}freigegeben (intern){% else %}freigegeben{% endif %}</td>
+      <td>{{ structureLabels[row.structure] }}{% if row.structureCorrected %}<br><small>korrigiert (partOf)</small>{% endif %}</td>
+      <td>{% if row.internal %}– (intern){% else %}{{ yesNo(row.inNavigation) }}{% endif %}</td>
+      <td>{% if row.figmaUrl %}<a href="{{ row.figmaUrl }}" target="_blank">✓</a>{% elif row.internal %}–{% else %}<strong>✗</strong>{% endif %}</td>
+      <td>{% if row.documentation == "complete" %}✓{% elif row.documentation == "not required" %}– (intern){% elif row.documentation == "in progress" %}in Arbeit{% else %}<strong>fehlt</strong>{% endif %}</td>
+      <td>{{ languages(row.overview) }}</td>
+      <td>{% if row.internal %}–{% else %}{{ yesNo(row.playground) }}{% endif %}</td>
+      <td>{{ yesNo(row.categories) }}</td>
+      <td>{% if row.storybookUrl %}<a href="{{ row.storybookUrl }}" target="_blank">Storybook</a><br>{% endif %}<a href="{{ row.githubUrl }}" target="_blank">Readme</a></td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</div>
+
+<h2>Abweichungen</h2>
+<ul>
+  <li>Seiten auf digital.sbb.ch ohne Lyne-Gegenstück: {% if coverage.orphans | length %}<strong>{{ coverage.orphans | join(", ") }}</strong>{% else %}keine{% endif %}</li>
+  <li>Unbekannte Einträge in <code>similar</code>: {% if coverage.relationIssues | length %}<strong>{{ coverage.relationIssues | join(", ") }}</strong>{% else %}keine{% endif %}</li>
+  <li>Storybook-Docs ohne Komponentenordner in lyne-components: {% if coverage.storybookWithoutGroup | length %}{{ coverage.storybookWithoutGroup | join(", ") }}{% else %}keine{% endif %}</li>
+</ul>
+
+<h2>Ausgeschlossen</h2>
+<p>Dauerhaft abgelehnte Komponenten aus <code>src/_data/lyne/excluded.json</code>: Sie werden beim Start nicht angelegt und nirgends dokumentiert. Zum Aufnehmen den Eintrag löschen und den Dev-Server neu starten.</p>
+{%- if coverage.excluded | length %}
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped">
+  <thead>
+    <tr><th scope="col">Komponente</th><th scope="col">Begründung</th><th scope="col">In Lyne</th></tr>
+  </thead>
+  <tbody>
+  {%- for entry in coverage.excluded %}
+    <tr><th scope="row">{{ entry.folder }}</th><td>{{ entry.reason }}</td><td>{% if entry.inLyne %}✓{% else %}<strong>nicht mehr vorhanden – Eintrag entfernen</strong>{% endif %}</td></tr>
+  {%- endfor %}
+  </tbody>
+</table>
+</sbb-table-wrapper>
+{%- else %}
+<p>Keine.</p>
+{%- endif %}

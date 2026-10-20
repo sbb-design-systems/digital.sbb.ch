@@ -1,0 +1,34 @@
+{#- Aufbau wie der Footer auf sbb.ch: Variante clock-columns mit vier Spalten und Uhr #}
+<sbb-footer accessibility-title="Footer" variant="clock-columns" style="inline-size: 100%;">
+    <div class="sbb-link-list-button-group">
+        <sbb-link-list title-level="2" title-content="Hilfe &amp; Kontakt.">
+            <sbb-block-link href="#">Rückerstattung</sbb-block-link>
+            <sbb-block-link href="#">Fundbüro</sbb-block-link>
+            <sbb-block-link href="#">Beschwerden</sbb-block-link>
+            <sbb-block-link href="#">Lob</sbb-block-link>
+            <sbb-block-link href="#">Sachbeschädigung melden</sbb-block-link>
+        </sbb-link-list>
+        <sbb-button-link href="#">Alle Hilfethemen</sbb-button-link>
+    </div>
+    <sbb-link-list title-level="2" title-content="Mehr SBB.">
+        <sbb-block-link href="#">Jobs &amp; Karriere</sbb-block-link>
+        <sbb-block-link href="#">Bahnverkehrsinformation</sbb-block-link>
+        <sbb-block-link href="#">SBB News</sbb-block-link>
+        <sbb-block-link href="#">SBB Community</sbb-block-link>
+        <sbb-block-link href="#">Unternehmen</sbb-block-link>
+    </sbb-link-list>
+    <div class="sbb-link-list-button-group">
+        <span>
+            <sbb-title level="2" visual-level="5" style="margin: 0 0 var(--sbb-spacing-fixed-3x);">Newsletter.</sbb-title>
+            <p class="demo-content" style="margin: 0;">Der Newsletter informiert Sie regelmässig per E-Mail über attraktive Angebote der SBB.</p>
+        </span>
+        <sbb-secondary-button-link href="#">Abonnieren</sbb-secondary-button-link>
+    </div>
+    <sbb-clock></sbb-clock>
+    <sbb-divider></sbb-divider>
+    <sbb-link-list horizontal-from="large">
+        <sbb-block-link href="#">Öffnungszeiten</sbb-block-link>
+        <sbb-block-link href="#">Datenschutz</sbb-block-link>
+        <sbb-block-link href="#">Impressum</sbb-block-link>
+    </sbb-link-list>
+</sbb-footer>

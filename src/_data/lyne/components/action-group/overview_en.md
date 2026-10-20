@@ -11,3 +11,4 @@ An action-group is a group of elements composed of buttons and links that are ar
 * The positioning of the elements inside the action group should fit smoothly into the overall design of the page.
 * The order of the elements should be logical and user-friendly. Actions that continue the process should be displayed on the right, actions like "back" or "cancel" should be displayed on the left.
 * There should only be one primary button.
+* All button and link variants are allowed.

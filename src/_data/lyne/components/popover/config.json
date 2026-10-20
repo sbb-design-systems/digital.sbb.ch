@@ -1,8 +1,9 @@
 {
     "tag":"popover",
-    "storybookId": "Popover",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,33 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": [],
-    "similar":["tooltip"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"class",
-            "label":"hide-close-button",
-            "target":"close-button",
-            "default":"close-button visible",
-            "mode":"property",
-            "options" : [{
-                "value":"close-button visible",
-                "label":"true"
-            },
-            {
-                "value":"close-button hidden",
-                "label":"false"
-            }]
-        }
-    ]
+    "similar": ["tooltip"]
 }

@@ -1,5 +1,10 @@
+{# Storybook-Titel: für Lyne aus dem Katalog (Ordnername), sonst aus der config #}
+{% set catalogGroup = lyne.catalog.groups[component] if system == "lyne" %}
+{% set storybookTag = catalogGroup.storybook.tag if (catalogGroup and catalogGroup.storybook) else pattern.config.storybookId %}
+{# Lyne: vollständiger Titel (z. B. "elements/Pearl Chain"), weil derselbe Name auch unter "experimental/" vorkommen kann #}
+{% set storybookTitle = catalogGroup.storybook.title if (catalogGroup and catalogGroup.storybook) else null %}
 {% for storybookStory, story in storybookStories %}
-{% if story.tag == pattern.config.storybookId and story.component == true %}
+{% if ((story.title == storybookTitle) if storybookTitle else (story.tag == storybookTag)) and story.component == true %}
 <sbb-title level="3" visual-level="5">{{story.name}}.</sbb-title>
     <div class="example">
         <iframe id="{{story.id}}" class="iframe-border" loading="lazy" src="https://lyne-elements.app.sbb.ch/iframe.html?args=&id={{story.id}}&viewMode=story" title="{{story.name}}"></iframe>

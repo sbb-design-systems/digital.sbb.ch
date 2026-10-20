@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="{{ "noindex,nofollow" if (lyneDraft or noindex) else "index,follow" }}">
 <meta name="description" content="{{translations[page.lang].description}}">
 <meta name="keywords" content="{{keywords}}">
 <meta name="author" content="Lorena Weder, Beat Vollenwyder, Lucie Girardier, Franco Ehrat, Mike Morgenthaler, Manuel Cilurzo">

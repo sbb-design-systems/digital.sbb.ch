@@ -1,11 +1,12 @@
 
 ## Was macht die Komponente?
-Ein Loading-Indicator-Circle zeigt an, dass eine Aktion oder ein Prozess im Hintergrund ausgeführt wird und Nutzende auf die Beendigung dieses Prozessess warten müssen.
+Ein Loading-Indicator-Circle zeigt an, dass eine Aktion oder ein Prozess im Hintergrund ausgeführt wird und Nutzende auf die Beendigung dieses Prozessess warten müssen. Er ist für den Einsatz im Inhalt gedacht, z.B. in einem Button oder neben einem Text, und in den Farben Rot, Smoke und Weiss verfügbar.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um die Nutzenden darüber zu informieren, dass eine Aktion oder ein Prozess im Hintergrund läuft.
 * Um Wartezeiten zu überbrücken.
 * Um Feedback zu geben, dass die Anwendung auf Benutzereingaben reagiert.
+* Wenn das Laden an einer bestimmten Stelle im Inhalt angezeigt wird. Für Overlays eignet sich der Loading-Indicator.
 
 ## Regeln.
 * Verwende den Indicator nur für Aktionen ab ca. 1 Sekunde – kürzere Prozesse wirken durch das Aufblitzen eher verwirrend. Eine kurze Mindestanzeigedauer (Richtwert: ca. 500 ms) kann danach sinnvoll sein, ist aber kein Muss – abhängig davon, was als Nächstes folgt.

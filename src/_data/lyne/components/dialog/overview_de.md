@@ -12,3 +12,4 @@ Ein Dialog ist ein Overlay, das den Hauptinhalt der Seite überlagert und eine f
 * Der Dialog soll leicht zu schliessen sein, entweder durch eine Schliessen-Schaltfläche oder durch Klicken ausserhalb des Dialogs.
 * Wenn kein Actions im Dialog-Footer definiert werden, müssen Nutzende den Dialog immer schliessen können.
 * Dialoge lassen sich auch immer mit der ESC-Taste schliessen.
+* Als Aktionen im Dialog-Footer sind neben Buttons auch Block-Links erlaubt.

@@ -2,6 +2,7 @@
     "tag":"animation",
     "system":"lyne",
     "list":"design-tokens",
+    "figmaUrl": "",
     "language": {
         "de": true,
         "fr": false,
@@ -13,12 +14,6 @@
     "keywords":["animation", "easing"],
     "hasTabs": false,
     "showInFirstLevel": true,
-    "childs":false,
     "isChildOf": false,
-    "similar": false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    }
+    "similar": false
 }

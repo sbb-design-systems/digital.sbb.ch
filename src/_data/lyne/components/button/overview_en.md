@@ -10,3 +10,4 @@ A button is an interactive element that triggers an action when it is clicked.
 ## Rules.
 * A button should be clearly labelled and describe a specific action.
 * Avoid using multiple primary buttons on a page; secondary buttons or links should be used instead.
+* A button needs a label or an icon. An icon-only button needs a label for screen readers.

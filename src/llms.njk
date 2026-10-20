@@ -19,14 +19,16 @@ The documentation is spread across several platforms. Use digital.sbb.ch for whe
 
 Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, anatomy, code examples and the API documentation of the web components.
 
+A machine-readable index of all released Lyne components (elements, status such as experimental or Figma availability, and all links) is available at [{{ site }}/lyne-components.json]({{ site }}/lyne-components.json).
+
 ## Lyne components (English)
-{% for key, pattern in components %}{% if pattern.config.language.en and pattern.config.list == "components" %}
-- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/en/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_en.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}
+{% for key, pattern in components %}{% if pattern.config.language.en and pattern.config.list == "components" and pattern.config.released != false %}
+- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/en/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_en.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}{% set labels = key | lyneStatusLabels(pattern.config, lyne) %}{% if labels %} ({{ labels }}){% endif %}
 {%- endif %}{% endfor %}
 
 ## Lyne-Komponenten (Deutsch)
-{% for key, pattern in components %}{% if pattern.config.language.de and pattern.config.list == "components" %}
-- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/de/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_de.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}
+{% for key, pattern in components %}{% if pattern.config.language.de and pattern.config.list == "components" and pattern.config.released != false %}
+- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/de/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_de.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}{% set labels = key | lyneStatusLabels(pattern.config, lyne) %}{% if labels %} ({{ labels }}){% endif %}
 {%- endif %}{% endfor %}
 
 {%- set sections = [

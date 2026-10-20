@@ -1,5 +1,5 @@
 ## Was macht die Komponente?
-Eine Alert-Komponente ist ein visuelles Element, das wichtige Informationen oder Warnungen an die Nutzenden kommuniziert.
+Eine Alert-Komponente ist ein visuelles Element, das wichtige Informationen oder Warnungen an die Nutzenden kommuniziert. Ein Alert kann schliessbar sein. Dann erscheint ein Button zum Schliessen.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um die Nutzende über kritische Fehler, Warnungen oder wichtige Informationen zu informieren.

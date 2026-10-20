@@ -1,6 +1,6 @@
 
 ## What does the component do?
-The form field is a wrapper that ensures the standardised display and function of form components such as input (text, date, time), select and textarea.
+The form field is a wrapper that ensures the standardised display and function of form components such as input (text, date, time), select and textarea. It can contain an icon before and after the input field and a button after the input field to clear the input.
 
 ## When should the component be used?
 * Whenever an input, select or textarea is used.

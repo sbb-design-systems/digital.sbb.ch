@@ -1,8 +1,9 @@
 {
     "tag":"slider",
-    "storybookId": "Slider",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,64 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"readonly",
-            "label":"readonly",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"prefix",
-            "label":"prefix",
-            "target":"prefix",
-            "default":"prefix",
-            "mode":"slot",
-            "options" : [{
-                "value":"prefix",
-                "label":"true"
-            }, 
-            {
-                "value":"no",
-                "label":"false"
-            }]
-        },
-        {
-            "attribute":"suffix",
-            "label":"suffix",
-            "target":"suffix",
-            "default":"suffix",
-            "mode":"slot",
-            "options" : [{
-                "value":"suffix",
-                "label":"true"
-            }, 
-            {
-                "value":"no",
-                "label":"false"
-            }]
-        }
-        
-    ]
+    "similar": false
 }

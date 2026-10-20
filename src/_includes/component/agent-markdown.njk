@@ -3,23 +3,26 @@
 {%- set config = pattern.config -%}
 {%- set base = "https://digital.sbb.ch/" + lang + "/design-system/lyne/" + (config.list | slugify) + "/" -%}
 {%- set t = {
-  "de": { "intro": "Komponente des SBB Design Systems Lyne", "package": "Paket", "categories": "Kategorien", "status": "Status", "links": "Links", "page": "Seite auf digital.sbb.ch", "related": "Verwandte Komponenten", "similar": "Ähnlich", "childs": "Enthält", "parents": "Wird verwendet in", "overview": "Übersicht", "anatomy": "Anatomie", "implementation": "Implementation (Web Components, Englisch)", "content": "Inhalt" },
-  "en": { "intro": "Component of the SBB design system Lyne", "package": "Package", "categories": "Categories", "status": "Status", "links": "Links", "page": "Page on digital.sbb.ch", "related": "Related components", "similar": "Similar", "childs": "Contains", "parents": "Used in", "overview": "Overview", "anatomy": "Anatomy", "implementation": "Implementation (web components)", "content": "Content" }
+  "de": { "intro": "Komponente des SBB Design Systems Lyne", "elements": "Elemente", "documentation": "Gestaltungsrichtlinien", "complete": "vollständig", "in progress": "in Arbeit", "missing": "fehlen noch", "not required": "nicht erforderlich (internes Hilfselement)", "experimental": "experimentell", "package": "Paket", "categories": "Kategorien", "status": "Status", "links": "Links", "page": "Seite auf digital.sbb.ch", "related": "Verwandte Komponenten", "similar": "Ähnlich", "overview": "Übersicht", "anatomy": "Anatomie", "implementation": "Implementation (Web Components, Englisch)", "content": "Inhalt", "alsoAs": "auch als", "partHint": "nur innerhalb von", "groupedBy": "mehrere lassen sich zusammenfassen mit", "structure": "Aufbau", "single": "ein Element", "composite": "Hauptelement mit Bestandteilen; Bestandteile nur innerhalb des jeweiligen Elements verwenden", "grouped": "ein Element mit optionaler Gruppierung", "collection": "mehrere eigenständige Elemente" },
+  "en": { "intro": "Component of the SBB design system Lyne", "elements": "Elements", "documentation": "design guidelines", "complete": "complete", "in progress": "in progress", "missing": "not yet available", "not required": "not required (internal helper)", "experimental": "experimental", "package": "Package", "categories": "Categories", "status": "Status", "links": "Links", "page": "Page on digital.sbb.ch", "related": "Related components", "similar": "Similar", "overview": "Overview", "anatomy": "Anatomy", "implementation": "Implementation (web components)", "content": "Content", "alsoAs": "also as", "partHint": "only within", "groupedBy": "several can be combined with", "structure": "Structure", "single": "one element", "composite": "main element with parts; use parts only within the element they belong to", "grouped": "one element with optional grouping", "collection": "several elements that can be used on their own" }
 }[lang] -%}
 {%- set dataPath = "_data/lyne/components/" + component + "/" -%}
-{%- set storybook = config.storybookId | storybookDocsUrl(lyne.stories) -%}
+{%- set storybook = lyne.catalog.groups[component].storybook.docsUrl if lyne.catalog.groups[component] and lyne.catalog.groups[component].storybook -%}
+{%- set group = lyne.catalog.groups[component] -%}
+{%- set documentation = component | lyneDocumentationStatus(config) -%}
 
 # {{ config.tag | capitalizeWords }}
 
 {{ t.intro }}.
 
-- {{ t.package }}: `@sbb-esta/lyne-elements` (Angular: `@sbb-esta/lyne-angular`)
+- {{ t.package }}: `{{ group.package if group else "@sbb-esta/lyne-elements" }}` (Angular: `@sbb-esta/lyne-angular`)
+{%- if group %}
+- {{ t.structure }}: {{ t[group.structure] }}
+{%- endif %}
 {%- if config.categories | length %}
 - {{ t.categories }}: {{ config.categories | join(", ") }}
 {%- endif %}
-{%- if config.status %}
-- {{ t.status }}: Design {{ config.status.design }}, Code {{ config.status.code }}, Doku {{ config.status.documentation }}
-{%- endif %}
+- {{ t.status }}: {{ t.documentation | capitalize }} {{ t[documentation] }}{% if group and group.experimental %}, **{{ t.experimental }}**{% endif %}
 
 ## {{ t.links }}
 
@@ -27,16 +30,31 @@
 {%- if storybook %}
 - Storybook: {{ storybook }}
 {%- endif %}
+{%- if config | figmaUrl %}
+- Figma: {{ config | figmaUrl }}
+{%- endif %}
 - GitHub: https://github.com/sbb-design-systems/lyne-components
 
-{%- set relations = [["similar", config.similar], ["childs", config.childs], ["parents", config.isChildOf]] %}
-{%- set hasRelations = (config.similar | length) or (config.childs | length) or (config.isChildOf | length) %}
+{#- Elemente als verschachtelte Liste: Hauptelemente, Varianten, Gruppierung, Bestandteile #}
+{%- macro elementItem(node, parentTag, indent) %}
+{{ indent }}- `{{ node.tag }}`{% if node.variants | length %} ({{ t.alsoAs }} {% for variant in node.variants %}`{{ variant }}`{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}{% if parentTag %}, {{ t.partHint }} `{{ parentTag }}`{% endif %}{% if node.groupedBy %}, {{ t.groupedBy }} `{{ node.groupedBy }}`{% endif %}{% if node.summary %}: {{ node.summary }}{% endif %}
+{%- for part in node.parts %}{{ elementItem(part, node.tag, indent + "  ") }}{% endfor %}
+{%- endmacro %}
+{%- if group %}
+
+## {{ t.elements }}
+{% for node in group.main %}{{ elementItem(node, null, "") }}{% endfor %}
+{%- endif %}
+
+{%- set computed = component | lyneRelations(lyne) %}
+{%- set relations = [["similar", computed.similar]] %}
+{%- set hasRelations = computed.similar | length %}
 {%- if hasRelations %}
 
 ## {{ t.related }}
 {% for relation in relations %}
 {%- if relation[1] | length %}
-- {{ t[relation[0]] }}: {% for tag in relation[1] %}{% if lyne.components[tag] %}[{{ tag | capitalizeWords }}]({{ base }}{{ tag | slugify }}/index.md){% else %}{{ tag | capitalizeWords }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+- {{ t[relation[0]] }}: {% for item in relation[1] %}[{{ item.label }}]({{ base }}{{ item.key }}/index.md){% if not loop.last %}, {% endif %}{% endfor %}
 {%- endif %}
 {%- endfor %}
 {%- endif %}
@@ -65,9 +83,9 @@
 {{ anatomy | demoteHeadings | safe }}
 {%- endif %}
 
-{%- if pattern.implementation %}
+{%- if lyne.readmes[component] %}
 
 ## {{ t.implementation }}
 
-{{ pattern.implementation | agentMarkdown | demoteHeadings | safe }}
+{{ lyne.readmes[component] | agentMarkdown | demoteHeadings | safe }}
 {%- endif %}

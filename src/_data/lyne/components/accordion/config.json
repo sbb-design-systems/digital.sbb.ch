@@ -1,8 +1,9 @@
 {
     "tag":"accordion",
-    "storybookId": "Accordion",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,48 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["expansion-panel"],
-    "isChildOf":false,
-    "similar":["flip-card"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"l",
-            "mode":"property",
-            "options" : [{
-                "value":"s",
-                "label":"s"
-            }, 
-            {
-                "value":"l",
-                "label":"l"
-            }]
-        },
-        {
-            "attribute":"multi",
-            "label":"multi",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-    ]
+    "similar": ["flip-card"]
 }

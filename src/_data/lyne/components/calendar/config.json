@@ -1,8 +1,9 @@
 {
     "tag":"calendar",
-    "storybookId": "Calendar",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,85 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":false,
-    "isChildOf":["datepicker"],
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"amount",
-            "label":"amount",
-            "target":"demo-item",
-            "default":"1",
-            "mode":"property",
-            "options" : [{
-                "value":"1",
-                "label":"1"
-            }, 
-            {
-                "value":"2",
-                "label":"2"
-            }, 
-            {
-                "value":"3",
-                "label":"3"
-            }, 
-            {
-                "value":"4",
-                "label":"4"
-            }]
-        },
-        {
-            "attribute":"orientation",
-            "label":"orientation",
-            "target":"demo-item",
-            "default":"horizontal",
-            "mode":"property",
-            "options" : [{
-                "value":"horizontal",
-                "label":"horizontal"
-            },
-            {
-                "value":"vertical",
-                "label":"vertical"
-            }]
-        },
-        {
-            "attribute":"fixed-month",
-            "label":"fixed-month",
-            "target":"demo-item",
-            "default":"",
-            "mode":"property",
-            "options" : [{
-                "value":"",
-                "label":"false"
-            },
-            {
-                "value":"2023-08",
-                "label":"true"
-            }]
-        }, {
-            "attribute":"multiple",
-            "label":"multi-select",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            },
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-    ]
+    "similar": false
 }

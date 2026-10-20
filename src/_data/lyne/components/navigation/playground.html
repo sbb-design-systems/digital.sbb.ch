@@ -1,0 +1,7 @@
+{#- Öffnet die Navigation von digital.sbb.ch (src/_includes/navigation/navigation.njk) #}
+<sbb-button id="preview-navigation-trigger" size="m">{{ translations[page.lang].lynepreview.openNavigation }}</sbb-button>
+<script>
+(() => {
+    document.getElementById("preview-navigation-trigger")?.addEventListener("click", () => document.getElementById("navigation")?.open());
+})();
+</script>

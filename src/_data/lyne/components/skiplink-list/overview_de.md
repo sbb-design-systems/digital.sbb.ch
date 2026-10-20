@@ -1,6 +1,6 @@
 
 ## Was macht die Komponente?
-Skip-Links sind Navigationshilfen, die es Nutzenden ermöglichen, schnell zu wichtigen Inhalten auf einer Seite zu springen, insbesondere für Screenreader-Nutzende und Tastaturnavigation.
+Skip-Links sind Navigationshilfen, die es Nutzenden ermöglichen, schnell zu wichtigen Inhalten auf einer Seite zu springen, insbesondere für Screenreader-Nutzende und Tastaturnavigation. Die Liste kann mehrere Links enthalten. Sichtbar ist jeweils nur der Link, der gerade per Tastatur fokussiert ist.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um die Barrierefreiheit einer Webseite zu verbessern.

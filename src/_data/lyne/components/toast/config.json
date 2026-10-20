@@ -1,8 +1,9 @@
 {
     "tag":"toast",
-    "storybookId": "Toast",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,96 +18,9 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":false,
-    "isChildOf": false,
-    "similar":["notification"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "darkmode": false,
-    "playground" : [
-        {
-            "attribute":"position",
-            "label":"position",
-            "target":"demo-item",
-            "default":"bottom-center",
-            "mode":"property",
-            "options" : [{
-                "value":"bottom-center",
-                "label":"bottom-center"
-            }, 
-            {
-                "value":"bottom-start",
-                "label":"bottom-start"
-            }, 
-            {
-                "value":"bottom-end",
-                "label":"bottom-end"
-            },
-            {
-                "value":"top-center",
-                "label":"top-center"
-            }, 
-            {
-                "value":"top-start",
-                "label":"top-start"
-            }, 
-            {
-                "value":"top-end",
-                "label":"top-end"
-            }]
-        },
-        {
-            "attribute":"slot",
-            "label":"icon",
-            "target":"demo-icon",
-            "default":"test",
-            "mode":"property",
-            "options" : [{
-                "value":"test",
-                "label":"false"
-            }, 
-            {
-                "value":"icon",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"readOnly",
-            "label":"readonly",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"slot",
-            "label":"action",
-            "target":"demo-action",
-            "default":"test",
-            "mode":"property",
-            "options" : [{
-                "value":"test",
-                "label":"false"
-            }, 
-            {
-                "value":"action",
-                "label":"true"
-            }]
-        }
-        
-    ]
+    "similar": ["notification"],
+    "darkmode": false
 }

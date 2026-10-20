@@ -33,6 +33,8 @@
 </sbb-dialog>
 
 <script>
+// In eine Funktion gekapselt, damit keine globalen Namen (z. B. "buttons") mit anderen Skripten kollidieren
+(() => {
     const buttons = document.querySelectorAll(".dialogtrigger");
     function buttonClicked(index) {
         const dialog = document.getElementById("dialog-"+(index + 1));
@@ -42,4 +44,5 @@
     buttons.forEach((button, index) => {
     button.addEventListener("click", () => buttonClicked(index));
     });
+})();
 </script>

@@ -470,3 +470,135 @@ p.subtext {
 .svg-image img {
   block-size: auto;
 }
+
+// Lyne-Abdeckungsbericht: eigener Scrollbereich mit stehendem Tabellenkopf
+.coverage-table-wrapper {
+  max-block-size: calc(100vh - var(--sbb-spacing-fixed-24x));
+  overflow: auto;
+  margin-block-end: var(--sbb-spacing-fixed-6x);
+
+  thead th {
+    position: sticky;
+    inset-block-start: 0;
+    z-index: 1;
+    background-color: var(--sbb-background-color-1);
+    box-shadow: inset 0 calc(-1 * var(--sbb-border-width-1x)) 0 var(--sbb-border-color-4);
+  }
+}
+
+// Status auf der Detailseite einer Lyne-Komponente (unter dem Titel)
+.component-page-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sbb-spacing-fixed-2x) var(--sbb-spacing-fixed-4x);
+  margin-block-end: var(--sbb-spacing-responsive-xs);
+}
+
+// Vorschau einer Lyne-Komponente zu Beginn des Übersichts-Tabs (Markup aus playground.html)
+.lyne-preview {
+  margin-block-end: var(--sbb-spacing-responsive-s);
+
+  .background {
+    border: none;
+    padding-inline: 0;
+    justify-content: flex-start;
+  }
+}
+
+// Rahmen für Layout-Komponenten in der Vorschau (Header, Sidebar, Map-Container): transform macht den Rahmen
+// zum Bezugspunkt für fixed/sticky positionierte Teile, overflow hält sie innerhalb der Vorschau.
+.lyne-preview-frame {
+  position: relative;
+  transform: translateZ(0);
+  overflow: hidden;
+  inline-size: 100%;
+  block-size: 240px;
+
+  > * {
+    block-size: 100%;
+  }
+
+  // Höhe aus dem Inhalt (Header)
+  &--auto {
+    block-size: auto;
+
+    > * {
+      block-size: auto;
+    }
+  }
+}
+
+// Halbe Breite in der Vorschau ab large, bei zero und small volle Breite (z. B. Flip-Card)
+.lyne-preview-half {
+  inline-size: 100%;
+
+  @include sbb.mq($from: large) {
+    inline-size: 50%;
+  }
+}
+
+// Ähnliche Komponenten am Ende des Übersichts-Tabs (Lyne)
+.similar-components {
+  margin-block-end: var(--sbb-spacing-responsive-s);
+}
+
+// Elemente einer Lyne-Komponente: Hauptelemente mit Varianten und Bestandteilen (lyne-elements.njk)
+.lyne-element-tree {
+  list-style: none;
+  margin: 0;
+  padding-inline-start: var(--sbb-spacing-fixed-6x);
+  border-inline-start: var(--sbb-border-width-1x) solid var(--sbb-color-cloud);
+
+  &--root {
+    padding-inline-start: 0;
+    border-inline-start: none;
+    margin-block-end: var(--sbb-spacing-responsive-s);
+  }
+
+  li {
+    margin-block: var(--sbb-spacing-fixed-4x);
+  }
+}
+
+// Ohne Aufzählungszeichen der Inhaltslisten (partial-typography.scss): die Einrückung zeigt die Hierarchie.
+// :not(.demo *) hebt die Spezifität über die der allgemeinen Listenregel.
+ul.lyne-element-tree:not(.demo *) > li {
+  padding-inline-start: 0;
+
+  &::before {
+    content: none;
+  }
+}
+
+.lyne-element-parts-label {
+  margin-block: var(--sbb-spacing-fixed-3x) 0;
+  font-size: var(--sbb-font-size-text-xs);
+  color: var(--sbb-color-granite);
+}
+
+// Tag mit Tooltip (Beschreibung aus Lyne)
+.lyne-element-head code[sbb-tooltip] {
+  cursor: help;
+}
+
+.lyne-element-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sbb-spacing-fixed-1x) var(--sbb-spacing-fixed-2x);
+}
+
+.lyne-element-variants {
+  font-size: var(--sbb-font-size-text-xs);
+  color: var(--sbb-color-granite);
+}
+
+.lyne-element-note {
+  margin-block: var(--sbb-spacing-fixed-1x) 0;
+}
+
+// Figma-Link am Ende des Anatomie-Tabs
+.anatomy-figma-link {
+  margin-block-start: var(--sbb-spacing-fixed-6x);
+}

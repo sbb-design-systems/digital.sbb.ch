@@ -1,5 +1,8 @@
 @use '@sbb-esta/lyne-elements/off-brand-theme.css';
 
+// Variablen der experimentellen Komponenten (z. B. Abstände im Autocomplete-Grid)
+@use '@sbb-esta/lyne-elements-experimental/off-brand-theme.css' as experimental-theme;
+
 
 iframe {
     border: none;

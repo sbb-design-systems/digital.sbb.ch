@@ -4,7 +4,7 @@ hideInSitemap: true
 tags: level2
 key: mobile_it
 title: Mobile 
-redirect: /fr/design-system/monbilenew/overview/
+redirect: /it/design-system/mobile/overview/
 parent: designsystem_it
 order: 35
 ---

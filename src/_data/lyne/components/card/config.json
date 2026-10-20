@@ -1,8 +1,9 @@
 {
     "tag":"card",
-    "storybookId": "Card",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,98 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":[],
-    "isChildOf":false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"color",
-            "label":"color",
-            "target":"demo-item",
-            "default":"milk",
-            "mode":"property",
-            "options" : [
-                {
-                    "value":"milk",
-                    "label":"milk"
-                },
-                {
-                    "value":"white",
-                    "label":"white"
-                }
-            ]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"xs",
-                "label":"xs"
-            }, 
-            {
-                "value":"s",
-                "label":"s"
-            }, 
-            {
-                "value":"m",
-                "label":"m"
-            },
-            {
-                "value":"l",
-                "label":"l"
-            },
-            {
-                "value":"xl",
-                "label":"xl"
-            },
-            {
-                "value":"xxl",
-                "label":"xxl"
-            }]
-        },
-        {
-            "attribute":"active",
-            "label":"active",
-            "target":"demo-link",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"badge",
-            "label":"badge",
-            "target":"badge",
-            "default":"badge",
-            "mode":"slot",
-            "options" : [{
-                "value":"test",
-                "label":"false"
-            },
-            {
-                "value":"badge",
-                "label":"true"
-            }
-            ]
-        }
-        
-    ]
+    "similar": false
 }

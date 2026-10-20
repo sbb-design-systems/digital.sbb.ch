@@ -1,8 +1,9 @@
 {
     "tag":"notification",
-    "storybookId": "Notification",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,76 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":["alert", "toast"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"type",
-            "label":"type",
-            "target":"demo-item",
-            "default":"info",
-            "mode":"property",
-            "options" : [{
-                "value":"info",
-                "label":"info"
-            }, 
-            {
-                "value":"success",
-                "label":"success"
-            }, 
-            {
-                "value":"warn",
-                "label":"warn"
-            }, 
-            {
-                "value":"error",
-                "label":"error"
-            }, 
-            {
-                "value":"note",
-                "label":"note"
-            }]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"s",
-                "label":"s"
-            },
-            {
-                "value":"m",
-                "label":"m"
-            }]
-        },
-        {
-            "attribute":"readonly",
-            "label":"readonly",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-
-    ]
+    "similar": ["alert", "toast"]
 }

@@ -1,8 +1,9 @@
 {
     "tag":"signet",
-    "storybookId": "Signet",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,38 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": ["logo"],
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"protective-room",
-            "label":"protective-room",
-            "default":"ideal",
-            "target":"demo-item",
-            "mode":"property",
-            "options" : [{
-                "value":"ideal",
-                "label":"ideal"
-            },
-            {
-                "value":"minimal",
-                "label":"minimal"
-            },
-            {
-                "value":"none",
-                "label":"no-protective-room"
-            }]
-        }
-        
-    ]
+    "similar": false
 }

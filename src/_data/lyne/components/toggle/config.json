@@ -1,8 +1,9 @@
 {
     "tag":"toggle",
-    "storybookId": "Toggle",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,63 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": [],
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"m",
-                "label":"m"
-            }, 
-            {
-                "value":"s",
-                "label":"s"
-            }]
-        },
-        {
-            "attribute":"disabled",
-            "label":"disabled",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"even",
-            "label":"even",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"dynamic"
-            }, 
-            {
-                "value":"true",
-                "label":"fix"
-            }]
-        }
-    ]
+    "similar": false
 }

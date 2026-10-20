@@ -1,8 +1,9 @@
 {
     "tag":"container",
-    "storybookId": "Container",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -11,22 +12,14 @@
     },    
     "order": 300,
     "categories":["Container"],
-    "keywords":["Container", "Wrapper", "Stack"],
+    "keywords":["Container", "Wrapper", "Stack", "Sticky", "Bar", "Footer"],
     "hasTabs": true,
     "tabs": {
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": false,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["sticky-bar"],
-    "isChildOf":false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    }
+    "similar": false
 }

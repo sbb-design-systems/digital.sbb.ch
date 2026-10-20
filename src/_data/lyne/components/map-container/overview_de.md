@@ -1,13 +1,11 @@
 
 ## Was macht die Komponente?
-Ein Menü zeigt kontextabhängige Aktionen oder Optionen für ein definiertes Element. Es kann durch ein anderes interaktives Element wie z.B. einem Button aufgerufen werden. 
+Der Map-Container ist ein Layout für Seiten mit einer Karte. Er teilt die Seite in eine Seitenleiste für Inhalte und eine Fläche für die Karte. Auf grossen Bildschirmen stehen beide nebeneinander. Auf kleinen Bildschirmen bleibt die Karte oben stehen und die Inhalte scrollen darüber.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzenden schnellen Zugriff auf häufig verwendete Aktionen oder Optionen zu bieten, die für ein bestimmtes Element relevant sind.
-* Wenn eine kompakte und kontextbezogene Navigation erforderlich ist.
-* Um die Benutzerfreundlichkeit zu erhöhen, indem zusätzliche Optionen direkt am Ort der Aktion bereitgestellt werden.
+* Für Seiten, auf denen eine Karte zusammen mit Inhalten oder einer Navigation gezeigt wird, z.B. eine Störungskarte.
 
 ## Regeln.
-* Die Menüoptionen sollen klar beschriftet und leicht verständlich sein.
-* Achte darauf, dass die Menüoptionen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sind.
-* Vermeide zu viele Optionen in einem Kontext-Menü, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.
+* Der Map-Container füllt die Seite unterhalb des Headers aus. Pro Seite wird nur ein Map-Container eingesetzt.
+* In der Seitenleiste stehen die Inhalte, die zur Karte gehören, z.B. Listen, Filter oder Details zu einem Ort.
+* Inhalte und Karte sollen sich aufeinander beziehen: Was in der Seitenleiste ausgewählt wird, soll auf der Karte erkennbar sein.

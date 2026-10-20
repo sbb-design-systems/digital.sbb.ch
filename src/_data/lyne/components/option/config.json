@@ -1,8 +1,9 @@
 {
     "tag":"option",
-    "storybookId": "Option",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,48 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": false,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": ["select"],
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"disabled",
-            "label":"disabled",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"icon-name",
-            "label":"icon-name",
-            "target":"demo-item",
-            "default":"tick-small",
-            "mode":"property",
-            "options" : [{
-                "value":"tick-small",
-                "label":"true"
-            }, 
-            {
-                "value":"",
-                "label":"false"
-            }]
-        }
-    ]
+    "similar": false
 }

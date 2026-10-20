@@ -1,0 +1,28 @@
+{
+    "tag": "train",
+    "system": "lyne",
+    "list": "components",
+    "figmaUrl": "",
+    "released": true,
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 1160,
+    "categories": ["Display"],
+    "keywords": ["Train", "Formation", "Wagon", "Coach", "Sector", "Occupancy"],
+    "hasTabs": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasAnatomy": true,
+        "hasStorybook": true,
+        "hasImplementation": true
+    },
+    "showInFirstLevel": true,
+    "partOf": {
+        "sbb-train": "sbb-train-formation"
+    },
+    "similar": false
+}

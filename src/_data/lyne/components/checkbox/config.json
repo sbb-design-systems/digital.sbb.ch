@@ -1,8 +1,9 @@
 {
     "tag":"checkbox",
-    "storybookId": "Checkbox",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,82 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":false,
-    "isChildOf":["checkbox-group", "checkbox-panel"],
-    "similar":["checkbox-panel", "radio-button"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"s",
-            "mode":"property",
-            "options" : [{
-                "value":"xs",
-                "label":"xs"
-            },
-            {
-                "value":"s",
-                "label":"s"
-            },
-            {
-                "value":"m",
-                "label":"m"
-            }]
-        },
-        {
-            "attribute":"disabled",
-            "label":"disabled",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            },
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"indeterminate",
-            "label":"indeterminate",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            },
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"icon-placement",
-            "label":"icon-placement",
-            "target":"demo-item",
-            "default":"start",
-            "mode":"property",
-            "options" : [{
-                "value":"start",
-                "label":"start"
-            }, 
-            {
-                "value":"end",
-                "label":"end"
-            }]
-        }
-    ]
+    "similar": ["checkbox-panel", "radio-button"]
 }

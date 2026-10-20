@@ -1,6 +1,6 @@
 
 ## What does the component do?
-The footer is the bottom section of a website that contains important information and elements that help users find additional content or legal information.
+The footer is the bottom section of a website that contains important information and elements that help users find additional content or legal information. The content usually consists of link lists. In the "clock-columns" variant it is arranged in columns.
 
 ## When should the component be used?
 * On every page of a website to provide consistent information and navigation.

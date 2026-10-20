@@ -1,8 +1,9 @@
 {
     "tag":"paginator",
-    "storybookId": "Paginator",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,35 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": false,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":[],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"hide-close-button",
-            "label":"hide-close-button",
-            "target":"demo-item",
-            "default":"true",
-            "mode":"boolean",
-            "options" : [
-                {
-                    "value":"true",
-                    "label":"false"
-                },
-                {
-                "value":"false",
-                "label":"true"
-                } 
-            ]
-        }
-    ]
+    "similar": false
 }

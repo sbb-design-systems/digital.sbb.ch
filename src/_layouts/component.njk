@@ -39,6 +39,17 @@ layout: base.njk
 
 {% include "../_includes/component/title.njk" %}
 
+{% if system == "lyne" %}
+  {% include "../_includes/component/lyne-status.njk" %}
+{% endif %}
+
+{# Automatisch aus Lyne angelegt, noch nicht freigegeben (config.json: "released": false) #}
+{% if (system == "lyne") and (pattern.config.released == false) %}
+<sbb-notification type="info" readonly title-content="{{ 'Draft' if page.lang == 'en' else 'Entwurf' }}">
+  {% if page.lang == "en" %}This component was created automatically from Lyne and has not been released yet: it is not shown in the navigation and not indexed by search engines.{% else %}Diese Komponente wurde automatisch aus Lyne angelegt und ist noch nicht freigegeben: Sie erscheint nicht in der Navigation und wird nicht von Suchmaschinen indexiert.{% endif %}
+</sbb-notification>
+{% endif %}
+
 
 {% if pattern.config.hasTabs == false %}
   {% if (pattern.config.system == "lyne") and (pattern.config.list == "design-tokens") %}

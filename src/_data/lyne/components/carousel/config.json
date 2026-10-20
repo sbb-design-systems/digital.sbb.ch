@@ -1,8 +1,9 @@
 {
     "tag":"carousel",
-    "storybookId": "Carousel",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,36 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":[],
-    "isChildOf":false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-     "playground" : [
-        {
-            "attribute":"shadow",
-            "label":"shadow",
-            "target":"demo-item",
-            "default":"true",
-            "mode":"boolean",
-            "options" : [
-                {
-                "value":"true",
-                "label":"true"
-            },
-            {
-                "value":"false",
-                "label":"false"
-            } 
-            ]
-        }
-        
-    ]
+    "similar": false
 }

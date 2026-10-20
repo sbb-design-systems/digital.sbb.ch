@@ -1,0 +1,38 @@
+{#- Elemente einer Lyne-Komponente, gegliedert nach Fall (lyne-structure.js). Erwartet: component
+    single     – kein Abschnitt
+    grouped    – ein Satz zur Gruppierung
+    composite  – Baum: Hauptelement mit Bestandteilen
+    collection – Liste der Hauptelemente, jeweils mit Varianten und Bestandteilen -#}
+{%- set elementGroup = lyne.catalog.groups[component] %}
+{%- set et = translations[page.lang].lyneelements %}
+
+{%- macro code(tag) -%}<code>{{ tag }}</code>{%- endmacro -%}
+
+{%- macro elementNode(node) -%}
+<li>
+  <div class="lyne-element-head">
+    {#- Beschreibung aus Lyne (Englisch) als Tooltip auf dem Tag: nur Text, Backticks um Elementnamen entfallen.
+        tabindex, damit der Tooltip auch per Tastatur erscheint. #}
+    {%- if node.summary %}<code tabindex="0" sbb-tooltip="{{ node.summary | replace("`", "") }}">{{ node.tag }}</code>{% else %}{{ code(node.tag) }}{% endif %}
+    {%- if node.variants | length %} <span class="lyne-element-variants">{{ et.alsoAs }} {% for variant in node.variants %}{{ code(variant) }}{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+  </div>
+  {%- if node.groupedBy %}<p class="lyne-element-note">{{ et.groupedBy | replace("{element}", code(node.tag)) | replace("{group}", code(node.groupedBy)) | safe }}</p>{% endif %}
+  {%- if node.parts | length %}
+  <p class="lyne-element-parts-label">{{ et.partHint | replace("{parent}", code(node.tag)) | safe }}</p>
+  <ul class="lyne-element-tree">
+    {%- for part in node.parts %}{{ elementNode(part) }}{% endfor %}
+  </ul>
+  {%- endif %}
+</li>
+{%- endmacro -%}
+
+{%- if elementGroup and elementGroup.structure == "grouped" %}
+<h2>{{ et.title }}.</h2>
+<p>{{ et.groupedBy | replace("{element}", code(elementGroup.main[0].tag)) | replace("{group}", code(elementGroup.main[0].groupedBy)) | safe }}</p>
+{%- elif elementGroup and (elementGroup.structure == "composite" or elementGroup.structure == "collection") %}
+<h2>{{ et.title }}.</h2>
+<p>{{ et.introComposite if elementGroup.structure == "composite" else et.introCollection }}</p>
+<ul class="lyne-element-tree lyne-element-tree--root">
+  {%- for node in elementGroup.main %}{{ elementNode(node) }}{% endfor %}
+</ul>
+{%- endif %}

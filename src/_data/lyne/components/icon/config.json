@@ -1,8 +1,9 @@
 {
     "tag":"icon",
-    "storybookId": "Icon",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,77 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": false,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"name",
-            "label":"name",
-            "target":"demo-item",
-            "default":"glass-cocktail-small",
-            "mode":"property",
-            "options" : [{
-                "value":"glass-cocktail-small",
-                "label":"icon-small"
-            },
-            {
-                "value":"glass-cocktail-medium",
-                "label":"icon-medium"
-            },
-            {
-                "value":"glass-cocktail-large",
-                "label":"icon-large"
-            },
-            {
-                "value":"sa-fz",
-                "label":"attribute"
-            },
-            {
-                "value":"construction",
-                "label":"himcus"
-            },
-            {
-                "value":"ir-1",
-                "label":"productbrand"
-            }
-            ]
-        },
-        {
-            "attribute":"style",
-            "label":"style",
-            "target":"demo-item",
-            "default":"color: light-dark(var(--sbb-color-black), var(--sbb-color-white));",
-            "mode":"property",
-            "options" : [{
-                "value":"color: light-dark(var(--sbb-color-black), var(--sbb-color-white));",
-                "label":"black"
-            }, 
-            {
-                "value":"color: var(--sbb-color-red)",
-                "label":"red"
-            },
-            {
-                "value":"color: var(--sbb-color-metal)",
-                "label":"metal"
-            },
-            {
-                "value":"color: var(--sbb-color-sky)",
-                "label":"sky"
-            },
-            {
-                "value":"color: light-dark(var(--sbb-color-white), var(--sbb-color-black));",
-                "label":"white"
-            }]
-        }
-    ]
+    "similar": false
 }

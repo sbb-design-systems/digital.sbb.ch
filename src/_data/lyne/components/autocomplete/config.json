@@ -1,8 +1,9 @@
 {
     "tag":"autocomplete",
-    "storybookId": "Autocomplete",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,65 +18,11 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["option", "optgroup"],
-    "isChildOf":["form-field"],
-    "similar":["autocomplete-grid","select"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
+    "partOf": {
+        "sbb-autocomplete-row": "sbb-autocomplete"
     },
-    "playground" : [
-        {
-            "attribute":"preserve-icon-space",
-            "label":"preserve-icon-space",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            },
-            {
-                "value":"true",
-                "label":"true"
-            }
-            ]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-form-field",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"m",
-                "label":"m"
-            }, 
-            {
-                "value":"s",
-                "label":"s"
-            }]
-        },
-        {
-            "attribute":"negative",
-            "label":"negative",
-            "target":"demo-form-field",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-
-    ]
+    "similar": ["autocomplete-grid", "select"]
 }

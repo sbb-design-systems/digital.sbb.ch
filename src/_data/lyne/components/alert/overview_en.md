@@ -1,5 +1,5 @@
 ## What does the component do?
-An alert component is a visual element that communicates important information or warnings to users.
+An alert component is a visual element that communicates important information or warnings to users. An alert can be closable. In this case a close button is shown.
 
 ## When should the component be used?
 * To inform users about critical errors, warnings or important information.

@@ -1,18 +1,11 @@
-{% if (pattern.config.tabs.hasPlayground == true) or (pattern.config.tabs.hasStorybook == true) %}  
-    {#% set playground = patterns[pattern.config.tag].playground %#}
-    {% set playground = pattern.config.playground %}
+{#- Beispiele aus Storybook. Das Markup aus playground.html steht als Vorschau im Übersichts-Tab (tab-overview.njk). #}
+{% if pattern.config.tabs.hasStorybook == true %}
     <sbb-tab-label level="2" role="tab" slot="tab-bar">
         <sbb-icon name="{{tabs[2].icon}}" slot="icon"></sbb-icon>
-        Demo
+        {{ tabs[2].label[language] if system == "lyne" else "Demo" }}
     </sbb-tab-label>
     <sbb-tab>
-        {% if pattern.config.tabs.hasPlayground == true%}
-            {% include "./playground.njk" %}
-            <script src="{{ '/assets/js/lyne-playground.js' | assetHash }}" defer></script>
-        {% endif %}
-        {% if pattern.config.tabs.hasStorybook == true %}
-            {% include "./storybook-story.njk" %}
-            <script src="{{ '/assets/js/lyne-examples.js' | assetHash }}" defer></script>
-        {% endif %}
+        {% include "./storybook-story.njk" %}
+        <script src="{{ '/assets/js/lyne-examples.js' | assetHash }}" defer></script>
     </sbb-tab>
 {% endif %}

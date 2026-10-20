@@ -1,0 +1,12 @@
+{#- Fester Zeitpunkt (now, 10:20 Uhr) zwischen Bern und Olten, damit die aktuelle Position immer gleich erscheint #}
+<sbb-pearl-chain now="2026-04-10T10:20:00+02:00" style="inline-size: 100%;">
+    <div class="demo-content" style="display: flex; align-items: center; gap: var(--sbb-spacing-fixed-3x);">
+        <time datetime="2026-04-10T10:00:00+02:00"><span class="sbb-screen-reader-only">Abfahrt Bern:&nbsp;</span>10:00</time>
+        <sbb-pearl-chain-node type="start" departure="2026-04-10T10:00:00+02:00"></sbb-pearl-chain-node>
+        <span style="flex: 1;"></span>
+        <sbb-pearl-chain-node type="stop" arrival="2026-04-10T10:26:00+02:00" departure="2026-04-10T10:28:00+02:00"></sbb-pearl-chain-node>
+        <span style="flex: 1;"></span>
+        <sbb-pearl-chain-node type="end" arrival="2026-04-10T10:56:00+02:00"></sbb-pearl-chain-node>
+        <time datetime="2026-04-10T10:56:00+02:00"><span class="sbb-screen-reader-only">Ankunft Zürich HB:&nbsp;</span>10:56</time>
+    </div>
+</sbb-pearl-chain>

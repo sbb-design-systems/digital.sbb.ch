@@ -1,8 +1,9 @@
 {
     "tag":"select",
-    "storybookId": "Select",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,97 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": ["form-field"],
-    "similar":["autocomplete", "autocomplete-grid"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"multiple",
-            "label":"multipleoption",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item-negative",
-            "default":"m",
-            "mode":"property",
-            "options" : [{
-                "value":"s",
-                "label":"s"
-            },
-            {
-                "value":"m",
-                "label":"m"
-            }, 
-            {
-                "value":"l",
-                "label":"l"
-            }]
-        },
-        {
-            "attribute":"negative",
-            "label":"negative",
-            "target":"demo-item-negative",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"disabled",
-            "label":"disabled",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"readonly",
-            "label":"readonly",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        }
-    ]
+    "similar": ["autocomplete", "autocomplete-grid"]
 }

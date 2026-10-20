@@ -1,6 +1,10 @@
-{% if (entry.config.showInFirstLevel == true)  %}
+{# showHiddenComponents: nur lokal auf dem Dev-Server, siehe .eleventy.js #}
+{% if (entry.config.showInFirstLevel == true) or showHiddenComponents %}
     {% set getSegementsOfPageUrl = page.url.split('/') %}
-    <li data-keywords="{{ entry.config.keywords }}" data-categories="{{ entry.config.categories }}">
+    {# Lyne: Elementnamen (z. B. sbb-secondary-button) als zusätzliche Suchbegriffe #}
+    {% set elementKeywords %}{% if entry.config.system == "lyne" %}{% for element in lyne.catalog.groups[component].elements %}{{ element.tag }}{% if not loop.last %},{% endif %}{% endfor %}{% endif %}{% endset %}
+    {# data-section: Bereich (Design Tokens, Komponenten, Templates …) für die Zwischentitel in der Sidebar (component-browser.js) #}
+    <li data-keywords="{{ entry.config.keywords }}{% if elementKeywords %},{{ elementKeywords }}{% endif %}" data-categories="{{ entry.config.categories }}" data-section="{{ entry.config.list }}" data-section-title="{{ translations[page.lang].browsersections[entry.config.list] }}">
         <sbb-card color="white" class="sbb-card-spacing-4x-xxs">
             <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag %}id="active-card"{% endif %} href="{{page.lang}}/design-system/{{entry.config.system}}/{{entry.config.list}}/{{entry.config.tag}}/" {% if getSegementsOfPageUrl[5] == entry.config.tag %}active{% endif %}>More Info</sbb-card-link>
             <div class="card-content-component">
@@ -10,9 +14,16 @@
                         {% for chip in entry.config.categories %}
                             <sbb-chip-label color="milk">{{chip}}</sbb-chip-label>
                         {% endfor %}
+                        {% if showHiddenComponents and (entry.config.showInFirstLevel != true) %}
+                            <sbb-chip-label color="white">{{ "Entwurf" if entry.config.released == false else "Ausgeblendet" }}</sbb-chip-label>
+                        {% endif %}
+                        {% if (entry.config.system == "lyne") and lyne.catalog.groups[component].experimental %}
+                            <sbb-chip-label color="charcoal">Experimental</sbb-chip-label>
+                        {% endif %}
                     </div>
                 </div>
-                {% include "./partial-status.njk" %}
+                {# Lyne zeigt den Status auf der Detailseite (component/lyne-status.njk), nicht in der Übersicht #}
+                {% if entry.config.system != "lyne" %}{% include "./partial-status.njk" %}{% endif %}
                 {% if layout == "overview.njk" and system == "mobile" and entry.config.image.length %}
                     <img class="overview-image" src="{{ entry.config.image}}.webp" alt="Darstellung des Chips" title="Chip" {{ (entry.config.image + ".webp") | imageAttrs | safe }} loading="lazy" decoding="async" sizes="100vw" srcset="{{ entry.config.image}}.webp 1x, {{ entry.config.image}}@2x.webp 2x, {{ entry.config.image}}@3x.webp 3x">
                 {% endif %}

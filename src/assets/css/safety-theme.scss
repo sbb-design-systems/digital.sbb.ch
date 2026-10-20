@@ -1,5 +1,8 @@
 @use '@sbb-esta/lyne-elements/safety-theme.css';
 
+// Variablen der experimentellen Komponenten (z. B. Abstände im Autocomplete-Grid)
+@use '@sbb-esta/lyne-elements-experimental/safety-theme.css' as experimental-theme;
+
 iframe {
     border: none;
     border-radius: 16px;

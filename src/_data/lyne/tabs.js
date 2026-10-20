@@ -4,30 +4,30 @@ module.exports = {
         id: 1,
         icon: "circle-information-small-small",
         label: {
-            de: "Info",
-            en: "Info",
-            fr: "Info",
-            it: "Info",
+            de: "Übersicht",
+            en: "Overview",
+            fr: "Aperçu",
+            it: "Panoramica",
         }
       },
       {
         id: 2,
         icon: "document-text-small",
         label: {
-            de: "Anatomie",
-            en: "Anatomy",
-            fr: "Anatomie",
-            it: "Anatomie",
+            de: "Anwendung",
+            en: "Usage",
+            fr: "Utilisation",
+            it: "Utilizzo",
         }
       },
       {
         id: 3,
         icon: "eye-small",
         label: {
-            de: "Demo",
-            en: "Demo",
-            fr: "Demo",
-            it: "Demo",
+            de: "Beispiele",
+            en: "Examples",
+            fr: "Exemples",
+            it: "Esempi",
         }
       },
       {

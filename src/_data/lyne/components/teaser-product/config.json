@@ -1,8 +1,9 @@
 {
     "tag":"teaser-product",
-    "storybookId": "Teaser Product",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,64 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["button", "image"],
-    "isChildOf": false,
-    "similar":["teaser", "teaser-hero"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"image-alignment",
-            "label":"image-alignment",
-            "target":"demo-item",
-            "default":"after",
-            "mode":"property",
-            "options" : [{
-                "value":"after",
-                "label":"after"
-            },
-            {
-                "value":"before",
-                "label":"before"
-            }]
-        },
-        {
-            "attribute":"negative",
-            "label":"negative",
-            "target":"demo-item",
-            "default":"false",
-            "mode":"boolean",
-            "options" : [{
-                "value":"false",
-                "label":"false"
-            }, 
-            {
-                "value":"true",
-                "label":"true"
-            }]
-        },
-        {
-            "attribute":"footnote",
-            "label":"footnote",
-            "target":"footnote",
-            "default":"footnote",
-            "mode":"slot",
-            "options" : [{
-                "value":"footnote",
-                "label":"true"
-            },
-            {
-                "value":"test",
-                "label":"false"
-            }
-            ]
-        }
-    ]
+    "similar": ["teaser", "teaser-hero"]
 }

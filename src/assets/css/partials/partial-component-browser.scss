@@ -67,6 +67,27 @@ sbb-sidebar {
 }
 
 
+  // Zwischentitel der Bereiche (Design Tokens, Komponenten, Templates); eingefügt von component-browser.js.
+  // In der Kachelansicht über alle Spalten.
+  .component-list > li.component-list-section {
+    margin-block: var(--sbb-spacing-fixed-8x) var(--sbb-spacing-fixed-2x);
+    font-size: var(--sbb-font-size-text-xs);
+    color: var(--sbb-color-granite);
+
+    &:first-child {
+      margin-block-start: 0;
+    }
+  }
+
+  .component-list.grid-view > li.component-list-section {
+    grid-column: 1 / -1;
+    margin-block: var(--sbb-spacing-fixed-6x) 0;
+
+    &:first-child {
+      margin-block-start: 0;
+    }
+  }
+
   .component-list {
     box-sizing: border-box;
     inline-size: 100%;

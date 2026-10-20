@@ -7,7 +7,7 @@
     data: "lyne.components",
     size: 1,
     alias: "component",
-    before: (keys, data) => keys.filter((key) => data.lyne.components[key]?.config?.list === "components" && data.lyne.components[key]?.config?.language?.["de"] === true)
+    before: (keys, data) => keys.filter((key) => data.lyne.components[key]?.config?.list === "components" && data.lyne.components[key]?.config?.released !== false && data.lyne.components[key]?.config?.language?.["de"] === true)
   },
   permalink: (data) => `/de/design-system/lyne/${data.lyne.components[data.component].config.list}/${data.lyne.components[data.component].config.tag}/index.md`
 }

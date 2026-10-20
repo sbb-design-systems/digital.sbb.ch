@@ -10,7 +10,7 @@ module.exports = async () => {
 
   Object.values(stories).forEach((value) => {
     const titlesplit = value.title.split("/");
-    value.component = titlesplit[0] === "elements" && value.type !== "docs";
+    value.component = (titlesplit[0] === "elements" || titlesplit[0] === "experimental") && value.type !== "docs";
     value.tag = titlesplit[titlesplit.length - 1];
   });
 

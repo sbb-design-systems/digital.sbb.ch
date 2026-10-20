@@ -1,8 +1,9 @@
 {
     "tag":"dialog",
-    "storybookId": "Dialog",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,19 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": [],
-    "isChildOf": false,
-    "similar":["overlay"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-        "playground" : [
-        
-    ]
+    "similar": ["overlay"]
 }

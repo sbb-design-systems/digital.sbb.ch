@@ -6,6 +6,8 @@
 
 
 <script>
+// In eine Funktion gekapselt, damit keine globalen Namen (z. B. "buttons") mit anderen Skripten kollidieren
+(() => {
     const actions = document.querySelectorAll(".overlaytrigger");
     function buttonClicked(index) {
         const dialog = document.getElementById("overlay-"+(index + 1));
@@ -15,4 +17,5 @@
     actions.forEach((button, index) => {
     button.addEventListener("click", () => buttonClicked(index));
     });
+})();
 </script>

@@ -1,5 +1,5 @@
-{% if pattern.config.tabs.hasImplementation == true %}
-    {% set implementation = patterns[pattern.config.tag].implementation %}
+{% if ((system == "lyne") and lyne.readmes[component]) or ((system != "lyne") and (pattern.config.tabs.hasImplementation == true)) %}
+    {% set implementation = lyne.readmes[component] if system == "lyne" else patterns[pattern.config.tag].implementation %}
     <sbb-tab-label level="2" role="tab" slot="tab-bar">
         <sbb-icon name="{{tabs[3].icon}}" slot="icon"></sbb-icon>
         Implementation

@@ -1,8 +1,9 @@
 {
     "tag":"action-group",
-    "storybookId": "Action Group",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,18 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":["button", "link"],
-    "isChildOf":false,
-    "similar":["mini-button-group"],
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        ]
+    "similar": ["button"]
 }

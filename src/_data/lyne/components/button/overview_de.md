@@ -10,3 +10,4 @@ Ein Button ist ein interaktives Element, das eine Aktion auslöst, wenn er angek
 ## Regeln.
 * Ein Button soll klar beschriftet sein und eine eindeutige Aktion beschreiben.
 * Vermeide es, mehrere primäre Buttons auf einer Seite zu verwenden; stattdessen sollten sekundäre Buttons oder Links genutzt werden.
+* Ein Button braucht ein Label oder ein Icon. Ein Button nur mit Icon braucht eine Beschriftung für Screenreader.

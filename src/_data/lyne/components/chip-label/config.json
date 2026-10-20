@@ -1,8 +1,9 @@
 {
     "tag":"chip-label",
-    "storybookId": "Chip Label",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,64 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": false,
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-            {
-                "attribute":"color",
-                "label":"color",
-                "target":"demo-item",
-                "default":"charcoal",
-                "mode":"property",
-                "options" : [{
-                    "value":"charcoal",
-                    "label":"charcoal"
-                }, 
-                {
-                    "value":"milk",
-                    "label":"milk"
-                },
-                {
-                    "value":"granite",
-                    "label":"granite"
-                },
-                {
-                    "value":"white",
-                    "label":"white"
-                }]
-            },
-            {
-                "attribute":"size",
-                "label":"size",
-                "target":"demo-item",
-                "default":"xs",
-                "mode":"property",
-                "options" : [{
-                    "value":"xxxs",
-                    "label":"xxxs"
-                }, 
-                {
-                    "value":"xxs",
-                    "label":"xxs"
-                }, 
-                {
-                    "value":"xs",
-                    "label":"xs"
-                },
-                {
-                    "value":"s",
-                    "label":"s"
-                }]
-            }
-        ]
+    "similar": false
 }

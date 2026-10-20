@@ -1,8 +1,9 @@
 {
     "tag":"radio-button-group",
-    "storybookId": "Radio Button Group",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,53 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs": ["radio-button", "radio-button-panel", "selection-expansion-panel"],
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"orientation",
-            "label":"orientation",
-            "target":"demo-item",
-            "default":"vertical",
-            "mode":"property",
-            "options" : [{
-                "value":"vertical",
-                "label":"vertical"
-            }, 
-            {
-                "value":"horizontal",
-                "label":"horizontal"
-            }]
-        },
-        {
-            "attribute":"size",
-            "label":"size",
-            "target":"demo-item",
-            "default":"s",
-            "mode":"property",
-            "options" : [{
-                "value":"xs",
-                "label":"xs"
-            },
-            {
-                "value":"s",
-                "label":"s"
-            }, 
-            {
-                "value":"m",
-                "label":"m"
-            }]
-        }
-        
-    ]
+    "similar": false
 }

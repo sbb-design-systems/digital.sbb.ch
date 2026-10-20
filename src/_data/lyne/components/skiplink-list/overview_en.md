@@ -1,6 +1,6 @@
 
 ## What does the component do?
-Skip links are navigation aids that allow users to quickly jump to important content on a page, especially for screen reader users and keyboard navigation.
+Skip links are navigation aids that allow users to quickly jump to important content on a page, especially for screen reader users and keyboard navigation. The list can contain several links. Only the link that currently has keyboard focus is visible.
 
 ## When should the component be used?
 * To improve the accessibility of a website.

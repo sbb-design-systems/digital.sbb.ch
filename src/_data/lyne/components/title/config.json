@@ -1,8 +1,9 @@
 {
     "tag":"title",
-    "storybookId": "Title",
     "system":"lyne",
     "list":"components",
+    "figmaUrl": "",
+    "released": true,
     "language": {
         "de": true,
         "fr": false,
@@ -17,49 +18,8 @@
         "hasOverview": true,
         "hasAnatomy": true,
         "hasStorybook": true,
-        "hasPlayground": true,
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "childs":false,
-    "isChildOf": false,
-    "similar":false,
-    "status": {
-        "design": "ok",
-        "code": "ok",
-        "documentation": "ok"
-    },
-    "playground" : [
-        {
-            "attribute":"level",
-            "label":"level",
-            "target":"demo-item",
-            "default":"1",
-            "mode":"property",
-            "options" : [{
-                "value":"1",
-                "label":"h1"
-            }, 
-            {
-                "value":"2",
-                "label":"h2"
-            },
-            {
-                "value":"3",
-                "label":"h3"
-            },
-            {
-                "value":"4",
-                "label":"h4"
-            },
-            {
-                "value":"5",
-                "label":"h5"
-            },
-            {
-                "value":"6",
-                "label":"h6"
-            }]
-        }
-    ]
+    "similar": false
 }
