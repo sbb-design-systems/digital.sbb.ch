@@ -25,7 +25,7 @@ A machine-readable index of all released Lyne components (elements, status such 
 
 - Install: `npm install @sbb-esta/lyne-elements` (Angular: `@sbb-esta/lyne-angular`). Components are web components with the prefix `sbb-`.
 - Register elements by importing the component module once, e.g. `import '@sbb-esta/lyne-elements/button.js';` for `<sbb-button>` (one import per component group; the module path equals the component name). An element that is not imported stays an unknown, unstyled HTML element.
-- Theme and tokens: load one theme stylesheet (`standard-theme.css` for customer and employee applications, `off-brand-theme.css` for industry, `safety-theme.css` for safety contexts; see {{ site }}/en/design-system/lyne/themes/index.md). Style with design tokens (CSS custom properties `--sbb-*`, list: {{ site }}/en/design-system/lyne/design-tokens/index.md) instead of hard-coded colors, spacing or font sizes.
+- Theme and tokens: load one theme stylesheet from the package, e.g. `import '@sbb-esta/lyne-elements/standard-theme.css';` (`standard-theme.css` for customer and employee applications, `off-brand-theme.css` for industry, `safety-theme.css` for safety contexts; `lean-*` variants exist for lean applications; see {{ site }}/en/design-system/lyne/themes/index.md). Style with design tokens (CSS custom properties `--sbb-*`, list: {{ site }}/en/design-system/lyne/design-tokens/index.md) instead of hard-coded colors, spacing or font sizes.
 - Component details: read `…/<component>/index.md` for usage, elements and examples; the full attribute, slot and event tables are in `…/<component>/api.md`.
 - Common mistakes:
   - Invented `icon-name` values. Use only names from [icons-ui.json]({{ site }}/icons-ui.json) (name plus size, e.g. `arrow-right-small`).
