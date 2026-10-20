@@ -613,6 +613,21 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addFilter("readmeSection", readmeSection);
     eleventyConfig.addFilter("demoteHeadings", demoteHeadings);
     eleventyConfig.addFilter("agentSummary", agentSummary);
+    // Beschreibung für <meta name="description"> und JSON-LD: Komponenten aus der Übersicht, übrige Seiten aus
+    // alternativetitle bzw. erstem Absatz; leer, wenn nichts Sinnvolles vorhanden ist (dann gilt der Standardtext)
+    eleventyConfig.addFilter("pageDescription", (data, lang, inputPath) => {
+        const own = String(data.description ?? "").trim();
+        if (own) return own;
+        if (data.component && typeof data.system === "string") {
+            const dataPath = `_data/${data.system}/components/${data.component}/`;
+            const source = readSourceFile(`${dataPath}overview_${lang}.md`) || readSourceFile(`${dataPath}content_${lang}.md`);
+            const summary = agentSummary(source).replace(/^[*-]\s+/, "").replace(/\{[.#][^}]*\}/g, "").replace(/[*_`]/g, "").replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").trim();
+            if (summary) return summary;
+        }
+        const alternative = String(data.alternativetitle ?? "").trim();
+        if (alternative && alternative !== data.title && alternative !== `${data.title}.`) return alternative;
+        return inputPath ? pageSummary(readSourceFile(path.relative("src", inputPath))) : "";
+    });
     eleventyConfig.addFilter("lyneDocumentationStatus", lyneDocumentationStatus);
     eleventyConfig.addFilter("lyneRelations", lyneRelations);
     // Text mit `Code` (z. B. Lyne-Beschreibungen) als HTML: maskieren, Backticks zu <code>
@@ -701,6 +716,9 @@ module.exports = async function(eleventyConfig) {
         relationsCache = { source: null, relations: null };
     });
     eleventyConfig.on("eleventy.after", ({ results, dir }) => {
+        // /llms-full.txt als Alias für das Bündel aller Komponenten (Konvention von llms.txt)
+        const full = path.join(dir?.output ?? "dist", "lyne-components-full.md");
+        if (fs.existsSync(full)) fs.copyFileSync(full, path.join(dir?.output ?? "dist", "llms-full.txt"));
         const written = agentPages.writeAgentPages((results ?? []).filter((result) => agentPageUrls.has(result.url)), dir?.output ?? "dist");
         if (written) console.log(`[agent-markdown] ${written} Markdown-Seiten geschrieben`);
     });

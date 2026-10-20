@@ -1,0 +1,9 @@
+{#- Vollständige API-Tabellen einer Lyne-Komponente für Agents (…/api.md). Erwartet: component, lang -#}
+{%- set config = lyne.components[component].config -%}
+{%- set base = "https://digital.sbb.ch/" + lang + "/design-system/lyne/" + (config.list | slugify) + "/" + (config.tag | slugify) + "/" -%}
+{%- set api = lyne.readmes[component] | readmeSection("api") -%}
+# {{ config.tag | capitalizeWords }} – API
+
+{{ "API der Web Components (Englisch). Verwendung, Elemente und Beispiele" if lang == "de" else "API of the web components. Usage, elements and examples" }}: {{ base }}index.md
+
+{{ api | agentMarkdown | demoteHeadings | safe }}

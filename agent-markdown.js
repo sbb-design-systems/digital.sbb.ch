@@ -8,7 +8,7 @@ const TurndownService = require("turndown");
 const { gfm } = require("turndown-plugin-gfm");
 
 const SITE_URL = "https://digital.sbb.ch";
-const AGENT_LANGUAGES = ["de", "en"];
+const AGENT_LANGUAGES = ["de", "en", "fr", "it"];
 const AGENT_SECTIONS = [
     "/principles/",
     "/foundation/",
@@ -155,8 +155,27 @@ function createTurndown() {
     const hasClass = (node, name) => (node.getAttribute?.("class") ?? "").split(/\s+/).includes(name);
     const descendants = (node) => [...(node.childNodes ?? [])].flatMap((child) => [child, ...descendants(child)]);
     const cellText = (cell) => (cell?.textContent ?? "").replace(/\s+/g, " ").trim().replace(/\|/g, "\\|");
+    // Responsive Token (Spacing, Size): Kopfzeile mit Breakpoints, dann je Token ein <p> mit dem Namen und eine Zeile mit den Werten
+    const isResponsiveTable = (node) => node.nodeName === "DIV" && hasClass(node, "token-table") && descendants(node).some((n) => hasClass(n, "breakpoint"));
+    turndown.addRule("token-table-responsive", {
+        filter: isResponsiveTable,
+        replacement: (content, node) => {
+            const children = [...node.childNodes].filter((child) => child.nodeType === 1);
+            const breakpoints = (row) => descendants(row).filter((n) => hasClass(n, "breakpoint"));
+            const header = children.find((child) => hasClass(child, "row"));
+            const names = breakpoints(header).map((cell) => cellText(cell));
+            const rows = [];
+            children.forEach((child, index) => {
+                if (child.nodeName !== "P" || !hasClass(children[index + 1], "row")) return;
+                const values = breakpoints(children[index + 1]).map((cell) => cellText(descendants(cell).find((n) => n.nodeName === "P")).replace(/^[a-z]+:\s*/i, ""));
+                rows.push(`| \`--${cellText(child)}\` | ${values.join(" | ")} |`);
+            });
+            if (!rows.length || !names.length) return content;
+            return `\n\n| CSS custom property | ${names.join(" | ")} |\n| --- | ${names.map(() => "---").join(" | ")} |\n${rows.join("\n")}\n\n`;
+        },
+    });
     turndown.addRule("token-table", {
-        filter: (node) => node.nodeName === "DIV" && hasClass(node, "token-table"),
+        filter: (node) => node.nodeName === "DIV" && hasClass(node, "token-table") && !isResponsiveTable(node),
         replacement: (content, node) => {
             const rows = descendants(node)
                 .filter((row) => hasClass(row, "row"))
@@ -166,7 +185,7 @@ function createTurndown() {
                 })
                 .filter(([name]) => name);
             if (!rows.length) return content;
-            return `\n\n| Token | Wert / Value |\n| --- | --- |\n${rows.map(([name, value]) => `| \`${name}\` | ${value} |`).join("\n")}\n\n`;
+            return `\n\n| CSS custom property | Wert / Value |\n| --- | --- |\n${rows.map(([name, value]) => `| \`${name.startsWith("sbb-") ? "--" : ""}${name}\` | ${value} |`).join("\n")}\n\n`;
         },
     });
 
@@ -200,7 +219,12 @@ function htmlToAgentMarkdown(html, url) {
     const titleNode = findNode(document, (n) => n.nodeName === "title");
     const title = titleNode?.childNodes?.[0]?.value?.replace(/\s+–\s+digital\.sbb\.ch$/, "").trim();
     const header = body.startsWith("# ") ? "" : `# ${title}\n\n`;
-    return `${header}${body}\n\n---\n\nSource: ${pageUrl}\n`;
+    // Farbseiten verweisen auf die Lyne Design Tokens (CSS-Variablen; Token-Seiten nur de/en)
+    const tokens = (name) => `${SITE_URL}/${url.startsWith("/de/") ? "de" : "en"}/design-system/lyne/design-tokens/${name}/index.md`;
+    const tokenNote = /^\/..\/foundation\/colors\//.test(url)
+        ? `Design tokens (CSS custom properties \`--sbb-color-*\`, \`--sbb-color-…-light\` / \`-dark\` for the themes): ${tokens("color")}` : "";
+    const note = tokenNote ? `\n\n## Design tokens\n\n${tokenNote}` : "";
+    return `${header}${body}${note}\n\n---\n\nSource: ${pageUrl}\n`;
 }
 
 // Nach dem Build: index.md neben jede passende index.html schreiben (Weiterleitungen ausgenommen)
