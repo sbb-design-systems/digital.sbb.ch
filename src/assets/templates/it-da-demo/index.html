@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard – Beispielapplikation</title>
+    <script type="module" crossorigin src="./assets/index-Cc7Be6Qo.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DPGxWHWU.css">
+  </head>
+  <body>
+    <sbb-header size="s" expanded>
+      <sbb-header-button icon-name="hamburger-menu-small" hide-label-below="small">Menü</sbb-header-button>
+      <span class="sbb-header-info">
+        <strong>Beispielapplikation</strong>
+        <span>V. 1.0</span>
+      </span>
+      <div class="sbb-header-spacer"></div>
+      <sbb-header-button id="user-menu-trigger" hide-label-below="large">
+        <figure class="sbb-figure" slot="icon">
+          <img
+            class="sbb-image-border-radius-round"
+            style="object-fit: cover; width: var(--sbb-size-icon-ui-small); height: var(--sbb-size-icon-ui-small)"
+            width="24"
+            height="24"
+            src="./profile-sbb-morning.jpg"
+            alt=""
+          />
+        </figure>
+        Petra Muster
+      </sbb-header-button>
+      <a href="/" class="sbb-header-logo" aria-label="Homepage">
+        <sbb-signet protective-room="panel"></sbb-signet>
+      </a>
+    </sbb-header>
+
+    <sbb-icon-sidebar-container>
+      <sbb-icon-sidebar>
+        <sbb-icon-sidebar-button id="sidebar-home" class="sbb-active" aria-label="Dashboard, 4 offene Aufgaben">
+                    <span slot="icon" class="app-icon-badge" sbb-badge="4">
+            <sbb-icon name="house-small"></sbb-icon>
+          </span>
+        </sbb-icon-sidebar-button>
+      </sbb-icon-sidebar>
+
+      <sbb-icon-sidebar-content sbb-header-scroll-origin>
+        <sbb-container expanded>
+          <sbb-title level="2" visual-level="2">Dashboard</sbb-title>
+
+          <sbb-tab-group size="l" id="dashboard-tabs">
+            <sbb-tab-label>Übersicht</sbb-tab-label>
+            <sbb-tab>
+              <sbb-tag-group size="s" accessibility-label="Zeitraum" value="kw23" class="app-filter">
+                <sbb-tag value="kw23" size="s">KW 23</sbb-tag>
+                <sbb-tag value="kw22" size="s">KW 22</sbb-tag>
+                <sbb-tag value="kw21" size="s">KW 21</sbb-tag>
+                <sbb-tag value="30d" size="s">30 Tage</sbb-tag>
+                <sbb-tag value="3m" size="s">3 Monate</sbb-tag>
+                <sbb-tag value="6m" size="s">6 Monate</sbb-tag>
+              </sbb-tag-group>
+
+              <!-- custom: not a Lyne component, Figma node 30962:103125 (Bento-Box grid, 4/2/1 columns) -->
+              <div class="app-bento">
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--a" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="milk" data-delta>+ 14 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-body">
+                    <sbb-title level="3" visual-level="3">CHF 000’000.–</sbb-title>
+                    <p class="sbb-text-xxs app-muted"><span data-trend>Steigt</span> seit 6 Wochen.</p>
+                  </div>
+                  <div class="app-viz sbb-text-xxs">Daten-Visualisierung</div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--b" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="milk">+ 14 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-big">
+                    <!-- custom: not a Lyne component, Figma node 30962:103125 (64px KPI number, no Lyne title size) -->
+                    <span class="app-big-number">75.1%</span>
+                    <p class="sbb-text-xxs app-muted">Steigt seit 6 Wochen.</p>
+                  </div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--c" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="charcoal">– 44 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-body">
+                    <sbb-title level="3" visual-level="3">CHF 000’000.–</sbb-title>
+                    <p class="sbb-text-xxs app-muted">Sinkt seit 6 Wochen.</p>
+                  </div>
+                  <div class="app-viz sbb-text-xxs">Daten-Visualisierung</div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--d" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="milk">+ 14 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-body">
+                    <sbb-title level="3" visual-level="3">CHF 000’000.–</sbb-title>
+                    <p class="sbb-text-xxs app-muted">Steigt seit 6 Wochen.</p>
+                  </div>
+                  <div class="app-viz sbb-text-xxs">Daten-Visualisierung</div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--e" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="milk">+ 14 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-body">
+                    <sbb-title level="3" visual-level="3">CHF 000’000.–</sbb-title>
+                    <p class="sbb-text-xxs app-muted">Steigt seit 6 Wochen.</p>
+                  </div>
+                  <div class="app-viz sbb-text-xxs">Daten-Visualisierung</div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--f" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="milk">+ 14 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-big">
+                    <!-- custom: not a Lyne component, Figma node 30962:103125 (64px KPI number, no Lyne title size) -->
+                    <span class="app-big-number">75.1%</span>
+                    <p class="sbb-text-xxs app-muted">Steigt seit 6 Wochen.</p>
+                  </div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--g" color="transparent-bordered">
+<div class="app-kpi-inner">
+                  <div class="app-kpi-head">
+                    <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                    <sbb-chip-label size="xxs" color="milk">+ 14 %</sbb-chip-label>
+                  </div>
+                  <div class="app-kpi-body">
+                    <sbb-title level="3" visual-level="3">CHF 000’000.–</sbb-title>
+                    <p class="sbb-text-xxs app-muted">Steigt seit 6 Wochen.</p>
+                  </div>
+                  <div class="app-viz sbb-text-xxs">Daten-Visualisierung</div>
+                </div>
+</sbb-card>
+
+                <sbb-card class="sbb-card-spacing-xxs app-kpi app-kpi--h" color="transparent-bordered">
+<div class="app-kpi-inner app-kpi-inner--row">
+                  <div class="app-kpi-side">
+                    <div class="app-kpi-head">
+                      <span class="sbb-text-xxs app-muted">lorem ipsum</span>
+                      <sbb-chip-label size="xxs" color="milk">+ 14 %</sbb-chip-label>
+                    </div>
+                    <div class="app-kpi-body">
+                      <sbb-title level="3" visual-level="3">CHF 000’000.–</sbb-title>
+                      <p class="sbb-text-xxs app-muted">Steigt seit 6 Wochen.</p>
+                    </div>
+                  </div>
+                  <div class="app-viz sbb-text-xxs">Daten-Visualisierung</div>
+                </div>
+                </sbb-card>
+              </div>
+            </sbb-tab>
+
+            <sbb-tab-label>Favoriten</sbb-tab-label>
+            <sbb-tab>
+              <!-- custom: not a Lyne component, Figma node 31052:155755 (responsive favourites grid) -->
+              <div class="app-favorites">
+                <sbb-card class="sbb-card-spacing-xxs app-favorite" color="milk">
+<div class="app-favorite-inner">
+                  <sbb-icon name="hammer-wrench-medium"></sbb-icon>
+                  <sbb-title level="4" visual-level="4">Title</sbb-title>
+                  <p class="sbb-text-s app-muted-light">Lorem ipsum Dolor est</p>
+                  <sbb-secondary-button size="s">Funkion A öffnen</sbb-secondary-button>
+                </div>
+</sbb-card>
+                <sbb-card class="sbb-card-spacing-xxs app-favorite" color="milk">
+<div class="app-favorite-inner">
+                  <sbb-icon name="hammer-wrench-medium"></sbb-icon>
+                  <sbb-title level="4" visual-level="4">Title</sbb-title>
+                  <p class="sbb-text-s app-muted-light">Lorem ipsum Dolor est</p>
+                  <sbb-secondary-button size="s">Funkion A öffnen</sbb-secondary-button>
+                </div>
+</sbb-card>
+                <sbb-card class="sbb-card-spacing-xxs app-favorite" color="milk">
+<div class="app-favorite-inner">
+                  <sbb-icon name="hammer-wrench-medium"></sbb-icon>
+                  <sbb-title level="4" visual-level="4">Title</sbb-title>
+                  <p class="sbb-text-s app-muted-light">Lorem ipsum Dolor est</p>
+                  <sbb-secondary-button size="s">Funkion A öffnen</sbb-secondary-button>
+                </div>
+</sbb-card>
+                <sbb-card class="sbb-card-spacing-xxs app-favorite" color="milk">
+<div class="app-favorite-inner">
+                  <sbb-icon name="hammer-wrench-medium"></sbb-icon>
+                  <sbb-title level="4" visual-level="4">Title</sbb-title>
+                  <p class="sbb-text-s app-muted-light">Lorem ipsum Dolor est</p>
+                  <sbb-secondary-button size="s">Funkion A öffnen</sbb-secondary-button>
+                </div>
+</sbb-card>
+              </div>
+              <div class="app-favorites-edit">
+                <sbb-block-link-button size="xs">Favoriten bearbeiten</sbb-block-link-button>
+              </div>
+            </sbb-tab>
+
+            <sbb-tab-label>
+              Aufgaben
+              <!-- custom: not a Lyne component, Figma node 30962:103125 (red count badge on tab; amount slot restyled) -->
+              <span slot="amount" class="app-tab-badge">4</span>
+            </sbb-tab-label>
+            <sbb-tab>
+              <sbb-tag-group size="s" accessibility-label="Status" value="all" class="app-filter" id="task-filter">
+                <sbb-tag value="all" size="s">Alle</sbb-tag>
+                <sbb-tag value="planned" size="s">Geplant</sbb-tag>
+                <sbb-tag value="progress" size="s">In Bearbeitung</sbb-tag>
+                <sbb-tag value="done" size="s">Abgeschlossen</sbb-tag>
+              </sbb-tag-group>
+
+              <!-- custom: not a Lyne component, Figma node 31039:127256 (task list rows) -->
+              <div class="app-tasks">
+                <sbb-card class="app-task" color="milk" data-state="progress">
+                  <sbb-card-badge slot="badge">Neu</sbb-card-badge>
+                  <div class="app-task-row">
+                    <sbb-title level="6" visual-level="6" class="app-task-title">Innovative Strategien für Nachhaltigkeit</sbb-title>
+                    <div class="app-task-meta">
+                      <sbb-chip-label size="xxs" color="white">Umwelt</sbb-chip-label>
+                      <span class="app-avatar sbb-text-xxs" aria-label="Zuständig: CM" role="img">CM</span>
+                      <span class="sbb-text-s app-task-date">20.11.2026</span>
+                      <sbb-status type="success" aria-label="Erledigt"></sbb-status>
+                    </div>
+                    <sbb-secondary-button id="task-menu-1" class="app-task-menu" size="m" icon-name="context-menu-small" aria-label="Aktionen"></sbb-secondary-button>
+                  </div>
+                </sbb-card>
+                <sbb-card class="app-task" color="milk" data-state="planned">
+                  <sbb-card-badge slot="badge">Neu</sbb-card-badge>
+                  <div class="app-task-row">
+                    <sbb-title level="6" visual-level="6" class="app-task-title">Innovative Strategien für Nachhaltigkeit</sbb-title>
+                    <div class="app-task-meta">
+                      <sbb-chip-label size="xxs" color="white">Umwelt</sbb-chip-label>
+                      <span class="app-avatar sbb-text-xxs" aria-label="Zuständig: AK" role="img">AK</span>
+                      <span class="sbb-text-s app-task-date">15.10.2026</span>
+                      <sbb-status type="success" aria-label="Erledigt"></sbb-status>
+                    </div>
+                    <sbb-secondary-button id="task-menu-2" class="app-task-menu" size="m" icon-name="context-menu-small" aria-label="Aktionen"></sbb-secondary-button>
+                  </div>
+                </sbb-card>
+                <sbb-card class="app-task" color="milk" data-state="progress">
+                  <sbb-card-badge slot="badge">Neu</sbb-card-badge>
+                  <div class="app-task-row">
+                    <sbb-title level="6" visual-level="6" class="app-task-title">Klimaschutz im urbanen Raum</sbb-title>
+                    <div class="app-task-meta">
+                      <sbb-chip-label size="xxs" color="white">Umwelt</sbb-chip-label>
+                      <span class="app-avatar sbb-text-xxs" aria-label="Zuständig: TW" role="img">TW</span>
+                      <span class="sbb-text-s app-task-date">15.10.2026</span>
+                      <sbb-status type="success" aria-label="Erledigt"></sbb-status>
+                    </div>
+                    <sbb-secondary-button id="task-menu-3" class="app-task-menu" size="m" icon-name="context-menu-small" aria-label="Aktionen"></sbb-secondary-button>
+                  </div>
+                </sbb-card>
+                <sbb-card class="app-task" color="milk" data-state="done">
+                  <sbb-card-badge slot="badge">Neu</sbb-card-badge>
+                  <div class="app-task-row">
+                    <sbb-title level="6" visual-level="6" class="app-task-title">Change-Management im Mittelstand</sbb-title>
+                    <div class="app-task-meta">
+                      <sbb-chip-label size="xxs" color="white">Management</sbb-chip-label>
+                      <span class="app-avatar sbb-text-xxs" aria-label="Zuständig: AK" role="img">AK</span>
+                      <span class="sbb-text-s app-task-date">24.10.2026</span>
+                      <sbb-status type="success" aria-label="Erledigt"></sbb-status>
+                    </div>
+                    <sbb-secondary-button id="task-menu-4" class="app-task-menu" size="m" icon-name="context-menu-small" aria-label="Aktionen"></sbb-secondary-button>
+                  </div>
+                </sbb-card>
+                <sbb-card class="app-task" color="milk" data-state="done">
+                  <div class="app-task-row">
+                    <sbb-title level="6" visual-level="6" class="app-task-title">Cloud-Migration für Behörden</sbb-title>
+                    <div class="app-task-meta">
+                      <sbb-chip-label size="xxs" color="white">Technologie</sbb-chip-label>
+                      <span class="app-avatar sbb-text-xxs" aria-label="Zuständig: MB" role="img">MB</span>
+                      <span class="sbb-text-s app-task-date">28.10.2026</span>
+                      <sbb-status type="success" aria-label="Erledigt"></sbb-status>
+                    </div>
+                    <sbb-secondary-button id="task-menu-5" class="app-task-menu" size="m" icon-name="context-menu-small" aria-label="Aktionen"></sbb-secondary-button>
+                  </div>
+                </sbb-card>
+              </div>
+
+              <sbb-menu id="task-menu" trigger="task-menu-1">
+                <sbb-menu-button icon-name="eye-small">Öffnen</sbb-menu-button>
+                <sbb-menu-button icon-name="tick-small">Als erledigt markieren</sbb-menu-button>
+                <sbb-divider></sbb-divider>
+                <sbb-menu-button icon-name="trash-small">Löschen</sbb-menu-button>
+              </sbb-menu>
+            </sbb-tab>
+          </sbb-tab-group>
+        </sbb-container>
+      </sbb-icon-sidebar-content>
+    </sbb-icon-sidebar-container>
+
+    <sbb-menu id="user-menu" trigger="user-menu-trigger">
+      <sbb-menu-button icon-name="user-small">Profil</sbb-menu-button>
+      <sbb-menu-button id="theme-toggle" icon-name="eye-small">Dark Mode umschalten</sbb-menu-button>
+      <sbb-divider></sbb-divider>
+      <sbb-menu-button icon-name="exit-small">Abmelden</sbb-menu-button>
+    </sbb-menu>
+</body>
+</html>
