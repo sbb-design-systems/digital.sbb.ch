@@ -1,7 +1,7 @@
 // Readme jeder Lyne-Komponentengruppe aus lyne-components (lyne.readmes[ordner]), passend zur installierten Version.
 // Ersetzt die früheren implementation.js-Dateien pro Komponente.
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const { buildCatalog } = require("../../../lyne-catalog");
+const { buildCatalog } = require("../../../eleventy/lyne-catalog");
 
 module.exports = async () => {
   const groups = Object.values(buildCatalog().groups);

@@ -8,7 +8,7 @@
         "it": true,
         "en": true
     },
-    "order": 20,
+    "order": 200,
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "System Schritte", "system steps"],
     "hasTabs": false,

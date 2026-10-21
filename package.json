@@ -13,7 +13,7 @@
         "scss:watch": "sass --watch --no-source-map --load-path=src/assets/css --load-path=node_modules src/assets/css/styles.scss:dist/assets/css/styles.css",
         "lint:scss:watch": "node watch-scss.mjs",
         "serve": "eleventy --serve",
-        "lyne:sync": "node lyne-sync.js",
+        "lyne:sync": "node eleventy/lyne-sync.js",
         "prestart": "npm run lyne:sync && npm run copy:components && npm run bundle:lyne",
         "start": "npm-run-all lint:scss scss:build --parallel lint:scss:watch scss:watch serve",
         "build": "npm run lint:scss && npm run copy:components && npm run bundle:lyne && npm run scss:build && BUILD_MODE=production eleventy && npm run html-minify && gzipper compress ./dist"

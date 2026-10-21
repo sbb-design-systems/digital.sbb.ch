@@ -8,7 +8,7 @@ const { buildStructure } = require("./lyne-structure");
 
 const STORYBOOK_URL = "https://lyne-elements.app.sbb.ch";
 // Dauerhaft abgelehnte Komponentengruppen (Ordnername → Begründung): werden nicht angelegt und nicht dokumentiert
-const EXCLUDED_FILE = path.join(__dirname, "src/_data/lyne/excluded.json");
+const EXCLUDED_FILE = path.join(__dirname, "../src/_data/lyne/excluded.json");
 const GITHUB_REPO = "sbb-design-systems/lyne-components";
 // Angular-Doku (lyne-angular): gleiche Ordnernamen, experimentelle Komponenten unter "angular-experimental"
 const ANGULAR_URL = "https://lyne-angular.app.sbb.ch";
@@ -18,7 +18,7 @@ const PACKAGES = [
     { name: "lyne-elements-experimental", storybookPrefix: "experimental", sourcePath: "src/elements-experimental", experimental: true },
 ];
 
-const packageDir = (name) => path.join(__dirname, "node_modules", "@sbb-esta", name);
+const packageDir = (name) => path.join(__dirname, "../node_modules", "@sbb-esta", name);
 const slug = (title) => title.toLowerCase().replace(/^sbb-/, "").trim().replace(/\s+/g, "-");
 
 function readExcluded() {

@@ -9,7 +9,7 @@ const fs = require("fs");
 const path = require("path");
 const { buildCatalog, STORYBOOK_URL } = require("./lyne-catalog");
 
-const COMPONENTS_DIR = path.join(__dirname, "src/_data/lyne/components");
+const COMPONENTS_DIR = path.join(__dirname, "../src/_data/lyne/components");
 
 async function loadStorybookEntries() {
     try {

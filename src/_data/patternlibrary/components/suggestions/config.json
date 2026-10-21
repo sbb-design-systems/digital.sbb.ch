@@ -8,7 +8,7 @@
         "it": true,
         "en": true
     },
-    "order": 20,
+    "order": 180,
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Vorschläge", "suggestions"],
     "hasTabs": false,

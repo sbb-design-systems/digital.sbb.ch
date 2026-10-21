@@ -8,7 +8,7 @@
         "it": true,
         "en": true
     },
-    "order": 20,
+    "order": 110,
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Datenschutz", "Data", "Privacy"],
     "hasTabs": false,

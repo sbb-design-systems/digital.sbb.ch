@@ -1,8 +1,8 @@
-// Lyne-Katalog (lyne.catalog): alle Komponentengruppen aus lyne-components, siehe /lyne-catalog.js
+// Lyne-Katalog (lyne.catalog): alle Komponentengruppen aus lyne-components, siehe /eleventy/lyne-catalog.js
 const fs = require("fs");
 const path = require("path");
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const { buildCatalog, STORYBOOK_URL } = require("../../../lyne-catalog");
+const { buildCatalog, STORYBOOK_URL } = require("../../../eleventy/lyne-catalog");
 
 // Korrekturen der Elementrollen: "partOf" in src/_data/lyne/components/<name>/config.json
 function readPartOf() {
