@@ -1,10 +1,11 @@
-
 ## What does the component do?
-An overlay is a view that hides or darkens the background in order to draw the focus to an important element such as a form.
+An overlay shows content on top of the application, e.g. a form or a detail view. The page behind it cannot be operated and does not scroll. It has an always-visible close button and can take up the full page width (expanded).
 
 ## When should the component be used?
-* To focus the user's attention on an important element (e.g. a form).
+* To focus attention on extensive content or a task, e.g. a form.
+* For smaller, short interactions (e.g. confirmations), use the [dialog](/en/design-system/lyne/components/dialog/) instead.
 
 ## Rules.
-* The background of the overlay can be semi-transparent or covering. The semi-transparent variant is suitable if background information is important for the user, for example to ensure orientation.
-* Make sure that the overlay does not obscure any important background information that may be necessary for users.
+* The overlay always offers a way to close: close button, Esc or an action in the content.
+* The content needs a clear title.
+* When closed, focus returns to the triggering element.

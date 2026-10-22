@@ -1,11 +1,14 @@
 
 ## Was macht die Komponente?
-Die Navigations-Komponente zeigt eine Liste von Navigationslinks an, die Nutzenden helfen, durch die verschiedenen Bereiche einer Webseite oder Applikation zu navigieren. Diese wird als Overlay dargestellt und verbirgt sich hinter einem Hamburger-Menü.
+Die Navigation zeigt Navigationslinks als modales Overlay. Sie wird über ein Hamburger-Icon geöffnet. Sie kann eine zweite Ebene (Sections) enthalten.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzenden eine klare und zugängliche Möglichkeit zur Navigation durch die Webseite oder Applikation zu bieten.
-* Wenn eine kompakte Navigation erforderlich ist.
+* Für die Hauptnavigation einer Webseite oder Applikation.
+* Wenn die Navigation nicht dauerhaft sichtbar sein soll.
 
 ## Regeln.
-* Die Navigation soll hinter einem Hamburger-Icon versteckt sein und wird jeweils im Header als erstes Element platziert.
-* Die Navigationslinks sollen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sein.
+* Das Hamburger-Icon steht im [Header](/de/design-system/lyne/components/header/) als erstes Element.
+* Links sind logisch gruppiert und sinnvoll sortiert.
+* Die zweite Ebene wird nur bei Bedarf eingesetzt.
+* Die aktuelle Seite wird markiert und für Screenreader mit `aria-current="page"` ausgezeichnet (bei Links `accessibility-current`).
+* Beim Öffnen ist die restliche Seite nicht bedienbar und scrollt nicht.

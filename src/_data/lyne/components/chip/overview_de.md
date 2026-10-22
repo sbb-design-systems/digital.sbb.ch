@@ -1,12 +1,13 @@
 
 ## Was macht die Komponente?
-Die Chip-Komponente ist ein kompaktes UI-Element, das zur Darstellung von ausgewählten Werten innerhalb eines Form-Fieldes dient. Jeder Chip repräsentiert eine Auswahl und kann bei Bedarf wieder entfernt werden.
+Ein Chip zeigt einen ausgewählten oder eingegebenen Wert in einem [Form-Field](/de/design-system/lyne/components/form-field/). Mehrere Chips bilden eine Chip-Group. Jeder Chip kann wieder entfernt werden.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Wenn Benutzer mehrere Werte aus einer Liste auswählen können.
-* Wenn die ausgewählten Werte im Eingabefeld visuell dargestellt werden sollen.
-* Wenn eine einfache Möglichkeit zur Entfernung einzelner Einträge erforderlich ist.
+* Wenn Nutzende mehrere Werte eingeben oder aus einer Liste auswählen, zum Beispiel mit dem [Autocomplete](/de/design-system/lyne/components/autocomplete/).
+* Wenn die gewählten Werte im Eingabefeld sichtbar bleiben und einzeln entfernbar sein sollen.
 
 ## Regeln.
-* Jeder Chip sollte einen klar lesbaren Labeltext enthalten, möglichst kurz und prägnant.
-* Bei der Beschriftung ist darauf zu achten, dass sie gut voneinander unterscheidbar sind.
+* Chips stehen immer in einer Chip-Group innerhalb eines Form-Fields.
+* Der Text eines Chips ist kurz und eindeutig. Verschiedene Chips sind gut unterscheidbar.
+* Standardmässig erzeugt die Eingabetaste einen Chip. Die Trennzeichen sind anpassbar.
+* Die Chips sind per Tastatur bedienbar. Mit den Pfeiltasten wechseln Nutzende zwischen den Chips.

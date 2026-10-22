@@ -1,6 +1,6 @@
 
 ## What does the component do?
-The teaser panel displays a short text in a red, trapezoidal area. It is the building block that, for example, the teaser hero uses to display its text over an image.
+The teaser panel displays a short text in a red, trapezoidal area. It is the building block that, for example, the [teaser hero](/en/design-system/lyne/components/teaser-hero/) uses to display its text over an image.
 
 ## When should the component be used?
 * When an image or an area is to be complemented with a short, concise message.
@@ -8,4 +8,5 @@ The teaser panel displays a short text in a red, trapezoidal area. It is the bui
 
 ## Rules.
 * The text in the panel is short, e.g. a title or one sentence.
+* The panel itself is not interactive. If it should be clickable, wrap it in an interactive component (e.g. [button](/en/design-system/lyne/components/button/) or [link](/en/design-system/lyne/components/link/)).
 * For a classic image teaser with a link, use the teaser hero.

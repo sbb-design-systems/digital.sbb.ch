@@ -3,7 +3,10 @@
     <input placeholder="Trigger element" />
     <sbb-autocomplete class="demo-item">
         <sbb-optgroup label="Group 1">
-            <sbb-option value="Option 1"> Option 1 </sbb-option>
+            <sbb-autocomplete-row>
+                <sbb-option icon-name="clock-small" value="Option 1" aria-description="Mit Aktion"> Option 1 </sbb-option>
+                <sbb-autocomplete-button icon-name="pen-small" aria-label="Bearbeiten"></sbb-autocomplete-button>
+            </sbb-autocomplete-row>
             <sbb-option icon-name="clock-small" value="Option 2"> Option 2 </sbb-option>
             <sbb-option icon-name="clock-small" value="Option 3"> Option 3 </sbb-option>
         </sbb-optgroup>

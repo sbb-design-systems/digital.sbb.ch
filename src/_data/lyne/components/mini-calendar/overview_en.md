@@ -1,11 +1,12 @@
 
 ## What does the component do?
-A mini calendar is a component that displays date information as compactly and space-savingly as possible and allows it to be selected optionally.
+The mini calendar displays date information very compactly. Each day is a small dot that can be coloured or marked. Days can optionally be selected.
 
 ## When should the component be used?
-* To give users the opportunity to consume a lot of date information.
-* To display recurring events and their patterns.
+* To show many days, several months or entire years in little space.
+* To make recurring events and patterns visible, e.g. days of operation.
 
 ## Rules.
-* Several months or entire years can be displayed.
-* The component is not accessible and should only be used in contexts (e.g., internal applications) where accessibility is not required.
+* The mini calendar is not a replacement for the [calendar](/en/design-system/lyne/components/calendar/) or [datepicker](/en/design-system/lyne/components/datepicker/). Use those to pick a specific date.
+* Colours and markers need a legend. Meaning must not be conveyed by colour alone.
+* The component is only partially accessible (small days, grid structure). If accessibility is required, provide the information in an additional way, or use the component only in internal applications.

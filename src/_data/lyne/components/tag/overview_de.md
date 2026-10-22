@@ -1,13 +1,13 @@
 
 ## Was macht die Komponente?
-Ein Tag ist ein kleines Beschriftungselement, das zur Kategorisierung und als Filter dient.
+Ein Tag ist ein kleines, auswählbares Element, mit dem Nutzende Inhalte filtern oder nach Kategorien eingrenzen. Tags werden in einer Tag-Group zusammengefasst.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Inhalte nach bestimmten Kriterien zu filtern und zu kategorisieren.
-* Um Nutzenden die Möglichkeit zu geben, Inhalte nach definierten Eigenschaften zu durchsuchen.
-* Um die Benutzeroberfläche übersichtlicher zu gestalten.
+* Um grosse Mengen an Inhalten über eine Auswahl zu filtern.
+* Wenn optional eine Anzahl pro Filter angezeigt werden soll, z.B. Anzahl Treffer.
 
 ## Regeln.
-* Tags sollen kurz und eindeutig beschriftet sein.
-* Verwende eine logische und intuitive Reihenfolge der Tags, um die Benutzerfreundlichkeit zu maximieren.
-* Vermeide zu viele Tags auf einmal, um die Übersichtlichkeit zu gewährleisten.
+* Tags sind kurz und eindeutig beschriftet.
+* Standardmässig kann nur ein Tag gewählt werden. Für Mehrfachauswahl muss dies bei der Initialisierung gesetzt werden (`multiple`).
+* Jede Tag-Group braucht ein Label für Screenreader (`accessibilityLabel`).
+* Zu viele Tags auf einmal vermeiden.

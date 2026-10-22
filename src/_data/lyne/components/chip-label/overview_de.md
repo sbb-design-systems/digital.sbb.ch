@@ -1,12 +1,11 @@
 
 ## Was macht die Komponente?
-Ein Chip-Label ist ein kompaktes Text-Element.
+Ein Chip-Label ist eine kleine, rein visuelle Markierung mit kurzem Text, zum Beispiel ein Filtername oder ein Tag.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um kurze, prägnante Informationen anzuzeigen.
+* Um eine kurze Information oder Kategorie hervorzuheben, zum Beispiel «Angebot».
 
 ## Regeln.
-* Ein Chip-Label soll klar und kurz beschriftet sein.
-* Das Label darf nicht zu lang sein und ist immer einzeilig darzustellen.
-* Chips sollen genügend Abstand zueinander haben, um eine klare Trennung und einfache Bedienung zu ermöglichen.
-
+* Der Text ist kurz und prägnant.
+* Der Text steht immer in einer Zeile.
+* Ein Chip-Label ist nicht klickbar.

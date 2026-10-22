@@ -1,13 +1,14 @@
-
 ## What does the component do?
-A notification is a message that informs users about important information, successes, errors or other events in the application.
+A notification informs users within the content about the status of an action or other important notices, without interrupting their task. The types are info, note, success, warn and error.
 
 ## When should the component be used?
-* To inform users about the status of actions, e.g. success or error messages.
-* To display important system messages or updates.
-* To inform users of required actions or changes.
+* To inform users in a flow about the status of actions, e.g. success or error.
+* To point out required actions or changes.
+* For system-wide, very important messages, use the alert component instead.
 
 ## Rules.
-* Notifications should be clear and concise in order to convey the message quickly.
-* Provide the option to close notifications manually or have them disappear automatically after a reasonable time.
-* Use consistent positioning of notifications within a website or application.
+* The notification is placed at the top of the main content or close to the affected element. Positioning is consistent throughout the application.
+* The text is short and clear. A title is optional.
+* The notification does not disappear automatically. It stays until users close it or the problem is resolved.
+* The close button is optional. If the message must be read, omit it (`readonly`).
+* Newly appearing notifications must be announced to screen readers (`aria-live="polite"` on the container).

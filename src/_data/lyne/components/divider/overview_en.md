@@ -1,13 +1,13 @@
 
 ## What does the component do?
-A divider is a visual dividing line that separates content or sections within a page or content block.
+A divider is a dividing line. It visually separates content or sections. It can be horizontal or vertical.
 
 ## When should the component be used?
-* To create visual separation between different content or sections.
-* To improve the structure and readability of content.
-* To separate logical groups of elements and clarify the hierarchy of information.
+* To separate logically distinct content or groups of elements.
+* When spacing alone is not enough to clarify the structure.
 
 ## Rules.
-* A divider should be discreet and unobtrusive so as not to disrupt the flow of reading
-* The length and alignment of the divider should be adapted to the surrounding layout and content (horizontal or vertical)
-* Make sure that the divider has sufficient distance from the surrounding elements to fulfil its function as a separating element
+* A divider is discreet and does not disrupt reading. Use it sparingly.
+* It has sufficient distance from the surrounding elements.
+* On dark backgrounds, use the negative variant.
+* A divider is purely visual. The structure of the page comes from headings and sections.

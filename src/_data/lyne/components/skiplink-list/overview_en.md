@@ -1,13 +1,13 @@
 
 ## What does the component do?
-Skip links are navigation aids that allow users to quickly jump to important content on a page, especially for screen reader users and keyboard navigation. The list can contain several links. Only the link that currently has keyboard focus is visible.
+The skiplink list bundles skip links. They let keyboard and screen reader users jump directly to important areas of a page. A skip link only becomes visible when it receives keyboard focus (e.g. via Tab). With several links, only the focused one is visible.
 
 ## When should the component be used?
-* To improve the accessibility of a website.
-* When users need to get quickly to main content, menus or other important areas of the page.
-* To allow users to skip long navigation sections and jump directly to relevant content.
+* On every page with repeating navigation or a header area, so that users can skip it.
+* To jump directly to the main content, menu or other important areas.
 
 ## Rules.
-* Make sure that skip links are placed as the first interactive elements in the DOM so that they are immediately accessible via the keyboard.
-* Use clear and concise labelling for each skip link to clearly identify the target areas.
-* Skip links should allow the user to jump directly to the relevant section of the page without additional content or navigation steps.
+* Place the skiplink list as the first interactive element in the DOM so that it is immediately reachable via keyboard.
+* Label each skip link briefly and clearly according to its target.
+* Each skip link leads directly to its target area.
+* An optional title is visually hidden but read by screen readers.

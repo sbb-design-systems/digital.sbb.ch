@@ -1,12 +1,12 @@
 
 ## Was macht die Komponente?
-Ein Link ist ein interaktives Textelement, das Nutzenden zu einer anderen Seite oder Ressource navigiert.
+Ein Link ist ein interaktives Textelement, das zu einer anderen Seite oder Ressource führt. Es gibt ihn als Block-Link, als Link im Fliesstext und als Variante für Buttons.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um Nutzende zu weiteren Inhalten, Seiten oder externen Ressourcen zu führen.
-* Um Verweise auf verwandte Informationen oder Dokumente bereitzustellen.
-* Um die Navigation innerhalb der Webseite oder Anwendung zu erleichtern.
+* Um auf verwandte Informationen oder Dokumente zu verweisen.
 
 ## Regeln.
-* Verwende beschreibende und aussagekräftige Link-Texte, um den Nutzenden den Zielinhalt verständlich zu machen.
-* Links sollen in einem neuen Tab geöffnet werden, wenn sie zu externen Ressourcen führen.
+* Link-Texte sind beschreibend und aussagekräftig. Sie machen den Zielinhalt verständlich.
+* Ein Link navigiert. Für Aktionen wird ein [Button](/de/design-system/lyne/components/button/) verwendet.
+* Links zu externen Ressourcen werden in einem neuen Tab geöffnet.

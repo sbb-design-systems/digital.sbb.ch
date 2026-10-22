@@ -1,16 +1,16 @@
 
 ## Was macht die Komponente?
-Das Radio-Button-Panel erfüllt die gleiche Aufgabe wie der Radio-Button. Zusätzlich zum normalen Radio-Button bietet das Radio-Button-Panel die Möglichkeit Subtexte, Card-Badges oder Icons darzustellen.
+Das Radio-Button-Panel erfüllt die gleiche Aufgabe wie der [Radio-Button](/de/design-system/lyne/components/radio-button/). Zusätzlich bietet es Platz für Subtext, Card-Badge, Icon oder Suffix.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Wenn Nutzende eine Auswahl aus einer begrenzten Anzahl von Optionen treffen sollen.
-* Wenn nur eine Option aus mehreren möglichen ausgewählt werden darf.
-* Wenn das Radio-Button-Panel besser ins Layout passt als der normale Radiobutton. 
-* Wenn weitere Inhalte (wie Icons, Texte, Card-Badges) nötig sind, bzw. die Möglichkeiten des normalen Radio-Buttons nicht ausreichen um die Auswahl optimal zu beschreiben.
-* Wenn frei wählbarer Inhalt unterhalb des Radio-Button-Panels angezeigt werden soll. Technische Implemenation siehe "Selection-Expansion-Panel".
+* Wenn Nutzende genau eine Option aus einer begrenzten Anzahl von Optionen wählen sollen.
+* Wenn der normale Radio-Button zur Beschreibung der Option nicht ausreicht, z.B. wegen Subtext, Icon oder Card-Badge.
+* Wenn das Panel besser ins Layout passt als der normale Radio-Button.
+* Wenn unterhalb der Option frei wählbarer Inhalt angezeigt werden soll: Radio-Button-Panel mit dem [Selection-Expansion-Panel](/de/design-system/lyne/components/selection-expansion-panel/) kombinieren.
+* Wenn zur Option eine eigene Aktion gehört: Radio-Button-Panel mit dem [Selection-Action-Panel](/de/design-system/lyne/components/selection-action-panel/) kombinieren.
 
 ## Regeln.
-* Radio-Button-Panels sollen in Gruppen (Radio-Button-Group) verwendet werden, um eine klare Auswahlmöglichkeit zu bieten.
-* Jede Option innerhalb einer Gruppe von Radio-Button-Panels soll eindeutig beschriftet und leicht verständlich sein.
-* Vermeide es, zu viele Optionen in einer Radio-Button-Gruppe zu platzieren, um die Übersichtlichkeit zu gewährleisten und die Auswahl zu erleichtern.
-* Vermeide zu viele Inhalte im Radio-Button-Panel um die Lesbarkeit und Übersichtlichkeit zu gewährleisten.
+* Radio-Button-Panels werden in einer [Radio-Button-Group](/de/design-system/lyne/components/radio-button-group/) eingesetzt.
+* Jede Option ist eindeutig beschriftet und leicht verständlich.
+* Vermeide zu viele Optionen in einer Gruppe.
+* Vermeide zu viel Inhalt pro Panel. So bleibt es gut lesbar.

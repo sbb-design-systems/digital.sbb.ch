@@ -1,13 +1,14 @@
 
 ## Was macht die Komponente?
-Ein Popover ist ein kleines Overlay, das zusätzlichen Kontext oder interaktive Inhalte anzeigt, wenn Nutzende auf ein Element klicken oder es fokussieren.
+Ein Popover ist ein kleines [Overlay](/de/design-system/lyne/components/overlay/), das zusätzliche Informationen oder interaktive Inhalte zu einem Element zeigt. Es öffnet sich per Klick oder optional beim Hovern über das Element.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um zusätzliche Informationen oder Aktionen anzuzeigen, ohne die aktuelle Seite zu verlassen.
-* Wenn Nutzende eine detaillierte Erklärung oder erweiterte Optionen zu einem bestimmten Element benötigen.
-* Um kontextabhängige Inhalte übersichtlich und platzsparend darzustellen.
+* Um Icons oder Buttons zu erklären.
+* Um Begriffe zu erläutern oder Entscheidungshilfen zu geben, ohne die Seite zu verlassen.
+* Für reinen, kurzen Text ohne Interaktion ist stattdessen der [Tooltip](/de/design-system/lyne/components/tooltip/) zu verwenden.
 
 ## Regeln.
-* Achte darauf, dass die Inhalte des Popover auf verschiedenen Geräten und Bildschirmgrößen gut funktioniert und bedienbar ist. 
-* Achte darauf, dass der Popover nicht zu viele Informationen oder Elemente enthält, um die Übersichtlichkeit zu gewährleisten
-* Vermeide es, mehrere Popovers gleichzeitig offen zu halten.
+* Der Inhalt ist kurz und funktioniert auf allen Bildschirmgrössen.
+* Es ist immer nur ein Popover gleichzeitig offen.
+* Ein Popover enthält einen Titel (Überschrift Ebene 2), der bei Bedarf visuell versteckt wird.
+* Bei Klick wird ein Schliessen-Button am Anfang des Inhalts platziert. Bei Hover wird kein Schliessen-Button verwendet.

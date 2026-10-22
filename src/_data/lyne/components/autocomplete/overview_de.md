@@ -1,13 +1,15 @@
-
 ## Was macht die Komponente?
-Die Komponente bietet den Nutzenden während der Eingabe Vorschläge an, basierend auf bereits vorhandenen Daten oder vorherigen Eingaben, um die Eingabe zu erleichtern und zu beschleunigen.
+Die Komponente schlägt den Nutzenden während der Eingabe passende Optionen vor, basierend auf vorhandenen Daten oder früheren Eingaben. Optionen können gruppiert werden und neben der Option zusätzliche Aktions-Buttons zeigen, zum Beispiel zum Bearbeiten oder Entfernen.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um die Experience bei der Eingabe von Daten zu verbessern, indem mögliche/erlaubte Eingaben vorgeschlagen werden.
+* Um die Eingabe zu erleichtern und zu beschleunigen, indem mögliche Eingaben vorgeschlagen werden.
 * Um die Genauigkeit und Konsistenz der eingegebenen Daten zu erhöhen.
-* Um die Zeit zu reduzieren, welche die Nutzenden für das Ausfüllen von Formularen benötigen.
+* Wenn zu einer Option eine Aktion nötig ist, zum Beispiel einen Eintrag aus dem Verlauf zu entfernen.
 
 ## Regeln.
-* Die Komponente soll nicht bei kleinen Datensätzen (z.B. nur 10 Einträge/Optionen) verwendet werden.
-* Die Autocomplete-Liste soll nicht zu viele Vorschläge auf einmal anzeigen, um die Übersichtlichkeit zu bewahren (max. 10 Vorschläge).
-* Die Nutzenden sollen die Möglichkeit haben, die Autocomplete-Funktion zu ignorieren und eigene Eingaben zu machen.
+* Bei kleinen Datensätzen ist stattdessen ein [Select](/de/design-system/lyne/components/select/) zu verwenden.
+* Die Liste zeigt nicht zu viele Vorschläge auf einmal (max. 10).
+* Nutzende können die Vorschläge ignorieren und eigene Eingaben machen.
+* Aktions-Buttons gehören zusammen mit der Option in eine Autocomplete-Row. Pro Option sind ein oder mehrere Buttons möglich, nicht alle Optionen brauchen einen.
+* Die Buttons sind nicht per Tab erreichbar, sondern nur mit den Pfeiltasten (rechts/links). Auf ihre Existenz wird mit einer `aria-description` an der Option hingewiesen.
+* In Optionen selbst dürfen keine anderen interaktiven Elemente wie Buttons oder Checkboxen stehen.

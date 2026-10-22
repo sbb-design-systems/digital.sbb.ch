@@ -1,9 +1,10 @@
 
 ## What does the component do?
-It defines the representation of a journey or connection and consists of a start and end destination and an icon in between, which defines the direction (one-way and return journey).
+The journey header is the title of a journey or connection. It shows the start and destination with an icon in between. The icon indicates the direction: one-way or round trip.
 
 ## When should the component be used?
-* In the timetable context, e.g. as the title of a trip.
+* In a timetable context, for example as the title of a travel route.
 
 ## Rules.
-* Make sure that the semantic level is set correctly so that SEO is guaranteed.
+* The semantic level (`level`) matches the heading structure of the page. The display can be adjusted independently via `visual-level`.
+* The connection is described automatically for screen readers, for example "Connection from A to B".

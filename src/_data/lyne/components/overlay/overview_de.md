@@ -1,10 +1,11 @@
-
 ## Was macht die Komponente?
-Ein Overlay ist eine View, die den Hintergrund ausblendet oder abdunkelt, um den Fokus auf ein wichtiges Element wie ein Formular zu lenken.
+Ein Overlay zeigt Inhalte über der Applikation, z.B. ein Formular oder eine Detailansicht. Die Seite dahinter ist nicht bedienbar und scrollt nicht. Es hat einen immer sichtbaren Schliessen-Button und kann die volle Seitenbreite einnehmen (expanded).
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um die Aufmerksamkeit der Nutzenden auf ein wichtiges Element zu lenken (z.B. Formular).
+* Um die Aufmerksamkeit auf umfangreiche Inhalte oder eine Aufgabe zu lenken, z.B. ein Formular.
+* Für kleinere, kurze Interaktionen (z.B. Bestätigungen) ist stattdessen der [Dialog](/de/design-system/lyne/components/dialog/) zu verwenden.
 
 ## Regeln.
-* Der Hintergrund des Overlay kann halbtransparent oder deckend dargestellt werden. Die halbtransparente Variante eignet sich, wenn Hintergrundinformationen für die Nutzenden wichtig sind um beispielsweise die Orientierung zu gewährleisten.
-* Stelle sicher, dass das Overlay keine wichtigen Hintergrundinformationen verdeckt, die für Nutzende notwendig sein könnten.
+* Das Overlay hat immer eine Möglichkeit zum Schliessen: Schliessen-Button, Esc oder eine Aktion im Inhalt.
+* Der Inhalt braucht einen verständlichen Titel.
+* Beim Schliessen kehrt der Fokus zum auslösenden Element zurück.

@@ -3,7 +3,7 @@ permalink: /llms.txt
 eleventyExcludeFromCollections: true
 ---
 {%- set site = "https://digital.sbb.ch" -%}
-{%- set components = lyne.components | sortLyneComponentsByOrder -%}
+{%- set components = lyne.components | sortComponentsByName -%}
 # digital.sbb.ch – SBB Design Systems
 
 > Official guidelines of SBB (Swiss Federal Railways) for digital products: UX principles, foundations, accessibility and the design systems for websites and apps. The web design system is called Lyne and is implemented as web components (`@sbb-esta/lyne-elements`) with an Angular wrapper (`@sbb-esta/lyne-angular`).

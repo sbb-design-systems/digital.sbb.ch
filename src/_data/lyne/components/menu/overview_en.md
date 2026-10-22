@@ -1,13 +1,16 @@
 
 ## What does the component do?
-A menu shows context-dependent actions or options for a defined element. It can be called up by another interactive element like e.g. a button. 
+A menu shows context-dependent actions or links for a specific element. It is opened by another element, e.g. a [button](/en/design-system/lyne/components/button/). On small screens it appears as a sheet, on large screens as a floating menu.
 
 ## When should the component be used?
-* To provide users with quick access to frequently used actions or options that are relevant for a specific element.
-* When compact and contextualised navigation is required.
-* To increase usability by providing additional options directly at the point of action.
+* To offer actions or links that belong to a specific element or content.
+* To save space for actions that are needed less often.
+* As a simple selection, e.g. for the language.
 
 ## Rules.
-* Menu options should be clearly labelled and easy to understand.
-* Make sure that the menu options are logically grouped and arranged in a useful order.
-* Avoid too many options in a context menu to ensure clarity and not overwhelm users.
+* Menu items have short labels, are logically grouped and sensibly ordered.
+* A menu contains only a few items.
+* Actions are buttons, references are links.
+* Submenus are possible but should be used sparingly.
+* If the menu is used as a selection, the active item must also be recognisable for screen readers (`aria-pressed`).
+* A [badge](/en/design-system/lyne/components/badge/) on an item needs a text alternative for screen readers.

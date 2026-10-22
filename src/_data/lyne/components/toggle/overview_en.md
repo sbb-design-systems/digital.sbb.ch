@@ -1,11 +1,10 @@
-
 ## What does the component do?
-A toggle enables users to switch between two states, e.g. "Off" and "On".
+A toggle consists of two options that users switch between to change the view of the content, e.g. "List" and "Map".
 
 ## When should the component be used?
-* To provide a quick and easy way to activate or deactivate a function.
-* When users need to change a setting that has an immediate effect.
-* To present binary options clearly and intuitively.
+* To switch between equivalent views of the same content.
 
 ## Rules.
-* Avoid placing too many toggles on a page to ensure clarity and maintain usability.
+* The options are labelled briefly, with text, icon or both.
+* Exactly one option is always selected.
+* For on/off settings, use the [toggle check](/en/design-system/lyne/components/toggle-check/); for navigation, use [tabs](/en/design-system/lyne/components/tabs/).

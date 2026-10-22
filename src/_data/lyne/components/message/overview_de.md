@@ -1,11 +1,12 @@
 
 ## Was macht die Komponente?
-Eine Message ist eine Benachrichtigung, die Nutzende über Informationen, Erfolge, Fehler oder andere Ereignisse in der Anwendung informiert. Im Unterschied zur Notification hat sie keinen Status und keine Möglichkeit sich selbst auszublenden. Sie ist ins Layout integriert und eignet sich insbesondere für Hinweise innerhalb von Listen. 
+Eine Message zeigt eine Meldung im Seitenlayout, z.B. einen Hinweis, einen Fehler oder einen leeren Zustand. Sie besteht aus einem Titel und optional Untertitel, Bild, Fehlercode und einer Aktion. Im Unterschied zur [Notification](/de/design-system/lyne/components/notification/) hat sie keinen Typ und kann sich nicht selbst ausblenden.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzende über Aktionen zu informieren, z.B. Erfolgs- oder Fehlermeldungen.
-* Im Gegensatz zur Alert- oder Notification-Komponente erzeugt es weniger Aufmerksamkeit.
-* Es eignet sich beispielsweise gut für Meldungen in leeren Listen.
+* Für Meldungen, die Teil des Inhalts sind, z.B. in leeren Listen oder bei Fehlern beim Laden von Inhalten.
+* Wenn die Meldung weniger Aufmerksamkeit erzeugen soll als [Alert](/de/design-system/lyne/components/alert/) oder Notification.
 
 ## Regeln.
-* Die Message ist in das Layout zu integrieren und soll nicht wie die Alert- oder Notification-Komponente platziert werden.
+* Die Message wird ins Layout integriert und nicht wie Alert oder Notification platziert.
+* Titel und Text sagen klar, was passiert ist und was Nutzende tun können.
+* Eine Aktion (z.B. «Erneut versuchen») ist optional.

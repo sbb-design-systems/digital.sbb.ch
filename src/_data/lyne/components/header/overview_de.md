@@ -1,14 +1,15 @@
 
 ## Was macht die Komponente?
-Der Header ist der obere Abschnitt einer Webseite oder Applikation, der wichtige Navigationselemente enthält, um Nutzenden den Zugang zu den Hauptbereichen der Seite oder Applikation zu erleichtern.
+Der Header ist der obere Abschnitt einer Seite oder Applikation. Er enthält Logo, Aktionen und die Hauptnavigation. So finden Nutzende schnell zu den Hauptbereichen.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Auf jeder Seite einer Website, um eine konsistente Navigation und Markenpräsenz zu gewährleisten.
-* Um Hauptnavigationselemente, Logo, Suchfunktionen und wichtige Links sichtbar und leicht zugänglich zu machen.
-* Um die Benutzerfreundlichkeit und Orientierung auf der Webseite zu verbessern.
+* Um Logo, Hauptnavigation, Suche und wichtige Links sichtbar und leicht zugänglich zu machen.
 
 ## Regeln.
-* Navigationselemente sollen logisch gruppiert und beschriftet sein, um eine einfache Navigation zu ermöglichen. Sie haben immer ein Icon (links vom Label) platziert.
-* Wird ein Hamburger-Menu platziert, so wird es immer als erstes und links dargestellt.
-* Der Header soll eine Suchfunktion enthalten, wenn die Website umfangreiche Inhalte bietet.
-* Vermeide zu viele Elemente im Header, um die Übersichtlichkeit und das Responsive Verhalten nicht zu beeinträchtigen.
+* Navigationselemente sind logisch gruppiert und beschriftet. Sie haben immer ein Icon links vom Label.
+* Ein Hamburger-Menü steht immer zuerst und links.
+* Bei umfangreichen Inhalten enthält der Header eine Suchfunktion.
+* Der Header enthält nur wenige Elemente, damit Übersicht und Responsive-Verhalten nicht leiden.
+* Beim Scrollen erscheint ein Schatten unter dem Header. Scrollt nicht die Seite, sondern nur ein Inhaltsbereich (z. B. mit [Sidebar](/de/design-system/lyne/components/sidebar/) oder [Icon-Sidebar](/de/design-system/lyne/components/icon-sidebar/)), muss dieser Bereich als `scroll-origin` gesetzt werden.
+* Damit fokussierte Elemente nicht hinter dem Header verschwinden, wird `scroll-padding-top` auf der Seite gesetzt.

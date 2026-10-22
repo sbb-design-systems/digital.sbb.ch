@@ -1,14 +1,13 @@
 
 ## Was macht die Komponente?
-Der Footer ist der untere Abschnitt einer Webseite, der wichtige Informationen und Elemente enthält, die Nutzenden helfen, zusätzliche Inhalte oder rechtliche Hinweise zu finden. Die Inhalte bestehen üblicherweise aus Link-Lists. In der Variante «clock-columns» werden sie in Spalten angeordnet.
+Der Footer ist der untere Abschnitt einer Seite. Er enthält Links zu weiterführenden Inhalten, rechtliche Hinweise und Kontaktinformationen. Die Inhalte bestehen üblicherweise aus [Link-Lists](/de/design-system/lyne/components/link-list/). In der Variante «clock-columns» werden sie in Spalten angeordnet.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Auf jeder Seite einer Website, um konsistente Informationen und Navigation bereitzustellen.
-* Um Kontaktinformationen, rechtliche Hinweise, Links anzuzeigen.
-* Um die Benutzerfreundlichkeit zu erhöhen, indem wichtige Links und Informationen leicht zugänglich gemacht werden.
+* Um Kontaktinformationen, rechtliche Hinweise und weiterführende Links anzubieten.
 
 ## Regeln.
-
-* Der Inhalt des Footers soll relevante und wichtige Informationen enthalten, wie z.B. Impressum, Datenschutzrichtlinien, Kontaktinformationen und Links
-* Achte darauf, dass der Footer nicht überladen ist und die wichtigsten Informationen leicht zu finden sind
+* Der Footer enthält nur relevante Informationen, zum Beispiel Impressum, Datenschutz und Kontakt.
+* Der Footer soll nicht überladen sein. Die wichtigsten Informationen sind leicht zu finden.
 * Die SBB Uhr ist fixer Bestandteil des Footers und darf nur für interne Anwendungen entfernt werden.
+* Der Footer braucht einen Titel für Screenreader (`accessibility-title`). Er ist visuell nicht sichtbar.

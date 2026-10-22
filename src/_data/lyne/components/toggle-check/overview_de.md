@@ -1,12 +1,11 @@
 
 ## Was macht die Komponente?
-Ein Check-Toggle ermöglicht es Nutzenden, zwischen zwei Zuständen zu wechseln (in der Regel "ein" und "aus" oder "gewählt" und "nicht gewählt") und verhält sich identisch wie eine Checkbox.
+Ein Toggle-Check schaltet zwischen zwei Zuständen um, z.B. "ein" und "aus". Er verhält sich wie eine [Checkbox](/de/design-system/lyne/components/checkbox/).
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um eine schnelle und einfache Möglichkeit zur Aktivierung oder Deaktivierung einer Funktion bereitzustellen.
-* Wenn Nutzende eine Einstellung ändern sollen, die sofortige Auswirkungen hat.
-* Um binäre Optionen klar und intuitiv darzustellen.
+* Um eine Funktion oder Einstellung ein- oder auszuschalten, die sofort wirkt.
 
 ## Regeln.
-* Vermeide es, zu viele Check-Toggles auf einer Seite zu platzieren, um die Übersichtlichkeit zu gewährleisten und die Benutzerfreundlichkeit zu erhalten.
-* Es ist sorgfältig abzuwägen welcher der beiden Komponenten (Checkbox und Check-Toggle) besser geeignet ist.
+* Für Auswahlen in Formularen, die erst nach dem Absenden gelten, die Checkbox verwenden.
+* Der Toggle-Check braucht ein Label. Ohne sichtbares Label ein `aria-label` setzen.
+* Keine weiteren interaktiven Elemente im Label platzieren.

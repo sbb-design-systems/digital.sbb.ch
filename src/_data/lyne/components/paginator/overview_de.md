@@ -1,10 +1,12 @@
 
 ## Was macht die Komponente?
-Die Paginator-Komponente ermöglicht die Navigation durch grosse Mengen von Inhalten, indem sie die Inhalte in mehrere Seiten unterteilt. Sie zeigt Nutzenden an, auf welcher Seite sie sich befinden, und bietet Steuerungselemente zum Wechseln zwischen den Seiten.
+Der Paginator unterteilt grosse Inhaltsmengen, z.B. Tabellen oder Listen, in Seiten. Er zeigt die aktuelle Seite an und bietet Steuerelemente zum Wechseln. Optional können Nutzende die Anzahl Einträge pro Seite ändern. Eine kompakte Variante (Compact-Paginator) zeigt nur die aktuelle Seite und die Gesamtzahl.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Wenn eine große Anzahl von Einträgen oder Inhalten effizient verwaltet werden muss.
+* Wenn viele Einträge in Seiten aufgeteilt werden sollen.
 * Wenn eine Alternative zu unendlichem Scrollen benötigt wird.
 
 ## Regeln.
-* Bei geringer Anzahl von Seiten kann eine alternative Lösung wie "Mehr laden" anstelle eines Paginators in Betracht gezogen werden.
+* Bei wenigen Seiten ist «Mehr laden» meist die bessere Lösung.
+* Bei wenig Platz, z.B. auf kleinen Bildschirmen, wird der Compact-Paginator verwendet.
+* Der Paginator braucht eine Beschriftung für Screenreader (`aria-label`), die beschreibt, was er steuert.

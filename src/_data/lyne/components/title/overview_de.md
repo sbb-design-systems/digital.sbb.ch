@@ -1,13 +1,13 @@
 
 ## Was macht die Komponente?
-Eine Title-Komponente dient dazu, Überschriften und Titel in verschiedenen Größen und Hierarchiestufen darzustellen, um Inhalte strukturiert und übersichtlich zu präsentieren.
+Die Title-Komponente stellt Überschriften in sechs Hierarchiestufen (H1–H6) dar und gliedert Inhalte klar.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um die Hauptüberschrift einer Seite oder eines Abschnitts hervorzuheben.
-* Um die Struktur und Hierarchie von Inhalten klar und verständlich darzustellen.
-* Um die Aufmerksamkeit der Nutzenden auf wichtige Informationen oder Themen zu lenken.
+* Für die Hauptüberschrift einer Seite oder eines Abschnitts.
+* Um die Struktur und Hierarchie von Inhalten abzubilden.
 
 ## Regeln.
-* Verwende die Title-Komponente in verschiedenen Hierarchiestufen (z.B. H1, H2, H3), um eine klare Struktur und Lesbarkeit zu gewährleisten.
-* Achte darauf, dass Titel semantisch korrekt eingesetzt werden, um die Barrierefreiheit und Suchmaschinenoptimierung (SEO) zu verbessern.
-* Vermeide zu viele Titel auf einer Seite, um die Übersichtlichkeit zu gewährleisten.
+* Die Stufe (`level`) richtet sich nach der Struktur der Seite, nicht nach der gewünschten Grösse. Keine Stufen überspringen, pro Seite nur eine H1.
+* Weicht die Darstellung von der Semantik ab, wird die optische Grösse mit `visualLevel` gesetzt.
+* Auf dunklem Hintergrund die negative Variante verwenden.
+* Zu viele Titel auf einer Seite vermeiden.

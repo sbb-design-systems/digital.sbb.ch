@@ -17,11 +17,11 @@
                         {% if showHiddenComponents and (entry.config.showInFirstLevel != true) %}
                             <sbb-chip-label color="white">{{ "Entwurf" if entry.config.released == false else "Ausgeblendet" }}</sbb-chip-label>
                         {% endif %}
-                        {% if (entry.config.system == "lyne") and lyne.catalog.groups[component].experimental %}
-                            <sbb-chip-label color="charcoal">Experimental</sbb-chip-label>
-                        {% endif %}
                     </div>
                 </div>
+                {% if (entry.config.system == "lyne") and lyne.catalog.groups[component].experimental %}
+                    <div class="experimental-chip"><sbb-chip-label color="charcoal">Experimental</sbb-chip-label></div>
+                {% endif %}
                 {# Lyne zeigt den Status auf der Detailseite (component/lyne-status.njk), nicht in der Übersicht #}
                 {% if entry.config.system != "lyne" %}{% include "./partial-status.njk" %}{% endif %}
                 {% if layout == "overview.njk" and system == "mobile" and entry.config.image.length %}

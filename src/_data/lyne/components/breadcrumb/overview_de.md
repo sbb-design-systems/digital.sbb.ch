@@ -1,14 +1,13 @@
-
 ## Was macht die Komponente?
-Eine Breadcrumb-Group ist eine Navigationshilfe, die Nutzenden zeigen, wo sie sich innerhalb der Hierarchie einer Website befinden, und ermöglicht das einfache Zurückspringen zu übergeordneten Seiten.
+Eine Breadcrumb-Group ist eine Navigationshilfe. Sie zeigt den Nutzenden, wo sie sich in der Hierarchie einer Website befinden, und ermöglicht den Sprung zu übergeordneten Seiten.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um dem Nutzenden den aktuellen Standort innerhalb der Website-Struktur zu verdeutlichen.
-* Um eine einfache Navigation zwischen den Ebenen der Website zu ermöglichen.
-* Um die Usability auf Seiten mit tiefen Hierarchien zu verbessern.
+* Um den aktuellen Standort innerhalb der Website-Struktur zu verdeutlichen.
+* Um die Navigation auf Seiten mit tiefen Hierarchien zu erleichtern.
 
 ## Regeln.
-* Eine Breadcrumb-Group soll immer von der Startseite ausgehen und den vollständigen Pfad bis zur aktuellen Seite anzeigen
-* Die einzelnen Ebenen in der Breadcrumb-Group sollen klar und verständlich beschriftet sein
-* Eine Breadcrumb-Group soll nicht mehr als 5-7 Ebenen anzeigen, um die Übersichtlichkeit zu bewahren
+* Die Breadcrumb-Group beginnt immer bei der Startseite und zeigt den vollständigen Pfad bis zur aktuellen Seite.
+* Die Ebenen sind klar und verständlich beschriftet.
+* Sie zeigt nicht mehr als 5–7 Ebenen. Bei zu wenig Platz werden nur die erste und die letzte Ebene angezeigt, dazwischen steht «…». Ein Klick darauf zeigt wieder alle Ebenen.
 * Die erste Ebene (Startseite) wird nur mit einem Icon dargestellt.
+* Die Breadcrumb-Group braucht ein `aria-label`, das ihren Kontext beschreibt. Die aktuelle Seite wird automatisch für Screenreader markiert.

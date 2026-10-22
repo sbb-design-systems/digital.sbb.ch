@@ -1,11 +1,14 @@
 
 ## What does the component do?
-The navigation component displays a list of navigation links that help users to navigate through the various areas of a website or application. This is displayed as an overlay and is hidden behind a hamburger menu.
+The navigation displays navigation links as a modal overlay. It is opened via a hamburger icon. It can contain a second level (sections).
 
 ## When should the component be used?
-* To provide users with a clear and accessible way to navigate through the website or application.
-* When compact navigation is required.
+* For the main navigation of a website or application.
+* When the navigation should not be permanently visible.
 
 ## Rules.
-* The navigation should be hidden behind a hamburger icon and placed as the first element in the header.
-* The navigation links should be logically grouped and arranged in a sensible order.
+* The hamburger icon is the first element in the [header](/en/design-system/lyne/components/header/).
+* Links are logically grouped and sensibly ordered.
+* Use the second level only when needed.
+* The current page is marked and, for screen readers, set with `aria-current="page"` (`accessibility-current` for links).
+* While open, the rest of the page cannot be operated and does not scroll.

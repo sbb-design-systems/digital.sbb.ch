@@ -1,16 +1,17 @@
 
 ## Was macht die Komponente?
-Ein Bild (Image) ist eine visuelle Darstellung, die verwendet wird, um Inhalte zu illustrieren, visuelle Informationen zu vermitteln oder das Design zu bereichern.
+Die Image-Komponente zeigt ein Bild. Sie lädt Bilder vorzugsweise vom SBB Image CDN und liefert sie in passender Grösse für das jeweilige Gerät aus.
 
 ## Wann soll die Komponente eingesetzt werden?
 * Um Inhalte visuell zu unterstützen und zu ergänzen.
 * Um komplexe Informationen oder Daten grafisch darzustellen.
-* Um das visuelle Erscheinungsbild der Webseite oder Anwendung zu verbessern.
-* Um Benutzeremotionen zu wecken oder eine bestimmte Stimmung zu erzeugen.
+* Um eine Stimmung zu erzeugen.
 
 ## Regeln.
-* Bilder sollen in hoher Qualität und angemessener Auflösung verwendet werden, um ein klares und professionelles Erscheinungsbild zu gewährleisten.
-* Verwende beschreibende Alt-Texte für Bilder, um die Barrierefreiheit zu gewährleisten und sicherzustellen, dass die Informationen auch für Screenreader zugänglich sind.
-* Achte darauf, dass Bilder responsive sind und auf verschiedenen Geräten und Bildschirmgrössen gut dargestellt werden.
-* Vermeide übermässigen Einsatz von Bildern, um die Ladezeiten der Webseite nicht unnötig zu verlängern.
-* Stelle sicher, dass die Bildrechte geklärt sind und keine Urheberrechte verletzt werden.
+* Bilder haben eine hohe Qualität und eine angemessene Auflösung.
+* Informative Bilder haben einen beschreibenden Alt-Text. Dekorative Bilder haben einen leeren Alt-Text oder werden für Screenreader ausgeblendet.
+* Bilder sind responsive und passen sich verschiedenen Bildschirmgrössen an.
+* Bilder ausserhalb des sichtbaren Bereichs werden verzögert geladen (Lazy Loading), um die Ladezeit zu verkürzen.
+* Ein Bild mit Beschriftung oder Chip-Label wird zusammen in einem `figure`-Element platziert.
+* Für Seitenverhältnis und Eckenradius werden die vordefinierten Utility-Klassen verwendet.
+* Die Bildrechte müssen geklärt sein.

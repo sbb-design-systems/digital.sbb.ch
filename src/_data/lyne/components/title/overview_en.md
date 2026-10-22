@@ -1,13 +1,13 @@
 
 ## What does the component do?
-A title component is used to display headings and titles in different sizes and hierarchy levels in order to present content in a structured and clear manner.
+The title component displays headings in six hierarchy levels (H1–H6) and structures content clearly.
 
 ## When should the component be used?
-* To highlight the main heading of a page or section.
-* To present the structure and hierarchy of content clearly and comprehensibly.
-* To draw the user's attention to important information or topics.
+* For the main heading of a page or section.
+* To represent the structure and hierarchy of content.
 
 ## Rules.
-* Use the title component in different hierarchy levels (e.g. H1, H2, H3) to ensure a clear structure and readability.
-* Make sure that titles are used semantically correctly to improve accessibility and search engine optimisation (SEO).
-* Avoid too many titles on a page to ensure clarity.
+* The level (`level`) follows the structure of the page, not the desired size. Do not skip levels; use only one H1 per page.
+* If the appearance differs from the semantics, set the visual size with `visualLevel`.
+* Use the negative variant on dark backgrounds.
+* Avoid too many titles on a page.

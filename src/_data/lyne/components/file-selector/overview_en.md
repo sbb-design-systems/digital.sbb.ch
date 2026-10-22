@@ -1,12 +1,14 @@
-
 ## What does the component do?
-A file selector is a component that allows users to select and upload files from their device.
+With the file selector, users select one or more files from their device. The selected files appear in a list with name and size and can be removed again. There are two variants: button and dropzone. In the dropzone, files can be dropped by drag and drop.
 
 ## When should the component be used?
-* To allow users to upload files, such as documents, images or videos.
+* To attach files such as documents, images or videos.
 * To complete forms that require file attachments.
-* To collect files for storage, processing or sharing.
 
 ## Rules.
-* Users should be able to remove files.
-* The progress of the file upload can be displayed to users, especially for larger files.
+* The dropzone suits several or large files, the button suits single files and limited space.
+* Permitted file types are restricted and communicated to users.
+* It is clear whether several files are possible.
+* Errors (e.g. wrong file type) are shown with an understandable error message.
+* The component only selects. Uploading and any progress display are handled by the application.
+* A custom accessibility label tells button and dropzone apart for screen readers.

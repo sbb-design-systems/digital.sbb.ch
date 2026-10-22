@@ -1,11 +1,12 @@
 ## Was macht die Komponente?
-Eine Alert-Komponente ist ein visuelles Element, das wichtige Informationen oder Warnungen an die Nutzenden kommuniziert. Ein Alert kann schliessbar sein. Dann erscheint ein Button zum Schliessen.
+Ein Alert zeigt wichtige Informationen oder Warnungen an die Nutzenden. Standardmässig kann er geschlossen werden. Er kann auch als nicht schliessbar (readonly) dargestellt werden.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um die Nutzende über kritische Fehler, Warnungen oder wichtige Informationen zu informieren.
-* Um sofortige Aufmerksamkeit auf kritische Nachrichten zu lenken.
+* Um über kritische Fehler, Warnungen oder wichtige Informationen zu informieren.
+* Um sofort Aufmerksamkeit auf kritische Nachrichten zu lenken.
 
 ## Regeln.
-* Ein Alert soll eine klare und prägnante Nachricht enthalten
-* Alerts und Notifications sollten nicht kombiniert werden.
-* Alert sollen nicht für Fehlermeldungen in Formularen eingesetzt werden.
+* Ein Alert enthält einen Titel und eine klare, prägnante Nachricht.
+* Alerts werden in einer Alert-Group platziert. Sie steuert Abstände und Barrierefreiheit (neue Alerts werden von Screenreadern angekündigt).
+* Alerts und [Notifications](/de/design-system/lyne/components/notification/) werden nicht kombiniert.
+* Alerts werden nicht für Fehlermeldungen in Formularen eingesetzt.

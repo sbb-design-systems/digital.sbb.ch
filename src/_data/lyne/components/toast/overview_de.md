@@ -1,13 +1,14 @@
-
 ## Was macht die Komponente?
-Ein Toast ist eine kurzfristige Benachrichtigung, die am Rand des Bildschirms erscheint, um Nutzende über bestimmte Ereignisse, Erfolge oder Fehler zu informieren.
+Ein Toast ist eine kurze Benachrichtigung am Bildschirmrand. Er informiert über Ereignisse oder das Ergebnis einer Aktion, ohne den Ablauf zu unterbrechen.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzende über den erfolgreichen Abschluss einer Aktion zu informieren.
-* Um temporäre Informationen oder Hinweise anzuzeigen, die keine Benutzerinteraktion erfordern.
-* Um Fehler oder Warnungen schnell mitzuteilen.
+* Um den erfolgreichen Abschluss einer Aktion zu bestätigen.
+* Für temporäre Hinweise, die keine zwingende Interaktion erfordern.
 
 ## Regeln.
-* Toasts sollen klar und prägnant formuliert sein, um die Nachricht schnell zu übermitteln.
-* Toasts sollen innerhlab einer Webseite oder Applikation an einer konsistenten Position auf dem Bildschirm erscheinen.
-* Toasts sollen nach einer angemessenen Zeit automatisch verschwinden oder manuell geschlossen werden können.
+* Der Text ist kurz und prägnant.
+* Es kann nur ein Toast gleichzeitig angezeigt werden. Ein neuer Toast ersetzt den vorherigen.
+* Wichtige Informationen, z.B. Fehler, gehören nicht nur in einen Toast, da dieser verschwinden kann und für Screenreader-Nutzende belastend ist.
+* Aktionen im Toast sind schwer erreichbar. Biete die Aktion zusätzlich an anderer Stelle an.
+* Bei Toasts mit Aktion keinen Timeout setzen. Sonst Timeout sinnvoll wählen oder manuelles Schliessen erlauben.
+* Toasts erscheinen innerhalb einer Applikation immer an derselben Position.

@@ -1,14 +1,12 @@
 ## Was macht die Komponente?
-Eine Action-Group ist eine Gruppe von Elementen wie Buttons und Links, die zusammen angeordnet werden, um verwandte Aktionen zu bündeln und eine einheitliche Bedienung zu ermöglichen.
+Eine Action-Group ordnet [Buttons](/de/design-system/lyne/components/button/) und [Links](/de/design-system/lyne/components/link/) zusammen an. So werden verwandte Aktionen gebündelt und einheitlich dargestellt.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um mehrere zusammenhängende Aktionen kompakt und übersichtlich darzustellen.
-* Um die Benutzerführung zu verbessern, indem verwandte Aktionen gruppiert werden.
-* Um Platz zu sparen und die Informationsarchitektur zu optimieren.
+* Um mehrere zusammengehörige Aktionen kompakt und übersichtlich darzustellen.
+* Um verwandte Aktionen für die Benutzerführung zu gruppieren.
 
 ## Regeln.
-* Eine Action-Group soll aus mindestens zwei und maximal drei Elementen bestehen.
-* Die Anordnung der Elemente innerhalb der Action-Group soll sich harmonisch in das Gesamtdesign der Seite einfügen.
-* Die Reihenfolge der Elementen soll logisch und benutzerfreundlich sein. Aktionen die den Prozess fortführen werden eher rechts dargestellt, Aktionen wie "Zurück" oder "Abbrechen" werden eher links dargestellt.
-* Es soll nur ein Primary-Button eingesetzt werden.
-* Erlaubt sind alle Button- und Link-Varianten.
+* Die Reihenfolge ist logisch: Aktionen, die den Prozess fortführen, stehen rechts. Aktionen wie «Zurück» oder «Abbrechen» stehen links.
+* Es gibt nur einen Primary-Button.
+* Erlaubt sind Buttons und Block-Links in allen Varianten.
+* Auf kleinen Bildschirmen können die Elemente untereinander und in voller Breite angeordnet werden.

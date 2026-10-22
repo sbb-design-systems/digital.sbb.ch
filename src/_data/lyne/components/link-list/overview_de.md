@@ -1,14 +1,14 @@
 
 ## Was macht die Komponente?
-Eine Link-Liste ist eine Sammlung von Links, die zusammengefasst und strukturiert präsentiert werden, um Nutzenden den Zugang zu verwandten Inhalten oder wichtigen Bereichen einer Webseite zu erleichtern.
+Eine Link-List ist eine strukturierte Sammlung von Links zu verwandten Inhalten oder wichtigen Bereichen einer Website. Sie hat einen optionalen Titel.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um eine Übersicht von verwandten oder thematisch geordneten Links bereitzustellen.
-* Um wichtige Navigationspunkte oder Ressourcensammlungen strukturiert anzuzeigen.
-* Um Nutzenden schnellen Zugang zu häufig verwendeten Links oder Inhalten zu bieten.
+* Um verwandte oder thematisch geordnete Links zu zeigen.
+* Um wichtige Navigationspunkte oder Ressourcen strukturiert anzubieten, zum Beispiel im Footer.
 
 ## Regeln.
-* Verwende beschreibende und aussagekräftige Link-Texte, um den Zielinhalt verständlich zu machen.
-* Achte darauf, dass die Links in der Liste logisch gruppiert und thematisch geordnet sind.
-* Verwende konsistente Stile und Verhaltensweisen für Links innerhalb der Link-Liste.
-* Vermeide es, zu viele Links in einer Liste zu platzieren, um Überladenheit zu vermeiden und die Übersichtlichkeit zu gewährleisten.
+* Die Link-Texte sind beschreibend und aussagekräftig.
+* Die Links sind thematisch geordnet.
+* Die Liste enthält nur wenige Links, damit sie übersichtlich bleibt.
+* Die Liste ist standardmässig vertikal. Ab einem wählbaren Breakpoint kann sie horizontal dargestellt werden. Horizontal wird der Titel nicht angezeigt.
+* Für Sprünge innerhalb der aktuellen Seite wird die [Link-List-Anchor](/de/design-system/lyne/components/link-list-anchor/) verwendet.

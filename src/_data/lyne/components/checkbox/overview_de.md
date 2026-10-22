@@ -1,13 +1,14 @@
 
 ## Was macht die Komponente?
-Eine Checkbox ist ein Auswahlfeld, das es Nutzenden ermöglicht, eine oder mehrere Optionen aus einer Liste auszuwählen oder abzuwählen.
+Eine Checkbox ist ein Auswahlfeld. Nutzende wählen damit eine oder mehrere Optionen aus oder ab.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzenden die Möglichkeit zu geben, mehrere unabhängige Optionen auszuwählen.
-* Um eine Ja/Nein- oder Ein/Aus-Auswahl anzubieten.
-* Um Zustimmungen oder Bedingungen zu bestätigen (z.B. Newsletter-Anmeldung).
+* Um mehrere unabhängige Optionen auszuwählen.
+* Um eine Ja/Nein-Auswahl anzubieten, zum Beispiel eine Zustimmung wie die Newsletter-Anmeldung.
+* Um eine Gruppe abhängiger Optionen mit einer übergeordneten Checkbox zu steuern. Sind nur einige Optionen gewählt, zeigt diese den Zustand «teilweise».
 
 ## Regeln.
-* Jede Checkbox soll klar beschriftet sein und die Option eindeutig benennen.
-* Gruppen von Checkboxes sollen logisch zusammengefasst werden.
-* Vermeide zu viele Optionen in einer Gruppe, um die Übersichtlichkeit zu bewahren (max. 5-7 Optionen).
+* Jede Checkbox ist klar beschriftet und benennt die Option eindeutig.
+* Zusammengehörige Checkboxes werden gruppiert. Eine Gruppe enthält nicht zu viele Optionen (maximal 5–7).
+* Das Label enthält keine weiteren interaktiven Elemente.
+* Ohne sichtbaren Text braucht die Checkbox ein `aria-label`.

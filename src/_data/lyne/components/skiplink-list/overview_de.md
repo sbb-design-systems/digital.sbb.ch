@@ -1,13 +1,13 @@
 
 ## Was macht die Komponente?
-Skip-Links sind Navigationshilfen, die es Nutzenden ermöglichen, schnell zu wichtigen Inhalten auf einer Seite zu springen, insbesondere für Screenreader-Nutzende und Tastaturnavigation. Die Liste kann mehrere Links enthalten. Sichtbar ist jeweils nur der Link, der gerade per Tastatur fokussiert ist.
+Die Skiplink-List bündelt Skip-Links. Mit ihnen springen Tastatur- und Screenreader-Nutzende direkt zu wichtigen Bereichen einer Seite. Ein Skip-Link ist erst sichtbar, wenn er per Tastatur (z.B. Tab) fokussiert wird. Bei mehreren Links ist nur der fokussierte sichtbar.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um die Barrierefreiheit einer Webseite zu verbessern.
-* Wenn Nutzende schnell zu Hauptinhalten, Menüs oder anderen wichtigen Bereichen der Seite gelangen sollen.
-* Um Nutzenden die Möglichkeit zu geben, lange Navigationsabschnitte zu überspringen und direkt zu relevanten Inhalten zu springen.
+* Auf jeder Seite mit wiederkehrender Navigation oder Kopfbereich, damit Nutzende diese überspringen können.
+* Um direkt zu Hauptinhalt, Menü oder anderen wichtigen Bereichen zu springen.
 
 ## Regeln.
-* Achte darauf, dass Skip-Links als erste interaktive Elemente im DOM platziert werden, damit sie sofort über die Tastatur erreichbar sind.
-* Verwende eine klare und prägnante Beschriftung für jeden Skip-Link, um die Zielbereiche eindeutig zu kennzeichnen.
-* Skip-Links sollen den Nutzenden direkt zu dem entsprechenden Abschnitt der Seite springen lassen, ohne zusätzlichen Inhalt oder Navigationsschritte.
+* Platziere die Skiplink-List als erstes interaktives Element im DOM, damit sie sofort per Tastatur erreichbar ist.
+* Beschrifte jeden Skip-Link kurz und eindeutig nach seinem Ziel.
+* Jeder Skip-Link führt direkt zum Zielbereich.
+* Ein optionaler Titel ist visuell versteckt, wird aber von Screenreadern vorgelesen.

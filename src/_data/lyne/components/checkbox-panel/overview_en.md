@@ -1,17 +1,14 @@
-
 ## What does the component do?
-The Checkbox-Panel has the same function as the Checkbox. In addition to the normal Checkbox, the Checkbox-Panel offers the option of displaying subtexts, Card-Badges or Icons.
+The checkbox panel has the same function as the [checkbox](/en/design-system/lyne/components/checkbox/). In addition, it can display subtexts, card badges or icons.
 
 ## When should the component be used?
-* To allow users to select multiple independent options.
-* To offer a yes/no or on/off selection.
-* To confirm consents or conditions (e.g. newsletter subscription).
-* If the Checkbox-Panel fits better into the layout than the normal Checkbox. 
-* If further content (such as icons, texts, card badges) is required or the options of the normal checkbox are not enough to optimally describe the selection.
-* If content of your choice is to be displayed below the Checkbox-Panel. For technical implementation, see "Selection-Expansion-Panel".
+* To select several independent options or to confirm consents (e.g. newsletter subscription).
+* If the checkbox panel fits better into the layout than the normal checkbox.
+* If further content (icons, texts, card badges) is required to describe the selection.
+* If content of your choice is to be displayed below the checkbox panel. For technical implementation, see "[Selection-Expansion-Panel](/en/design-system/lyne/components/selection-expansion-panel/)".
 
 ## Rules.
-* Each checkbox should be clearly labelled and name the option unambiguously.
-* Groups of checkboxes should be logically organised.
-* Avoid too many options in a group in order to maintain clarity (max. 5-7 options).
-* Avoid too much content in the Checkbox-Panel to ensure readability and clarity.
+* Each checkbox panel is clearly labelled and names the option unambiguously.
+* Several checkbox panels are combined in a [checkbox group](/en/design-system/lyne/components/checkbox-group/), with a maximum of 5–7 options per group.
+* A checkbox panel does not contain too much content, so that it stays readable and clear.
+* If a checkbox panel has no visible text, it needs an `aria-label`.

@@ -1,20 +1,7 @@
-{#- Status einer Lyne-Komponente unter dem Titel der Detailseite. Erwartet: component, pattern -#}
+{#- Status einer Lyne-Komponente unter dem Titel der Detailseite (nur "Experimental"). Erwartet: component -#}
 {%- set catalogGroup = lyne.catalog.groups[component] %}
-{%- set documentationStatus = component | lyneDocumentationStatus(pattern.config) %}
-{%- set hasFigma = pattern.config | figmaUrl %}
-{%- set showDocumentation = (documentationStatus == "in progress") or (documentationStatus == "missing") %}
-{%- if (catalogGroup and catalogGroup.experimental) or hasFigma or showDocumentation %}
+{%- if catalogGroup and catalogGroup.experimental %}
 <div class="component-page-status">
-    {% if catalogGroup and catalogGroup.experimental %}
-        <sbb-chip-label color="charcoal">Experimental</sbb-chip-label>
-    {% endif %}
-    {% if hasFigma %}
-        <sbb-status type="success">Figma</sbb-status>
-    {% endif %}
-    {% if documentationStatus == "in progress" %}
-        <sbb-status type="in-progress">Documentation</sbb-status>
-    {% elif documentationStatus == "missing" %}
-        <sbb-status type="error">Documentation</sbb-status>
-    {% endif %}
+    <sbb-chip-label color="charcoal">Experimental</sbb-chip-label>
 </div>
 {%- endif %}

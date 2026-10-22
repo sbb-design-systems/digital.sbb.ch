@@ -2,7 +2,7 @@
     "tag":"autocomplete",
     "system":"lyne",
     "list":"components",
-    "figmaUrl": "",
+    "figmaUrl": "https://www.figma.com/design/mWknI2rC5DJmOgRO61WKai/Lyne-Components?node-id=7491-13",
     "released": true,
     "language": {
         "de": true,
@@ -24,5 +24,5 @@
     "partOf": {
         "sbb-autocomplete-row": "sbb-autocomplete"
     },
-    "similar": ["autocomplete-grid", "select"]
+    "similar": ["select"]
 }

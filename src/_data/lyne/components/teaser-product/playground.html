@@ -1,11 +1,30 @@
-<sbb-teaser-product class="demo-item" image-alignment="after" href="#">
-    <sbb-image slot="image" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Hoehenrundweg-Gryden-Lenk.jpg"></sbb-image>
-    <sbb-title level="3" class="sbb-teaser-product--spacing">Benefit from up to 70% discount</sbb-title>
-    <p class="sbb-teaser-product--spacing">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sit amet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donec tempor mi vel dapibus lobortis. Sed at ex sit amet leo suscipit fermentum. Donec consequat hendrerit tortor, ut laoreet velit congue in.
-    </p>
-    <sbb-button-static class="sbb-teaser-product--spacing">Label</sbb-button-static>
-    <p slot="footnote" class="footnote" class="sbb-teaser-product--spacing">
-        Footnote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sitamet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donectempor mi vel dapibus lobortis.
-    </p>
-</sbb-teaser-product>
+{#- Umschalter zwischen Teaser-Product und Teaser-Product-Static: data-preview-toggle / data-preview-variant (tab-overview.njk) #}
+<div style="display: flex; flex-direction: column; gap: 24px; inline-size: 100%;">
+    <div data-preview-variant="off">
+        <sbb-teaser-product class="demo-item" image-alignment="after" href="#" accessibility-label="Benefit from up to 70% discount">
+            <sbb-image slot="image" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Hoehenrundweg-Gryden-Lenk.jpg"></sbb-image>
+            <sbb-title level="3" class="sbb-teaser-product--spacing">Benefit from up to 70% discount</sbb-title>
+            <p class="sbb-teaser-product--spacing">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sit amet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donec tempor mi vel dapibus lobortis. Sed at ex sit amet leo suscipit fermentum. Donec consequat hendrerit tortor, ut laoreet velit congue in.
+            </p>
+            <sbb-button-static class="sbb-teaser-product--spacing">Label</sbb-button-static>
+            <p slot="footnote" class="footnote" class="sbb-teaser-product--spacing">
+                Footnote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sitamet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donectempor mi vel dapibus lobortis.
+            </p>
+        </sbb-teaser-product>
+    </div>
+    <div data-preview-variant="on" hidden>
+        <sbb-teaser-product-static class="demo-item" image-alignment="after">
+            <sbb-image slot="image" image-src="https://cdn.img.sbb.ch/content/dam/internet/externe-assets/lyne/Hoehenrundweg-Gryden-Lenk.jpg"></sbb-image>
+            <sbb-title level="3" class="sbb-teaser-product--spacing">Benefit from up to 70% discount</sbb-title>
+            <p class="sbb-teaser-product--spacing">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sit amet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donec tempor mi vel dapibus lobortis. Sed at ex sit amet leo suscipit fermentum. Donec consequat hendrerit tortor, ut laoreet velit congue in.
+            </p>
+            <sbb-button class="sbb-teaser-product--spacing">Label</sbb-button>
+            <p slot="footnote" class="footnote" class="sbb-teaser-product--spacing">
+                Footnote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium felis sitamet felis viverra lacinia. Donec et enim mi. Aliquam erat volutpat. Proin ut odio tellus. Donectempor mi vel dapibus lobortis.
+            </p>
+        </sbb-teaser-product-static>
+    </div>
+    <sbb-checkbox data-preview-toggle size="s">{{ translations[page.lang].lynepreview.staticVariant }}</sbb-checkbox>
+</div>

@@ -1,11 +1,12 @@
 
 ## What does the component do?
-A message is a notification that informs users about information, successes, errors or other events in the application. Unlike a notification, it has no status and no option to hide itself. It is integrated into the layout and is suitable in particular for notifications within lists. 
+A message shows a notice within the page layout, e.g. a hint, an error or an empty state. It consists of a title and, optionally, a subtitle, an image, an error code and an action. Unlike a [notification](/en/design-system/lyne/components/notification/), it has no type and cannot hide itself.
 
 ## When should the component be used?
-* To inform users about actions, e.g. success or error messages.
-* In contrast to the Alert or Notification component, it generates less attention.
-* It is well suited for messages in empty lists, for example.
+* For messages that are part of the content, e.g. in empty lists or when content fails to load.
+* When the message should attract less attention than an [alert](/en/design-system/lyne/components/alert/) or notification.
 
 ## Rules.
-* The message must be integrated into the layout and should not be positioned like the alert or notification component.
+* The message is integrated into the layout and is not positioned like an alert or notification.
+* Title and text state clearly what happened and what users can do.
+* An action (e.g. "Try again") is optional.

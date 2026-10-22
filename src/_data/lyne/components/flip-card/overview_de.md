@@ -1,11 +1,13 @@
 
 ## Was macht die Komponente?
-Versteckt Inhalt (Text und Links) hinter einem Titel und einem Bild. Mit einem Klick auf die Flip-Card kann der dazugehörige Inhalt ein- und ausgeblendet werden.
+Eine Flip-Card ist eine Karte mit Titel und Bild. Mit einem Klick dreht sie sich um und zeigt weiterführende Informationen mit Text und Links.
 
-## Wann soll die Komponente eingesetzt werden? 
-* Um Inhalt zu strukturieren.
-* Um Übersichtlichkeit zu gewährleisten/herzustellen.
+## Wann soll die Komponente eingesetzt werden?
+* Um eine Auswahl an Themen als Karten anzubieten, zu denen es kurze Zusatzinformationen gibt.
+* Um Inhalte kompakt darzustellen, wenn die Details nicht sofort sichtbar sein müssen.
 
 ## Regeln.
-* Titel und Bild sind zwingend
-* Der Detail-Text sollte nach Möglichkeit nicht zu lang sein, bzw. nur so lang, dass die Flip-Card nach dem Einblenden der Details nicht grösser werden muss.
+* Titel und Bild sind zwingend.
+* Der Detail-Text ist kurz. Die Karte darf beim Umdrehen nicht grösser werden.
+* Wichtige Informationen stehen nicht nur auf der Rückseite.
+* Mehrere Flip-Cards nebeneinander haben dieselbe Höhe.

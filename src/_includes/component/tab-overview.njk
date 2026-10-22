@@ -28,6 +28,12 @@
             {# Umschalter in der Vorschau: Checkbox mit data-preview-toggle blendet die Varianten data-preview-variant="on|off" um #}
             <script>
             (() => {
+                // Platzhalter-Links (href="#") sollen die Seite nicht verlassen (base href zeigt auf die Startseite)
+                document.querySelectorAll(".lyne-preview").forEach((preview) => {
+                    preview.addEventListener("click", (event) => {
+                        if (event.composedPath().some((node) => node.getAttribute?.("href") === "#")) event.preventDefault();
+                    });
+                });
                 document.querySelectorAll(".lyne-preview [data-preview-toggle]").forEach((toggle) => {
                     toggle.addEventListener("change", () => {
                         toggle.closest(".lyne-preview").querySelectorAll("[data-preview-variant]").forEach((variant) => {

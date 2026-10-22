@@ -1,13 +1,13 @@
 
 ## What does the component do?
-A tag is a small labelling element that is used for categorisation and as a filter.
+A tag is a small, selectable element that lets users filter or narrow down content by category. Tags are grouped in a tag group.
 
 ## When should the component be used?
-* To filter and categorise content according to certain criteria.
-* To allow users to search content according to defined properties.
-* To make the user interface clearer.
+* To filter large amounts of content through a selection.
+* When an amount per filter should optionally be shown, e.g. number of results.
 
 ## Rules.
-* Tags should be short and clearly labelled.
-* Use a logical and intuitive order of tags to maximise usability.
-* Avoid too many tags at once to ensure clarity.
+* Tags are short and clearly labelled.
+* By default only one tag can be selected. For multiple selection, set this at initialisation (`multiple`).
+* Each tag group needs a label for screen readers (`accessibilityLabel`).
+* Avoid too many tags at once.

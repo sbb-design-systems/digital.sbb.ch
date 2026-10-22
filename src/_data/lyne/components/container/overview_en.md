@@ -1,12 +1,14 @@
 
 ## What does the component do?
-A container groups related content, defines distances to the previous and next container and can contain a sticky footer.
+A container groups related content and gives it the page spacing. It can contain a sticky bar.
 
 ## When should the component be used?
 * To group and structure content logically.
-* To ensure consistent spacing and layout within a page or application.
-* When a sticky footer is needed that stays at the bottom of the container.
+* To ensure consistent spacing and layout on a page.
+* When a sticky bar is needed at the bottom of the container.
 
 ## Rules.
-* All content (apart from header and footer) must be placed in a container. This means that at least one container must be used per page.
-* The spacing of the containers can be adjusted if necessary.
+* All content apart from [header](/en/design-system/lyne/components/header/) and [footer](/en/design-system/lyne/components/footer/) is placed in a container. Each page has at least one.
+* The default page spacing can be switched to the expanded spacing if necessary.
+* The sticky bar is the last element in the container.
+* On dark background colours, components inside the container must be set to "negative" themselves.

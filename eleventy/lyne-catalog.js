@@ -90,7 +90,31 @@ function buildCatalog(storybookEntries = {}, partOf = {}) {
         if (entry.type === "docs") group.storybook.docsUrl = `${STORYBOOK_URL}/?path=/docs/${entry.id}`;
     }
 
+    // Storybook-Docs ohne eigenes Custom Element (z. B. Badge, ein Attribut an anderen Elementen) werden
+    // als Gruppe ohne Elemente geführt, damit sie Seite, Abgleich und Abdeckungsbericht wie andere Komponenten erhalten
+    for (const title of [...storybookWithoutGroup]) {
+        const [prefix, ...rest] = title.split("/");
+        const pkg = PACKAGES.find((p) => p.storybookPrefix === prefix);
+        const folder = slug(rest.join("/"));
+        if (groups[folder]) continue;
+        const docs = Object.values(storybookEntries).find((e) => e.type === "docs" && e.title === title);
+        groups[folder] = {
+            folder,
+            package: `@sbb-esta/${pkg.name}`,
+            experimental: pkg.experimental,
+            elements: [],
+            readmeUrl: `https://raw.githubusercontent.com/${GITHUB_REPO}/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
+            githubUrl: `https://github.com/${GITHUB_REPO}/blob/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
+            angularUrl: null,
+            storybook: { title, tag: rest.join("/"), docsUrl: `${STORYBOOK_URL}/?path=/docs/${docs.id}` },
+            structure: "single",
+            main: [],
+        };
+        storybookWithoutGroup.delete(title);
+    }
+
     for (const group of Object.values(groups)) {
+        if (!group.elements.length) continue;
         group.elements.sort((a, b) => a.tag.localeCompare(b.tag));
         // Rollen der Elemente (Haupt-, Variante, Bestandteil, Gruppierung) und Fall der Seite, siehe lyne-structure.js
         const summaries = Object.fromEntries(group.elements.map((e) => [e.tag, e.summary]));
@@ -98,8 +122,8 @@ function buildCatalog(storybookEntries = {}, partOf = {}) {
         group.structure = structure;
         group.main = main;
         for (const element of group.elements) Object.assign(element, roles[element.tag]);
-        delete group.storybookPrefix;
     }
+    for (const group of Object.values(groups)) delete group.storybookPrefix;
 
     // Ausgeschlossene Gruppen entfernen; Einträge ohne Gegenstück in Lyne bleiben als Hinweis im Bericht sichtbar
     const excluded = Object.entries(readExcluded())

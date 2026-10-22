@@ -1,11 +1,12 @@
 
 ## Was macht die Komponente?
-Die Komponente bietet eine Sammlung von Links, die zu Inhalten der aktuellen Seite führen.
+Die Link-List-Anchor ist eine Liste von Links, die zu Abschnitten der aktuellen Seite springen.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um eine Übersicht der Inhalte der aktuellen Seite darzustellen.
-* Um Nutzenden schnellen Zugang zu Inhalten anzubieten.
+* Um bei längeren Seiten eine Übersicht der Abschnitte zu zeigen und direkt dorthin zu springen.
 
 ## Regeln.
-* Verwende beschreibende und aussagekräftige Link-Texte, um den Zielinhalt verständlich zu machen.
-* Achte darauf, dass die Links in der Liste chronologisch geordnet sind.
+* Die Link-Texte sind beschreibend und entsprechen den Titeln der Abschnitte.
+* Die Reihenfolge der Links entspricht der Reihenfolge der Abschnitte auf der Seite.
+* Die Liste enthält nur Block-Links. Ihre Grösse und Farbvariante setzt die Liste.
+* Für Links zu anderen Seiten wird die [Link-List](/de/design-system/lyne/components/link-list/) verwendet.

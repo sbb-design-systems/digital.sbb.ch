@@ -1,10 +1,12 @@
 
 ## Was macht die Komponente?
-Sie wird um ein Checkbox-Panel oder einem Radio-Button-Panel gewrappt und bietet die Möglichkeit an für die Panels zusätzlichen Inhalt anzuzeigen.
+Das Selection-Expansion-Panel umschliesst ein [Checkbox-Panel](/de/design-system/lyne/components/checkbox-panel/) oder [Radio-Button-Panel](/de/design-system/lyne/components/radio-button-panel/) und zeigt zusätzlichen Inhalt zum Panel an.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Wenn bei einem Checkbox-Panel oder einem Radio-Button-Panel zusätzlich Inhalt (z.B. für Sub-Optionen, Informationen) angezeigt werden soll.
+* Wenn zu einer Option zusätzlicher Inhalt angezeigt werden soll, z.B. Sub-Optionen oder Informationen.
 
 ## Regeln.
-* Die zusätzlichen Inhalte (pro Panel) können immer angezeit werden oder nur beim gewählten Zustand.
-* Selection-Expansion-Panel sollen nur innerhalb Checkbox-Groups und Radio-Button-Groups eingesetzt werden.
+* Der Inhalt öffnet sich, sobald das Panel gewählt wird. Alternativ wird er immer angezeigt.
+* Ein Klick auf den Inhaltsbereich ändert die Auswahl nicht.
+* Selection-Expansion-Panels werden nur innerhalb einer [Checkbox-Group](/de/design-system/lyne/components/checkbox-group/) oder [Radio-Button-Group](/de/design-system/lyne/components/radio-button-group/) eingesetzt.
+* Eine Option mit eigener Aktion kombiniert das Selection-Expansion-Panel mit dem [Selection-Action-Panel](/de/design-system/lyne/components/selection-action-panel/).

@@ -162,10 +162,15 @@ function overviewSection(markdown, part) {
 const README_API_MARKER = "<!-- Auto Generated Below -->";
 function readmeSection(markdown, part) {
     const text = String(markdown ?? "");
-    const index = text.indexOf(README_API_MARKER);
-    if (index === -1) return part === "usage" ? text : "";
-    if (part === "usage") return text.slice(0, index);
-    return text.slice(index + README_API_MARKER.length).replace(/^\s*#{1,6}\s*API Documentation\s*\n/i, "");
+    const marker = text.indexOf(README_API_MARKER);
+    if (marker !== -1) {
+        if (part === "usage") return text.slice(0, marker);
+        return text.slice(marker + README_API_MARKER.length).replace(/^\s*#{1,6}\s*API Documentation\s*\n/i, "");
+    }
+    // Ohne Marker (z. B. Badge, von Hand geschriebenes README) ist die API der Abschnitt "## API" bis zur nächsten Überschrift
+    const section = text.match(/^## API\b.*\n([\s\S]*?)(?=^## |(?![\s\S]))/m);
+    if (!section) return part === "usage" ? text : "";
+    return part === "usage" ? text.replace(section[0], "") : section[1];
 }
 
 function storybookDocsUrl(storybookId, stories) {
@@ -187,6 +192,13 @@ function sortLyneComponentsByOrder(obj) {
     });
 
     return Object.fromEntries(entries);
+}
+
+// Komponenten alphabetisch nach angezeigtem Namen (config.tag), z. B. für Übersicht und Sidebar von Lyne
+function sortComponentsByName(obj) {
+    if (!obj || typeof obj !== "object") return obj;
+    const name = (entry) => String(entry?.config?.tag ?? "");
+    return Object.fromEntries(Object.entries(obj).sort(([, a], [, b]) => name(a).localeCompare(name(b), "de")));
 }
 
 // Beispiele einer Komponente aus dem Storybook-Bündel von lyne-elements
@@ -271,6 +283,7 @@ function lyne(eleventyConfig) {
     eleventyConfig.addFilter("readmeSection", readmeSection);
     eleventyConfig.addFilter("storybookDocsUrl", storybookDocsUrl);
     eleventyConfig.addFilter("sortLyneComponentsByOrder", sortLyneComponentsByOrder);
+    eleventyConfig.addFilter("sortComponentsByName", sortComponentsByName);
     eleventyConfig.addFilter("lyneexample", lyneExample);
 
     // Im Watch-Modus können sich Inhaltsdateien zwischen zwei Builds ändern

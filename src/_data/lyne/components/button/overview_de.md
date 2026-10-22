@@ -1,13 +1,14 @@
-
 ## Was macht die Komponente?
 Ein Button ist ein interaktives Element, das eine Aktion auslöst, wenn er angeklickt wird.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um eine primäre oder sekundäre Aktion auf einer Seite auszuführen.
-* Um das Absenden von Formularen zu ermöglichen.
-* Um Interaktionen, wie das Öffnen von Dialogen oder das Navigieren zu einer anderen Seite, zu ermöglichen.
+* Um eine Aktion auszulösen, zum Beispiel ein Formular abzusenden oder einen Dialog zu öffnen.
+* Für die Navigation zu einer anderen Seite wird die Link-Variante des Buttons verwendet.
 
 ## Regeln.
-* Ein Button soll klar beschriftet sein und eine eindeutige Aktion beschreiben.
-* Vermeide es, mehrere primäre Buttons auf einer Seite zu verwenden; stattdessen sollten sekundäre Buttons oder Links genutzt werden.
-* Ein Button braucht ein Label oder ein Icon. Ein Button nur mit Icon braucht eine Beschriftung für Screenreader.
+* Ein Button ist klar beschriftet und beschreibt eine eindeutige Aktion.
+* Pro Bereich gibt es nur einen primären Button. Weitere Aktionen sind sekundäre Buttons oder [Links](/de/design-system/lyne/components/link/).
+* Ein Button hat ein Label, ein Icon oder beides. Ein Button nur mit Icon braucht eine Beschriftung für Screenreader.
+* Während einer laufenden Aktion kann ein Button in den Loading-Zustand gesetzt werden.
+* Auf dunklem Hintergrund wird die negative Variante verwendet.
+* Ist eine Aktion nicht verfügbar und muss das erklärt werden, wird ein interaktiv deaktivierter Button (`disabled-interactive`) verwendet, damit er fokussierbar bleibt.

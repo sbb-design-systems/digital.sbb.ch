@@ -1,10 +1,11 @@
 ## Was macht die Komponente?
-Ein Mini-Calendar ist eine Komponente, die Datumsinformationen möglichst kompakt und platzsparend anzeigt und optional auswählen lässt.
+Der Mini-Calendar zeigt Datumsinformationen sehr kompakt an. Jeder Tag ist ein kleiner Punkt, der eingefärbt oder markiert werden kann. Optional lassen sich Tage auswählen.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzenden eine Möglichkeit zu geben viele Datumsinformationen zu konsumieren. 
-* Um wiederkehrende Ereignisse und deren Muster darzustellen.
+* Um viele Tage, mehrere Monate oder ganze Jahre auf wenig Platz zu zeigen.
+* Um wiederkehrende Ereignisse und Muster sichtbar zu machen, z.B. Verkehrstage.
 
 ## Regeln.
-* Es können mehrere Monate oder ganze Jahre dargestellt werden.
-* Die Komponente ist nicht barrierefrei und soll nur in Kontexten (z.B. interne Applikationen) genutzt werden, bei der Barrierefreiheit nicht vorgeschrieben ist.
+* Der Mini-Calendar ist kein Ersatz für [Calendar](/de/design-system/lyne/components/calendar/) oder [Datepicker](/de/design-system/lyne/components/datepicker/). Zum gezielten Auswählen eines Datums sind diese zu verwenden.
+* Farben und Marker brauchen eine Legende. Die Bedeutung darf nicht nur über die Farbe vermittelt werden.
+* Die Komponente ist nur eingeschränkt barrierefrei (kleine Tage, Grid-Aufbau). Bei Anforderungen an Barrierefreiheit sind die Informationen zusätzlich anders bereitzustellen oder die Komponente nur in internen Applikationen einzusetzen.

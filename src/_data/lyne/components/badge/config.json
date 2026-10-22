@@ -1,0 +1,24 @@
+{
+    "tag": "badge",
+    "system": "lyne",
+    "list": "components",
+    "figmaUrl": "https://www.figma.com/design/mWknI2rC5DJmOgRO61WKai/Lyne-Components?node-id=7491-14",
+    "released": true,
+    "language": {
+        "de": true,
+        "fr": false,
+        "it": false,
+        "en": true
+    },
+    "order": 285,
+    "categories": ["Indicator"],
+    "keywords": ["Badge", "Marker", "Counter", "Indicator"],
+    "hasTabs": true,
+    "tabs": {
+        "hasOverview": true,
+        "hasStorybook": true,
+        "hasImplementation": true
+    },
+    "showInFirstLevel": true,
+    "similar": false
+}

@@ -1,10 +1,12 @@
 
 ## What does the component do?
-The Paginator component enables navigation through large amounts of content by dividing the content into several pages. It shows users which page they are on and provides control elements for switching between pages.
+The paginator divides large amounts of content, e.g. tables or lists, into pages. It shows the current page and provides controls to switch pages. Optionally, users can change the number of entries per page. A compact variant (compact paginator) shows only the current page and the total.
 
 ## When should the component be used?
-* When a large number of entries or content needs to be managed efficiently.
-* When an alternative to infinite scrolling is required.
+* When many entries should be split into pages.
+* When an alternative to infinite scrolling is needed.
 
 ## Rules.
-* If the number of pages is small, an alternative solution such as ‘Load more’ can be considered instead of a paginator.
+* For few pages, "Load more" is usually the better solution.
+* When space is limited, e.g. on small screens, use the compact paginator.
+* The paginator needs a label for screen readers (`aria-label`) that describes what it controls.

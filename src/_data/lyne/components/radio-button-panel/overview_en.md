@@ -1,16 +1,16 @@
 
 ## What does the component do?
-The Radio-Button-Panel has the same function as the Radio-Button. In addition to the normal Radio-Button, the Radio-Button-Panel offers the option of displaying subtexts, Card-Badges or Icons.
+The radio button panel has the same function as the [radio button](/en/design-system/lyne/components/radio-button/). In addition, it offers space for a subtext, card badge, icon or suffix.
 
 ## When should the component be used?
-* When users should make a selection from a limited number of options.
-* When only one option may be selected from several possible options.
-* If the Radio-Button-Panel fits better into the layout than the normal Radio-Button. 
-* If further content (such as icons, texts, card badges) is required or the options of the normal checkbox are not enough to optimally describe the selection.
-* If content of your choice is to be displayed below the Checkbox-Panel. For technical implementation, see "Selection-Expansion-Panel".
+* When users should select exactly one option from a limited number of options.
+* When the normal radio button is not enough to describe the option, e.g. because of a subtext, icon or card badge.
+* When the panel fits better into the layout than the normal radio button.
+* When content of your choice should be displayed below the option: combine the radio button panel with the [selection expansion panel](/en/design-system/lyne/components/selection-expansion-panel/).
+* When an option has its own action: combine the radio button panel with the [selection action panel](/en/design-system/lyne/components/selection-action-panel/).
 
 ## Rules.
-* Radio-Button-Panels should be used in groups (radio-button-group) to provide a clear choice.
-* Each option within a radio-button-group should be clearly labelled and easy to understand.
-* Avoid placing too many options in a radio button group to ensure clarity and to make selection easier.
-* Avoid too much content in the Radio-Button-Panel to ensure readability and clarity.
+* Radio button panels are used in a [radio button group](/en/design-system/lyne/components/radio-button-group/).
+* Each option is clearly labelled and easy to understand.
+* Avoid too many options in a group.
+* Avoid too much content per panel to keep it readable.

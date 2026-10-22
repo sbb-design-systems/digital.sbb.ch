@@ -1,13 +1,15 @@
-
 ## What does the component do?
-The component offers suggestions to the user during input, based on existing data or previous input, to make input easier and faster.
+The component suggests matching options to users while they type, based on existing data or previous input. Options can be grouped and can show additional action buttons next to the option, for example to edit or remove it.
 
 ## When should the component be used?
-* To improve the data input experience by suggesting possible/allowed inputs.
-* To increase the accuracy and consistency of the data input.
-* To reduce the time users need to fill in forms.
+* To make input easier and faster by suggesting possible inputs.
+* To increase the accuracy and consistency of the entered data.
+* When an option needs an action, for example removing an entry from the history.
 
 ## Rules.
-* The component should not be used for small data sets (e.g. only 10 entries/options).
-* The autocomplete list should not display too many suggestions at once in order to maintain clarity (max. 10 suggestions).
-* Users should be able to ignore the autocomplete function and make their own entries.
+* For small data sets, use a [select](/en/design-system/lyne/components/select/) instead.
+* The list does not show too many suggestions at once (max. 10).
+* Users can ignore the suggestions and enter their own input.
+* Action buttons belong together with their option in an autocomplete row. One or more buttons per option are possible, and not every option needs one.
+* The buttons cannot be reached with the Tab key, only with the arrow keys (right/left). Their existence is announced with an `aria-description` on the option.
+* Options themselves must not contain other interactive elements such as buttons or checkboxes.

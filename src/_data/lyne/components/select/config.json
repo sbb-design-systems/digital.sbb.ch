@@ -2,7 +2,7 @@
     "tag":"select",
     "system":"lyne",
     "list":"components",
-    "figmaUrl": "",
+    "figmaUrl": "https://www.figma.com/design/mWknI2rC5DJmOgRO61WKai/Lyne-Components?node-id=7491-49",
     "released": true,
     "language": {
         "de": true,
@@ -21,5 +21,5 @@
         "hasImplementation": true
     },
     "showInFirstLevel": true,
-    "similar": ["autocomplete", "autocomplete-grid"]
+    "similar": ["autocomplete"]
 }

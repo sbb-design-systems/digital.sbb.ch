@@ -1,12 +1,13 @@
 
 ## What does the component do?
-The stepper component can be used to guide you through a multi-step process. It displays the current progress and (optionally) allows you to navigate between the individual steps. 
+The stepper guides users through a multi-step process. The current step is highlighted, and a line connects the steps and shows progress. Optionally, users can navigate between the steps.
 
 ## When should the component be used?
-* When a process consists of several logical steps.
-* When certain steps have to be completed in a fixed order.
-* When clear structuring and guidance through a process is required.
+* When a process consists of several logical steps, e.g. a form or a booking flow.
+* When the steps have to be completed in a fixed order.
 
 ## Rules.
-* The labels of the individual steps should be as short and meaningful as possible.
-* If the number of steps is too large, the vertical variant should be used.
+* The labels of the steps should be as short and meaningful as possible.
+* With many steps or limited space, use the vertical variant.
+* If steps must be completed one after another, use the linear mode.
+* Describe the purpose of the stepper with an `aria-label`.

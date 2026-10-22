@@ -1,11 +1,12 @@
 
 ## What does the component do?
-The component provides a collection of links that lead to content on the current page.
+The link list anchor is a list of links that jump to sections of the current page.
 
 ## When should the component be used?
-* To display an overview of the content of the current page.
-* To offer users quick access to content.
+* To show an overview of the sections on longer pages and jump directly to them.
 
 ## Rules.
-* Use descriptive and meaningful link texts to make the target content understandable.
-* Make sure that the links in the list are in chronological order.
+* The link texts are descriptive and match the titles of the sections.
+* The order of the links matches the order of the sections on the page.
+* The list contains only block links. The list sets their size and colour variant.
+* For links to other pages, use the [link list](/en/design-system/lyne/components/link-list/).

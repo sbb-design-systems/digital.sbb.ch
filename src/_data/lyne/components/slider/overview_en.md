@@ -1,14 +1,13 @@
 
 ## What does the component do?
-A slider allows users to adjust a value or selection within a specified range by dragging a slider.
+A slider allows users to adjust a value within a specified range by dragging a handle.
 
 ## When should the component be used?
-* To provide users with a simple and intuitive way to adjust values within a certain range.
-* When a precise or quick adjustment of a value is required.
-* To save space on the user interface by using an interactive control.
+* When a value within a range should be set approximately (from/to, fast/slow, heavy/light).
+* When the exact value does not matter. For precise values, an input field is more suitable.
 
 ## Rules.
-* Use labels and icons to make the value range of the slider clear.
-* The slider should only be used for simple value ranges (from/to, fast/slow, heavy/light).
-* The slider should not be used to indicate the progress of a process or operation.
-* The slider should provide visual feedback when the value is changed, e.g. by displaying the current value next to the slider.
+* Make the value range clear with labels or icons at both ends.
+* Show the current value, e.g. next to the slider.
+* Do not use the slider to indicate the progress of a process.
+* Without a preset, the handle sits in the middle of the range. Set a start value if needed.

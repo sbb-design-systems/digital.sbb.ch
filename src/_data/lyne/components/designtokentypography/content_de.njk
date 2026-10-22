@@ -41,3 +41,26 @@
     </div>
 {% endfor %}
 </div>
+
+<sbb-title level="2">Listen.</sbb-title>
+<p>Lyne bietet Listenstile, die auf die nativen HTML-Listen angewendet werden. Die Schriftgrösse wird mit einer Text-Klasse wie <code>sbb-text-m</code> festgelegt.</p>
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped">
+    <thead><tr><th style="white-space: nowrap;">Liste</th><th style="white-space: nowrap;">CSS-Klasse</th><th style="white-space: nowrap;">Sass-Mixin</th><th>Verwendung</th></tr></thead>
+    <tbody>
+        <tr><td style="white-space: nowrap;">Standard</td><td style="white-space: nowrap;"><code>sbb-list</code></td><td style="white-space: nowrap;"><code>list</code></td><td>Auf <code>ul</code> und <code>ol</code>, auch verschachtelt. Die Farbe wird geerbt.</td></tr>
+        <tr><td style="white-space: nowrap;">Schritte</td><td style="white-space: nowrap;"><code>sbb-step-list</code></td><td style="white-space: nowrap;"><code>step-list</code></td><td>Nur auf <code>ol</code>. Beschreibt eine Abfolge von Schritten.</td></tr>
+        <tr><td style="white-space: nowrap;">Icon</td><td style="white-space: nowrap;"><code>sbb-icon-list</code></td><td style="white-space: nowrap;"><code>icon-list</code></td><td>Icon als Aufzählungszeichen, standardmässig <code>circle-tick-small</code>. Eigenes Icon mit <code>--sbb-icon-list-marker-icon</code>, Icon-Farbe mit <code>--sbb-icon-list-marker-icon-color</code>.</td></tr>
+        <tr><td style="white-space: nowrap;">Beschreibung</td><td style="white-space: nowrap;"><code>sbb-list</code></td><td style="white-space: nowrap;"><code>description-list</code></td><td>Auf <code>dl</code> für Label und Beschreibung. Die Farbe wird geerbt.</td></tr>
+    </tbody>
+</table>
+</sbb-table-wrapper>
+
+<sbb-title level="3">Standard.</sbb-title>
+<ul class="sbb-list sbb-text-m"><li>Erster Punkt</li><li>Zweiter Punkt</li></ul>
+<sbb-title level="3">Schritte.</sbb-title>
+<ol class="sbb-step-list sbb-text-m"><li>Erster Schritt</li><li>Zweiter Schritt</li></ol>
+<sbb-title level="3">Icon.</sbb-title>
+<ul class="sbb-icon-list sbb-text-m"><li>Aufgabe erstellt</li><li>Änderungen übernommen</li></ul>
+<sbb-title level="3">Beschreibung.</sbb-title>
+<dl class="sbb-list"><dt>Label:</dt><dd>Beschreibung des Labels.</dd></dl>

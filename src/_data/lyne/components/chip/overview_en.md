@@ -1,12 +1,13 @@
 
 ## What does the component do?
-The chip component is a compact UI element that is used to display selected values within a form field. Each chip represents a selection and can be removed again if required.
+A chip shows a selected or entered value in a [form field](/en/design-system/lyne/components/form-field/). Several chips form a chip group. Each chip can be removed again.
 
 ## When should the component be used?
-* When users can select multiple values from a list.
-* If the selected values are to be displayed visually in the input field.
-* When an easy way to remove individual entries is required.
+* When users enter several values or select them from a list, for example with the [autocomplete](/en/design-system/lyne/components/autocomplete/).
+* When the chosen values should remain visible in the input field and be removable individually.
 
 ## Rules.
-* Each chip should contain a clearly legible label text, as short and concise as possible.
-* When labelling, make sure that they are easily distinguishable from each other.
+* Chips are always placed in a chip group within a form field.
+* The text of a chip is short and unambiguous. Different chips are easy to tell apart.
+* By default, the Enter key creates a chip. The separator keys can be customised.
+* Chips can be operated by keyboard. Users move between chips with the arrow keys.

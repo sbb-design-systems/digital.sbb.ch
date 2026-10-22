@@ -1,4 +1,5 @@
 {
+    "autocomplete-grid": "Veraltet, wird auf digital.sbb.ch nicht dokumentiert. Ersatz: autocomplete mit autocomplete-row.",
     "timetable-duration": "Veraltet, wird auf digital.sbb.ch nicht dokumentiert.",
     "timetable-form": "Veraltet, wird auf digital.sbb.ch nicht dokumentiert.",
     "timetable-occupancy": "Veraltet, wird auf digital.sbb.ch nicht dokumentiert.",

@@ -1,13 +1,16 @@
-
 ## Was macht die Komponente?
-Eine Tab-Group ermöglicht es Nutzenden, zwischen verschiedenen Inhalten oder Ansichten innerhalb derselben Seite zu wechseln, ohne die Seite neu zu laden.
+Tabs gliedern Inhalte in einzelne Ansichten, von denen jeweils nur eine sichtbar ist. Es gibt zwei Varianten:
+* Tab-Group: wechselt zwischen Inhalten innerhalb derselben Seite, ohne die Seite neu zu laden.
+* Tab-Nav-Bar: wechselt per Link zwischen verschiedenen Seiten (Routen).
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Inhalte thematisch zu gruppieren und strukturiert darzustellen.
-* Um eine einfache und intuitive Navigation zwischen verschiedenen Inhalten oder Ansichten zu ermöglichen.
-* Um Platz auf der Benutzeroberfläche zu sparen, indem nur ein Teil des Inhalts gleichzeitig angezeigt wird.
+* Um zusammengehörige Inhalte thematisch zu gruppieren und Platz zu sparen, indem nur ein Teil gleichzeitig angezeigt wird (Tab-Group).
+* Um zwischen gleichrangigen Seiten eines Bereichs zu navigieren (Tab-Nav-Bar).
 
 ## Regeln.
-* Tabs sollen klar beschriftet und leicht verständlich sein.
-* Die Reihenfolge und Beschriftung der Tabs sollen logisch und intuitiv sein.
-* Vermeide zu viele Tabs auf einmal, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.
+* Beschrifte Tabs kurz und eindeutig. Wähle eine logische Reihenfolge.
+* Vermeide zu viele Tabs. Sie müssen nebeneinander Platz haben.
+* Ein Tab kann ein Icon und eine Anzahl (Amount) zeigen.
+* Setze deaktivierte Tabs sparsam ein. Sie sind nicht fokussierbar und für Screenreader teilweise unsichtbar.
+* Tab-Group: Inhalt in ein semantisches Element (z.B. `section`, `article`) einpacken.
+* Tab-Nav-Bar: Der aktive Tab wird mit `aria-current="page"` markiert.

@@ -1,14 +1,13 @@
-
 ## What does the component do?
-A calendar is a component that allows users to display and select date information.
+A calendar allows users to select a date. It shows days, months and years.
 
 ## When should the component be used?
-* To provide users with an easy way to view and manage date-dependent information like appointments.
-* To enable the selection of date ranges for bookings or planning.
-* To display recurring events and their patterns.
+* To select one or several dates, for example for bookings or planning.
+* When days should show additional information, for example a status.
+* To enter a single date in a form, use the [date input](/en/design-system/lyne/components/date-input/) and [datepicker](/en/design-system/lyne/components/datepicker/).
 
 ## Rules.
-* Individual months or entire years can be displayed.
-* If the calendar is used in the date picker, only one date can be selected.
-* If the calendar is used standalone, several dates can be selected.
-* Individual days can have several statuses.
+* By default, a single date is selected. Multiple selection is optional (`multiple`): single days, whole weekdays, calendar weeks or a range (Shift-click).
+* One or several months can be shown at the same time. The displayed month can also be fixed.
+* Days that cannot be selected are excluded via minimum, maximum or a filter and are shown disabled or struck through.
+* A day can have several states, for example today, selected or not selectable.

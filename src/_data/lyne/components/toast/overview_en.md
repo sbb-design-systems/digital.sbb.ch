@@ -1,13 +1,14 @@
-
 ## What does the component do?
-A toast is a short-term notification that appears at the edge of the screen to inform users about certain events, successes or errors.
+A toast is a short notification at the edge of the screen. It informs about events or the result of an action without interrupting the flow.
 
 ## When should the component be used?
-* To inform users about the successful completion of an action.
-* To display temporary information or notifications that do not require user interaction.
-* To quickly communicate errors or warnings.
+* To confirm the successful completion of an action.
+* For temporary notices that do not necessarily require interaction.
 
 ## Rules.
-* Toasts should be clear and concise to get the message across quickly.
-* Toasts should appear in a consistent position on the screen within a web page or application.
-* Toasts should disappear automatically after a reasonable time or be able to be closed manually.
+* The text is short and concise.
+* Only one toast can be shown at a time. A new toast replaces the previous one.
+* Important information, e.g. errors, does not belong in a toast alone, as it can disappear and is burdensome for screen reader users.
+* Actions in a toast are hard to reach. Also offer the action elsewhere.
+* Do not set a timeout for toasts with an action. Otherwise choose a sensible timeout or allow manual closing.
+* Within an application, toasts always appear in the same position.

@@ -1,11 +1,11 @@
 
 ## What does the component do?
-A Chip-Label is a compact text element.
+A chip label is a small, purely visual marker with short text, for example a filter name or a tag.
 
 ## When should the component be used?
-* To display short, concise information.
+* To highlight a short piece of information or a category, for example "On sale".
 
 ## Rules.
-* A Chip-Label should be labelled clearly and briefly.
-* The label must not be too long and must always be displayed in a single line.
-* Chips should have sufficient space between them to enable clear separation and simple operation.
+* The text is short and concise.
+* The text is always on a single line.
+* A chip label is not clickable.

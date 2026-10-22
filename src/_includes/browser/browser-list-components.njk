@@ -1,4 +1,6 @@
-{% for component, entry in patterns | sortLyneComponentsByOrder %}
+{#- Lyne alphabetisch, die übrigen Design Systeme nach config.order #}
+{% set sortedPatterns = (patterns | sortComponentsByName) if system == "lyne" else (patterns | sortLyneComponentsByOrder) %}
+{% for component, entry in sortedPatterns %}
     {% if (entry.config.list == "components")  %}
         {% include "./browser-item.njk" %}
     {% endif %}

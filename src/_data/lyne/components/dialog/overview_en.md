@@ -1,15 +1,15 @@
 
 ## What does the component do?
-A dialogue is an overlay that overlays the main content of the page and presents a focused interaction or important information until users have completed the action or closed the dialogue.
+A dialog is an [overlay](/en/design-system/lyne/components/overlay/) that sits on top of the main content of the page and blocks it. It shows important information or a focused interaction until users complete the action or close the dialog.
 
 ## When should the component be used?
-* To convey important information or confirmations to users.
-* To prompt users to take an action before continuing with the main content of the page.
-* To display complex forms or content that should not be integrated into the main page.
+* To convey important information or confirmations.
+* To prompt users to take an action before they continue on the page.
+* To display complex forms or content that do not fit into the main page.
 
 ## Rules.
-* A dialogue should be reduced as much as possible and focus on a single task/information or a single form.
-* The dialogue should be easy to close, either by a close button or by clicking outside the dialogue.
-* If no actions are defined in the dialogue footer, users must always be able to close the dialogue.
-* Dialogues can also always be closed with the ESC key.
-* Besides buttons, block links are also allowed as actions in the dialogue footer.
+* A dialog always has a title and content. It is reduced as much as possible and focuses on a single task, a piece of information or a form.
+* The footer contains at most two actions, [buttons](/en/design-system/lyne/components/button/) or block links.
+* A dialog can always be closed: with the ESC key, with an action or by clicking the backdrop. Clicking the backdrop can be disabled.
+* For complex content, add a close button. It is a second exit and provides the initial focus.
+* Focus starts inside the dialog and returns to the triggering element on close.

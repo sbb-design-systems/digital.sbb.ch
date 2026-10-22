@@ -1,14 +1,13 @@
-
 ## Was macht die Komponente?
-Ein Kalender ist eine Komponente, die es Nutzenden ermöglicht, Datumsinformationen anzuzeigen und auszuwählen.
+Ein Kalender ermöglicht den Nutzenden, ein Datum auszuwählen. Er zeigt Tage, Monate und Jahre.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzenden eine einfache Möglichkeit zu bieten, Datumsabhänige Informationen wie z.B. Termine zu sehen und zu verwalten.
-* Um die Auswahl von Datumsbereichen für Buchungen oder Planungen zu ermöglichen.
-* Um wiederkehrende Ereignisse und deren Muster darzustellen.
+* Um ein Datum oder mehrere Daten auszuwählen, zum Beispiel für Buchungen oder Planungen.
+* Wenn Tage zusätzliche Informationen zeigen sollen, zum Beispiel einen Status.
+* Für die Eingabe eines einzelnen Datums in einem Formular dienen [Date-Input](/de/design-system/lyne/components/date-input/) und [Datepicker](/de/design-system/lyne/components/datepicker/).
 
 ## Regeln.
-* Es können einzelne Monate oder ganze Jahre dargestellt werden.
-* Wird der Kalender im Date-Picker eingesetzt, kann nur ein Datum gewählt werden.
-* Wird der Kalender Standalone eingesetzt, so können mehrere Daten gewählt werden.
-* Einzelne Tage können mehrere Stati haben.
+* Standardmässig wird ein einzelnes Datum ausgewählt. Mehrfachauswahl ist optional (`multiple`): einzelne Tage, ganze Wochentage, Kalenderwochen oder ein Bereich (Shift-Klick).
+* Es können ein oder mehrere Monate gleichzeitig angezeigt werden. Der angezeigte Monat kann auch fixiert werden.
+* Nicht wählbare Tage werden über Minimum, Maximum oder einen Filter ausgeschlossen und deaktiviert bzw. durchgestrichen dargestellt.
+* Ein Tag kann mehrere Zustände haben, zum Beispiel heute, ausgewählt oder nicht wählbar.

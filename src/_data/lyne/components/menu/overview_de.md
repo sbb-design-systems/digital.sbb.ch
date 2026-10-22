@@ -1,13 +1,16 @@
 
 ## Was macht die Komponente?
-Ein Menü zeigt kontextabhängige Aktionen oder Optionen für ein definiertes Element. Es kann durch ein anderes interaktives Element wie z.B. einem Button aufgerufen werden. 
+Ein Menü zeigt kontextabhängige Aktionen oder Links für ein bestimmtes Element. Es wird über ein anderes Element geöffnet, z.B. einen [Button](/de/design-system/lyne/components/button/). Auf kleinen Bildschirmen erscheint es als Sheet, auf grossen als schwebendes Menü.
 
 ## Wann soll die Komponente eingesetzt werden?
-* Um Nutzenden schnellen Zugriff auf häufig verwendete Aktionen oder Optionen zu bieten, die für ein bestimmtes Element relevant sind.
-* Wenn eine kompakte und kontextbezogene Navigation erforderlich ist.
-* Um die Benutzerfreundlichkeit zu erhöhen, indem zusätzliche Optionen direkt am Ort der Aktion bereitgestellt werden.
+* Um Aktionen oder Links anzubieten, die zu einem bestimmten Element oder Inhalt gehören.
+* Um selten benötigte Aktionen platzsparend unterzubringen.
+* Als einfache Auswahl, z.B. für die Sprache.
 
 ## Regeln.
-* Die Menüoptionen sollen klar beschriftet und leicht verständlich sein.
-* Achte darauf, dass die Menüoptionen logisch gruppiert und in einer sinnvollen Reihenfolge angeordnet sind.
-* Vermeide zu viele Optionen in einem Kontext-Menü, um die Übersichtlichkeit zu gewährleisten und die Benutzer nicht zu überfordern.
+* Menüeinträge sind kurz beschriftet, logisch gruppiert und sinnvoll sortiert.
+* Ein Menü enthält nur wenige Einträge.
+* Aktionen sind Buttons, Verweise sind Links.
+* Untermenüs sind möglich, sollen aber sparsam eingesetzt werden.
+* Wird das Menü als Auswahl verwendet, muss der aktive Eintrag auch für Screenreader erkennbar sein (`aria-pressed`).
+* Ein [Badge](/de/design-system/lyne/components/badge/) an einem Eintrag braucht eine Textalternative für Screenreader.
