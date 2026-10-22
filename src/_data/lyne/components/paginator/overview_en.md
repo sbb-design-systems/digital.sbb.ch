@@ -5,8 +5,3 @@ The paginator divides large amounts of content, e.g. tables or lists, into pages
 ## When should the component be used?
 * When many entries should be split into pages.
 * When an alternative to infinite scrolling is needed.
-
-## Rules.
-* For few pages, "Load more" is usually the better solution.
-* When space is limited, e.g. on small screens, use the compact paginator.
-* The paginator needs a label for screen readers (`aria-label`) that describes what it controls.

@@ -62,7 +62,8 @@
 {%- endfor %}
 {%- endif %}
 
-{%- set overview = (dataPath + "overview_" + lang + ".md") | readSourceFile | agentMarkdown %}
+{%- set overviewSource = ((dataPath + "overview_" + lang + ".md") | readSourceFile) + "\n" + ((dataPath + "rules_" + lang + ".md") | readSourceFile) %}
+{%- set overview = overviewSource | agentMarkdown %}
 {%- if overview %}
 
 ## {{ t.overview }}

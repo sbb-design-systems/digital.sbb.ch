@@ -33,6 +33,6 @@
 <h2>{{ et.title }}.</h2>
 <p>{{ et.introComposite if elementGroup.structure == "composite" else et.introCollection }}</p>
 <ul class="lyne-element-tree lyne-element-tree--root">
-  {%- for node in elementGroup.main %}{{ elementNode(node) }}{% endfor %}
+  {%- for node in elementGroup.main | sortElements(pattern.config.elementOrder) %}{{ elementNode(node) }}{% endfor %}
 </ul>
 {%- endif %}

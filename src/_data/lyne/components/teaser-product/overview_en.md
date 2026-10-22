@@ -7,10 +7,3 @@ The teaser product promotes a product with text and an optional footnote on an i
 * To highlight a product or service with an image and lead to the product page.
 * When the text may be longer than in the [simple teaser](/en/design-system/lyne/components/teaser/), e.g. with a title and footnote.
 * The teaser product static suits cases where the whole area should not be clickable or where there is more than one action.
-
-## Rules.
-* Use a concise heading and a short description.
-* The teaser product is interactive as a whole. To support this visually, a static button (not interactive) can be added.
-* With more than one action, use the teaser product static.
-* On the teaser product, set an `accessibilityLabel` that describes the link for screen readers.
-* Do not use too many different teaser types and sizes on one page.

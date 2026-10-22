@@ -8,10 +8,9 @@
 {% set showLyneElements = elementGroup and elementGroup.structure != "single" %}
 {% set rules = "" %}
 {% if system == "lyne" %}
-    {% set overviewpath = ["src/_data/lyne/components/", component, "/overview_", language, ".md"] | join %}
-    {% if (pattern.config.tabs.hasOverview == true) and (overviewpath | fileExists) %}
-        {% set overviewForRules %}{% include overviewpath %}{% endset %}
-        {% set rules = overviewForRules | overviewSection("rules") %}
+    {% set rulespath = ["src/_data/lyne/components/", component, "/rules_", language, ".md"] | join %}
+    {% if rulespath | fileExists %}
+        {% set rules %}{% include rulespath %}{% endset %}
     {% endif %}
 {% endif %}
 {% if hasAnatomyContent or anatomyFigmaUrl or showLyneElements or rules %}

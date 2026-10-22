@@ -6,9 +6,3 @@ Das Checkbox-Panel erfüllt die gleiche Aufgabe wie die [Checkbox](/de/design-sy
 * Wenn das Checkbox-Panel besser ins Layout passt als die normale Checkbox.
 * Wenn weitere Inhalte (Icons, Texte, Card-Badges) nötig sind, um die Auswahl zu beschreiben.
 * Wenn frei wählbarer Inhalt unterhalb des Checkbox-Panels angezeigt werden soll. Technische Umsetzung: siehe «[Selection-Expansion-Panel](/de/design-system/lyne/components/selection-expansion-panel/)».
-
-## Regeln.
-* Jedes Checkbox-Panel ist klar beschriftet und benennt die Option eindeutig.
-* Mehrere Checkbox-Panels werden in einer [Checkbox-Group](/de/design-system/lyne/components/checkbox-group/) zusammengefasst, max. 5–7 Optionen pro Gruppe.
-* Ein Checkbox-Panel enthält nicht zu viele Inhalte, damit es les- und überschaubar bleibt.
-* Hat ein Checkbox-Panel keinen sichtbaren Text, braucht es ein `aria-label`.

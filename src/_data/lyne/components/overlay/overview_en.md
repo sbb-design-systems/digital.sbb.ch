@@ -4,8 +4,3 @@ An overlay shows content on top of the application, e.g. a form or a detail view
 ## When should the component be used?
 * To focus attention on extensive content or a task, e.g. a form.
 * For smaller, short interactions (e.g. confirmations), use the [dialog](/en/design-system/lyne/components/dialog/) instead.
-
-## Rules.
-* The overlay always offers a way to close: close button, Esc or an action in the content.
-* The content needs a clear title.
-* When closed, focus returns to the triggering element.

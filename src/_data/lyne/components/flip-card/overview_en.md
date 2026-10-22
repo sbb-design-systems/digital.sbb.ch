@@ -5,9 +5,3 @@ A flip card is a card with a title and an image. When clicked, it flips and show
 ## When should the component be used?
 * To offer a selection of topics as cards, each with short additional information.
 * To present content compactly when the details do not need to be visible right away.
-
-## Rules.
-* Title and image are mandatory.
-* The detail text is short. The card must not grow when flipped.
-* Important information is not only on the back.
-* Several flip cards side by side have the same height.

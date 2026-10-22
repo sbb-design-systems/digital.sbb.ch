@@ -6,9 +6,3 @@ The train component displays the train formation: the order of the wagons, their
 * To show travellers where on the platform each wagon stops, e.g. first class, dining car or bicycle compartment.
 * To display the occupancy of individual wagons.
 * To make wagons selectable, e.g. for a reservation.
-
-## Rules.
-* The direction of travel and the sectors should always be shown.
-* For each train, describe for screen readers in which sector the front of the train is and in which direction it departs.
-* Facility icons in a wagon each need a label for screen readers.
-* Wagons without a walkable connection are marked with a blocked passage.

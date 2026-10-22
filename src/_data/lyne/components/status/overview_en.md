@@ -4,8 +4,3 @@ A status shows the current state of an object, process or system. It consists of
 
 ## When should the component be used?
 * To inform users about the current state of a process, system or object.
-
-## Rules.
-* Always use the same type for the same state, throughout the application.
-* Keep the text short.
-* For screen readers: the text should only contain inline content. For dynamic changes, `role="status"` can be set.

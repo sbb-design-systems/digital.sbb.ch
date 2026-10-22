@@ -10,6 +10,7 @@
         "it": false,
         "en": true
     },    
+    "elementOrder": ["sbb-button", "sbb-secondary-button", "sbb-accent-button", "sbb-transparent-button", "sbb-mini-button"],
     "order": 170,
     "categories":["Action"],
     "keywords":["Button, Primary"],

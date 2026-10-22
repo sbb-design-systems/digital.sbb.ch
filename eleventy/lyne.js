@@ -23,8 +23,8 @@ function computeDocumentationStatus(key, config) {
     const has = (file) => fs.existsSync(path.join(dir, file));
     const required = config.hasTabs === false
         ? [["content_de.md", "content_de.njk"], ["content_en.md", "content_en.njk"]]
-        // Die Anatomie-Tabellen sind entfallen: Aufbau zeigt der Elemente-Baum, Regeln stehen in der Übersicht
-        : config.tabs?.hasOverview === false ? [] : [["overview_de.md"], ["overview_en.md"]];
+        // Die Anatomie-Tabellen sind entfallen: Aufbau zeigt der Elemente-Baum, Regeln stehen in rules_<sprache>.md
+        : config.tabs?.hasOverview === false ? [] : [["overview_de.md"], ["overview_en.md"], ["rules_de.md"], ["rules_en.md"]];
     const present = required.filter((alternatives) => alternatives.some(has)).length;
     return present === required.length ? "complete" : present === 0 ? "missing" : "in progress";
 }
@@ -147,14 +147,11 @@ function lyneCoverage(lyneData) {
     };
 }
 
-// Übersicht einer Lyne-Komponente aufteilen: "intro" bis vor die Überschrift "## Regeln." (Übersichts-Tab),
-// "rules" ab dieser Überschrift (Anwendungs-Tab). Ohne Regeln-Abschnitt ist "rules" leer.
-const RULES_HEADING = /^##\s+(Regeln|Rules|Règles|Regole)\b/m;
-function overviewSection(markdown, part) {
-    const text = String(markdown ?? "");
-    const match = text.match(RULES_HEADING);
-    if (!match) return part === "intro" ? text : "";
-    return part === "intro" ? text.slice(0, match.index) : text.slice(match.index);
+// Hauptelemente nach der Reihenfolge aus der config ("elementOrder"); nicht genannte folgen alphabetisch
+function sortElements(nodes, order) {
+    if (!order?.length) return nodes;
+    const rank = (n) => (order.includes(n.tag) ? order.indexOf(n.tag) : order.length);
+    return nodes.slice().sort((a, b) => rank(a) - rank(b) || a.tag.localeCompare(b.tag));
 }
 
 // Lyne-README aufteilen: "usage" bis vor die automatisch erzeugte API-Dokumentation (Tab Implementation),
@@ -279,7 +276,7 @@ function lyne(eleventyConfig) {
     eleventyConfig.addFilter("componentRelations", componentRelations);
     eleventyConfig.addFilter("figmaUrl", figmaUrl);
     eleventyConfig.addFilter("lyneCoverage", lyneCoverage);
-    eleventyConfig.addFilter("overviewSection", overviewSection);
+    eleventyConfig.addFilter("sortElements", sortElements);
     eleventyConfig.addFilter("readmeSection", readmeSection);
     eleventyConfig.addFilter("storybookDocsUrl", storybookDocsUrl);
     eleventyConfig.addFilter("sortLyneComponentsByOrder", sortLyneComponentsByOrder);

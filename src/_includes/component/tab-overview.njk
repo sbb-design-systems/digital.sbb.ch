@@ -1,6 +1,6 @@
 {% set overviewpath = ["src/_data/", system, "/components/", component, "/overview_", language, ".md"] | join %}
 {# Übersicht, wenn die Datei existiert, es verwandte Komponenten oder (Lyne) eine Vorschau gibt.
-   Lyne: Vorschau aus playground.html, danach die Übersicht bis vor "Regeln" – die Regeln stehen im Anwendungs-Tab. #}
+   Lyne: Vorschau aus playground.html, danach die Übersicht – die Regeln stehen in rules_<sprache>.md im Anwendungs-Tab. #}
 {% set hasOverviewContent = (pattern.config.tabs.hasOverview == true) and (overviewpath | fileExists) %}
 {% set relations = component | componentRelations(system, sys, lyne) %}
 {% set hasRelations = (relations.similar | length) or (relations.contains | length) or (relations.usedIn | length) %}
@@ -9,7 +9,6 @@
 {% if hasOverviewContent or hasRelations or hasPreview %}
     {% if hasOverviewContent %}
         {% set overview %}{% include overviewpath %}{% endset %}
-        {% if system == "lyne" %}{% set overview = overview | overviewSection("intro") %}{% endif %}
     {% endif %}
 
     <sbb-tab-label level="1" role="tab" slot="tab-bar">

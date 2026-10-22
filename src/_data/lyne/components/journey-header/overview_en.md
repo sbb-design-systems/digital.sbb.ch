@@ -4,7 +4,3 @@ The journey header is the title of a journey or connection. It shows the start a
 
 ## When should the component be used?
 * In a timetable context, for example as the title of a travel route.
-
-## Rules.
-* The semantic level (`level`) matches the heading structure of the page. The display can be adjusted independently via `visual-level`.
-* The connection is described automatically for screen readers, for example "Connection from A to B".

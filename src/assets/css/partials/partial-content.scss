@@ -552,22 +552,23 @@ p.subtext {
 .lyne-element-tree {
   list-style: none;
   margin: 0;
-  padding-inline-start: var(--sbb-spacing-fixed-6x);
-  border-inline-start: var(--sbb-border-width-1x) solid var(--sbb-color-cloud);
+  padding-inline-start: 0;
 
   &--root {
-    padding-inline-start: 0;
-    border-inline-start: none;
     margin-block-end: var(--sbb-spacing-responsive-s);
   }
 
   li {
-    margin-block: var(--sbb-spacing-fixed-4x);
+    margin-block: var(--sbb-spacing-fixed-4x) var(--sbb-spacing-fixed-8x);
   }
 }
 
-// Ohne Aufzählungszeichen der Inhaltslisten (partial-typography.scss): die Einrückung zeigt die Hierarchie.
+// Ohne Aufzählungszeichen der Inhaltslisten (partial-typography.scss): die Hierarchie zeigt sich über die Abstände.
 // :not(.demo *) hebt die Spezifität über die der allgemeinen Listenregel.
+ul.lyne-element-tree:not(.demo *) {
+  --sbb-list-padding-inline-start: 0;
+}
+
 ul.lyne-element-tree:not(.demo *) > li {
   padding-inline-start: 0;
 
@@ -579,7 +580,6 @@ ul.lyne-element-tree:not(.demo *) > li {
 .lyne-element-parts-label {
   margin-block: var(--sbb-spacing-fixed-3x) 0;
   font-size: var(--sbb-font-size-text-xs);
-  color: var(--sbb-color-granite);
 }
 
 // Tag mit Tooltip (Beschreibung aus Lyne)
@@ -596,7 +596,6 @@ ul.lyne-element-tree:not(.demo *) > li {
 
 .lyne-element-variants {
   font-size: var(--sbb-font-size-text-xs);
-  color: var(--sbb-color-granite);
 }
 
 .lyne-element-note {
