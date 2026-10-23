@@ -1,0 +1,60 @@
+---
+permalink: /design-system/lyne/llms.txt
+eleventyExcludeFromCollections: true
+---
+{#- llms.txt für Lyne (Web). Einstieg und Wahl des Design Systems: /llms.txt (src/llms.njk). -#}
+{%- set site = "https://digital.sbb.ch" -%}
+{%- set components = lyne.components | sortComponentsByName -%}
+# Lyne – SBB design system for the web
+
+> Lyne is the SBB design system for websites and web applications. It is implemented as web components (`@sbb-esta/lyne-elements`) with an Angular wrapper (`@sbb-esta/lyne-angular`). Use it for all new web projects. Native apps use the mobile design system ({{ site }}/design-system/mobile/llms.txt); the old Angular library `@sbb-esta/angular` (Lean) is legacy ({{ site }}/design-system/lean/llms.txt).
+
+Principles, foundations (colors, typography, icons), accessibility and writing rules apply to all SBB design systems and are listed in {{ site }}/llms.txt. This file covers Lyne only.
+
+The documentation is spread across several platforms. Use digital.sbb.ch for when and why to use a component (usage rules, elements) and for the web component API, Storybook for live examples and the Angular documentation for Angular usage. Current Lyne version: {{ lyne.version.branch }}. This file was generated on {{ buildTime }} and is rebuilt daily; if your copy is clearly older, it comes from a cache (yours or your fetch tool's), not from this server.
+
+- [Lyne Elements Storybook](https://lyne-elements.app.sbb.ch/): Web component API, live examples, code snippets; story index at https://lyne-elements.app.sbb.ch/index.json
+- [Lyne Angular documentation](https://lyne-angular.app.sbb.ch/): Angular wrapper components (`@sbb-esta/lyne-angular`, `@sbb-esta/lyne-angular-experimental`) with Angular API and examples; every component page and the JSON index link to the matching Angular page
+- [lyne-components on GitHub](https://github.com/sbb-design-systems/lyne-components): Source code, readme per component, issues
+- [lyne-angular on GitHub](https://github.com/sbb-design-systems/lyne-angular): Source code of the Angular wrapper
+
+Every Lyne component page below is available as Markdown (`…/index.md`) with usage rules, the elements of the component, code examples and links (Storybook, Angular); the full API tables of the web components are in `…/api.md` next to it. German versions: same path with `/de/` instead of `/en/`.
+
+A machine-readable index of all released Lyne components (elements, status such as experimental or Figma availability, and all links) is available at [{{ site }}/lyne-components.json]({{ site }}/lyne-components.json).
+
+{% set resources = lyne.catalog.resources %}## Quick start for AI
+
+- Install: `npm install @sbb-esta/lyne-elements` (Angular: `@sbb-esta/lyne-angular`). Components are web components with the prefix `sbb-`.
+- Register elements by importing the component module once, e.g. `import '@sbb-esta/lyne-elements/button.js';` for `<sbb-button>` (one import per component group; the module path equals the component name). An element that is not imported stays an unknown, unstyled HTML element.
+- Theme and tokens: load one theme stylesheet from the package, e.g. `import '@sbb-esta/lyne-elements/standard-theme.css';` (`standard-theme.css` for customer and employee applications, `off-brand-theme.css` for industry, `safety-theme.css` for safety contexts; `lean-*` variants exist for lean applications; see {{ site }}/en/design-system/lyne/themes/index.md). The `lean-*` themes are part of Lyne and are not the legacy Lean library. Style with design tokens (CSS custom properties `--sbb-*`, list: {{ site }}/en/design-system/lyne/design-tokens/index.md) instead of hard-coded colors, spacing or font sizes.
+- Component details: read `…/<component>/index.md` for usage, elements and examples; the full attribute, slot and event tables are in `…/<component>/api.md`.
+- Common mistakes:
+  - Invented `icon-name` values. Use only names from [icons-ui.json]({{ site }}/icons-ui.json) (name plus size, e.g. `arrow-right-small`); if a name is missing there, check the authoritative catalog {{ resources.icons }}.
+  - Elements that were never imported (see above) or tags that do not exist; check the component list below or lyne-components.json.
+  - Wrong slots: parts such as list items, tabs or form-field inputs only work inside their parent element and often need a named slot or a specific child element; compare with the elements section and examples of the component.
+  - Plain HTML attributes where Lyne expects a boolean or enum attribute (e.g. `negative`, `size="l"`); check the API table before using a value.
+  - Own colors or fonts: use the theme and tokens.
+  - Components of the legacy library `@sbb-esta/angular` mixed with Lyne; both use the prefix `sbb-`, so check the package of every import. Use only Lyne in new code.
+
+## Machine-readable resources
+
+- [All Lyne components in one file]({{ site }}/design-system/lyne/llms-full.txt) (same as {{ site }}/lyne-components-full.md): The Markdown versions of all released components (English) without the API tables, to load the whole context with one request
+- [UI icon names]({{ site }}/icons-ui.json): All valid values for `icon-name` (name plus size, e.g. `arrow-right-small`), one entry per icon with sizes, category and keywords. Use only names from this list; do not invent icon names. It is a compact snapshot of the icon catalog, rebuilt daily; `sourceVersion` and `generated` show its state.
+- [Icon catalog (authoritative)]({{ resources.icons }}): Source of all icons that Lyne loads at runtime, including timetable icons; large (about 1.2 MB, one entry per size, category and size encoded in `tags`). Use it only if a name is missing in icons-ui.json.
+- [custom-elements.json]({{ resources.customElements }}): Complete API of all web components (attributes, properties, events, slots, CSS properties); experimental components: {{ resources.customElementsExperimental }}
+- [Design tokens]({{ resources.designTokens }}): Colors, spacing, typography and more as JSON; as CSS custom properties: {{ resources.designTokensCss }}
+
+## Lyne components
+{% for key, pattern in components %}{% if pattern.config.language.en and pattern.config.list == "components" and pattern.config.released != false %}
+- [{{ pattern.config.tag | capitalizeWords }}]({{ site }}/en/design-system/lyne/{{ pattern.config.list }}/{{ pattern.config.tag }}/index.md){% set summary = ("_data/lyne/components/" + key + "/overview_en.md") | readSourceFile | agentSummary %}{% if summary %}: {{ summary | safe }}{% endif %}{% set labels = key | lyneStatusLabels(pattern.config, lyne) %}{% if labels %} ({{ labels }}){% endif %}
+{%- endif %}{% endfor %}
+{%- set llmsSections = [
+  ["/design-system/lyne/overview/", "Lyne overview"],
+  ["/design-system/lyne/what-is-lyne/", "What is Lyne"],
+  ["/design-system/lyne/design-tokens/", "Lyne design tokens"],
+  ["/design-system/lyne/templates/", "Lyne templates"],
+  ["/design-system/lyne/themes/", "Lyne themes"],
+  ["/design-system/lyne/releases/", "Lyne releases"],
+  ["/design-system/maps/", "Maps design system (maps in web applications)"]
+] %}
+{%- include "llms/sections.njk" %}

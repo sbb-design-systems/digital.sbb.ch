@@ -1,0 +1,12 @@
+{#- Seitenlisten für die llms.txt-Dateien (nur Englisch; Deutsch unter demselben Pfad mit /de/).
+    Erwartet `llmsSections`: Liste von [Pfad ab Sprache, Überschrift]. -#}
+{%- for section in llmsSections %}
+{%- set entries = collections.agentPages | agentPagesInSection("en", section[0], lyne) %}
+{%- if entries | length %}
+
+## {{ section[1] }}
+{% for entry in entries %}
+- [{{ entry.title | safe }}]({{ site }}{{ entry.url }}index.md){% if entry.description %}: {{ entry.description | safe }}{% endif %}
+{%- endfor %}
+{%- endif %}
+{%- endfor -%}

@@ -1,0 +1,21 @@
+---
+permalink: /design-system/lean/llms.txt
+eleventyExcludeFromCollections: true
+---
+{#- llms.txt für die alte Angular-Bibliothek (Lean, Legacy). Einstieg: /llms.txt (src/llms.njk). -#}
+{%- set site = "https://digital.sbb.ch" -%}
+# SBB Design System Lean (legacy)
+
+> Lean is the legacy Angular library `@sbb-esta/angular` (lean variant) for business applications. It is only maintained for existing applications. Do not use it for new projects; use Lyne instead ({{ site }}/design-system/lyne/llms.txt).
+
+Use this file only if the project already depends on `@sbb-esta/angular`. Do not mix it with Lyne (`@sbb-esta/lyne-elements`, `@sbb-esta/lyne-angular`): both use the prefix `sbb-`, so check the package of every import. The `lean-*` themes of Lyne are part of Lyne and are not this library. This file was generated on {{ buildTime }}.
+
+## Documentation
+
+- [Technical documentation](https://angular.app.sbb.ch/angular/introduction/getting-started?variant=lean): Installation, API and examples of `@sbb-esta/angular` in the lean variant
+- [sbb-angular on GitHub](https://github.com/sbb-design-systems/sbb-angular): Source code and issues
+- [UX documentation]({{ site }}/en/design-system/lean/overview/): Usage rules for the Lean components on digital.sbb.ch (HTML)
+{%- set llmsSections = [
+  ["/design-system/lean/", "Lean design system"]
+] %}
+{%- include "llms/sections.njk" %}

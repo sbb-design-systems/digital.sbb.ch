@@ -1,0 +1,30 @@
+---
+permalink: /design-system/mobile/llms.txt
+eleventyExcludeFromCollections: true
+---
+{#- llms.txt für das Mobile Design System (native Apps). Gehört dem Mobile-Team und kann ohne
+    Abstimmung mit Lyne geändert werden. Feste Abmachung mit /llms.txt (src/llms.njk): diese URL
+    bleibt stabil, und die Kurzbeschreibung dort wird vom Mobile-Team geliefert. -#}
+{%- set site = "https://digital.sbb.ch" -%}
+# SBB Design System Mobile – native apps
+
+> The SBB design system for native mobile applications (iOS, Android). It consists of the UX documentation on digital.sbb.ch and one code library per platform. It does not use Lyne web components; for websites and web applications see {{ site }}/design-system/lyne/llms.txt.
+
+Principles, foundations (colors, typography, icons), accessibility and writing rules apply to all SBB design systems and are listed in {{ site }}/llms.txt. This file was generated on {{ buildTime }}.
+
+## Choose the library for your project
+
+- Flutter (`pubspec.yaml`): [design_system_flutter](https://github.com/SchweizerischeBundesbahnen/design_system_flutter)
+- iOS with SwiftUI (`.xcodeproj`, `Package.swift`): [mobile-ios-design-swiftui](https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui)
+- Android with Jetpack Compose (`build.gradle.kts` with Compose): [mds-android-compose](https://github.com/SchweizerischeBundesbahnen/mds-android-compose)
+
+The component pages below describe usage rules for all platforms. The API, installation and code examples are in the readme and documentation of each library.
+
+## Design resources
+
+- [Figma components](https://www.figma.com/design/ZBotr4yqcEKqqVEJTQfSUa/Design-System-Mobile): Components of the mobile design system
+- [UI icon names]({{ site }}/icons-ui.json): All SBB UI icons with sizes, category and keywords
+{%- set llmsSections = [
+  ["/design-system/mobile/", "Mobile design system"]
+] %}
+{%- include "llms/sections.njk" %}
