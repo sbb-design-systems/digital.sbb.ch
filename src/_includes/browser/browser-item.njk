@@ -6,10 +6,11 @@
     {# data-section: Bereich (Design Tokens, Komponenten, Templates …) für die Zwischentitel in der Sidebar (component-browser.js) #}
     <li data-keywords="{{ entry.config.keywords }}{% if elementKeywords %},{{ elementKeywords }}{% endif %}" data-categories="{{ entry.config.categories }}" data-section="{{ entry.config.list }}" data-section-title="{{ translations[page.lang].browsersections[entry.config.list] }}">
         <sbb-card color="white" class="sbb-card-spacing-4x-xxs">
-            <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag %}id="active-card"{% endif %} href="{{page.lang}}/design-system/{{entry.config.system}}/{{entry.config.list}}/{{entry.config.tag}}/" {% if getSegementsOfPageUrl[5] == entry.config.tag %}active{% endif %}>More Info</sbb-card-link>
+            <sbb-card-link {% if getSegementsOfPageUrl[5] == entry.config.tag %}id="active-card"{% endif %} href="{{page.lang}}/design-system/{{entry.config.system}}/{{entry.config.list}}/{{entry.config.tag}}/" {% if getSegementsOfPageUrl[5] == entry.config.tag %}active{% endif %}>{{ entry.config.tag | capitalizeWords }}</sbb-card-link>
             <div class="card-content-component">
                 <div class="title-chips">
-                    <sbb-title class="search-title" level="5">{{ entry.config.tag | capitalizeWords}}</sbb-title>
+                    {# Eine Stufe unter den Bereichstiteln (component-browser.js) #}
+                    <sbb-title class="search-title" level="{{ browserSectionLevel + 1 }}" visual-level="5">{{ entry.config.tag | capitalizeWords}}</sbb-title>
                     <div class="chips">
                         {% for chip in entry.config.categories %}
                             <sbb-chip-label color="milk">{{chip}}</sbb-chip-label>

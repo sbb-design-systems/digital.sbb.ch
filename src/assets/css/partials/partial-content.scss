@@ -538,9 +538,14 @@ p.subtext {
   }
 }
 
-// Links zur Angular-Doku am Ende des Implementation-Tabs (Lyne)
-.lyne-angular-links {
+// Links zu Web Components (Storybook, GitHub) und Angular-Doku am Ende des Implementation-Tabs (Lyne)
+.lyne-implementation-links {
   margin-block-end: var(--sbb-spacing-responsive-s);
+}
+
+// Zwischentitel über dem README im Implementation-Tab (Lyne): mehr Abstand zu den Links darüber
+.lyne-readme-title {
+  margin-block-start: var(--sbb-spacing-responsive-l);
 }
 
 // Ähnliche Komponenten am Ende des Übersichts-Tabs (Lyne)

@@ -1,5 +1,5 @@
 // Ausgaben für AI-Agents: Markdown-Versionen der Seiten (…/index.md, über agent-markdown.js),
-// llms.txt, llms-full.txt, /lyne-components.json und /icons-ui.json
+// llms.txt (Einstieg und pro Design System), llms-full.txt, /lyne-components.json und /icons-ui.json
 const fs = require("fs");
 const path = require("path");
 const agentPages = require("./agent-markdown");
@@ -158,9 +158,13 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.on("eleventy.after", ({ results, dir }) => {
-        // /llms-full.txt als Alias für das Bündel aller Komponenten (Konvention von llms.txt)
+        // /llms-full.txt und /design-system/lyne/llms-full.txt als Alias für das Bündel aller Komponenten (Konvention von llms.txt)
         const full = path.join(dir?.output ?? "dist", "lyne-components-full.md");
-        if (fs.existsSync(full)) fs.copyFileSync(full, path.join(dir?.output ?? "dist", "llms-full.txt"));
+        if (fs.existsSync(full)) {
+            fs.copyFileSync(full, path.join(dir?.output ?? "dist", "llms-full.txt"));
+            fs.mkdirSync(path.join(dir?.output ?? "dist", "design-system", "lyne"), { recursive: true });
+            fs.copyFileSync(full, path.join(dir?.output ?? "dist", "design-system", "lyne", "llms-full.txt"));
+        }
         const written = agentPages.writeAgentPages((results ?? []).filter((result) => agentPageUrls.has(result.url)), dir?.output ?? "dist");
         if (written) console.log(`[agent-markdown] ${written} Markdown-Seiten geschrieben`);
     });

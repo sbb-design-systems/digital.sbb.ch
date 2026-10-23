@@ -27,10 +27,10 @@
 {%- endmacro -%}
 
 {%- if elementGroup and elementGroup.structure == "grouped" %}
-<h2>{{ et.title }}.</h2>
+<h3 class="visual-level-2">{{ et.title }}.</h3>
 <p>{{ et.groupedBy | replace("{element}", code(elementGroup.main[0].tag)) | replace("{group}", code(elementGroup.main[0].groupedBy)) | safe }}</p>
 {%- elif elementGroup and (elementGroup.structure == "composite" or elementGroup.structure == "collection") %}
-<h2>{{ et.title }}.</h2>
+<h3 class="visual-level-2">{{ et.title }}.</h3>
 <p>{{ et.introComposite if elementGroup.structure == "composite" else et.introCollection }}</p>
 <ul class="lyne-element-tree lyne-element-tree--root">
   {%- for node in elementGroup.main | sortElements(pattern.config.elementOrder) %}{{ elementNode(node) }}{% endfor %}

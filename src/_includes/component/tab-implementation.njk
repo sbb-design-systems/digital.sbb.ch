@@ -7,14 +7,32 @@
         Implementation
     </sbb-tab-label>
     <sbb-tab>
-    {{ implementation | absolutelinks | renderUsingMarkdown | safe }}
-    {# Lyne: Hinweis auf die Angular-Doku am Schluss; Icons wie die Tabs Übersicht, API und Beispiele #}
+    {# Lyne: Web Components zuerst (Storybook, Quellcode); das README darunter beschreibt sie #}
+    {% set group = lyne.catalog.groups[component] if system == "lyne" else null %}
+    {% if group and (group.storybook or group.sourceUrl) %}
+        {% set wt = translations[page.lang].lynewebcomponents %}
+        <h3 class="visual-level-2">Web Components.</h3>
+        <p>{{ wt.intro | replace("{package}", "<code>" + group.package + "</code>") | safe }}</p>
+        <sbb-link-list class="lyne-implementation-links">
+            {% if group.storybook %}
+            <sbb-block-link href="{{ group.storybook.docsUrl }}" target="_blank" icon-name="controls-small">{{ wt.storybook }}</sbb-block-link>
+            {% endif %}
+            {% if group.sourceUrl %}
+            <sbb-block-link href="{{ group.sourceUrl }}" target="_blank" icon-name="github-small">{{ wt.github }}</sbb-block-link>
+            {% endif %}
+        </sbb-link-list>
+        {# README als Unterabschnitt der Web Components: Zwischentitel h4, README-Überschriften zwei Stufen tiefer (h2 → h4, mit shiftHeadings unten h5) #}
+        <h4 class="visual-level-3 lyne-readme-title">{{ wt.readme }}</h4>
+        {% set implementation = implementation | demoteHeadings | demoteHeadings %}
+    {% endif %}
+    {{ implementation | absolutelinks | renderUsingMarkdown | shiftHeadings | safe }}
+    {# Lyne: Angular-Doku am Schluss; Icons wie die Tabs Übersicht, API und Beispiele #}
     {% if angularUrl %}
         {% set at = translations[page.lang].lyneangular %}
         {% set angularPackage = "@sbb-esta/lyne-angular-experimental" if ("/angular-experimental/" in angularUrl) else "@sbb-esta/lyne-angular" %}
-        <h2>Angular.</h2>
+        <h3 class="visual-level-2">Angular.</h3>
         <p>{{ at.intro | replace("{package}", "<code>" + angularPackage + "</code>") | safe }}</p>
-        <sbb-link-list class="lyne-angular-links">
+        <sbb-link-list class="lyne-implementation-links">
             <sbb-block-link href="{{ angularUrl }}/overview" target="_blank" icon-name="circle-information-small">{{ at.overview }}</sbb-block-link>
             <sbb-block-link href="{{ angularUrl }}/api" target="_blank" icon-name="display-binary-code-small">{{ at.api }}</sbb-block-link>
             <sbb-block-link href="{{ angularUrl }}/examples" target="_blank" icon-name="eye-small">{{ at.examples }}</sbb-block-link>

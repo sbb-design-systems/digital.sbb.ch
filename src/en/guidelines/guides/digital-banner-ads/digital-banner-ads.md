@@ -18,7 +18,7 @@ In general, and wherever possible, the entire red panel (version 1) should be us
 The recommendations for accessible web content 2.0 given by WCAG (Web Content Accessibility Guidelines) must be followed when creating advertising materials. {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-label slot="tab-bar">Version 1</sbb-tab-label>
+<sbb-tab-label level="2" slot="tab-bar">Version 1</sbb-tab-label>
 <sbb-tab>
 
 ### Example
@@ -38,7 +38,7 @@ The recommendations for accessible web content 2.0 given by WCAG (Web Content Ac
 \*Utilisation of the window in expanded view
 
 </sbb-tab>
-<sbb-tab-label slot="tab-bar">Version 2</sbb-tab-label>
+<sbb-tab-label level="2" slot="tab-bar">Version 2</sbb-tab-label>
 <sbb-tab>
 
 ### Examples

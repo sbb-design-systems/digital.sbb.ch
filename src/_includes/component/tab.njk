@@ -1,7 +1,7 @@
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
     {%- for tab in collections[tabkey] | sortByOrder -%}
-    <sbb-tab-label level="1" role="tab" slot="tab-bar">
+    <sbb-tab-label level="2" role="tab" slot="tab-bar">
         <sbb-icon name="{{translations.icons[tab.data.icon]}}" slot="icon"></sbb-icon>
         {{tab.data.title}}
     </sbb-tab-label>

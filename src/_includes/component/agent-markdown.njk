@@ -36,7 +36,7 @@
 {%- if config | figmaUrl %}
 - Figma: {{ config | figmaUrl }}
 {%- endif %}
-- GitHub: https://github.com/sbb-design-systems/lyne-components
+- GitHub: {{ group.sourceUrl if group and group.sourceUrl else "https://github.com/sbb-design-systems/lyne-components" }}
 
 {#- Elemente als verschachtelte Liste: Hauptelemente, Varianten, Gruppierung, Bestandteile #}
 {%- macro elementItem(node, parentTag, indent) %}

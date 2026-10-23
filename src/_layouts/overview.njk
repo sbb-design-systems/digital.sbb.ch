@@ -11,5 +11,7 @@ layout: base.njk
 {% endif %}
 
 <sbb-card class="sbb-card-spacing-s browser-card" color="milk">
+    {# Direkt unter dem Seitentitel (h1): Bereichstitel h2, Einträge h3 #}
+    {% set browserSectionLevel = 2 %}
     {% include "../_includes/browser/browser.njk" %}
 </sbb-card>

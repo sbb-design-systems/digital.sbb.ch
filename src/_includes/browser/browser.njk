@@ -27,7 +27,9 @@
 {% set pattern = patterns[component] %}
 
 
-<div id="componentbrowser" class="component-browser sidebar-browser">
+{# Ebene der Bereichstitel: 3 in der Sidebar (unter dem Sidebar-Titel h2), 2 auf Übersichtsseiten #}
+{% set browserSectionLevel = browserSectionLevel or 3 %}
+<div id="componentbrowser" class="component-browser sidebar-browser" data-section-level="{{ browserSectionLevel }}">
     <div class="component-search">
         {% include "./partial-search-field.njk" %}
         {% include "./partial-tag-group.njk" %}

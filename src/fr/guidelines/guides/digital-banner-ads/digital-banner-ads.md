@@ -18,7 +18,7 @@ Il convient de respecter les modèles fournis. Si le format souhaité n’est pa
 Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Accessibility Guidelines) doivent être respectées lors de la création de supports publicitaires. {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-label slot="tab-bar">Version 1</sbb-tab-label>
+<sbb-tab-label level="2" slot="tab-bar">Version 1</sbb-tab-label>
 <sbb-tab>
 
 ### Exemples
@@ -38,7 +38,7 @@ Les règles pour l’accessibilité des contenus Web WCAG 2.0 (Web Content Acces
 *Utilisation des fenêtres en vue déployée (expanded)
 
 </sbb-tab>
-<sbb-tab-label slot="tab-bar">Version 2</sbb-tab-label>
+<sbb-tab-label level="2" slot="tab-bar">Version 2</sbb-tab-label>
 <sbb-tab>
 
 ### Exemples

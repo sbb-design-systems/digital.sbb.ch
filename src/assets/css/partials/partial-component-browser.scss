@@ -79,6 +79,13 @@ sbb-sidebar {
     }
   }
 
+  // Überschrift im Bereichstitel übernimmt die Schrift der Zeile (statt der Inhalts-Überschriften)
+  .component-list > li.component-list-section > :is(h2, h3) {
+    font: inherit;
+    color: inherit;
+    margin: 0;
+  }
+
   .component-list.grid-view > li.component-list-section {
     grid-column: 1 / -1;
     margin-block: var(--sbb-spacing-fixed-6x) 0;

@@ -11,14 +11,14 @@
         {% set overview %}{% include overviewpath %}{% endset %}
     {% endif %}
 
-    <sbb-tab-label level="1" role="tab" slot="tab-bar">
+    <sbb-tab-label level="2" role="tab" slot="tab-bar">
     <sbb-icon name="{{tabs[0].icon}}" slot="icon"></sbb-icon>
     {{tabs[0].label[language]}}
     </sbb-tab-label>
     <sbb-tab>
         {% if hasPreview %}
             {# .demo schützt das Markup vor den Inhaltsstilen (partial-typography.scss) #}
-            <h2>{{ translations[page.lang].lyneelements.preview }}.</h2>
+            <h3 class="visual-level-2">{{ translations[page.lang].lyneelements.preview }}.</h3>
             <div class="demo wide lyne-preview">
                 <div class="background default">
                     {% include "../../_data/lyne/components/" + component + "/playground.html" %}
@@ -44,13 +44,13 @@
             </script>
         {% endif %}
         {% if hasOverviewContent %}
-            {{ overview | renderUsingMarkdown | safe }}
+            {{ overview | renderUsingMarkdown | shiftHeadings | safe }}
         {% endif %}
         {# Verwandte Komponenten: für Lyne nur "Ähnlich", sonst aus der config #}
         {% set relationTitles = translations[page.lang].relations %}
         {% if hasRelations and system == "lyne" %}
             {# Lyne: nur "Ähnlich", als Abschnitt im Stil der übrigen Überschriften #}
-            <h2>{{ relationTitles.similarOne if (relations.similar | length) == 1 else relationTitles.similarMany }}.</h2>
+            <h3 class="visual-level-2">{{ relationTitles.similarOne if (relations.similar | length) == 1 else relationTitles.similarMany }}.</h3>
             <sbb-link-list class="similar-components">
                 {% for item in relations.similar %}
                     <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{item.key}}/">{{ item.label }}</sbb-block-link>
@@ -61,7 +61,7 @@
                 <div class="relative-components-lists">
                     {% for relation in [["similar", relations.similar], ["contains", relations.contains], ["usedIn", relations.usedIn]] %}
                         {% if relation[1] | length %}
-                        <sbb-link-list title-content="{{ relationTitles[relation[0]] }}">
+                        <sbb-link-list title-level="3" title-content="{{ relationTitles[relation[0]] }}">
                             {% for item in relation[1] %}
                                 {% if item.linked %}
                                     <sbb-block-link icon-name="four-diamonds-small" href="/{{language}}/design-system/{{system}}/components/{{item.key}}/">{{ item.label }}</sbb-block-link>

@@ -66,6 +66,8 @@ function buildCatalog(storybookEntries = {}, partOf = {}) {
                     elements: [],
                     readmeUrl: `https://raw.githubusercontent.com/${GITHUB_REPO}/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
                     githubUrl: `https://github.com/${GITHUB_REPO}/blob/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
+                    // Ordner der Komponente (Quellcode, Readme, Stories, Tests) in der dokumentierten Version
+                    sourceUrl: `https://github.com/${GITHUB_REPO}/tree/${tag}/${pkg.sourcePath}/${folder}`,
                     angularUrl: `${ANGULAR_URL}/${pkg.experimental ? "angular-experimental" : "angular"}/components/${folder}`,
                     storybook: null,
                     storybookPrefix: pkg.storybookPrefix,
@@ -105,6 +107,8 @@ function buildCatalog(storybookEntries = {}, partOf = {}) {
             elements: [],
             readmeUrl: `https://raw.githubusercontent.com/${GITHUB_REPO}/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
             githubUrl: `https://github.com/${GITHUB_REPO}/blob/${tag}/${pkg.sourcePath}/${folder}/readme.md`,
+            // Ordner der Komponente (Quellcode, Readme, Stories, Tests) in der dokumentierten Version
+            sourceUrl: `https://github.com/${GITHUB_REPO}/tree/${tag}/${pkg.sourcePath}/${folder}`,
             angularUrl: null,
             storybook: { title, tag: rest.join("/"), docsUrl: `${STORYBOOK_URL}/?path=/docs/${docs.id}` },
             structure: "single",

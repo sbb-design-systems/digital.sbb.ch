@@ -4,8 +4,10 @@
   padding-block-start: var(--sbb-spacing-fixed-9x);
 }
 
-sbb-tab {
-  h2:first-child, h3:first-child, sbb-title:first-child {
+// Erster Titel im Tab ohne Abstand oben. sbb-container erhöht die Spezifität über die
+// Überschriften-Klassen visual-level-* (partial-typography.scss, Inhalte sind dort eine Stufe tiefer).
+sbb-container sbb-tab {
+  h2:first-child, h3:first-child, h4:first-child, sbb-title:first-child, [class*="visual-level-"]:first-child {
     margin-block-start: 0;
   }
 }

@@ -9,6 +9,18 @@ function sortByOrder(values) {
     return vals.sort((a, b) => Math.sign(a.data.order - b.data.order));
 }
 
+// Überschriften im Inhalt eines Tabs eine Stufe tiefer (Tab-Titel sind h2): <h2> → <h3 class="visual-level-2">.
+// Die Klasse behält die bisherige Grösse (partial-typography.scss); h6 bleibt h6.
+function shiftHeadings(html, by = 1) {
+    return String(html ?? "").replace(/<(\/?)h([1-6])(\s[^>]*)?>/g, (match, close, level, attrs = "") => {
+        const tag = `h${Math.min(6, Number(level) + by)}`;
+        if (close) return `</${tag}>`;
+        const visual = `visual-level-${level}`;
+        const withClass = /\sclass="/.test(attrs) ? attrs.replace(/\sclass="/, ` class="${visual} `) : ` class="${visual}"${attrs}`;
+        return `<${tag}${withClass}>`;
+    });
+}
+
 function sortColorsByOrder(obj) {
     if (!obj || typeof obj !== "object") {
         return obj;
@@ -108,4 +120,5 @@ module.exports = function (eleventyConfig) {
     );
     eleventyConfig.addFilter("absolutelinks", absoluteLinks);
     eleventyConfig.addFilter("renderUsingMarkdown", (rawString) => markdownLib.render(rawString));
+    eleventyConfig.addFilter("shiftHeadings", shiftHeadings);
 };

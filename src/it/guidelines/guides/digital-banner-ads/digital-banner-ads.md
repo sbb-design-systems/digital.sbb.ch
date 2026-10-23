@@ -18,7 +18,7 @@ In linea di massima e nei limiti del possibile si utilizza il pannello rosso com
 Per la creazione di materiale pubblicitario devono essere seguite le raccomandazioni per l’accessibilità dei contenuti web 2.0 delle Web Content Accessibility Guideline (WCAG). {.lead}
 
 <sbb-tab-group class="tab-documentation" initial-selected-index="0">
-<sbb-tab-label slot="tab-bar">Versione 1</sbb-tab-label>
+<sbb-tab-label level="2" slot="tab-bar">Versione 1</sbb-tab-label>
 <sbb-tab>
 
 ### Esempi
@@ -38,7 +38,7 @@ Per la creazione di materiale pubblicitario devono essere seguite le raccomandaz
 *Finestra utilizzata con visualizzazione estesa (expanded)
 
 </sbb-tab>
-<sbb-tab-label slot="tab-bar">Versione 2</sbb-tab-label>
+<sbb-tab-label level="2" slot="tab-bar">Versione 2</sbb-tab-label>
 <sbb-tab>
 
 ### Beispiele

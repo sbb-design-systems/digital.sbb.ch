@@ -17,24 +17,24 @@
     {% if hasAnatomyContent %}
         {% set anatomy %}{% include anatomypath %}{% endset %}
     {% endif %}
-    <sbb-tab-label level="1" role="tab" slot="tab-bar">
+    <sbb-tab-label level="2" role="tab" slot="tab-bar">
     <sbb-icon name="{{tabs[1].icon}}" slot="icon"></sbb-icon>
     {{tabs[1].label[language]}}
     </sbb-tab-label>
     <sbb-tab>
         {% if rules %}
-            {{ rules | renderUsingMarkdown | safe }}
+            {{ rules | renderUsingMarkdown | shiftHeadings | safe }}
         {% endif %}
         {% if showLyneElements %}
             {% include "./lyne-elements.njk" %}
         {% endif %}
         {% if hasAnatomyContent %}
-            {% if system == "lyne" %}<h2>{{ translations[page.lang].lyneelements.anatomy }}.</h2>{% endif %}
-            {{ anatomy | renderUsingMarkdown | safe }}
+            {% if system == "lyne" %}<h3 class="visual-level-2">{{ translations[page.lang].lyneelements.anatomy }}.</h3>{% endif %}
+            {{ anatomy | renderUsingMarkdown | shiftHeadings | safe }}
         {% endif %}
         {% if anatomyFigmaUrl %}
             {% set figmaLabel = translations[page.lang].templatebrowser.figma %}
-            <h2>{{ translations[page.lang].lyneelements.specification }}.</h2>
+            <h3 class="visual-level-2">{{ translations[page.lang].lyneelements.specification }}.</h3>
             <div class="anatomy-figma-link">
                 <sbb-secondary-button-link size="m" icon-name="figma-small" href="{{ anatomyFigmaUrl }}" target="_blank" accessibility-label="{{ figmaLabel }}. {{ translations[page.lang].newwindow }}">{{ figmaLabel }}</sbb-secondary-button-link>
             </div>

@@ -51,7 +51,10 @@
       if (section !== previous && item.elm.dataset.sectionTitle) {
         const title = document.createElement("li");
         title.className = "component-list-section";
-        title.textContent = item.elm.dataset.sectionTitle;
+        // Überschrift für Screenreader (Ebene aus data-section-level, browser.njk), Darstellung unverändert
+        const heading = document.createElement(`h${listElement.closest("#componentbrowser")?.dataset.sectionLevel ?? 3}`);
+        heading.textContent = item.elm.dataset.sectionTitle;
+        title.append(heading);
         item.elm.before(title);
       }
       previous = section;

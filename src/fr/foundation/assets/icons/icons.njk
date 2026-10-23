@@ -10,7 +10,7 @@ mode: KOM
 ---
 <p class="lead">Les CFF possèdent leur propre banque d’icônes contour de 1 pixel, sur une trame de pixels de 24x24, 36x36 et même 48x48 et 16x16.</p>
 <sbb-tab-group initial-selected-index="0" size="l">
-  <sbb-tab-label slot="tab-bar">Aperçu</sbb-tab-label>
+  <sbb-tab-label level="2" slot="tab-bar">Aperçu</sbb-tab-label>
   <sbb-tab>
     {% set icons = icons[0] %}
     {% include "src/_includes/icons/index.njk" %}
@@ -20,12 +20,12 @@ mode: KOM
     Voir les icônes en Figma
     </sbb-secondary-button-link> 
   </sbb-tab>
-  <sbb-tab-label slot="tab-bar">Utilisation</sbb-tab-label>
+  <sbb-tab-label level="2" slot="tab-bar">Utilisation</sbb-tab-label>
   <sbb-tab>
     <p class="lead">Il est important de respecter le style des icônes CFF. Si le jeu d’icônes existant ne suffit pas, de nouvelles icônes peuvent être commandées via <sbb-link  type="button" target="_blank" href="mailto:ux@sbb.ch">ux@sbb.ch</sbb-link> les coûts de production sont à la charge du projet. Il est possible de créer soi-même des icônes, celles-ci devront toutefois être validées par l’unité Gestion de la marque CFF ou par UX avant leur utilisation. Des informations détaillées sur le style des icônes CFF sont disponibles sur demande. Veiller à ce que les icônes aient toujours la même épaisseur de ligne dans les applications et les produits numériques.  
     Plus d'informations: <sbb-link  type="button" target="_blank" href="/{{page.lang}}/foundation/brand/copyrights/">droits d'utilisation</sbb-link></p>
   </sbb-tab>
-  <sbb-tab-label slot="tab-bar">implémentation</sbb-tab-label>
+  <sbb-tab-label level="2" slot="tab-bar">implémentation</sbb-tab-label>
   <sbb-tab>
     <sbb-link-list orientation="vertical" size="m">
       <sbb-block-link icon-name="angular-small" icon-placement="start" href="https://angular.app.sbb.ch/angular/components/icon/overview ">Angular</sbb-block-link>
@@ -37,7 +37,7 @@ mode: KOM
       <sbb-block-link icon-name="github-small" icon-placement="start" href="https://github.com/sbb-design-systems/sbb-icons/archive/refs/heads/main.zip">Icônes CFF à télécharger</sbb-block-link>
     </sbb-link-list>
   </sbb-tab>
-  <sbb-tab-label slot="tab-bar">Icônes spécifiques aux projets</sbb-tab-label>
+  <sbb-tab-label level="2" slot="tab-bar">Icônes spécifiques aux projets</sbb-tab-label>
   <sbb-tab>
     <p class="lead">Les icônes spécifiques aux projets sont principalement utilisées dans les produits/projets internes. Souvent ces icônes sont utilisées dans des applications et logiciels professionnels et ont une signification spécifique. Les icônes spécifiques ne doivent pas être utilisées pour des significations ou des fonctions différentes, leur utilisation doit donc être soigneusement vérifiée. Cependant, si la signification exacte de l'icône s'applique, l'icône peut être utilisée. En cas d'incertitude, l'équipe UX se fera un plaisir de t'aider. </p>
     <sbb-secondary-button-link target="_blank" href="https://www.figma.com/file/ljIRVoMho8slEHSPbcUTZJ/Projectspecific-Icons?node-id=2296%3A7276&t=mIebidHlrTWTEzur-1">

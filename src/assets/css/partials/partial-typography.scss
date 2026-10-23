@@ -38,6 +38,24 @@ sbb-container {
     @include sbb.heading-6;
   }
 
+  // Überschriften in Tabs sind eine Stufe tiefer als ihre Grösse (Tab-Titel = h2, siehe Filter shiftHeadings)
+  .visual-level-2:not(.demo *) {
+    @include sbb.heading-3;
+  }
+
+  .visual-level-3:not(.demo *) {
+    @include sbb.heading-4;
+  }
+
+  .visual-level-4:not(.demo *) {
+    @include sbb.heading-5;
+  }
+
+  .visual-level-5:not(.demo *),
+  .visual-level-6:not(.demo *) {
+    @include sbb.heading-6;
+  }
+
 }
 
 a:not(.demo *) {
