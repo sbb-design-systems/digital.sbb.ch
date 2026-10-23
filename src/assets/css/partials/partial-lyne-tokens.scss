@@ -390,8 +390,7 @@
     }
   }
 }
-// Farbmuster für die semantischen Farben (Seite Design Tokens > Color).
-// sbb-light / sbb-dark setzen color-scheme, damit light-dark() im Muster den jeweiligen Modus zeigt.
+
 .color-table td {
   vertical-align: middle;
 
@@ -426,7 +425,6 @@
     color: var(--_sample-color);
     font-weight: bold;
 
-    // Als CSS-Inhalt, damit "Aa" nicht in der Markdown-Version der Seite landet
     &::before {
       content: "Aa";
     }
