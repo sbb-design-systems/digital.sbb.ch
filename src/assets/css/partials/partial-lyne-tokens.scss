@@ -103,14 +103,6 @@
   }
 }
 
-.color-token {
-  .row {
-    @include sbb.mq($from: small) {
-      grid-template-columns: 3fr 3fr 1fr;
-    }
-  }
-}
-
 .border-radius-token {
   .row {
     @include sbb.mq($from: small) {
@@ -396,5 +388,56 @@
     code {
       font-size: var(--sbb-typo-scale-0-75x);
     }
+  }
+}
+// Farbmuster für die semantischen Farben (Seite Design Tokens > Color).
+// sbb-light / sbb-dark setzen color-scheme, damit light-dark() im Muster den jeweiligen Modus zeigt.
+.color-table td {
+  vertical-align: middle;
+
+  &:first-child code {
+    white-space: nowrap;
+  }
+}
+
+.color-swatch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sbb-spacing-fixed-2x);
+  white-space: nowrap;
+}
+
+.color-sample {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  inline-size: var(--sbb-spacing-fixed-12x);
+  block-size: var(--sbb-spacing-fixed-8x);
+  border-radius: var(--sbb-border-radius-2x);
+  border: var(--sbb-border-width-1x) solid var(--sbb-color-smoke);
+  background-color: var(--sbb-background-color-1);
+
+  &--bg {
+    background-color: var(--_sample-color);
+  }
+
+  &--text {
+    color: var(--_sample-color);
+    font-weight: bold;
+
+    // Als CSS-Inhalt, damit "Aa" nicht in der Markdown-Version der Seite landet
+    &::before {
+      content: "Aa";
+    }
+  }
+
+  &--border {
+    border: var(--sbb-border-width-2x) solid var(--_sample-color);
+  }
+
+  &--shadow {
+    border-color: transparent;
+    box-shadow: 0 var(--sbb-spacing-fixed-1x) var(--sbb-spacing-fixed-4x) var(--sbb-spacing-fixed-1x) var(--_sample-color);
   }
 }

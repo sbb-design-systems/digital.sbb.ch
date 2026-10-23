@@ -27,6 +27,7 @@ A machine-readable index of all released Lyne components (elements, status such 
 - Install: `npm install @sbb-esta/lyne-elements` (Angular: `@sbb-esta/lyne-angular`). Components are web components with the prefix `sbb-`.
 - Register elements by importing the component module once, e.g. `import '@sbb-esta/lyne-elements/button.js';` for `<sbb-button>` (one import per component group; the module path equals the component name). An element that is not imported stays an unknown, unstyled HTML element.
 - Theme and tokens: load one theme stylesheet from the package, e.g. `import '@sbb-esta/lyne-elements/standard-theme.css';` (`standard-theme.css` for customer and employee applications, `off-brand-theme.css` for industry, `safety-theme.css` for safety contexts; `lean-*` variants exist for lean applications; see {{ site }}/en/design-system/lyne/themes/index.md). The `lean-*` themes are part of Lyne and are not the legacy Lean library. Style with design tokens (CSS custom properties `--sbb-*`, list: {{ site }}/en/design-system/lyne/design-tokens/index.md) instead of hard-coded colors, spacing or font sizes.
+- Colors: use the semantic CSS variables, which adapt to light/dark mode and to the theme: `--sbb-background-color-1` … `-4`, text `--sbb-color-1` … `-6`, borders `--sbb-border-color-1` … `-6`, and `--sbb-color-primary`, `--sbb-color-error`, `--sbb-color-warning`, `--sbb-color-success`, `--sbb-color-brand` (suffixes `-negative` / `-inverted` for surfaces that stay dark or light). Use base colors such as `--sbb-color-milk` only inside your own `light-dark()` pair, e.g. `light-dark(var(--sbb-color-cloud), var(--sbb-color-anthracite))`. Details: {{ site }}/en/design-system/lyne/design-tokens/color/index.md
 - Component details: read `…/<component>/index.md` for usage, elements and examples; the full attribute, slot and event tables are in `…/<component>/api.md`.
 - Common mistakes:
   - Invented `icon-name` values. Use only names from [icons-ui.json]({{ site }}/icons-ui.json) (name plus size, e.g. `arrow-right-small`); if a name is missing there, check the authoritative catalog {{ resources.icons }}.
@@ -34,6 +35,7 @@ A machine-readable index of all released Lyne components (elements, status such 
   - Wrong slots: parts such as list items, tabs or form-field inputs only work inside their parent element and often need a named slot or a specific child element; compare with the elements section and examples of the component.
   - Plain HTML attributes where Lyne expects a boolean or enum attribute (e.g. `negative`, `size="l"`); check the API table before using a value.
   - Own colors or fonts: use the theme and tokens.
+  - Base colors used directly (e.g. `--sbb-color-white` as background or `--sbb-color-red` for an action): they ignore dark mode and the off-brand/safety themes. Use `--sbb-background-color-1` or `--sbb-color-primary` instead.
   - Components of the legacy library `@sbb-esta/angular` mixed with Lyne; both use the prefix `sbb-`, so check the package of every import. Use only Lyne in new code.
 
 ## Machine-readable resources
@@ -42,7 +44,7 @@ A machine-readable index of all released Lyne components (elements, status such 
 - [UI icon names]({{ site }}/icons-ui.json): All valid values for `icon-name` (name plus size, e.g. `arrow-right-small`), one entry per icon with sizes, category and keywords. Use only names from this list; do not invent icon names. It is a compact snapshot of the icon catalog, rebuilt daily; `sourceVersion` and `generated` show its state.
 - [Icon catalog (authoritative)]({{ resources.icons }}): Source of all icons that Lyne loads at runtime, including timetable icons; large (about 1.2 MB, one entry per size, category and size encoded in `tags`). Use it only if a name is missing in icons-ui.json.
 - [custom-elements.json]({{ resources.customElements }}): Complete API of all web components (attributes, properties, events, slots, CSS properties); experimental components: {{ resources.customElementsExperimental }}
-- [Design tokens]({{ resources.designTokens }}): Colors, spacing, typography and more as JSON; as CSS custom properties: {{ resources.designTokensCss }}
+- [Design tokens]({{ resources.designTokens }}): Colors, spacing, typography and more as JSON; as CSS custom properties: {{ resources.designTokensCss }}. These are the base values only; the semantic color variables (`--sbb-background-color-*`, `--sbb-color-primary`, …) are defined in the theme stylesheets of `@sbb-esta/lyne-elements` and listed on {{ site }}/en/design-system/lyne/design-tokens/color/index.md
 
 ## Lyne components
 {% for key, pattern in components %}{% if pattern.config.language.en and pattern.config.list == "components" and pattern.config.released != false %}

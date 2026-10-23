@@ -1,9 +1,154 @@
-<div class="token-table color-token">
-{% for token in lyne.components.designtokencolor.color %}
-    <div class="row">
-        <div class="token-name"><p>{{ token.name }}</p></div>
-        <div class="token-value"><p>{{ token.value }}</p></div>
-        <div class="token-demo"><div class="border-demo" style="background-color: {{token.original.value}}; "></div></div>
-    </div>
+{% set semantic = lyne.components.designtokencolor.semantic %}
+
+{# Farbmuster: kind = bg | text | border, scheme = light | dark. Die Farbe kommt live aus dem Lyne-Theme. #}
+{% macro swatch(kind, variable, scheme, name) %}<span class="color-swatch"><span class="color-sample color-sample--{{ kind }} sbb-{{ scheme }}" style="--_sample-color: var(--{{ variable }});" aria-hidden="true"></span><code>{{ name }}</code></span>{% endmacro %}
+
+{% macro levelTable(rows, kind) %}
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped color-table">
+    <thead><tr><th>CSS-Variable</th><th>Hell</th><th>Dunkel</th></tr></thead>
+    <tbody>
+    {% for row in rows %}
+        <tr><td><code>--{{ row.variable }}</code></td><td>{{ swatch(kind, row.variable, "light", row.light) }}</td><td>{{ swatch(kind, row.variable, "dark", row.dark) }}</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+</sbb-table-wrapper>
+{% endmacro %}
+
+<p class="sbb-text-l">Lyne stellt Farben auf zwei Ebenen bereit: als Grundfarben und als semantische CSS-Variablen. Für Komponenten und Layouts verwendest du die semantischen Variablen. Sie passen sich dem Hell- und Dunkelmodus sowie der Theme-Variante automatisch an.</p>
+
+<sbb-title level="2">Zwei Ebenen.</sbb-title>
+<ul class="sbb-list sbb-text-m">
+    <li><strong>Grundfarben</strong> wie <code>--sbb-color-milk</code> oder <code>--sbb-color-red</code> sind die Farbwerte der SBB-Farbpalette. Wann welche Farbe eingesetzt wird, beschreiben die Seiten <a href="/de/foundation/colors/base-colors/">Grundfarben</a>, <a href="/de/foundation/colors/off-brand-colors/">Off-Brand-Farben</a> und <a href="/de/foundation/colors/additional-colors/">Zusatzfarben</a>.</li>
+    <li><strong>Semantische Variablen</strong> wie <code>--sbb-background-color-1</code> oder <code>--sbb-color-error</code> beschreiben einen Zweck. Sie verweisen auf eine Grundfarbe, die je nach Modus und Theme wechselt.</li>
+</ul>
+
+<sbb-title level="2">Kontextfarben.</sbb-title>
+<p>Kontextfarben stehen für die Primärfarbe, die Marke und für Zustände wie Fehler, Warnung oder Erfolg.</p>
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped color-table">
+    <thead><tr><th>CSS-Variable</th><th>Hell</th><th>Dunkel</th><th>Verwendung</th></tr></thead>
+    <tbody>
+    {% set contextText = {
+        primary: "Primärfarbe, im Standard-Theme Rot.",
+        primary85: "Hellere Abstufung der Primärfarbe.",
+        primary125: "Dunklere Abstufung der Primärfarbe.",
+        primary150: "Noch dunklere Abstufung der Primärfarbe.",
+        error: "Fehlerzustände. Im Dunkelmodus heller, damit der Kontrast reicht.",
+        warning: "Warnungen.",
+        success: "Erfolgsmeldungen.",
+        brand: "Markenfarbe, etwa für das Logo."
+    } %}
+    {% for row in semantic.context %}
+        <tr><td><code>--{{ row.variable }}</code></td><td>{{ swatch("bg", row.variable, "light", row.light) }}</td><td>{{ swatch("bg", row.variable, "dark", row.dark) }}</td><td>{{ contextText[row.key] }}</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+</sbb-table-wrapper>
+
+<sbb-title level="3">Theme-Varianten.</sbb-title>
+<p>Die Theme-Varianten tauschen die Grundfarben hinter den Kontextfarben aus. Off-Brand ist für Anwendungen gedacht, die nicht unter der Marke SBB auftreten. Safety ist für sicherheitsrelevante Anwendungen gedacht. Wer <code>--sbb-color-primary</code> statt <code>--sbb-color-red</code> verwendet, muss beim Wechsel des Themes nichts anpassen.</p>
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped color-table">
+    <thead><tr><th>CSS-Variable</th><th>Standard</th><th>Off-Brand</th><th>Safety</th></tr></thead>
+    <tbody>
+    {% for row in semantic.context %}{% if row.themes.standard != row.themes.offbrand or row.themes.standard != row.themes.safety %}
+        <tr><td><code>--{{ row.variable }}</code></td>{% for theme in ["standard", "offbrand", "safety"] %}<td>{{ swatch("bg", "sbb-color-" + row.themes[theme], "light", row.themes[theme]) }}</td>{% endfor %}</tr>
+    {% endif %}{% endfor %}
+    </tbody>
+</table>
+</sbb-table-wrapper>
+<p>Eingebunden werden die Varianten über die Theme-Dateien <code>off-brand-theme.css</code> und <code>safety-theme.css</code> (bzw. <code>lean-off-brand-theme.css</code> und <code>lean-safety-theme.css</code>).</p>
+
+<sbb-title level="2">Hintergrundfarben.</sbb-title>
+<p>Hintergründe sind in vier Ebenen gestuft. Ebene 1 ist die Grundfläche, die höheren Ebenen heben sich zunehmend davon ab.</p>
+{{ levelTable(semantic.background, "bg") }}
+
+<sbb-title level="2">Textfarben.</sbb-title>
+<p>Ebene 1 hat den höchsten Kontrast. Ebene 5 ist in beiden Modi gleich und hat keine Varianten.</p>
+{{ levelTable(semantic.text, "text") }}
+
+<sbb-title level="2">Rahmenfarben.</sbb-title>
+<p>Rahmen verwenden dieselben Grundfarben wie die Texte derselben Ebene.</p>
+{{ levelTable(semantic.border, "border") }}
+
+<sbb-title level="2">Varianten: negative und inverted.</sbb-title>
+<p>Hintergrund-, Text- und Rahmenfarben gibt es zusätzlich mit drei Endungen (ausser Ebene 5). Damit lassen sich Flächen gestalten, die unabhängig vom Modus dunkel oder hell bleiben sollen.</p>
+{% set base = semantic.background[0] %}
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped color-table">
+    <thead><tr><th>Endung</th><th>Hell</th><th>Dunkel</th><th>Wirkung</th></tr></thead>
+    <tbody>
+        <tr><td><code>--{{ base.variable }}</code></td><td>{{ swatch("bg", base.variable, "light", base.light) }}</td><td>{{ swatch("bg", base.variable, "dark", base.dark) }}</td><td>Normales Farbpaar.</td></tr>
+        <tr><td><code>-negative</code></td><td>{{ swatch("bg", base.variable + "-negative", "light", base.dark) }}</td><td>{{ swatch("bg", base.variable + "-negative", "dark", base.dark) }}</td><td>Immer die dunkle Farbe des Paars, etwa für negative Komponenten.</td></tr>
+        <tr><td><code>-inverted</code></td><td>{{ swatch("bg", base.variable + "-inverted", "light", base.dark) }}</td><td>{{ swatch("bg", base.variable + "-inverted", "dark", base.light) }}</td><td>Helle und dunkle Farbe vertauscht.</td></tr>
+        <tr><td><code>-negative-inverted</code></td><td>{{ swatch("bg", base.variable + "-negative-inverted", "light", base.light) }}</td><td>{{ swatch("bg", base.variable + "-negative-inverted", "dark", base.light) }}</td><td>Immer die helle Farbe des Paars.</td></tr>
+    </tbody>
+</table>
+</sbb-table-wrapper>
+
+<sbb-title level="2">Schattenfarben.</sbb-title>
+<p>Für Schatten gibt es weiche (soft) und harte (hard) Farben in zwei Stufen, jeweils auch mit der Endung <code>-negative</code>. Am einfachsten setzt du Schatten mit den Sass-Mixins, die auf der Seite <a href="/de/design-system/lyne/design-tokens/shadow/">Shadow</a> beschrieben sind.</p>
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped color-table">
+    <thead><tr><th>CSS-Variable</th><th>Hell</th><th>Dunkel</th></tr></thead>
+    <tbody>
+    {% for row in semantic.shadow %}
+        <tr><td><code>--{{ row.variable }}</code></td><td><span class="color-swatch"><span class="color-sample color-sample--shadow sbb-light" style="--_sample-color: var(--{{ row.variable }});" aria-hidden="true"></span></span></td><td><span class="color-swatch"><span class="color-sample color-sample--shadow sbb-dark" style="--_sample-color: var(--{{ row.variable }});" aria-hidden="true"></span></span></td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+</sbb-table-wrapper>
+
+<sbb-title level="2">Hell- und Dunkelmodus.</sbb-title>
+<p>Lyne nutzt die native CSS-Eigenschaft <code>color-scheme</code>. Die Komponenten folgen standardmässig der Einstellung des Betriebssystems. Mit den CSS-Klassen <code>sbb-light</code> oder <code>sbb-dark</code> legst du einen Modus fest, für die ganze Seite oder für einzelne Bereiche.</p>
+<p>Eigene Farben brauchst du ebenfalls für beide Modi. Verwende dafür die CSS-Funktion <code>light-dark()</code> und gib davor die helle Farbe als Fallback für ältere Browser an:</p>
+{% set code %}
+```css
+.class {
+  color: var(--sbb-color-cloud);
+  color: light-dark(var(--sbb-color-cloud), var(--sbb-color-anthracite));
+}
+```
+{% endset %}
+{{ code | renderUsingMarkdown | safe }}
+<p>Die semantischen Variablen und die Zusatzfarben wie <code>--sbb-color-sky</code> wechseln von selbst. Die JavaScript-Tokens enthalten nur die Grundfarben. Dort musst du den Modus selbst behandeln, deshalb sind CSS-Variablen vorzuziehen.</p>
+
+<sbb-title level="2">Transparenz.</sbb-title>
+<p>Für transparente Farben empfiehlt Lyne die CSS-Funktion <code>color-mix()</code>:</p>
+{% set code %}
+```css
+.class {
+  /* Primärfarbe mit 40 % Deckkraft */
+  color: color-mix(in srgb, var(--sbb-color-primary) 40%, transparent);
+}
+```
+{% endset %}
+{{ code | renderUsingMarkdown | safe }}
+
+<sbb-title level="2">Grundfarben als Tokens.</sbb-title>
+<p>Diese Tokens aus dem Paket <code>@sbb-esta/lyne-design-tokens</code> enthalten die festen Farbwerte. Bei den Zusatz- und Off-Brand-Farben gibt es je einen Wert für hell (<code>-light</code>) und dunkel (<code>-dark</code>). Die CSS-Variable ohne Endung, etwa <code>--sbb-color-sky</code>, wählt den passenden Wert automatisch.</p>
+{% set groups = [
+    { title: "Grundfarben.", key: "base" },
+    { title: "Off-Brand-Farben.", key: "offbrand" },
+    { title: "Zusatzfarben.", key: "additional" }
+] %}
+{% for group in groups %}
+<sbb-title level="3">{{ group.title }}</sbb-title>
+<sbb-table-wrapper>
+<table class="sbb-table sbb-table--striped color-table">
+    <thead><tr><th>CSS-Variable</th><th>Wert</th></tr></thead>
+    <tbody>
+    {% for token in lyne.components.designtokencolor.color %}
+        {% set isOffbrand = "royal" in token.name %}
+        {% set isAdditional = not isOffbrand and ("-light" in token.name or "-dark" in token.name) %}
+        {% set tokenGroup = "offbrand" if isOffbrand else ("additional" if isAdditional else "base") %}
+        {% if tokenGroup == group.key %}
+        <tr><td><code>--{{ token.name }}</code></td><td><span class="color-swatch"><span class="color-sample color-sample--bg" style="--_sample-color: {{ token.value }};" aria-hidden="true"></span><code>{{ token.value }}</code></span></td></tr>
+        {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+</sbb-table-wrapper>
 {% endfor %}
-</div>

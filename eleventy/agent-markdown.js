@@ -222,7 +222,7 @@ function htmlToAgentMarkdown(html, url) {
     // Farbseiten verweisen auf die Lyne Design Tokens (CSS-Variablen; Token-Seiten nur de/en)
     const tokens = (name) => `${SITE_URL}/${url.startsWith("/de/") ? "de" : "en"}/design-system/lyne/design-tokens/${name}/index.md`;
     const tokenNote = /^\/..\/foundation\/colors\//.test(url)
-        ? `Design tokens (CSS custom properties \`--sbb-color-*\`, \`--sbb-color-…-light\` / \`-dark\` for the themes): ${tokens("color")}` : "";
+        ? `In code, use the semantic CSS variables of Lyne (e.g. \`--sbb-background-color-1\`, \`--sbb-color-1\`, \`--sbb-color-primary\`); they adapt to light/dark mode and to the off-brand and safety themes. Base colors are available as \`--sbb-color-*\` (additional and off-brand colors also as \`-light\` / \`-dark\` values for light and dark mode). Mapping and examples: ${tokens("color")}` : "";
     const note = tokenNote ? `\n\n## Design tokens\n\n${tokenNote}` : "";
     return `${header}${body}${note}\n\n---\n\nSource: ${pageUrl}\n`;
 }

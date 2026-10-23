@@ -132,6 +132,11 @@ function agentPagesInSection(allPages, lang, section, lyneData) {
             if (!description && data.component && typeof data.system === "string") {
                 description = agentSummary(componentSource(data, lang)).replace(/^[*-]\s+/, "").replace(/\{[.#][^}]*\}/g, "").trim();
             }
+            // Design-Token-Seiten (content_<lang>.njk): Einleitung mit der Klasse sbb-text-l, falls vorhanden
+            if (!description && data.component && typeof data.system === "string") {
+                const lead = readSourceFile(`_data/${data.system}/components/${data.component}/content_${lang}.njk`).match(/<p class="sbb-text-l">([\s\S]*?)<\/p>/);
+                if (lead) description = lead[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+            }
             if (!description && item.inputPath) description = pageSummary(readSourceFile(path.relative("src", item.inputPath)));
             return { url: item.url, title, description };
         });
