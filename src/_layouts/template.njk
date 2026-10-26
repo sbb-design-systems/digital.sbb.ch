@@ -63,7 +63,7 @@ layout: base.njk
 
 {% if pattern.config.previewUrl %}
 <section class="template-browser-stage" data-viewport="ultra" aria-label="{{ t.preview }}">
-  <iframe src="{{ pattern.config.previewUrl }}" title="{{ t.preview }}: {{ pattern.config.tag | capitalizeWords }}" loading="lazy"></iframe>
+  <iframe src="{{ pattern.config.previewUrl }}" title="{{ t.preview }}: {{ pattern.config | displayName(page.lang) }}" loading="lazy"></iframe>
 </section>
 {% endif %}
 </div>

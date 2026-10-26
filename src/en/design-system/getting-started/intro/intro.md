@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: intro_en
 title: What is a design system?
+llmDescription: Explains the purpose and benefits of the SBB design system, who develops it, and how teams can use components or contribute to its development.
 parent: getting-started_en
 order: 1
 ---

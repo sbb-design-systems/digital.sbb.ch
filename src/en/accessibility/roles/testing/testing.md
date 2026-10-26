@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: testing_en
 title: Testing
+llmDescription: Provides four practical recommendations for testing digital accessibility with tools, keyboard and screen reader, and for checking content structure.
 parent: roles_en
 order: 7
 ---

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: contribution_de
 title: Contribution
+llmDescription: Erklärt, wie Beiträge zu Lyne und Mobile eingereicht werden, verlinkt die Boards und nennt Kriterien für die Aufnahme neuer Komponenten und Design Tokens.
 parent: organisation_de
 order: 2
 ---

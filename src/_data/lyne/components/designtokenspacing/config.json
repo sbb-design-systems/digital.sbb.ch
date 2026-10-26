@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 80,
+    "llmDescription": {
+        "de": "Zeigt responsive und fixe Abstands-Tokens mit ihren Werten für die verschiedenen Ansichtsgrössen.",
+        "en": "Shows responsive and fixed spacing tokens with their values for the different viewport sizes."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: logo_de
 title: Logo
+llmDescription: Erklärt die SBB-Dachmarkenregeln und den Einsatz von Logo und Signet, einschliesslich der Bedingungen für ein freistehendes Signet.
 alternativetitle: Logo.
 parent: brand_de
 order: 2

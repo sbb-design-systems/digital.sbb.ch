@@ -1,7 +1,7 @@
 // Allgemeine Filter für die Templates: Sortieren, Filtern von Listen, Text und Markdown
 const fs = require("fs");
 const lodash = require("lodash");
-const { readSourceFile } = require("./shared");
+const { readSourceFile, displayName } = require("./shared");
 const { markdownLib } = require("./markdown");
 
 function sortByOrder(values) {
@@ -111,6 +111,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("defaultlanguagecontent", (array, currPage) => array.filter((page) => page.url == "/de" + currPage.slice(3)));
 
     eleventyConfig.addFilter("readSourceFile", readSourceFile);
+    eleventyConfig.addFilter("displayName", displayName);
     eleventyConfig.addFilter("fileExists", (file) => typeof file === "string" && fs.existsSync(file));
     eleventyConfig.addFilter("removeLastPathSegment", (url) => (typeof url !== "string" ? url : url.substring(0, url.lastIndexOf("/"))));
     eleventyConfig.addFilter("capitalizeWords", (value) => (typeof value !== "string" ? "" : value.replace(/\b\w/g, (char) => char.toUpperCase())));

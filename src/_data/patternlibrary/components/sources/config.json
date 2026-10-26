@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 170,
+    "llmDescription": {
+        "de": "Macht die Quellen einer AI-Ausgabe sichtbar und verlinkt sie, damit Nutzende Aussagen nachvollziehen und prüfen können.",
+        "en": "Shows and links the sources behind an AI output so users can trace and verify its claims."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "quellen", "sources"],
     "hasTabs": false,

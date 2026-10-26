@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: testing_de
 title: Testing
+llmDescription: Gibt vier praktische Empfehlungen zum Testen digitaler Barrierefreiheit mit Tools, Tastatur und Screenreader sowie zur Prüfung der Inhaltsstruktur.
 parent: roles_de
 order: 7
 ---

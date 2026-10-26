@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: visual-design_en
 title: Visual Design
+llmDescription: "Provides four recommendations for accessible visual design: clear structure and 200% zoom, sufficient contrast and target sizes, and visible keyboard focus."
 parent: roles_en
 order: 4
 ---

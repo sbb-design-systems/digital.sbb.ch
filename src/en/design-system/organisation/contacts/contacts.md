@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: contact_en
 title: Contact
+llmDescription: Lists the Lyne and Mobile contacts for product ownership, UX and development, and directs questions to the contribution boards.
 parent: organisation_en
 order: 3
 ---

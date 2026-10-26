@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 140,
+    "llmDescription": {
+        "de": "Lässt Nutzende Merkmale wie Ton, Stil, Referenzen oder Bildformat für eine AI-Ausgabe festlegen.",
+        "en": "Lets users set parameters such as tone, style, references or image format for an AI output."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Parameter", "priorities", "Gewichtung", "filter"],
     "hasTabs": false,

@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 20,
+    "llmDescription": {
+        "de": "Listet die Lyne-Tokens für Rahmenstärken und Eckenradien mit ihren Werten.",
+        "en": "Lists Lyne design tokens for border widths and corner radii with their values."
+    },
     "categories":["Design Token"],
     "keywords":["border", "stroke", "radius"],
     "hasTabs": false,

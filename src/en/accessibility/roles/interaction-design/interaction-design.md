@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: interaction-design_en
 title: Interaction Design
+llmDescription: "Provides four recommendations for accessible interactions: keyboard access, clear input guidance, cues beyond colour and accessible alternatives."
 parent: roles_en
 order: 3
 ---

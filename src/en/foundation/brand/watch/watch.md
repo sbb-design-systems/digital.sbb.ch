@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: watch_en
 title: Digital clock 
+llmDescription: Describes when and how to use the digital SBB clock, including eligibility, sizing and placement rules.
 alternativetitle: Digital clock.
 parent: brand_en
 order: 3

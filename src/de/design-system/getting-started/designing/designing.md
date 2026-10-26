@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: designing_de
 title: Designing
+llmDescription: Erklärt, welches Design System zum Projekt passt und wie Teams Zugang zu Figma, Libraries und den benötigten Design-Ressourcen erhalten.
 parent: getting-started_de
 order: 2
 ---
@@ -65,4 +66,3 @@ Du bist noch kein Figma-Hero? Tritt unserer <sbb-link  type="button" target="_bl
 
 ### Komponenten durchstöbern, verstehen, verwenden 
 Danach kannst du Komponenten in Figma verwenden. Es empfiehlt sich mit der passenden Dokumentation auf dieser Seite vertraut zu machen: <sbb-link  type="button" href="/{{page.lang}}/design-system/mobile/overview/">Mobile</sbb-link>, <sbb-link  type="button" href="/{{page.lang}}/design-system/lyne/overview/">Lyne</sbb-link>. {.lead}
-

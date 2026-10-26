@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 30,
+    "llmDescription": {
+        "de": "Beschreibt ein Dashboard als Einstieg mit Kennzahlen, Favoriten und offenen Aufgaben; geeignet für Anwendungen, in denen Nutzende regelmässig Informationen prüfen oder Aufgaben bearbeiten.",
+        "en": "Describes a dashboard as an entry point with key figures, favourites and open tasks; suited to applications where users regularly check information or work through tasks."
+    },
     "categories": ["Template"],
     "keywords": ["dashboard", "overview", "kpi", "template"],
     "theme": "Standard",

@@ -5,6 +5,7 @@ tags:
     - principle_en
 key: recognisable_en
 title: Recognisable
+llmDescription: Uses consistent interaction patterns and design elements across SBB digital channels so users can find their way and access information quickly.
 alternativetitle: We offer a consistent experience within and between channels.
 parent: ux-principles_en
 order: 3

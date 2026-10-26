@@ -5,6 +5,7 @@ tags:
     - principle_en
 key: user-centred_en
 title: User-centred
+llmDescription: Involves real users early and regularly in product development to understand their needs and identify problems early.
 alternativetitle: We involve real users in our decisions.
 parent: ux-principles_en
 order: 2

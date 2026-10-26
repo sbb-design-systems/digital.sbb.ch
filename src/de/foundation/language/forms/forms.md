@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: forms_de
 title: Formulare und Eingaben
+llmDescription: Gibt Regeln und Beispiele für verständliche Formularlabels und hilfreiche Platzhalter und erklärt, warum Platzhalter kein Label ersetzen.
 alternativetitle: Formulare und Eingaben.
 parent: language_de
 order: 4

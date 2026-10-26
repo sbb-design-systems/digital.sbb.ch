@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: development_de
 title: Development
+llmDescription: "Enthält vier Empfehlungen für barrierefreie Entwicklung: semantische und native Elemente, eine sinnvolle Lesereihenfolge sowie Orientierungshilfen wie Skiplinks und Landmarks."
 parent: roles_de
 order: 5
 ---

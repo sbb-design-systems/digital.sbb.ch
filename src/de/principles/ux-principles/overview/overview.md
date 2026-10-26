@@ -4,6 +4,7 @@ tags:
     - level3
 key: overview_de
 title: Unsere Gestaltungsprinzipien
+llmDescription: Die Übersicht stellt die SBB-Gestaltungsprinzipien vor und erklärt, wie Teams sie zur Konzeption kunden- und mitarbeiterzentrierter Produkte und Services einsetzen.
 parent: ux-principles_de
 order: 1
 ---

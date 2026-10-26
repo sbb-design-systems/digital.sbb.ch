@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: contact_en
 title: Contact
+llmDescription: Lists contacts for digital accessibility questions and support, organised by division and topic.
 parent: introduction_en
 order: 3
 ---

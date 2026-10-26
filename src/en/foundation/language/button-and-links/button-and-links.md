@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: button_and_links_en
 title: Button and link texts
+llmDescription: Provides rules and examples for short, action-oriented button labels and clear, descriptive links.
 alternativetitle: Button and link texts.
 parent: language_en
 order: 2
@@ -117,5 +118,4 @@ Examples:
     We use sentence case as studies have proven it is better in terms of readability. </br>
     The only exception to this are product names which are in uppercase, for example: Buy a Half Fare Travelcard. 
 </sbb-notification>
-
 

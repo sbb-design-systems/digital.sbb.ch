@@ -1,5 +1,9 @@
 {
     "tag": "list-table",
+    "displayName": {
+        "de": "Tabellen-Liste",
+        "en": "Table list"
+    },
     "system": "lyne",
     "list": "templates",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 10,
+    "llmDescription": {
+        "de": "Beschreibt eine kompakte, filter- und sortierbare Tabelle mit Aktionen pro Zeile; geeignet für datenreiche Anwendungen, die vorwiegend am Desktop genutzt werden.",
+        "en": "Describes a compact, filterable and sortable table with actions for each row; suited to data-heavy applications used mainly on desktop."
+    },
     "categories": ["Template"],
     "keywords": ["list", "table", "template"],
     "theme": "Standard",

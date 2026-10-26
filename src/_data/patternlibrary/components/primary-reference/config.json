@@ -1,5 +1,9 @@
 {
     "tag":"primary-reference",
+    "displayName": {
+        "de": "Hauptreferenz",
+        "en": "Primary reference"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 40,
+    "llmDescription": {
+        "de": "Ermöglicht es, bestimmte Dateien oder Links als Referenz an eine AI-Anfrage anzuhängen.",
+        "en": "Lets users attach specific files or links as references for an AI request."
+    },
     "categories":["AI", "Input"],
     "keywords":["Vertrauen", "Dateien", "Data", "Referenz", "reference"],
     "hasTabs": false,

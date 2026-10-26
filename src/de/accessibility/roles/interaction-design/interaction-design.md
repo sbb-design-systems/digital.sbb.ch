@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: interaction-design_de
 title: Interaction Design
+llmDescription: "Enthält vier Empfehlungen für barrierefreie Interaktionen: Tastaturbedienung, verständliche Eingaben, zusätzliche Hinweise zu Farbinformationen und barrierefreie Alternativen."
 parent: roles_de
 order: 3
 ---

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: development_en
 title: Development
+llmDescription: "Provides four recommendations for accessible development: semantic and native elements, a meaningful reading order, and navigation aids such as skip links and landmarks."
 parent: roles_en
 order: 5
 ---

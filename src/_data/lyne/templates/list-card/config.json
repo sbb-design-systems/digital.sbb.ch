@@ -1,5 +1,9 @@
 {
     "tag": "list-card",
+    "displayName": {
+        "de": "Card-Liste",
+        "en": "Card list"
+    },
     "system": "lyne",
     "list": "templates",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 20,
+    "llmDescription": {
+        "de": "Beschreibt eine filter- und sortierbare Liste mit Aktionen pro Card; geeignet für Anwendungen, die auch auf Smartphones genutzt werden.",
+        "en": "Describes a filterable, sortable list of cards with actions for each card; suited to applications that are also used on smartphones."
+    },
     "categories": ["Template"],
     "keywords": ["list", "card", "template"],
     "theme": "Standard",

@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 60,
+    "llmDescription": {
+        "de": "Erleichtert komplexe AI-Eingaben mit vordefinierten oder selbst erstellbaren Prompt-Vorlagen.",
+        "en": "Simplifies complex AI input with predefined or user-created prompt templates."
+    },
     "categories":["AI", "Input"],
     "keywords":["Vertrauen", "Vorlagen", "templates"],
     "hasTabs": false,

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: content-design_de
 title: Content Design
+llmDescription: "Enthält vier Empfehlungen für barrierefreies Content Design: Inhalte priorisieren, klare Sprache, Alternativtexte und selbstsprechende Links."
 parent: roles_de
 order: 6
 ---

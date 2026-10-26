@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: progress_indicator_de
 title: Fortschrittsanzeige
+llmDescription: Erklärt, wie Fortschrittsanzeigen mit klaren Schrittbezeichnungen, einem deutlich markierten Abschluss und Hinweisen auf spätere Änderungen Orientierung geben.
 alternativetitle: Fortschrittsanzeige.
 parent: language_de
 order: 5
@@ -54,4 +55,3 @@ Beispiele:
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>XX</div>
     </div>-->
 </div>
-

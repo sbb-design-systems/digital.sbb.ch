@@ -2,11 +2,10 @@
 permalink: /lyne-components-full.md
 eleventyExcludeFromCollections: true
 ---
-{#- Alle freigegebenen Lyne-Komponenten (Englisch) in einer Datei, damit ein Agent den ganzen Kontext mit einem Abruf lädt.
-    Pro Komponente derselbe Inhalt wie ihre Markdown-Version (component/agent-markdown.njk). -#}
-# Lyne components (English, all in one file)
+{#- English guides for all released Lyne components; the website-wide bundle is /llms-full.txt. -#}
+# Lyne component guides (English)
 
-Generated from https://digital.sbb.ch for Lyne {{ lyne.version.branch }}. Each section is the Markdown version of one component page, without the API tables. The complete API of all web components is in {{ lyne.catalog.resources.customElements }}; the API of a single component is in its Markdown version (linked in https://digital.sbb.ch/lyne-components.json). Valid icon names: https://digital.sbb.ch/icons-ui.json (compact snapshot, rebuilt daily; authoritative catalog: {{ lyne.catalog.resources.icons }})
+Generated from https://digital.sbb.ch for Lyne {{ lyne.version.branch }}. This file contains the Markdown guides for released Lyne components, without API tables; it is not the full website bundle. The website-wide English Markdown documentation, including Lyne component APIs, is at https://digital.sbb.ch/llms-full.txt. The complete API of all web components is in {{ lyne.catalog.resources.customElements }}; the API of a single component is in its Markdown version (linked in https://digital.sbb.ch/lyne-components.json). Valid icon names: https://digital.sbb.ch/icons-ui.json (compact snapshot, rebuilt daily; authoritative catalog: {{ lyne.catalog.resources.icons }})
 {% for key, pattern in lyne.components | sortComponentsByName %}
 {%- if pattern.config.list == "components" and pattern.config.released != false and pattern.config.language.en %}
 {%- set component = key %}

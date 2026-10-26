@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: about-this-guide_en
 title: About this guide
+llmDescription: Introduces digital accessibility for product teams and groups foundational recommendations by team role.
 alternativetitle: About this guide
 parent: introduction_en
 order: 2

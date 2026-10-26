@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const agentPages = require("./agent-markdown");
-const { SITE_URL, readSourceFile, pageSummary, agentSummary, componentSource } = require("./shared");
+const { SITE_URL, readSourceFile, displayName, pageSummary, agentSummary, componentSource } = require("./shared");
 const { isSelfCanonical } = require("./seo");
 const { lyneDocumentationStatus, figmaUrl } = require("./lyne");
 
@@ -117,18 +117,25 @@ const isAgentPage = (item) =>
 // Einträge für einen llms.txt-Abschnitt: { url, title, description }
 function agentPagesInSection(allPages, lang, section, lyneData) {
     return (allPages ?? [])
-        .filter((item) => typeof item.url === "string" && item.url.startsWith(`/${lang}${section}`) && isAgentPage(item))
+        .filter((item) => typeof item.url === "string" && item.url.startsWith(`/${lang}${section}`) && item.data?.llmExclude !== true && isAgentPage(item))
         .sort((a, b) => a.url.localeCompare(b.url))
         .map((item) => {
             const data = item.data ?? {};
             // Komponentenseiten aller Design Systeme (lyne, mobile, lean, …) und Lyne-Templates
             const system = data[data.system] ?? lyneData;
-            const tag = system?.components?.[data.component]?.config?.tag ?? lyneData?.templates?.[data.template]?.config?.tag;
-            const title = data.title || (tag ? tag.replace(/\b\w/g, (c) => c.toUpperCase()) : item.url);
+            const componentConfig = system?.components?.[data.component]?.config;
+            const templateConfig = lyneData?.templates?.[data.template]?.config;
+            const configuredName = componentConfig?.displayName ?? templateConfig?.displayName;
+            const explicitName = typeof configuredName === "string" ? configuredName : configuredName?.[lang];
+            const tag = componentConfig?.tag ?? templateConfig?.tag;
+            const title = (typeof explicitName === "string" && explicitName.trim()) ? explicitName.trim() : data.title || (tag ? displayName({ tag }, lang) : item.url);
             const alternative = (data.alternativetitle ?? "").replace(/ Lyne\.$/, "");
             const redundant = !alternative || alternative === title || alternative === `${title}.`;
             // Fehlt eine eigene Beschreibung: Komponenten aus ihrer Übersicht, übrige Seiten aus dem ersten Absatz
-            let description = redundant ? "" : alternative;
+            let description = typeof data.llmDescription === "string" ? data.llmDescription.trim() : "";
+            const configuredDescription = componentConfig?.llmDescription?.[lang] ?? templateConfig?.llmDescription?.[lang];
+            if (!description && typeof configuredDescription === "string") description = configuredDescription.trim();
+            if (!description) description = redundant ? "" : alternative;
             if (!description && data.component && typeof data.system === "string") {
                 description = agentSummary(componentSource(data, lang)).replace(/^[*-]\s+/, "").replace(/\{[.#][^}]*\}/g, "").trim();
             }
@@ -163,15 +170,39 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.on("eleventy.after", ({ results, dir }) => {
-        // /llms-full.txt und /design-system/lyne/llms-full.txt als Alias für das Bündel aller Komponenten (Konvention von llms.txt)
-        const full = path.join(dir?.output ?? "dist", "lyne-components-full.md");
-        if (fs.existsSync(full)) {
-            fs.copyFileSync(full, path.join(dir?.output ?? "dist", "llms-full.txt"));
-            fs.mkdirSync(path.join(dir?.output ?? "dist", "design-system", "lyne"), { recursive: true });
-            fs.copyFileSync(full, path.join(dir?.output ?? "dist", "design-system", "lyne", "llms-full.txt"));
-        }
-        const written = agentPages.writeAgentPages((results ?? []).filter((result) => agentPageUrls.has(result.url)), dir?.output ?? "dist");
+        const outputDir = dir?.output ?? "dist";
+        const pageResults = results ?? [];
+        const written = agentPages.writeAgentPages(pageResults.filter((result) => agentPageUrls.has(result.url)), outputDir);
         if (written) console.log(`[agent-markdown] ${written} Markdown-Seiten geschrieben`);
+
+        // The site-wide bundle includes every English Markdown page produced by this build,
+        // including API pages and Markdown converted from rendered HTML.
+        const markdownPages = new Map();
+        for (const result of pageResults) {
+            if (typeof result.url !== "string" || !result.url.startsWith("/en/") || !result.outputPath) continue;
+            if (result.outputPath.endsWith(".md") && fs.existsSync(result.outputPath)) {
+                markdownPages.set(result.url, result.outputPath);
+            } else if (agentPageUrls.has(result.url) && result.outputPath.endsWith("index.html")) {
+                const markdownPath = path.join(path.dirname(result.outputPath), "index.md");
+                if (fs.existsSync(markdownPath)) markdownPages.set(`${result.url}index.md`, markdownPath);
+            }
+        }
+        const documents = [...markdownPages]
+            .sort(([a], [b]) => a.localeCompare(b))
+            .map(([, file]) => fs.readFileSync(file, "utf8").trim())
+            .filter(Boolean);
+        const full = [
+            "# digital.sbb.ch - Full documentation (English)",
+            "",
+            `> All ${documents.length} English Markdown documents generated for digital.sbb.ch, including Lyne component API pages. Redirects and pages without a Markdown version are not included. This file was generated on ${new Date().toISOString()}.`,
+            "",
+            documents.join("\n\n---\n\n"),
+            "",
+        ].join("\n");
+        fs.writeFileSync(path.join(outputDir, "llms-full.txt"), full);
+
+        // Remove the former Lyne-only alias if it remains from a previous build.
+        fs.rmSync(path.join(outputDir, "design-system", "lyne", "llms-full.txt"), { force: true });
     });
 
     // Markdown- und Textdateien (llms.txt, index.md, …) ohne Leerzeilen am Anfang und Ende

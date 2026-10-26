@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 90,
+    "llmDescription": {
+        "de": "Kennzeichnet, ob ein Text von einer AI oder einem Menschen verfasst wurde, etwa in Chats und Chatbots.",
+        "en": "Indicates whether a text was written by AI or a person, for example in chats and chatbots."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Autor:in", "author"],
     "hasTabs": false,

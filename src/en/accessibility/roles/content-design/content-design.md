@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: content-design_en
 title: Content Design
+llmDescription: "Provides four recommendations for accessible content design: prioritise content, use clear language, write alternative text and use descriptive links."
 parent: roles_en
 order: 6
 ---

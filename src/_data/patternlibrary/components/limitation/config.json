@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 130,
+    "llmDescription": {
+        "de": "Erklärt, wie Nutzende verständlich über fehlende Daten oder nicht beantwortbare Fragen informiert und zu einer passenden nächsten Frage geführt werden.",
+        "en": "Explains how to tell users when AI lacks relevant data or cannot answer, and guide them toward a useful next question."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Limitierung", "limitation"],
     "hasTabs": false,

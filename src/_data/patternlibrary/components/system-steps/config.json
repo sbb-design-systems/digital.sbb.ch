@@ -1,5 +1,9 @@
 {
     "tag":"system-steps",
+    "displayName": {
+        "de": "Systemschritte",
+        "en": "System steps"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 200,
+    "llmDescription": {
+        "de": "Zeigt, wie die AI einen Prompt interpretiert und welche Schritte sie bis zur Ausgabe ausführt, damit Nutzende den Prozess nachvollziehen und beeinflussen können.",
+        "en": "Shows how AI interprets a prompt and the steps it takes to produce an output, helping users understand and influence the process."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "System Schritte", "system steps"],
     "hasTabs": false,

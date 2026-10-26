@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: further-information_de
 title: Weitere Informationen
+llmDescription: Sammelt weiterführende Ressourcen zur digitalen Barrierefreiheit, darunter Entwicklerleitfäden, WCAG, Zertifizierungschecklisten und Unterlagen für Reviews.
 parent: introduction_de
 order: 4
 ---

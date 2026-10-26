@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: process_en
 title: Process
+llmDescription: Explains how Lyne and Mobile work in Kanban, links to their boards and describes how bugs, contributions and feature requests are handled.
 parent: organisation_en
 order: 1
 ---
@@ -24,4 +25,3 @@ The various manifestations work in teams using the Kanban mode. The priorities o
 </sbb-table-wrapper>
 
 Weeklys and refinements are taking place on a weekly basis. In the weeklys, bug reports, contributing requests, feature requests or enhancements and general questions from the community are discussed and answered directly in the ticket. In the refinements, further work is refined. {.lead}  
-

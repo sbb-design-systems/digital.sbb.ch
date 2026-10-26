@@ -10,6 +10,13 @@ function readSourceFile(relativePath) {
     return fs.existsSync(file) ? fs.readFileSync(file, "utf8") : "";
 }
 
+function displayName(config, lang = "en") {
+    const configuredName = config?.displayName;
+    const name = typeof configuredName === "string" ? configuredName : configuredName?.[lang];
+    if (typeof name === "string" && name.trim()) return name.trim();
+    return typeof config?.tag === "string" ? config.tag.replace(/\b\w/g, (char) => char.toUpperCase()) : "";
+}
+
 // Kurzbeschreibung einer Inhaltsseite für llms.txt: erster Absatz mit Fliesstext, ohne Front Matter,
 // Überschriften, Template-Code, HTML, Listen und Tabellen; höchstens rund 240 Zeichen.
 function pageSummary(source) {
@@ -40,4 +47,4 @@ function componentSource(data, lang) {
     return readSourceFile(`${dataPath}overview_${lang}.md`) || readSourceFile(`${dataPath}content_${lang}.md`);
 }
 
-module.exports = { SITE_URL, LANGUAGES, readSourceFile, pageSummary, agentSummary, componentSource };
+module.exports = { SITE_URL, LANGUAGES, readSourceFile, displayName, pageSummary, agentSummary, componentSource };

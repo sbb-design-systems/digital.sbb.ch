@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: contact_de
 title: Kontakt
+llmDescription: Listet die Ansprechpersonen für Lyne und Mobile nach Product Ownership, UX und Entwicklung und verweist für Anfragen auf die Boards.
 parent: organisation_de
 order: 3
 ---

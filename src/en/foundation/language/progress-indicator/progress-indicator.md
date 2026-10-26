@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: progress_indicator_en
 title: Progress indicators
+llmDescription: Explains how progress indicators guide users with clear step labels, an explicit final action and information about later changes.
 alternativetitle: Progress indicators.
 parent: language_en
 order: 5
@@ -55,4 +56,3 @@ Examples:
         <div class="iconandlabel"><sbb-icon name="circle-cross-small"></sbb-icon>XX</div>
     </div>-->
 </div>
-

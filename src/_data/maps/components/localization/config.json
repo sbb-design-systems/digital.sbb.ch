@@ -6,8 +6,9 @@
         "de": true,
         "fr": false,
         "it": false,
-        "en": false
+        "en": true
     },
+    "displayName": { "en": "My location" },
     "order": 50,
     "categories":["Navigation"],
     "keywords":["gps", "location", "position", "map"],

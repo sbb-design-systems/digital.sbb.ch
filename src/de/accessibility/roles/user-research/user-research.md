@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: user-research_de
 title: User Research
+llmDescription: "Enthält vier Empfehlungen für barrierefreie User Research: Bedürfnisse verstehen, Menschen mit Behinderungen einbeziehen, Nutzungskontexte berücksichtigen und Personas barrierefrei gestalten."
 parent: roles_de
 order: 2
 ---

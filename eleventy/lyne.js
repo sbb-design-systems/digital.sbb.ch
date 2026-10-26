@@ -2,6 +2,7 @@
 // Übersicht und README, Storybook-Beispiele und Sortierung
 const fs = require("fs");
 const path = require("path");
+const { displayName } = require("./shared");
 
 // Doku-Status einer Lyne-Komponente: "complete", "in progress" oder "missing", abgeleitet aus den
 // redaktionellen Dateien (Übersicht in de und en). "in progress" kann in der config
@@ -34,13 +35,13 @@ const figmaUrl = (config) => (/^https:\/\/(www\.)?figma\.com\//.test(config?.fig
 
 // Ähnliche Lyne-Komponenten (Karte im Übersichtstab, Markdown-Version): manuell gepflegt ("similar"),
 // gilt automatisch in beide Richtungen. Verlinkt werden nur freigegebene Komponenten.
-let relationsCache = { source: null, relations: null };
-function computeLyneRelations(lyneData) {
+let relationsCache = { source: null, lang: null, relations: null };
+function computeLyneRelations(lyneData, lang) {
     const configs = lyneData?.components ?? {};
     const keys = Object.keys(configs).filter((key) => configs[key]?.config?.list === "components");
     const isLinkable = (key) => keys.includes(key) && configs[key].config.released !== false;
     const list = (value) => (Array.isArray(value) ? value : []);
-    const label = (key) => (configs[key]?.config?.tag ?? key).replace(/\b\w/g, (c) => c.toUpperCase());
+    const label = (key) => displayName(configs[key]?.config ?? { tag: key }, lang);
 
     const relations = {};
     for (const key of keys) {
@@ -56,16 +57,16 @@ function computeLyneRelations(lyneData) {
     return relations;
 }
 
-function lyneRelations(key, lyneData) {
-    if (relationsCache.source !== lyneData) relationsCache = { source: lyneData, relations: computeLyneRelations(lyneData) };
+function lyneRelations(key, lyneData, lang = "en") {
+    if (relationsCache.source !== lyneData || relationsCache.lang !== lang) relationsCache = { source: lyneData, lang, relations: computeLyneRelations(lyneData, lang) };
     return relationsCache.relations[key] ?? { similar: [] };
 }
 
 // Beziehungen für die Karte im Übersichtstab: Lyne nur "Ähnlich", andere Design Systeme aus der config
 // (similar, childs, isChildOf). Einträge ohne eigene Seite erscheinen ohne Link (linked: false).
-function componentRelations(key, system, systemData, lyneData) {
+function componentRelations(key, system, systemData, lyneData, lang = "en") {
     if (system === "lyne") {
-        const relations = lyneRelations(key, lyneData);
+        const relations = lyneRelations(key, lyneData, lang);
         const linked = (items) => items.map((item) => ({ ...item, linked: true }));
         return { similar: linked(relations.similar), contains: [], usedIn: [] };
     }
@@ -73,8 +74,9 @@ function componentRelations(key, system, systemData, lyneData) {
     const config = components[key]?.config ?? {};
     const items = (values) =>
         (Array.isArray(values) ? values : []).map((value) => {
-            const tag = components[value]?.config?.tag;
-            return { key: tag ?? value, label: (tag ?? value).replace(/\b\w/g, (c) => c.toUpperCase()), linked: !!tag };
+            const relatedConfig = components[value]?.config;
+            const tag = relatedConfig?.tag;
+            return { key: tag ?? value, label: relatedConfig ? displayName(relatedConfig, lang) : displayName({ tag: value }, lang), linked: !!tag };
         });
     return { similar: items(config.similar), contains: items(config.childs), usedIn: items(config.isChildOf) };
 }
@@ -191,11 +193,11 @@ function sortLyneComponentsByOrder(obj) {
     return Object.fromEntries(entries);
 }
 
-// Komponenten alphabetisch nach angezeigtem Namen (config.tag), z. B. für Übersicht und Sidebar von Lyne
-function sortComponentsByName(obj) {
+// Komponenten alphabetisch nach angezeigtem Namen, z. B. für Übersicht und Sidebar von Lyne
+function sortComponentsByName(obj, lang = "en") {
     if (!obj || typeof obj !== "object") return obj;
-    const name = (entry) => String(entry?.config?.tag ?? "");
-    return Object.fromEntries(Object.entries(obj).sort(([, a], [, b]) => name(a).localeCompare(name(b), "de")));
+    const name = (entry) => displayName(entry?.config, lang);
+    return Object.fromEntries(Object.entries(obj).sort(([, a], [, b]) => name(a).localeCompare(name(b), lang)));
 }
 
 // Beispiele einer Komponente aus dem Storybook-Bündel von lyne-elements
@@ -286,7 +288,7 @@ function lyne(eleventyConfig) {
     // Im Watch-Modus können sich Inhaltsdateien zwischen zwei Builds ändern
     eleventyConfig.on("eleventy.before", () => {
         documentationStatusCache.clear();
-        relationsCache = { source: null, relations: null };
+        relationsCache = { source: null, lang: null, relations: null };
     });
 }
 

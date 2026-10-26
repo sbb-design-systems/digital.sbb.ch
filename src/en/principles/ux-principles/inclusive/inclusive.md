@@ -5,6 +5,7 @@ tags:
     - principle_en
 key: inclusive_en
 title: Inclusive
+llmDescription: Accounts for permanent and temporary impairments so that as many people as possible can use the solution in different situations.
 alternativetitle: Our solutions can be used by as many people as possible in as many situations as possible.
 parent: ux-principles_en
 order: 4

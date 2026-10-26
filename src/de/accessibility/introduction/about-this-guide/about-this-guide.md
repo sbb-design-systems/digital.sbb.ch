@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: about-this-guide_de
 title: Über diesen Guide
+llmDescription: Führt Produktteams in die digitale Barrierefreiheit ein und bündelt grundlegende Empfehlungen nach den Rollen im Team.
 alternativetitle: Über diesen Guide
 parent: introduction_de
 order: 2

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: visual-design_de
 title: Visual Design
+llmDescription: "Enthält vier Empfehlungen für visuell barrierefreie Gestaltung: klare Struktur und 200%-Zoom, ausreichende Kontraste und Zielgrössen sowie sichtbarer Tastaturfokus."
 parent: roles_de
 order: 4
 ---

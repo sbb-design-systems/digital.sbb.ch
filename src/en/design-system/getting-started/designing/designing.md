@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: designing_en
 title: Designing
+llmDescription: Explains how to choose the right design system and access the required Figma libraries and design resources.
 parent: getting-started_en
 order: 2
 ---

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: button_and_links_de
 title: Button- und Linktexte
+llmDescription: Enthält Regeln und Beispiele für kurze, handlungsorientierte Button-Beschriftungen und verständliche, sprechende Links.
 alternativetitle: Button- und Linktexte.
 parent: language_de
 order: 2
@@ -110,5 +111,4 @@ Beispiele:
         </div>
     </div>    
 </div>
-
 

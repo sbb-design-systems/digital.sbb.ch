@@ -1,0 +1,33 @@
+---
+permalink: /design-system/maps/llms.txt
+eleventyExcludeFromCollections: true
+---
+{%- set site = "https://digital.sbb.ch" -%}
+# SBB Design System Maps
+
+> Maps is a separate SBB design system for map experiences. Its map-specific guidance and components are separate from Lyne. The design documentation and technical resources are available below.
+
+This file was generated on {{ buildTime }}.
+
+## Design resources
+
+- [Maps overview]({{ site }}/en/design-system/maps/overview/index.md): Overview of the Maps system and links to its design and technical resources
+- [Figma library](https://www.figma.com/design/TgaWiZ0UY3DpqOcElb7BqE/Design-System-Maps-2.0): Design library for Maps
+- [Technical documentation](https://angular.app.sbb.ch/journey-maps/): Implementation documentation
+- [GitHub repository](https://github.com/SchweizerischeBundesbahnen/sbb-angular): Source code
+
+{% set llmsSections = [
+  ["/design-system/maps/overview/", "Overview"],
+  ["/design-system/maps/basics/", "Basics"],
+  ["/design-system/maps/components/", "Components"]
+] %}
+{%- for section in llmsSections %}
+{%- set entries = collections.agentPages | agentPagesInSection("en", section[0], maps) %}
+{%- if entries | length %}
+
+## {{ section[1] }}
+{% for entry in entries %}
+- [{{ entry.title | safe }}]({{ site }}{{ entry.url }}index.md){% if entry.description %}: {{ entry.description | safe }}{% endif %}
+{%- endfor %}
+{%- endif %}
+{%- endfor %}

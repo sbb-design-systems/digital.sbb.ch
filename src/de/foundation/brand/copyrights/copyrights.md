@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: copyrights_de
 title: Nutzungsrechte
+llmDescription: Erklärt Nutzungsrechte und Einschränkungen für SBB-Icons, öV-Piktogramme, Fahrplan-Icons, die SBB-Uhr und das Logo sowie erforderliche Freigaben.
 alternativetitle: Nutzungsrechte.
 parent: brand_de
 order: 4

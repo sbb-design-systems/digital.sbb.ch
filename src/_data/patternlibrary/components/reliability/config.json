@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 160,
+    "llmDescription": {
+        "de": "Zeigt, wie sicher die AI bei einer Antwort ist, besonders in risikoreichen Kontexten oder wenn darauf Entscheidungen beruhen.",
+        "en": "Shows how confident the AI is in an answer, especially in high-risk contexts or when decisions depend on it."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Zuverlässigkeit", "reliability"],
     "hasTabs": false,

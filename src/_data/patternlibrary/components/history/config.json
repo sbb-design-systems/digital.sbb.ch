@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 20,
+    "llmDescription": {
+        "de": "Speichert Suchanfragen und Präferenzen in AI-Chats als interaktiven Verlauf, in dem Nutzende frühere Einträge wieder aufnehmen oder löschen können.",
+        "en": "Stores search queries and preferences in AI chats as an interactive history that users can revisit or delete."
+    },
     "categories":["AI", "Input"],
     "keywords":["Vertrauen", "Verlauf", "history"],
     "hasTabs": false,

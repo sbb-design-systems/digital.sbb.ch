@@ -5,6 +5,7 @@ tags:
     - principle_de
 key: holistic_de
 title: Ganzheitlich
+llmDescription: Bezieht die gesamte Erlebniskette sowie vor- und nachgelagerte Prozesse und andere Anwendungen in die Gestaltung ein.
 alternativetitle: Wir beachten immer den Gesamtkontext unserer Lösungen.
 parent: ux-principles_de
 order: 7

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: notifications_de
 title: Benachrichtigungen
+llmDescription: Gibt Regeln und Beispiele für Erfolgs-, Fehler- und Warnmeldungen – einschliesslich Notifications, Toasts, Dialogen und Formularfehlern.
 alternativetitle: Benachrichtigungen.
 parent: language_de
 order: 3
@@ -146,4 +147,3 @@ Empfehlungen:
 <sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/message/">Zur Komponente</sbb-secondary-button-link>
 
 <br>
-

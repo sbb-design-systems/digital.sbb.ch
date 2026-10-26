@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: wordlist_de
 title: Digitale Wörterliste
+llmDescription: Gibt Empfehlungen für passende Begriffe im jeweiligen Kontext und zeigt Alternativen; die Vorschläge sind nicht verbindlich.
 alternativetitle: Digitale Wörterliste.
 parent: language_de
 order: 6

@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 10,
+    "llmDescription": {
+        "de": "Hilft, AI-Eingaben wie Quellen oder Ausgaben wie das Format gezielt einzugrenzen.",
+        "en": "Helps users narrow AI inputs such as sources or outputs such as format."
+    },
     "categories":["AI", "Input"],
     "keywords":["Vertrauen", "Filterung", "filter"],
     "hasTabs": false,

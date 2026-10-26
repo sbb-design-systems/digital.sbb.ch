@@ -5,6 +5,7 @@ tags:
     - principle_de
 key: inclusive_de
 title: Inklusiv
+llmDescription: Berücksichtigt dauerhafte und temporäre Beeinträchtigungen, damit möglichst viele Menschen die Lösung in unterschiedlichen Situationen nutzen können.
 alternativetitle: Unsere Lösungen sind von so vielen Menschen in so vielen Situationen wie möglich nutzbar.
 parent: ux-principles_de
 order: 4

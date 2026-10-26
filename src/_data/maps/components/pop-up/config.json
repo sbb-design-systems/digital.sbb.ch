@@ -6,8 +6,9 @@
         "de": true,
         "fr": false,
         "it": false,
-        "en": false
+        "en": true
     },
+    "displayName": { "en": "Pop-up" },
     "order": 70,
     "categories":["Content"],
     "keywords":["pop", "up", "modal", "card"],

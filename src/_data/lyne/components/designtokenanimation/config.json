@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 10,
+    "llmDescription": {
+        "de": "Zeigt die verfügbaren Animationsdauern und Easing-Kurven als Lyne-Design-Tokens.",
+        "en": "Lists the available animation durations and easing curves as Lyne design tokens."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

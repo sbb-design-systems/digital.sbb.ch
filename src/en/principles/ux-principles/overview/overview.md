@@ -4,6 +4,7 @@ tags:
     - level3
 key: overview_en
 title: Our design principles
+llmDescription: This overview introduces the SBB design principles and explains how teams can apply them when designing customer- and employee-centred products and services.
 parent: ux-principles_en
 order: 1
 ---

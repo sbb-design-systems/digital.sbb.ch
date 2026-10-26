@@ -18,12 +18,13 @@ Read the file for your platform before writing code. Check the project to decide
 - [Lyne (web)]({{ site }}/design-system/lyne/llms.txt): Websites and web applications, web components `@sbb-esta/lyne-elements` and the Angular wrapper `@sbb-esta/lyne-angular`. Use it if `package.json` contains one of these packages, or for any new web project.
 - [Mobile (native apps)]({{ site }}/design-system/mobile/llms.txt): iOS, Android and Flutter apps. Use it if the project contains `pubspec.yaml` (Flutter), an `.xcodeproj` or `Package.swift` (SwiftUI) or `build.gradle.kts` with Jetpack Compose (Android).
 - [Lean (legacy)]({{ site }}/design-system/lean/llms.txt): Only for existing applications that depend on `@sbb-esta/angular`. Not for new projects.
+- [Maps]({{ site }}/design-system/maps/llms.txt): A separate design system for map experiences, with its own guidance and components. Its implementation documentation is linked from the Maps index.
 
 Do not mix design systems: Lyne components do not exist in native apps, and Lean components are not Lyne components even though both use the prefix `sbb-`.
 
 ## Markdown versions
 
-- Pages are available as Markdown: `index.md` next to the HTML page (`{{ site }}/<lang>/…/index.md`), in English and German only (French and Italian pages have the same content; use the English or German page). The lists below link the English versions; German versions have the same path with `/de/` instead of `/en/`.
+- Markdown versions (`index.md`) are currently generated only for English and German pages. The lists below link to the English versions; the corresponding German versions use the same paths with `/de/` instead of `/en/`.
 - Pages that only redirect (e.g. `/en/foundation/`, `/en/foundation/colors/`) have no Markdown version; use the sub pages listed below (e.g. `/en/foundation/colors/base-colors/index.md`).
 - Servers answer `Accept: text/markdown` on a page URL (ending with `/`) with the Markdown version if one exists (`Vary: Accept`).
 - [UI icon names]({{ site }}/icons-ui.json): All valid SBB UI icon names with sizes, category and keywords.
@@ -42,4 +43,4 @@ Do not mix design systems: Lyne components do not exist in native apps, and Lean
 
 - [Sitemap]({{ site }}/sitemap.xml): All pages of digital.sbb.ch
 - [digital.sbb.ch on GitHub](https://github.com/sbb-design-systems/digital.sbb.ch): Source of this website
-- {{ site }}/llms-full.txt: All Lyne components in one file (same as {{ site }}/design-system/lyne/llms-full.txt)
+- [Full documentation (English)]({{ site }}/llms-full.txt): All available English Markdown documentation pages from digital.sbb.ch in one file, including Lyne component API pages

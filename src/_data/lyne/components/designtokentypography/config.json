@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 90,
+    "llmDescription": {
+        "de": "Listet Schriftfamilie, Schriftgrössen, Zeichen- und Zeilenabstände sowie Lyne-Stile für Listen.",
+        "en": "Lists the font family, font sizes, letter and line spacing, and Lyne list styles."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

@@ -5,6 +5,7 @@ tags:
     - principle_de
 key: recognisable_de
 title: Wiedererkennbar
+llmDescription: Nutzt konsistente Interaktionsmuster und Gestaltungselemente über digitale Kanäle hinweg, damit sich Nutzende zurechtfinden und Informationen schnell erreichen.
 alternativetitle: Wir bieten ein konsistentes Erlebnis innerhalb und zwischen den Kanälen.
 parent: ux-principles_de
 order: 3

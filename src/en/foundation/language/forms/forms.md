@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: forms_en
 title: Forms and inputs
+llmDescription: Provides rules and examples for clear form labels and helpful placeholders, and explains why placeholders do not replace labels.
 alternativetitle: Forms and inputs.
 parent: language_en
 order: 2

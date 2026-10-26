@@ -1,5 +1,9 @@
 {
     "tag":"ai-work-indicator",
+    "displayName": {
+        "de": "AI-Aktivitätsanzeige",
+        "en": "AI work indicator"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 80,
+    "llmDescription": {
+        "de": "Informiert Nutzende bei länger dauernden AI-Generierungen oder Suchvorgängen über die Aktivität des Systems und kann eine Stopp-Aktion anbieten.",
+        "en": "Keeps users informed during longer AI generation or search tasks and can offer a stop action."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "System", "Progress"],
     "hasTabs": false,

@@ -1,5 +1,9 @@
 {
     "tag":"prompt-quality",
+    "displayName": {
+        "de": "Prompt-Qualität",
+        "en": "Prompt quality"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 50,
+    "llmDescription": {
+        "de": "Gibt live Rückmeldung zur Qualität eines Prompts und hilft besonders Einsteiger:innen, ihre Eingaben zu verbessern.",
+        "en": "Provides live feedback on prompt quality, helping users, especially beginners, improve their prompts."
+    },
     "categories":["AI", "Input"],
     "keywords":["Vertrauen", "Prompt", "Quality", "Qualität", "Feedback"],
     "hasTabs": false,

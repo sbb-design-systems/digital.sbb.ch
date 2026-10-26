@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: contribution_en
 title: Contribution
+llmDescription: Explains how to contribute to Lyne and Mobile, links to the contribution boards and lists criteria for adding components and design tokens.
 parent: organisation_en
 order: 2
 ---

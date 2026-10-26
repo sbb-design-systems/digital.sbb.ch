@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: coding_en
 title: Coding
+llmDescription: Links to development documentation and code repositories for Lyne and the Mobile Design System.
 parent: getting-started_en
 order: 3
 ---

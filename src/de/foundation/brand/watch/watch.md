@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: watch_de
 title: Digitale Uhr
+llmDescription: Beschreibt Einsatz und Gestaltung der digitalen SBB-Uhr, einschliesslich Nutzungsvoraussetzungen sowie Grössen- und Platzierungsregeln.
 alternativetitle: Digitale Uhr.
 parent: brand_de
 order: 3

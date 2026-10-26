@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: help_en
 title: Help
+llmDescription: Shows where to check for existing answers and where to direct technical or general questions about the SBB design system.
 parent: getting-started_en
 order: 5
 ---
@@ -25,4 +26,3 @@ Technical questions or questions about components/patterns can be posted via Git
 - <sbb-link  type="button" target="_blank" href="https://github.com/sbb-design-systems/lyne-components/issues/new?assignees=octocat&labels=type%3A+question+❓&template=question.yml&title=%5BQuestion%5D%3A+">Submit a question to the Lyne Board</sbb-link>
 - <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Submit a question to the iOS  Board</sbb-link>
 - <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Submit a question to the Flutter  Board</sbb-link>
-

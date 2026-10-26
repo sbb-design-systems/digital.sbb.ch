@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: contact_de
 title: Kontakt
+llmDescription: Nennt die Kontaktstellen für Fragen und Unterstützung zur digitalen Barrierefreiheit, aufgeschlüsselt nach Divisionen und Anliegen.
 parent: introduction_de
 order: 3
 ---

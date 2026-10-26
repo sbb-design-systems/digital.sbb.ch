@@ -2,7 +2,7 @@
 {# Übersicht, wenn die Datei existiert, es verwandte Komponenten oder (Lyne) eine Vorschau gibt.
    Lyne: Vorschau aus playground.html, danach die Übersicht – die Regeln stehen in rules_<sprache>.md im Anwendungs-Tab. #}
 {% set hasOverviewContent = (pattern.config.tabs.hasOverview == true) and (overviewpath | fileExists) %}
-{% set relations = component | componentRelations(system, sys, lyne) %}
+{% set relations = component | componentRelations(system, sys, lyne, page.lang) %}
 {% set hasRelations = (relations.similar | length) or (relations.contains | length) or (relations.usedIn | length) %}
 {% set previewpath = ["src/_data/lyne/components/", component, "/playground.html"] | join %}
 {% set hasPreview = (system == "lyne") and (previewpath | fileExists) %}

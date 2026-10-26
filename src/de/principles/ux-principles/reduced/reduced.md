@@ -5,6 +5,7 @@ tags:
     - principle_de
 key: reduced_de
 title: Reduziert
+llmDescription: Zeigt für eine Aufgabe nur die nötigen Informationen und Funktionen, um die Nutzung einfach zu halten und kognitive Überlastung zu vermeiden.
 alternativetitle: Wir zeigen so wenig wie möglich und so viel wie nötig.
 parent: ux-principles_de
 order: 5

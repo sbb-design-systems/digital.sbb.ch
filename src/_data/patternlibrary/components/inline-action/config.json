@@ -1,5 +1,9 @@
 {
     "tag":"inline-action",
+    "displayName": {
+        "de": "Inline-Aktion",
+        "en": "Inline action"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 120,
+    "llmDescription": {
+        "de": "Ermöglicht, ausgewählte Teile eines AI-Outputs gezielt zu bearbeiten oder als Kontext für eine neue Anfrage zu verwenden.",
+        "en": "Lets users edit selected parts of an AI output or use them as context for a new prompt."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Interaktionen", "Interactions", "Output"],
     "hasTabs": false,

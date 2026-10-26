@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 190,
+    "llmDescription": {
+        "de": "Fasst umfangreiche AI-Ausgaben automatisch oder auf Anfrage zusammen.",
+        "en": "Summarises lengthy AI outputs automatically or on request."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Zusammenfassung", "summary"],
     "hasTabs": false,

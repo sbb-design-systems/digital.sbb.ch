@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: product-owner_de
 title: Product Owner
+llmDescription: "Enthält vier Empfehlungen für Product Owner: das Team sensibilisieren, Barrierefreiheit in Stories und Priorisierung verankern sowie Reviews früh einplanen."
 parent: roles_de
 order: 1
 ---

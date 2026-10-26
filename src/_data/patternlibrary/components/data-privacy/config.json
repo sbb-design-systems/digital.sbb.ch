@@ -1,5 +1,9 @@
 {
     "tag":"data-privacy",
+    "displayName": {
+        "de": "Datenschutz",
+        "en": "Data privacy"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 110,
+    "llmDescription": {
+        "de": "Erklärt, wofür Daten der Nutzenden verwendet werden, und ermöglicht ihnen, über die Nutzung zu entscheiden und diese Entscheidung später zu ändern.",
+        "en": "Explains how users' data will be used and lets them decide whether to allow it and change that decision later."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Datenschutz", "Data", "Privacy"],
     "hasTabs": false,

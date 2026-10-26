@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: ai_design_grundlagen_en
 title: "AI Design: Basics"
+llmDescription: Explains how AI fits into products, the challenges and risks it creates for users, and when augmentation is preferable to automation.
 parent: guides_en
 order: 20
 eleventyExcludeFromCollections: false

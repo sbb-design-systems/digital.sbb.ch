@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: copyrights_en
 title: Rights of use
+llmDescription: Explains usage rights and restrictions for SBB icons, public transport pictograms, timetable icons, the SBB clock and logo, including when approval is required.
 alternativetitle: Rights of use.
 parent: brand_en
 order: 4

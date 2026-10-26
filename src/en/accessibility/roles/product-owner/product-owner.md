@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: product-owner_en
 title: Product Owner
+llmDescription: "Provides four recommendations for product owners: educate the team, include accessibility in stories and prioritisation, and plan reviews early."
 parent: roles_en
 order: 1
 ---

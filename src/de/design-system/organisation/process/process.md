@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: process_de
 title: Prozess
+llmDescription: Beschreibt den Kanban-Arbeitsprozess von Lyne und Mobile, verlinkt die Boards und erläutert, wie Fehler, Beiträge und Feature-Anfragen bearbeitet werden.
 parent: organisation_de
 order: 1
 ---
@@ -24,4 +25,3 @@ Die verschiedenen Ausprägungen arbeiten in Teams im Kanban-Modus. Die Prioritä
 </sbb-table-wrapper>
 
 Wöchentlich finden Weeklys und Refinements statt. In den Weeklys werden Bug Reports, Contributing Anfragen, Feature Requests oder Erweiterungen und allgemeine Fragen aus der Community besprochen und direkt im Ticket beantwortet. In den Refinements werden die weiteren Arbeiten geschärft. {.lead}  
-

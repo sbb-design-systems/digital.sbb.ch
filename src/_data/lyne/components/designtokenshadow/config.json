@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 60,
+    "llmDescription": {
+        "de": "Zeigt die Elevationsstufen und Sass-Mixins für weiche und harte Schatten, jeweils positiv und negativ.",
+        "en": "Shows elevation levels and Sass mixins for soft and hard shadows, each in positive and negative variants."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

@@ -5,6 +5,7 @@ tags:
     - principle_de
 key: self-explanatory_de
 title: Selbsterklärend
+llmDescription: Führt Nutzende mit vertrauten Begriffen durch den Prozess und unterstützt sie bei Fehleingaben und persönlichen Anpassungen.
 alternativetitle: Wir leiten die Nutzenden und sprechen ihre Sprache.
 parent: ux-principles_de
 order: 8

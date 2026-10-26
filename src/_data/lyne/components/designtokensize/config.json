@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 70,
+    "llmDescription": {
+        "de": "Listet die responsiven Grössen der UI-Elemente und die verfügbaren Grössen der UI-Icons.",
+        "en": "Lists responsive sizes for UI elements and available sizes for UI icons."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

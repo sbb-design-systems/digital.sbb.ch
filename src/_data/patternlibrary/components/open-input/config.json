@@ -1,5 +1,9 @@
 {
     "tag":"open-input",
+    "displayName": {
+        "de": "Freie Eingabe",
+        "en": "Open input"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 30,
+    "llmDescription": {
+        "de": "Ermöglicht freie AI-Eingaben für flexible Anfragen und empfiehlt Beispiele, damit das offene Eingabefeld nicht überfordert.",
+        "en": "Allows flexible free-form AI requests and recommends examples to keep the open input from overwhelming users."
+    },
     "categories":["AI", "Input"],
     "keywords":["Vertrauen", "Input", "Input"],
     "hasTabs": false,

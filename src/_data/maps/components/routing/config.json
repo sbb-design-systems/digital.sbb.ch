@@ -6,8 +6,9 @@
         "de": true,
         "fr": false,
         "it": false,
-        "en": false
+        "en": true
     },
+    "displayName": { "en": "Routing" },
     "order": 80,
     "categories":["Navigation"],
     "keywords":["routing", "way", "transfer", "walk"],

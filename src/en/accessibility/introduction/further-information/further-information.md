@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: further-information_en
 title: Further information
+llmDescription: Collects further digital accessibility resources, including developer guides, WCAG, certification checklists and review materials.
 parent: introduction_en
 order: 4
 ---
@@ -31,4 +32,3 @@ order: 4
 ## Important inspiration for this guide
 * <sbb-link  type="button" target="_blank" href="http://accessibility.voxmedia.com">http://accessibility.voxmedia.com</sbb-link>
 * <sbb-link  type="button" target="_blank" href="https://moritzgiessmann.de/accessibility-cheatsheet">https://moritzgiessmann.de/accessibility-cheatsheet</sbb-link>
-

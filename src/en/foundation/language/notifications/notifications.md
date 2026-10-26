@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: notifications_en
 title: Notifications
+llmDescription: Provides guidance and examples for success, error and warning messages, including notifications, toasts, dialogs and form errors.
 alternativetitle: Notifications.
 parent: language_en
 order: 3
@@ -146,4 +147,3 @@ Recommendations:
 <sbb-secondary-button-link href="/{{page.lang}}/design-system/lyne/components/message/">Go to component</sbb-secondary-button-link>
 
 <br>
-

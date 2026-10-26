@@ -1,5 +1,9 @@
 {
     "tag":"action-on-output",
+    "displayName": {
+        "de": "Aktionen für AI-Ausgaben",
+        "en": "Actions for AI output"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 70,
+    "llmDescription": {
+        "de": "Zeigt passende Folgeaktionen zu einem AI-Output, etwa Kopieren oder erneutes Generieren.",
+        "en": "Offers relevant follow-up actions for an AI output, such as copying or regenerating it."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Interaktionen", "Interactions", "Output"],
     "hasTabs": false,

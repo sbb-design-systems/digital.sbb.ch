@@ -5,6 +5,7 @@ tags:
     - principle_en
 key: self-explanatory_en
 title: Self-explanatory
+llmDescription: Guides users through the process with familiar terminology and supports them with input errors and personal adjustments.
 alternativetitle: We guide our users and speak their language.
 parent: ux-principles_en
 order: 8

@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: about-accessibility_en
 title: About accessibility
+llmDescription: Explains why accessibility matters to everyone, states SBB's WCAG 2.2 AA standard and lists helpful measures for different impairments.
 parent: introduction_en
 order: 1
 ---
@@ -49,6 +50,5 @@ Below is an overview of the measures that are particularly helpful for people wi
 * Simply written texts
 * Clearly legible fonts
 * No distracting elements
-
 
 

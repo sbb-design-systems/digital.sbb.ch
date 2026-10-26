@@ -5,6 +5,7 @@ tags:
     - principle_en
 key: holistic_en
 title: Holistic
+llmDescription: Considers the entire user journey, including upstream and downstream processes and other applications, when designing a solution.
 alternativetitle: We always consider the holistic context of our solutions.
 parent: ux-principles_en
 order: 7

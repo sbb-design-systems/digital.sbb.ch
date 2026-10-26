@@ -28,14 +28,14 @@
 {% set patterns = sys.components %}
 {% set pattern = sys.components[component] %}
 
-    <title>{{pattern.config.tag | capitalizeWords}} – digital.sbb.ch</title>
+    <title>{{pattern.config | displayName(page.lang)}} – digital.sbb.ch</title>
 {% elif (layout == "template.njk") %}
-    <title>{{lyne.templates[template].config.tag | capitalizeWords}} – digital.sbb.ch</title>
+    <title>{{lyne.templates[template].config | displayName(page.lang)}} – digital.sbb.ch</title>
 {% else %}
     <title>{% if alternativetitle|length %}{{alternativetitle}}{% else %}{{title}} – digital.sbb.ch{% endif %}</title>
 {% endif %}
 
-{% set jsonLdTitle = (pattern.config.tag | capitalizeWords) if (layout == "component.njk") else ((lyne.templates[template].config.tag | capitalizeWords) if (layout == "template.njk") else title) %}
+{% set jsonLdTitle = (pattern.config | displayName(page.lang)) if (layout == "component.njk") else ((lyne.templates[template].config | displayName(page.lang)) if (layout == "template.njk") else title) %}
 {% if jsonLdTitle and not (lyneDraft or noindex) %}
 <script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "TechArticle", "headline": jsonLdTitle, "description": pageDesc or translations[page.lang].description, "inLanguage": page.lang, "url": "https://digital.sbb.ch" + page.url, "isPartOf": { "@type": "WebSite", "name": "digital.sbb.ch", "url": "https://digital.sbb.ch/" }, "publisher": { "@type": "Organization", "name": "SBB Informatik AG" } } | dump | replace("<", "\\u003c") | safe }}</script>
 {% endif %}

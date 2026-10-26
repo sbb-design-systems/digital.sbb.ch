@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: user-research_en
 title: User Research
+llmDescription: "Provides four recommendations for accessible user research: understand needs, involve people with disabilities, consider usage contexts and make personas inclusive."
 parent: roles_en
 order: 2
 ---

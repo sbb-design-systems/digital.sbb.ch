@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 180,
+    "llmDescription": {
+        "de": "Zeigt kontextbezogene Vorschläge, die Nutzenden den Einstieg in AI-Funktionen oder eine passende Folgefrage erleichtern.",
+        "en": "Shows contextual suggestions that help users get started with AI features or choose a relevant follow-up question."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Vorschläge", "suggestions"],
     "hasTabs": false,

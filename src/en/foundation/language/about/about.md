@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: about_ux_writing_en
 title: About UX Writing
+llmDescription: Provides guidance for clear, consistent and accessible UX writing, covering tone of voice, microcopy and word choice.
 alternativetitle: About UX Writing.
 parent: language_en
 order: 1

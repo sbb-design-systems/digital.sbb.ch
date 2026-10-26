@@ -1,5 +1,9 @@
 {
     "tag":"questions-to-the-user",
+    "displayName": {
+        "de": "Rückfragen an Nutzende",
+        "en": "Questions to the user"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 150,
+    "llmDescription": {
+        "de": "Stellt bei unklarem AI-Input Rückfragen oder bietet vorgefertigte Antwortoptionen an, um fehlende Informationen zu klären.",
+        "en": "Asks follow-up questions or offers ready-made answer options when an AI request is unclear."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Fragen an den Nutzer", "questions to the user"],
     "hasTabs": false,

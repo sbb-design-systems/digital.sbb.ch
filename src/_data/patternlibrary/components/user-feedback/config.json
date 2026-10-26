@@ -1,5 +1,9 @@
 {
     "tag":"user-feedback",
+    "displayName": {
+        "de": "Feedback von Nutzenden",
+        "en": "User feedback"
+    },
     "system":"patternlibrary",
     "list":"patterns",
     "language": {
@@ -9,6 +13,10 @@
         "en": true
     },
     "order": 210,
+    "llmDescription": {
+        "de": "Ermöglicht direktes Feedback zu AI-Ausgaben und erklärt, wie Rückmeldungen verwendet werden.",
+        "en": "Lets users give direct feedback on AI outputs and explains how that feedback will be used."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Nutzer Feedback", "user-feedback"],
     "hasTabs": false,

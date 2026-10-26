@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: about-accessibility_de
 title: Über Barrierefreiheit
+llmDescription: Erläutert, warum Barrierefreiheit für alle wichtig ist, nennt den SBB-Standard WCAG 2.2 AA und gibt Beispiele hilfreicher Massnahmen für verschiedene Einschränkungen.
 parent: introduction_de
 order: 1
 ---

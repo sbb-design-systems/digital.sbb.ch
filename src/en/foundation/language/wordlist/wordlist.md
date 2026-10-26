@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: wordlist_en
 title: Digital word list
+llmDescription: Provides context-specific term recommendations and alternatives, while clarifying that the suggestions are not binding.
 alternativetitle: Digital word list.
 parent: language_en
 order: 6

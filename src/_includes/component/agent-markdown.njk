@@ -11,7 +11,7 @@
 {%- set group = lyne.catalog.groups[component] -%}
 {%- set documentation = component | lyneDocumentationStatus(config) -%}
 
-# {{ config.tag | capitalizeWords }}
+# {{ config | displayName(lang) }}
 
 {{ t.intro }}.
 

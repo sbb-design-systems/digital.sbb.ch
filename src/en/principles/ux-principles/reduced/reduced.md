@@ -5,6 +5,7 @@ tags:
     - principle_en
 key: reduced_en
 title: Reduced
+llmDescription: Shows only the information and functions needed for a task, keeping use simple and preventing cognitive overload.
 alternativetitle: We show as little as possible and as much as necessary.
 parent: ux-principles_en
 order: 5

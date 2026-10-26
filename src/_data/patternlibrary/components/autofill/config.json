@@ -9,6 +9,10 @@
         "en": true
     },
     "order": 100,
+    "llmDescription": {
+        "de": "Erklärt, wie AI-Aktionen oder Prompts auf mehrere Zellen oder Objekte angewendet werden, und empfiehlt eine Vorschau sowie den Schutz bestehender Einträge.",
+        "en": "Explains how to apply AI actions or prompts to multiple cells or objects, with guidance on previews and protecting existing entries."
+    },
     "categories":["AI", "Output"],
     "keywords":["Vertrauen", "Automatisches Ausfüllen", "autofill", "output", "table"],
     "hasTabs": false,

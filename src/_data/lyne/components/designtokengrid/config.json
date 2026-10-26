@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 40,
+    "llmDescription": {
+        "de": "Zeigt die Breakpoints und zugehörigen Breitenbereiche für die responsiven Ansichtsgrössen von Lyne.",
+        "en": "Shows the breakpoints and corresponding width ranges for Lyne's responsive viewports."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

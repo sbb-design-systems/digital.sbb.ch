@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: ai_design_grundlagen_de
 title: "AI Design: Grundlagen"
+llmDescription: Beschreibt, wie AI in Produkte integriert wird, welche Herausforderungen und Risiken für Nutzende entstehen und wann Augmentation statt Automation sinnvoll ist.
 parent: guides_de
 order: 20
 eleventyExcludeFromCollections: false

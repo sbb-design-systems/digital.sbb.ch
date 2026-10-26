@@ -10,6 +10,10 @@
         "en": true
     },
     "order": 50,
+    "llmDescription": {
+        "de": "Listet die responsiven Basis-Grid-Werte von Lyne: Spalten, Zwischenräume und Seitenabstände.",
+        "en": "Lists Lyne's responsive base grid values: columns, gutters and page offsets."
+    },
     "categories":["Design Token"],
     "keywords":["animation", "easing"],
     "hasTabs": false,

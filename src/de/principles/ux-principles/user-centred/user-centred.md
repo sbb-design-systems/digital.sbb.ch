@@ -5,6 +5,7 @@ tags:
     - principle_de
 key: user-centred_de
 title: Nutzerzentriert
+llmDescription: Bezieht reale Nutzende frühzeitig und regelmässig in die Produktentwicklung ein, um ihre Bedürfnisse zu verstehen und Probleme früh zu erkennen.
 alternativetitle: Wir beziehen reale Nutzende in unsere Produktentwicklungsprozesse mit ein.
 parent: ux-principles_de
 order: 2

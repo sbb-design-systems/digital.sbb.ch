@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: logo_en
 title: Logo
+llmDescription: Explains SBB umbrella branding and use of the logo and emblem, including the conditions for using the standalone emblem.
 alternativetitle: Logo.
 parent: brand_en
 order: 2

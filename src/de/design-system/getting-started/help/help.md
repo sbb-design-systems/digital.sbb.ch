@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: help_de
 title: Hilfe
+llmDescription: Zeigt, wo Fragen zum SBB Design System zuerst geklärt werden können und an wen technische oder allgemeine Fragen gerichtet werden.
 parent: getting-started_de
 order: 5
 ---
@@ -25,4 +26,3 @@ Technische Fragen oder Fragen zu Komponenten/Patterns können via Github in den 
 - <sbb-link  type="button" target="_blank" href="https://github.com/sbb-design-systems/lyne-components/issues/new?assignees=octocat&labels=type%3A+question+❓&template=question.yml&title=%5BQuestion%5D%3A+">Frage in Lyne Board stellen</sbb-link>
 - <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/mobile-ios-design-swiftui/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Frage in iOS  Board stellen</sbb-link>
 - <sbb-link  type="button" target="_blank" href="https://github.com/SchweizerischeBundesbahnen/design_system_flutter/issues/new?assignees=octocat&labels=type%3A+question&template=question-mobile.yml&title=%5BQuestion%5D%3A+">Frage in Flutter  Board stellen</sbb-link>
-

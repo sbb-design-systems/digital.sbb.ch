@@ -3,6 +3,7 @@ layout: page.njk
 tags: level3
 key: intro_de
 title: Was ist ein Design System?​
+llmDescription: Erklärt Zweck und Nutzen des SBB Design Systems, wer es entwickelt und wie Teams Komponenten nutzen oder zur Weiterentwicklung beitragen können.
 parent: getting-started_de
 order: 1
 ---
