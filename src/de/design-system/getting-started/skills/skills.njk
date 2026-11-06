@@ -1,0 +1,243 @@
+---
+layout: landingpage.njk
+key: skills_de
+title: Skills
+alternativetitle: Interaktive Prototypen mit AI und dem SBB Design System.
+llmDescription: Kündigt die Skills des UX-Toolkits an. Skills erweitern GitHub Copilot um Lyne, die SBB-Icons und Figma, das Toolkit bündelt sie. Damit bauen SBB-Mitarbeitende realistische Lyne-Prototypen. Nur für SBB-Mitarbeitende (SBB-Netz oder VPN nötig).
+parent: getting-started_de
+image: /assets/images/lyne/lyne-header.jpg
+order: 4
+navChip: Early Access
+---
+<sbb-lead-container>
+  <sbb-image slot="image" image-src="{{image}}"></sbb-image>
+  <div style="margin-block: var(--sbb-spacing-responsive-xs);">
+    <sbb-chip-label color="charcoal" size="s">Early Access</sbb-chip-label>
+  </div>
+  {% include "src/_includes/title.njk" %}
+
+  <p class="sbb-text-xl sbb-lead-container-lead-text">
+    Beschreib deine Idee und sieh sie als klickbaren Lyne-Prototyp. Skills machen GitHub Copilot zum Assistenten, der Lyne, die SBB-Icons und Figma kennt.
+  </p>
+
+  <sbb-notification type="note" readonly class="ux-toolkit-notice">
+    <strong>Nur für SBB-Mitarbeitende.</strong>
+    Die Installation läuft über das interne SBB-Netz oder VPN mit deinem SBB-Konto. Externe Partner können die Skills nicht nutzen.
+    Für alle gilt: Mit der <sbb-link href="/llms.txt">llms.txt</sbb-link> kennt dein AI-Assistent Lyne und das SBB Design System: alle Komponenten, ihre API und typische Stolpersteine, auch ohne Skills.
+  </sbb-notification>
+</sbb-lead-container>
+
+<sbb-container background-expanded color="white" class="lp-container no-margin-top">
+  <sbb-title level="2" visual-level="2">Was sind Skills?</sbb-title>
+
+  <div class="roadmap-teaser">
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-icon name="magic-wand-medium"></sbb-icon>
+      <sbb-title level="3" visual-level="4">Skills.</sbb-title>
+      <p class="subtext">Skills sind Fähigkeiten, die GitHub Copilot um Lyne, die SBB-Icons und Figma erweitern. So kennt dein Assistent das SBB Design System und arbeitet damit.</p>
+    </sbb-card>
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-icon name="hammer-wrench-medium"></sbb-icon>
+      <sbb-title level="3" visual-level="4">Das Toolkit.</sbb-title>
+      <p class="subtext">Das Toolkit ist die Sammlung dieser Skills. Du installierst es einmal auf deinem Rechner.</p>
+    </sbb-card>
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-icon name="rocket-medium"></sbb-icon>
+      <sbb-title level="3" visual-level="4">Dein Vorteil.</sbb-title>
+      <p class="subtext">Mit jedem Update profitierst du von Verbesserungen und neuen Skills. Du aktualisierst alles auf einmal.</p>
+    </sbb-card>
+  </div>
+</sbb-container>
+
+<sbb-container background-expanded color="milk" class="lp-container">
+  <sbb-title level="2" visual-level="2">Das können die Skills.</sbb-title>
+  <div class="sbb-grid-only lp-flipcards">
+    <sbb-flip-card class="lp-flip-card-1">
+      <sbb-flip-card-summary image-alignment="after">
+        <sbb-title level="4">Von der Idee zum Prototyp.</sbb-title>
+      </sbb-flip-card-summary>
+      <sbb-flip-card-details>
+        <sbb-title level="4" negative>Von der Idee zum Prototyp.</sbb-title>
+        Beschreib im Chat, was du brauchst, und der Assistent baut dir daraus einen klickbaren Prototyp aus echten Lyne-Komponenten: im SBB-Look, mit Dark Mode und Barrierefreiheit von Anfang an. So hast du schnell etwas in der Hand, das du zeigen und diskutieren kannst.
+      </sbb-flip-card-details>
+    </sbb-flip-card>
+    <sbb-flip-card class="lp-flip-card-2">
+      <sbb-flip-card-summary image-alignment="below">
+        <sbb-title level="4">Was du zeigst, lässt sich bauen.</sbb-title>
+      </sbb-flip-card-summary>
+      <sbb-flip-card-details>
+        <sbb-title level="4" negative>Was du zeigst, lässt sich bauen.</sbb-title>
+        Die AI kennt die Möglichkeiten und die Grenzen von Lyne. Dein Prototyp zeigt deshalb nur, was sich auch in der Entwicklung umsetzen lässt. Die Diskussion «In Figma geht das, warum nicht in der Entwicklung?» entfällt.
+      </sbb-flip-card-details>
+    </sbb-flip-card>
+    <sbb-flip-card class="lp-flip-card-3">
+      <sbb-flip-card-summary image-alignment="below">
+        <sbb-title level="4">Lyne-konform von der ersten Zeile.</sbb-title>
+      </sbb-flip-card-summary>
+      <sbb-flip-card-details>
+        <sbb-title level="4" negative>Lyne-konform von der ersten Zeile.</sbb-title>
+        Der mitgelieferte Starter richtet dein Projekt so ein, dass Komponenten, Design Tokens und Themes von Anfang an richtig eingebunden sind. Dein Prototyp steht auf derselben Grundlage wie spätere Produkte und muss nicht erst umgebaut werden.
+      </sbb-flip-card-details>
+    </sbb-flip-card>
+    <sbb-flip-card class="lp-flip-card-4">
+      <sbb-flip-card-summary image-alignment="below">
+        <sbb-title level="4">Deine Figma-Designs, umgesetzt.</sbb-title>
+      </sbb-flip-card-summary>
+      <sbb-flip-card-details>
+        <sbb-title level="4" negative>Deine Figma-Designs, umgesetzt.</sbb-title>
+        Der Assistent liest deine Figma-Designs und setzt sie mit Lyne-Komponenten um. Du richtest die Verbindung einmal ein, das Onboarding führt dich Schritt für Schritt. {# BESTÄTIGEN: Umfang der Figma-Anbindung #}
+      </sbb-flip-card-details>
+    </sbb-flip-card>
+  </div>
+</sbb-container>
+
+<sbb-container background-expanded color="white" class="lp-container">
+  <sbb-title level="2" visual-level="2">Design Studio &amp; Skills.</sbb-title>
+  <p class="sbb-text-m">Du planst ein Design Studio? Hier spielen die Skills ihre Stärken aus. Die Skizzenrunde bleibt, wie sie ist: schnell und grob. Danach machst du aus den Favoriten klickbare Prototypen, die du mit Nutzenden testen kannst.</p>
+
+  <div class="roadmap-teaser">
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-icon name="pen-medium"></sbb-icon>
+      <sbb-title level="4" visual-level="4">1. Skizzieren.</sbb-title>
+      <p class="subtext">Wie gewohnt: Das Team skizziert viele Ideen schnell und grob. Die Skills kommen hier bewusst noch nicht zum Einsatz, damit die Ideenvielfalt nicht leidet.</p>
+    </sbb-card>
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-icon name="layers-medium"></sbb-icon>
+      <sbb-title level="4" visual-level="4">2. Prototypen bauen.</sbb-title>
+      <p class="subtext">Aus den zwei bis drei Favoriten entstehen mit den Skills klickbare Prototypen aus echten Lyne-Komponenten. Sie fühlen sich echt an und lassen sich direkt testen. {# BESTÄTIGEN: Aufwand und Umfang pro Prototyp #}</p>
+    </sbb-card>
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-icon name="hand-cursor-medium"></sbb-icon>
+      <sbb-title level="4" visual-level="4">3. Testen.</sbb-title>
+      <p class="subtext">Die Prototypen gehen direkt in den Test mit Nutzenden. Und weil die Prototypen aus Lyne bestehen, siehst du gleich, was sich umsetzen lässt.</p>
+    </sbb-card>
+  </div>
+</sbb-container>
+
+<sbb-container background-expanded color="milk" class="lp-container">
+  <div class="sbb-grid-only">
+    <div class="inset">
+      <sbb-title level="2" visual-level="2">In 3 Schritten startklar.</sbb-title>
+      <ol class="sbb-step-list sbb-text-m" style="--sbb-background-color-3: var(--sbb-background-color-1);">
+        <li>
+          <strong>Vorbereiten.</strong>
+          <p class="subtext">Du brauchst das SBB-Netz oder VPN, einen Rechner mit macOS oder Windows mit WSL und <sbb-link href="https://code.visualstudio.com/download" target="_blank">VS Code</sbb-link> mit der Erweiterung <sbb-link href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot" target="_blank">GitHub Copilot</sbb-link> (auf dem Mac alternativ die <span style="white-space: nowrap;"><sbb-link href="https://docs.github.com/en/copilot/get-started/quickstart-copilot-app" target="_blank">Copilot App</sbb-link>)</span> und <span style="white-space: nowrap;"><sbb-link href="https://nodejs.org/en/download" target="_blank">Node.js</sbb-link>.</span> Mehr nicht.</p>
+        </li>
+        <li>
+          <strong>Installieren.</strong>
+          <p class="subtext">Die Anleitung begleitet dich Schritt für Schritt von null bis zum ersten Auftrag. Rechne mit etwa 30 Minuten, die meisten Schritte machst du nur einmal pro Rechner.</p>
+        </li>
+        <li>
+          <strong>Loslegen.</strong>
+          <p class="subtext">Schreib im Chat «Richte das UX-Toolkit ein.» und los geht's: Der Assistent zeigt dir, was die Skills können, und fragt nach Figma und einem Ordner für deine Prototypen.</p>
+        </li>
+      </ol>
+      <p>
+        <sbb-button-link href="https://code.sbb.ch/projects/KD_UX/repos/ux-toolkit/browse/docs/installation.de.md" target="_blank" size="m">Anleitung (nur SBB-Netz/VPN)</sbb-button-link>
+      </p>
+    </div>
+  </div>
+</sbb-container>
+
+<sbb-container background-expanded color="white" class="lp-container">
+  <div class="sbb-grid-only">
+    <div class="inset">
+      <sbb-title level="2" visual-level="2">Häufige Fragen.</sbb-title>
+      <sbb-accordion>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Was sind Skills?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Skills sind Fähigkeiten, die GitHub Copilot um Lyne, die SBB-Icons und Figma erweitern. Das Toolkit bündelt sie: Du installierst es einmal und profitierst von allen Verbesserungen und neuen Skills.</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Brauche ich Programmierkenntnisse?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Nein, du brauchst überhaupt keine Programmierkenntnisse. Der Assistent baut die Prototypen für dich, und die Anleitung erklärt jeden Installationsschritt von null.</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Brauche ich Figma?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Nein, die Figma-Verbindung ist optional. Arbeitest du nicht mit Figma, überspringst du diesen Schritt.</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Läuft das Toolkit auch auf Windows?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Ja, auf Windows läuft es über WSL (Windows-Subsystem für Linux), nicht in PowerShell. Die Anleitung enthält die passenden Schritte.</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Was ist der Arbeitsordner?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Der Arbeitsordner ist die Werkzeugkiste des Toolkits. Er enthält die Skills und legt fest, welche Version installiert ist. Der Assistent kennt die Skills nur, wenn du genau diesen Ordner in VS Code oder der Copilot App öffnest. Deine Prototypen liegen nicht darin, sondern an einem Ort, den du im Onboarding wählst. So kannst du das Toolkit jederzeit aktualisieren, ohne dass bestehende Prototypen betroffen sind.</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Sind die Prototypen produktiv einsetzbar?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Prototypen sind gemacht, um Ideen zu zeigen und abzustimmen, nicht für den Produktivbetrieb. {# BESTÄTIGEN #}</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Wie bleibe ich auf dem neuesten Stand?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Kleine Updates schlägt dir der Assistent zu Beginn einer Sitzung selbst vor. Bei grossen Updates informieren wir euch. Prototypen bleiben dabei unverändert.</sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+        <sbb-expansion-panel color="white">
+          <sbb-expansion-panel-header>Wo gebe ich Feedback?</sbb-expansion-panel-header>
+          <sbb-expansion-panel-content>Der Assistent fragt im Onboarding danach. Du kannst dich jederzeit auch <span style="white-space: nowrap;"><sbb-link href="mailto:ux@sbb.ch?subject=Skills%3A%20Feedback%20aus%20FAQ">direkt bei uns melden</sbb-link>.</span></sbb-expansion-panel-content>
+        </sbb-expansion-panel>
+      </sbb-accordion>
+    </div>
+  </div>
+</sbb-container>
+
+<sbb-container background-expanded color="milk" class="lp-container">
+  <sbb-title level="2" visual-level="2">Gemeinsam weiter.</sbb-title>
+
+  <div class="roadmap-teaser">
+    <sbb-card color="white" class="sbb-card-spacing-l">
+      <sbb-icon name="flask-test-tube-medium"></sbb-icon>
+      <sbb-title level="2" visual-level="4">Early Access.</sbb-title>
+      <p class="subtext">Du bist von Anfang an dabei: Die Skills sind neu und wachsen mit deinem <span style="white-space: nowrap;"><sbb-link href="mailto:ux@sbb.ch?subject=Skills%3A%20Feedback%20aus%20Early%20Access">Feedback</sbb-link>.</span> Wir sagen offen, was schon gut funktioniert und was noch nicht.</p>
+    </sbb-card>
+    <sbb-card color="white" class="sbb-card-spacing-l">
+      <sbb-icon name="display-binary-code-medium"></sbb-icon>
+      <sbb-title level="2" visual-level="4">Plattformen.</sbb-title>
+      <p class="subtext">Das Toolkit läuft auf macOS und Windows (über WSL) und arbeitet mit VS Code und GitHub Copilot. Auf dem Mac geht es alternativ mit der Copilot App.</p>
+    </sbb-card>
+    <sbb-card color="white" class="sbb-card-spacing-l">
+      <sbb-icon name="street-location-pin-medium"></sbb-icon>
+      <sbb-title level="2" visual-level="4">Laufende Updates.</sbb-title>
+      <p class="subtext">Jedes Update macht die Skills besser und bringt neue dazu. Bleib auf dem neuesten Stand und profitiere von dem, was wir laufend dazulernen.</p>
+    </sbb-card>
+  </div>
+</sbb-container>
+
+<sbb-container background-expanded color="white" class="lp-container">
+  <sbb-title level="2" visual-level="2">Sag uns, was du brauchst.</sbb-title>
+  <div class="consulting consulting-three">
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-card-link href="mailto:ux@sbb.ch?subject=Skills%3A%20Feedback%20aus%20Kontaktkarte">Feedback geben</sbb-card-link>
+      <div class="content-spanner">
+        <div class="card-content">
+          <sbb-icon name="speech-bubble-medium"></sbb-icon>
+          <sbb-title level="3" visual-level="4">Feedback und Wünsche.</sbb-title>
+          <p class="subtext">Was hat funktioniert, was nicht, was fehlt? Dein Feedback entscheidet mit, was wir als Nächstes verbessern.</p>
+        </div>
+        <sbb-secondary-button-static size="m">Feedback geben</sbb-secondary-button-static>
+      </div>
+    </sbb-card>
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-card-link href="mailto:ux@sbb.ch?subject=Skills%3A%20Beratung%20aus%20Kontaktkarte">Uns kontaktieren</sbb-card-link>
+      <div class="content-spanner">
+        <div class="card-content">
+          <sbb-icon name="user-headset-medium"></sbb-icon>
+          <sbb-title level="3" visual-level="4">Beratung und Support.</sbb-title>
+          <p class="subtext">Fragen zu den Skills oder zur Installation? Wir helfen dir gerne.</p>
+        </div>
+        <sbb-secondary-button-static size="m">Uns kontaktieren</sbb-secondary-button-static>
+      </div>
+    </sbb-card>
+    <sbb-card color="milk" class="sbb-card-spacing-l">
+      <sbb-card-link href="mailto:ux@sbb.ch?subject=Skills%3A%20Demo%20buchen">Skill-Demo buchen</sbb-card-link>
+      <div class="content-spanner">
+        <div class="card-content">
+          <sbb-icon name="user-group-round-table-medium"></sbb-icon>
+          <sbb-title level="3" visual-level="4">Skills live erleben.</sbb-title>
+          <p class="subtext">Unsicher, ob sich die Installation für dich lohnt? Komm in unserer Werkstatt vorbei und sieh die Skills in Aktion. {# BESTÄTIGEN: Werkstatt-Termine/Ort und Buchungskanal #}</p>
+        </div>
+        <sbb-secondary-button-static size="m">Skill-Demo buchen</sbb-secondary-button-static>
+      </div>
+    </sbb-card>
+  </div>
+</sbb-container>

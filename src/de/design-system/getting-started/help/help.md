@@ -5,7 +5,7 @@ key: help_de
 title: Hilfe
 llmDescription: Zeigt, wo Fragen zum SBB Design System zuerst geklärt werden können und an wen technische oder allgemeine Fragen gerichtet werden.
 parent: getting-started_de
-order: 5
+order: 6
 ---
 
 Wir helfen gerne, bevor du uns aber kontaktierst prüfe bitte kurz Frage ob die Frage bereits beantwortet ist: {.lead}

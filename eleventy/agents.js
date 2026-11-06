@@ -58,6 +58,8 @@ function lyneComponentIndex(lyneData) {
             return {
                 name: group.folder,
                 package: group.package,
+                // Modul für den Import, der die Elemente dieser Komponente registriert (Ordnername im Paket); null bei reinen CSS-Komponenten
+                import: group.elements.length ? `${group.package}/${group.folder}.js` : null,
                 // single | composite | grouped | collection, Rollen pro Element: main, variant, part, group
                 structure: group.structure,
                 elements: group.elements,

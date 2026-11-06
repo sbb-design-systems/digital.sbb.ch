@@ -5,7 +5,7 @@ key: help_en
 title: Help
 llmDescription: Shows where to check for existing answers and where to direct technical or general questions about the SBB design system.
 parent: getting-started_en
-order: 5
+order: 6
 ---
 
 We are happy to help, but before you contact us please check if the question has already been answered: {.lead}

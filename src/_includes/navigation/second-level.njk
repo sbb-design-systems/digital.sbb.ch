@@ -6,7 +6,7 @@
     <sbb-navigation-list  {% if level2.data.hideInNavigation != true %}label="{{level2.data.title}}"{% endif %} aria-label="{{level2.data.title}}">
         {% set level3Pages = collections.level3 | include("data.parent", level2.data.key) | sortByOrder  %}
         {%- for level3 in level3Pages %}
-            <sbb-navigation-link href="{% if level3.data.external == true %}{{ level3.data.redirect}}{% else%}{{ level3.url}}{% endif %}" {% if level3.data.external == true %}target="_blank"{% endif %} {% if level3.url == page.url %}class="sbb-active" aria-current="page"{% endif %}>{{ level3.data.title }}</sbb-navigation-link>
+            <sbb-navigation-link href="{% if level3.data.external == true %}{{ level3.data.redirect}}{% else%}{{ level3.url}}{% endif %}" {% if level3.data.external == true %}target="_blank"{% endif %} {% if level3.url == page.url %}class="sbb-active" aria-current="page"{% endif %}>{% if level3.data.navChip %}<span>{{ level3.data.title }} <sbb-chip-label color="milk" size="xxs" style="display: inline-flex; vertical-align: baseline; margin-inline-start: var(--sbb-spacing-fixed-3x); font-weight: normal;">{{ level3.data.navChip }}</sbb-chip-label></span>{% else %}{{ level3.data.title }}{% endif %}</sbb-navigation-link>
         {%- endfor %}
     </sbb-navigation-list>
     {%- endfor %}
