@@ -28,6 +28,14 @@
                 {% if layout == "overview.njk" and system == "mobile" and entry.config.image.length %}
                     <img class="overview-image" src="{{ entry.config.image}}.webp" alt="Darstellung des Chips" title="Chip" {{ (entry.config.image + ".webp") | imageAttrs | safe }} loading="lazy" decoding="async" sizes="100vw" srcset="{{ entry.config.image}}.webp 1x, {{ entry.config.image}}@2x.webp 2x, {{ entry.config.image}}@3x.webp 3x">
                 {% endif %}
+                {# Lyne: Vorschaubilder aus dem Repo lyne-previews (src/assets/images/lyne/overview), hell/dunkel je nach Farbschema #}
+                {% if layout == "overview.njk" and system == "lyne" and entry.config.system == "lyne" and entry.config.list == "components" and (("lyne/overview/" + entry.config.tag + "-light.webp") | lynePreviewExists) %}
+                    {% set previewBase = "/assets/images/lyne/overview/" + entry.config.tag %}
+                    <picture>
+                        <source media="(prefers-color-scheme: dark)" srcset="{{ previewBase }}-dark.webp 1x, {{ previewBase }}-dark@2x.webp 2x">
+                        <img class="overview-image" src="{{ previewBase }}-light.webp" srcset="{{ previewBase }}-light.webp 1x, {{ previewBase }}-light@2x.webp 2x" width="640" height="360" alt="" loading="lazy" decoding="async">
+                    </picture>
+                {% endif %}
             </div>
         </sbb-card>
     </li>

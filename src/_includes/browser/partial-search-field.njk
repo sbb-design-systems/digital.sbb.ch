@@ -1,4 +1,4 @@
-{% if layout == "overview.njk" and system == "mobile" %}<div class="search-header">{% endif %}
+{% if layout == "overview.njk" and (system == "mobile" or system == "lyne") %}<div class="search-header">{% endif %}
 <sbb-form-field error-space="none" size="m" width="default" borderless floating-label>
     <label>{{ translations[page.lang].searchinput }}</label>
     <input sbb-focus-initial id="search-input" class="fuzzy-search" value="" placeholder="{{ translations[page.lang].searchinput }}">
@@ -6,7 +6,7 @@
     <sbb-icon slot="prefix" name="magnifying-glass-small"></sbb-icon>
 </sbb-form-field>
 
-{% if layout == "overview.njk" and system == "mobile" %}
+{% if layout == "overview.njk" and (system == "mobile" or system == "lyne") %}
   <sbb-toggle size="m" value="list" aria-label="Zwischen Listen- und Kachel-Ansicht wechseln" id="viewToggle">
     <sbb-toggle-option value="list" icon-name="list-small"></sbb-toggle-option>
     <sbb-toggle-option value="grid" icon-name="four-squares-small"></sbb-toggle-option>
@@ -14,6 +14,6 @@
 {% endif %}
 
 
-{% if layout == "overview.njk" and system == "mobile" %}</div>{% endif %}
+{% if layout == "overview.njk" and (system == "mobile" or system == "lyne") %}</div>{% endif %}
 
 

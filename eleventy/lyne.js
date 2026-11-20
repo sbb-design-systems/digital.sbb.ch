@@ -278,6 +278,8 @@ function lyne(eleventyConfig) {
     eleventyConfig.addFilter("componentRelations", componentRelations);
     eleventyConfig.addFilter("figmaUrl", figmaUrl);
     eleventyConfig.addFilter("lyneCoverage", lyneCoverage);
+    // Vorschaubild (aus lyne-previews) vorhanden? Pfad relativ zu src/assets/images
+    eleventyConfig.addFilter("lynePreviewExists", (file) => fs.existsSync(path.join(__dirname, "../src/assets/images", file)));
     eleventyConfig.addFilter("sortElements", sortElements);
     eleventyConfig.addFilter("readmeSection", readmeSection);
     eleventyConfig.addFilter("storybookDocsUrl", storybookDocsUrl);
