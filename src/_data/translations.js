@@ -58,8 +58,9 @@ module.exports = {
     dataprivacy: "Data privacy",
     notfoundtitle: "No search results were found.",
     notfoundtext: "Try using different or fewer search terms.",
-    tonavigation: "Got to navigation",
-    tocontent: "Go to navigation",
+    tonavigation: "Skip to navigation",
+    skiplinktitle: "Navigating digital.sbb.ch",
+    tocontent: "Skip to content",
     tocontact: "Contact",
     templatebrowser: {
       "theme": "Theme",
@@ -348,6 +349,7 @@ module.exports = {
     notfoundtitle: "Es wurden keine Suchresultate gefunden.",
     notfoundtext: "Probiere es mit anderen oder weniger Suchbegriffen.",
     tonavigation: "Zur Navigation",
+    skiplinktitle: "Navigieren auf digital.sbb.ch",
     tocontent: "Zum Inhalt",
     tocontact: "Kontakt",
     templatebrowser: {
@@ -637,6 +639,7 @@ module.exports = {
     notfoundtitle: "Aucun résultat de recherche trouvé.",
     notfoundtext: "Essaie d'utiliser des termes de recherche différents ou moins nombreux.",
     tonavigation: "Vers la navigation",
+    skiplinktitle: "Naviguer sur digital.sbb.ch",
     tocontent: "Vers le contenu",
     tocontact: "Contact",
     templatebrowser: {
@@ -714,6 +717,7 @@ module.exports = {
     notfoundtitle: "Non sono stati trovati risultati di ricerca.",
     notfoundtext: "Provate a utilizzare termini di ricerca diversi o meno numerosi.",
     tonavigation: "Vai alla navigazione",
+    skiplinktitle: "Navigare su digital.sbb.ch",
     tocontent: "Vai al contenuto",
     tocontact: "Contatti",
     templatebrowser: {
