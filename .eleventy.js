@@ -42,6 +42,10 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.setQuietMode(true);
 
+    // Restore v3 permalink behavior: files matching their parent folder name collapse to parent directory
+    // e.g. roadmap/roadmap.md outputs to /roadmap/ instead of /roadmap/roadmap/
+    eleventyConfig.setPermalinkCollapseMatchingFolder(true);
+
     // Build-Zeitpunkt für llms.txt: Agents erkennen daran, ob ihr Abruf aus einem veralteten Cache stammt
     eleventyConfig.addGlobalData("buildTime", () => new Date().toISOString());
     // Nur auf dem lokalen Dev-Server (eleventy --serve, npm start): ausgeblendete Komponenten
