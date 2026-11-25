@@ -7,17 +7,17 @@
     {# Name des Design Systems für Header-Buttons und Sidebar-Titel #}
     {% if system == "patternlibrary" %}{% set dsName = "Patterns" %}{% else %}{% set dsName = system | capitalizeWords %}{% endif %}
     {% include "../_includes/skiplinks.njk" %}
-    {% include "../_includes/header/header.njk" %}
+    {% include "../_includes/header/index.njk" %}
     {% if layout == "component.njk" or layout == "template.njk" %}
     <sbb-sidebar-container>
       <sbb-sidebar role="navigation" position="start" color="milk" mode="over" focus-on-open id="sidebar">
         <sbb-sidebar-title>{{ translations[page.lang].findcomponent | replace("{name}", dsName) }}</sbb-sidebar-title>
         <sbb-sidebar-close-button></sbb-sidebar-close-button>
-        {% include "../_includes/browser/browser.njk" %}
+        {% include "../_includes/browser/index.njk" %}
       </sbb-sidebar>
       <sbb-sidebar-content class="sbb-scrollbar-thick">
     {% endif %}
-        {% include "../_includes/navigation/navigation.njk" %}
+        {% include "../_includes/navigation/index.njk" %}
         {% if layout == "landingpage.njk" or layout == "template.njk" %}
           {{ content | safe }}
         {% else %}

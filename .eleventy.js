@@ -31,7 +31,7 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.amendLibrary("njk", (env) => {
         macroNames.forEach((macroName) => {
-            const macroTemplate = `{% from "macros/macros.njk" import ${macroName} %}{{ ${macroName}(params) | safe }}`;
+            const macroTemplate = `{% from "macros/index.njk" import ${macroName} %}{{ ${macroName}(params) | safe }}`;
             env.addGlobal(macroName, (params = {}) => {
                 return env
                     .renderString(macroTemplate, { params })
@@ -41,10 +41,6 @@ module.exports = async function(eleventyConfig) {
     });
 
     eleventyConfig.setQuietMode(true);
-
-    // Restore v3 permalink behavior: files matching their parent folder name collapse to parent directory
-    // e.g. roadmap/roadmap.md outputs to /roadmap/ instead of /roadmap/roadmap/
-    eleventyConfig.setPermalinkCollapseMatchingFolder(true);
 
     // Build-Zeitpunkt für llms.txt: Agents erkennen daran, ob ihr Abruf aus einem veralteten Cache stammt
     eleventyConfig.addGlobalData("buildTime", () => new Date().toISOString());
@@ -83,7 +79,7 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/googlec598c9eee38cf153.html': '/googlec598c9eee38cf153.html' });
 
     eleventyConfig.addPreprocessor("macro-inject", ".njk,.md", (data, content) => {
-        return `{% from "src/_includes/macros/macros.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}\n` + content;
+        return `{% from "src/_includes/macros/index.njk" import imageWithMode, imageOnGreyBackground, principleImage, svgImage, webpImage, buttonGroup, specificationLinks, imageSpec, lynePlayground, lyneExamples, lyneComponentLinks %}\n` + content;
     });
     eleventyConfig.addWatchTarget("src/assets/css/**/*.scss");
     eleventyConfig.addWatchTarget("dist/assets/css/**/*.css");
